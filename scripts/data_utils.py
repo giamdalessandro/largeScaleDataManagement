@@ -5,17 +5,17 @@ FILE_SCORES = "dataset/WhoScoredFinal1.csv"
 FILE_FBMAN  = "dataset/datafm20.csv"
 
 
-def dataCutSeasonName(season: str, in_file: str=FILE_SCORES, new_file: str="whoScored.csv"):
+def dataCutSeasonName(season: str, in_file: str=FILE_SCORES, new_file: str="exportSA_PL.csv"):
 	new_file = new_file[:-4] + season[-4:] + ".csv"
 
 	# read file data
 	df = pd.read_csv(in_file, delimiter=',')
 
 	# query the data by season
-	cut_df = df.query(f"seasonName == '{season}'")
+	#cut_df = df.query(f"seasonName == '{season}'")
 
 	# query the data by season and tournament
-	#cut_df = df.query(f"seasonName == '{season}' & tournamentName == 'Premier League' & teamRegionName == 'England'")
+	cut_df = df.query(f"seasonName == '{season}' & (seasonId == 7811 | tournamentName == 'Serie A')")
 
     # write new .csv after cut, sorted by team
 	cut_df = cut_df.sort_values(by=["teamName"])
