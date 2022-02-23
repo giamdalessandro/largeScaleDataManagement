@@ -24,5 +24,6 @@ def dataCutSeasonName(season: str, in_file: str=FILE_SCORES, new_file: str="whoS
 	return
 
 
+
 if __name__ == "__main__":
 	dataCutSeasonName(season="2019/2020")
