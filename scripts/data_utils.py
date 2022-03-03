@@ -1,29 +1,29 @@
 import pandas as pd
 import csv
 
-FILE_SCORES = "dataset/WhoScoredFinal1.csv"
-FILE_FBMAN  = "dataset/datafm20.csv"
+DATA_DIR   = "dataset/fbref/"
+FBREF_DEF  = "dataset/fbref/defense.csv"
+FBREF_GCA  = "dataset/fbref/gca.csv"
+FBREF_INFO = "dataset/fbref/info.csv"
 
 
-def dataCutSeasonName(season: str, in_file: str=FILE_SCORES, new_file: str="exportSA_PL.csv"):
-	new_file = new_file[:-4] + season[-4:] + ".csv"
+def dataCutSeason(season: str, in_file: str=DATA_DIR, out_file: str="export_std_19-20.csv"):
+	in_file  = in_file + "standard.csv" 
+	out_file = DATA_DIR + out_file
 
 	# read file data
 	df = pd.read_csv(in_file, delimiter=',')
 
-	# query the data by season
-	#cut_df = df.query(f"seasonName == '{season}'")
-
 	# query the data by season and tournament
-	cut_df = df.query(f"seasonName == '{season}' & (seasonId == 7811 | tournamentName == 'Serie A')")
+	cut_df = df.query(f"season == '{season}'")
 
     # write new .csv after cut, sorted by team
-	cut_df = cut_df.sort_values(by=["teamName"])
-	cut_df.to_csv("dataset/" + new_file)
+	cut_df = cut_df.sort_values(by=["id"])
+	cut_df.to_csv(out_file)
 
 	return
 
 
 
 if __name__ == "__main__":
-	dataCutSeasonName(season="2019/2020")
+	dataCutSeason(season="2019-2020")
