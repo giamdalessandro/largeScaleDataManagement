@@ -6,6 +6,16 @@ Project for Large Scale Data Management 20/21, Sapienza University of Rome.
 ## Dataset
 - [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle;
 
+
+
+Leagues:
+
+- (20) Bundesliga
+- (13)  Ligue 1
+- (12)  La Liga 
+- (9) Premier League
+- (11) Serie A
+
 |               | #rows | #rows(19-20) | #cols |
 | ------------- | ----- | ------------ | ----- |
 | info          | 2933  | N/A          | 13    |
@@ -19,5 +29,5 @@ Project for Large Scale Data Management 20/21, Sapienza University of Rome.
 | possession    | 21365 | 2458         | 32    |
 | shooting      | 19955 | 2328         | 25    |
 | standard      | 23021 | 2670         | 32    |
-| misc          | 21898 | 2551         | 24    |
+| misc          | 21898 | 2551         | 24    | 
 
