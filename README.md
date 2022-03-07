@@ -2,7 +2,6 @@
 
 Project for Large Scale Data Management 20/21, Sapienza University of Rome. 
 
-
 ## Dataset
 - [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle;
 
@@ -31,3 +30,24 @@ Leagues:
 | standard      | 23021 | 2670         | 32    |
 | misc          | 21898 | 2551         | 24    | 
 
+
+
+## Information Integration
+
+Integrate information from one or more sources and obtain a reconciled view of the data. Three main phases:
+
+- **Phase 1: Data Gathering**
+  - Select domain of interest;
+  - Define task to perform in the domain;
+- **Phase 2: Modeling**, define the data integration system describing the domain of interest:
+  - source schema;
+  - target schema;
+  - mapping layer; 
+  - queries on the target schema;
+- **Phase 3: Implementation**, convert the logical model into software:
+
+
+
+
+
+## Big Data Management
