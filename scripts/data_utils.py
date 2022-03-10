@@ -30,12 +30,12 @@ def fbrefGetSeason(season: str, in_dir: str=FBREF_DIR, out_file: str="export.csv
 			
 	return
 
-def fmGetSeason(season: str, in_file: str=FM_DATA, out_file: str="export.csv"):
+def fmGetDivision(division: str, in_file: str=FM_DATA, out_file: str="fm20_export.csv"):
 	# read file data
 	df = pd.read_csv(in_file, delimiter=',')
 
 	# query the data by season 
-	cut_df = df.query(f"season == '{season}'")
+	cut_df = df.query(f"Division == '{division}'")
 
 	# write new .csv after cut, sorted by id
 	cut_df = cut_df.sort_values(by=["id"])

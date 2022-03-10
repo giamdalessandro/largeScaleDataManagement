@@ -2,6 +2,8 @@
 
 Project for Large Scale Data Management 20/21, Sapienza University of Rome. 
 
+
+
 ## Dataset
 - [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle;
 
@@ -10,8 +12,8 @@ Project for Large Scale Data Management 20/21, Sapienza University of Rome.
 Leagues:
 
 - (20) Bundesliga
-- (13)  Ligue 1
-- (12)  La Liga 
+- (13) Ligue 1
+- (12) La Liga 
 - (9) Premier League
 - (11) Serie A
 
@@ -47,6 +49,16 @@ Integrate information from one or more sources and obtain a reconciled view of t
 - **Phase 3: Implementation**, convert the logical model into software:
 
 
+
+Essentially all examples inf-int projects follows the same work-flow:
+
+- source DBs (insight on dataset and heterogeneity)
+- source schemas
+- global schema
+- Global Schema Axioms (keys, foreign keys)
+- GAV mapping (declarative) 
+- Pentaho implementation
+- Queries and results (5/6)
 
 
 
