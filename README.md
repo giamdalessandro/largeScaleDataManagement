@@ -5,19 +5,11 @@ Project for Large Scale Data Management 20/21, Sapienza University of Rome.
 
 
 ## Dataset
-- [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle;
+- [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle; data on 5 division:
+  - Bundesliga (20), Ligue 1 (13), La Liga (12), Premier League (9), Serie A (11)
+- [football manager 2020](https://www.kaggle.com/ktyptorio/football-manager-2020) data on Kaggle
 
-
-
-Leagues:
-
-- (20) Bundesliga
-- (13) Ligue 1
-- (12) La Liga 
-- (9) Premier League
-- (11) Serie A
-
-|               | #rows | #rows(19-20) | #cols |
+| *fbref*       | #rows | #rows(19-20) | #cols |
 | ------------- | ----- | ------------ | ----- |
 | info          | 2933  | N/A          | 13    |
 | defense       | 21365 | 2458         | 31    |
@@ -30,7 +22,13 @@ Leagues:
 | possession    | 21365 | 2458         | 32    |
 | shooting      | 19955 | 2328         | 25    |
 | standard      | 23021 | 2670         | 32    |
-| misc          | 21898 | 2551         | 24    | 
+| misc          | 21898 | 2551         | 24    |
+
+| *fm 2020* | #rows  | #rows (main 5 divisions) | #cols |
+| --------- | ------ | ------------------------ | ----- |
+| datafm20  | 144752 | 5117                     | 65    |
+
+
 
 
 
