@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 FBREF_DIR = "dataset/fbref/"
-FM_DIR  = "dataset/fbmanager/"
-FM_DATA = "dataset/fbmanager/datafm20.csv"
+FM_DIR    = "dataset/fbmanager/"
+FM_DATA   = "dataset/fbmanager/datafm20.csv"
 
 DIVISIONS = [
 	"Bundesliga",
@@ -44,10 +44,10 @@ def fmGetDivision(division: list=DIVISIONS, in_file: str=FM_DATA, out_file: str=
 	# read file data
 	df = pd.read_csv(in_file, delimiter=',')
 
-	# query the data by season 
+	# filter the data by division 
 	cut_df = df.query(f"Division == '{division[0]}' | Division == '{division[1]}' | Division == '{division[2]}' | Division == '{division[3]}' | Division == '{division[4]}'")
 
-	# write new .csv after cut, sorted by id
+	# write new .csv after cut, sorted by division
 	cut_df = cut_df.sort_values(by=["Division"])
 	cut_df.to_csv(out_file)
 	return

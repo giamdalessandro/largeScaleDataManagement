@@ -1,5 +1,7 @@
 # Projects notes
 
+Check unicode errors in players name (datafm20).
+
 ## Information Integration
 
 Integrate information from one or more sources and obtain a reconciled view of the data. Three main phases:
