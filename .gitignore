@@ -1,2 +1,7 @@
+## IDE and plugins
+.vscode/
+.metals/
+
+## Project
 dataset/
 docs/examples/
