@@ -8,7 +8,7 @@ FM_DATA   = "dataset/fbmanager/datafm20.csv"
 DIVISIONS = [
 	"Bundesliga",
 	"Ligue 1 Conforama",
-	"English Premier Division",
+	#"English Premier Division",
 	"Spanish First Division",
 	"Italian Serie A"]
 
@@ -38,14 +38,14 @@ def fbrefGetSeason(season: str, in_dir: str=FBREF_DIR, out_file: str="export.csv
 			
 	return
 
-def fmGetDivision(division: list=DIVISIONS, in_file: str=FM_DATA, out_file: str="fm20_export.csv"):
+def fmGetDivision(division: list=DIVISIONS, in_file: str=FM_DATA, out_file: str="fm20_4leagues_export.csv"):
 	out_file = FM_DIR + out_file
 
 	# read file data
 	df = pd.read_csv(in_file, delimiter=',')
 
 	# filter the data by division 
-	cut_df = df.query(f"Division == '{division[0]}' | Division == '{division[1]}' | Division == '{division[2]}' | Division == '{division[3]}' | Division == '{division[4]}'")
+	cut_df = df.query(f"Division == '{division[0]}' | Division == '{division[1]}' | Division == '{division[2]}' | Division == '{division[3]}'")
 
 	# write new .csv after cut, sorted by division
 	cut_df = cut_df.sort_values(by=["Division"])
