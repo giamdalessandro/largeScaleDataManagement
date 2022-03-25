@@ -6,3 +6,9 @@
 scalaspark/
 dataset/
 docs/examples/
+
+## Hello World Example
+SimpleProject/.bloop/
+SimpleProject/project/
+SimpleProject/target/
+
