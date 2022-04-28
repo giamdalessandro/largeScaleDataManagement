@@ -5,7 +5,6 @@
 ## Source Schemas
 
 ### Football manager data
-
 The dataset contains a collection of players (no newgen) statistics from the Football Manager game, including many attributes such as age, position, club, nationality, value, wage, etc.
 
 - *format*: CSV file;
@@ -14,7 +13,6 @@ The dataset contains a collection of players (no newgen) statistics from the Foo
 
 
 ### fbref stats website data
-
 The dataset contains player performance data for ~3000 players currently playing in the Big 5 European soccer leagues. 
 
 - **Info**(id,created,name,position,foot,height,weight,dob,cityOB,countryOB)
@@ -31,7 +29,6 @@ The dataset contains player performance data for ~3000 players currently playing
 
 
 ## Complete Source Schema
-
 Source schema considering all attribtes of the data. We keep everything at the beginning then we work only  on some *divisions* to reduce the amount of data (reduce columns here??).
 
 - $FM2020_{/52}$
@@ -49,7 +46,6 @@ Source schema considering all attribtes of the data. We keep everything at the b
 
 
 ## Target Schema
-
 Integration on columns, redistributing FM2020 stats to the relative fbref table.
 
 - $League_{/2}$ (all leagues in dataset)

@@ -2,7 +2,7 @@
 import org.apache.spark.sql.SparkSession
 
 object SimpleApp {
-  def main(args: Array[String]) {
+  def main(args: Array[String]): Unit = {
     val logFile = "README.md" // Should be some file on your system
     val spark = SparkSession
                   .builder
