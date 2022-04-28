@@ -1,28 +1,6 @@
 # GAV Mapping
 
-## Axioms (on Global Schema)
-### Keys
-
-### Foreign Keys
-- $\forall x.$ League($x$) $\rightarrow \exists y.$ hasCountry($x,y$)
-- $\forall x.$ Club($x$) $\rightarrow \exists y.$ BelongsTo($x,y$)
-	- ~~$\forall x.\exists y.$BelongsTo($x,y$) $\rightarrow$ Club($x$) $\wedge$ League($y$)~~
-- $\forall x.$ Player($x$) $\rightarrow \exists y.$ PlaysIn($x,y$)
-
-If we assume that every palyer as **all** kind of available stats:
-- $\forall x $.Player($x$) $\rightarrow \exists <...>,.$ hasInfo($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasActionStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasDefenseStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasKeepStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasPassingStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasPlayngTimeStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasPossesionStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasShootingStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasStandardStats($x,<...>$)
-- $\forall x$.Player($x$) $\rightarrow \exists <...>,.$ hasMiscStats($x,<...>$)
-
-
-### Global Schema
+## Global Schema
 - $League_{/2}$ (name,country)
 	- $hasCountry_{/1}$
 		- **League**(name)
@@ -35,7 +13,7 @@ If we assume that every palyer as **all** kind of available stats:
 		- **hasInfo**(pid,...)
 - $PlaysIn_{/2}$  (pid,...)
 
-#### GSchema Extension
+### GSchema Extension
 - $hasActionStas_{/6}$ (pid,...)
 - $hasDefenseStats_{/12}$ (pid,...)
 - $hasKeeperStas_{/13}$ (pid,...)
@@ -47,17 +25,44 @@ If we assume that every palyer as **all** kind of available stats:
 - $hasMiscStats_{/18}$ (pid,...)
 
 
+
+## Axioms (on Global Schema)
+### Keys
+- league name is key for **League**(name)
+- club name is key for **Club**(name)
+- palyer id is key fot **Player**(id)
+
+Don't know if the following axioms are really needed:
+- $\forall l.\forall nt.\forall nt'.$ hasCountry($l,nt$) $\wedge$ hasCountry($l,nt'$) $\rightarrow$ ($nt=nt'$) 
+	- a league belongs only to one country
+- $\forall c.\forall l.\forall l'.$ belongsTo($c,l$) $\wedge$ belongsTo($c,l'$) $\rightarrow$ ($l=l'$)
+	- a club belongs only to one League 
+- $\forall pid.\forall c.\forall c'.$ playsIn($pid,c$) $\wedge$ playsIn($pid,c'$) $\rightarrow$ ($c=c'$)
+	- a player plays only in one club (ha senso?)
+
+### Foreign Keys
+- $\forall l,nt.$ hasCountry($l,nt$) $\rightarrow$ League($l$)
+- $\forall c,l.$ belongsTo($c,l$) $\rightarrow$ Club($c$) $\wedge$ League($l$)
+- $\forall pid,c$. playsIn($pid,c$) $\rightarrow$ Player($pid$) $\wedge$ Club($c$)
+
+- $\forall pid,<...>$.hasInfo($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasDefenseStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasKeepStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasPassingStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasPlayngTimeStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasPossesionStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasShootingStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasStandardStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,<...>$.hasMiscStats($pid,<...>$) $\rightarrow$ Player($pid$)
+
+
 ## GAV Mapping
-- $\forall d. \exists <...>,.$ FM2020($d,<...>$) $\rightarrow$ League($d$)
+Sketch of GAV mapping, need to check if it is really GAV, and if all is correct.
+
+- $\forall d. \exists <...>,.$FM2020($d,<...>$) $\rightarrow$ League($d$)
 - $\forall d,nat. \exists <...>,$.FM2020($d,nat,<...>$) $\rightarrow$ hasCountry($d,nat$)
 - $\forall c. \exists <...>,$.FM2020($c,<...>$) $\rightarrow$ Club($c$) 
 - $\forall c,d. \exists <...>,$.FM2020($c,d,<...>$) $\rightarrow$ BelongsTo($c,d$)
-
-How to define *join* between **FM2020** and **Info** in GAV-mapping? Necessary?
-How to define *join* between **Info** and **has...Stats** tables in GAV-mapping? Necessary?
-
-- $\forall pid. \exists <...>,$.Info($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid. \exists <...>,$.Info($pid,<...>$) {$\wedge$ FM2020(n,...) ??} $\rightarrow$ PlaysIn($pid,c$)
 
 - $\forall pid. \exists <...>,$.GCA($pid,<...>$) $\rightarrow$ hasActionStats($pid,<...>$)
 - $\forall pid. \exists <...>,$.Defense($pid,<...>$) $\rightarrow$ hasDefenseStats($pid,<...>$)
@@ -67,4 +72,10 @@ How to define *join* between **Info** and **has...Stats** tables in GAV-mapping?
 - $\forall pid. \exists <...>,$.Possesion($pid,<...>$) $\rightarrow$ hasPossessionStats($pid,<...>$)
 - $\forall pid. \exists <...>,$.Shooting($pid,<...>$) $\rightarrow$ hasShootingStats($pid,<...>$)
 - $\forall pid. \exists <...>,$.Standard($pid,<...>$) $\rightarrow$ hasStandardStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Misc($pid,<...>$) $\rightarrow$ hasMiscStats($pid,<...>$)S
+- $\forall pid. \exists <...>,$.Misc($pid,<...>$) $\rightarrow$ hasMiscStats($pid,<...>$)
+
+#### to check
+How to define *join* between **FM2020** and **Info** in GAV-mapping? Necessary?
+How to define *join* between **Info** and **has...Stats** tables in GAV-mapping? Necessary?
+- $\forall pid. \exists <...>,$.Info($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid. \exists <...>,$.Info($pid,<...>$) {$\wedge$ FM2020(n,...) ??} $\rightarrow$ PlaysIn($pid,c$)
