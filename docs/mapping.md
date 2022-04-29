@@ -2,14 +2,14 @@
 
 ## Global Schema
 - $League_{/2}$ (name,country)
-	- $hasCountry_{/1}$
+	-  we mat separate $League_{/2}$ and $hasCountry_{/1}$
 		- **League**(name)
 		- **hasCountry**(league,country)
 - $Club_{/1}$ (name)
 - $BelongsTo_{/2}$ (club,league)
 - $Player_{/11?}$ (pid,...)
-	- $hasInfo_{/10}$ 
-		- **Player**(id)
+	- we mat separate player $(Player_{/2})$ and info $(hasInfo_{/10})$ 
+		- **Player**(id,name)
 		- **hasInfo**(pid,...)
 - $PlaysIn_{/2}$  (pid,...)
 
@@ -64,6 +64,7 @@ Sketch of GAV mapping, need to check if it is really GAV, and if all is correct.
 - $\forall c. \exists <...>,$.FM2020($c,<...>$) $\rightarrow$ Club($c$) 
 - $\forall c,d. \exists <...>,$.FM2020($c,d,<...>$) $\rightarrow$ BelongsTo($c,d$)
 
+In the following need to replace $$\forall pid. \exists <...> \text{ with} \quad \forall pid,<AttrInGlobal>. \exists <AttrNotInGlobal>$$essentially map each tuple in the Source with the corresponding tuple in the Global.
 - $\forall pid. \exists <...>,$.GCA($pid,<...>$) $\rightarrow$ hasActionStats($pid,<...>$)
 - $\forall pid. \exists <...>,$.Defense($pid,<...>$) $\rightarrow$ hasDefenseStats($pid,<...>$)
 - $\forall pid. \exists <...>,$.Keeper($pid,<...>$) $\rightarrow$ hasKeeperStats($pid,<...>$)
@@ -77,5 +78,6 @@ Sketch of GAV mapping, need to check if it is really GAV, and if all is correct.
 #### to check
 How to define *join* between **FM2020** and **Info** in GAV-mapping? Necessary?
 How to define *join* between **Info** and **has...Stats** tables in GAV-mapping? Necessary?
-- $\forall pid. \exists <...>,$.Info($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall pid,name. \exists <...>,$.Info($pid,name,<...>$) $\wedge$ FM2020($name,<...>$) $\rightarrow$ Player($pid,name$)
+	- $Player_{/2}$ (pid,name)
 - $\forall pid. \exists <...>,$.Info($pid,<...>$) {$\wedge$ FM2020(n,...) ??} $\rightarrow$ PlaysIn($pid,c$)
