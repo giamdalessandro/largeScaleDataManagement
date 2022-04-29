@@ -1,14 +1,13 @@
 ## IDE and plugins
 .vscode/
-.metals/
 
-## Project
-scalaspark/
+## Dataset 
 dataset/
-docs/examples/
 
-## Hello World Example
-SimpleProject/.bloop/
-SimpleProject/project/
-SimpleProject/target/
+## Scala Metals
+.metals/
+.bloop/
+project/
+target/
+
 

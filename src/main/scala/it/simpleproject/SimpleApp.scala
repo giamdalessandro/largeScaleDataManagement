@@ -3,7 +3,7 @@ import org.apache.spark.sql.SparkSession
 
 object SimpleApp {
   def main(args: Array[String]): Unit = {
-    val logFile = "README.md" // Should be some file on your system
+    val logFile = "helloWorld.md" // Should be some file on your system
     val spark = SparkSession
                   .builder
                   .appName("Simple Application")
@@ -12,7 +12,8 @@ object SimpleApp {
     val logData = spark.read.textFile(logFile).cache()
     val numAs = logData.filter(line => line.contains("a")).count()
     val numBs = logData.filter(line => line.contains("b")).count()
-    println(s"Lines with a: $numAs, Lines with b: $numBs\n\n")
+    println(s"Lines with a: $numAs, Lines with b: $numBs")
+    println(s"Hello World!\n\n")
     spark.stop()
   }
 }
