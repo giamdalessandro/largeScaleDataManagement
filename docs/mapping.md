@@ -41,19 +41,19 @@ Don't know if the following axioms are really needed:
 	- a player plays only in one club (ha senso?)
 
 ### Foreign Keys
-- $\forall l,nt.$ hasCountry($l,nt$) $\rightarrow$ League($l$)
-- $\forall c,l.$ belongsTo($c,l$) $\rightarrow$ Club($c$) $\wedge$ League($l$)
-- $\forall$ *pid,c*. playsIn($pid,c$) $\rightarrow$ Player($pid$) $\wedge$ Club($c$)
+- $\forall$ *l,nt.* hasCountry(*l,nt*) $\rightarrow$ League(*l*)
+- $\forall$ *c,l.* belongsTo(*c,l*) $\rightarrow$ Club(*c*) $\wedge$ League($l$)
+- $\forall$ *pid,c*. playsIn($pid,c$) $\rightarrow$ Player(*pid*) $\wedge$ Club(*c*)
 
-- $\forall$ *pid,*$\overline{i}$.hasInfo($pid,\overline{i}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{df}$.hasDefenseStats($pid,\overline{df}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{k}$.hasKeepStats($pid,\overline{k}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{ps}$.hasPassingStats($pid,\overline{s}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{pt}$.hasPlayngTimeStats($pid,\overline{pt}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{pss}$.hasPossesionStats($pid,\overline{pss}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{sh}$.hasShootingStats($pid,\overline{sh}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{st}$.hasStandardStats($pid,\overline{st}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{m}$.hasMiscStats(*pid,*$\overline{m}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{i}$.hasInfo(*pid,*$\overline{i}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{df}$.hasDefenseStats(*pid,*$\overline{df}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{k}$.hasKeepStats(*pid,*$\overline{k}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{ps}$.hasPassingStats(*pid,*$\overline{s}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{pt}$.hasPlayngTimeStats(*pid,*$\overline{pt}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{pss}$.hasPossesionStats(*pid,*$\overline{pss}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{sh}$.hasShootingStats(*pid,*$\overline{sh}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{st}$.hasStandardStats(*pid,*$\overline{st}$) $\rightarrow$ Player(*pid*)
+- $\forall$ *pid,*$\overline{m}$.hasMiscStats(*pid,*$\overline{m}$) $\rightarrow$ Player(*pid*)
 
 
 
