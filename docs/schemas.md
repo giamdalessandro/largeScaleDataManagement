@@ -46,7 +46,7 @@ Source schema considering all attribtes of the data. We keep everything at the b
 
 
 ## Target Schema
-Integration on columns, redistributing FM2020 stats to the relative fbref table.
+Integration on columns, (TODO) redistribute FM2020 stats to the relative fbref table.
 
 - $League_{/2}$ (all leagues in dataset)
   - **League**(name,country)
