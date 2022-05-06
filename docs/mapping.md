@@ -33,11 +33,11 @@
 - palyer id is key fot **Player**(id)
 
 Don't know if the following axioms are really needed:
-- $\forall$ *l.*$\forall$ *nt.*$\forall$ *nt'.* hasCountry(*l,nt*) $\wedge$ hasCountry(*l,nt'*) $\rightarrow$ (*nt=nt'*) 
+- $\forall$*l.* $\forall$*nt.* $\forall$*nt'.* hasCountry(*l,nt*) $\wedge$ hasCountry(*l,nt'*) $\rightarrow$ (*nt=nt'*) 
 	- a league belongs only to one country
-- $\forall$ *c.*$\forall$ *l.* $\forall$ *l'.* belongsTo(*c,l*) $\wedge$ belongsTo(*c,l'*) $\rightarrow$ (*l=l'*)
+- $\forall$*c.* $\forall$*l.* $\forall$*l'.* belongsTo(*c,l*) $\wedge$ belongsTo(*c,l'*) $\rightarrow$ (*l=l'*)
 	- a club belongs only to one League 
-- $\forall$ *pid.*$\forall$ *c.*$\forall$ *c'.* playsIn(*pid,c*) $\wedge$ playsIn(*pid,c'*) $\rightarrow$ (*c=c'*)
+- $\forall$*pid.* $\forall$*c.* $\forall$*c'.* playsIn(*pid,c*) $\wedge$ playsIn(*pid,c'*) $\rightarrow$ (*c=c'*)
 	- a player plays only in one club (ha senso?)
 
 ### Foreign Keys
@@ -45,15 +45,15 @@ Don't know if the following axioms are really needed:
 - $\forall c,l.$ belongsTo($c,l$) $\rightarrow$ Club($c$) $\wedge$ League($l$)
 - $\forall$ *pid,c*. playsIn($pid,c$) $\rightarrow$ Player($pid$) $\wedge$ Club($c$)
 
-- $\forall pid,<...>$.hasInfo($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasDefenseStats($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasKeepStats($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasPassingStats($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasPlayngTimeStats($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasPossesionStats($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasShootingStats($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasStandardStats($pid,<...>$) $\rightarrow$ Player($pid$)
-- $\forall pid,<...>$.hasMiscStats($pid,<...>$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{i}$.hasInfo($pid,\overline{i}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{df}$.hasDefenseStats($pid,\overline{df}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{k}$.hasKeepStats($pid,\overline{k}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{ps}$.hasPassingStats($pid,\overline{s}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{pt}$.hasPlayngTimeStats($pid,\overline{pt}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{pss}$.hasPossesionStats($pid,\overline{pss}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{sh}$.hasShootingStats($pid,\overline{sh}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{st}$.hasStandardStats($pid,\overline{st}$) $\rightarrow$ Player($pid$)
+- $\forall$ *pid,*$\overline{m}$.hasMiscStats(*pid,*$\overline{m}$) $\rightarrow$ Player($pid$)
 
 
 
@@ -66,22 +66,25 @@ Sketch of GAV mapping, need to check if it is really GAV, and if all is correct.
 	- (check) $\forall$ *c,d.* $\exists$ *<...>,*.FM2020(*c,d,<...>*) $\rightarrow$ BelongsTo(*c,d*)
 - $\forall$ *pid*. $\exists$ *<...>,*.Info(*pid,<...>*) $\rightarrow$ Player(*pid*)
 
-In the following need to replace $$\forall pid. \exists <...> \text{ replace with} \quad \forall pid,<AttrInGlobal>. \exists <AttrNotInGlobal>$$essentially map each tuple in the Source with the corresponding tuple in the Global.
-- $\forall pid. \exists <...>,$.GCA($pid,<...>$) $\rightarrow$ hasActionStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Defense($pid,<...>$) $\rightarrow$ hasDefenseStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Keeper($pid,<...>$) $\rightarrow$ hasKeeperStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Passing($pid,<...>$) $\rightarrow$ hasPassingStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.PlayngTime($pid,<...>$) $\rightarrow$ hasPlayingTimeStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Possesion($pid,<...>$) $\rightarrow$ hasPossessionStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Shooting($pid,<...>$) $\rightarrow$ hasShootingStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Standard($pid,<...>$) $\rightarrow$ hasStandardStats($pid,<...>$)
-- $\forall pid. \exists <...>,$.Misc($pid,<...>$) $\rightarrow$ hasMiscStats($pid,<...>$)
+In the following need to replace 
+- {$\forall$*pid.* $\exists$*<...>*} to be replaced with {  $\forall$*pid,\<AttrInGlobal>*. $\exists$*\<AttrNotInGlobal>*}
+- {has...Stats(*pid.<...>*)} to be replaced with {has...Stats(*pid,\<AttrInGlobal>*}
+
+where *\<AttrInGlobal>* are those attribute of the source that are mapped in the global schema; essentially map each tuple in the Source with the corresponding tuple in the Global.
+
+- $\forall$ *pid,* $\exists$*<...>,* .GCA(*pid,<...>*) $\rightarrow$ hasActionStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .Defense(*pid,<...>*) $\rightarrow$ hasDefenseStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .Keeper(*pid,<...>*) $\rightarrow$ hasKeeperStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .Passing(*pid,<...>*) $\rightarrow$ hasPassingStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .PlayngTime(*pid,<...>*) $\rightarrow$ hasPlayingTimeStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .Possesion(*pid,<...>*) $\rightarrow$ hasPossessionStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .Shooting(*pid,<...>*) $\rightarrow$ hasShootingStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .Standard(*pid,<...>*) $\rightarrow$ hasStandardStats(*pid,<...>*)
+- $\forall$ *pid,* $\exists$*<...>,* .Misc(*pid,<...>*) $\rightarrow$ hasMiscStats(*pid,<...>*)
 
 #### to check
 How to define *join* between **FM2020** and **Info** in GAV-mapping? Necessary?
 How to define *join* between **Info** and **has...Stats** tables in GAV-mapping? Necessary?
-- $\forall$ *pid,name*. $\exists$ *<...>,*.Info(*pid,name,<...>*) $\wedge$ FM2020(*name,<...>*) $\rightarrow$ Player(*pid,name*)
+- $\forall$ *pid,name*. $\exists$*<...>,*.Info(*pid,name,<...>*) $\wedge$ FM2020(*name,<...>*) $\rightarrow$ Player(*pid,name*)
 	- $Player_{/2}$ (pid,name)
-- $\forall$ *pid.* $\exists$ *<...>,*.Info(*pid,<...>*) {$\wedge$ FM2020(*n,...*) ??} $\rightarrow$ PlaysIn(*pid,c*)
-
- a 
+- $\forall$ *pid.* $\exists$*<...>,*.Info(*pid,<...>*) {$\wedge$ FM2020(*n,...*) ??} $\rightarrow$ PlaysIn(*pid,c*)
