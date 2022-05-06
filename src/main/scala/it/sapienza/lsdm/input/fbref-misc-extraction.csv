@@ -1,0 +1,1382 @@
+id,season,country,comp_level,lg_finish,squad,age,minutes_90s,cards_yellow,cards_red,fouls,fouled,offsides,crosses,aerials_won,aerials_won_pct
+0000acda,2019-2020,ITA,1. Serie A,10th,Fiorentina,24,10.9,1,0,25,7,0,12,5,23.8
+00242715,2019-2020,GER,1. Bundesliga,13th,Mainz 05,23,33,7,0,60,31,1,4,88,67.7
+00242b75,2019-2020,GER,1. Bundesliga,13th,Mainz 05,19,10.4,4,0,30,23,0,2,16,35.6
+0076ab7f,2019-2020,ESP,1. La Liga,4th,Sevilla,27,13.5,6,0,27,21,0,2,20,48.8
+009a4f60,2019-2020,GER,1. Bundesliga,11th,Union Berlin,21,4.1,2,0,8,6,0,11,7,46.7
+00b28772,2019-2020,ESP,1. La Liga,8th,Getafe,24,32.2,5,0,23,14,1,5,62,44.6
+01226327,2019-2020,ENG,1. Premier League,11th,Southampton,29,30.5,3,1,35,35,1,81,66,55
+01834aa0,2019-2020,GER,1. Bundesliga,14th,Köln,20,27.2,5,1,43,11,2,5,69,63.3
+01b8a2b2,2019-2020,ITA,1. Serie A,1st,Juventus,29,28.8,1,0,1,2,0,0,0,NULL
+01c3aff5,2019-2020,GER,1. Bundesliga,12th,Schalke 04,20,23,8,0,42,16,0,13,62,63.9
+01eb744d,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,24,22.9,5,0,28,48,9,28,16,30.2
+01efac19,2019-2020,ITA,1. Serie A,18th,Lecce,24,15.2,0,0,18,9,2,17,18,39.1
+01efac19,2019-2020,ITA,1. Serie A,13th,Udinese,24,2.2,1,0,9,4,0,2,3,100
+02319ad7,2019-2020,ESP,1. La Liga,8th,Getafe,30,30.5,14,0,86,59,38,47,101,42.3
+02b29014,2019-2020,ENG,1. Premier League,19th,Watford,26,35.1,9,0,64,22,6,27,53,50
+02c15616,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,24,15.2,4,0,30,22,4,18,15,41.7
+02caf6e0,2019-2020,ITA,1. Serie A,4th,Lazio,25,28.3,6,0,23,48,7,119,3,14.3
+02ef8778,2019-2020,ESP,1. La Liga,20th,Espanyol,24,11.9,5,0,26,25,7,8,25,33.8
+0313a347,2019-2020,ENG,1. Premier League,17th,Aston Villa,21,22.7,3,0,21,35,1,8,48,51.6
+032f894e,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,21,0.1,0,0,0,1,0,1,0,NULL
+0375723e,2019-2020,ITA,1. Serie A,16th,Torino,27,23,4,0,28,52,2,77,12,32.4
+03f946ed,2019-2020,ITA,1. Serie A,20th,SPAL,24,33.7,5,0,58,81,13,31,67,40.9
+0420d84f,2019-2020,ENG,1. Premier League,12th,Everton,30,20.4,5,1,21,21,1,34,30,57.7
+042e8a49,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,23,16.7,2,0,11,34,4,75,18,48.6
+0489bb30,2019-2020,ITA,1. Serie A,9th,Hellas Verona,17,7.6,0,0,18,14,3,18,22,40
+048a1cbc,2019-2020,GER,1. Bundesliga,2nd,Dortmund,25,25.9,3,0,11,21,0,45,10,33.3
+04965583,2019-2020,ESP,1. La Liga,16th,Alavés,29,24.1,6,0,19,52,3,57,10,32.3
+04ac8285,2019-2020,ESP,1. La Liga,9th,Valencia,30,23.3,1,0,0,6,0,0,0,NULL
+04e17fd5,2019-2020,ESP,1. La Liga,18th,Leganés,22,15.4,2,0,21,22,17,12,60,39.7
+04e17fd5,2019-2020,ESP,1. La Liga,4th,Sevilla,22,8.8,1,0,16,13,12,5,37,46.8
+05439de2,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,27,27.8,0,0,11,7,1,25,22,44.9
+054849d2,2019-2020,GER,1. Bundesliga,15th,Augsburg,22,7.5,0,0,7,5,0,12,10,38.5
+056d2d95,2019-2020,GER,1. Bundesliga,11th,Union Berlin,32,31.8,6,0,35,24,1,88,43,55.1
+05d548d8,2019-2020,GER,1. Bundesliga,2nd,Dortmund,30,28.7,8,1,28,11,2,5,93,71
+05e19d6a,2019-2020,ITA,1. Serie A,6th,Milan,22,32.3,3,0,67,25,1,15,19,47.5
+05f99a4a,2019-2020,GER,1. Bundesliga,13th,Mainz 05,19,2.8,0,0,2,6,0,1,3,30
+070a3904,2019-2020,ESP,1. La Liga,20th,Espanyol,25,29.5,4,0,46,32,2,19,28,57.1
+0728bebe,2019-2020,ITA,1. Serie A,10th,Fiorentina,22,29.7,10,0,69,93,0,31,21,33.9
+0745b37d,2019-2020,ENG,1. Premier League,20th,Norwich City,29,32.1,3,0,29,22,17,14,6,10.7
+07767f42,2019-2020,ITA,1. Serie A,8th,Sassuolo,34,15.5,5,0,28,39,0,4,15,60
+07802f7f,2019-2020,ENG,1. Premier League,11th,Southampton,27,31.2,3,0,42,32,12,32,41,25.8
+080440a4,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,26,30.2,8,0,35,33,2,14,78,60.5
+0821331c,2019-2020,ITA,1. Serie A,12th,Bologna,25,24.5,13,1,46,38,1,4,102,61.1
+08511d65,2019-2020,ESP,1. La Liga,1st,Real Madrid,33,33.5,10,0,59,29,7,3,66,59.5
+08593525,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,23,14.6,4,0,22,16,0,4,17,44.7
+085e71a7,2019-2020,ITA,1. Serie A,10th,Fiorentina,21,31,1,0,1,6,0,0,0,NULL
+088ca1bd,2019-2020,GER,1. Bundesliga,8th,Freiburg,29,31.5,1,0,16,41,4,59,34,54
+08990838,2019-2020,ITA,1. Serie A,4th,Lazio,23,3.6,0,0,3,0,0,0,6,60
+08aa9cd1,2019-2020,ITA,1. Serie A,17th,Genoa,20,24.8,1,0,40,52,16,24,66,38.4
+08f5afaa,2019-2020,ITA,1. Serie A,6th,Milan,20,35.6,3,0,1,6,0,0,0,NULL
+091795f2,2019-2020,ITA,1. Serie A,12th,Bologna,19,1.4,1,0,2,1,0,0,2,50
+09538fdb,2019-2020,ITA,1. Serie A,13th,Udinese,26,28.5,1,0,53,37,15,27,41,32.3
+0959c2a2,2019-2020,ESP,1. La Liga,1st,Real Madrid,21,21.2,1,0,31,12,0,17,22,59.5
+099e666f,2019-2020,GER,1. Bundesliga,12th,Schalke 04,22,30.2,5,0,28,13,4,51,31,50.8
+09a9e921,2019-2020,ESP,1. La Liga,5th,Villarreal,32,7.6,1,0,7,8,7,3,7,36.8
+0a3065c8,2019-2020,ITA,1. Serie A,12th,Bologna,26,11.2,4,0,23,13,3,23,9,45
+0a3d6d2b,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,19,0.1,0,0,0,0,0,0,0,NULL
+0a3f6cde,2019-2020,GER,1. Bundesliga,18th,Paderborn 07,25,27.4,2,0,20,38,4,47,24,39.3
+0a447501,2019-2020,ITA,1. Serie A,17th,Genoa,23,15.4,3,0,23,29,4,11,37,38.9
+0a483542,2019-2020,ITA,1. Serie A,8th,Sassuolo,23,18.3,4,0,22,32,2,32,18,42.9
+0ab1f153,2019-2020,ITA,1. Serie A,1st,Juventus,31,29.5,7,1,37,87,3,77,17,41.5
+0ac94a23,2019-2020,ESP,1. La Liga,9th,Valencia,28,10.3,5,0,27,17,2,40,10,40
+0ae4e09a,2019-2020,ESP,1. La Liga,12th,Levante,28,25.2,6,1,62,36,10,23,31,31.6
+0b33f6ad,2019-2020,ESP,1. La Liga,13th,Valladolid,20,30.3,4,0,25,14,1,1,75,67.6
+0b5a292a,2019-2020,ITA,1. Serie A,7th,Napoli,28,21.8,8,0,22,59,2,83,16,42.1
+0b90bb97,2019-2020,ESP,1. La Liga,17th,Celta Vigo,23,21.6,4,0,49,41,11,20,88,44
+0ba976e4,2019-2020,ESP,1. La Liga,2nd,Barcelona,16,11.4,2,1,17,22,4,24,6,37.5
+0bc4e720,2019-2020,ESP,1. La Liga,9th,Valencia,22,4.6,0,0,5,9,2,3,5,25
+0c2ac3cb,2019-2020,ESP,1. La Liga,2nd,Barcelona,26,2.1,0,0,2,11,0,5,0,0
+0c2ac3cb,2019-2020,ESP,1. La Liga,17th,Celta Vigo,26,23.5,5,0,48,114,2,26,31,54.4
+0c61c77c,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,21,22.6,2,0,27,30,10,44,20,36.4
+0cc5f4a5,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,20,1.5,1,0,4,5,1,1,2,28.6
+0ccac09c,2019-2020,ITA,1. Serie A,19th,Brescia,26,35.2,5,0,39,81,0,80,43,58.1
+0d077b88,2019-2020,ITA,1. Serie A,8th,Sassuolo,27,10.3,7,1,28,16,0,3,12,42.9
+0d422df7,2019-2020,ITA,1. Serie A,9th,Hellas Verona,28,35,2,0,0,6,0,0,0,NULL
+0d4ceb32,2019-2020,ENG,1. Premier League,10th,Burnley,27,9.1,0,0,3,12,3,5,17,28.8
+0d55d942,2019-2020,GER,1. Bundesliga,8th,Freiburg,27,23.2,0,0,0,4,0,0,0,NULL
+0d82903c,2019-2020,ITA,1. Serie A,1st,Juventus,28,26.5,4,0,46,49,0,52,34,55.7
+0db169ae,2019-2020,ITA,1. Serie A,19th,Brescia,19,33.5,9,0,48,66,0,48,12,38.7
+0db5d2c8,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,29,5.5,1,0,8,2,0,0,15,60
+0dfce079,2019-2020,ITA,1. Serie A,9th,Hellas Verona,23,3,1,0,1,0,0,0,0,NULL
+0e0102eb,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,20,0.9,0,0,2,0,0,1,0,0
+0e4fef6e,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,25,3.7,5,1,6,9,0,1,18,72
+0e50f929,2019-2020,ESP,1. La Liga,10th,Osasuna,29,12.9,9,1,20,19,0,14,10,52.6
+0e7ccfc4,2019-2020,ESP,1. La Liga,20th,Espanyol,28,3,1,0,5,6,0,9,0,NULL
+0ef89a37,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,27,15.7,0,0,4,30,3,18,6,37.5
+0fbecd11,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,25,16.1,5,1,34,19,1,13,22,36.7
+10072610,2019-2020,ENG,1. Premier League,2nd,Manchester City,36,3.9,0,0,0,0,0,0,0,NULL
+101da2b5,2019-2020,ENG,1. Premier League,2nd,Manchester City,34,26.6,9,2,29,22,1,3,73,67
+1025db8e,2019-2020,GER,1. Bundesliga,15th,Augsburg,28,18.3,5,0,13,6,1,2,29,53.7
+106bca06,2019-2020,GER,1. Bundesliga,12th,Schalke 04,25,15.9,3,0,19,20,1,11,6,16.7
+10b9fa99,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,18,0.9,0,0,1,0,0,0,3,100
+10dc46f0,2019-2020,ITA,1. Serie A,16th,Torino,32,36,4,0,0,3,0,1,0,NULL
+10e7f486,2019-2020,ITA,1. Serie A,8th,Sassuolo,21,11.3,6,0,20,18,0,30,9,37.5
+111c3236,2019-2020,ENG,1. Premier League,12th,Everton,29,13.2,5,1,20,12,0,4,12,54.5
+112521d1,2019-2020,ESP,1. La Liga,20th,Espanyol,21,12.1,3,0,14,19,2,22,9,50
+119b9a8e,2019-2020,ENG,1. Premier League,2nd,Manchester City,25,12.2,1,0,10,10,0,0,28,66.7
+11b9265b,2019-2020,ESP,1. La Liga,5th,Villarreal,27,16.3,6,0,22,8,0,31,16,48.5
+11fd2b75,2019-2020,GER,1. Bundesliga,12th,Schalke 04,26,22.5,4,0,24,22,0,5,57,62
+1238a3f9,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,24,10.7,3,0,26,23,6,6,70,52.2
+1238a3f9,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,24,5.1,3,0,12,5,5,5,36,53.7
+1265a93a,2019-2020,ENG,1. Premier League,4th,Chelsea,19,16.8,1,0,28,26,1,68,35,45.5
+1295552e,2019-2020,ITA,1. Serie A,8th,Sassuolo,20,14.1,4,0,24,17,0,22,12,50
+129af0db,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,26,23.3,6,1,58,63,37,15,116,53.7
+12c50af5,2019-2020,ESP,1. La Liga,17th,Celta Vigo,25,18.1,2,0,24,40,0,40,3,15.8
+130a7a3f,2019-2020,ITA,1. Serie A,6th,Milan,24,13.4,3,1,18,23,7,46,17,33.3
+13203c45,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,26,26.3,4,0,20,30,4,64,18,41.9
+132ac341,2019-2020,ESP,1. La Liga,10th,Osasuna,30,29,8,0,21,12,0,3,100,72.5
+149c5f5d,2019-2020,ITA,1. Serie A,11th,Parma,21,10.5,2,0,16,18,0,28,9,45
+149c5f5d,2019-2020,ITA,1. Serie A,13th,Udinese,21,0.9,0,0,0,0,0,4,2,100
+14b8fcdf,2019-2020,ITA,1. Serie A,1st,Juventus,25,7.7,2,0,12,1,0,0,39,73.6
+157d29b6,2019-2020,ITA,1. Serie A,18th,Lecce,29,9.2,3,1,17,18,1,21,1,16.7
+15b287da,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,22,21.9,5,0,32,41,7,31,15,24.2
+15d0c248,2019-2020,ITA,1. Serie A,4th,Lazio,22,22.5,6,0,21,18,2,4,30,54.5
+15ea812b,2019-2020,ENG,1. Premier League,10th,Burnley,26,38,10,0,53,32,3,2,215,78.2
+15f3ec41,2019-2020,ENG,1. Premier League,4th,Chelsea,18,9.6,1,0,12,18,3,49,3,17.6
+162efffd,2019-2020,ITA,1. Serie A,13th,Udinese,25,31.4,5,1,38,79,2,127,2,15.4
+16657b95,2019-2020,ITA,1. Serie A,5th,Roma,24,18,7,1,36,9,0,5,13,35.1
+16aa3654,2019-2020,ESP,1. La Liga,19th,Mallorca,18,25.7,4,0,38,78,4,57,9,26.5
+16b9d5cf,2019-2020,ITA,1. Serie A,7th,Napoli,27,20,3,1,25,10,0,12,41,66.1
+16bb656a,2019-2020,ITA,1. Serie A,9th,Hellas Verona,24,7.7,4,2,18,10,1,2,26,66.7
+16ceb862,2019-2020,ENG,1. Premier League,4th,Chelsea,32,11,1,0,19,11,9,2,44,51.8
+16daec92,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,24,11.6,2,0,20,24,0,13,5,35.7
+16e9d0ea,2019-2020,ESP,1. La Liga,15th,Betis,26,25.2,5,0,34,36,4,65,19,38.8
+173061c0,2019-2020,ITA,1. Serie A,11th,Parma,29,28.9,7,0,34,41,2,56,17,37
+17376543,2019-2020,GER,1. Bundesliga,11th,Union Berlin,31,33,0,0,2,4,0,0,0,NULL
+174651c8,2019-2020,ESP,1. La Liga,8th,Getafe,29,10.5,4,0,18,14,0,14,33,55.9
+1770bd68,2019-2020,ITA,1. Serie A,13th,Udinese,25,27.3,6,0,35,19,4,115,16,50
+178ae8f8,2019-2020,ENG,1. Premier League,7th,Wolves,22,25.4,4,0,47,74,3,36,27,36
+17f3620a,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,24,10.1,2,0,29,20,10,5,23,33.8
+17f3620a,2019-2020,ITA,1. Serie A,6th,Milan,24,13.1,1,0,27,28,6,6,30,37
+1840e36d,2019-2020,ESP,1. La Liga,1st,Real Madrid,27,34,1,0,0,4,0,0,1,100
+1880614f,2019-2020,ITA,1. Serie A,5th,Roma,22,9.7,2,0,6,16,0,39,5,55.6
+18abe173,2019-2020,ESP,1. La Liga,17th,Celta Vigo,23,27.8,4,0,21,17,0,1,59,54.1
+18b896d6,2019-2020,ENG,1. Premier League,4th,Chelsea,26,19,3,0,21,9,0,4,61,70.1
+1900032e,2019-2020,ENG,1. Premier League,11th,Southampton,26,16.6,3,0,13,11,0,1,80,72.7
+1961b2aa,2019-2020,ENG,1. Premier League,12th,Everton,26,16.2,6,0,47,23,0,8,13,46.4
+19709006,2019-2020,ESP,1. La Liga,18th,Leganés,21,21.3,6,1,32,40,1,46,15,29.4
+197640fd,2019-2020,ITA,1. Serie A,3rd,Atalanta,23,19.7,4,0,21,10,5,52,33,57.9
+19b776e9,2019-2020,ESP,1. La Liga,9th,Valencia,27,1.9,0,0,7,8,1,2,3,30
+19e4eab9,2019-2020,ITA,1. Serie A,13th,Udinese,23,24.6,8,0,47,27,1,3,56,70
+1ae30132,2019-2020,ENG,1. Premier League,10th,Burnley,34,21,6,0,42,15,0,20,33,55.9
+1ae836b1,2019-2020,GER,1. Bundesliga,14th,Köln,21,6.9,3,0,8,14,0,11,9,37.5
+1b84dbe1,2019-2020,ENG,1. Premier League,12th,Everton,26,33.7,6,0,49,31,3,153,112,67.9
+1bacc518,2019-2020,ESP,1. La Liga,2nd,Barcelona,22,23.5,3,1,26,44,1,9,10,45.5
+1bda5842,2019-2020,ESP,1. La Liga,6th,Real Sociedad,27,26.6,5,0,35,27,21,69,19,31.1
+1bf33a9a,2019-2020,ENG,1. Premier League,4th,Chelsea,20,19.1,0,0,18,38,3,26,16,25.4
+1bf811d4,2019-2020,ENG,1. Premier League,20th,Norwich City,25,14.4,4,0,18,9,1,3,42,58.3
+1c7012b8,2019-2020,ENG,1. Premier League,16th,West Ham,20,38,6,0,47,21,2,22,51,60.7
+1cadaf34,2019-2020,ITA,1. Serie A,3rd,Atalanta,18,0.2,0,0,0,1,0,0,0,0
+1cb49278,2019-2020,ENG,1. Premier League,4th,Chelsea,23,19.5,5,0,18,11,0,0,68,63
+1cbe4984,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,24,4.2,3,0,11,4,0,11,6,60
+1d0bb7e4,2019-2020,ITA,1. Serie A,3rd,Atalanta,19,3.1,1,0,8,5,0,3,11,57.9
+1d1691ad,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,23,1.7,0,0,1,1,0,12,1,25
+1d1691ad,2019-2020,ESP,1. La Liga,1st,Real Madrid,23,3.8,3,1,7,4,0,4,1,33.3
+1d8e9add,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,27,10.7,2,0,10,10,0,0,12,66.7
+1d8e9add,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,27,12.3,3,0,22,12,1,1,14,51.9
+1daec722,2019-2020,ESP,1. La Liga,8th,Getafe,21,36,9,0,81,76,6,105,50,36.8
+1ea5f91c,2019-2020,ITA,1. Serie A,15th,Sampdoria,23,23.3,8,0,26,20,4,56,10,34.5
+1ecb65be,2019-2020,ENG,1. Premier League,12th,Everton,30,14.3,1,0,11,19,10,40,7,28
+1ef37668,2019-2020,ENG,1. Premier League,10th,Burnley,30,20.9,2,0,27,25,0,27,33,68.8
+1f079188,2019-2020,ESP,1. La Liga,5th,Villarreal,28,21.2,5,0,41,24,1,61,20,50
+1f44ac21,2019-2020,GER,1. Bundesliga,2nd,Dortmund,19,11.8,0,0,10,8,3,4,21,47.7
+1fb1c435,2019-2020,ESP,1. La Liga,9th,Valencia,28,20.9,2,1,19,31,8,30,33,41.3
+1fca9171,2019-2020,ITA,1. Serie A,20th,SPAL,25,12,4,0,25,33,4,22,7,30.4
+1fda91b3,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,17,0.6,1,0,2,1,0,1,1,50
+1fe0492d,2019-2020,ESP,1. La Liga,16th,Alavés,23,29.6,11,0,47,44,0,44,58,54.2
+1fe67e86,2019-2020,ESP,1. La Liga,11th,Athletic Club,31,6.3,1,0,7,3,0,6,11,84.6
+20030c06,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,26,9.5,0,0,6,10,2,0,39,67.2
+200e89e1,2019-2020,ESP,1. La Liga,6th,Real Sociedad,17,4.9,1,0,14,5,1,18,7,46.7
+20730eae,2019-2020,ITA,1. Serie A,6th,Milan,20,15.6,0,0,17,19,6,37,30,47.6
+20b3a502,2019-2020,ITA,1. Serie A,12th,Bologna,21,7.8,1,0,17,8,0,5,4,36.4
+20b9f052,2019-2020,ITA,1. Serie A,5th,Roma,24,32,3,0,1,2,0,0,0,NULL
+21166ff4,2019-2020,ENG,1. Premier League,5th,Leicester City,23,33.7,4,1,34,24,1,4,121,68.4
+2146785a,2019-2020,ITA,1. Serie A,6th,Milan,22,18,4,2,18,23,1,29,15,55.6
+21512407,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,28,22,2,0,21,14,2,76,21,41.2
+217875a4,2019-2020,ITA,1. Serie A,14th,Cagliari,19,12.9,1,0,7,3,0,2,12,42.9
+217c93a1,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,17,0.4,0,0,0,0,0,0,1,33.3
+21a66f6a,2019-2020,ENG,1. Premier League,6th,Tottenham,26,28.7,4,0,41,51,20,22,64,34.2
+2200181e,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,24,30.3,10,0,38,21,3,17,43,44.8
+228b0d9d,2019-2020,ESP,1. La Liga,6th,Real Sociedad,21,10.9,1,0,10,11,0,37,17,50
+228f73ae,2019-2020,ITA,1. Serie A,7th,Napoli,25,2,1,0,4,6,0,2,0,0
+22919e97,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,26,8.3,1,0,12,10,7,6,14,25.9
+229cd98a,2019-2020,GER,1. Bundesliga,15th,Augsburg,21,4.1,0,0,7,13,1,3,13,29.5
+230a2fac,2019-2020,ITA,1. Serie A,7th,Napoli,25,33,5,0,38,58,3,53,65,55.6
+2327c29e,2019-2020,ESP,1. La Liga,12th,Levante,27,7.3,3,1,5,17,5,38,1,11.1
+2334478a,2019-2020,ITA,1. Serie A,17th,Genoa,26,13.9,7,0,45,38,2,19,24,40.7
+240d3a0b,2019-2020,ESP,1. La Liga,11th,Athletic Club,29,33.7,11,0,64,43,0,3,52,53.6
+246d153b,2019-2020,ITA,1. Serie A,16th,Torino,22,23.1,8,0,28,45,2,70,26,53.1
+24f59bb2,2019-2020,ESP,1. La Liga,2nd,Barcelona,22,11.3,5,0,36,16,2,8,10,52.6
+253a06b9,2019-2020,ESP,1. La Liga,10th,Osasuna,25,17.7,6,0,48,43,24,28,47,36.4
+254147d4,2019-2020,ENG,1. Premier League,11th,Southampton,21,10.3,4,1,23,32,3,16,5,26.3
+25ab9c9c,2019-2020,GER,1. Bundesliga,8th,Freiburg,28,15.2,0,0,7,12,2,7,39,54.9
+2628fd2b,2019-2020,ENG,1. Premier League,8th,Arsenal,27,29.4,2,0,0,5,0,0,0,NULL
+2691c772,2019-2020,ENG,1. Premier League,10th,Burnley,29,15,4,0,33,43,13,1,42,32.8
+26db8853,2019-2020,ITA,1. Serie A,13th,Udinese,24,12.7,2,0,30,19,1,2,13,65
+26f6dca8,2019-2020,ENG,1. Premier League,16th,West Ham,26,15.3,1,0,8,29,4,14,6,30
+271b8617,2019-2020,GER,1. Bundesliga,11th,Union Berlin,23,19.1,4,0,52,23,2,13,49,47.1
+2784f898,2019-2020,ESP,1. La Liga,1st,Real Madrid,21,11.4,3,0,18,15,2,1,39,79.6
+27a013f7,2019-2020,ESP,1. La Liga,17th,Celta Vigo,27,32.1,10,0,29,10,0,2,91,71.7
+27c01749,2019-2020,ENG,1. Premier League,15th,Brighton,19,14,0,0,15,37,14,7,14,22.6
+282f75f3,2019-2020,ENG,1. Premier League,15th,Brighton,27,35.9,9,0,28,24,1,2,84,65.6
+28a15394,2019-2020,ITA,1. Serie A,16th,Torino,36,1,0,0,0,0,0,0,0,NULL
+28d596a0,2019-2020,ENG,1. Premier League,4th,Chelsea,24,33,0,0,0,5,0,0,0,NULL
+291e3ec3,2019-2020,ENG,1. Premier League,20th,Norwich City,18,2.5,0,0,2,5,1,0,4,30.8
+2928dca2,2019-2020,ENG,1. Premier League,7th,Wolves,26,38,5,0,20,6,0,0,42,63.6
+2946f9a1,2019-2020,ESP,1. La Liga,1st,Real Madrid,29,4.9,3,0,12,7,0,13,15,65.2
+29733c72,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,31,8.4,1,0,8,11,4,14,3,30
+2979c05a,2019-2020,GER,1. Bundesliga,18th,Paderborn 07,24,11.8,1,1,12,5,0,24,3,33.3
+29b61deb,2019-2020,ESP,1. La Liga,16th,Alavés,26,12.1,3,0,27,15,0,8,18,54.5
+2a0c8ba4,2019-2020,ESP,1. La Liga,4th,Sevilla,25,25,7,0,74,41,2,43,31,54.4
+2a1beb34,2019-2020,ITA,1. Serie A,3rd,Atalanta,28,30.2,12,0,68,23,1,14,42,54.5
+2a29eb9b,2019-2020,GER,1. Bundesliga,8th,Freiburg,26,2.3,1,0,3,1,0,2,4,57.1
+2a6cd437,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,21,10.3,4,1,15,7,0,0,30,68.2
+2acd49b9,2019-2020,ENG,1. Premier League,6th,Tottenham,29,27.2,8,0,48,21,2,21,31,53.4
+2b09d998,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,20,10.6,0,0,9,15,0,9,10,38.5
+2b16cb1a,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,22,20.7,0,0,19,61,3,50,7,25.9
+2b622f01,2019-2020,ENG,1. Premier League,6th,Tottenham,26,24.9,3,0,36,78,5,27,57,40.7
+2b91cf8e,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,29,13.2,3,0,11,8,0,2,31,50
+2baec6ce,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,21,2.1,0,0,4,3,0,1,3,23.1
+2bd83368,2019-2020,ENG,1. Premier League,12th,Everton,18,4.9,0,0,10,12,1,8,0,0
+2bed3eab,2019-2020,ENG,1. Premier League,2nd,Manchester City,18,8.8,1,0,11,2,0,1,10,45.5
+2bef2bca,2019-2020,ESP,1. La Liga,2nd,Barcelona,20,2.6,0,1,1,1,0,0,5,62.5
+2c0558b8,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,16,0,0,0,0,1,0,0,0,NULL
+2c0f8e9e,2019-2020,ITA,1. Serie A,2nd,Inter,30,10.3,4,1,20,39,9,24,5,19.2
+2ce2508a,2019-2020,ENG,1. Premier League,14th,Crystal Palace,28,27.9,12,0,66,28,1,35,31,59.6
+2cfae697,2019-2020,ITA,1. Serie A,12th,Bologna,22,12,6,1,29,4,0,0,25,53.2
+2d5f03bf,2019-2020,ENG,1. Premier League,20th,Norwich City,26,15.9,3,0,9,8,0,0,39,76.5
+2d61d13a,2019-2020,GER,1. Bundesliga,12th,Schalke 04,19,19.7,4,0,28,13,0,1,81,74.3
+2d970560,2019-2020,ITA,1. Serie A,3rd,Atalanta,25,29.1,3,0,38,43,6,72,43,65.2
+2db2fd7b,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,30,20,5,1,18,5,0,5,41,74.5
+2e4f5f03,2019-2020,ENG,1. Premier League,1st,Liverpool,25,34.6,2,0,23,21,2,130,25,43.9
+2e7ff968,2019-2020,GER,1. Bundesliga,2nd,Dortmund,31,3.2,0,0,0,1,0,0,0,0
+2f3452eb,2019-2020,ITA,1. Serie A,7th,Napoli,25,16.5,3,0,11,20,0,30,9,37.5
+2f3e911a,2019-2020,GER,1. Bundesliga,13th,Mainz 05,22,19.9,2,0,19,14,2,59,17,40.5
+2f557579,2019-2020,ITA,1. Serie A,7th,Napoli,28,31.2,1,0,12,30,9,75,6,33.3
+2f7acede,2019-2020,ENG,1. Premier League,6th,Tottenham,23,24.7,9,0,29,23,0,15,15,62.5
+2f90f6b8,2019-2020,ENG,1. Premier League,1st,Liverpool,33,10.4,4,0,14,17,1,14,16,66.7
+2f965a72,2019-2020,ESP,1. La Liga,1st,Real Madrid,26,4,1,0,1,0,0,0,0,NULL
+2ff964a0,2019-2020,ENG,1. Premier League,10th,Burnley,32,5.5,4,0,11,7,0,9,3,27.3
+30223b33,2019-2020,ITA,1. Serie A,5th,Roma,36,5,0,0,0,0,0,0,0,NULL
+3024e383,2019-2020,ESP,1. La Liga,14th,Eibar,29,26.2,4,0,21,14,0,108,47,63.5
+302527b2,2019-2020,GER,1. Bundesliga,8th,Freiburg,23,20.2,3,0,10,26,0,3,35,61.4
+30941e96,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,22,12.2,2,0,14,16,3,44,10,38.5
+30c220c3,2019-2020,GER,1. Bundesliga,5th,Leverkusen,25,13,3,0,20,25,0,21,22,57.9
+30f5ffa9,2019-2020,ITA,1. Serie A,2nd,Inter,24,29.2,9,1,50,30,0,2,37,55.2
+32974271,2019-2020,ESP,1. La Liga,13th,Valladolid,28,29.5,6,0,56,75,20,33,27,23.9
+32c0491f,2019-2020,ESP,1. La Liga,9th,Valencia,26,0.8,0,0,1,1,0,2,1,100
+32f60ed8,2019-2020,ENG,1. Premier League,7th,Wolves,19,1.4,0,0,1,4,0,2,3,50
+3312f911,2019-2020,ENG,1. Premier League,14th,Crystal Palace,26,11.5,2,0,18,14,1,8,19,54.3
+3353737a,2019-2020,ESP,1. La Liga,4th,Sevilla,22,27.9,8,0,62,48,4,98,42,55.3
+335fa267,2019-2020,ESP,1. La Liga,2nd,Barcelona,27,26,8,0,19,47,2,33,22,47.8
+3376a776,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,24,14,0,0,11,10,0,4,29,67.4
+339fe0e8,2019-2020,ITA,1. Serie A,4th,Lazio,24,38,2,0,0,5,0,0,0,NULL
+33a61a52,2019-2020,ESP,1. La Liga,12th,Levante,27,20.5,4,0,25,19,2,44,27,50
+33b8d077,2019-2020,ITA,1. Serie A,2nd,Inter,26,30,9,0,56,28,1,29,20,48.8
+33ecf462,2019-2020,ITA,1. Serie A,9th,Hellas Verona,25,19.7,4,0,35,38,5,23,19,20.9
+343c0d52,2019-2020,ITA,1. Serie A,14th,Cagliari,24,32.5,4,0,59,54,23,20,42,24.7
+34a0f5ff,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,21,14.5,2,0,7,19,3,34,4,21.1
+34e12499,2019-2020,GER,1. Bundesliga,8th,Freiburg,19,4.1,0,0,7,9,0,3,23,79.3
+34e393f2,2019-2020,ESP,1. La Liga,15th,Betis,25,10.4,5,0,19,24,2,2,19,61.3
+34e4343c,2019-2020,GER,1. Bundesliga,14th,Köln,31,12.6,1,0,29,15,8,5,61,51.7
+3515d404,2019-2020,ENG,1. Premier League,11th,Southampton,24,38,9,0,73,52,0,62,73,58.4
+355c883a,2019-2020,ESP,1. La Liga,16th,Alavés,23,23.3,5,1,41,21,1,30,23,53.5
+356c9002,2019-2020,ITA,1. Serie A,2nd,Inter,32,22.1,5,0,20,19,13,119,3,25
+3594a357,2019-2020,ESP,1. La Liga,6th,Real Sociedad,19,0.3,0,0,1,0,0,3,2,100
+35dd6d80,2019-2020,ITA,1. Serie A,17th,Genoa,32,22.8,7,0,34,43,0,47,28,63.6
+360d70f8,2019-2020,ESP,1. La Liga,19th,Mallorca,28,24.3,3,0,39,52,10,58,42,46.7
+3624ce4c,2019-2020,ESP,1. La Liga,7th,Granada,31,32,4,0,28,13,1,68,54,54.5
+3631ad41,2019-2020,ENG,1. Premier League,16th,West Ham,18,4.9,0,0,4,1,1,9,8,42.1
+3672b352,2019-2020,ESP,1. La Liga,10th,Osasuna,19,0.1,0,0,0,0,0,0,1,100
+36a3ff67,2019-2020,GER,1. Bundesliga,2nd,Dortmund,30,16.6,1,0,19,19,7,27,5,13.9
+36c2ca73,2019-2020,ENG,1. Premier League,11th,Southampton,29,28,0,0,1,3,0,0,0,NULL
+3727dd3c,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,27,23.5,3,0,24,8,1,25,18,62.1
+3745e8bd,2019-2020,GER,1. Bundesliga,11th,Union Berlin,28,3.7,1,1,11,8,7,2,11,30.6
+374ee424,2019-2020,ESP,1. La Liga,6th,Real Sociedad,24,25,0,0,0,5,0,0,0,NULL
+379652be,2019-2020,ESP,1. La Liga,20th,Espanyol,21,12.4,0,0,9,40,0,8,7,25.9
+37e103f8,2019-2020,ESP,1. La Liga,8th,Getafe,19,4.2,3,0,14,17,1,3,14,26.9
+37f1cf47,2019-2020,ESP,1. La Liga,11th,Athletic Club,27,31.9,10,0,50,15,6,61,43,69.4
+37f606f0,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,21,12.6,3,0,28,17,1,13,6,28.6
+38126309,2019-2020,ESP,1. La Liga,19th,Mallorca,23,18.8,4,0,26,57,0,7,3,15.8
+38c7feef,2019-2020,ENG,1. Premier League,1st,Liverpool,25,16.5,1,0,17,20,2,29,13,33.3
+38ce1150,2019-2020,ESP,1. La Liga,13th,Valladolid,22,0.7,0,0,2,0,0,1,0,0
+38ceb24a,2019-2020,ENG,1. Premier League,15th,Brighton,24,22.3,0,0,20,20,4,69,2,8.3
+3902e91b,2019-2020,ESP,1. La Liga,12th,Levante,25,13.7,4,0,38,35,3,2,23,40.4
+3935e52e,2019-2020,ENG,1. Premier League,8th,Arsenal,26,18.9,4,0,25,18,5,29,24,57.1
+39583cfd,2019-2020,ENG,1. Premier League,19th,Watford,25,23.3,3,0,29,29,18,59,3,16.7
+3a233281,2019-2020,GER,1. Bundesliga,5th,Leverkusen,21,12.1,0,2,18,20,6,48,11,44
+3a24769f,2019-2020,ENG,1. Premier League,4th,Chelsea,25,12.3,0,0,10,19,0,9,10,40
+3a949a25,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,30,38,0,0,0,5,0,0,0,NULL
+3a9c4b7b,2019-2020,ESP,1. La Liga,10th,Osasuna,24,25.9,5,0,33,42,0,63,46,54.8
+3aa4a3be,2019-2020,ESP,1. La Liga,15th,Betis,25,22.6,2,1,24,54,25,11,30,32.6
+3ae14ed1,2019-2020,ENG,1. Premier League,17th,Aston Villa,24,21.7,4,1,38,36,5,41,28,37.8
+3b333ac3,2019-2020,ITA,1. Serie A,3rd,Atalanta,25,26.2,10,0,43,22,7,61,35,53.8
+3b61c9ec,2019-2020,ITA,1. Serie A,14th,Cagliari,20,21.2,10,0,36,23,0,90,19,51.4
+3b8674e6,2019-2020,ITA,1. Serie A,1st,Juventus,22,24.4,9,0,67,36,3,21,30,60
+3bb625ac,2019-2020,GER,1. Bundesliga,13th,Mainz 05,23,16.5,7,1,18,6,0,9,14,53.8
+3bb7af3b,2019-2020,ITA,1. Serie A,17th,Genoa,27,1.9,1,1,2,2,0,4,2,100
+3bb7af3b,2019-2020,ITA,1. Serie A,18th,Lecce,27,10.5,2,0,12,23,3,36,6,85.7
+3bb7b8b4,2019-2020,ENG,1. Premier League,2nd,Manchester City,25,34.1,3,1,1,2,0,0,0,NULL
+3bb7f478,2019-2020,ITA,1. Serie A,5th,Roma,33,31.7,4,0,41,53,16,23,135,64.3
+3c16d927,2019-2020,ESP,1. La Liga,19th,Mallorca,20,16.6,0,0,23,17,1,50,4,19
+3c16d927,2019-2020,ESP,1. La Liga,4th,Sevilla,20,0.4,0,0,1,0,0,3,0,NULL
+3c6089ab,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,29,25.1,5,0,22,31,11,96,37,43.5
+3ca7254a,2019-2020,ENG,1. Premier League,4th,Chelsea,32,7.3,1,0,8,15,0,10,2,28.6
+3cd3b384,2019-2020,ITA,1. Serie A,15th,Sampdoria,24,12.6,2,0,5,5,1,65,15,75
+3cd9e95a,2019-2020,GER,1. Bundesliga,14th,Köln,26,34,0,0,1,3,0,0,0,NULL
+3cefcaef,2019-2020,ESP,1. La Liga,1st,Real Madrid,24,20.1,8,1,27,30,1,51,23,53.5
+3d50bcdb,2019-2020,ENG,1. Premier League,12th,Everton,19,9.5,1,0,27,12,4,8,7,18.4
+3d688b46,2019-2020,ESP,1. La Liga,7th,Granada,21,16.7,4,0,55,38,0,0,25,49
+3e42f707,2019-2020,ESP,1. La Liga,10th,Osasuna,25,31,7,0,58,14,0,0,151,72.2
+3e9e06cb,2019-2020,ENG,1. Premier League,19th,Watford,29,26.2,6,0,38,12,0,3,108,75.5
+3ea50f67,2019-2020,ENG,1. Premier League,5th,Leicester City,21,23.1,0,0,20,34,4,37,25,39.1
+3ead85f9,2019-2020,ITA,1. Serie A,6th,Milan,24,34.3,4,0,42,25,1,0,85,65.4
+3eb0f2df,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,28,25.1,8,1,44,29,3,44,21,32.8
+3eb22ec9,2019-2020,ENG,1. Premier League,2nd,Manchester City,24,22.6,5,0,24,26,2,63,11,28.2
+3ecc11d8,2019-2020,ESP,1. La Liga,11th,Athletic Club,24,31.2,2,0,26,36,1,11,88,59.1
+3ee0dd59,2019-2020,ESP,1. La Liga,6th,Real Sociedad,20,5.8,3,0,10,8,0,2,18,85.7
+3eeb80e0,2019-2020,GER,1. Bundesliga,15th,Augsburg,21,5.1,0,0,4,2,6,2,6,31.6
+3eed9821,2019-2020,ESP,1. La Liga,2nd,Barcelona,25,10.5,6,0,20,17,1,0,22,68.8
+3ef0a2d7,2019-2020,ITA,1. Serie A,10th,Fiorentina,19,0.1,0,0,0,0,0,0,0,NULL
+3effaa34,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,23,17.5,1,0,17,25,12,12,48,41.4
+3effaa34,2019-2020,ITA,1. Serie A,6th,Milan,23,0.7,1,0,2,2,0,2,0,0
+3f10bd22,2019-2020,ESP,1. La Liga,4th,Sevilla,33,37.4,4,0,19,31,3,193,19,35.8
+3f2d59fe,2019-2020,ENG,1. Premier League,8th,Arsenal,27,13.4,2,0,15,5,0,0,68,75.6
+3f79a1c8,2019-2020,ESP,1. La Liga,14th,Eibar,26,18.6,9,1,38,33,2,10,49,49
+3faa1780,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,28,3.8,0,0,10,7,1,1,2,25
+3faa1780,2019-2020,ENG,1. Premier League,20th,Norwich City,28,7.7,1,0,12,7,0,4,4,19
+3fc45c73,2019-2020,ESP,1. La Liga,11th,Athletic Club,28,33,10,0,39,42,3,15,101,63.9
+407feb71,2019-2020,ESP,1. La Liga,1st,Real Madrid,19,0.7,1,0,2,6,0,1,0,0
+4112ace5,2019-2020,ESP,1. La Liga,11th,Athletic Club,18,0.8,1,0,0,1,0,2,0,0
+4115ce4e,2019-2020,ENG,1. Premier League,11th,Southampton,23,34,4,0,36,13,0,0,132,71
+41b3069f,2019-2020,ESP,1. La Liga,20th,Espanyol,23,11.6,4,1,6,5,0,1,15,45.5
+41c12f75,2019-2020,ESP,1. La Liga,8th,Getafe,21,20.8,7,1,37,23,3,37,83,55
+41f32541,2019-2020,ESP,1. La Liga,4th,Sevilla,32,29.5,13,0,42,28,2,6,83,56.8
+41ff002d,2019-2020,ENG,1. Premier League,7th,Wolves,20,0.1,0,0,0,0,0,0,0,NULL
+42130443,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,24,17,0,0,0,2,0,0,0,NULL
+42276181,2019-2020,ESP,1. La Liga,9th,Valencia,32,17.6,0,0,17,17,13,20,7,14.9
+43458538,2019-2020,ENG,1. Premier League,18th,Bournemouth,27,22.3,0,0,37,38,7,25,39,36.8
+437f2b00,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,19,16.6,3,0,45,29,6,10,35,42.7
+43a166b4,2019-2020,ENG,1. Premier League,1st,Liverpool,24,8,1,0,13,17,0,16,14,36.8
+43f71e77,2019-2020,ESP,1. La Liga,8th,Getafe,37,21,6,1,37,52,16,24,73,39.5
+441197b8,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,19,19.1,3,0,18,9,0,9,42,61.8
+44150beb,2019-2020,ESP,1. La Liga,6th,Real Sociedad,18,0.9,0,0,2,1,0,0,2,100
+442b56fa,2019-2020,GER,1. Bundesliga,13th,Mainz 05,21,26.1,5,1,31,43,2,68,23,38.3
+4431aed2,2019-2020,ITA,1. Serie A,4th,Lazio,29,35.2,8,0,44,47,21,24,24,26.1
+4442fbcd,2019-2020,ESP,1. La Liga,12th,Levante,27,17.4,11,0,52,28,0,1,19,51.4
+44510fde,2019-2020,ITA,1. Serie A,17th,Genoa,22,7.3,4,0,28,19,4,3,27,41.5
+4468ec10,2019-2020,ENG,1. Premier League,5th,Leicester City,23,6.9,1,0,3,11,3,22,3,30
+44781702,2019-2020,ENG,1. Premier League,6th,Tottenham,26,15.9,6,0,31,10,1,29,42,65.6
+44ac04e9,2019-2020,ITA,1. Serie A,2nd,Inter,27,14.2,4,0,23,12,3,12,14,42.4
+44bfb6c5,2019-2020,ENG,1. Premier League,7th,Wolves,22,34,9,0,41,19,0,16,25,47.2
+44eb9093,2019-2020,ITA,1. Serie A,2nd,Inter,30,15.6,6,0,37,21,4,16,20,54.1
+450ab6fc,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,25,23.1,5,0,25,19,2,0,83,68.6
+4535e4bb,2019-2020,ENG,1. Premier League,15th,Brighton,27,38,0,0,0,5,0,0,0,NULL
+45963054,2019-2020,ENG,1. Premier League,5th,Leicester City,32,33.7,2,0,25,17,28,35,53,34.6
+45a03961,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,23,31,5,0,38,25,2,68,73,66.4
+45af8a54,2019-2020,ESP,1. La Liga,1st,Real Madrid,23,3.7,0,0,3,4,1,9,3,37.5
+45b9b619,2019-2020,ITA,1. Serie A,4th,Lazio,24,22.2,0,0,22,54,6,13,16,25.8
+45db685d,2019-2020,ENG,1. Premier League,4th,Chelsea,27,26.4,10,0,37,35,0,3,13,26
+45e17712,2019-2020,ESP,1. La Liga,7th,Granada,26,12.4,4,0,18,19,0,11,13,36.1
+45e17712,2019-2020,ENG,1. Premier League,19th,Watford,26,0.7,0,0,0,1,0,0,0,0
+4601e194,2019-2020,ESP,1. La Liga,2nd,Barcelona,30,24.3,7,0,19,19,5,79,10,41.7
+4611e028,2019-2020,ITA,1. Serie A,10th,Fiorentina,25,32.8,9,0,62,36,4,49,28,53.8
+466824fb,2019-2020,ESP,1. La Liga,10th,Osasuna,33,25.8,15,1,59,41,2,14,71,53.4
+466fb2c5,2019-2020,ENG,1. Premier League,18th,Bournemouth,21,37,0,0,0,5,0,0,0,NULL
+46a8347f,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,27,4,3,0,9,3,0,14,16,84.2
+46fa7204,2019-2020,ITA,1. Serie A,10th,Fiorentina,20,0.7,0,0,3,1,0,0,0,0
+46fa7204,2019-2020,ITA,1. Serie A,17th,Genoa,20,7.4,5,1,24,12,1,10,4,40
+47064058,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,29,30,1,0,0,7,0,0,0,NULL
+471f16b3,2019-2020,ENG,1. Premier League,20th,Norwich City,27,33,5,0,33,59,1,30,87,50
+47369df8,2019-2020,ENG,1. Premier League,10th,Burnley,23,8.9,2,0,11,10,0,2,20,57.1
+4737cebe,2019-2020,ESP,1. La Liga,6th,Real Sociedad,24,13,3,0,26,46,2,42,7,35
+474ecac8,2019-2020,ESP,1. La Liga,12th,Levante,30,26.4,6,0,26,14,2,2,35,56.5
+4806ec67,2019-2020,ENG,1. Premier League,12th,Everton,25,38,2,0,1,7,0,0,0,NULL
+487d9b09,2019-2020,ESP,1. La Liga,15th,Betis,32,7.1,3,0,13,13,1,37,9,75
+48a5a5d6,2019-2020,ENG,1. Premier League,8th,Arsenal,18,7.4,1,0,12,9,2,16,7,17.9
+48b3dd60,2019-2020,ESP,1. La Liga,2nd,Barcelona,22,13.1,1,0,16,55,1,4,1,12.5
+48d5bd33,2019-2020,ITA,1. Serie A,3rd,Atalanta,26,17.1,7,1,34,61,3,33,13,35.1
+48e89655,2019-2020,ESP,1. La Liga,20th,Espanyol,30,0.6,0,0,0,2,1,3,0,NULL
+49296448,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,24,31.3,7,0,28,53,4,69,28,49.1
+493924a7,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,24,18.8,4,0,34,20,0,64,35,58.3
+4958bfb2,2019-2020,ESP,1. La Liga,1st,Real Madrid,27,30.4,11,0,49,38,3,93,27,45.8
+495945ef,2019-2020,ENG,1. Premier League,10th,Burnley,29,35,9,0,46,38,1,47,17,37.8
+49d028db,2019-2020,ESP,1. La Liga,15th,Betis,22,7.6,3,0,9,7,0,0,23,76.7
+49fe9070,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,23,31.1,4,0,18,34,44,84,9,24.3
+4a478107,2019-2020,ESP,1. La Liga,12th,Levante,32,28,3,0,18,14,15,72,16,42.1
+4a56052c,2019-2020,ITA,1. Serie A,5th,Roma,26,29.2,6,0,39,19,0,20,7,41.2
+4a5a45c7,2019-2020,ITA,1. Serie A,5th,Roma,23,23.3,8,1,49,38,4,63,15,34.1
+4a633cfe,2019-2020,ESP,1. La Liga,10th,Osasuna,27,6,0,0,4,4,0,3,25,61
+4ab53cdb,2019-2020,ENG,1. Premier League,10th,Burnley,30,22.4,1,0,30,19,22,12,74,34.7
+4accb7e0,2019-2020,ESP,1. La Liga,10th,Osasuna,27,24.9,8,0,63,24,3,12,41,34.2
+4b029b31,2019-2020,ITA,1. Serie A,17th,Genoa,25,8.7,4,0,15,22,0,10,22,46.8
+4b3e1a38,2019-2020,ITA,1. Serie A,9th,Hellas Verona,25,35.9,5,0,58,21,1,10,122,73.5
+4b40d9ca,2019-2020,ENG,1. Premier League,10th,Burnley,27,38,1,0,0,8,0,0,0,NULL
+4b511457,2019-2020,ENG,1. Premier League,11th,Southampton,27,20.7,5,0,44,20,1,6,41,56.2
+4bcf39f6,2019-2020,ENG,1. Premier League,15th,Brighton,22,30.7,3,0,41,49,15,15,17,16.7
+4bd00a50,2019-2020,GER,1. Bundesliga,5th,Leverkusen,20,1.3,0,0,1,0,0,0,2,100
+4bd414c1,2019-2020,ESP,1. La Liga,5th,Villarreal,33,36,9,0,33,24,2,4,78,65.5
+4c2e9442,2019-2020,ESP,1. La Liga,9th,Valencia,22,23.8,5,0,49,58,32,8,78,50
+4c370d81,2019-2020,ENG,1. Premier League,1st,Liverpool,27,33.2,0,0,33,26,6,16,29,28.2
+4c3a6744,2019-2020,ITA,1. Serie A,5th,Roma,20,16.8,6,1,33,37,1,20,7,25.9
+4c5b14d2,2019-2020,ESP,1. La Liga,15th,Betis,38,22.9,4,0,16,33,7,55,16,42.1
+4c5b714f,2019-2020,ENG,1. Premier League,12th,Everton,27,20.3,3,0,32,26,2,49,29,46.8
+4c62d0c8,2019-2020,ITA,1. Serie A,17th,Genoa,26,21,1,0,1,1,0,0,0,NULL
+4c6facae,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,22,19.4,2,0,43,47,0,24,25,43.1
+4c78b5ed,2019-2020,ITA,1. Serie A,4th,Lazio,32,20.1,10,1,51,23,0,6,44,62.9
+4cde5509,2019-2020,ITA,1. Serie A,6th,Milan,37,15.1,1,0,32,17,20,23,78,70.3
+4d034881,2019-2020,ENG,1. Premier League,2nd,Manchester City,31,16.1,1,0,9,11,6,8,2,12.5
+4d1666ff,2019-2020,ESP,1. La Liga,4th,Sevilla,20,25.7,6,0,23,13,0,9,105,74.5
+4d224fe8,2019-2020,ESP,1. La Liga,1st,Real Madrid,27,34.3,12,0,96,83,3,21,92,63.9
+4d8cd038,2019-2020,ESP,1. La Liga,1st,Real Madrid,21,4.8,2,0,6,1,4,2,10,45.5
+4dbd0916,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,23,10.3,2,0,8,13,0,9,9,52.9
+4e1d5e59,2019-2020,ITA,1. Serie A,10th,Fiorentina,21,0.1,0,0,1,0,0,0,1,100
+4e204552,2019-2020,GER,1. Bundesliga,2nd,Dortmund,20,0.8,0,0,1,2,0,0,1,16.7
+4e204552,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,20,4.3,0,0,2,2,0,9,3,60
+4e219ad2,2019-2020,ITA,1. Serie A,6th,Milan,25,15.1,2,0,10,32,2,71,1,25
+4e219ad2,2019-2020,ESP,1. La Liga,4th,Sevilla,25,8.7,0,0,9,10,3,22,3,37.5
+4e6dbac4,2019-2020,ITA,1. Serie A,4th,Lazio,24,33.7,9,0,78,53,8,40,120,58.8
+4e9a0555,2019-2020,ENG,1. Premier League,10th,Burnley,27,27.1,1,0,38,32,34,5,113,37.7
+4f28a6ff,2019-2020,ESP,1. La Liga,2nd,Barcelona,24,26.9,11,2,36,26,2,0,65,67
+4f2908e5,2019-2020,ITA,1. Serie A,8th,Sassuolo,35,16.8,5,1,18,14,1,10,29,69
+4f974391,2019-2020,ENG,1. Premier League,16th,West Ham,29,30.3,7,0,23,22,2,70,51,60
+4fb9c88f,2019-2020,ENG,1. Premier League,1st,Liverpool,18,1.4,0,0,5,2,0,0,2,40
+507c7bdf,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,24,13.2,2,0,12,21,2,22,2,16.7
+50871bcc,2019-2020,GER,1. Bundesliga,2nd,Dortmund,26,26.4,3,0,37,44,12,46,17,35.4
+50e6dc35,2019-2020,GER,1. Bundesliga,13th,Mainz 05,22,11.7,2,1,9,7,12,3,36,46.2
+5128bde4,2019-2020,ITA,1. Serie A,9th,Hellas Verona,28,36,4,0,17,15,20,125,18,38.3
+51a3c4c8,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,30,23.4,7,0,35,16,1,5,82,71.3
+51b41c5c,2019-2020,ENG,1. Premier League,12th,Everton,29,11.1,6,1,21,3,0,4,18,62.1
+51cf8561,2019-2020,ENG,1. Premier League,2nd,Manchester City,22,14.2,2,1,14,2,1,33,28,59.6
+52611641,2019-2020,ENG,1. Premier League,8th,Arsenal,23,16.8,7,0,36,52,1,5,9,33.3
+5271c8f1,2019-2020,ENG,1. Premier League,2nd,Manchester City,25,16.6,3,0,14,2,1,69,17,51.5
+528492ea,2019-2020,ITA,1. Serie A,10th,Fiorentina,26,9.9,2,0,10,14,0,10,4,40
+528492ea,2019-2020,ITA,1. Serie A,8th,Sassuolo,26,9.4,3,0,21,14,0,5,5,38.5
+5294a83f,2019-2020,ITA,1. Serie A,4th,Lazio,26,34.6,5,0,24,48,1,44,8,34.8
+529f49ab,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,26,28.3,13,0,60,45,0,7,59,65.6
+52ec54d0,2019-2020,ITA,1. Serie A,1st,Juventus,32,34.2,10,0,28,17,0,5,63,61.8
+53070b63,2019-2020,GER,1. Bundesliga,5th,Leverkusen,19,3.4,1,0,5,7,1,5,2,22.2
+5313ed43,2019-2020,ITA,1. Serie A,13th,Udinese,24,25,4,0,24,23,0,20,9,31
+531a4aa8,2019-2020,ENG,1. Premier League,11th,Southampton,20,8.7,1,0,9,8,3,8,21,52.5
+532e1e4f,2019-2020,ESP,1. La Liga,5th,Villarreal,22,33,6,0,31,11,0,2,45,47.4
+536cebe5,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,25,1,1,0,6,1,1,1,0,0
+536cebe5,2019-2020,ITA,1. Serie A,6th,Milan,25,15.5,5,0,28,16,3,45,18,41.9
+539230cf,2019-2020,ITA,1. Serie A,2nd,Inter,31,5.8,3,0,11,4,0,0,27,84.4
+53a0e358,2019-2020,ITA,1. Serie A,8th,Sassuolo,24,27.7,6,1,59,73,7,48,20,44.4
+53af52f3,2019-2020,ENG,1. Premier League,5th,Leicester City,32,38,2,0,0,7,0,0,0,NULL
+53cad200,2019-2020,ENG,1. Premier League,4th,Chelsea,29,35.9,1,0,45,17,3,110,94,61
+53de807a,2019-2020,ITA,1. Serie A,4th,Lazio,32,25.6,8,0,33,28,0,30,33,54.1
+53e07d0b,2019-2020,GER,1. Bundesliga,13th,Mainz 05,31,12.7,1,0,24,24,7,8,54,44.3
+54b4dc4e,2019-2020,GER,1. Bundesliga,5th,Leverkusen,26,17.5,4,1,27,22,1,26,22,59.5
+54e4866f,2019-2020,GER,1. Bundesliga,8th,Freiburg,26,18,1,1,10,15,6,45,10,35.7
+54e4866f,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,26,0.2,0,0,0,0,0,1,0,0
+54e53b7e,2019-2020,ITA,1. Serie A,11th,Parma,26,6.5,1,0,6,17,2,5,2,18.2
+54e53b7e,2019-2020,ITA,1. Serie A,15th,Sampdoria,26,7.4,4,1,11,13,2,10,1,4.8
+55126f3b,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,27,30,5,0,32,35,1,35,28,48.3
+555d5edd,2019-2020,GER,1. Bundesliga,5th,Leverkusen,22,20.6,3,0,27,42,3,32,7,25
+555f3a0b,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,24,13.5,3,1,21,9,2,5,26,56.5
+563a68ad,2019-2020,ITA,1. Serie A,12th,Bologna,31,19.8,10,1,42,35,1,2,27,56.3
+56413b1f,2019-2020,GER,1. Bundesliga,5th,Leverkusen,30,23.5,2,0,20,46,0,6,13,34.2
+56f7a928,2019-2020,ENG,1. Premier League,5th,Leicester City,22,31.4,2,0,36,61,1,45,29,50.9
+570bb4b9,2019-2020,ITA,1. Serie A,8th,Sassuolo,19,17.4,3,0,30,27,6,22,7,31.8
+5722eced,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,19,3.4,1,0,11,5,0,3,0,0
+57be54ec,2019-2020,ESP,1. La Liga,11th,Athletic Club,21,5.9,0,0,16,12,5,5,30,51.7
+57df7a11,2019-2020,ENG,1. Premier League,16th,West Ham,25,10.4,6,1,16,9,0,21,11,52.4
+57e3f0c7,2019-2020,ENG,1. Premier League,8th,Arsenal,24,22.3,4,0,15,48,4,59,13,24.1
+582a5247,2019-2020,GER,1. Bundesliga,15th,Augsburg,22,1.1,0,0,0,0,0,5,0,0
+58a9a4d9,2019-2020,ESP,1. La Liga,4th,Sevilla,24,17.7,5,0,37,26,1,27,9,24.3
+58afe001,2019-2020,ESP,1. La Liga,8th,Getafe,23,34.1,11,1,91,67,0,32,63,46.3
+58eee997,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,17,14.7,0,0,11,17,3,13,6,30
+59b7d823,2019-2020,ESP,1. La Liga,11th,Athletic Club,26,6.9,0,0,16,3,1,25,9,47.4
+59be3a74,2019-2020,ITA,1. Serie A,4th,Lazio,19,0.7,0,0,6,4,0,0,0,NULL
+59e4b92e,2019-2020,GER,1. Bundesliga,15th,Augsburg,25,29.4,8,0,44,41,0,6,51,52
+59e6e5bf,2019-2020,ENG,1. Premier League,12th,Everton,22,29.2,9,0,58,48,13,19,170,46.4
+5a2cb25d,2019-2020,ITA,1. Serie A,9th,Hellas Verona,22,32.4,10,2,70,68,0,28,24,36.9
+5a4280b1,2019-2020,ENG,1. Premier League,10th,Burnley,28,6.3,0,0,10,6,0,0,22,57.9
+5a626448,2019-2020,ESP,1. La Liga,5th,Villarreal,25,25.8,1,0,26,29,8,68,10,24.4
+5a7301ae,2019-2020,ENG,1. Premier League,7th,Wolves,24,31.1,5,0,34,13,0,7,90,56.3
+5aa53281,2019-2020,ITA,1. Serie A,5th,Roma,23,30.4,16,1,78,28,4,4,78,75.7
+5aaef9ef,2019-2020,ITA,1. Serie A,11th,Parma,32,21.5,5,1,55,56,3,26,83,55.7
+5ab0ea87,2019-2020,ESP,1. La Liga,2nd,Barcelona,31,27.6,9,0,52,58,0,0,40,54.1
+5acc4a10,2019-2020,ENG,1. Premier League,19th,Watford,31,29.2,8,0,71,51,0,14,46,76.7
+5bd72174,2019-2020,ITA,1. Serie A,8th,Sassuolo,31,32.6,3,0,25,50,23,13,16,29.1
+5c2b4f07,2019-2020,ENG,1. Premier League,6th,Tottenham,26,30,4,1,42,25,6,98,67,50
+5c397195,2019-2020,ITA,1. Serie A,8th,Sassuolo,23,4.3,1,0,9,19,3,3,2,40
+5c4bf6ba,2019-2020,GER,1. Bundesliga,13th,Mainz 05,24,21.5,1,0,0,2,0,0,0,0
+5c4dc0ff,2019-2020,ESP,1. La Liga,1st,Real Madrid,25,0.5,1,0,2,0,0,0,2,40
+5c7845f6,2019-2020,ESP,1. La Liga,6th,Real Sociedad,22,29.3,9,0,56,30,0,4,56,46.3
+5c96b017,2019-2020,ESP,1. La Liga,10th,Osasuna,26,24.3,6,0,50,34,7,64,29,33.7
+5ca20b7a,2019-2020,ESP,1. La Liga,6th,Real Sociedad,27,28.3,8,1,45,66,1,81,77,67
+5cbd1eb0,2019-2020,ENG,1. Premier League,14th,Crystal Palace,19,2.2,1,0,1,2,0,4,1,14.3
+5cdddffa,2019-2020,ENG,1. Premier League,6th,Tottenham,22,11.2,3,0,19,36,0,7,5,41.7
+5ce0b5ba,2019-2020,ESP,1. La Liga,6th,Real Sociedad,29,2.4,0,0,4,3,0,0,3,60
+5ceba7fc,2019-2020,ESP,1. La Liga,5th,Villarreal,26,11,0,0,9,9,7,10,7,21.2
+5cec2487,2019-2020,ENG,1. Premier League,15th,Brighton,28,21.1,5,0,35,16,4,46,27,58.7
+5d4f7d61,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,23,14.4,3,0,18,20,9,7,51,53.1
+5d8d7454,2019-2020,ENG,1. Premier League,17th,Aston Villa,24,22.7,7,0,45,26,2,64,42,41.2
+5d8e331f,2019-2020,GER,1. Bundesliga,8th,Freiburg,29,30.9,9,0,65,39,0,5,62,63.9
+5dcf3e90,2019-2020,ESP,1. La Liga,11th,Athletic Club,22,33.2,2,1,1,5,0,0,0,NULL
+5ddb8f9f,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,26,15.4,0,0,8,6,4,66,30,50
+5dfc6ad5,2019-2020,GER,1. Bundesliga,2nd,Dortmund,30,24.9,4,0,42,45,2,9,19,65.5
+5e861944,2019-2020,ITA,1. Serie A,2nd,Inter,25,2.9,0,0,4,9,1,11,2,50
+5e861944,2019-2020,ITA,1. Serie A,7th,Napoli,25,8.3,1,0,8,21,0,19,2,22.2
+5ea8ef20,2019-2020,ENG,1. Premier League,8th,Arsenal,20,19.4,6,0,25,59,0,6,11,37.9
+5eae500a,2019-2020,ITA,1. Serie A,2nd,Inter,26,33.1,2,0,53,27,23,31,83,53.2
+5ed9b537,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,20,6.3,2,0,4,5,0,3,18,85.7
+5eecec3d,2019-2020,ENG,1. Premier League,2nd,Manchester City,25,12.5,0,0,5,4,1,0,38,65.5
+5efc5389,2019-2020,ITA,1. Serie A,14th,Cagliari,25,14.9,4,0,21,14,3,32,26,51
+5fa57166,2019-2020,ITA,1. Serie A,9th,Hellas Verona,19,0.1,0,0,0,0,0,0,0,0
+5fd5ed86,2019-2020,ITA,1. Serie A,16th,Torino,22,25.2,6,2,36,23,2,0,70,59.3
+601ef102,2019-2020,ITA,1. Serie A,13th,Udinese,29,26.8,10,0,71,71,20,10,58,36.5
+6025fab1,2019-2020,ESP,1. La Liga,1st,Real Madrid,33,22.2,7,1,34,35,1,30,11,32.4
+603116a7,2019-2020,ESP,1. La Liga,1st,Real Madrid,31,14.4,2,0,9,21,0,52,10,58.8
+603cb947,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,28,15.8,3,0,6,20,7,20,8,29.6
+605eb473,2019-2020,ESP,1. La Liga,19th,Mallorca,34,36,4,0,0,7,0,0,0,NULL
+610aa1e9,2019-2020,GER,1. Bundesliga,18th,Paderborn 07,19,14,1,0,6,7,1,0,26,45.6
+61220da2,2019-2020,ESP,1. La Liga,12th,Levante,26,35.1,4,1,34,63,2,53,33,46.5
+61b3978f,2019-2020,ITA,1. Serie A,15th,Sampdoria,27,26.7,10,0,40,22,1,31,37,56.1
+61b62b33,2019-2020,ESP,1. La Liga,7th,Granada,24,13.5,0,0,8,21,9,34,6,20.7
+6213fd82,2019-2020,ITA,1. Serie A,20th,SPAL,24,21.4,2,0,34,18,3,68,16,48.5
+62437b4f,2019-2020,ITA,1. Serie A,13th,Udinese,23,3.8,1,0,12,10,3,8,16,42.1
+62437b4f,2019-2020,ENG,1. Premier League,19th,Watford,23,0.8,1,0,3,1,0,4,1,25
+6250083a,2019-2020,ENG,1. Premier League,6th,Tottenham,18,0.9,0,0,1,0,0,0,0,0
+6265208f,2019-2020,ESP,1. La Liga,16th,Alavés,29,30.9,6,0,57,60,6,15,266,65.7
+626fab5f,2019-2020,GER,1. Bundesliga,15th,Augsburg,23,13.1,3,0,19,8,1,15,23,54.8
+62ab9184,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,25,9.2,1,0,12,20,1,9,10,50
+62ba5881,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,25,1,0,0,0,1,0,0,0,NULL
+635f2732,2019-2020,GER,1. Bundesliga,13th,Mainz 05,25,25.2,5,0,54,61,0,15,13,25.5
+63f04c6c,2019-2020,ESP,1. La Liga,15th,Betis,23,15,3,0,24,21,2,26,17,58.6
+6421ec64,2019-2020,ENG,1. Premier League,1st,Liverpool,27,2.1,0,0,2,4,1,4,3,42.9
+6434f10d,2019-2020,ENG,1. Premier League,2nd,Manchester City,23,27.6,8,0,46,42,0,4,69,67.6
+649b01d8,2019-2020,ITA,1. Serie A,15th,Sampdoria,22,36,1,0,0,5,0,0,0,NULL
+64ba07c0,2019-2020,GER,1. Bundesliga,13th,Mainz 05,21,6.4,3,0,7,8,0,7,5,55.6
+64cd167d,2019-2020,ITA,1. Serie A,17th,Genoa,25,21.9,3,1,31,29,0,22,40,69
+64e8ed6d,2019-2020,ESP,1. La Liga,12th,Levante,22,23.8,2,0,19,31,14,17,25,27.2
+64f69877,2019-2020,GER,1. Bundesliga,5th,Leverkusen,27,22.7,3,0,21,21,31,35,31,37.3
+652d4c37,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,24,7.1,0,0,6,11,0,11,8,50
+6613c819,2019-2020,ENG,1. Premier League,16th,West Ham,24,11.6,0,0,14,9,0,1,62,62
+66385c46,2019-2020,GER,1. Bundesliga,13th,Mainz 05,23,19.8,1,0,26,19,11,42,23,50
+6639e500,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,23,16.5,3,0,28,23,3,29,13,32.5
+66b76d44,2019-2020,ENG,1. Premier League,20th,Norwich City,22,27.4,6,1,40,69,2,43,23,29.9
+6763373d,2019-2020,ESP,1. La Liga,13th,Valladolid,19,2.6,1,0,5,8,1,3,6,18.2
+67669ce7,2019-2020,ESP,1. La Liga,7th,Granada,23,3,0,0,0,0,0,0,0,NULL
+677da306,2019-2020,GER,1. Bundesliga,15th,Augsburg,21,21.8,3,0,14,14,1,0,87,62.6
+67cdbc0e,2019-2020,ESP,1. La Liga,2nd,Barcelona,32,18.6,4,0,52,26,7,13,33,51.6
+67f649be,2019-2020,ITA,1. Serie A,17th,Genoa,22,17,1,0,0,1,0,0,0,NULL
+68252d6d,2019-2020,ITA,1. Serie A,3rd,Atalanta,31,18.5,1,1,16,66,3,34,3,12
+6928979a,2019-2020,ITA,1. Serie A,2nd,Inter,22,22.4,11,0,45,50,2,30,25,62.5
+69374ff5,2019-2020,GER,1. Bundesliga,5th,Leverkusen,31,19.9,4,0,36,38,1,5,20,52.6
+697295b1,2019-2020,ESP,1. La Liga,14th,Eibar,28,19.7,2,0,10,19,2,12,65,63.1
+699fb8db,2019-2020,GER,1. Bundesliga,8th,Freiburg,25,27,2,0,18,18,0,9,43,55.8
+69cbc8b6,2019-2020,ESP,1. La Liga,20th,Espanyol,28,17,2,0,12,8,1,21,46,69.7
+69cbc8b6,2019-2020,ESP,1. La Liga,8th,Getafe,28,17,3,0,17,10,1,14,58,63.7
+6a99e0b1,2019-2020,ESP,1. La Liga,11th,Athletic Club,25,32.7,3,0,31,53,29,53,48,36.6
+6aa3e78b,2019-2020,ENG,1. Premier League,6th,Tottenham,19,3.8,0,0,4,2,2,12,6,54.5
+6adbc307,2019-2020,ENG,1. Premier League,11th,Southampton,25,27.2,4,1,18,17,0,3,43,43.4
+6b47c5db,2019-2020,ENG,1. Premier League,5th,Leicester City,22,29.7,6,0,72,33,1,2,77,55.4
+6bb2c084,2019-2020,ESP,1. La Liga,5th,Villarreal,23,28.7,6,0,56,50,0,9,66,57.4
+6bba916f,2019-2020,GER,1. Bundesliga,18th,Paderborn 07,19,2,0,0,1,2,0,3,0,0
+6bd5cd5d,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,27,17.7,2,0,9,5,3,4,50,56.8
+6bd603db,2019-2020,ENG,1. Premier League,12th,Everton,23,1.5,0,0,2,2,0,0,2,50
+6c203af0,2019-2020,ENG,1. Premier League,15th,Brighton,22,14,4,0,41,20,0,6,17,60.7
+6c6a3300,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,23,25.2,2,0,28,53,8,73,7,15.9
+6c7762c3,2019-2020,ENG,1. Premier League,6th,Tottenham,21,0.8,1,0,3,0,0,0,1,100
+6c811eb7,2019-2020,ESP,1. La Liga,2nd,Barcelona,21,1.9,0,0,3,4,0,0,2,40
+6c811eb7,2019-2020,ESP,1. La Liga,15th,Betis,21,8.2,1,0,17,22,3,2,4,26.7
+6ca5ec4b,2019-2020,ENG,1. Premier League,12th,Everton,23,17.7,0,0,13,7,0,34,7,31.8
+6cafd68d,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,29,7.8,2,0,3,6,0,1,19,70.4
+6cc47ae1,2019-2020,ENG,1. Premier League,15th,Brighton,25,1,0,0,0,2,0,0,1,33.3
+6cc47ae1,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,25,5.9,1,0,9,8,6,4,9,47.4
+6cc97b6a,2019-2020,ITA,1. Serie A,11th,Parma,24,7.1,6,0,9,12,1,6,6,54.5
+6cdd8245,2019-2020,ENG,1. Premier League,19th,Watford,29,10.8,2,0,19,13,0,20,8,36.4
+6ce1f46f,2019-2020,ESP,1. La Liga,1st,Real Madrid,29,29.5,2,0,30,49,2,49,11,52.4
+6d5701f2,2019-2020,ENG,1. Premier League,12th,Everton,24,25.4,3,0,22,12,2,4,112,64
+6d8f8441,2019-2020,ESP,1. La Liga,12th,Levante,32,11,3,0,20,12,1,17,17,60.7
+6e058f06,2019-2020,ITA,1. Serie A,8th,Sassuolo,19,2.9,0,0,3,6,1,1,0,0
+6e33125f,2019-2020,ENG,1. Premier League,11th,Southampton,20,3.1,2,1,3,3,0,6,11,52.4
+6e4df551,2019-2020,ITA,1. Serie A,3rd,Atalanta,31,31.6,2,0,18,86,3,88,4,17.4
+6eaed4eb,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,28,4.9,0,0,6,4,0,1,13,76.5
+6ec6fde0,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,24,12.7,2,0,9,16,1,1,21,44.7
+6ecbddf6,2019-2020,GER,1. Bundesliga,15th,Augsburg,20,28.1,8,0,40,40,6,28,20,28.2
+6eee05f1,2019-2020,ITA,1. Serie A,3rd,Atalanta,26,30.9,5,0,38,41,0,2,116,73.4
+6f51e382,2019-2020,ESP,1. La Liga,2nd,Barcelona,27,36,1,0,0,2,0,0,0,NULL
+6f5ead86,2019-2020,ITA,1. Serie A,11th,Parma,25,26.9,10,0,59,20,4,37,33,58.9
+6f5f82c0,2019-2020,ESP,1. La Liga,6th,Real Sociedad,22,7.9,2,0,12,12,0,22,11,52.4
+6f7d826d,2019-2020,ENG,1. Premier League,17th,Aston Villa,21,29,8,0,64,40,0,17,32,49.2
+6fe90922,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,30,13.4,1,0,18,5,7,74,18,69.2
+70678132,2019-2020,GER,1. Bundesliga,15th,Augsburg,22,7.5,0,0,14,18,2,7,14,41.2
+70678132,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,22,3.5,0,0,4,3,0,2,5,71.4
+70d74ece,2019-2020,ESP,1. La Liga,1st,Real Madrid,31,34.9,0,0,23,24,27,26,28,36.8
+70dcf94d,2019-2020,GER,1. Bundesliga,8th,Freiburg,25,19.1,5,1,36,47,0,9,34,37.4
+70f8e0bd,2019-2020,ESP,1. La Liga,19th,Mallorca,31,33.8,7,0,72,90,6,41,33,35.9
+7111d552,2019-2020,ESP,1. La Liga,1st,Real Madrid,19,15.2,4,0,23,31,9,40,4,44.4
+719384c1,2019-2020,ESP,1. La Liga,7th,Granada,31,10.8,6,0,21,19,1,18,4,40
+71b47ab9,2019-2020,ESP,1. La Liga,19th,Mallorca,20,16.5,5,1,19,40,4,17,41,38.7
+71dc23da,2019-2020,ITA,1. Serie A,17th,Genoa,22,19.1,4,0,25,24,3,86,11,44
+71ef519e,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,29,14.6,4,0,32,18,0,38,20,51.3
+7242b495,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,27,22.9,6,0,28,43,1,45,40,63.5
+72a99e38,2019-2020,ESP,1. La Liga,15th,Betis,27,8.7,1,0,8,8,0,15,3,33.3
+73000a79,2019-2020,GER,1. Bundesliga,5th,Leverkusen,24,10.1,1,0,14,6,0,12,7,36.8
+7314bba4,2019-2020,ENG,1. Premier League,15th,Brighton,27,13.8,2,0,16,8,0,1,63,78.8
+73683fa9,2019-2020,ESP,1. La Liga,20th,Espanyol,37,35.9,5,1,0,6,0,0,0,NULL
+74419746,2019-2020,ITA,1. Serie A,2nd,Inter,35,35,2,0,1,8,0,0,0,NULL
+7460ca0d,2019-2020,ESP,1. La Liga,9th,Valencia,30,33.6,6,1,35,101,3,49,15,46.9
+74b2cd7e,2019-2020,ENG,1. Premier League,16th,West Ham,31,31,4,0,25,13,0,2,108,68.4
+74e12f1e,2019-2020,ENG,1. Premier League,10th,Burnley,30,29,1,0,46,30,1,8,53,45.3
+75645f0e,2019-2020,ESP,1. La Liga,15th,Betis,26,21.4,3,1,34,25,14,10,34,43
+758dd7f0,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,25,17.8,5,0,21,11,1,34,18,45
+75a72a99,2019-2020,ENG,1. Premier League,5th,Leicester City,25,28,1,0,53,44,0,41,38,48.1
+75b86fb3,2019-2020,ITA,1. Serie A,2nd,Inter,20,21.3,9,1,39,30,0,17,46,65.7
+75bd85ea,2019-2020,ESP,1. La Liga,19th,Mallorca,35,28.5,10,1,39,27,1,30,8,40
+75f2c59f,2019-2020,ENG,1. Premier League,19th,Watford,28,18.3,4,0,24,34,6,16,6,17.6
+76b2817e,2019-2020,GER,1. Bundesliga,14th,Köln,24,25.9,6,1,57,36,3,50,42,64.6
+76eca7e2,2019-2020,ENG,1. Premier League,14th,Crystal Palace,32,3,0,0,0,0,0,0,0,NULL
+774cf58b,2019-2020,ENG,1. Premier League,20th,Norwich City,19,36,7,0,34,51,3,54,23,35.4
+77cf6852,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,24,11.3,0,0,3,8,0,11,10,55.6
+77e84962,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,28,19.7,7,0,25,22,0,7,29,43.3
+780e3631,2019-2020,ITA,1. Serie A,9th,Hellas Verona,22,27.7,7,0,36,65,6,27,67,34.5
+78841da9,2019-2020,ITA,1. Serie A,7th,Napoli,32,24.1,2,0,14,46,10,99,10,37
+79083382,2019-2020,ITA,1. Serie A,5th,Roma,28,1.5,2,0,3,1,0,0,1,25
+792ffa71,2019-2020,GER,1. Bundesliga,14th,Köln,17,0.2,0,0,0,0,0,0,0,NULL
+79300479,2019-2020,ESP,1. La Liga,6th,Real Sociedad,20,28.1,3,0,26,43,0,38,11,35.5
+79443529,2019-2020,ITA,1. Serie A,10th,Fiorentina,19,16.7,4,1,22,54,9,16,38,38.8
+7956236f,2019-2020,ENG,1. Premier League,8th,Arsenal,26,8.6,2,0,0,0,0,0,0,NULL
+79b0d6a0,2019-2020,ENG,1. Premier League,7th,Wolves,31,38,0,0,0,7,0,0,0,NULL
+79c0821a,2019-2020,ENG,1. Premier League,4th,Chelsea,25,23,8,0,22,55,0,14,8,29.6
+79c84d1c,2019-2020,ENG,1. Premier League,16th,West Ham,22,10.2,0,0,4,23,1,31,4,14.8
+79c90e45,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,27,27.5,2,0,31,35,7,94,75,54.7
+79ca3e23,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,24,5,2,0,13,11,0,6,7,38.9
+79ca3e23,2019-2020,ENG,1. Premier League,20th,Norwich City,24,8,0,0,12,13,2,8,8,28.6
+7a11550b,2019-2020,ENG,1. Premier League,1st,Liverpool,22,22.3,7,0,24,17,0,5,72,62.1
+7a1f2c08,2019-2020,ENG,1. Premier League,14th,Crystal Palace,22,8.5,0,0,7,2,0,6,6,75
+7a2e46a8,2019-2020,ENG,1. Premier League,1st,Liverpool,26,28.3,0,1,0,2,0,0,0,NULL
+7a538238,2019-2020,ESP,1. La Liga,7th,Granada,29,8,2,0,11,9,0,11,8,57.1
+7b075c75,2019-2020,ITA,1. Serie A,17th,Genoa,27,7.1,2,0,4,0,1,0,20,76.9
+7b4de647,2019-2020,ITA,1. Serie A,6th,Milan,32,1.4,0,0,0,0,0,0,0,NULL
+7b5ab7f2,2019-2020,ESP,1. La Liga,18th,Leganés,18,6.2,2,0,10,15,4,28,2,22.2
+7b5ab7f2,2019-2020,ESP,1. La Liga,4th,Sevilla,18,0.7,2,0,1,0,0,3,0,0
+7b5f516f,2019-2020,ITA,1. Serie A,3rd,Atalanta,28,0.1,0,0,0,0,0,0,0,NULL
+7ba1f1ef,2019-2020,ITA,1. Serie A,3rd,Atalanta,20,0.2,0,0,0,0,0,0,0,NULL
+7ba6d84e,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,28,38,2,0,0,7,0,0,0,NULL
+7c104bb7,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,21,3.4,0,0,9,4,0,10,1,25
+7c3ed041,2019-2020,GER,1. Bundesliga,2nd,Dortmund,20,1.5,1,0,1,0,0,0,1,25
+7c473e12,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,28,27.1,8,1,24,7,2,0,78,74.3
+7c56da38,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,21,21.4,2,0,24,49,6,40,24,35.8
+7d2d3329,2019-2020,ENG,1. Premier League,5th,Leicester City,21,9.9,4,1,13,11,0,4,11,57.9
+7d3e7da6,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,30,1,1,0,0,0,0,0,0,NULL
+7d50454d,2019-2020,ITA,1. Serie A,14th,Cagliari,29,13.8,5,0,9,11,0,2,33,53.2
+7dcf86f6,2019-2020,ESP,1. La Liga,17th,Celta Vigo,31,36.2,9,0,33,76,20,36,24,26.4
+7eb97a8e,2019-2020,ITA,1. Serie A,12th,Bologna,27,25.2,6,0,42,77,8,66,10,19.6
+7ec7738e,2019-2020,ITA,1. Serie A,14th,Cagliari,24,3.9,3,0,8,5,0,9,3,37.5
+7ed4921e,2019-2020,ITA,1. Serie A,13th,Udinese,25,28.6,5,0,21,10,0,1,45,63.4
+7edfbb8a,2019-2020,ENG,1. Premier League,4th,Chelsea,21,14.3,3,0,9,8,1,1,40,64.5
+7f203b54,2019-2020,ESP,1. La Liga,8th,Getafe,27,3.4,4,0,8,2,1,0,14,50
+7f267d66,2019-2020,ITA,1. Serie A,14th,Cagliari,23,0,0,0,0,0,0,0,0,NULL
+7f267d66,2019-2020,ITA,1. Serie A,18th,Lecce,23,8,3,0,11,10,0,5,2,25
+7f3b388c,2019-2020,ENG,1. Premier League,1st,Liverpool,25,23.1,6,0,36,24,0,6,41,57.7
+7f4c7c9f,2019-2020,ESP,1. La Liga,12th,Levante,30,27,4,1,21,24,0,61,22,45.8
+7f609bfc,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,22,25.6,9,0,42,22,0,7,58,55.2
+7f78ad23,2019-2020,ITA,1. Serie A,6th,Milan,26,4.3,0,0,5,4,0,8,6,75
+7fa4e703,2019-2020,GER,1. Bundesliga,2nd,Dortmund,16,3.9,2,0,6,17,0,5,2,16.7
+7fcc71d8,2019-2020,ENG,1. Premier League,7th,Wolves,23,3.2,0,0,6,9,3,5,0,0
+7fe12375,2019-2020,GER,1. Bundesliga,15th,Augsburg,32,10,0,0,0,2,0,0,0,NULL
+7fe90ccd,2019-2020,ITA,1. Serie A,5th,Roma,27,5,0,0,3,2,3,21,0,0
+7fec31a0,2019-2020,ENG,1. Premier League,18th,Bournemouth,29,14,3,0,25,24,2,3,22,42.3
+801831fe,2019-2020,ITA,1. Serie A,6th,Milan,17,0.3,0,0,2,0,0,0,0,0
+808d48f3,2019-2020,ESP,1. La Liga,9th,Valencia,31,15.4,2,1,19,24,2,22,18,50
+80f36c88,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,29,30.4,9,0,34,38,1,32,24,52.2
+810e3c74,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,26,10.4,3,0,31,12,0,5,1,9.1
+81255c03,2019-2020,ITA,1. Serie A,14th,Cagliari,27,35,6,0,48,88,9,14,76,43.9
+817c6964,2019-2020,ITA,1. Serie A,6th,Milan,25,6,3,0,14,18,0,2,9,47.4
+819aa8e7,2019-2020,ENG,1. Premier League,5th,Leicester City,26,22.3,0,0,31,41,7,23,23,34.3
+819b3158,2019-2020,ENG,1. Premier League,2nd,Manchester City,28,22.4,7,0,21,18,2,8,17,70.8
+81d5c497,2019-2020,ESP,1. La Liga,5th,Villarreal,18,0.9,1,0,7,0,0,1,0,0
+81f0781e,2019-2020,ESP,1. La Liga,5th,Villarreal,27,30.5,5,0,42,58,16,54,54,38.8
+82328faf,2019-2020,ITA,1. Serie A,5th,Roma,22,1,0,0,0,0,0,0,0,NULL
+82927de4,2019-2020,ENG,1. Premier League,16th,West Ham,23,24.1,3,0,20,22,7,37,9,15.5
+82b1198a,2019-2020,ITA,1. Serie A,7th,Napoli,30,16.3,0,0,1,7,0,0,0,NULL
+82e34b69,2019-2020,ENG,1. Premier League,19th,Watford,31,24.7,3,0,40,36,12,14,174,37.5
+82efe6fa,2019-2020,ITA,1. Serie A,5th,Roma,20,6.8,1,0,13,13,0,0,16,76.2
+833fb62e,2019-2020,ESP,1. La Liga,13th,Valladolid,24,14.5,2,0,19,48,10,19,7,22.6
+834d0be5,2019-2020,GER,1. Bundesliga,5th,Leverkusen,26,13,6,0,24,17,18,5,34,40
+8397a50c,2019-2020,ENG,1. Premier League,17th,Aston Villa,26,32.2,7,0,27,13,2,6,66,62.3
+839c14e1,2019-2020,ENG,1. Premier League,8th,Arsenal,27,2.8,0,0,7,1,0,17,2,40
+839c14e1,2019-2020,ENG,1. Premier League,11th,Southampton,27,14.5,1,0,10,3,0,41,20,47.6
+83d074ff,2019-2020,ENG,1. Premier League,15th,Brighton,20,3.9,0,0,6,5,1,9,4,50
+84399660,2019-2020,ESP,1. La Liga,15th,Betis,26,2.9,2,1,2,1,2,2,4,57.1
+8455ad90,2019-2020,ESP,1. La Liga,9th,Valencia,18,5,1,2,8,9,0,12,2,33.3
+8494acc4,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,30,9.3,4,0,16,8,0,2,29,74.4
+8494acc4,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,30,4.6,2,0,5,3,0,0,15,75
+849c826a,2019-2020,ENG,1. Premier League,16th,West Ham,29,11,2,0,22,13,8,22,6,33.3
+84f55b4a,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,17,0,0,0,0,0,0,0,0,NULL
+854ee61a,2019-2020,ITA,1. Serie A,8th,Sassuolo,28,10.9,1,0,18,18,4,2,6,21.4
+85613cf0,2019-2020,ITA,1. Serie A,7th,Napoli,25,19.4,5,0,28,31,13,6,36,50.7
+8593f88c,2019-2020,GER,1. Bundesliga,8th,Freiburg,26,33.7,2,0,26,26,3,146,11,26.2
+861e0116,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,25,4.4,0,0,6,3,0,8,6,50
+862a1c15,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,25,33.6,5,0,35,68,24,38,9,19.6
+8650af85,2019-2020,ITA,1. Serie A,8th,Sassuolo,27,21.1,5,0,19,16,0,5,32,52.5
+86695068,2019-2020,ENG,1. Premier League,5th,Leicester City,25,12.6,2,0,22,16,1,9,5,35.7
+867239d3,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,26,13.4,1,0,30,27,2,7,27,73
+8696bc90,2019-2020,ESP,1. La Liga,4th,Sevilla,23,13.9,1,0,15,49,9,32,20,39.2
+86dd77d1,2019-2020,ENG,1. Premier League,2nd,Manchester City,29,26.6,5,0,26,23,3,50,33,46.5
+86e119e0,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,25,31.3,8,0,52,76,0,63,23,53.5
+873619c6,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,18,0.3,0,0,0,1,0,0,1,100
+8778c910,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,33,33,0,0,0,3,0,0,0,NULL
+87935cf3,2019-2020,ENG,1. Premier League,14th,Crystal Palace,29,10.3,1,1,2,2,0,0,20,54.1
+8794e251,2019-2020,ITA,1. Serie A,1st,Juventus,24,21.2,7,1,53,36,0,20,23,60.5
+88050721,2019-2020,ESP,1. La Liga,11th,Athletic Club,23,19.9,6,0,50,24,1,42,24,50
+881ef58c,2019-2020,ITA,1. Serie A,5th,Roma,30,5.7,0,0,11,13,1,6,2,25
+88d4144a,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,22,21,4,0,25,26,0,68,44,64.7
+88e357ef,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,24,24.4,0,0,16,28,16,73,5,22.7
+88f130ed,2019-2020,ESP,1. La Liga,2nd,Barcelona,19,0.9,0,0,1,0,0,0,1,33.3
+88f130ed,2019-2020,GER,1. Bundesliga,12th,Schalke 04,19,4.1,2,0,7,6,1,0,12,85.7
+892d5bb1,2019-2020,ENG,1. Premier League,2nd,Manchester City,28,21.6,0,0,16,37,13,52,10,30.3
+89976232,2019-2020,ITA,1. Serie A,16th,Torino,27,29.8,7,2,54,36,1,14,76,68.5
+89ac64a6,2019-2020,GER,1. Bundesliga,2nd,Dortmund,24,25.7,2,0,14,22,0,0,41,56.9
+89b2c8a9,2019-2020,ITA,1. Serie A,7th,Napoli,32,18.8,5,0,31,30,7,48,3,23.1
+89d10e53,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,29,9.6,2,0,13,23,0,6,9,42.9
+89d10e53,2019-2020,ENG,1. Premier League,6th,Tottenham,29,9.9,5,0,17,17,0,31,9,60
+89e4b358,2019-2020,ENG,1. Premier League,19th,Watford,30,27.6,7,0,22,3,0,3,75,62.5
+89f951b5,2019-2020,ESP,1. La Liga,2nd,Barcelona,31,17.7,5,0,24,45,1,13,18,52.9
+8a7ff278,2019-2020,ENG,1. Premier League,14th,Crystal Palace,29,26.5,4,0,23,27,0,33,52,66.7
+8aafd64f,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,19,19.4,6,0,38,48,6,20,16,25
+8abd0c03,2019-2020,ITA,1. Serie A,13th,Udinese,28,6.6,3,0,9,2,1,9,6,40
+8aec0537,2019-2020,ENG,1. Premier League,15th,Brighton,28,20,4,0,23,17,8,65,15,31.3
+8b04d6c1,2019-2020,ENG,1. Premier League,11th,Southampton,23,30.6,5,0,52,47,1,25,51,54.8
+8b609c34,2019-2020,ITA,1. Serie A,16th,Torino,18,1.5,0,0,2,3,0,8,5,83.3
+8b625720,2019-2020,ESP,1. La Liga,16th,Alavés,21,2.6,1,0,6,7,0,0,2,22.2
+8b6e0db2,2019-2020,GER,1. Bundesliga,15th,Augsburg,20,4.2,0,0,2,6,0,0,6,75
+8b788c01,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,23,29.2,1,0,32,47,12,20,21,25.9
+8b8a56ce,2019-2020,ITA,1. Serie A,3rd,Atalanta,30,3.2,2,0,14,1,0,0,10,47.6
+8b8a56ce,2019-2020,ITA,1. Serie A,6th,Milan,30,13.8,2,0,11,4,0,0,34,70.8
+8b95acda,2019-2020,ITA,1. Serie A,15th,Sampdoria,26,30.8,10,0,46,17,2,6,87,68.5
+8bc8829a,2019-2020,ITA,1. Serie A,2nd,Inter,17,0.8,1,0,2,0,0,1,1,100
+8c3c640c,2019-2020,ESP,1. La Liga,6th,Real Sociedad,22,33.9,4,0,33,65,16,66,45,42.5
+8c63fae5,2019-2020,ITA,1. Serie A,10th,Fiorentina,20,2.6,2,1,5,0,0,3,6,66.7
+8c65eb5f,2019-2020,ITA,1. Serie A,13th,Udinese,31,18.3,8,1,35,30,0,16,19,55.9
+8c725b43,2019-2020,ITA,1. Serie A,10th,Fiorentina,28,31.4,12,0,41,23,1,6,82,68.9
+8cabdc1e,2019-2020,ITA,1. Serie A,8th,Sassuolo,32,31,1,0,0,3,0,0,0,0
+8cc29864,2019-2020,ITA,1. Serie A,15th,Sampdoria,29,7.8,4,0,16,11,0,2,15,50
+8cfc2f69,2019-2020,ESP,1. La Liga,8th,Getafe,32,15.6,6,0,53,28,29,19,25,22.9
+8d3c902d,2019-2020,ENG,1. Premier League,14th,Crystal Palace,29,28.1,4,0,39,30,2,9,83,57.2
+8d47bb39,2019-2020,ESP,1. La Liga,7th,Granada,23,24.5,2,0,13,36,0,53,21,42
+8d78e732,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,30,30.7,5,0,35,51,18,27,62,56.9
+8da74c05,2019-2020,ITA,1. Serie A,3rd,Atalanta,25,2.3,0,0,5,2,0,0,5,83.3
+8db394aa,2019-2020,ESP,1. La Liga,16th,Alavés,29,21.1,8,0,29,37,0,15,37,56.1
+8df7a2fb,2019-2020,ENG,1. Premier League,10th,Burnley,29,32,7,0,37,20,3,3,143,64.7
+8e088e04,2019-2020,ESP,1. La Liga,10th,Osasuna,21,5.2,3,0,13,3,0,12,9,30
+8e235926,2019-2020,GER,1. Bundesliga,15th,Augsburg,25,3.4,0,0,3,4,1,1,6,46.2
+8e235926,2019-2020,GER,1. Bundesliga,12th,Schalke 04,25,9.2,2,0,13,6,2,4,44,50
+8e48dc61,2019-2020,ESP,1. La Liga,6th,Real Sociedad,22,10.4,4,0,27,11,0,2,14,43.8
+8e92be30,2019-2020,ESP,1. La Liga,6th,Real Sociedad,19,16.7,3,0,23,16,14,8,21,32.8
+8eb55dbb,2019-2020,GER,1. Bundesliga,11th,Union Berlin,24,6,1,0,9,6,3,19,3,20
+8f056768,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,21,19.1,4,0,35,30,0,8,21,51.2
+8f29e08b,2019-2020,ESP,1. La Liga,10th,Osasuna,23,2,0,0,0,0,0,0,0,NULL
+8f3565b3,2019-2020,ESP,1. La Liga,19th,Mallorca,28,30.7,12,0,74,70,16,7,141,46.7
+8f5e92a6,2019-2020,ESP,1. La Liga,1st,Real Madrid,18,11.3,0,0,9,25,5,35,10,31.3
+8f62b6ee,2019-2020,ENG,1. Premier League,6th,Tottenham,32,20.1,0,0,0,1,0,0,0,NULL
+8f866fe8,2019-2020,ITA,1. Serie A,15th,Sampdoria,27,22.6,2,0,33,41,14,29,27,27.6
+8f898ba8,2019-2020,ESP,1. La Liga,18th,Leganés,28,13.5,2,0,34,26,4,6,121,59.3
+8f8c6934,2019-2020,ESP,1. La Liga,8th,Getafe,26,38,2,0,2,0,0,0,0,NULL
+8fef5412,2019-2020,ITA,1. Serie A,6th,Milan,25,19.2,8,0,42,20,0,22,17,56.7
+90339309,2019-2020,GER,1. Bundesliga,13th,Mainz 05,22,23.5,7,0,25,26,1,4,50,48.5
+9038c2a1,2019-2020,ESP,1. La Liga,8th,Getafe,25,13.1,5,0,23,34,2,44,15,38.5
+9050ddc4,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,25,16.6,0,0,13,20,1,27,19,57.6
+9085dd7c,2019-2020,ITA,1. Serie A,14th,Cagliari,26,14.9,3,0,24,16,0,33,29,65.9
+90f91999,2019-2020,ENG,1. Premier League,17th,Aston Villa,24,25.7,3,0,39,79,0,42,22,42.3
+914ab9a1,2019-2020,ENG,1. Premier League,19th,Watford,28,25,3,2,25,17,0,0,60,57.7
+919dd4b1,2019-2020,ITA,1. Serie A,4th,Lazio,16,0,0,0,0,0,0,0,0,0
+921f6058,2019-2020,ITA,1. Serie A,3rd,Atalanta,29,27.6,5,0,56,22,1,7,83,68
+9228b07c,2019-2020,ENG,1. Premier League,12th,Everton,21,22.5,8,0,37,44,1,4,34,52.3
+92432bc6,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,21,8.4,1,0,20,6,1,7,15,46.9
+924f9191,2019-2020,GER,1. Bundesliga,11th,Union Berlin,24,10.3,2,0,21,28,1,1,10,52.6
+92948149,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,23,20.9,5,0,35,26,3,26,28,54.9
+92b4758e,2019-2020,ITA,1. Serie A,13th,Udinese,24,17.2,3,0,21,23,1,5,32,59.3
+92d83c27,2019-2020,ITA,1. Serie A,12th,Bologna,20,11.7,2,0,21,33,1,5,16,53.3
+92e7e919,2019-2020,ENG,1. Premier League,6th,Tottenham,27,27.5,0,2,19,33,17,29,8,19
+93090f69,2019-2020,ESP,1. La Liga,7th,Granada,24,34.3,7,0,38,22,4,5,87,64.9
+9328b835,2019-2020,ENG,1. Premier League,16th,West Ham,34,23.5,1,0,1,2,0,0,0,NULL
+933d3b51,2019-2020,ITA,1. Serie A,16th,Torino,26,9.5,0,0,9,2,0,0,11,47.8
+935e6b8f,2019-2020,ENG,1. Premier League,1st,Liverpool,29,24.9,2,0,35,15,0,48,25,71.4
+93a50d2c,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,24,11.1,0,0,11,11,0,0,22,61.1
+93b891d1,2019-2020,ITA,1. Serie A,4th,Lazio,30,15.6,7,0,31,29,8,2,24,30.8
+93cf32a8,2019-2020,ITA,1. Serie A,16th,Torino,29,29.9,6,1,41,28,0,0,65,66.3
+9413b19f,2019-2020,ITA,1. Serie A,7th,Napoli,22,21.7,0,0,0,4,0,0,0,NULL
+94816803,2019-2020,ITA,1. Serie A,10th,Fiorentina,20,5.7,3,0,12,29,2,18,4,44.4
+94b2001f,2019-2020,ITA,1. Serie A,1st,Juventus,28,16,4,1,22,17,2,20,17,56.7
+94c18565,2019-2020,GER,1. Bundesliga,14th,Köln,26,17.3,5,0,20,37,1,86,6,22.2
+952a03fe,2019-2020,ITA,1. Serie A,13th,Udinese,32,16.7,1,0,12,9,3,6,41,56.9
+9591723b,2019-2020,ITA,1. Serie A,3rd,Atalanta,18,0,0,0,0,0,0,0,0,NULL
+9592289a,2019-2020,ITA,1. Serie A,16th,Torino,28,18.2,7,0,63,37,10,9,56,39.7
+95facda1,2019-2020,ITA,1. Serie A,14th,Cagliari,23,32.2,14,0,52,56,7,85,26,28.3
+962e54cb,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,24,14.3,4,0,28,26,10,17,44,41.9
+963829d0,2019-2020,ESP,1. La Liga,5th,Villarreal,27,17.2,6,0,37,39,0,7,15,34.1
+96640846,2019-2020,ITA,1. Serie A,16th,Torino,31,1,0,0,0,0,0,0,0,NULL
+9674002f,2019-2020,ENG,1. Premier League,4th,Chelsea,20,31.9,3,0,40,56,4,66,14,26.4
+967f34d3,2019-2020,ESP,1. La Liga,17th,Celta Vigo,24,32.9,4,0,1,6,0,0,0,NULL
+96e0490d,2019-2020,ITA,1. Serie A,11th,Parma,29,29.8,6,0,44,50,3,45,33,50
+970b8574,2019-2020,ITA,1. Serie A,9th,Hellas Verona,21,5.8,1,0,9,7,2,26,3,42.9
+970b8574,2019-2020,ITA,1. Serie A,2nd,Inter,21,0.3,0,0,1,0,0,0,0,0
+97220da2,2019-2020,ENG,1. Premier League,4th,Chelsea,17,0.1,0,0,0,1,0,0,0,0
+97333cf5,2019-2020,ENG,1. Premier League,11th,Southampton,27,19.1,4,0,26,22,4,14,10,25.6
+97572117,2019-2020,ESP,1. La Liga,8th,Getafe,31,26.9,13,2,64,23,3,68,39,56.5
+97852360,2019-2020,ESP,1. La Liga,16th,Alavés,27,26.2,0,1,0,0,0,0,0,NULL
+983ff2c7,2019-2020,ITA,1. Serie A,10th,Fiorentina,24,9.5,4,0,18,12,0,19,11,61.1
+984a5a64,2019-2020,ENG,1. Premier League,11th,Southampton,22,7.8,1,0,9,23,1,8,3,16.7
+984a5a64,2019-2020,ENG,1. Premier League,6th,Tottenham,22,2.7,0,0,1,7,1,4,2,33.3
+989d5705,2019-2020,ENG,1. Premier League,10th,Burnley,27,21.5,8,0,23,18,4,10,21,46.7
+98d2c2c4,2019-2020,ITA,1. Serie A,3rd,Atalanta,27,26,3,0,51,39,0,25,14,37.8
+9907b1c8,2019-2020,ITA,1. Serie A,5th,Roma,20,16.7,8,0,50,44,3,25,8,28.6
+9939e168,2019-2020,ESP,1. La Liga,10th,Osasuna,21,16.6,4,0,28,7,0,8,24,45.3
+9970da54,2019-2020,ESP,1. La Liga,16th,Alavés,22,3,1,0,1,0,0,0,0,NULL
+997fff07,2019-2020,ITA,1. Serie A,7th,Napoli,22,5.9,2,0,7,2,0,4,6,35.3
+99813635,2019-2020,ENG,1. Premier League,1st,Liverpool,31,4.2,1,0,8,11,1,5,7,38.9
+99be8fb5,2019-2020,GER,1. Bundesliga,11th,Union Berlin,28,10.5,0,0,19,5,9,7,59,47.2
+99bebd12,2019-2020,ESP,1. La Liga,16th,Alavés,27,1.1,0,0,0,2,0,0,1,50
+99de6b6f,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,30,23,6,2,26,31,1,3,66,68.8
+9a104dee,2019-2020,ENG,1. Premier League,14th,Crystal Palace,28,2,0,0,3,4,1,1,5,23.8
+9a104dee,2019-2020,ENG,1. Premier League,12th,Everton,28,3.2,0,0,4,4,1,2,7,31.8
+9a28eba4,2019-2020,ENG,1. Premier League,7th,Wolves,23,28.9,1,0,48,101,5,148,48,48.5
+9a2e0ccc,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,27,12.7,1,0,15,20,1,11,7,31.8
+9a64e67e,2019-2020,ESP,1. La Liga,6th,Real Sociedad,22,26.6,6,0,30,25,0,2,91,64.5
+9a9c05db,2019-2020,ENG,1. Premier League,10th,Burnley,30,17,2,0,18,11,0,28,24,63.2
+9ab16552,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,35,21.9,3,0,11,30,0,1,28,49.1
+9b6f7fd5,2019-2020,ITA,1. Serie A,6th,Milan,21,12.3,7,0,27,33,3,11,23,41.1
+9c94165b,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,24,19.3,7,0,28,14,4,24,32,58.2
+9d4c45d6,2019-2020,ITA,1. Serie A,12th,Bologna,28,27.4,4,2,57,49,4,29,25,33.3
+9d66fbe3,2019-2020,ESP,1. La Liga,7th,Granada,34,26.1,14,0,50,47,20,23,47,35.6
+9dbb75ca,2019-2020,ENG,1. Premier League,8th,Arsenal,28,20.8,8,0,56,56,13,17,22,25.6
+9dc96f10,2019-2020,ITA,1. Serie A,3rd,Atalanta,17,0.3,0,0,1,0,1,1,0,NULL
+9deaf2c8,2019-2020,ENG,1. Premier League,17th,Aston Villa,21,6.1,0,0,14,12,3,2,24,38.1
+9e098912,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,21,0,0,0,0,0,0,0,0,NULL
+9e1035f8,2019-2020,ESP,1. La Liga,9th,Valencia,19,25,5,0,27,42,16,81,39,49.4
+9e1577aa,2019-2020,ITA,1. Serie A,2nd,Inter,26,17.5,3,0,21,22,3,83,4,22.2
+9e525177,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,21,34.1,8,0,28,24,1,71,28,53.8
+9f0ea33f,2019-2020,ESP,1. La Liga,5th,Villarreal,30,34,2,0,2,6,0,0,0,NULL
+9f1893b9,2019-2020,ENG,1. Premier League,16th,West Ham,26,16.6,1,0,20,29,2,32,4,14.3
+9f323c71,2019-2020,ESP,1. La Liga,11th,Athletic Club,30,6,1,0,9,3,2,13,7,35
+9f472354,2019-2020,ENG,1. Premier League,11th,Southampton,32,15.5,0,0,35,26,12,21,114,47.3
+9f5a610b,2019-2020,ITA,1. Serie A,15th,Sampdoria,24,2,1,0,1,0,0,0,0,NULL
+9f7c837d,2019-2020,ENG,1. Premier League,20th,Norwich City,21,29.4,3,1,14,12,0,2,72,66.1
+9f8e9423,2019-2020,ESP,1. La Liga,1st,Real Madrid,26,31.4,2,0,21,13,1,5,74,71.8
+9f979eb2,2019-2020,GER,1. Bundesliga,14th,Köln,22,6.9,4,1,7,11,0,2,10,35.7
+9fbbcf39,2019-2020,ENG,1. Premier League,7th,Wolves,29,30.1,12,1,46,24,2,7,117,64.3
+9fec8860,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,25,10.3,2,0,19,12,1,35,21,58.3
+a01c3d54,2019-2020,ESP,1. La Liga,12th,Levante,28,36,2,0,1,4,0,0,0,NULL
+a0255c67,2019-2020,ESP,1. La Liga,5th,Villarreal,20,2.8,0,0,11,4,0,0,1,14.3
+a0415710,2019-2020,GER,1. Bundesliga,14th,Köln,19,18.6,4,0,18,8,9,51,20,40
+a0666d3e,2019-2020,ENG,1. Premier League,19th,Watford,24,25,9,0,64,48,1,32,25,47.2
+a08b974a,2019-2020,ESP,1. La Liga,4th,Sevilla,25,30.5,10,1,48,64,11,81,30,44.1
+a0b4bb3e,2019-2020,ESP,1. La Liga,1st,Real Madrid,27,13.1,2,0,17,45,7,25,5,23.8
+a111cf41,2019-2020,ITA,1. Serie A,13th,Udinese,25,38,1,0,1,3,0,0,0,NULL
+a1232f4e,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,25,1.7,0,0,2,0,0,0,6,85.7
+a167537f,2019-2020,GER,1. Bundesliga,2nd,Dortmund,23,24.5,0,0,15,28,2,23,16,43.2
+a179d516,2019-2020,ENG,1. Premier League,4th,Chelsea,37,5,0,0,0,0,0,0,0,NULL
+a1d5bd30,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,21,29.4,3,0,22,51,13,29,20,30.3
+a29b1131,2019-2020,ENG,1. Premier League,6th,Tottenham,21,7.8,2,0,9,13,0,9,6,42.9
+a2a85828,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,21,0.9,0,0,0,0,0,0,1,50
+a2b105e0,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,21,15.3,2,1,19,29,0,20,12,37.5
+a300ac7e,2019-2020,ESP,1. La Liga,16th,Alavés,30,27.7,4,0,27,22,23,64,11,26.2
+a35134ae,2019-2020,ESP,1. La Liga,19th,Mallorca,27,9,3,1,11,5,0,0,25,62.5
+a36084cd,2019-2020,ITA,1. Serie A,12th,Bologna,17,0.2,0,0,1,1,0,1,0,0
+a39bb753,2019-2020,ESP,1. La Liga,1st,Real Madrid,28,12,0,0,12,59,2,18,5,55.6
+a3b03921,2019-2020,ENG,1. Premier League,8th,Arsenal,19,9.5,2,0,12,18,0,12,9,37.5
+a3d94a58,2019-2020,ITA,1. Serie A,17th,Genoa,21,28.6,15,1,54,23,2,5,76,66.1
+a3ddb1b9,2019-2020,GER,1. Bundesliga,14th,Köln,27,12.9,5,0,25,35,3,23,12,30.8
+a3ddb1b9,2019-2020,GER,1. Bundesliga,12th,Schalke 04,27,3.9,0,0,8,2,2,5,7,33.3
+a40819d9,2019-2020,ITA,1. Serie A,9th,Hellas Verona,19,21.7,7,1,49,24,1,1,68,66
+a4971d84,2019-2020,ESP,1. La Liga,8th,Getafe,27,34,5,0,45,26,1,6,96,61.9
+a4995f48,2019-2020,ESP,1. La Liga,10th,Osasuna,26,18.4,2,1,0,7,0,0,0,NULL
+a4ac4b8f,2019-2020,ENG,1. Premier League,7th,Wolves,28,22,3,1,28,10,1,0,73,73
+a4e85758,2019-2020,ITA,1. Serie A,10th,Fiorentina,21,6.8,2,0,9,5,1,2,11,91.7
+a4e85758,2019-2020,ITA,1. Serie A,20th,SPAL,21,14.9,7,0,23,12,0,9,16,53.3
+a4effc55,2019-2020,GER,1. Bundesliga,2nd,Dortmund,20,10.9,1,0,7,3,0,1,37,74
+a4fe8cda,2019-2020,ITA,1. Serie A,10th,Fiorentina,21,9.3,1,0,12,13,11,8,10,21.7
+a4fe8cda,2019-2020,ENG,1. Premier League,7th,Wolves,21,3.3,0,0,5,10,4,6,5,19.2
+a5296e55,2019-2020,ITA,1. Serie A,7th,Napoli,25,32.5,4,0,29,71,1,39,16,51.6
+a53649b7,2019-2020,ENG,1. Premier League,8th,Arsenal,20,7,0,1,16,12,3,3,6,42.9
+a53b661f,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,25,23.4,1,0,25,34,6,36,56,45.9
+a55d8df5,2019-2020,ESP,1. La Liga,18th,Leganés,23,13.6,4,0,31,14,6,29,8,28.6
+a58bb1e1,2019-2020,ESP,1. La Liga,1st,Real Madrid,30,12.1,4,1,18,12,5,51,22,64.7
+a5ce09f2,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,26,0.8,0,0,2,1,0,2,0,NULL
+a5ec3ede,2019-2020,GER,1. Bundesliga,13th,Mainz 05,25,8.9,2,0,13,14,0,0,38,63.3
+a6154613,2019-2020,ESP,1. La Liga,2nd,Barcelona,32,22.2,4,0,17,35,17,19,5,41.7
+a65ce836,2019-2020,GER,1. Bundesliga,2nd,Dortmund,25,10.6,5,0,13,17,0,4,14,70
+a65ce836,2019-2020,ITA,1. Serie A,1st,Juventus,25,3.2,2,0,12,5,0,4,2,100
+a6951bf8,2019-2020,ESP,1. La Liga,9th,Valencia,28,21.2,8,1,37,31,2,3,21,67.7
+a69cc629,2019-2020,ITA,1. Serie A,15th,Sampdoria,18,0.8,2,1,4,0,0,0,0,0
+a69e4806,2019-2020,ITA,1. Serie A,7th,Napoli,24,11.4,3,0,25,42,6,34,10,38.5
+a6de370d,2019-2020,ESP,1. La Liga,15th,Betis,28,35.1,5,0,36,64,2,76,6,15.4
+a6de6361,2019-2020,ENG,1. Premier League,17th,Aston Villa,33,19.9,0,0,1,3,0,0,1,100
+a70b8345,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,26,9,0,0,0,1,0,0,0,NULL
+a712ca2b,2019-2020,ENG,1. Premier League,16th,West Ham,22,30.7,8,0,37,12,1,1,84,68.3
+a73c8f95,2019-2020,GER,1. Bundesliga,5th,Leverkusen,20,11.8,2,0,14,3,0,0,25,50
+a7813ac4,2019-2020,GER,1. Bundesliga,13th,Mainz 05,31,19,3,0,12,10,0,83,19,45.2
+a7a9d95a,2019-2020,GER,1. Bundesliga,2nd,Dortmund,25,5.9,0,0,2,3,7,2,4,21.1
+a7a9d95a,2019-2020,ESP,1. La Liga,5th,Villarreal,25,10.3,1,0,4,12,13,3,8,30.8
+a83d8b0c,2019-2020,ESP,1. La Liga,5th,Villarreal,21,9.9,2,0,22,24,0,27,5,23.8
+a8542814,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,29,12.5,1,0,21,15,2,12,28,80
+a8a3d139,2019-2020,ENG,1. Premier League,17th,Aston Villa,26,0.1,0,0,0,0,0,0,0,NULL
+a8a874f1,2019-2020,ITA,1. Serie A,8th,Sassuolo,21,28.7,9,0,54,65,0,26,28,45.9
+a8d4428b,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,19,15.7,2,0,23,38,6,5,40,42.6
+a8f21b9f,2019-2020,ESP,1. La Liga,2nd,Barcelona,21,5.3,0,0,4,4,2,13,1,11.1
+a8f21b9f,2019-2020,ITA,1. Serie A,5th,Roma,21,6.3,2,0,14,11,0,1,1,10
+a92ab7be,2019-2020,GER,1. Bundesliga,8th,Freiburg,26,10,0,0,1,0,0,0,0,NULL
+a96e5dc0,2019-2020,ITA,1. Serie A,8th,Sassuolo,24,24.3,8,0,27,18,2,47,9,25
+a9dc785c,2019-2020,ESP,1. La Liga,2nd,Barcelona,30,2,0,0,0,0,0,0,0,NULL
+aa0ac32d,2019-2020,ESP,1. La Liga,12th,Levante,30,5.4,0,0,9,3,0,0,13,48.1
+aad48be9,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,24,19.2,8,0,33,9,0,0,37,58.7
+aad53e64,2019-2020,ESP,1. La Liga,10th,Osasuna,22,3.5,0,0,8,5,0,8,5,38.5
+aae9d04a,2019-2020,ITA,1. Serie A,9th,Hellas Verona,27,35.9,6,0,38,41,4,95,41,49.4
+ab070c55,2019-2020,ENG,1. Premier League,14th,Crystal Palace,28,14,4,1,29,25,12,8,118,53.9
+ab13a5aa,2019-2020,ENG,1. Premier League,14th,Crystal Palace,32,35,1,0,0,5,0,0,0,0
+ab1ca213,2019-2020,ITA,1. Serie A,9th,Hellas Verona,33,31.2,6,0,41,22,0,63,48,55.8
+ab4449d6,2019-2020,ITA,1. Serie A,12th,Bologna,28,37,2,0,0,5,0,0,0,NULL
+ab651565,2019-2020,ENG,1. Premier League,11th,Southampton,25,30.7,2,0,30,37,5,48,20,26
+ab700320,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,20,5.9,0,0,6,4,0,7,2,22.2
+abb3bb95,2019-2020,ESP,1. La Liga,4th,Sevilla,28,22.9,2,0,34,38,15,5,123,54.9
+abe66106,2019-2020,ENG,1. Premier League,6th,Tottenham,27,13.5,3,0,40,33,1,10,5,20.8
+ac05f970,2019-2020,ENG,1. Premier League,16th,West Ham,29,19.6,3,0,41,41,12,52,76,39.8
+ac295d9e,2019-2020,ESP,1. La Liga,14th,Eibar,27,35,3,0,1,2,0,0,0,NULL
+ac4003af,2019-2020,ITA,1. Serie A,3rd,Atalanta,27,5.8,0,0,0,0,0,0,0,NULL
+ac73ec79,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,21,19.8,1,0,16,31,2,34,49,79
+ac7e640b,2019-2020,ITA,1. Serie A,3rd,Atalanta,25,10.7,1,0,20,8,1,1,33,63.5
+ac861941,2019-2020,ENG,1. Premier League,6th,Tottenham,25,14.9,5,0,24,6,1,1,79,68.7
+ad00b1a8,2019-2020,GER,1. Bundesliga,14th,Köln,24,12.9,1,0,26,7,0,22,22,46.8
+ad1ffcfd,2019-2020,ESP,1. La Liga,5th,Villarreal,31,29.4,10,1,66,46,1,3,78,56.9
+ad3389d5,2019-2020,GER,1. Bundesliga,5th,Leverkusen,29,34,1,0,0,2,0,0,0,NULL
+ad6df2d5,2019-2020,ITA,1. Serie A,1st,Juventus,29,25.3,10,0,39,28,0,25,18,58.1
+aded8e6f,2019-2020,ITA,1. Serie A,5th,Roma,17,0.7,0,0,1,1,0,1,0,NULL
+adfc9123,2019-2020,ESP,1. La Liga,2nd,Barcelona,32,34.4,15,0,34,21,0,3,128,76.2
+ae44e8e2,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,21,8.3,1,0,11,18,0,8,16,59.3
+ae4e2852,2019-2020,ITA,1. Serie A,1st,Juventus,26,5.2,1,0,0,6,0,9,7,46.7
+ae7058f9,2019-2020,ITA,1. Serie A,15th,Sampdoria,21,6.3,1,1,10,6,0,0,21,67.7
+aed746df,2019-2020,ESP,1. La Liga,16th,Alavés,29,9.6,3,0,25,19,11,11,13,35.1
+aeed5c06,2019-2020,GER,1. Bundesliga,5th,Leverkusen,20,19.7,3,0,15,22,9,85,3,17.6
+afb0c500,2019-2020,GER,1. Bundesliga,12th,Schalke 04,22,25.7,1,1,0,6,0,0,0,NULL
+b05e2dbd,2019-2020,ESP,1. La Liga,9th,Valencia,24,22.1,5,0,18,31,2,70,19,37.3
+b0616e3d,2019-2020,ESP,1. La Liga,4th,Sevilla,29,8.6,2,0,13,9,0,18,21,56.8
+b0a0698b,2019-2020,GER,1. Bundesliga,14th,Köln,29,24.5,4,1,32,24,1,4,67,60.4
+b0b4fd3e,2019-2020,ENG,1. Premier League,17th,Aston Villa,23,35.9,8,0,37,180,4,67,17,32.7
+b0c71810,2019-2020,ENG,1. Premier League,11th,Southampton,25,8.5,2,0,29,25,2,30,8,42.1
+b0f7e36c,2019-2020,ITA,1. Serie A,10th,Fiorentina,21,29.3,7,0,55,51,7,54,6,16.7
+b0fce72c,2019-2020,ESP,1. La Liga,11th,Athletic Club,26,14.1,3,0,34,10,0,13,37,60.7
+b1236c63,2019-2020,ITA,1. Serie A,13th,Udinese,29,13.9,4,0,44,31,8,8,29,42.6
+b14d0c5d,2019-2020,ESP,1. La Liga,15th,Betis,29,13.1,1,0,9,5,0,0,27,67.5
+b19db005,2019-2020,ESP,1. La Liga,2nd,Barcelona,22,4,1,1,1,8,4,15,1,33.3
+b1cd37e6,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,26,32.9,4,0,37,42,4,223,21,72.4
+b217ef29,2019-2020,ENG,1. Premier League,1st,Liverpool,27,7.8,0,0,6,6,0,0,46,90.2
+b233e8e4,2019-2020,ESP,1. La Liga,17th,Celta Vigo,27,17,5,0,21,22,3,0,52,59.8
+b233e8e4,2019-2020,ITA,1. Serie A,15th,Sampdoria,27,7.4,3,1,8,9,2,4,13,52
+b28bbd58,2019-2020,ENG,1. Premier League,14th,Crystal Palace,28,14.4,0,0,12,35,1,44,4,25
+b2bc3b1f,2019-2020,ENG,1. Premier League,14th,Crystal Palace,26,36.4,5,0,53,147,16,85,16,29.6
+b2d03887,2019-2020,ESP,1. La Liga,16th,Alavés,25,14.4,1,0,16,16,2,13,12,44.4
+b2d03887,2019-2020,ENG,1. Premier League,14th,Crystal Palace,25,0.1,0,0,0,0,0,0,0,NULL
+b2d0ec1b,2019-2020,ESP,1. La Liga,17th,Celta Vigo,32,3.6,3,1,12,3,1,1,0,0
+b2d0ec1b,2019-2020,ESP,1. La Liga,4th,Sevilla,32,10,0,0,25,9,10,15,7,35
+b2d31e83,2019-2020,ENG,1. Premier League,15th,Brighton,27,32,5,0,37,14,3,40,137,72.5
+b3325a30,2019-2020,GER,1. Bundesliga,12th,Schalke 04,22,17.8,2,0,31,38,1,2,15,50
+b3af9be1,2019-2020,ITA,1. Serie A,12th,Bologna,20,28.1,8,0,44,29,0,25,52,51
+b3b7f5a6,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,29,13.6,4,0,21,12,4,47,42,58.3
+b400bde0,2019-2020,ENG,1. Premier League,2nd,Manchester City,24,29.5,5,0,34,49,12,63,20,36.4
+b418dbd4,2019-2020,ESP,1. La Liga,11th,Athletic Club,33,31.9,11,0,78,63,18,35,186,53.9
+b4a014b1,2019-2020,ESP,1. La Liga,4th,Sevilla,26,34.8,7,0,45,13,2,6,91,68.4
+b4cf5806,2019-2020,GER,1. Bundesliga,11th,Union Berlin,28,29.8,5,0,62,42,21,24,229,51.6
+b500b384,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,28,13.3,0,0,29,29,9,17,23,41.8
+b50ec54b,2019-2020,GER,1. Bundesliga,14th,Köln,24,6.9,0,0,8,15,1,12,6,40
+b561db50,2019-2020,ENG,1. Premier League,7th,Wolves,28,36,3,0,41,44,19,30,76,39.8
+b579e83d,2019-2020,ESP,1. La Liga,8th,Getafe,23,6.4,4,0,9,7,0,10,24,66.7
+b5bdf144,2019-2020,ESP,1. La Liga,20th,Espanyol,29,2,0,0,0,0,0,0,0,NULL
+b5bf1770,2019-2020,ITA,1. Serie A,16th,Torino,22,13.1,5,0,18,14,1,4,19,54.3
+b5dd3469,2019-2020,ESP,1. La Liga,12th,Levante,26,22.1,3,0,36,25,2,3,43,61.4
+b66315ae,2019-2020,ENG,1. Premier League,2nd,Manchester City,22,22.6,3,0,30,35,18,5,35,35.4
+b6964eb6,2019-2020,ITA,1. Serie A,5th,Roma,29,28.5,3,0,37,10,1,6,91,73.4
+b70bde8f,2019-2020,ITA,1. Serie A,2nd,Inter,23,8,2,0,14,19,0,25,3,42.9
+b742cc0d,2019-2020,ESP,1. La Liga,15th,Betis,28,28,8,0,40,29,1,2,111,66.1
+b77f44a4,2019-2020,GER,1. Bundesliga,11th,Union Berlin,23,31,11,1,43,15,0,8,99,58.2
+b7a5bc86,2019-2020,ITA,1. Serie A,20th,SPAL,23,4.7,2,0,12,10,0,9,4,44.4
+b7c99b9b,2019-2020,ESP,1. La Liga,16th,Alavés,29,29.5,9,1,37,8,2,4,60,69
+b7ca5c51,2019-2020,ESP,1. La Liga,9th,Valencia,28,31.1,5,0,17,24,0,3,84,70.6
+b7de5bad,2019-2020,ESP,1. La Liga,20th,Espanyol,19,14.1,2,0,18,24,0,42,9,29
+b825a650,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,28,7.5,1,0,11,2,1,6,2,25
+b827d5b3,2019-2020,ENG,1. Premier League,5th,Leicester City,29,9.6,2,0,9,11,1,49,2,28.6
+b853e0ad,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,26,24,8,0,50,46,1,27,8,33.3
+b857bd29,2019-2020,ESP,1. La Liga,19th,Mallorca,27,30.8,9,1,34,17,3,1,63,64.9
+b8a642fc,2019-2020,ESP,1. La Liga,5th,Villarreal,20,22.8,2,0,19,58,12,45,11,26.8
+b8c1de25,2019-2020,ESP,1. La Liga,7th,Granada,30,16.7,7,0,46,28,0,1,39,57.4
+b96b595c,2019-2020,ITA,1. Serie A,4th,Lazio,31,35.1,4,0,30,41,5,24,72,67.3
+b9fbae28,2019-2020,ENG,1. Premier League,4th,Chelsea,28,19.2,4,0,46,14,0,22,17,33.3
+ba3d3bea,2019-2020,ITA,1. Serie A,4th,Lazio,24,6.6,3,0,6,3,0,11,5,71.4
+ba5004e1,2019-2020,ESP,1. La Liga,8th,Getafe,31,28.8,15,0,63,50,0,67,36,41.9
+bad38a94,2019-2020,ESP,1. La Liga,20th,Espanyol,30,27.7,9,0,48,32,2,48,54,49.1
+bb5fbd2b,2019-2020,ENG,1. Premier League,15th,Brighton,25,12.7,2,0,14,13,2,48,15,50
+bba30585,2019-2020,ESP,1. La Liga,6th,Real Sociedad,25,25.9,7,1,23,17,3,1,63,57.3
+bbafc0c4,2019-2020,ITA,1. Serie A,16th,Torino,32,19.6,9,0,29,33,4,123,14,46.7
+bbd86530,2019-2020,GER,1. Bundesliga,11th,Union Berlin,24,25.2,2,0,34,26,1,61,44,53.7
+bc61cc65,2019-2020,ESP,1. La Liga,10th,Osasuna,31,12,4,0,19,12,1,18,7,31.8
+bc6f5f06,2019-2020,ESP,1. La Liga,4th,Sevilla,27,8,4,0,7,2,0,1,24,51.1
+bc7dc64d,2019-2020,ENG,1. Premier League,8th,Arsenal,17,19.5,6,0,22,35,10,45,12,24.5
+bcb2ccd8,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,29,32,0,0,0,1,0,0,0,NULL
+bd142efb,2019-2020,GER,1. Bundesliga,5th,Leverkusen,23,23.2,4,1,30,13,0,2,79,76
+bd527260,2019-2020,GER,1. Bundesliga,14th,Köln,26,9.4,0,0,14,15,3,28,10,32.3
+bd6351cd,2019-2020,ENG,1. Premier League,2nd,Manchester City,25,13.4,4,0,21,12,0,36,22,52.4
+bd992863,2019-2020,GER,1. Bundesliga,2nd,Dortmund,19,0.3,0,0,1,0,0,0,0,NULL
+bdb624a3,2019-2020,ESP,1. La Liga,11th,Athletic Club,19,8.2,1,0,19,16,0,2,8,40
+bdc74a8f,2019-2020,ITA,1. Serie A,5th,Roma,21,3.3,3,0,11,8,0,0,2,66.7
+be170419,2019-2020,ESP,1. La Liga,11th,Athletic Club,22,17.5,7,0,19,13,0,0,52,61.2
+be42a291,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,20,0.6,0,0,2,2,0,0,1,33.3
+be927d03,2019-2020,ITA,1. Serie A,2nd,Inter,34,13.2,1,0,7,22,4,31,7,50
+be927d03,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,34,10.6,5,0,15,17,0,24,15,62.5
+beb882a8,2019-2020,GER,1. Bundesliga,16th,Werder Bremen,22,31.7,6,0,38,41,0,19,34,44.2
+bece776f,2019-2020,ESP,1. La Liga,15th,Betis,26,29.3,10,2,78,139,14,42,26,36.1
+bee0bab1,2019-2020,GER,1. Bundesliga,5th,Leverkusen,29,15.8,2,0,26,17,6,67,2,22.2
+bee704fc,2019-2020,ITA,1. Serie A,10th,Fiorentina,21,36.2,9,0,75,18,1,1,83,76.9
+bf075f6b,2019-2020,GER,1. Bundesliga,8th,Freiburg,22,12.9,2,0,29,40,9,25,22,40
+bf12926c,2019-2020,ESP,1. La Liga,15th,Betis,19,3.9,0,0,8,13,0,14,3,20
+bf309d24,2019-2020,ITA,1. Serie A,5th,Roma,22,16.9,4,0,30,19,0,2,9,50
+bf356094,2019-2020,ITA,1. Serie A,3rd,Atalanta,19,0.9,1,0,2,4,0,0,1,50
+bf39bdec,2019-2020,ITA,1. Serie A,19th,Brescia,27,20.5,8,0,53,91,16,13,53,35.6
+bf57eaab,2019-2020,ITA,1. Serie A,15th,Sampdoria,22,8.3,1,0,17,36,3,12,4,23.5
+bf8fad51,2019-2020,ENG,1. Premier League,17th,Aston Villa,24,17.2,3,0,26,8,1,0,102,73.4
+bfae110f,2019-2020,ENG,1. Premier League,17th,Aston Villa,22,19.8,3,0,49,19,14,7,58,38.7
+bfb15d99,2019-2020,ESP,1. La Liga,12th,Levante,23,2,0,0,0,2,0,0,0,NULL
+bfd381b3,2019-2020,ESP,1. La Liga,19th,Mallorca,23,32.3,6,0,53,66,1,3,70,47.9
+bfdb33aa,2019-2020,ENG,1. Premier League,19th,Watford,21,22.5,1,0,30,53,12,92,18,26.5
+c00097d2,2019-2020,ESP,1. La Liga,12th,Levante,24,2.1,0,0,1,0,0,0,4,36.4
+c05dfb74,2019-2020,ESP,1. La Liga,11th,Athletic Club,26,26.5,4,1,32,68,2,31,8,27.6
+c0617e2b,2019-2020,ENG,1. Premier League,8th,Arsenal,22,18.8,1,0,25,39,0,22,11,33.3
+c067631c,2019-2020,ENG,1. Premier League,16th,West Ham,26,24.9,7,0,28,22,0,53,28,41.8
+c0c7ff58,2019-2020,ITA,1. Serie A,7th,Napoli,23,29.8,2,0,26,32,0,19,13,59.1
+c14bc029,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,24,34.1,10,0,71,31,6,29,109,52.2
+c17bfb65,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,22,29.8,7,0,37,49,20,9,146,39.2
+c18d22f5,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,32,8.5,2,0,9,7,0,16,13,59.1
+c1949191,2019-2020,ENG,1. Premier League,12th,Everton,17,3.3,0,0,4,3,0,0,8,42.1
+c1b7847c,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,22,23.5,8,1,72,27,0,7,21,42.9
+c2009df3,2019-2020,GER,1. Bundesliga,14th,Köln,29,27,9,0,32,40,2,23,62,52.1
+c2111b45,2019-2020,ESP,1. La Liga,7th,Granada,22,7,1,0,5,1,1,0,6,35.3
+c2111b45,2019-2020,ENG,1. Premier League,7th,Wolves,22,1.8,1,0,2,1,0,0,4,50
+c2211709,2019-2020,GER,1. Bundesliga,14th,Köln,24,29.7,4,0,38,23,3,7,42,55.3
+c235e803,2019-2020,ITA,1. Serie A,6th,Milan,19,7.6,1,0,14,4,0,0,28,70
+c316607a,2019-2020,ITA,1. Serie A,8th,Sassuolo,29,7.9,0,0,9,4,1,1,13,50
+c375dfa5,2019-2020,ITA,1. Serie A,18th,Lecce,28,6.1,1,0,18,18,3,3,33,66
+c3ee18ef,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,23,10.2,3,0,14,24,0,7,21,77.8
+c40b6180,2019-2020,ENG,1. Premier League,15th,Brighton,24,29.6,4,0,16,20,0,9,119,70
+c41f7379,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,34,4,1,0,0,1,0,0,0,NULL
+c4e87b8b,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,26,30.4,7,0,52,42,19,9,134,58
+c50cee19,2019-2020,ITA,1. Serie A,12th,Bologna,19,8.4,2,0,14,14,3,34,5,31.3
+c56dc39e,2019-2020,ITA,1. Serie A,3rd,Atalanta,28,29,11,0,40,24,2,10,56,65.9
+c596fcb0,2019-2020,ENG,1. Premier League,18th,Bournemouth,27,32.3,10,0,61,47,34,31,54,26.2
+c5adc293,2019-2020,ITA,1. Serie A,7th,Napoli,28,4.2,2,0,6,6,0,17,5,33.3
+c5b7c315,2019-2020,ENG,1. Premier League,12th,Everton,26,28.4,3,0,23,7,0,3,134,63.5
+c6608135,2019-2020,GER,1. Bundesliga,14th,Köln,19,0.2,0,0,1,0,1,1,0,0
+c67cd65c,2019-2020,ESP,1. La Liga,12th,Levante,25,29,4,0,30,28,1,3,87,70.7
+c691bfe2,2019-2020,ENG,1. Premier League,1st,Liverpool,27,30.5,3,0,48,70,14,52,35,30.7
+c6e8cf1f,2019-2020,ITA,1. Serie A,16th,Torino,22,20.7,5,1,49,24,2,12,19,30.2
+c707411f,2019-2020,ITA,1. Serie A,7th,Napoli,28,24.2,2,0,27,16,0,1,62,65.3
+c7259b83,2019-2020,ITA,1. Serie A,13th,Udinese,22,22.8,2,0,50,25,1,26,22,50
+c730da00,2019-2020,ITA,1. Serie A,5th,Roma,22,2.9,4,1,6,7,0,0,6,60
+c7429db3,2019-2020,ESP,1. La Liga,10th,Osasuna,26,6,3,0,12,22,1,6,5,55.6
+c77a8043,2019-2020,ESP,1. La Liga,7th,Granada,27,28.5,7,0,49,39,5,42,49,35.8
+c78b352d,2019-2020,ESP,1. La Liga,9th,Valencia,20,2.9,0,0,3,8,0,3,0,0
+c8387671,2019-2020,ENG,1. Premier League,1st,Liverpool,16,0.1,0,0,0,0,0,2,0,NULL
+c89e8aae,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,31,8,0,0,0,1,1,0,0,NULL
+c8aa95da,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,27,18.6,5,0,36,26,2,9,35,56.5
+c8c60119,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,23,16.6,2,0,19,7,0,50,38,61.3
+c92e1a31,2019-2020,ENG,1. Premier League,5th,Leicester City,22,10.7,1,0,25,13,9,4,3,9.4
+c931d9f9,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,21,25.4,4,0,17,67,2,72,8,23.5
+c951a6df,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,24,24.7,4,1,31,25,2,27,47,57.3
+c9cb972b,2019-2020,ESP,1. La Liga,9th,Valencia,28,14.7,1,0,0,1,0,0,0,NULL
+c9e39d91,2019-2020,ESP,1. La Liga,17th,Celta Vigo,22,16.4,4,0,26,40,5,22,25,39.7
+ca618d23,2019-2020,GER,1. Bundesliga,8th,Freiburg,25,27.6,4,0,37,84,10,22,65,43.3
+ca6edaa0,2019-2020,ESP,1. La Liga,19th,Mallorca,14,0.1,0,0,2,1,0,0,0,NULL
+ca8033cb,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,23,29.4,1,0,12,16,0,16,53,57.6
+cac2537b,2019-2020,ESP,1. La Liga,12th,Levante,24,23.5,5,0,56,58,4,24,3,9.1
+caffaf5a,2019-2020,ITA,1. Serie A,15th,Sampdoria,30,13.2,1,0,18,6,0,1,20,66.7
+caffaf5a,2019-2020,ENG,1. Premier League,11th,Southampton,30,6.2,1,0,3,3,0,0,14,63.6
+cb574619,2019-2020,ESP,1. La Liga,17th,Celta Vigo,28,21.8,7,0,37,27,3,59,39,60
+cbac6ec9,2019-2020,GER,1. Bundesliga,13th,Mainz 05,21,12.5,0,0,0,0,0,0,0,NULL
+cbdf7d5c,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,22,0.1,0,0,0,0,0,0,2,66.7
+cc2d7ad5,2019-2020,ENG,1. Premier League,10th,Burnley,25,21.6,3,0,17,35,2,66,47,60.3
+cc700722,2019-2020,ITA,1. Serie A,7th,Napoli,28,14.2,3,0,33,26,0,9,10,58.8
+cc86b9a3,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,24,16.8,2,0,24,28,0,6,27,50
+cce181df,2019-2020,ESP,1. La Liga,9th,Valencia,26,20.1,5,0,46,43,3,0,41,50.6
+cce9f582,2019-2020,ITA,1. Serie A,19th,Brescia,23,1.3,2,0,2,2,0,0,5,100
+cce9f582,2019-2020,ITA,1. Serie A,8th,Sassuolo,23,1.6,1,0,4,1,0,0,10,90.9
+cd0fa27b,2019-2020,ITA,1. Serie A,6th,Milan,25,30,6,0,44,33,1,61,20,30.8
+cd1acf9d,2019-2020,ENG,1. Premier League,1st,Liverpool,20,35.3,5,0,25,10,3,183,14,30.4
+cd82452e,2019-2020,GER,1. Bundesliga,15th,Augsburg,28,7.8,6,1,26,10,7,15,27,58.7
+cda0b317,2019-2020,ESP,1. La Liga,15th,Betis,29,32.1,3,1,0,2,0,0,0,NULL
+ce17b5eb,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,29,22,1,0,0,3,0,0,0,NULL
+ce30bfc8,2019-2020,ITA,1. Serie A,2nd,Inter,25,20,5,0,38,29,4,11,26,56.5
+ce4246f5,2019-2020,ENG,1. Premier League,4th,Chelsea,24,26,6,0,31,14,1,0,99,76.7
+ce5143da,2019-2020,ENG,1. Premier League,19th,Watford,28,9.1,0,0,8,11,2,2,23,50
+ce8039aa,2019-2020,ESP,1. La Liga,20th,Espanyol,18,2,1,0,5,9,0,3,1,14.3
+cea4ee8f,2019-2020,ENG,1. Premier League,6th,Tottenham,23,20.5,2,0,14,37,6,5,17,34.7
+cee31595,2019-2020,ENG,1. Premier League,14th,Crystal Palace,31,34.3,6,0,68,44,4,34,44,41.9
+cf007308,2019-2020,ITA,1. Serie A,7th,Napoli,19,12.6,7,0,35,16,0,3,2,12.5
+cf1c23d8,2019-2020,ITA,1. Serie A,2nd,Inter,33,3,0,1,0,3,0,0,0,NULL
+cf623c78,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,27,5.7,0,0,4,5,0,14,5,33.3
+cfbf9881,2019-2020,ITA,1. Serie A,12th,Bologna,24,16.7,5,0,30,19,2,7,24,57.1
+d0042ab9,2019-2020,ENG,1. Premier League,12th,Everton,22,22.8,5,0,19,23,1,2,42,57.5
+d023d70f,2019-2020,ITA,1. Serie A,15th,Sampdoria,24,22.4,4,0,50,38,0,30,14,37.8
+d04b94db,2019-2020,ESP,1. La Liga,2nd,Barcelona,25,23.3,2,0,27,33,3,23,14,60.9
+d080ed5e,2019-2020,ESP,1. La Liga,6th,Real Sociedad,23,34.9,9,0,88,100,2,22,158,63.2
+d0b3ceb9,2019-2020,ENG,1. Premier League,19th,Watford,36,38,1,0,2,5,0,0,1,100
+d0d8dd44,2019-2020,ITA,1. Serie A,2nd,Inter,27,31.4,5,0,38,13,0,0,75,66.4
+d0dbca9f,2019-2020,ITA,1. Serie A,15th,Sampdoria,25,11.2,4,0,16,12,0,0,15,55.6
+d0f72bf1,2019-2020,ENG,1. Premier League,7th,Wolves,22,2.1,0,0,2,0,0,0,11,52.4
+d1273f09,2019-2020,GER,1. Bundesliga,12th,Schalke 04,31,25.5,5,0,29,46,1,48,46,51.7
+d1661819,2019-2020,GER,1. Bundesliga,12th,Schalke 04,30,33.5,4,0,32,37,4,66,25,36.8
+d183e9d6,2019-2020,ITA,1. Serie A,15th,Sampdoria,24,25.1,6,1,27,23,0,77,38,53.5
+d1b060e2,2019-2020,ESP,1. La Liga,19th,Mallorca,26,3.1,1,0,7,2,0,1,16,43.2
+d1b49282,2019-2020,ITA,1. Serie A,15th,Sampdoria,23,20.7,9,1,46,9,4,9,92,58.6
+d2110326,2019-2020,ESP,1. La Liga,9th,Valencia,22,16,5,0,19,16,2,1,35,63.6
+d2416c2e,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,25,13.6,2,0,31,28,1,10,36,40
+d2424d1b,2019-2020,ENG,1. Premier League,5th,Leicester City,22,26.4,3,0,34,32,1,78,62,73.8
+d248cd8f,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,20,26.2,8,1,30,12,1,1,61,65.6
+d2aea9ac,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,21,0.1,0,0,1,0,1,0,1,100
+d2c580ce,2019-2020,GER,1. Bundesliga,8th,Freiburg,19,1.9,0,0,6,2,0,1,2,40
+d2ed99b4,2019-2020,ESP,1. La Liga,12th,Levante,17,0,0,0,1,0,0,0,0,0
+d3112d86,2019-2020,GER,1. Bundesliga,18th,Paderborn 07,21,31.2,10,0,54,32,0,15,24,44.4
+d37b0350,2019-2020,ITA,1. Serie A,14th,Cagliari,30,0.5,0,0,0,1,0,0,3,42.9
+d38fdf53,2019-2020,ESP,1. La Liga,10th,Osasuna,21,33.1,8,0,43,44,4,140,45,52.3
+d3b888e3,2019-2020,ITA,1. Serie A,14th,Cagliari,23,5.2,1,0,7,3,0,2,7,77.8
+d3d758d8,2019-2020,ITA,1. Serie A,17th,Genoa,34,12.3,4,1,36,27,0,2,13,46.4
+d3de9af0,2019-2020,ITA,1. Serie A,3rd,Atalanta,28,22.5,1,0,36,53,12,27,41,40.2
+d4535821,2019-2020,ITA,1. Serie A,4th,Lazio,26,10.5,3,0,15,13,0,16,12,46.2
+d4931a5a,2019-2020,ITA,1. Serie A,5th,Roma,31,6.3,1,0,10,18,2,0,17,53.1
+d4a2533d,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,21,18.6,0,0,18,18,4,38,9,25
+d4c9725f,2019-2020,ITA,1. Serie A,6th,Milan,21,31.3,10,0,36,71,8,74,42,66.7
+d5575935,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,26,10.5,1,0,14,6,1,9,6,30
+d5575935,2019-2020,ITA,1. Serie A,4th,Lazio,26,0.4,0,0,1,0,0,0,0,0
+d557d734,2019-2020,ENG,1. Premier League,7th,Wolves,27,31.5,1,0,31,22,3,38,107,53.8
+d56543a0,2019-2020,ENG,1. Premier League,18th,Bournemouth,25,23,2,0,13,36,1,98,10,27.8
+d5dd5f1f,2019-2020,ENG,1. Premier League,8th,Arsenal,30,34.8,3,1,21,23,20,84,37,38.5
+d6862409,2019-2020,GER,1. Bundesliga,15th,Augsburg,28,30.2,1,0,48,65,39,22,45,38.5
+d6a889ea,2019-2020,ITA,1. Serie A,7th,Napoli,28,2.8,0,0,4,4,0,13,3,60
+d6e53a3a,2019-2020,ITA,1. Serie A,1st,Juventus,19,27.2,5,0,32,22,0,1,69,63.9
+d705ba44,2019-2020,ITA,1. Serie A,16th,Torino,25,33.4,4,0,76,120,22,50,100,46.7
+d70ce98e,2019-2020,ESP,1. La Liga,2nd,Barcelona,32,32,4,0,21,89,13,62,6,60
+d711d04f,2019-2020,ITA,1. Serie A,17th,Genoa,36,18.7,6,1,17,51,7,13,9,23.1
+d733aa38,2019-2020,ESP,1. La Liga,10th,Osasuna,30,30.2,1,0,20,39,2,83,20,41.7
+d7492450,2019-2020,ENG,1. Premier League,14th,Crystal Palace,29,17.2,0,0,10,0,0,13,33,57.9
+d7553721,2019-2020,ENG,1. Premier League,6th,Tottenham,23,16.6,6,0,36,57,0,18,7,22.6
+d781d855,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,18,24.8,4,1,25,42,7,68,27,52.9
+d7918b13,2019-2020,ITA,1. Serie A,9th,Hellas Verona,23,2.2,1,0,6,2,0,3,2,66.7
+d79a8c87,2019-2020,ENG,1. Premier League,8th,Arsenal,23,6.5,1,0,7,2,0,1,16,53.3
+d7d32194,2019-2020,ITA,1. Serie A,12th,Bologna,28,2.1,2,0,6,2,1,0,2,13.3
+d7d32194,2019-2020,ITA,1. Serie A,17th,Genoa,28,1.7,0,0,3,3,1,0,4,28.6
+d80b1835,2019-2020,ITA,1. Serie A,1st,Juventus,20,1,0,0,2,0,0,1,2,100
+d83bbc54,2019-2020,ESP,1. La Liga,9th,Valencia,30,30.4,7,0,33,34,4,66,46,59.7
+d85c238b,2019-2020,ITA,1. Serie A,9th,Hellas Verona,24,23.5,5,0,33,86,11,36,33,44.6
+d87e2cae,2019-2020,ESP,1. La Liga,6th,Real Sociedad,27,22.3,4,0,27,28,15,10,27,40.3
+d8931174,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,26,38,6,0,36,28,6,1,193,73.7
+d93c2511,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,22,19.7,2,0,40,57,0,9,42,59.2
+d9565625,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,20,0.7,0,0,1,0,0,2,4,100
+d9624b51,2019-2020,ITA,1. Serie A,10th,Fiorentina,27,9.3,3,0,9,16,0,0,27,71.1
+d9764034,2019-2020,ESP,1. La Liga,16th,Alavés,25,1,0,0,0,0,0,0,3,75
+d97f2e8d,2019-2020,ITA,1. Serie A,15th,Sampdoria,22,20.6,7,0,63,31,3,61,25,35.7
+d995ed27,2019-2020,ITA,1. Serie A,6th,Milan,29,14.9,2,0,24,38,4,14,8,29.6
+d9ba39fc,2019-2020,ENG,1. Premier League,18th,Bournemouth,26,25.9,6,0,23,27,2,77,37,59.7
+da052c14,2019-2020,ENG,1. Premier League,14th,Crystal Palace,27,35,6,0,75,112,9,20,59,25.2
+da27e268,2019-2020,ESP,1. La Liga,20th,Espanyol,22,33.4,8,0,96,30,0,21,32,43.8
+da5a981b,2019-2020,ITA,1. Serie A,20th,SPAL,27,9.5,1,0,12,11,4,20,5,50
+da7b447d,2019-2020,ENG,1. Premier League,6th,Tottenham,23,27,6,0,29,16,1,2,52,60.5
+da974c7b,2019-2020,ITA,1. Serie A,7th,Napoli,28,23.4,7,1,42,17,0,4,50,64.9
+db092d3b,2019-2020,ITA,1. Serie A,6th,Milan,21,27.6,14,0,55,50,0,9,25,49
+db401046,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,27,26,1,0,0,3,0,0,0,NULL
+db4ed67b,2019-2020,GER,1. Bundesliga,2nd,Dortmund,23,6.2,1,0,12,8,0,4,3,37.5
+db750822,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,29,13.6,3,0,27,48,8,10,12,25.5
+db8f0eba,2019-2020,ESP,1. La Liga,20th,Espanyol,27,15.2,4,0,30,34,1,58,12,24
+dbf053da,2019-2020,GER,1. Bundesliga,2nd,Dortmund,19,25.4,2,0,12,22,9,46,1,5.6
+dc008610,2019-2020,ENG,1. Premier League,15th,Brighton,26,0.8,0,1,1,2,0,1,2,40
+dc1c2fce,2019-2020,ITA,1. Serie A,16th,Torino,24,20.3,4,0,32,45,8,38,19,31.7
+dc366c36,2019-2020,GER,1. Bundesliga,15th,Augsburg,26,24,2,0,0,2,0,0,0,NULL
+dc3fa3b5,2019-2020,ITA,1. Serie A,7th,Napoli,27,10,6,0,28,16,0,4,5,35.7
+dc3fa3b5,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,27,13.5,3,0,22,18,0,6,10,37
+dc62b55d,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,20,8.3,3,0,22,34,2,5,6,27.3
+dc62b55d,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,20,3.1,0,0,8,7,3,4,6,40
+dc6f5bdd,2019-2020,ENG,1. Premier League,8th,Arsenal,24,12.2,5,0,17,4,0,27,37,57.8
+dd0daf32,2019-2020,ENG,1. Premier League,8th,Arsenal,30,1.2,1,0,2,2,1,3,2,66.7
+dd0daf32,2019-2020,ITA,1. Serie A,5th,Roma,30,17,5,0,21,30,1,18,6,31.6
+dd323728,2019-2020,ENG,1. Premier League,1st,Liverpool,18,2.6,1,0,5,2,0,7,5,55.6
+dd669209,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,27,17.6,6,0,35,34,4,32,20,38.5
+de0f152c,2019-2020,ENG,1. Premier League,19th,Watford,25,20.2,3,0,33,13,2,60,66,69.5
+de39485a,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,25,7,2,0,10,15,2,8,2,16.7
+de5b5570,2019-2020,ENG,1. Premier League,17th,Aston Villa,25,20.4,5,0,24,28,0,1,16,32.7
+dea698d9,2019-2020,ITA,1. Serie A,1st,Juventus,34,32.4,3,0,27,72,31,33,37,49.3
+dee86451,2019-2020,ESP,1. La Liga,15th,Betis,27,9.9,6,1,21,14,0,1,17,60.7
+def899bd,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,27,1.5,0,0,3,2,0,1,12,70.6
+df10e27c,2019-2020,ENG,1. Premier League,4th,Chelsea,18,2.2,0,0,3,2,0,0,3,37.5
+df3cda47,2019-2020,ITA,1. Serie A,11th,Parma,19,32.6,3,0,58,43,6,56,12,26.1
+df69b544,2019-2020,ESP,1. La Liga,2nd,Barcelona,28,28.3,2,0,15,24,16,29,24,44.4
+df85d472,2019-2020,ITA,1. Serie A,12th,Bologna,28,8.6,6,0,24,19,7,9,49,52.1
+df8b52a5,2019-2020,ESP,1. La Liga,15th,Betis,20,31.5,11,0,49,103,1,80,65,63.7
+df8e7b62,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,24,25.1,3,0,20,63,7,73,16,23.9
+e0314d87,2019-2020,ITA,1. Serie A,3rd,Atalanta,33,6,1,0,11,1,0,2,11,68.8
+e0314d87,2019-2020,ITA,1. Serie A,17th,Genoa,33,14.7,4,0,13,5,0,10,12,48
+e06683ca,2019-2020,ENG,1. Premier League,1st,Liverpool,28,38,1,0,18,28,1,0,183,81
+e082af5b,2019-2020,ENG,1. Premier League,11th,Southampton,23,10,0,0,0,3,0,0,0,NULL
+e0921a4f,2019-2020,ITA,1. Serie A,1st,Juventus,25,23.9,5,0,27,61,6,41,3,25
+e0b113a7,2019-2020,GER,1. Bundesliga,11th,Union Berlin,24,28.6,13,1,76,45,0,29,51,58.6
+e0bc6fdc,2019-2020,ENG,1. Premier League,4th,Chelsea,24,11.4,3,0,6,17,2,34,17,70.8
+e12b0b5b,2019-2020,GER,1. Bundesliga,9th,Eint Frankfurt,28,21.5,6,0,46,27,1,9,20,37
+e14ec482,2019-2020,ITA,1. Serie A,12th,Bologna,22,29.8,3,0,44,82,14,100,32,44.4
+e1b0a70d,2019-2020,ITA,1. Serie A,10th,Fiorentina,29,6.9,0,0,1,2,0,0,0,NULL
+e1cbb531,2019-2020,ESP,1. La Liga,17th,Celta Vigo,24,15.4,1,0,10,30,1,3,8,40
+e1cbb531,2019-2020,ITA,1. Serie A,7th,Napoli,24,8.4,0,0,8,17,0,1,2,22.2
+e26fcca3,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,22,7,2,0,11,5,0,1,7,38.9
+e2716bd0,2019-2020,ENG,1. Premier League,2nd,Manchester City,33,20.3,0,0,24,28,3,26,8,34.8
+e27da244,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,26,24.7,4,0,23,10,2,2,69,69.7
+e27de4fa,2019-2020,GER,1. Bundesliga,14th,Köln,18,14.6,2,0,12,25,0,18,21,41.2
+e280527c,2019-2020,GER,1. Bundesliga,3rd,RB Leipzig,25,27.8,4,0,23,45,3,65,20,45.5
+e288d4b3,2019-2020,ITA,1. Serie A,5th,Roma,28,11.1,5,0,11,14,2,25,12,50
+e288d4b3,2019-2020,ESP,1. La Liga,9th,Valencia,28,8.4,1,1,6,5,0,22,2,20
+e33c06cf,2019-2020,GER,1. Bundesliga,1st,Bayern Munich,23,7.1,1,0,6,3,0,1,16,84.2
+e33f36d5,2019-2020,ITA,1. Serie A,13th,Udinese,29,24.7,2,0,24,9,0,3,40,51.3
+e342ad68,2019-2020,ENG,1. Premier League,1st,Liverpool,27,32,1,0,18,24,20,35,13,21.3
+e358587b,2019-2020,ENG,1. Premier League,17th,Aston Villa,36,12,1,0,1,4,0,0,0,NULL
+e358587b,2019-2020,ITA,1. Serie A,6th,Milan,36,1,0,1,1,0,0,0,0,NULL
+e3756e72,2019-2020,ITA,1. Serie A,3rd,Atalanta,19,0.2,0,0,0,0,0,0,0,NULL
+e3a5814e,2019-2020,ENG,1. Premier League,8th,Arsenal,21,15.4,6,1,16,15,0,20,14,51.9
+e3cceee6,2019-2020,ITA,1. Serie A,1st,Juventus,21,4.6,1,0,5,0,1,0,22,78.6
+e3fabb0a,2019-2020,ESP,1. La Liga,20th,Espanyol,27,19.1,3,0,22,18,14,24,31,42.5
+e42d61c7,2019-2020,GER,1. Bundesliga,2nd,Dortmund,20,30.2,5,0,27,56,2,89,18,46.2
+e46012d4,2019-2020,ENG,1. Premier League,2nd,Manchester City,28,31,3,0,32,38,3,143,18,45
+e49ce451,2019-2020,ESP,1. La Liga,17th,Celta Vigo,25,21.9,6,0,50,23,0,5,76,66.1
+e514ab62,2019-2020,ENG,1. Premier League,17th,Aston Villa,23,25.5,4,0,31,19,0,55,32,46.4
+e5478b87,2019-2020,GER,1. Bundesliga,13th,Mainz 05,21,5.4,1,0,5,3,3,9,12,33.3
+e54bd0a2,2019-2020,ESP,1. La Liga,16th,Alavés,31,14.9,6,1,46,25,0,4,45,68.2
+e5649a78,2019-2020,GER,1. Bundesliga,17th,Düsseldorf,25,14.1,3,0,31,24,0,24,5,33.3
+e58a03c6,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,28,9.4,2,0,8,13,2,5,23,33.3
+e58cbfd5,2019-2020,ITA,1. Serie A,17th,Genoa,17,1.2,0,0,0,3,0,1,0,NULL
+e599253a,2019-2020,ITA,1. Serie A,3rd,Atalanta,24,26.9,6,0,39,32,1,17,47,51.1
+e5a35ae9,2019-2020,GER,1. Bundesliga,8th,Freiburg,23,14.1,3,0,19,14,6,5,10,23.8
+e5a76dfe,2019-2020,ENG,1. Premier League,9th,Sheffield Utd,22,36,2,0,0,3,0,0,1,100
+e5bf73f3,2019-2020,ITA,1. Serie A,3rd,Atalanta,20,2.1,0,0,5,7,1,1,4,26.7
+e5bf73f3,2019-2020,ITA,1. Serie A,12th,Bologna,20,15,1,0,24,16,2,27,11,37.9
+e5d01ecf,2019-2020,ENG,1. Premier League,19th,Watford,28,24.9,5,0,32,16,1,56,21,67.7
+e5f63987,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,28,8.5,2,0,9,9,5,4,21,43.8
+e61b8aee,2019-2020,ENG,1. Premier League,8th,Arsenal,26,28.7,10,0,65,38,0,13,51,49.5
+e63e122d,2019-2020,ITA,1. Serie A,12th,Bologna,19,0.8,0,0,4,0,0,0,3,60
+e6bc67d7,2019-2020,ESP,1. La Liga,9th,Valencia,22,14.1,3,0,18,53,6,28,4,21.1
+e6c15f6e,2019-2020,GER,1. Bundesliga,8th,Freiburg,20,0.4,0,0,0,1,0,2,0,0
+e6c43eec,2019-2020,GER,1. Bundesliga,7th,Wolfsburg,28,22.9,7,1,49,14,5,3,60,65.9
+e74f0e59,2019-2020,ITA,1. Serie A,16th,Torino,31,24.9,2,0,37,16,7,67,59,59.6
+e778654a,2019-2020,ESP,1. La Liga,7th,Granada,21,26.3,14,0,101,61,4,5,69,56.6
+e7ab4179,2019-2020,ESP,1. La Liga,8th,Getafe,24,3,0,0,10,2,0,3,12,85.7
+e7ab4179,2019-2020,ESP,1. La Liga,12th,Levante,24,9,4,0,8,7,0,0,20,54.1
+e7ca0439,2019-2020,ENG,1. Premier League,14th,Crystal Palace,30,17.6,5,0,16,12,1,0,75,77.3
+e7d22eae,2019-2020,GER,1. Bundesliga,15th,Augsburg,29,5.3,1,0,13,4,0,0,3,60
+e7d59f4f,2019-2020,GER,1. Bundesliga,12th,Schalke 04,22,23.4,3,0,19,74,7,20,7,22.6
+e7fcf289,2019-2020,GER,1. Bundesliga,5th,Leverkusen,16,4.1,0,0,7,2,1,8,0,0
+e82adcab,2019-2020,GER,1. Bundesliga,5th,Leverkusen,20,2,0,0,1,6,0,1,1,100
+e85fb9b8,2019-2020,ITA,1. Serie A,1st,Juventus,34,2.2,0,0,4,2,0,0,4,66.7
+e8832875,2019-2020,ENG,1. Premier League,19th,Watford,17,0.3,0,0,1,1,0,3,2,40
+e897d8ba,2019-2020,ESP,1. La Liga,14th,Eibar,29,19.6,2,0,46,32,14,19,108,38.3
+e8c930bb,2019-2020,ITA,1. Serie A,10th,Fiorentina,30,17.6,3,1,26,22,0,2,11,42.3
+e9254eec,2019-2020,ENG,1. Premier League,20th,Norwich City,27,14,4,0,15,20,0,1,44,73.3
+e94d79e3,2019-2020,ITA,1. Serie A,10th,Fiorentina,32,26.2,10,1,24,18,0,10,32,59.3
+e97fd090,2019-2020,ENG,1. Premier League,4th,Chelsea,23,2.3,0,0,2,3,0,1,1,20
+e9971f2d,2019-2020,ENG,1. Premier League,6th,Tottenham,20,5.8,1,0,10,5,0,2,19,65.5
+e9ada8cf,2019-2020,ESP,1. La Liga,16th,Alavés,17,1,0,0,1,0,0,2,1,100
+ea003d07,2019-2020,GER,1. Bundesliga,5th,Leverkusen,24,0,0,0,0,0,0,0,0,0
+ea06dd97,2019-2020,ITA,1. Serie A,16th,Torino,27,14.2,3,0,25,18,0,41,11,57.9
+ea6bc03a,2019-2020,GER,1. Bundesliga,8th,Freiburg,23,30.1,3,0,32,20,0,4,110,65.9
+ea83bfa6,2019-2020,ESP,1. La Liga,7th,Granada,25,35,3,0,0,3,0,0,0,NULL
+ea9b2ef9,2019-2020,ESP,1. La Liga,7th,Granada,32,25.5,12,1,35,26,0,2,73,55.7
+eac044ad,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,27,8.5,4,0,25,23,4,10,10,30.3
+eac044ad,2019-2020,ESP,1. La Liga,4th,Sevilla,27,0.3,0,0,0,0,0,1,1,50
+ead61f73,2019-2020,GER,1. Bundesliga,12th,Schalke 04,19,8.7,2,0,11,18,1,22,9,30
+eaeca114,2019-2020,ENG,1. Premier League,18th,Bournemouth,24,27.8,2,0,12,18,3,2,64,52.5
+eb2fe5b6,2019-2020,ITA,1. Serie A,3rd,Atalanta,28,14,1,0,32,38,3,33,28,41.2
+eb3dd471,2019-2020,ESP,1. La Liga,16th,Alavés,25,18.2,3,0,25,15,2,36,11,33.3
+eb58eef0,2019-2020,ENG,1. Premier League,1st,Liverpool,28,32.6,0,0,20,42,1,6,37,41.1
+eb7822d7,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,30,17.6,3,0,33,19,0,2,27,60
+ecc77652,2019-2020,ESP,1. La Liga,12th,Levante,21,0.4,0,0,3,1,0,0,0,0
+eccbe56a,2019-2020,ITA,1. Serie A,8th,Sassuolo,27,18.1,6,0,40,54,3,5,11,32.4
+ecd8c01e,2019-2020,ESP,1. La Liga,12th,Levante,28,20.8,5,0,32,56,2,36,19,48.7
+ed1e53f3,2019-2020,ENG,1. Premier League,2nd,Manchester City,19,10,0,0,11,21,1,22,8,32
+ed5c5fa3,2019-2020,ESP,1. La Liga,17th,Celta Vigo,20,20.3,2,1,16,17,1,6,8,20.5
+ed6ea4d9,2019-2020,ESP,1. La Liga,7th,Granada,26,23.7,5,0,47,46,12,76,19,32.8
+ed9f7cfe,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,21,26.6,6,1,45,47,11,80,27,46.6
+eda40760,2019-2020,ITA,1. Serie A,5th,Roma,33,30.4,6,0,34,31,3,81,44,57.9
+ee251371,2019-2020,ITA,1. Serie A,6th,Milan,20,7.6,4,1,12,10,0,18,3,18.8
+ee38d9c5,2019-2020,ENG,1. Premier League,5th,Leicester City,22,29.2,4,0,40,98,4,65,6,17.1
+ee4f2f3b,2019-2020,ITA,1. Serie A,15th,Sampdoria,36,25.3,2,0,22,36,21,29,31,37.3
+ee833569,2019-2020,ITA,1. Serie A,20th,SPAL,30,26,2,0,0,8,0,0,0,0
+ee8508c0,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,26,37.7,0,0,0,8,0,0,0,NULL
+ee923664,2019-2020,ESP,1. La Liga,17th,Celta Vigo,26,14.7,6,0,23,27,1,21,19,40.4
+ee93c1a9,2019-2020,ITA,1. Serie A,1st,Juventus,25,17.5,6,0,33,30,5,28,6,54.5
+ef322658,2019-2020,ESP,1. La Liga,15th,Betis,32,22.7,9,0,33,23,1,9,14,33.3
+ef619b0b,2019-2020,ITA,1. Serie A,1st,Juventus,28,11.7,2,0,21,20,2,13,14,63.6
+ef94dc2f,2019-2020,ITA,1. Serie A,9th,Hellas Verona,30,14.4,3,0,35,31,17,9,29,39.2
+f03f284b,2019-2020,ESP,1. La Liga,20th,Espanyol,29,27.3,5,1,37,27,1,5,68,56.2
+f058ed1f,2019-2020,ITA,1. Serie A,8th,Sassuolo,38,5,0,0,0,0,0,0,0,NULL
+f08490a6,2019-2020,ENG,1. Premier League,18th,Bournemouth,22,7,0,0,0,6,5,6,3,23.1
+f090a37a,2019-2020,ESP,1. La Liga,2nd,Barcelona,19,5.7,1,0,15,20,0,0,0,0
+f0da930c,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,24,19.5,2,0,15,17,2,0,55,76.4
+f0f7f62f,2019-2020,ITA,1. Serie A,3rd,Atalanta,24,32,3,0,0,10,0,0,0,NULL
+f1bed920,2019-2020,ESP,1. La Liga,18th,Leganés,25,21.5,6,1,42,37,2,74,21,30.4
+f1bed920,2019-2020,ESP,1. La Liga,6th,Real Sociedad,25,0.1,0,0,1,0,0,0,1,100
+f1cfc209,2019-2020,ITA,1. Serie A,16th,Torino,31,30,10,0,77,59,1,23,67,67
+f1f1f238,2019-2020,ITA,1. Serie A,9th,Hellas Verona,24,30.4,7,0,48,16,0,4,92,55.1
+f2308b33,2019-2020,ESP,1. La Liga,18th,Leganés,25,30.9,13,1,45,37,4,99,36,45.6
+f23f9d20,2019-2020,ENG,1. Premier League,20th,Norwich City,31,36,4,0,1,5,0,0,0,NULL
+f25b010f,2019-2020,ENG,1. Premier League,13th,Newcastle Utd,30,29.1,8,0,21,19,2,16,68,57.6
+f25c8e3a,2019-2020,ENG,1. Premier League,1st,Liverpool,24,9.1,1,0,12,14,1,7,8,53.3
+f26834c7,2019-2020,GER,1. Bundesliga,13th,Mainz 05,27,19.2,3,0,36,57,11,25,54,37.8
+f2bf1b0f,2019-2020,ENG,1. Premier League,11th,Southampton,23,12.3,0,0,20,23,10,12,29,25.2
+f2c6ac01,2019-2020,ESP,1. La Liga,19th,Mallorca,23,35.4,6,0,23,11,1,6,52,54.7
+f2dd9a21,2019-2020,GER,1. Bundesliga,15th,Augsburg,24,9.8,3,0,16,7,0,1,9,50
+f35430a4,2019-2020,GER,1. Bundesliga,12th,Schalke 04,26,15.2,2,0,22,2,0,0,38,59.4
+f3b1d9a2,2019-2020,ESP,1. La Liga,8th,Getafe,23,0.7,0,0,3,4,0,0,1,50
+f4290206,2019-2020,ENG,1. Premier League,4th,Chelsea,28,15.9,4,0,18,17,2,51,42,57.5
+f45f9427,2019-2020,ITA,1. Serie A,10th,Fiorentina,25,27.6,8,1,59,34,4,113,28,50
+f4e433d4,2019-2020,ENG,1. Premier League,15th,Brighton,18,6.5,2,0,13,20,0,13,4,33.3
+f4e433d4,2019-2020,ENG,1. Premier League,4th,Chelsea,18,0.4,0,0,0,1,0,0,0,NULL
+f4ec4fd0,2019-2020,ITA,1. Serie A,10th,Fiorentina,32,6.7,2,0,13,23,4,3,21,35.6
+f503ea63,2019-2020,ITA,1. Serie A,15th,Sampdoria,30,26.5,8,0,47,61,0,5,30,58.8
+f554e29b,2019-2020,ITA,1. Serie A,14th,Cagliari,25,16,1,0,0,1,0,0,0,NULL
+f573a8bf,2019-2020,ENG,1. Premier League,19th,Watford,23,0.8,1,0,2,2,0,1,1,12.5
+f586779e,2019-2020,ENG,1. Premier League,4th,Chelsea,21,24.6,2,0,20,30,23,10,67,37.9
+f5a00fa4,2019-2020,ENG,1. Premier League,7th,Wolves,32,34.5,7,0,50,33,3,80,18,38.3
+f5deef4c,2019-2020,ENG,1. Premier League,3rd,Manchester Utd,25,34.4,6,0,26,9,0,1,95,66
+f61c7c4e,2019-2020,ITA,1. Serie A,10th,Fiorentina,36,15.7,3,0,22,45,3,19,4,19
+f63d8a4b,2019-2020,ENG,1. Premier League,20th,Norwich City,21,27.7,6,0,44,76,3,16,16,27.6
+f6798fc3,2019-2020,ESP,1. La Liga,4th,Sevilla,28,5.5,1,0,0,1,0,0,0,NULL
+f6a06749,2019-2020,ITA,1. Serie A,1st,Juventus,29,0.2,0,0,0,0,0,0,0,NULL
+f6ac68c1,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,28,22,6,0,16,14,0,0,60,70.6
+f6bdc830,2019-2020,GER,1. Bundesliga,11th,Union Berlin,22,21.5,6,1,19,29,1,1,64,58.7
+f7036e1c,2019-2020,ITA,1. Serie A,2nd,Inter,21,27.2,8,1,55,88,22,23,26,29.5
+f7223718,2019-2020,ITA,1. Serie A,4th,Lazio,26,18.6,2,1,12,10,0,6,14,36.8
+f72293fc,2019-2020,ENG,1. Premier League,10th,Burnley,28,6.9,0,0,9,4,1,27,9,39.1
+f76e6b4e,2019-2020,ENG,1. Premier League,1st,Liverpool,32,9.7,1,0,0,2,0,0,0,NULL
+f7aa75bd,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,27,15.5,1,0,12,17,1,49,14,51.9
+f7c12fbf,2019-2020,ESP,1. La Liga,9th,Valencia,19,5.5,3,0,11,9,0,1,6,35.3
+f7dc2ae5,2019-2020,ESP,1. La Liga,6th,Real Sociedad,25,16.8,4,0,13,12,0,6,72,70.6
+f7e2af2c,2019-2020,ITA,1. Serie A,14th,Cagliari,18,4.1,5,2,5,3,0,0,8,72.7
+f833a830,2019-2020,ENG,1. Premier League,1st,Liverpool,24,2.8,0,0,6,5,0,4,5,50
+f86cabbd,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,21,16.2,3,0,20,9,0,3,42,68.9
+f874dd44,2019-2020,ENG,1. Premier League,8th,Arsenal,24,12.9,2,0,15,4,1,22,13,43.3
+f8d41a8c,2019-2020,ITA,1. Serie A,13th,Udinese,17,0,0,0,0,0,0,0,0,NULL
+f8eca1b6,2019-2020,ESP,1. La Liga,13th,Valladolid,22,26,4,0,43,62,19,9,115,42.4
+f8fcd2a5,2019-2020,ENG,1. Premier League,5th,Leicester City,31,37.6,8,1,41,27,2,5,141,70.1
+f91e81c9,2019-2020,ITA,1. Serie A,13th,Udinese,28,31,5,0,12,9,1,104,10,30.3
+f93e6e94,2019-2020,GER,1. Bundesliga,8th,Freiburg,30,27.1,1,0,10,17,12,9,80,38.1
+f972644c,2019-2020,GER,1. Bundesliga,15th,Augsburg,21,25.3,2,0,34,45,3,38,23,39
+f9acca3a,2019-2020,GER,1. Bundesliga,5th,Leverkusen,26,21.1,6,1,33,26,1,20,31,50
+f9acf8bf,2019-2020,ESP,1. La Liga,19th,Mallorca,22,15.1,4,0,23,19,0,54,7,38.9
+f9e7c4ac,2019-2020,GER,1. Bundesliga,15th,Augsburg,30,10.7,1,0,13,10,6,2,16,25
+fa031b34,2019-2020,ENG,1. Premier League,12th,Everton,22,34.1,8,0,47,79,17,35,68,35.1
+fa274d97,2019-2020,GER,1. Bundesliga,2nd,Dortmund,26,6.6,0,0,12,5,4,16,2,50
+fa661778,2019-2020,GER,1. Bundesliga,10th,Hertha BSC,24,15.7,2,1,15,21,1,33,20,43.5
+fb5d47b3,2019-2020,ESP,1. La Liga,5th,Villarreal,28,21.8,2,0,36,13,0,23,44,53
+fb77bfef,2019-2020,ITA,1. Serie A,20th,SPAL,23,13.2,2,1,13,2,1,1,27,77.1
+fb77bfef,2019-2020,ITA,1. Serie A,16th,Torino,23,2.7,0,0,4,1,0,0,5,50
+fbbc8e15,2019-2020,GER,1. Bundesliga,15th,Augsburg,22,4.2,1,0,3,11,0,9,13,41.9
+fbd6378b,2019-2020,ESP,1. La Liga,15th,Betis,27,28.6,9,0,30,18,5,3,53,56.4
+fc027d02,2019-2020,ENG,1. Premier League,5th,Leicester City,18,3,0,0,1,5,0,13,3,23.1
+fc15fb84,2019-2020,ENG,1. Premier League,10th,Burnley,19,37.1,5,0,36,46,0,130,27,50
+fc4f85b1,2019-2020,ITA,1. Serie A,2nd,Inter,33,18.1,5,0,32,16,3,5,56,60.9
+fcab00a0,2019-2020,ENG,1. Premier League,17th,Aston Villa,28,17,4,0,19,24,4,45,11,52.4
+fce2302c,2019-2020,ENG,1. Premier League,8th,Arsenal,22,11,2,0,8,14,0,36,10,50
+fd51b456,2019-2020,ESP,1. La Liga,1st,Real Madrid,28,9.4,1,0,28,15,2,44,4,40
+fd53759d,2019-2020,GER,1. Bundesliga,14th,Köln,17,6.2,2,0,7,10,2,10,6,46.2
+fd771f95,2019-2020,ESP,1. La Liga,2nd,Barcelona,28,4.5,1,0,8,7,1,4,6,60
+fd771f95,2019-2020,ESP,1. La Liga,18th,Leganés,28,21.5,3,0,32,34,9,10,49,41.9
+fdd60087,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,27,12,1,0,9,17,1,36,21,51.2
+fe012aca,2019-2020,ITA,1. Serie A,8th,Sassuolo,22,27.9,0,0,15,65,10,35,5,29.4
+fe471a89,2019-2020,ITA,1. Serie A,19th,Brescia,24,5.9,0,0,0,0,0,0,0,NULL
+fe641c1a,2019-2020,GER,1. Bundesliga,2nd,Dortmund,27,9.2,4,0,25,12,1,1,22,61.1
+fed17f5a,2019-2020,ESP,1. La Liga,9th,Valencia,22,23,4,0,25,26,1,14,17,50
+fed7cb61,2019-2020,GER,1. Bundesliga,5th,Leverkusen,20,27.3,3,0,29,42,12,28,43,41
+ff182fdc,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,27,3,0,0,4,1,5,2,5,41.7
+ff527768,2019-2020,ENG,1. Premier League,16th,West Ham,32,29.7,5,0,41,37,1,21,11,37.9
+ff800ed8,2019-2020,ITA,1. Serie A,10th,Fiorentina,21,29.4,4,0,19,11,1,67,11,33.3
+ff98492b,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,23,29,4,0,24,37,2,76,18,42.9
+ffa90327,2019-2020,ENG,1. Premier League,17th,Aston Villa,24,22.8,3,0,21,19,12,68,31,37.3
+ffacd3d5,2019-2020,ESP,1. La Liga,3rd,Atlético Madrid,18,3.6,1,0,6,4,2,6,5,62.5
+ffbbc83b,2019-2020,GER,1. Bundesliga,6th,Hoffenheim,23,26.8,3,0,29,53,0,8,34,56.7
