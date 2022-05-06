@@ -1,0 +1,1376 @@
+id,created,name,position,foot,height,weight,dob,cityob,countryob
+0000acda,2021-12-30 16:48:50,Marco Benassi,"MF (CM, right)",77% Right,184,80,"September 8, 1994",Province of Modena,Italy
+00242715,2021-12-30 16:39:22,Moussa Niakhate,"DF-FW (CB, left)",86% Left,190,82,"March 8, 1996",Roubaix,France
+00242b75,2021-12-30 16:39:24,Leandro Barreiro Martins,MF (CM),82% Right,174,65,"January 3, 2000",Luxembourg,Luxembourg
+0076ab7f,2021-12-30 16:01:31,Nemanja Gudelj,MF (CM-DM),95% Right,187,73,"November 16, 1991",Belgrade,Serbia
+009a4f60,2021-12-30 16:38:25,Julian Ryerson,DF-MF,84% Right,183,84,"November 17, 1997",Lyngdal,Norway
+00b28772,2021-12-30 16:09:11,Nemanja Maksimović,MF (CM-DM),90% Right,189,75,"January 26, 1995",Belgrade,Serbia
+01226327,2021-12-30 16:27:32,Ryan Bertrand,"DF-MF (FB, left)",92% Left,179,85,"August 5, 1989",Southwark,England
+01834aa0,2021-12-30 16:41:59,Sebastiaan Bornauw,DF (CB),88% Right,191,81,"March 22, 1999",Wemmel,Belgium
+01b8a2b2,2021-12-30 16:47:10,Wojciech Szczęsny,GK,88% Right,195,87,"April 18, 1990",Warsaw,Poland
+01c3aff5,2021-12-30 16:47:27,Weston McKennie,MF (CM),80% Right,185,79,"August 28, 1998",Little Elm,Texas
+01eb744d,2021-12-30 16:03:06,Ángel Correa,"FW-MF (AM-WM, right)",81% Right,173,70,"March 9, 1995",Rosario,Argentina
+01efac19,2021-12-30 16:52:12,Antonín Barák,FW-MF (AM-CM),85% Left,190,86,"December 3, 1994",Příbram,Czech Republic
+02319ad7,2021-12-30 16:09:23,Jaime Mata,FW,83% Right,185,83,"October 24, 1988",Madrid,Spain
+02b29014,2021-12-30 16:30:38,Abdoulaye Doucouré,MF (CM-DM),87% Right,180,60,"January 1, 1993",Meulan-en-Yvelines,France
+02c15616,2021-12-30 16:03:00,Marcos Llorente,MF,92% Right,182,71,"January 30, 1995",Madrid,Spain
+02caf6e0,2021-12-30 16:49:14,Manuel Lazzari,"DF-MF (WM, right)",85% Right,174,67,"November 29, 1993",Valdagno,Italy
+02ef8778,2021-12-30 16:06:36,Raúl de Tomás,FW,79% Right,180,72,"October 17, 1994",Madrid,Spain
+0313a347,2021-12-30 16:29:00,Ezri Konsa,"DF-FW (CB, right)",88% Right,183,77,"October 23, 1997",London,England
+032f894e,2021-12-30 16:15:49,Renato Sanches,MF (CM),90% Right,176,75,"August 18, 1997",Lisbon,Portugal
+0375723e,2021-12-30 16:51:21,Simone Verdi,FW-MF,51% Left,171,61,"July 12, 1992",Broni,Italy
+03f946ed,2021-12-30 16:46:23,Andrea Petagna,FW,68% Left,188,85,"June 30, 1995",Trieste,Italy
+0420d84f,2021-12-30 16:30:30,Séamus Coleman,"DF-MF (CB-FB, right)",84% Right,177,67,"October 11, 1988",Donegal,Republic of Ireland
+042e8a49,2021-12-30 16:34:40,Kingsley Coman,FW-MF (AM-WM),78% Right,178,71,"June 13, 1996",Paris,France
+0489bb30,2021-12-30 16:55:17,Eddie Salcedo,FW,89% Right,178,74,"October 1, 2001",Genoa,Italy
+048a1cbc,2021-12-30 16:35:16,Raphaël Guerreiro,"DF-MF (FB-WM, left)",94% Left,170,67,"December 22, 1993",Le Blanc-Mesnil,France
+04965583,2021-12-30 16:06:40,Aleix Vidal,"DF-MF (WM, right)",89% Right,175,68,"August 21, 1989",Valls,Spain
+04ac8285,2021-12-30 16:04:54,Jasper Cillessen,GK,88% Right,187,82,"April 22, 1989",Gemeente Nijmegen,Netherlands
+04e17fd5,2021-12-30 16:01:20,Youssef En-Nesyri,FW,85% Left,192,77,"June 1, 1997",Fes-Medina,Morocco
+05439de2,2021-12-30 16:00:28,David Alaba,"DF-MF (CB-CM-FB, left)",88% Left,180,72,"June 24, 1992",Vienna,Austria
+054849d2,2021-12-30 16:42:49,Iago,"DF (FB, left)",82% Left,182,68,"March 23, 1997",Monte Azul Paulista,Brazil
+056d2d95,2021-12-30 16:38:23,Christopher Trimmel,"DF-FW-MF (AM-FB-WM, right)",88% Right,189,80,"February 24, 1987",Oberpullendorf,Austria
+05d548d8,2021-12-30 16:35:06,Mats Hummels,DF (CB),65% Right,192,90,"December 16, 1988",Bergisch Gladbach,Germany
+05e19d6a,2021-12-30 16:45:10,Franck Kessié,DF-MF (CB-CM-DM),81% Right,183,76,"December 19, 1996",Ouragahio,Côte d'Ivoire
+05f99a4a,2021-12-30 16:39:20,Jonathan Burkardt,FW,79% Right,181,76,"July 11, 2000",Darmstadt,Germany
+070a3904,2021-12-30 16:06:36,Sergi Darder,MF (CM),93% Right,180,67,"December 22, 1993",Artà,Spain
+0728bebe,2021-12-30 16:48:41,Gaetano Castrovilli,"MF (CM, left)",84% Right,187,78,"February 17, 1997",Canosa di Puglia,Italy
+0745b37d,2021-12-30 16:33:41,Teemu Pukki,FW,83% Right,180,77,"March 29, 1990",Kotka,Finland
+07767f42,2021-12-30 16:51:56,Francesco Magnanelli,MF (CM-DM),91% Right,181,79,"November 12, 1984",Umbertide,Italy
+07802f7f,2021-12-30 16:29:10,Danny Ings,FW,86% Right,178,73,"July 23, 1992",Winchester,England
+080440a4,2021-12-30 16:37:35,Martin Hinteregger,DF-MF (CB),80% Left,184,73,"September 7, 1992",Feldkirchen,Austria
+0821331c,2021-12-30 16:55:50,Mattia Bani,DF (CB),92% Right,188,75,"December 10, 1993",Borgo San Lorenzo,Italy
+08511d65,2021-12-30 16:12:31,Sergio Ramos,"DF (CB-FB, left)",85% Right,183,75,"March 30, 1986",Camas,Spain
+08593525,2021-12-30 16:36:59,Diadie Samassékou,MF (CM-DM),88% Right,175,68,"January 11, 1996",Bamako,Mali
+085e71a7,2021-12-30 16:48:46,Bartłomiej Drągowski,GK,91% Right,191,86,"August 19, 1997",Białystok,Poland
+088ca1bd,2021-12-30 16:36:00,Jonathan Schmid,"DF-MF (FB-WM, right)",85% Right,179,77,"June 26, 1990",Strasbourg,France
+08990838,2021-12-30 16:49:36,Denis Vavro,DF (CB),92% Right,190,88,"April 10, 1996",Žilina,Slovakia
+08aa9cd1,2021-12-30 16:45:10,Andrea Pinamonti,FW,88% Right,185,80,"May 19, 1999",Cles,Italy
+08f5afaa,2021-12-30 16:12:19,Gianluigi Donnarumma,GK,86% Right,196,90,"February 25, 1999",Castellammare di Stabia,Italy
+091795f2,2021-12-30 16:50:44,Gabriele Corbo,DF,NULL,NULL,NULL,"January 11, 2000",NULL,NULL
+09538fdb,2021-12-30 16:52:25,Kevin Lasagna,FW,77% Left,186,80,"August 10, 1992",San Benedetto Po,Italy
+0959c2a2,2021-12-30 16:00:35,Federico Valverde,MF (CM),92% Right,183,72,"July 22, 1998",Montevideo,Uruguay
+099e666f,2021-12-30 16:30:48,Jonjoe Kenny,"DF-FW (FB, right)",94% Right,176,67,"March 15, 1997",NULL,NULL
+09a9e921,2021-12-30 16:07:30,Carlos Bacca,FW,94% Right,181,77,"September 8, 1986",Barranquilla,Colombia
+0a3065c8,2021-12-30 16:50:33,Mitchell Dijks,"DF (CB-FB, left)",84% Left,192,90,"February 9, 1993",Gemeente Purmerend,Netherlands
+0a3d6d2b,2021-12-30 16:34:57,Chris Richards,DF,67% Right,188,81,"March 28, 2000",Birmingham,Alabama
+0a3f6cde,2021-12-30 16:41:28,Christopher Antwi-Adjei,"MF (AM, left)",80% Right,171,70,"February 7, 1994",Hagen,Germany
+0a447501,2021-12-30 16:50:51,Antonio Sanabria,FW,74% Right,180,76,"March 4, 1996",San Lorenzo,Paraguay
+0a483542,2021-12-30 16:51:54,Giorgos Kyriakopoulos,"DF (FB, left)",88% Left,178,75,"February 5, 1996",Pátrai,Greece
+0ab1f153,2021-12-30 16:47:12,Juan Cuadrado,"DF-FW-MF (AM-FB-WM, right)",88% Right,178,71,"May 26, 1988",Bogotá,Colombia
+0ac94a23,2021-12-30 16:05:12,Denis Cheryshev,"FW-MF (WM, left)",84% Left,179,74,"December 26, 1990",Nizhny Novgorod,Russia
+0ae4e09a,2021-12-30 16:11:26,Roger Martí,FW,88% Right,179,74,"January 3, 1991",Torrent,Spain
+0b33f6ad,2021-12-30 16:29:33,Mohammed Salisu,"DF (CB, left)",90% Left,191,82,"April 17, 1999",Benin,Benin
+0b5a292a,2021-12-30 16:45:53,Mário Rui,"DF-MF (FB, left)",91% Left,170,67,"May 27, 1991",Sines Municipality,Portugal
+0b90bb97,2021-12-30 16:08:15,Santi Mina,FW,88% Right,177,71,"December 7, 1995",Vigo,Spain
+0ba976e4,2021-12-30 16:04:29,Ansu Fati,FW,88% Right,178,68,"October 31, 2002",Bissau,Guinea-Bissau
+0bc4e720,2021-12-30 16:05:18,Manu Vallejo,FW-MF,89% Right,167,64,"February 14, 1997",Chiclana de la Frontera,Spain
+0c2ac3cb,2021-12-30 16:12:32,Rafinha,MF (AM-CM),87% Left,174,71,"February 12, 1993",São Paulo,Brazil
+0c61c77c,2021-12-30 16:41:03,Dodi Lukebakio,"FW-MF (AM-WM, right)",76% Left,184,77,"September 24, 1997",Asse,Belgium
+0cc5f4a5,2021-12-30 16:41:54,Lukas Nmecha,FW,89% Right,185,69,"December 14, 1998",Hamburg,Germany
+0ccac09c,2021-12-30 16:55:50,Stefano Sabelli,"DF (FB, right)",92% Right,180,74,"January 13, 1993",Rome,Italy
+0cf778df,2021-12-30 16:43:25,Chris Führich,FW-MF,NULL,178,70,"January 9, 1998",Castrop-Rauxel,Germany
+0d077b88,2021-12-30 16:55:19,Mehdi Bourabia,MF,84% Right,183,74,"August 7, 1991",Dijon,France
+0d422df7,2021-12-30 16:52:45,Marco Silvestri,GK,94% Right,191,80,"March 2, 1991",Castelnovo ne' Monti,Italy
+0d4ceb32,2021-12-30 16:32:33,Matěj Vydra,FW-MF (AM),78% Right,180,75,"May 1, 1992",Chotěboř,Czech Republic
+0d55d942,2021-12-30 16:40:33,Alexander Schwolow,GK,82% Right,189,83,"June 2, 1992",Wiesbaden,Germany
+0d82903c,2021-12-30 16:47:27,Alex Sandro,"DF-MF (FB, left)",92% Left,180,78,"January 26, 1991",Catanduva,Brazil
+0db169ae,2021-12-30 16:45:11,Sandro Tonali,MF (DM),90% Right,181,78,"May 8, 2000",Lodi,Italy
+0db5d2c8,2021-12-30 16:30:16,Mathias Jørgensen,"DF (CB, right)",93% Right,191,79,"April 23, 1990",Copenhagen,Denmark
+0dfce079,2021-12-30 16:56:35,Boris Radunović,GK,Right,194,85,"May 26, 1996",Belgrade,Serbia
+0e0102eb,2021-12-30 16:42:13,Omar Marmoush,FW,90% Right,177,73,"February 7, 1999",Cairo,Egypt
+0e4fef6e,2021-12-30 16:07:44,Lucas Torró,MF (CM-DM),87% Right,188,77,"July 19, 1994",Cocentaina,Spain
+0e50f929,2021-12-30 16:06:55,Fran Mérida,MF (CM),86% Left,175,70,"March 4, 1990",Barcelona,Spain
+0e7ccfc4,2021-12-30 16:15:21,Sébastien Corchia,"DF (FB, right)",90% Right,174,65,"November 1, 1990",Noisy-le-Sec,France
+0ef89a37,2021-12-30 16:04:22,Philippe Coutinho,"FW-MF (AM-WM, left)",93% Right,172,68,"June 12, 1992",Rio de Janeiro,Brazil
+0f7dbaf6,2021-12-30 16:06:31,Jokin Ezkieta,GK,Right,194,81,"August 17, 1996",Pamplona,Spain
+0f933743,2021-12-30 16:31:51,Francisco Sierralta,DF,94% Right,190,83,"May 6, 1997",Las Condes,Chile
+0fbecd11,2021-12-30 16:39:34,Dominik Kohr,MF (DM),84% Right,193,75,"January 31, 1994",Trier,Germany
+10072610,2021-12-30 16:02:01,Claudio Bravo,GK,92% Right,184,77,"April 13, 1983",Buin,Chile
+101da2b5,2021-12-30 16:22:20,Fernandinho,DF-MF (AM-CM-DM),86% Right,175,66,"May 4, 1985",Londrina,Brazil
+1025db8e,2021-12-30 16:42:48,Jeffrey Gouweleeuw,"DF (CB, right)",90% Right,187,78,"July 10, 1991",Gemeente Heemskerk,Netherlands
+106bca06,2021-12-30 16:43:48,Alessandro Schöpf,MF (AM),70% Right,178,75,"February 7, 1994",Umhausen,Austria
+10b9fa99,2021-12-30 16:54:17,Ethan Ampadu,DF-MF,82% Right,175,70,"September 14, 2000",Exeter,England
+10dc46f0,2021-12-30 16:55:25,Salvatore Sirigu,GK,93% Right,192,80,"January 12, 1987",Nuoro,Italy
+10e7f486,2021-12-30 16:51:37,Rogério,"DF-MF (FB, left)",92% Left,178,71,"January 13, 1998",Nobres,Brazil
+111c3236,2021-12-30 16:30:45,Fabian Delph,DF-MF,65% Left,175,62,"November 21, 1989",Bradford,England
+112521d1,2021-12-30 16:06:34,Pedrosa,"DF (FB, left)",88% Left,NULL,NULL,"May 13, 1998",NULL,NULL
+119b9a8e,2021-12-30 16:22:09,Aymeric Laporte,"DF (CB, left)",77% Left,189,85,"May 27, 1994",Agen,France
+11b9265b,2021-12-30 16:05:43,Alberto Moreno,"DF-MF (FB, left)",96% Left,172,64,"July 5, 1992",Seville,Spain
+11fd2b75,2021-12-30 16:09:51,Omar Mascarell,MF (CM-DM),80% Right,181,70,"February 2, 1993",Santa Cruz de Tenerife,Spain
+1238a3f9,2021-12-30 16:40:55,Davie Selke,FW,89% Right,192,82,"January 20, 1995",Schorndorf,Germany
+1265a93a,2021-12-30 16:22:42,Reece James,"DF-MF (FB, right)",89% Right,172,64,"December 8, 1999",London,England
+1295552e,2021-12-30 16:51:48,Mert Müldür,"DF (FB, right)",93% Right,184,75,"April 3, 1999",Vienna,Austria
+129af0db,2021-12-30 16:47:12,Álvaro Morata,FW,86% Right,189,85,"October 23, 1992",Madrid,Spain
+12c50af5,2021-12-30 16:08:16,Denis Suárez,MF (AM-CM-WM),86% Right,181,72,"January 6, 1994",Salceda de Caselas,Spain
+130a7a3f,2021-12-30 16:45:43,Samu Castillejo,"FW-MF (AM-WM, right)",83% Left,179,61,"January 18, 1995",Barcelona,Spain
+13203c45,2021-12-30 16:42:01,Jérôme Roussillon,"DF-MF (FB, left)",87% Left,175,80,"January 6, 1993",Sarcelles,France
+132ac341,2021-12-30 16:07:53,Aridane Hernández,"DF (CB, right)",84% Right,186,77,"March 23, 1989",Tuineje,Spain
+149c5f5d,2021-12-30 16:46:57,Giuseppe Pezzella,DF-MF,86% Left,185,81,"November 29, 1997",Naples,Italy
+14b8fcdf,2021-12-30 16:47:41,Daniele Rugani,DF (CB),88% Right,190,82,"July 29, 1994",Lucca,Italy
+157d29b6,2021-12-30 16:56:41,Diego Farias,FW,90% Right,172,64,"May 10, 1990",Sorocaba,Brazil
+15b287da,2021-12-30 16:37:38,Daichi Kamada,FW-MF (AM),83% Right,180,72,"August 5, 1996",Ehime,Japan
+15d0c248,2021-12-30 16:49:03,Luiz Felipe,DF (CB),89% Right,187,81,"March 22, 1997",Colina,Brazil
+15ea812b,2021-12-30 16:32:09,James Tarkowski,"DF (CB, right)",86% Right,185,81,"November 19, 1992",Manchester,England
+15f3ec41,2021-12-30 16:22:58,Callum Hudson-Odoi,FW-MF,86% Right,182,76,"November 7, 2000",Wandsworth,England
+162efffd,2021-12-30 16:03:09,Rodrigo De Paul,FW-MF (CM-WM),97% Right,178,70,"May 24, 1994",Sarandí,Argentina
+165cf989,2021-12-30 16:31:02,Andy Lonergan,GK,Left,192,87,"October 19, 1983",Preston,England
+16657b95,2021-12-30 16:48:02,Bryan Cristante,DF-MF (DM),89% Right,186,78,"March 3, 1995",San Vito al Tagliamento,Italy
+16aa3654,2021-12-30 16:08:53,Takefusa Kubo,FW-MF,85% Left,170,63,"June 4, 2001",Kanagawa,Japan
+16b9d5cf,2021-12-30 16:55:51,Nikola Maksimović,DF (CB),93% Right,193,82,"November 25, 1991",Bajina Bašta,Serbia
+16bb656a,2021-12-30 16:52:20,Paweł Dawidowicz,DF-MF (CB-DM),62% Right,188,80,"May 20, 1995",Olsztyn,Poland
+16ceb862,2021-12-30 16:45:29,Olivier Giroud,FW,81% Left,192,88,"September 30, 1986",Chambéry,France
+16daec92,2021-12-30 16:37:14,Mijat Gaćinović,MF (AM-WM),76% Right,175,66,"February 8, 1995",Novi Sad,Serbia
+16e9d0ea,2021-12-30 16:01:41,Álex Moreno,"DF-MF (FB-WM, left)",89% Left,179,68,"June 8, 1993",Sant Sadurní d'Anoia,Spain
+173061c0,2021-12-30 16:56:59,Riccardo Gagliolo,"DF (CB-FB, left)",74% Left,180,75,"April 28, 1990",Porto Maurizio,Italy
+17376543,2021-12-30 16:42:41,Rafał Gikiewicz,GK,84% Right,190,81,"October 26, 1987",Olsztyn,Poland
+174651c8,2021-12-30 16:09:27,David Timor,MF (AM-CM),89% Left,185,77,"October 17, 1989",Carcaixent,Spain
+1770bd68,2021-12-30 16:31:56,Ken Sema,"DF-FW-MF (WM, left)",82% Left,177,69,"September 30, 1993",Norrköping,Sweden
+178ae8f8,2021-12-30 16:23:28,Diogo Jota,FW-MF,67% Right,178,70,"December 4, 1996",Massarelos,Portugal
+17a1299d,2021-12-30 16:01:36,Javier Díaz,GK,Right,185,82,"May 15, 1997",Mairena del Aljarafe,Spain
+17f3620a,2021-12-30 16:41:00,Krzysztof Piątek,FW,89% Right,183,77,"July 1, 1995",Dzierżoniów,Poland
+1827a42d,2021-12-30 16:08:35,José Fontán,DF,84% Left,182,75,"February 11, 2000",Vilagarcía de Arousa,Spain
+1840e36d,2021-12-30 16:00:27,Thibaut Courtois,GK,68% Left,199,91,"May 11, 1992",Bree,Belgium
+1880614f,2021-12-30 16:13:22,Cengiz Ünder,"FW-MF (AM, right)",70% Left,173,66,"July 14, 1997",Sındırgı,Turkey
+18abe173,2021-12-30 16:08:26,Joseph Aidoo,"DF (CB, right)",81% Right,184,80,"September 29, 1995",Accra,Ghana
+18b896d6,2021-12-30 16:22:42,Antonio Rüdiger,DF (CB),78% Right,191,85,"March 3, 1993",Land Berlin,Germany
+1900032e,2021-12-30 16:27:29,Jannik Vestergaard,"DF (CB, left)",72% Right,199,98,"August 3, 1992",Copenhagen,Denmark
+1961b2aa,2021-12-30 16:30:47,André Gomes,MF (CM),72% Right,188,84,"July 30, 1993",Grijó,Portugal
+19709006,2021-12-30 16:01:26,Óscar Rodríguez Arnaiz,MF,87% Right,173,70,"June 28, 1998",Talavera de la Reina,Spain
+197640fd,2021-12-30 16:27:19,Timothy Castagne,"DF-MF (DM-FB, right)",86% Right,180,80,"December 5, 1995",Arlon,Belgium
+19b776e9,2021-12-30 16:05:23,Rubén Sobrino,FW,85% Right,185,72,"June 1, 1992",Daimiel,Spain
+19e4eab9,2021-12-30 16:52:47,Rodrigo Becão,"DF (CB, right)",91% Right,191,79,"January 19, 1996",Salvador,Brazil
+1ae30132,2021-12-30 16:32:37,Phil Bardsley,"DF (FB, right)",87% Right,180,73,"June 28, 1985",Salford,England
+1ae836b1,2021-12-30 16:41:16,Elvis Rexhbeçaj,MF,78% Left,182,73,"November 1, 1997",Prizren,Kosovo
+1b84dbe1,2021-12-30 16:30:30,Lucas Digne,"DF (FB, left)",94% Left,178,74,"July 20, 1993",Meaux,France
+1bacc518,2021-12-30 16:04:12,Frenkie de Jong,DF-MF (CM),94% Right,180,68,"May 12, 1997",Arkel,Netherlands
+1bda5842,2021-12-30 16:03:49,Portu,"FW-MF (AM-DM, right)",96% Right,178,70,"May 21, 1992",Murcia,Spain
+1bf33a9a,2021-12-30 16:23:01,Christian Pulisic,FW-MF (AM),80% Right,172,69,"September 18, 1998",Easton,Pennsylvania
+1bf811d4,2021-12-30 16:34:15,Sam Byram,"DF-MF (FB-WM, right)",83% Right,180,72,"September 16, 1993",Thurrock,England
+1c7012b8,2021-12-30 16:24:42,Declan Rice,DF-MF (DM),83% Right,185,77,"January 14, 1999",London,England
+1cadaf34,2021-12-30 16:47:00,Roberto Piccoli,FW,Right,190,84,"January 27, 2001",Bergamo,Italy
+1cb49278,2021-12-30 16:22:51,Andreas Christensen,DF (CB),93% Right,188,74,"April 10, 1996",Lillerød,Denmark
+1cbe4984,2021-12-30 16:42:07,Paulo Otávio,"DF (FB, left)",90% Left,173,67,"November 23, 1994",Ourinhos,Brazil
+1d0bb7e4,2021-12-30 16:47:08,Bosko Sutalo,DF,82% Right,188,81,"January 1, 2000",Metković,Croatia
+1d1691ad,2021-12-30 16:01:00,Álvaro Odriozola,"DF (FB, right)",94% Right,178,74,"December 14, 1995",San Sebastian,Spain
+1d8e9add,2021-12-30 16:36:50,Kevin Vogt,DF-MF (CB-DM),94% Right,194,85,"September 23, 1991",Witten,Germany
+1daec722,2021-12-30 16:09:36,Marc Cucurella,"DF-MF (WM, left)",76% Left,175,68,"July 22, 1998",Alella,Spain
+1e26e376,2021-12-30 16:54:11,Sergio Romero,GK,76% Right,191,86,"February 22, 1987",Bernardo de Irigoyen,Argentina
+1ea5f91c,2021-12-30 16:09:27,Jakub Jankto,"MF (WM, left)",85% Left,184,72,"January 19, 1996",Prague,Czech Republic
+1ecb65be,2021-12-30 16:29:50,Theo Walcott,"FW-MF (AM-WM, right)",93% Right,176,70,"March 16, 1989",Stanmore,England
+1ef37668,2021-12-30 16:32:34,Erik Pieters,"DF-MF (CB-FB, left)",92% Left,184,71,"August 7, 1988",Gemeente Tiel,Netherlands
+1f079188,2021-12-30 16:05:58,Rubén Peña,"DF-MF (FB-WM, right)",87% Right,170,65,"July 18, 1991",Ávila,Spain
+1f44ac21,2021-12-30 16:35:14,Erling Haaland,FW,78% Left,191,87,"July 21, 2000",Leeds,England
+1fb1c435,2021-12-30 16:31:10,Rodrigo,FW-MF,86% Left,180,73,"March 6, 1991",Rio de Janeiro,Brazil
+1fca9171,2021-12-30 16:49:47,Federico Di Francesco,FW-MF (WM),87% Right,178,71,"June 14, 1994",Pisa,Italy
+1fda91b3,2021-12-30 16:37:25,Melayro Bogarde,DF,94% Right,184,77,"May 28, 2002",Rotterdam,Netherlands
+1fe0492d,2021-12-30 16:10:26,Rubén Duarte,"DF (FB, left)",86% Left,172,68,"October 18, 1995",Almería,Spain
+1fe67e86,2021-12-30 16:06:10,Mikel Balenziaga,"DF (FB, left)",87% Left,177,70,"February 29, 1988",Zumarraga,Spain
+20030c06,2021-12-30 16:39:58,Willi Orban,DF (CB),82% Right,185,83,"November 3, 1992",Kreisfreie Stadt Kaiserslautern,Germany
+200e89e1,2021-12-30 16:03:53,Ander Barrenetxea,MF,83% Right,178,69,"December 27, 2001",San Sebastian,Spain
+20730eae,2021-12-30 16:45:20,Rafael Leão,FW-MF,82% Right,189,79,"June 10, 1999",Almada,Portugal
+20b3a502,2021-12-30 16:50:09,Nicolás Domínguez,MF (CM-DM),80% Right,179,73,"June 28, 1998",Mariano J. Haedo,Argentina
+20b9f052,2021-12-30 16:13:18,Pau López,GK,76% Left,189,77,"December 13, 1994",Girona,Spain
+21166ff4,2021-12-30 16:27:07,Çağlar Söyüncü,"DF (CB, left)",73% Right,187,80,"May 23, 1996",Izmir,Turkey
+2146785a,2021-12-30 16:45:21,Davide Calabria,"DF-MF (FB, right)",91% Right,176,70,"December 6, 1996",Brescia,Italy
+21512407,2021-12-30 16:03:16,Kieran Trippier,"DF-MF (FB, right)",95% Right,178,66,"September 19, 1990",Bury,England
+217875a4,2021-12-30 16:56:32,Sebastian Walukiewicz,"DF (CB, right)",93% Right,188,82,"April 5, 2000",Gorzów Wielkopolski,Poland
+217c93a1,2021-12-30 16:53:12,Lazar Samardzic,MF,Left,184,79,"February 24, 2002",Berlin,Germany
+21a66f6a,2021-12-30 16:25:21,Harry Kane,FW,86% Right,188,73,"July 28, 1993",Walthamstow,England
+2200181e,2021-12-30 16:51:53,Kaan Ayhan,"DF-MF (CB-DM-FB, right)",92% Right,184,84,"November 10, 1994",Gelsenkirchen,Germany
+228b0d9d,2021-12-30 16:03:41,Aihen Muñoz,"DF (FB, left)",89% Left,175,72,"August 16, 1997",Pamplona,Spain
+228f73ae,2021-12-30 16:38:01,Amin Younes,"FW-MF (AM, left)",85% Right,168,67,"August 6, 1993",Düsseldorf,Germany
+22919e97,2021-12-30 16:37:12,Sargis Adamyan,FW-MF,82% Right,184,76,"May 23, 1993",Yerevan,Armenia
+229cd98a,2021-12-30 16:43:02,Sergio Córdova,FW,87% Right,188,78,"August 9, 1997",Calabozo,Venezuela
+2306bfde,2021-12-30 16:20:36,Rubén Pardo,MF (CM),86% Right,182,68,"October 22, 1992",Rincón de Soto,Spain
+230a2fac,2021-12-30 16:45:51,Giovanni Di Lorenzo,"DF-MF (FB, right)",86% Right,184,80,"August 4, 1993",Castelnuovo di Garfagnana,Italy
+2327c29e,2021-12-30 16:11:57,Hernâni Fortes,FW-MF,Both,180,69,"August 20, 1991",Lisbon,Portugal
+2334478a,2021-12-30 16:55:30,Stefano Sturaro,MF (CM),81% Right,181,79,"March 9, 1993",Sanremo,Italy
+240d3a0b,2021-12-30 16:06:08,Dani García,MF (CM-DM),84% Right,180,72,"May 24, 1990",Zumarraga,Spain
+246d153b,2021-12-30 16:50:54,Ola Aina,DF-MF (FB),75% Right,179,66,"October 8, 1996",Southwark,England
+24f59bb2,2021-12-30 16:31:15,Junior Firpo,"DF-MF (FB, left)",84% Left,184,78,"August 22, 1996",Santo Domingo,Dominican Republic
+253a06b9,2021-12-30 16:07:52,Ezequiel Ávila,FW-MF,70% Right,179,75,"February 6, 1994",Rosario,Argentina
+254147d4,2021-12-30 16:29:50,Moussa Djenepo,MF,75% Right,177,65,"June 15, 1998",Bamako,Mali
+25ab9c9c,2021-12-30 16:35:53,Manuel Gulde,DF (CB),77% Right,179,75,"February 12, 1991",Mannheim,Germany
+2628fd2b,2021-12-30 16:24:22,Bernd Leno,GK,82% Right,190,79,"March 4, 1992",Bietigheim-Bissingen,Germany
+2683eda7,2021-12-30 16:06:47,Javi Puado,MF,87% Right,177,69,"May 25, 1998",Barcelona,Spain
+2691c772,2021-12-30 16:32:31,Ashley Barnes,FW,78% Right,183,76,"October 30, 1989",Bath,England
+26d3b5be,2021-12-30 16:30:56,Ellis Simms,FW,Right,183,74,"January 5, 2001",England,United Kingdom
+26db8853,2021-12-30 16:52:48,Walace,MF (CM-DM),88% Right,188,75,"April 4, 1995",Salvador,Brazil
+26f6dca8,2021-12-30 16:25:00,Manuel Lanzini,MF (AM),91% Right,170,66,"February 15, 1993",San Antonio de Padua,Argentina
+271b8617,2021-12-30 16:38:27,Marcus Ingvartsen,FW-MF,76% Left,187,76,"January 4, 1996",Farum,Denmark
+2784f898,2021-12-30 16:00:27,Éder Militão,"DF-MF (CB, right)",91% Right,186,79,"January 18, 1998",Sertãozinho,Brazil
+27a013f7,2021-12-30 16:08:15,Néstor Araujo,DF (CB),84% Right,187,77,"August 29, 1991",Guadalajara,Estado de Jalisco
+27c01749,2021-12-30 16:28:06,Aaron Connolly,FW,83% Right,180,77,"January 28, 2000",Galway,Republic of Ireland
+282f75f3,2021-12-30 16:27:46,Lewis Dunk,DF (CB),94% Right,192,88,"November 21, 1991",Brighton,England
+2873973b,2021-12-30 16:57:27,Edoardo Vergani,FW,Right,186,78,"February 6, 2001",Segrate,Italy
+28a15394,2021-12-30 16:49:01,Antonio Rosati,GK,Right,195,90,"June 26, 1983",Tivoli,Italy
+28d596a0,2021-12-30 16:23:11,Kepa Arrizabalaga,GK,84% Right,189,88,"October 3, 1994",Ondarroa,Spain
+291e3ec3,2021-12-30 16:34:12,Adam Idah,FW,Right,190,82,"March 11, 2001",Cork,Republic of Ireland
+2928dca2,2021-12-30 16:26:33,Conor Coady,DF-MF (CB-DM-WM),96% Right,185,78,"February 25, 1993",Liverpool,England
+2946f9a1,2021-12-30 16:00:39,Nacho,DF (CB-FB),79% Right,179,75,"January 18, 1990",Madrid,Spain
+29733c72,2021-12-30 16:26:28,Juan Mata,FW-MF (AM-WM),86% Left,170,63,"April 28, 1988",Villafranca Montes de Oca,Spain
+2979c05a,2021-12-30 16:41:20,Gerrit Holtmann,"MF (AM, left)",88% Left,183,73,"March 25, 1995",Bremen,Germany
+29b61deb,2021-12-30 16:10:33,Pere Pons,MF (CM-DM),81% Right,177,72,"February 20, 1993",Girona,Spain
+2a0c8ba4,2021-12-30 16:01:03,Joan Jordán,MF (CM),88% Right,184,74,"July 6, 1994",Palamós,Spain
+2a1beb34,2021-12-30 16:46:36,Marten de Roon,"MF (CM-DM, right)",86% Right,185,76,"March 29, 1991",Zwijndrecht,Netherlands
+2a29eb9b,2021-12-30 16:35:48,Lukas Kübler,"DF (CB-FB, right)",89% Right,183,72,"August 30, 1992",Bonn,Germany
+2a6cd437,2021-12-30 16:35:22,Marin Pongračić,DF (CB),79% Right,190,85,"September 11, 1997",Landshut,Germany
+2a9f6b4d,2021-12-30 16:04:40,Jutglà,MF,NULL,NULL,NULL,"February 1, 1999",Sant Julià de Lòria,Andorra
+2acd49b9,2021-12-30 16:25:51,Moussa Sissoko,"MF (AM-CM-DM, right)",90% Right,187,83,"August 16, 1989",Le Blanc-Mesnil,France
+2b09d998,2021-12-30 16:40:11,Tyler Adams,DF-MF (DM),84% Right,180,70,"February 14, 1999",Wappingers Falls,New York
+2b16cb1a,2021-12-30 16:32:51,Allan Saint-Maximin,FW-MF (WM),88% Right,173,67,"March 12, 1997",Châtenay-Malabry,France
+2b622f01,2021-12-30 16:25:22,Lucas Moura,"FW-MF (AM-WM, right)",89% Right,172,66,"August 13, 1992",São Paulo,Brazil
+2b91cf8e,2021-12-30 16:33:04,Ciaran Clark,"DF-MF (CB, left)",84% Left,188,76,"September 26, 1989",Harrow,England
+2baec6ce,2021-12-30 16:29:12,Axel Tuanzebe,DF (CB),89% Right,185,78,"November 14, 1997",Bunia,Congo DR
+2bd83368,2021-12-30 16:30:40,Anthony Gordon,MF,89% Right,173,62,"February 24, 2001",Liverpool,England
+2bed3eab,2021-12-30 16:04:15,Eric García,DF (CB),87% Right,183,73,"January 9, 2001",Barcelona,Spain
+2bef2bca,2021-12-30 16:04:23,Ronald Araújo,"DF (CB, right)",91% Right,188,79,"March 7, 1999",Rivera,Uruguay
+2c0558b8,2021-12-30 16:34:42,Jamal Musiala,MF,90% Right,177,71,"February 26, 2003",Fulda,Germany
+2c0f8e9e,2021-12-30 16:44:51,Alexis Sánchez,"FW-MF (AM-WM, left)",94% Right,168,62,"December 19, 1988",Tocopilla,Chile
+2c38b327,2021-12-30 16:51:05,Marko Pjaca,FW-MF (WM),89% Right,186,81,"May 6, 1995",City of Zagreb,Croatia
+2ce2508a,2021-12-30 16:28:40,Luka Milivojević,MF (CM-DM),85% Right,184,75,"April 7, 1991",Kragujevac,Serbia
+2cfae697,2021-12-30 16:50:34,Jerdy Schouten,FW-MF (CM),92% Right,185,72,"January 12, 1997",Gemeente Hellevoetsluis,Netherlands
+2d5f03bf,2021-12-30 16:34:23,Christoph Zimmermann,DF (CB-FB),86% Right,194,80,"January 12, 1993",Düsseldorf,Germany
+2d61d13a,2021-12-30 16:33:58,Ozan Kabak,"DF (CB, right)",87% Right,186,86,"March 25, 2000",Çankaya,Turkey
+2d970560,2021-12-30 16:46:53,Robin Gosens,"DF-MF (CM-DM-FB, left)",90% Left,181,76,"July 5, 1994",Emmerich am Rhein,Germany
+2db2fd7b,2021-12-30 16:18:19,Jérôme Boateng,DF (CB-FB),71% Right,192,90,"September 3, 1988",NULL,NULL
+2e4f5f03,2021-12-30 16:23:36,Andrew Robertson,"DF-MF (FB, left)",93% Left,178,64,"March 11, 1994",Glasgow,Scotland
+2e7ff968,2021-12-30 16:35:30,Marwin Hitz,GK,86% Right,191,89,"September 18, 1987",St. Gallen,Switzerland
+2f3452eb,2021-12-30 16:49:02,Elseid Hysaj,"DF (FB, right)",76% Right,182,75,"February 20, 1994",Rrethi i Shkodrës,Albania
+2f3e911a,2021-12-30 16:39:30,Aarón Martín,"DF-MF (FB, left)",93% Left,180,72,"April 22, 1997",Montmeló,Spain
+2f557579,2021-12-30 16:46:00,Lorenzo Insigne,"FW-MF (AM, left)",94% Right,163,59,"June 4, 1991",Naples,Italy
+2f7acede,2021-12-30 16:25:35,Harry Winks,MF (DM),88% Right,178,65,"February 2, 1996",Hemel Hempstead,England
+2f90f6b8,2021-12-30 16:23:41,James Milner,DF-MF (CM-FB-WM),90% Right,176,70,"January 4, 1986",Leeds,England
+2f965a72,2021-12-30 16:25:15,Alphonse Areola,GK,91% Right,192,88,"February 27, 1993",Paris,France
+2ff964a0,2021-12-30 16:32:34,Aaron Lennon,"FW-MF (AM-WM, right)",89% Right,165,62,"April 16, 1987",Leeds,England
+30223b33,2021-12-30 16:45:51,Antonio Mirante,GK,94% Right,194,78,"July 8, 1983",Castellammare di Stabia,Italy
+3024e383,2021-12-30 16:08:01,José Ángel,"DF (FB, left)",88% Left,182,77,"September 5, 1989",Gijón,Spain
+302527b2,2021-12-30 16:35:41,Philipp Lienhart,"DF (CB, right)",89% Right,185,78,"July 11, 1996",Lilienfeld,Austria
+3061e1ec,2021-12-30 16:01:00,Andriy Lunin,GK,NULL,191,80,"February 11, 1999",Krasnohrad,Ukraine
+30941e96,2021-12-30 16:39:58,Angeliño,"DF-MF (FB, left)",92% Left,175,68,"January 4, 1997",Coristanco,Spain
+30c220c3,2021-12-30 16:36:46,Mitchell Weiser,"DF-MF (FB-WM, right)",84% Right,176,67,"April 21, 1994",Troisdorf,Germany
+30f5ffa9,2021-12-30 16:44:35,Milan Škriniar,DF-MF (CB),85% Right,187,80,"February 11, 1995",Okres Žiar nad Hronom,Slovakia
+32974271,2021-12-30 16:02:40,Sergi Guardiola,FW-MF,86% Left,187,81,"May 29, 1991",Manacor,Spain
+32c0491f,2021-12-30 16:05:16,Cristiano Piccini,"DF (FB, right)",85% Right,183,83,"September 26, 1992",Florence,Italy
+32f60ed8,2021-12-30 16:26:55,Morgan Gibbs-White,MF,96% Right,177,67,"January 27, 2000",Stafford,England
+3312f911,2021-12-30 16:28:40,Jeffrey Schlupp,"DF-FW-MF (FB, left)",79% Left,178,72,"December 23, 1992",Hamburg,Germany
+3353737a,2021-12-30 16:25:21,Sergio Reguilón,"DF (FB, left)",91% Left,176,64,"December 16, 1996",Madrid,Spain
+335fa267,2021-12-30 16:04:26,Sergi Roberto,"DF-MF (AM-CM-FB, right)",86% Right,185,70,"February 7, 1992",Reus,Spain
+3376a776,2021-12-30 16:01:15,Karim Rekik,"DF (CB, left)",87% Left,186,80,"December 2, 1994",The Hague,Netherlands
+339fe0e8,2021-12-30 16:49:28,Thomas Strakosha,GK,94% Right,192,80,"March 19, 1995",Athens,Greece
+33a61a52,2021-12-30 16:11:26,Carlos Clerc,"DF (FB, left)",94% Left,182,72,"February 21, 1992",Badalona,Spain
+33b8d077,2021-12-30 16:44:33,Marcelo Brozović,MF (CM-DM),85% Right,181,68,"November 16, 1992",City of Zagreb,Croatia
+33ecf462,2021-12-30 16:53:47,Valerio Verre,FW-MF,75% Right,180,70,"January 11, 1994",Rome,Italy
+343c0d52,2021-12-30 16:52:12,Giovanni Simeone,FW,88% Right,181,81,"July 5, 1995",Buenos Aires F.D.,Argentina
+34a0f5ff,2021-12-30 16:20:21,Javairô Dilrosun,FW-MF,85% Left,174,74,"June 22, 1998",Amsterdam,Netherlands
+34e12499,2021-12-30 16:35:42,Nico Schlotterbeck,DF,86% Left,191,85,"December 1, 1999",Waiblingen,Germany
+34e393f2,2021-12-30 16:01:42,Guido Rodríguez,"MF (CM-DM, right)",90% Right,185,78,"April 12, 1994",Sáenz Peña,Argentina
+34e4343c,2021-12-30 16:38:45,Anthony Modeste,FW,89% Right,187,90,"April 14, 1988",Cannes,France
+3515d404,2021-12-30 16:29:34,James Ward-Prowse,"MF (AM-CM-DM, right)",90% Right,173,66,"November 1, 1994",Portsmouth,England
+355c883a,2021-12-30 16:10:28,Martin Agirregabiria,"DF (FB, right)",92% Right,178,74,"May 10, 1996",Vitoria-Gasteiz,Spain
+356c9002,2021-12-30 16:53:28,Antonio Candreva,"DF-FW-MF (AM-CM-WM, right)",82% Right,180,70,"February 28, 1987",Rome,Italy
+3594a357,2021-12-30 16:04:08,Naïs Djouahra,MF,NULL,NULL,NULL,"November 23, 1999",NULL,NULL
+35dd6d80,2021-12-30 16:55:30,Domenico Criscito,"DF (CB-FB, left)",87% Left,183,75,"December 30, 1986",Cercola,Italy
+360d70f8,2021-12-30 16:09:04,Lago Junior,FW-MF,77% Right,185,75,"December 31, 1990",Abidjan,Côte d'Ivoire
+3624ce4c,2021-12-30 16:07:22,Víctor Díaz,"DF (FB, right)",91% Right,183,69,"June 12, 1988",Seville,Spain
+3631ad41,2021-12-30 16:31:48,Jeremy Ngakia,DF,89% Right,184,77,"September 7, 2000",England,United Kingdom
+3672b352,2021-12-30 16:08:00,Javi Martínez,MF,89% Right,180,76,"December 22, 1999",Soria,Spain
+36a3ff67,2021-12-30 16:35:01,Marco Reus,FW-MF (AM-WM),77% Right,180,71,"May 31, 1989",Kreisfreie Stadt Dortmund,Germany
+36c2ca73,2021-12-30 16:29:36,Alex McCarthy,GK,87% Right,193,82,"December 3, 1989",Guildford,England
+3727dd3c,2021-12-30 16:33:10,Jonjo Shelvey,MF (CM-DM),89% Right,183,70,"February 27, 1992",Romford,England
+3745e8bd,2021-12-30 16:41:18,Sebastian Polter,FW,65% Right,191,83,"April 1, 1991",Wilhelmshaven,Germany
+374ee424,2021-12-30 16:03:37,Álex Remiro,GK,86% Right,192,80,"March 24, 1995",Cascante,Spain
+379652be,2021-12-30 16:06:47,Óscar Melendo,MF,89% Left,167,65,"August 23, 1997",Barcelona,Spain
+37e103f8,2021-12-30 16:05:02,Hugo Duro,FW,63% Left,178,72,"November 10, 1999",Getafe,Spain
+37f1cf47,2021-12-30 16:06:31,Ander Capa,"DF-MF (FB-WM, right)",91% Right,176,68,"February 8, 1992",Portugalete,Spain
+37f606f0,2021-12-30 16:37:01,Dennis Geiger,MF,91% Right,172,65,"June 10, 1998",Mosbach,Germany
+38126309,2021-12-30 16:09:03,Aleix Febas,MF,85% Right,171,NULL,"February 2, 1996",Lleida,Spain
+38c7feef,2021-12-30 16:23:40,Alex Oxlade-Chamberlain,MF (CM-WM),89% Right,180,75,"August 15, 1993",Portsmouth,England
+38ce1150,2021-12-30 16:11:25,Jorge de Frutos,MF,90% Right,173,70,"February 20, 1997",Aranda de Duero,Spain
+38ceb24a,2021-12-30 16:27:43,Leandro Trossard,FW-MF (AM),78% Right,172,61,"December 4, 1994",Maasmechelen,Belgium
+3902e91b,2021-12-30 16:11:35,Gonzalo Melero,MF (CM),90% Right,183,77,"January 2, 1994",Madrid,Spain
+3935e52e,2021-12-30 16:24:32,Sead Kolašinac,"DF-MF (CB-FB, left)",89% Left,183,82,"June 20, 1993",Karlsruhe,Germany
+39583cfd,2021-12-30 16:52:56,Gerard Deulofeu,FW-MF (WM),92% Right,176,72,"March 13, 1994",Riudarenes,Spain
+3a233281,2021-12-30 16:29:13,Leon Bailey,FW-MF (AM),78% Left,181,70,"August 9, 1997",Kingston,Jamaica
+3a24769f,2021-12-30 16:23:10,Ross Barkley,MF (AM-CM),86% Right,189,83,"December 5, 1993",Liverpool,England
+3a58d075,2021-12-30 16:05:16,Koba Koindredi,MF,Right,184,76,"October 27, 2001",Païta,New Caledonia
+3a949a25,2021-12-30 16:33:16,Martin Dúbravka,GK,94% Right,190,83,"January 15, 1989",Žilina,Slovakia
+3a9c4b7b,2021-12-30 16:07:42,Nacho Vidal,"DF (FB, right)",91% Right,180,74,"January 24, 1995",el Campello,Spain
+3aa4a3be,2021-12-30 16:02:21,Loren Morón,FW,92% Right,185,80,"December 30, 1993",Marbella,Spain
+3ae14ed1,2021-12-30 16:29:32,Trézéguet,FW-MF (AM-CM),92% Right,179,65,"October 1, 1994",Kafr El Sheikh,Egypt
+3b333ac3,2021-12-30 16:46:59,Hans Hateboer,"DF-MF (DM-FB, right)",81% Right,185,72,"January 9, 1994",Beerta,Netherlands
+3b387cc7,2021-12-30 16:46:24,Gianluca Gaetano,MF,NULL,NULL,NULL,"May 5, 2000",NULL,NULL
+3b61c9ec,2021-12-30 16:47:29,Luca Pellegrini,DF,83% Left,184,72,"March 7, 1999",Rome,Italy
+3b8674e6,2021-12-30 16:47:25,Rodrigo Bentancur,MF (CM-DM),81% Right,185,73,"June 5, 1997",Colonia del Sacramento,Uruguay
+3bb625ac,2021-12-30 16:43:59,Edimilson Fernandes,MF,88% Right,190,70,"April 15, 1996",Sion,Switzerland
+3bb7af3b,2021-12-30 16:48:41,Riccardo Saponara,FW-MF (AM),72% Right,184,73,"December 21, 1991",Forlì,Italy
+3bb7b8b4,2021-12-30 16:22:06,Ederson,GK,82% Left,188,89,"August 17, 1993",Osasco,Brazil
+3bb7f478,2021-12-30 16:44:44,Edin Džeko,FW,78% Right,193,85,"March 17, 1986",Sarajevo,Bosnia and Herzegovina
+3c16d927,2021-12-30 16:01:39,Alejandro Pozo Pozo,"DF-MF (AM-FB, right)",88% Right,174,69,"February 22, 1999",Huévar del Aljarafe,Spain
+3c6089ab,2021-12-30 16:34:26,Thomas Müller,FW-MF (AM-WM),83% Right,186,75,"September 13, 1989",Weilheim,Germany
+3ca7254a,2021-12-30 16:49:02,Pedro,"FW-MF (AM-WM, right)",72% Right,167,62,"July 28, 1987",Santa Cruz de Tenerife,Spain
+3cd3b384,2021-12-30 16:53:32,Tommaso Augello,"DF (FB, left)",94% Left,180,72,"August 30, 1994",Milan,Italy
+3cd9e95a,2021-12-30 16:38:53,Timo Horn,GK,79% Left,192,76,"May 12, 1993",Cologne,Germany
+3cefcaef,2021-12-30 16:00:36,Ferland Mendy,"DF (FB, left)",72% Left,178,73,"June 8, 1995",Meulan-en-Yvelines,France
+3d50bcdb,2021-12-30 16:30:59,Moise Kean,FW,86% Right,182,77,"February 28, 2000",Vercelli,Italy
+3d688b46,2021-12-30 16:07:32,Yan Brice Eteki,MF (DM),93% Right,182,77,"August 26, 1997",Yaoundé,Cameroon
+3e1550ee,2021-12-30 16:22:34,Scott Carson,GK,Right,192,86,"September 3, 1985",Whitehaven,England
+3e42f707,2021-12-30 16:07:43,David García,"DF-MF (CB-CM, left)",63% Right,185,70,"February 14, 1994",Pamplona,Spain
+3e9e06cb,2021-12-30 16:24:53,Craig Dawson,"DF (CB-FB, right)",93% Right,188,82,"May 6, 1990",Rochdale,England
+3ea50f67,2021-12-30 16:27:11,Harvey Barnes,"FW-MF (AM, left)",86% Right,174,68,"December 9, 1997",Leicester,England
+3ead85f9,2021-12-30 16:45:20,Alessio Romagnoli,"DF (CB-FB, left)",88% Left,188,78,"January 12, 1995",Anzio,Italy
+3eb0f2df,2021-12-30 16:40:46,Vladimír Darida,MF (AM-DM),77% Right,170,60,"August 8, 1990",Sokolov,Czech Republic
+3eb22ec9,2021-12-30 16:22:08,Bernardo Silva,FW-MF (AM-CM),92% Left,173,65,"August 10, 1994",Lisbon,Portugal
+3ecc11d8,2021-12-30 16:06:19,Yeray Álvarez,"DF (CB, right)",92% Right,183,79,"January 24, 1995",Barakaldo,Spain
+3ee0dd59,2021-12-30 16:03:39,Martín Zubimendi,MF (DM),78% Right,180,77,"February 2, 1999",San Sebastián,Spain
+3eeb80e0,2021-12-30 16:42:59,Fredrik Jensen,MF (AM),88% Right,183,80,"September 9, 1997",Porvoo,Finland
+3eed9821,2021-12-30 16:04:43,Samuel Umtiti,"DF (CB-FB, left)",81% Left,181,75,"November 14, 1993",Yaoundé,Cameroon
+3ef0a2d7,2021-12-30 16:48:48,Aleksa Terzić,DF,NULL,NULL,NULL,"August 17, 1999",Serbia,Serbia
+3ef965c1,2021-12-30 16:55:52,Flavio Junior Bianchi,FW,NULL,NULL,NULL,"January 24, 2000",NULL,NULL
+3effaa34,2021-12-30 16:39:58,André Silva,FW,87% Right,185,75,"November 6, 1995",Baguim do Monte,Portugal
+3f10bd22,2021-12-30 16:01:12,Jesús Navas,"DF-MF (AM-FB-WM, right)",92% Right,172,60,"November 21, 1985",Los Palacios y Villafranca,Spain
+3f2d59fe,2021-12-30 16:11:37,Shkodran Mustafi,"DF (CB, right)",96% Right,184,82,"April 17, 1992",Bad Hersfeld,Germany
+3f79a1c8,2021-12-30 16:49:34,Gonzalo Escalante,MF (CM),90% Right,175,72,"March 27, 1993",Bella Vista,Argentina
+3faa1780,2021-12-30 16:34:05,Lukas Rupp,MF (AM),82% Right,178,64,"January 8, 1991",Heidelberg,Germany
+3fc45c73,2021-12-30 16:06:11,Iñigo Martínez,"DF (CB, left)",82% Left,181,77,"May 17, 1991",Ondarroa,Spain
+407feb71,2021-12-30 16:45:19,Brahim Díaz,MF,61% Right,170,70,"August 3, 1999",Málaga,Spain
+4112ace5,2021-12-30 16:06:07,Unai Vencedor Paris,MF,87% Right,176,74,"November 15, 2000",Bilbao,Spain
+4115ce4e,2021-12-30 16:29:39,Jan Bednarek,DF (CB),82% Right,190,77,"April 12, 1996",Słupca,Poland
+41b3069f,2021-12-30 16:06:56,Fernando Calero,"DF (CB, left)",77% Right,184,80,"September 14, 1995",Boecillo,Spain
+41bff4fa,2021-12-30 16:40:48,Márton Dárdai,DF,91% Left,182,75,"February 12, 2002",Berlin,Germany
+41c12f75,2021-12-30 16:09:13,Mathías Olivera,"DF (FB, left)",90% Left,184,78,"October 31, 1997",Montevideo,Uruguay
+41f32541,2021-12-30 16:01:05,Fernando,MF (CM-DM),89% Right,183,75,"July 25, 1987",Alto Paraíso de Goiás,Brazil
+41ff002d,2021-12-30 16:27:04,Bruno Jordão,MF,Right,180,72,"October 12, 1998",Marinha Grande Municipality,Portugal
+42130443,2021-12-30 16:22:32,Zack Steffen,GK,89% Right,190,83,"April 2, 1995",Coatesville,Pennsylvania
+42276181,2021-12-30 16:16:48,Kévin Gameiro,FW,90% Right,172,69,"May 9, 1987",Senlis,France
+43458538,2021-12-30 16:31:35,Joshua King,FW-MF (AM),89% Right,180,74,"January 15, 1992",Oslo,Norway
+437f2b00,2021-12-30 16:37:04,Christoph Baumgartner,FW-MF,89% Right,180,70,"August 1, 1999",Horn,Austria
+43a166b4,2021-12-30 16:23:53,Divock Origi,FW-MF (WM),85% Right,186,75,"April 18, 1995",Ostend,Belgium
+43f71e77,2021-12-30 16:07:15,Jorge Molina,FW,66% Right,189,83,"April 22, 1982",Alcoy,Spain
+441197b8,2021-12-30 16:37:31,Obite N'Dicka,"DF (CB, left)",84% Left,190,88,"August 20, 1999",Paris,France
+44150beb,2021-12-30 16:04:04,Jon Pacheco,DF,Left,184,79,"January 8, 2001",NULL,NULL
+442b56fa,2021-12-30 16:41:49,Ridle Baku,DF-FW-MF,82% Right,176,68,"April 8, 1998",Mainz,Germany
+4431aed2,2021-12-30 16:49:12,Ciro Immobile,FW,91% Right,185,78,"February 20, 1990",Torre Annunziata,Italy
+4442fbcd,2021-12-30 16:11:54,Nikola Vukčević,MF (CM-DM),89% Left,184,76,"December 13, 1991",Podgorica,Montenegro
+44510fde,2021-12-30 16:56:06,Andrea Favilli,FW,65% Left,191,85,"May 17, 1997",Pisa,Italy
+4468ec10,2021-12-30 16:30:29,Demarai Gray,FW-MF (AM-WM),88% Right,178,66,"June 28, 1996",Birmingham,England
+44781702,2021-12-30 16:25:34,Ben Davies,"DF-MF (FB, left)",89% Left,170,76,"April 24, 1993",Neath,Wales
+44ac04e9,2021-12-30 16:44:58,Matías Vecino,"FW-MF (AM-CM-DM, right)",94% Right,187,81,"August 24, 1991",Canelones Department,Uruguay
+44bfb6c5,2021-12-30 16:26:41,Rúben Neves,MF (AM-CM-DM),92% Right,180,80,"March 13, 1997",Mozelos,Portugal
+44eb9093,2021-12-30 16:44:52,Danilo D'Ambrosio,"DF (FB, right)",73% Right,180,75,"September 9, 1988",Naples,Italy
+450ab6fc,2021-12-30 16:32:51,Jamaal Lascelles,DF (CB),83% Right,189,83,"November 11, 1993",Derby,England
+4535e4bb,2021-12-30 16:03:59,Mathew Ryan,GK,86% Right,184,73,"April 8, 1992",Plumpton,Australia
+45963054,2021-12-30 16:27:09,Jamie Vardy,FW,75% Right,178,76,"January 11, 1987",Sheffield,England
+45a03961,2021-12-30 16:34:41,Benjamin Pavard,"DF (CB-FB, right)",94% Right,182,65,"March 28, 1996",Maubeuge,France
+45af8a54,2021-12-30 16:00:41,Marco Asensio,FW-MF (WM),88% Left,178,70,"January 21, 1996",Palma,Spain
+45b9b619,2021-12-30 16:44:47,Joaquín Correa,FW-MF (AM),90% Right,188,77,"August 13, 1994",Juan Bautista Alberdi,Argentina
+45db685d,2021-12-30 16:22:42,Jorginho,MF (CM-DM),93% Right,180,65,"December 20, 1991",Imbituba,Brazil
+45e17712,2021-12-30 16:04:55,Dimitri Foulquier,"DF-MF (FB, right)",86% Right,183,77,"March 23, 1993",Sarcelles,France
+4601e194,2021-12-30 16:04:14,Jordi Alba,"DF-MF (FB, left)",86% Left,170,68,"March 21, 1989",Marmolejo,Spain
+4611e028,2021-12-30 16:48:46,Erick Pulgar,DF-MF (CB-CM-DM),91% Right,186,70,"January 15, 1994",Antofagasta,Chile
+466824fb,2021-12-30 16:07:58,Oier Sanjurjo,DF-MF (CB-CM-DM),84% Right,178,66,"May 25, 1986",Estella/Lizarra,Spain
+466fb2c5,2021-12-30 16:24:04,Aaron Ramsdale,GK,93% Right,195,80,"May 14, 1998",Staffordshire,England
+46a8347f,2021-12-30 16:03:30,Šime Vrsaljko,"DF-MF (CB-FB, right)",94% Right,183,75,"January 10, 1992",Zadar,Croatia
+46fa7204,2021-12-30 16:55:18,Kevin Agudelo,MF,87% Left,178,73,"November 14, 1998",Colombia,Colombia
+47064058,2021-12-30 16:36:47,Oliver Baumann,GK,81% Right,187,82,"June 2, 1990",Breisach,Germany
+471f16b3,2021-12-30 16:33:42,Kenny McLean,"MF (AM-CM-DM-WM, left)",81% Left,183,78,"January 8, 1992",Rutherglen,Scotland
+47369df8,2021-12-30 16:32:16,Josh Brownhill,MF (CM),87% Right,177,74,"December 19, 1995",Warrington,England
+4737cebe,2021-12-30 16:03:46,Adnan Januzaj,"FW-MF (AM-WM, right)",85% Left,182,75,"February 5, 1995",Brussels,Belgium
+474ecac8,2021-12-30 16:11:49,Sergio Postigo,DF (CB),89% Right,185,85,"November 4, 1988",Madrid,Spain
+4806ec67,2021-12-30 16:30:31,Jordan Pickford,GK,81% Left,185,77,"March 7, 1994",Washington,England
+487d9b09,2021-12-30 16:10:11,Antonio Barragán,"DF-MF (FB, right)",87% Right,182,76,"June 12, 1987",Los Palacios y Villafranca,Spain
+48a5a5d6,2021-12-30 16:24:17,Martinelli,FW-MF,84% Right,180,75,"June 18, 2001",Guarulhos,Brazil
+48b3dd60,2021-12-30 16:47:39,Arthur Melo,MF (CM),96% Right,172,68,"August 12, 1996",Goiânia,Brazil
+48d5bd33,2021-12-30 16:46:46,Ruslan Malinovskyi,FW-MF (AM-DM),88% Left,181,79,"May 4, 1993",Zhytomyr,Ukraine
+48e89655,2021-12-30 16:10:15,Pablo Piatti,"FW-MF (WM, left)",85% Left,163,63,"March 31, 1989",La Carlota,Argentina
+49136c42,2021-12-30 16:18:47,Andrew Gravillon,DF (CB),88% Right,188,78,"February 8, 1998",Pointe-à-Pitre,Guadeloupe
+49296448,2021-12-30 16:34:38,Joshua Kimmich,"DF-MF (DM-FB, right)",82% Right,176,70,"February 8, 1995",Rottweil,Germany
+493924a7,2021-12-30 16:41:53,Kevin Mbabu,"DF (FB, right)",85% Right,184,80,"April 19, 1995",Chêne-Bougeries,Switzerland
+4958bfb2,2021-12-30 16:00:40,Dani Carvajal,"DF (FB, right)",93% Right,173,70,"January 11, 1992",Leganés,Spain
+495945ef,2021-12-30 16:32:17,Ashley Westwood,"MF (CM-DM-WM, right)",94% Right,170,80,"April 1, 1990",Nantwich,England
+49d028db,2021-12-30 16:01:52,Édgar González,MF,75% Right,193,78,"April 1, 1997",Sant Joan Despí,Spain
+49fe9070,2021-12-30 16:23:03,Timo Werner,FW-MF (WM),83% Right,180,75,"March 6, 1996",Stuttgart,Germany
+4a478107,2021-12-30 16:11:24,José Luis Morales,FW-MF (AM-WM),81% Right,180,70,"July 23, 1987",Madrid,Spain
+4a56052c,2021-12-30 16:47:55,Jordan Veretout,MF (CM-DM),83% Right,176,66,"March 1, 1993",Ancenis,France
+4a5a45c7,2021-12-30 16:48:03,Lorenzo Pellegrini,MF (AM-CM),89% Right,186,77,"June 19, 1996",Rome,Italy
+4a633cfe,2021-12-30 16:07:51,Unai García,"DF (CB, right)",92% Right,182,81,"February 3, 1992",Escároz,Spain
+4ab53cdb,2021-12-30 16:32:32,Jay Rodriguez,FW,93% Right,185,70,"July 29, 1989",Burnley,England
+4accb7e0,2021-12-30 16:07:44,Darko Brašanac,MF (CM),79% Right,178,75,"February 12, 1992",Čajetina,Serbia
+4ae67f27,2021-12-30 16:51:01,Alessandro Buongiorno,DF (CB),84% Left,192,85,"June 6, 1999",Torino,Italy
+4b029b31,2021-12-30 16:52:02,Edoardo Goldaniga,"DF (CB, right)",89% Right,193,87,"November 2, 1993",Milan,Italy
+4b3e1a38,2021-12-30 16:45:55,Amir Rrahmani,"DF (CB, right)",88% Right,190,75,"February 24, 1994",Pristina,Kosovo
+4b40d9ca,2021-12-30 16:32:07,Nick Pope,GK,94% Right,190,76,"April 19, 1992",Soham,England
+4b511457,2021-12-30 16:29:35,Oriol Romeu,MF (CM-DM),82% Right,183,83,"September 24, 1991",Ulldecona,Spain
+4bcf39f6,2021-12-30 16:27:46,Neal Maupay,FW-MF (AM),81% Right,171,69,"August 14, 1996",Versailles,France
+4bd00a50,2021-12-30 16:36:36,Panagiotis Retsos,DF,82% Right,185,76,"August 9, 1998","Greece",NULL
+4bd414c1,2021-12-30 16:05:31,Raúl Albiol,"DF (CB, right)",86% Right,190,82,"September 4, 1985",Vilamarxant,Spain
+4c2e9442,2021-12-30 16:05:02,Maxi Gómez,FW,90% Right,186,91,"August 14, 1996",Paysandú,Uruguay
+4c370d81,2021-12-30 16:23:47,Roberto Firmino,FW-MF (AM),86% Right,181,76,"October 2, 1991",Maceió,Brazil
+4c3a6744,2021-12-30 16:12:57,Justin Kluivert,FW-MF,87% Right,171,68,"May 5, 1999",Amsterdam,Netherlands
+4c5b14d2,2021-12-30 16:02:21,Joaquín,"FW-MF (AM-WM, right)",95% Right,180,75,"July 21, 1981",El Puerto de Santa María,Spain
+4c5b714f,2021-12-30 16:14:56,Djibril Sidibé,"DF-MF (FB, right)",84% Right,182,80,"July 29, 1992",Troyes,France
+4c62d0c8,2021-12-30 16:47:40,Mattia Perin,GK,84% Right,188,74,"November 10, 1992",Latina,Italy
+4c6facae,2021-12-30 16:37:28,Djibril Sow,MF (CM-DM),84% Right,184,77,"February 6, 1997",Zurich,Switzerland
+4c78b5ed,2021-12-30 16:49:15,Lucas Leiva,MF (CM-DM),90% Right,179,73,"January 9, 1987",Dourados,Brazil
+4cde5509,2021-12-30 16:45:25,Zlatan Ibrahimović,FW,87% Right,195,95,"October 3, 1981",Malmo,Sweden
+4d034881,2021-12-30 16:04:38,Sergio Agüero,FW,89% Right,172,69,"June 2, 1988",Buenos Aires F.D.,Argentina
+4d1666ff,2021-12-30 16:01:02,Jules Koundé,"DF (CB, right)",90% Right,178,70,"November 12, 1998",Paris,France
+4d224fe8,2021-12-30 16:00:27,Casemiro,MF (CM-DM),89% Right,184,80,"February 23, 1992",São José dos Campos,Brazil
+4d8cd038,2021-12-30 16:00:50,Luka Jović,FW,71% Right,181,75,"December 23, 1997",Opština Bijeljina,Bosnia and Herzegovina
+4dbd0916,2021-12-30 16:03:16,Thomas Lemar,MF (AM-WM),85% Left,170,58,"November 12, 1995",Baie-Mahault,Guadeloupe
+4e1d5e59,2021-12-30 16:49:45,Szymon Żurkowski,MF (CM),82% Right,NULL,NULL,"September 25, 1997",NULL,NULL
+4e204552,2021-12-30 16:37:11,Jacob Bruun Larsen,MF,73% Right,183,75,"September 19, 1998",Lyngby,Denmark
+4e219ad2,2021-12-30 16:01:15,Suso,"FW-MF (AM, right)",90% Left,176,70,"November 19, 1993",Cadiz,Spain
+4e6dbac4,2021-12-30 16:49:02,Sergej Milinković-Savić,MF (CM),84% Right,191,76,"February 27, 1995",Lleida,Spain
+4e9a0555,2021-12-30 16:32:09,Chris Wood,FW,83% Right,191,82,"December 7, 1991",Auckland,New Zealand
+4f28a6ff,2021-12-30 16:04:28,Clément Lenglet,"DF (CB, left)",88% Left,186,81,"June 17, 1995",Beauvais,France
+4f2908e5,2021-12-30 16:52:07,Federico Peluso,"DF (CB-FB, left)",91% Left,188,77,"January 20, 1984",Rome,Italy
+4f974391,2021-12-30 16:24:53,Aaron Cresswell,"DF-MF (FB, left)",94% Left,170,68,"December 15, 1989",Liverpool,England
+4fb9c88f,2021-12-30 16:23:49,Curtis Jones,MF,86% Right,185,72,"January 30, 2001",Liverpool,England
+507c7bdf,2021-12-30 16:25:53,Bruno Fernandes,MF (AM-CM),92% Right,173,65,"September 8, 1994",Maia,Portugal
+50871bcc,2021-12-30 16:35:21,Thorgan Hazard,FW-MF (AM-WM),82% Right,174,69,"March 29, 1993",La Louvière,Belgium
+50e6dc35,2021-12-30 16:28:44,Jean-Philippe Mateta,FW,77% Right,192,82,"June 28, 1997",Châteauroux,France
+5128bde4,2021-12-30 16:52:11,Darko Lazović,DF-MF (AM-DM-WM),83% Right,181,66,"September 15, 1990",Čačak,Serbia
+515ebe8d,2021-12-30 16:24:00,Nathaniel Phillips,DF,90% Right,190,84,"March 21, 1997",England,United Kingdom
+51a3c4c8,2021-12-30 16:03:17,Felipe,DF (CB),84% Right,184,77,"May 16, 1989",Mogi das Cruzes,Brazil
+51b41c5c,2021-12-30 16:13:09,Morgan Schneiderlin,MF (DM),87% Right,181,80,"November 8, 1989",Zellwiller,France
+51cf8561,2021-12-30 16:22:24,Oleksandr Zinchenko,"DF-MF (FB, left)",91% Left,175,61,"December 15, 1996",Radomyshl’,Ukraine
+52611641,2021-12-30 16:48:26,Lucas Torreira,MF (DM),89% Right,167,63,"February 11, 1996",Fray Bentos,Uruguay
+5271c8f1,2021-12-30 16:22:33,Benjamin Mendy,"DF (FB, left)",93% Left,186,75,"July 17, 1994",Longjumeau,France
+528492ea,2021-12-30 16:48:32,Alfred Duncan,MF (CM),92% Left,178,78,"March 10, 1993",Accra,Ghana
+5294a83f,2021-12-30 16:49:13,Luis Alberto,FW-MF (AM-CM-WM),95% Right,182,73,"September 28, 1992",San José del Valle,Spain
+529f49ab,2021-12-30 16:24:06,Thomas Partey,MF (CM-DM),93% Right,185,78,"June 13, 1993",NULL,NULL
+52ec54d0,2021-12-30 16:47:14,Leonardo Bonucci,DF (CB),85% Right,191,82,"May 1, 1987",Viterbo,Italy
+53070b63,2021-12-30 16:36:29,Paulinho,FW-MF,90% Right,177,70,"July 15, 2000",Rio de Janeiro,Brazil
+5313ed43,2021-12-30 16:16:04,Seko Fofana,MF (CM-DM),83% Right,183,74,"May 7, 1995",Paris,France
+531a4aa8,2021-12-30 16:29:57,Yan Valery,DF,95% Right,180,85,"February 22, 1999",Champigny-sur-Marne,France
+532e1e4f,2021-12-30 16:05:29,Pau Torres,"DF (CB, left)",88% Left,191,85,"January 16, 1997",Villarreal,Spain
+536cebe5,2021-12-30 16:45:32,Ante Rebić,FW-MF (AM-WM),70% Right,185,77,"September 21, 1993",Split Opcina,Croatia
+539230cf,2021-12-30 16:44:56,Andrea Ranocchia,DF (CB),88% Right,195,81,"February 16, 1988",Assisi,Italy
+53a0e358,2021-12-30 16:51:37,Domenico Berardi,"FW-MF (AM, right)",87% Left,183,72,"August 1, 1994",Cariati,Italy
+53af52f3,2021-12-30 16:27:09,Kasper Schmeichel,GK,95% Right,189,83,"November 5, 1986",Copenhagen,Denmark
+53cad200,2021-12-30 16:22:48,César Azpilicueta,"DF-MF (CB-FB, right)",91% Right,178,76,"August 28, 1989",Pamplona,Spain
+53de807a,2021-12-30 16:49:27,Ștefan Radu,"DF (CB-FB, left)",88% Left,183,79,"October 22, 1986",Bucureşti,Romania
+53e07d0b,2021-12-30 16:39:41,Ádám Szalai,FW,81% Right,193,87,"December 9, 1987",Budapest főváros,Hungary
+54b4dc4e,2021-12-30 16:36:17,Kerem Demirbay,MF (AM-CM-DM),83% Left,185,80,"July 3, 1993",Herten,Germany
+54e4866f,2021-12-30 16:35:45,Vincenzo Grifo,"FW-MF (AM-WM, left)",90% Right,181,75,"April 7, 1993",Pforzheim,Germany
+54e53b7e,2021-12-30 16:52:14,Gianluca Caprari,FW-MF,87% Right,171,70,"July 30, 1993",Rome,Italy
+55126f3b,2021-12-30 16:02:57,Koke,MF (AM-CM-DM-WM),92% Right,170,74,"January 8, 1992",Madrid,Spain
+555d5edd,2021-12-30 16:36:31,Nadiem Amiri,MF (AM-CM),86% Right,178,72,"October 27, 1996",Kreisfreie Stadt Ludwigshafen am Rhein,Germany
+555f3a0b,2021-12-30 16:02:59,Mario Hermoso,"DF (CB, left)",82% Left,181,69,"June 18, 1995",Madrid,Spain
+563a68ad,2021-12-30 16:50:10,Gary Medel,DF-MF (CB-DM),87% Right,171,76,"August 3, 1987",Santiago,Chile
+56413b1f,2021-12-30 16:36:25,Charles Aránguiz,MF (CM-DM),87% Right,172,67,"April 17, 1989",Puente Alto,Chile
+56f7a928,2021-12-30 16:27:09,Youri Tielemans,MF (AM-CM-DM),81% Right,177,72,"May 7, 1997",Sint-Pieters-Leeuw,Belgium
+570bb4b9,2021-12-30 16:51:46,Hamed Junior Traorè,FW-MF (AM),84% Right,177,69,"February 16, 2000",Abidjan,Côte d'Ivoire
+5722eced,2021-12-30 16:34:55,Mickaël Cuisance,MF,82% Left,181,73,"August 16, 1999",Strasbourg,France
+57be54ec,2021-12-30 16:06:26,Asier Villalibre,FW,55% Right,183,82,"September 30, 1997",Gernika-Lumo,Spain
+57df7a11,2021-12-30 16:25:01,Arthur Masuaku,"DF-MF (FB, left)",95% Left,179,70,"November 7, 1993",Lille,France
+57e3f0c7,2021-12-30 16:24:21,Nicolas Pépé,"FW-MF (AM, right)",88% Left,178,68,"May 29, 1995",Mantes-la-Jolie,France
+582a5247,2021-12-30 16:42:51,Mads Pedersen,DF-MF,85% Left,180,74,"September 1, 1996",Hørsholm,Denmark
+58a9a4d9,2021-12-30 16:01:26,Óliver Torres,MF (CM),91% Right,178,70,"November 10, 1994",Navalmoral de la Mata,Spain
+58afe001,2021-12-30 16:09:14,Mauro Arambarri,MF (CM-DM),89% Right,174,71,"September 30, 1995",Salto,Uruguay
+58eee997,2021-12-30 16:26:04,Mason Greenwood,FW-MF (AM),78% Left,181,65,"October 1, 2001",Bradford,England
+59b7d823,2021-12-30 16:06:08,Iñigo Lekue,DF-MF (FB),82% Right,180,72,"May 4, 1993",Bilbao,Spain
+59be3a74,2021-12-30 16:49:28,Anderson Lima,MF,Right,NULL,NULL,"September 23, 1999",NULL,NULL
+59e4b92e,2021-12-30 16:38:06,Rani Khedira,DF-MF (CM-DM),87% Right,185,78,"January 27, 1994",Stuttgart,Germany
+59e6e5bf,2021-12-30 16:30:47,Dominic Calvert-Lewin,FW-MF,86% Right,189,64,"March 16, 1997",Sheffield,England
+5a2cb25d,2021-12-30 16:48:49,Sofyan Amrabat,MF (CM-DM),93% Right,173,70,"August 21, 1996",Gemeente Huizen,Netherlands
+5a4280b1,2021-12-30 16:32:47,Kevin Long,"DF (CB, right)",92% Right,190,83,"August 18, 1990",Cork,Republic of Ireland
+5a626448,2021-12-30 16:05:45,Moi Gómez,"FW-MF (AM, left)",66% Right,174,65,"June 23, 1994",Rojales,Spain
+5a7301ae,2021-12-30 16:26:53,Leander Dendoncker,"DF-MF (CM-DM, right)",82% Right,178,83,"April 15, 1995",Passendale,Belgium
+5aa53281,2021-12-30 16:47:55,Gianluca Mancini,"DF (CB, right)",89% Right,190,85,"April 17, 1996",Pontedera,Italy
+5aaef9ef,2021-12-30 16:31:36,Juraj Kucka,MF (CM-DM),73% Right,186,84,"February 26, 1987",Bojnice,Slovakia
+5ab0ea87,2021-12-30 16:04:11,Sergio Busquets,MF (CM-DM),83% Right,189,73,"July 16, 1988",Sabadell,Spain
+5acc4a10,2021-12-30 16:05:30,Étienne Capoue,MF (CM-DM),83% Right,189,80,"July 11, 1988",Niort,France
+5bd72174,2021-12-30 16:51:56,Francesco Caputo,FW,83% Right,181,74,"August 6, 1987",Altamura,Italy
+5c2b4f07,2021-12-30 16:05:51,Serge Aurier,"DF-MF (FB, right)",88% Right,176,76,"December 24, 1992",Paris,France
+5c397195,2021-12-30 16:52:04,Lukáš Haraslín,FW-MF,85% Right,175,65,"May 26, 1996",Bratislava,Slovakia
+5c4bf6ba,2021-12-30 16:39:20,Robin Zentner,GK,88% Right,194,96,"October 28, 1994",Rüdesheim am Rhein,Germany
+5c4dc0ff,2021-12-30 16:00:49,Mariano,FW,88% Right,181,74,"August 1, 1993",Barcelona,Spain
+5c7845f6,2021-12-30 16:03:49,Igor Zubeldia,DF-MF (CB-DM),93% Right,185,78,"March 30, 1997",Azkoitia,Spain
+5c96b017,2021-12-30 16:07:44,Rubén García,FW-MF (AM-WM),88% Left,171,72,"July 14, 1993",Valencia,Spain
+5ca20b7a,2021-12-30 16:03:49,Joseba Zaldúa,"DF (FB, right)",92% Right,176,73,"June 24, 1992",San Sebastian,Spain
+5cbd1eb0,2021-12-30 16:28:20,Tyrick Mitchell,"DF (FB, left)",92% Left,175,66,"September 1, 1999",England,United Kingdom
+5cdddffa,2021-12-30 16:25:34,Tanguy Ndombele,MF (CM-DM),91% Right,181,76,"December 28, 1996",Longjumeau,France
+5ce0b5ba,2021-12-30 16:04:10,Asier Illarramendi,MF (CM-DM),88% Right,188,76,"March 8, 1990",Mutriku,Spain
+5ceba7fc,2021-12-30 16:18:13,Karl Toko Ekambi,FW-MF,90% Right,183,70,"September 14, 1992",Paris,France
+5cec2487,2021-12-30 16:02:04,Martín Montoya,"DF (FB, right)",86% Right,174,72,"April 14, 1991",Viladecans,Spain
+5d4f7d61,2021-12-30 16:36:16,Patrik Schick,FW,81% Left,186,73,"January 24, 1996",Prague,Czech Republic
+5d8d7454,2021-12-30 16:16:40,Frederic Guilbert,"DF-MF (FB, right)",86% Right,178,70,"December 24, 1994",Valognes,France
+5d8e331f,2021-12-30 16:35:45,Nicolas Höfler,"MF (CM-DM, left)",69% Right,181,78,"March 9, 1990",Überlingen,Germany
+5dcf3e90,2021-12-30 16:06:08,Unai Simón,GK,91% Right,190,85,"June 11, 1997",Vitoria-Gasteiz,Spain
+5ddb8f9f,2021-12-30 16:37:47,Danny da Costa,"DF-MF (DM-FB, right)",83% Right,185,85,"July 13, 1993",Neuss,Germany
+5dfc6ad5,2021-12-30 16:35:07,Axel Witsel,MF (CM-DM),92% Right,186,81,"January 12, 1989",Liège,Belgium
+5e861944,2021-12-30 16:46:10,Matteo Politano,FW-MF (AM),84% Left,170,65,"August 3, 1993",Rome,Italy
+5ea8ef20,2021-12-30 16:13:15,Mattéo Guendouzi,MF (CM-DM),93% Right,185,68,"April 14, 1999",Poissy,France
+5eae500a,2021-12-30 16:22:58,Romelu Lukaku,FW,66% Left,192,91,"May 13, 1993",Antwerp,Belgium
+5ed9b537,2021-12-30 16:23:40,Ibrahima Konaté,"DF (CB, right)",92% Right,193,84,"May 25, 1999",Paris,France
+5eecec3d,2021-12-30 16:22:29,John Stones,"DF (CB, right)",88% Right,188,70,"May 28, 1994",Barnsley,England
+5efc5389,2021-12-30 16:56:18,Charalambos Lykogiannis,"DF-MF (FB-WM, left)",94% Left,186,78,"October 22, 1993",Piraeus,Greece
+5f0241b2,2021-12-30 16:12:38,Sergio Rico,GK,84% Right,194,90,"September 1, 1993",Seville,Spain
+5fa57166,2021-12-30 16:46:59,Matteo Lovato,DF,85% Right,188,78,"February 14, 2000",Monselice,Italy
+5fd5ed86,2021-12-30 16:50:49,Gleison Bremer,DF (CB),78% Right,188,83,"March 18, 1997",Itapiranga,Brazil
+601ef102,2021-12-30 16:53:16,Stefano Okaka,FW,96% Right,187,82,"August 9, 1989",Castiglione del Lago,Italy
+6025fab1,2021-12-30 16:00:28,Luka Modrić,"MF (AM-CM-DM, right)",88% Right,174,65,"September 9, 1985",Zadar,Croatia
+603116a7,2021-12-30 16:00:50,Marcelo,"DF-MF (FB-WM, left)",86% Left,175,73,"May 12, 1988",Rio de Janeiro,Brazil
+603cb947,2021-12-30 16:36:53,Andrej Kramarić,FW-MF (AM),85% Right,180,75,"June 19, 1991",City of Zagreb,Croatia
+605eb473,2021-12-30 16:08:44,Manolo Reina,GK,91% Right,185,80,"April 1, 1985",Villanueva del Trabuco,Spain
+610aa1e9,2021-12-30 16:38:59,Luca Kilian,"DF (CB, right)",88% Right,192,90,"September 1, 1999",Dortmund,Germany
+61220da2,2021-12-30 16:11:26,José Campaña,MF (AM-CM-DM),86% Right,179,74,"May 31, 1993",Seville,Spain
+6190474d,2021-12-30 16:35:51,Jeong Woo-yeong,FW,82% Right,180,72,"September 20, 1999",Ulsan,Korea Republic
+61b3978f,2021-12-30 16:53:27,Bartosz Bereszyński,"DF-FW (FB, right)",91% Right,182,78,"July 12, 1992",Poznań,Poland
+61b62b33,2021-12-30 16:07:03,Álvaro Vadillo,FW-MF (AM-WM),94% Right,180,65,"September 12, 1994",Puerto Real,Spain
+6213fd82,2021-12-30 16:55:09,Arkadiusz Reca,DF-MF,65% Left,187,75,"June 17, 1995",Chojnice,Poland
+62437b4f,2021-12-30 16:52:59,Ignacio Pussetto,FW-MF,92% Right,180,74,"December 21, 1995",Cañada Rosquín,Argentina
+6250083a,2021-12-30 16:25:26,Oliver Skipp,MF (DM),95% Right,177,66,"September 16, 2000",Welwyn Garden City,England
+6265208f,2021-12-30 16:10:24,Joselu,FW,76% Right,192,81,"March 27, 1990",Stuttgart,Germany
+626fab5f,2021-12-30 16:42:52,Raphael Framberger,"DF (FB, right)",93% Right,179,70,"September 6, 1995",Kreisfreie Stadt Augsburg,Germany
+62ab9184,2021-12-30 16:42:02,Yannick Gerhardt,DF-MF,76% Left,184,81,"March 13, 1994",Würselen,Germany
+62ba5881,2021-12-30 16:44:01,Stefanos Kapino,GK,Right,196,91,"March 18, 1994",Piraeus,Greece
+62d7ef38,2021-12-30 16:23:51,Caoimhín Kelleher,GK,Right,188,81,"November 23, 1998",Cork,Republic of Ireland
+635f2732,2021-12-30 16:39:37,Jean-Paul Boëtius,FW-MF (AM-WM),79% Right,174,67,"March 22, 1994",Rotterdam,Netherlands
+63f04c6c,2021-12-30 16:05:41,Alfonso Pedraza,"DF-FW-MF (FB-WM, left)",91% Left,182,75,"April 9, 1996",San Sebastián de los Ballesteros,Spain
+6421ec64,2021-12-30 16:18:21,Xherdan Shaqiri,"FW-MF (AM-WM, right)",82% Left,169,73,"October 10, 1991",Komuna e Gjilanit,Kosovo
+6434f10d,2021-12-30 16:22:09,Rodri,MF (CM-DM),85% Right,190,78,"June 22, 1996",Madrid,Spain
+649b01d8,2021-12-30 16:53:26,Emil Audero,GK,88% Right,190,78,"January 18, 1997",Mataram,Indonesia
+64ba07c0,2021-12-30 16:17:36,Ronaël Pierre-Gabriel,"DF (FB, right)",94% Right,177,76,"June 13, 1998",Paris,France
+64cd167d,2021-12-30 16:55:32,Davide Biraschi,"DF (CB, right)",95% Right,182,73,"July 2, 1994",Bergamo,Italy
+64e8ed6d,2021-12-30 16:48:14,Borja Mayoral,FW,82% Right,181,68,"April 5, 1997",Parla,Spain
+64f69877,2021-12-30 16:14:44,Kevin Volland,FW-MF (AM),73% Left,179,82,"July 30, 1992",Marktoberdorf,Germany
+652d4c37,2021-12-30 16:34:47,Corentin Tolisso,DF-MF (CM-DM-FB),90% Right,181,78,"August 3, 1994",Tarare,France
+6583a8a9,2021-12-30 16:07:40,Pepe,DF,Right,185,63,"March 2, 2000",Linares,Spain
+6613c819,2021-12-30 16:24:42,Tomáš Souček,MF (DM),86% Right,190,84,"February 27, 1995",Havlíčkův Brod,Czech Republic
+66385c46,2021-12-30 16:38:25,Levin Öztunalı,"FW-MF (AM, right)",85% Right,184,80,"March 15, 1996",Hamburg,Germany
+6639e500,2021-12-30 16:26:31,Andreas Pereira,MF,87% Right,177,66,"January 1, 1996",Duffel,Belgium
+66b76d44,2021-12-30 16:29:09,Emi Buendía,"FW-MF (AM, right)",87% Right,170,65,"December 25, 1996",Mar del Plata,Argentina
+6763373d,2021-12-30 16:10:44,Miguel,FW,Right,180,77,"September 3, 1999",NULL,NULL
+67669ce7,2021-12-30 16:07:32,Aarón Escandell,GK,90% Right,188,73,"September 27, 1995",Carcaixent,Spain
+677da306,2021-12-30 16:43:00,Ohis Felix Uduokhai,"DF (CB, left)",77% Left,188,78,"September 9, 1997",Annaberg-Buchholz,Germany
+67cdbc0e,2021-12-30 16:44:57,Arturo Vidal,MF (CM-DM),83% Right,180,75,"May 22, 1987",Santiago,Chile
+67f649be,2021-12-30 16:45:10,Ionuț Radu,GK,88% Right,188,80,"May 28, 1997",Bucureşti,Romania
+68252d6d,2021-12-30 16:46:48,Josip Iličić,FW-MF (AM),84% Left,190,79,"January 29, 1988",Prijedor,Bosnia and Herzegovina
+6928979a,2021-12-30 16:44:35,Nicolò Barella,MF (CM-DM),88% Right,172,68,"February 7, 1997",Cagliari,Italy
+69374ff5,2021-12-30 16:36:38,Julian Baumgartlinger,DF-MF (CM-DM),81% Right,181,79,"January 2, 1988",Salzburg,Austria
+697295b1,2021-12-30 16:10:03,Pedro Bigas,"DF-MF (CB-FB, left)",59% Left,180,78,"September 15, 1990",Palma,Spain
+699fb8db,2021-12-30 16:36:05,Dominique Heintz,"DF (CB, left)",85% Left,189,87,"August 15, 1993",Neustadt an der Weinstraße,Germany
+69cbc8b6,2021-12-30 16:06:35,Leandro Cabrera,"DF (CB, left)",85% Left,187,80,"June 17, 1991",Montevideo,Uruguay
+6a471ee8,2021-12-30 16:32:51,Bobby Thomas,DF,NULL,186,79,(Date unknown),England,United Kingdom
+6a99e0b1,2021-12-30 16:06:06,Iñaki Williams,FW-MF (AM),92% Right,186,77,"June 15, 1994",Bilbao,Spain
+6aa3e78b,2021-12-30 16:25:42,Ryan Sessegnon,"DF-FW-MF (FB, left)",88% Left,170,70,"May 18, 2000",Roehampton,England
+6adbc307,2021-12-30 16:29:48,Jack Stephens,DF (CB),93% Right,185,75,"January 27, 1994",Torpoint,England
+6b47c5db,2021-12-30 16:27:09,Wilfred Ndidi,DF-MF (CM-DM),86% Right,188,78,"December 16, 1996",Lagos,Nigeria
+6bb2c084,2021-12-30 16:46:06,Andre-Frank Zambo Anguissa,MF (CM-DM),88% Right,184,79,"November 16, 1995",Yaoundé,Cameroon
+6bba916f,2021-12-30 16:41:03,Dennis Jastrzembski,FW-MF,Left,177,71,"February 20, 2000",Rendsburg,Germany
+6bd5cd5d,2021-12-30 16:38:05,Robin Knoche,DF (CB),88% Right,190,77,"May 22, 1992",Braunschweig,Germany
+6bd603db,2021-12-30 16:30:54,Jean-Philippe Gbamin,DF-MF (CB-DM),86% Right,186,83,"September 25, 1995",San-Pédro,Côte d'Ivoire
+6c203af0,2021-12-30 16:27:52,Yves Bissouma,MF (DM),90% Right,181,72,"August 30, 1996",Bamako Region,Mali
+6c6a3300,2021-12-30 16:34:00,Milot Rashica,FW-MF,79% Right,177,73,"June 28, 1996",Vushtrri,Kosovo
+6c7762c3,2021-12-30 16:05:33,Juan Foyth,DF,91% Right,190,77,"January 12, 1998",La Plata,Argentina
+6c811eb7,2021-12-30 16:09:11,Carles Aleñá,MF,92% Left,180,74,"January 5, 1998",Mataró,Spain
+6ca5ec4b,2021-12-30 16:30:39,Alex Iwobi,FW-MF (AM-WM),88% Right,180,75,"May 3, 1996",Lagos,Nigeria
+6cafd68d,2021-12-30 16:37:26,Håvard Nordtveit,DF-MF (CB-DM),88% Right,186,72,"June 21, 1990",Vats,Norway
+6cc47ae1,2021-12-30 16:28:10,Jürgen Locadia,FW,82% Right,191,79,"November 7, 1993",Gemeente Emmen,Netherlands
+6cc97b6a,2021-12-30 16:56:30,Alberto Grassi,MF (CM-DM),83% Right,183,75,"March 7, 1995",Brescia,Italy
+6cdd8245,2021-12-30 16:31:46,Tom Cleverley,MF (CM),88% Right,175,71,"August 12, 1989",Basingstoke,England
+6ce1f46f,2021-12-30 16:00:27,Toni Kroos,"MF (AM-CM-DM, left)",85% Right,182,78,"January 4, 1990",Greifswald,Germany
+6d5701f2,2021-12-30 16:30:42,Yerry Mina,DF (CB),85% Right,195,75,"September 23, 1994",Guachené,Colombia
+6d8f8441,2021-12-30 16:11:55,Coke,"DF (FB, right)",85% Right,182,78,"April 26, 1987",Madrid,Spain
+6e058f06,2021-12-30 16:51:37,Giacomo Raspadori,FW,72% Right,172,66,"February 18, 2000",Bentivoglio,Italy
+6e33125f,2021-12-30 16:16:08,Kevin Danso,DF-MF (CB),92% Right,190,80,"September 19, 1998",Voitsberg,Austria
+6e4df551,2021-12-30 16:01:14,Papu Gómez,FW-MF (AM),83% Right,165,68,"February 15, 1988",Buenos Aires F.D.,Argentina
+6eaed4eb,2021-12-30 16:10:30,Florian Lejeune,"DF-MF (CB, left)",86% Right,188,81,"May 20, 1991",Paris,France
+6ec6fde0,2021-12-30 16:36:59,Kevin Akpoguma,DF (CB),87% Right,192,83,"April 19, 1995",Neustadt an der Weinstraße,Germany
+6ecbddf6,2021-12-30 16:42:42,Ruben Vargas,"FW-MF (AM, left)",85% Right,174,68,"August 5, 1998",Adligenswil,Switzerland
+6eee05f1,2021-12-30 16:46:46,Berat Djimsiti,DF-MF (CB),76% Right,190,83,"February 19, 1993",Zurich,Switzerland
+6f51e382,2021-12-30 16:04:13,Marc-André ter Stegen,GK,78% Right,189,85,"April 30, 1992",Mönchengladbach,Germany
+6f5ead86,2021-12-30 16:55:46,Hernani,MF (CM),87% Right,188,77,"March 27, 1994",São Gonçalo do Sapucaí,Brazil
+6f5f82c0,2021-12-30 16:03:45,Andoni Gorosabel,"DF (FB, right)",92% Right,174,72,"August 4, 1996",Mondragón,Spain
+6f7d826d,2021-12-30 16:29:07,Douglas Luiz,MF (CM-DM),88% Right,178,66,"May 9, 1998",Rio de Janeiro,Brazil
+6fe90922,2021-12-30 16:44:35,Ivan Perišić,"DF-FW-MF (AM-WM, left)",58% Right,187,79,"February 2, 1989",Split Opcina,Croatia
+70678132,2021-12-30 16:41:23,Eduard Löwen,DF-MF,86% Right,188,91,"January 28, 1997",Idar-Oberstein,Germany
+70d74ece,2021-12-30 16:00:28,Karim Benzema,FW,83% Right,183,79,"December 19, 1987",Lyon,France
+70dcf94d,2021-12-30 16:35:57,Janik Haberer,FW-MF (AM),83% Right,186,78,"April 2, 1994",Wangen im Allgäu,Germany
+70f8e0bd,2021-12-30 16:08:43,Dani Rodríguez,FW-MF (AM-CM),81% Right,178,71,"June 6, 1988",Betanzos,Spain
+7111d552,2021-12-30 16:00:27,Vinicius Júnior,FW-MF,88% Right,177,62,"July 12, 2000",São Gonçalo,Brazil
+719384c1,2021-12-30 16:07:14,Ángel Montoro,MF (DM),90% Right,182,70,"June 25, 1988",Valencia,Spain
+71b47ab9,2021-12-30 16:31:48,Cucho,FW-MF,84% Right,175,73,"April 20, 1999",Pereira,Colombia
+71dc23da,2021-12-30 16:55:40,Paolo Ghiglione,DF-MF,89% Right,188,80,"February 2, 1997",Voghera,Italy
+71ef519e,2021-12-30 16:32:52,Matt Ritchie,"DF-MF (DM-FB-WM, right)",80% Left,173,71,"September 10, 1989",Gosport,England
+7242b495,2021-12-30 16:38:14,Niko Gießelmann,"DF-MF (FB, left)",89% Left,181,73,"September 26, 1991",Hanover,Germany
+72a99e38,2021-12-30 16:02:11,Cristian Tello,"FW-MF (AM-WM, left)",75% Right,178,65,"August 11, 1991",Sabadell,Spain
+73000a79,2021-12-30 16:36:32,Daley Sinkgraven,"DF-MF (AM-FB, left)",83% Left,179,66,"July 4, 1995",Gemeente Assen,Netherlands
+7314bba4,2021-12-30 16:27:54,Shane Duffy,"DF-MF (CB, right)",92% Right,193,76,"January 1, 1992",Londonderry,Northern Ireland
+73683fa9,2021-12-30 16:06:37,Diego López,GK,85% Right,196,88,"November 3, 1981",Paradela,Spain
+73e2f6eb,2021-12-30 16:40:32,Philipp Tschauner,GK,89% Right,196,89,"November 3, 1985",Schwabach,Germany
+74419746,2021-12-30 16:44:35,Samir Handanović,GK,89% Right,193,92,"July 14, 1984",Ljubljana,Slovenia
+7460ca0d,2021-12-30 16:05:29,Daniel Parejo,MF (AM-CM-DM),91% Right,180,76,"April 16, 1989",Madrid,Spain
+74b2cd7e,2021-12-30 16:24:58,Angelo Ogbonna,DF (CB),69% Left,191,86,"May 23, 1988",Cassino,Italy
+74e12f1e,2021-12-30 16:32:25,Jack Cork,DF-MF (CM-DM),88% Right,185,69,"June 25, 1989",Carshalton,England
+75645f0e,2021-12-30 16:02:09,Borja Iglesias,FW,80% Right,187,79,"January 17, 1993",Santiago de Compostela,Spain
+758dd7f0,2021-12-30 16:32:57,Javier Manquillo,"DF (FB, right)",89% Right,175,70,"May 5, 1994",Madrid,Spain
+75a72a99,2021-12-30 16:27:26,Ricardo Pereira,"DF-FW-MF (FB-WM, right)",86% Right,175,70,"October 6, 1993",Lisbon,Portugal
+75b86fb3,2021-12-30 16:44:36,Alessandro Bastoni,"DF (CB, left)",86% Left,190,83,"April 13, 1999",Casalmaggiore,Italy
+75bd85ea,2021-12-30 16:08:56,Salva Sevilla,MF (AM-CM),89% Right,178,71,"March 18, 1984",Berja,Spain
+75f2c59f,2021-12-30 16:52:56,Roberto Pereyra,FW-MF (AM-WM),86% Right,182,74,"January 7, 1991",San Miguel de Tucumán,Argentina
+76b2817e,2021-12-30 16:39:10,Kingsley Ehizibue,"DF-MF (FB, right)",93% Right,189,82,"May 25, 1995",Munich,Germany
+76eca7e2,2021-12-30 16:32:44,Wayne Hennessey,GK,90% Right,196,85,"January 24, 1987",Bangor,Wales
+7703afb6,2021-12-30 16:04:48,Rey Manaj,FW,Both,182,76,"February 24, 1997",Lushnjë,Albania
+774cf58b,2021-12-30 16:33:38,Max Aarons,"DF (FB, right)",84% Right,172,66,"January 4, 2000",Luton,England
+77cf6852,2021-12-30 16:33:22,Emil Krafth,"DF (FB, right)",96% Right,181,79,"August 2, 1994",Ljungby,Sweden
+77e401c7,2021-12-30 16:57:29,Guido Guerrieri,GK,Right,184,78,"February 25, 1996",NULL,NULL
+77e84962,2021-12-30 16:23:38,Thiago Alcántara,MF (CM-DM),94% Right,172,60,"April 11, 1991",San Pietro Vernotico,Italy
+780e3631,2021-12-30 16:46:50,Matteo Pessina,MF,86% Left,183,75,"April 21, 1997",Monza,Italy
+78841da9,2021-12-30 16:48:27,José Callejón,"FW-MF (WM, right)",86% Right,178,73,"February 11, 1987",Motril,Spain
+79083382,2021-12-30 16:46:13,Juan Jesus,"DF (CB-FB, left)",87% Left,185,84,"June 10, 1991",Belo Horizonte,Brazil
+792ffa71,2021-12-30 16:39:13,Tim Lemperle,FW,Right,187,78,"February 5, 2002",Frankfurt am Main,Germany
+79300479,2021-12-30 16:24:10,Martin Ødegaard,FW-MF (AM),92% Left,NULL,68,"December 17, 1998",Drammen,Norway
+79443529,2021-12-30 16:48:22,Dušan Vlahović,FW,79% Left,190,83,"January 28, 2000",Belgrade,Serbia
+7956236f,2021-12-30 16:28:59,Emiliano Martínez,GK,86% Right,193,85,"September 2, 1992",Mar del Plata,Argentina
+79b0d6a0,2021-12-30 16:47:55,Rui Patrício,GK,75% Left,189,86,"February 15, 1988",Marrazes,Portugal
+79c0821a,2021-12-30 16:22:56,Mateo Kovačić,MF (CM-DM),96% Right,181,75,"May 6, 1994",Linz,Austria
+79c84d1c,2021-12-30 16:24:44,Jarrod Bowen,"FW-MF (AM, right)",80% Left,178,70,"December 20, 1996",Hereford,England
+79c90e45,2021-12-30 16:37:12,Pavel Kadeřábek,"DF-MF (AM-FB, right)",91% Right,182,78,"April 25, 1992",Prague,Czech Republic
+79ca3e23,2021-12-30 16:38:51,Ondrej Duda,FW-MF (AM),88% Right,181,74,"December 5, 1994",Snina,Slovakia
+7a11550b,2021-12-30 16:23:56,Joe Gomez,"DF (CB, right)",93% Right,188,77,"May 23, 1997",Catford,England
+7a1f2c08,2021-12-30 16:28:51,Jaïro Riedewald,DF-MF (CB-FB),88% Left,186,79,"September 9, 1996",Gemeente Haarlem,Netherlands
+7a2e46a8,2021-12-30 16:23:25,Alisson,GK,91% Right,193,91,"October 2, 1992",Novo Hamburgo,Brazil
+7a538238,2021-12-30 16:07:12,Quini,DF-MF (FB-WM),78% Right,179,70,"September 24, 1989",Fernán Núñez,Spain
+7b075c75,2021-12-30 16:50:23,Adama Soumaoro,DF (CB),90% Right,186,93,"June 18, 1992",Fontenay-aux-Roses,France
+7b4de647,2021-12-30 16:30:51,Asmir Begović,GK,86% Right,199,83,"June 20, 1987",Trebinje,Bosnia and Herzegovina
+7b5ab7f2,2021-12-30 16:25:43,Bryan,MF,95% Left,175,67,"February 11, 2001",Cadiz,Spain
+7b5f516f,2021-12-30 16:47:07,Francesco Rossi,GK,NULL,193,83,"April 27, 1991",Merate,Italy
+7ba1f1ef,2021-12-30 16:44:00,Lennart-Marten Czyborra,"DF (FB, left)",81% Left,181,75,"May 3, 1999",Berlin,Germany
+7ba6d84e,2021-12-30 16:25:52,David de Gea,GK,95% Right,192,76,"November 7, 1990",Madrid,Spain
+7c104bb7,2021-12-30 16:27:24,Ademola Lookman,FW-MF,82% Right,174,70,"October 20, 1997",Wandsworth,England
+7c3ed041,2021-12-30 16:13:26,Leonardo Balerdi,DF,90% Right,193,96,"January 26, 1999",Boguslavka,Ukraine
+7c473e12,2021-12-30 16:40:42,Dedryck Boyata,DF (CB-FB),84% Right,188,84,"November 28, 1990",Uccle,Belgium
+7c56da38,2021-12-30 16:39:55,Christopher Nkunku,FW-MF,91% Right,175,69,"November 14, 1997",Lagny-sur-Marne,France
+7d2d3329,2021-12-30 16:27:36,Hamza Choudhury,MF,92% Right,178,77,"October 1, 1997",Loughborough,England
+7d3e7da6,2021-12-30 16:35:00,Sven Ulreich,GK,90% Right,192,84,"August 3, 1988",Schorndorf,Germany
+7d50454d,2021-12-30 16:56:19,Luca Ceppitelli,DF (CB),78% Right,189,83,"August 11, 1989",Castiglione del Lago,Italy
+7dcf86f6,2021-12-30 16:08:16,Iago Aspas,FW-MF,75% Left,176,67,"August 1, 1987",Moaña,Spain
+7e98cff1,2021-12-30 16:00:45,Miguel Gutiérrez,DF,88% Left,180,71,"July 27, 2001",Madrid,Spain
+7eb97a8e,2021-12-30 16:50:28,Nicola Sansone,FW-MF,86% Right,175,73,"September 10, 1991",Munich,Germany
+7ec7738e,2021-12-30 16:56:39,Gastón Pereiro,FW-MF (AM),84% Left,188,80,"June 11, 1995",Montevideo,Uruguay
+7ed4921e,2021-12-30 16:31:35,William Troost-Ekong,DF-MF (CB),89% Right,191,82,"September 1, 1993",Gemeente Haarlem,Netherlands
+7edfbb8a,2021-12-30 16:45:10,Fikayo Tomori,DF (CB),71% Right,185,75,"December 19, 1997",Calgary,Alberta
+7f203b54,2021-12-30 16:09:34,Chema,"DF (CB, left)",82% Left,189,74,"March 3, 1992",Caudete,Spain
+7f267d66,2021-12-30 16:56:17,Alessandro Deiola,MF,90% Right,189,85,"August 1, 1995",San Gavino Monreale,Italy
+7f3b388c,2021-12-30 16:23:38,Fabinho,DF-MF (CM-DM-FB),93% Right,188,78,"October 23, 1993",Campinas,Brazil
+7f4c7c9f,2021-12-30 16:11:32,Jorge Miramón,"DF-MF (FB-WM, right)",94% Right,176,74,"June 2, 1989",Zaragoza,Spain
+7f609bfc,2021-12-30 16:36:52,Stefan Posch,DF (CB),87% Right,187,83,"May 14, 1997",Judenburg,Austria
+7f78ad23,2021-12-30 16:50:58,Ricardo Rodríguez,"DF-MF (FB, left)",75% Left,180,78,"August 25, 1992",Zurich,Switzerland
+7fa4e703,2021-12-30 16:35:23,Gio Reyna,FW-MF,90% Right,183,71,"November 13, 2002",Durham,England
+7fcc71d8,2021-12-30 16:26:53,Daniel Podence,FW-MF (AM-WM),87% Right,165,58,"October 21, 1995",Oeiras,Portugal
+7fe12375,2021-12-30 16:38:06,Andreas Luthe,GK,89% Right,195,90,"March 10, 1987",Velbert,Germany
+7fe90ccd,2021-12-30 16:46:35,Davide Zappacosta,"DF-MF (FB-WM, right)",89% Right,182,70,"June 11, 1992",Sora,Italy
+7fec31a0,2021-12-30 16:32:04,Dan Gosling,DF-MF (CM),89% Right,178,71,"February 1, 1990",Brixham,England
+801831fe,2021-12-30 16:45:43,Daniel Maldini,MF,Right,186,77,"October 11, 2001",Milan,Italy
+808d48f3,2021-12-30 16:08:50,Jaume Costa,"DF (FB, left)",75% Left,169,65,"March 18, 1988",Valencia,Spain
+80f36c88,2021-12-30 16:37:10,Sebastian Rudy,MF (CM-DM),89% Right,179,73,"February 28, 1990",Villingen-Schwenningen,Germany
+810e3c74,2021-12-30 16:26:19,Jesse Lingard,FW-MF (AM),91% Right,174,69,"December 15, 1992",Warrington,England
+81255c03,2021-12-30 16:56:11,João Pedro,FW-MF (AM),87% Right,184,73,"March 9, 1992",Ipatinga,Brazil
+817c6964,2021-12-30 16:45:23,Rade Krunić,MF (DM),87% Right,184,74,"October 7, 1993",Foča,Bosnia and Herzegovina
+819aa8e7,2021-12-30 16:27:35,Ayoze Pérez,FW-MF (AM),90% Right,179,68,"July 23, 1993",Santa Cruz de Tenerife,Spain
+819b3158,2021-12-30 16:22:18,İlkay Gündoğan,MF (CM-DM),72% Right,180,79,"October 24, 1990",Gelsenkirchen,Germany
+81d5c497,2021-12-30 16:08:50,Fernando Niño,FW,89% Right,190,83,"October 24, 2000",Palma,Spain
+81f0781e,2021-12-30 16:05:41,Gerard Moreno,FW,79% Left,177,75,"April 7, 1992",Santa Perpètua de Mogoda,Spain
+82328faf,2021-12-30 16:48:22,Daniel Fuzato,GK,Right,190,83,"July 4, 1997",Santa Bárbara d'Oeste,Brazil
+82927de4,2021-12-30 16:24:50,Pablo Fornals,FW-MF (AM),89% Right,178,67,"February 22, 1996",Castellón de la Plana,Spain
+82b1198a,2021-12-30 16:45:54,David Ospina,GK,87% Right,183,76,"August 31, 1988",Medellín,Colombia
+82e34b69,2021-12-30 16:32:03,Troy Deeney,FW,94% Right,183,90,"June 29, 1988",Birmingham,England
+82efe6fa,2021-12-30 16:47:52,Roger Ibanez,DF (CB),81% Right,186,83,"November 23, 1998",Canela,Brazil
+833fb62e,2021-12-30 16:09:21,Sandro Ramírez,FW,89% Right,175,71,"July 9, 1995",Las Palmas,Spain
+834d0be5,2021-12-30 16:36:32,Lucas Alario,FW,87% Right,186,75,"October 8, 1992",Tostado,Argentina
+8397a50c,2021-12-30 16:29:00,Tyrone Mings,"DF (CB-FB, left)",86% Left,195,77,"March 13, 1993",Bath,England
+839c14e1,2021-12-30 16:24:24,Cédric Soares,"DF-MF (FB, right)",86% Right,169,65,"August 31, 1991",Singen,Germany
+83d074ff,2021-12-30 16:28:01,Alexis Mac Allister,MF,88% Right,174,72,"December 24, 1998",Santa Rosa,Argentina
+83e0eeb4,2021-12-30 16:41:37,Michael Esser,GK,89% Right,198,97,"November 22, 1987",Castrop-Rauxel,Germany
+84399660,2021-12-30 16:01:40,Juanmi,FW-MF,86% Right,169,63,"May 20, 1993",Coín,Spain
+8455ad90,2021-12-30 16:08:48,Lee Kangin,FW-MF,91% Left,173,63,"February 19, 2001",Incheon,Korea Republic
+8494acc4,2021-12-30 16:37:57,Stefan Ilsanker,DF-MF (CM-DM),88% Right,189,84,"May 18, 1989",Hallein,Austria
+849c826a,2021-12-30 16:25:07,Andriy Yarmolenko,"FW-MF (AM-WM, right)",74% Left,189,81,"October 23, 1989",Leningrad,Russia
+84f55b4a,2021-12-30 16:04:01,Germán Valera,FW,Left,170,71,"March 16, 2002",Murcia,Spain
+854ee61a,2021-12-30 16:51:54,Grégoire Defrel,FW,88% Left,179,77,"June 17, 1991",Meudon,France
+85613cf0,2021-12-30 16:13:31,Arkadiusz Milik,FW,86% Left,186,78,"February 28, 1994",Tychy,Poland
+857a5abe,2021-12-30 16:39:21,Stefan Bell,DF (CB),85% Right,192,86,"August 24, 1991",Andernach,Germany
+8593f88c,2021-12-30 16:35:41,Christian Günter,"DF-MF (FB, left)",85% Left,184,81,"February 28, 1993",Villingen-Schwenningen,Germany
+85bed4ee,2021-12-30 16:01:57,Rodrigo,FW,92% Left,168,62,"May 16, 2000",Talayuela,Spain
+861e0116,2021-12-30 16:41:25,Kostas Stafylidis,"DF-MF (FB-WM, left)",83% Left,178,76,"December 2, 1993",Thessaloniki,Greece
+862a1c15,2021-12-30 16:33:05,Miguel Almirón,FW-MF (AM-CM),94% Left,174,70,"February 10, 1994",Asunción,Paraguay
+8650af85,2021-12-30 16:51:31,Gian Marco Ferrari,"DF (CB, left)",87% Left,189,82,"February 15, 1992",Province of Parma,Italy
+86695068,2021-12-30 16:27:43,Dennis Praet,MF (AM-CM-DM),91% Right,181,78,"May 14, 1994",Leuven,Belgium
+867239d3,2021-12-30 16:26:05,Paul Pogba,MF (CM-DM),88% Right,191,84,"March 15, 1993",Lagny-sur-Marne,France
+8696bc90,2021-12-30 16:01:29,Munir El Haddadi,FW-MF,89% Left,173,69,"September 1, 1995",El Escorial,Spain
+86dd77d1,2021-12-30 16:22:17,Kyle Walker,"DF (FB, right)",97% Right,178,73,"May 28, 1990",Sheffield,England
+86e119e0,2021-12-30 16:41:49,Maximilian Arnold,"MF (CM-DM, left)",78% Left,183,74,"May 27, 1994",Riesa,Germany
+873619c6,2021-12-30 16:03:28,Sergio Camello,FW,Right,177,70,"February 10, 2001",Madrid,Spain
+8778c910,2021-12-30 16:34:24,Manuel Neuer,GK,79% Right,193,92,"March 27, 1986",Gelsenkirchen,Germany
+87935cf3,2021-12-30 16:14:15,Mamadou Sakho,"DF (CB, left)",82% Left,188,83,"February 13, 1990",Paris,France
+8794e251,2021-12-30 16:47:13,Adrien Rabiot,"MF (CM-WM, left)",82% Left,188,71,"April 3, 1995",Saint-Maurice,France
+88050721,2021-12-30 16:02:41,Unai López,MF (CM-DM),96% Right,169,64,"October 30, 1995",Bilbao,Spain
+881ef58c,2021-12-30 16:10:12,Javier Pastore,MF (AM),92% Right,187,78,"June 20, 1989",Córdoba,Argentina
+88d4144a,2021-12-30 16:40:47,Maximilian Mittelstädt,DF-MF,80% Left,178,69,"March 18, 1997",Land Berlin,Germany
+88e357ef,2021-12-30 16:34:40,Serge Gnabry,FW-MF (AM-WM),77% Right,173,73,"July 14, 1995",Stuttgart,Germany
+88f130ed,2021-12-30 16:12:47,Jean-Clair Todibo,"DF (CB, right)",92% Right,190,81,"December 30, 1999",Cayenne,French Guiana
+892d5bb1,2021-12-30 16:22:20,Riyad Mahrez,"FW-MF (AM-WM, right)",91% Left,178,60,"February 21, 1991",Sarcelles,France
+89976232,2021-12-30 16:51:19,Armando Izzo,"DF (CB, right)",73% Right,183,76,"March 2, 1992",Naples,Italy
+89ac64a6,2021-12-30 16:35:04,Manuel Akanji,DF-MF (CB),76% Right,187,85,"July 19, 1995",Wiesendangen / Wiesendangen (Dorf),Switzerland
+89b2c8a9,2021-12-30 16:46:12,Dries Mertens,FW-MF (WM),92% Right,169,61,"May 6, 1987",Leuven,Belgium
+89d10e53,2021-12-30 16:31:51,Danny Rose,"DF-MF (FB, left)",85% Left,173,68,"July 2, 1990",Doncaster,England
+89e4b358,2021-12-30 16:31:34,Craig Cathcart,DF (CB),71% Right,188,77,"February 6, 1989",Belfast,Northern Ireland
+89f951b5,2021-12-30 16:01:11,Ivan Rakitić,MF (AM-CM),87% Right,184,78,"March 10, 1988",Rheinfelden,Switzerland
+8a7ff278,2021-12-30 16:28:23,Joel Ward,"DF-MF (DM-FB, right)",90% Right,188,82,"October 29, 1989",Emsworth,England
+8aafd64f,2021-12-30 16:03:20,João Félix,FW-MF,92% Right,180,63,"November 10, 1999",Viseu Municipality,Portugal
+8abd0c03,2021-12-30 16:53:13,Marvin Zeegelaar,"DF-FW-MF (WM, left)",79% Left,186,81,"August 12, 1990",Amsterdam,Netherlands
+8ac501f5,2021-12-30 16:07:17,Monchu,MF,92% Right,172,68,"September 13, 1999",Palma de Mallorca,Spain
+8aec0537,2021-12-30 16:27:56,Pascal Groß,MF (AM-CM),82% Right,181,72,"June 15, 1991",Mannheim,Germany
+8b04d6c1,2021-12-30 16:25:21,Pierre Højbjerg,MF (CM-DM),84% Right,185,81,"August 5, 1995",Copenhagen,Denmark
+8b609c34,2021-12-30 16:50:49,Wilfried Singo,DF-MF,90% Right,190,81,"December 25, 2000",Ouragahio,Côte d'Ivoire
+8b625720,2021-12-30 16:10:50,Tachi,DF,93% Right,184,72,"September 10, 1997",Fuenlabrada,Spain
+8b6e0db2,2021-12-30 16:42:42,Reece Oxford,DF,91% Right,190,71,"December 16, 1998",Edmonton,England
+8b788c01,2021-12-30 16:26:14,Anthony Martial,FW-MF (AM),85% Right,184,76,"December 5, 1995",Massy,France
+8b8a56ce,2021-12-30 16:45:23,Simon Kjær,DF (CB),82% Right,190,86,"March 26, 1989",Horsens,Denmark
+8b95acda,2021-12-30 16:53:27,Omar Colley,"DF (CB, left)",71% Left,192,80,"October 24, 1992",Banjul,Gambia
+8bc8829a,2021-12-30 16:17:46,Lucien Agoume,MF,85% Right,185,81,"February 9, 2002",Yaoundé,Cameroon
+8c3c640c,2021-12-30 16:03:43,Mikel Oyarzabal,FW-MF (AM),86% Left,181,77,"April 21, 1997",Eibar,Spain
+8c63fae5,2021-12-30 16:48:59,Luca Ranieri,DF,92% Left,187,NULL,"April 23, 1999",NULL,NULL
+8c65eb5f,2021-12-30 16:53:09,Mato Jajalo,MF (CM-DM),81% Right,182,77,"May 25, 1988",Jajce,Bosnia and Herzegovina
+8c725b43,2021-12-30 16:01:57,Germán Pezzella,DF (CB),79% Right,187,82,"June 27, 1991",Bahía Blanca,Argentina
+8cabdc1e,2021-12-30 16:51:37,Andrea Consigli,GK,93% Right,189,79,"January 27, 1987",Milan,Italy
+8cc29864,2021-12-30 16:49:56,Lorenzo Tonelli,"DF (CB, right)",85% Right,183,78,"January 17, 1990",Florence,Italy
+8cfc2f69,2021-12-30 16:08:52,Ángel Rodríguez,FW,87% Right,172,67,"April 26, 1987",Santa Cruz de Tenerife,Spain
+8d3c902d,2021-12-30 16:28:27,Cheikhou Kouyaté,DF-MF (CB-CM-DM),90% Right,193,80,"December 21, 1989",Dakar,Senegal
+8d47bb39,2021-12-30 16:07:06,Carlos Neva,"DF (FB, left)",90% Left,174,69,"June 12, 1996",El Puerto de Santa María,Spain
+8d78e732,2021-12-30 16:34:24,Robert Lewandowski,FW,87% Right,185,79,"August 21, 1988",Warsaw,Poland
+8da74c05,2021-12-30 16:52:25,Adrien Tameze,MF (CM-DM),89% Right,180,78,"February 4, 1994",Lille,France
+8db394aa,2021-12-30 16:10:36,Ximo Navarro,"DF (CB-FB, right)",86% Right,177,70,"January 23, 1990",Guadahortuna,Spain
+8df7a2fb,2021-12-30 16:32:17,Ben Mee,"DF (CB, left)",86% Left,180,72,"September 23, 1989",Sale,England
+8e088e04,2021-12-30 16:05:13,Toni Lato,DF,88% Left,173,69,"November 21, 1997",Valencia,Spain
+8e235926,2021-12-30 16:43:02,Michael Gregoritsch,FW-MF (AM-WM),75% Left,193,75,"April 18, 1994",Graz,Austria
+8e48dc61,2021-12-30 16:03:49,Ander Guevara,MF,81% Right,180,75,"July 7, 1997",Vitoria-Gasteiz,Spain
+8e92be30,2021-12-30 16:03:40,Alexander Isak,FW,80% Right,190,70,"September 21, 1999",Solna,Sweden
+8eb55dbb,2021-12-30 16:38:25,Sheraldo Becker,"FW-MF (WM, right)",84% Right,180,75,"February 9, 1995",Amsterdam,Netherlands
+8f056768,2021-12-30 16:42:08,Xaver Schlager,MF (CM-DM),66% Left,174,70,"September 28, 1997",Vienna,Austria
+8f29e08b,2021-12-30 16:08:04,Juan Pérez,GK,Right,195,78,"July 15, 1996",Huesca,Spain
+8f3565b3,2021-12-30 16:08:02,Ante Budimir,FW,83% Left,190,75,"July 22, 1991",Zenica,Bosnia and Herzegovina
+8f5e92a6,2021-12-30 16:00:42,Rodrygo,FW-MF,91% Right,174,69,"January 9, 2001",Osasco,Brazil
+8f62b6ee,2021-12-30 16:25:20,Hugo Lloris,GK,80% Left,188,78,"December 26, 1986",Nice,France
+8f866fe8,2021-12-30 16:53:42,Manolo Gabbiadini,FW,87% Left,186,81,"November 26, 1991",Calcinate,Italy
+8f898ba8,2021-12-30 16:10:15,Guido Carrillo,FW,91% Right,187,86,"May 25, 1991",Magdalena,Argentina
+8f8c6934,2021-12-30 16:09:10,David Soria,GK,97% Right,192,85,"April 4, 1993",Madrid,Spain
+8fef5412,2021-12-30 16:45:47,Andrea Conti,DF-MF,94% Right,184,66,"March 2, 1994",Lecco,Italy
+90339309,2021-12-30 16:39:37,Jerry St. Juste,"DF (CB, right)",91% Right,182,68,"October 19, 1996",Groningen,Netherlands
+9038c2a1,2021-12-30 16:05:18,Jason,"FW-MF (WM, right)",89% Right,178,65,"July 6, 1994",A Coruña,Spain
+9050ddc4,2021-12-30 16:44:13,Jetro Willems,"DF-MF (FB, left)",75% Left,170,73,"March 30, 1994",Rotterdam,Netherlands
+9085dd7c,2021-12-30 16:56:50,Paolo Faragò,DF-MF,78% Right,187,80,"February 12, 1993",Catanzaro,Italy
+90f91999,2021-12-30 16:29:02,John McGinn,MF (CM-DM),80% Left,178,70,"October 18, 1994",Glasgow,Scotland
+914ab9a1,2021-12-30 16:31:59,Christian Kabasele,DF (CB),88% Right,187,82,"February 24, 1991",Lubumbashi,Congo DR
+919dd4b1,2021-12-30 16:49:26,Raúl Moro,FW,Right,180,66,"December 5, 2002",Barcelona,Spain
+921f6058,2021-12-30 16:46:33,José Luis Palomino,DF (CB),84% Left,188,87,"January 5, 1990",San Miguel,Argentina
+9228b07c,2021-12-30 16:30:48,Tom Davies,MF,87% Right,180,70,"June 30, 1998",Liverpool,England
+92432bc6,2021-12-30 16:40:09,Amadou Haidara,MF,88% Right,175,68,"January 31, 1998",Bamako,Mali
+924f9191,2021-12-30 16:38:14,Grischa Prömel,MF (DM),80% Right,180,75,"January 9, 1995",Stuttgart,Germany
+92948149,2021-12-30 16:41:08,Lukas Klünter,DF-MF,86% Right,184,73,"May 26, 1996",Euskirchen,Germany
+92b4758e,2021-12-30 16:52:47,Samir Santos,"DF (CB, left)",84% Left,188,70,"December 5, 1994",Rio de Janeiro,Brazil
+92d83c27,2021-12-30 16:50:10,Mattias Svanberg,MF,86% Right,185,75,"January 5, 1999",New York,New York
+92e7e919,2021-12-30 16:25:20,Son Heung-min,FW-MF (AM-WM),84% Right,183,76,"July 8, 1992",Chuncheon,Korea Republic
+93090f69,2021-12-30 16:07:23,Domingos Duarte,"DF (CB, right)",93% Right,191,78,"March 10, 1995",Cascais,Portugal
+9321b8ed,2021-12-30 16:36:44,Niklas Lomb,GK,Right,188,84,"July 28, 1993",Cologne,Germany
+9328b835,2021-12-30 16:24:42,Łukasz Fabiański,GK,94% Right,190,83,"April 18, 1985",Kostrzyn nad Odrą,Poland
+933d3b51,2021-12-30 16:50:52,Koffi Djidji,DF (CB),93% Right,184,71,"November 30, 1992",Bagnolet,France
+935e6b8f,2021-12-30 16:23:32,Jordan Henderson,"MF (CM-DM-WM, right)",87% Right,182,67,"June 17, 1990",Sunderland,England
+93a50d2c,2021-12-30 16:37:25,Kasim Nuhu,DF (CB),94% Right,190,83,"June 22, 1995",Accra,Ghana
+93b891d1,2021-12-30 16:49:36,Felipe Caicedo,FW-MF (WM),79% Left,183,84,"September 5, 1988",Esmeraldas,Ecuador
+93cf32a8,2021-12-30 16:31:57,Nicolas Nkoulou,DF (CB),88% Right,180,77,"March 27, 1990",Yaoundé,Cameroon
+9413b19f,2021-12-30 16:46:17,Alex Meret,GK,75% Left,185,77,"March 22, 1997",Udine,Italy
+94816803,2021-12-30 16:48:38,Riccardo Sottil,FW,79% Right,180,73,"June 3, 1999",Torino,Italy
+94b2001f,2021-12-30 16:47:24,Danilo,"DF-MF (FB, right)",88% Right,184,77,"July 15, 1991",Bicas,Brazil
+94c18565,2021-12-30 16:38:48,Florian Kainz,FW-MF (AM),75% Right,174,67,"October 24, 1992",Graz,Austria
+952a03fe,2021-12-30 16:53:11,Sebastien De Maio,DF (CB),84% Right,190,90,"March 5, 1987",Saint-Denis,France
+9591723b,2021-12-30 16:47:05,Jacopo Da Riva,MF,NULL,NULL,NULL,"October 27, 2000",NULL,NULL
+9592289a,2021-12-30 16:51:21,Simone Zaza,FW,84% Left,186,83,"June 25, 1991",Policoro,Italy
+95facda1,2021-12-30 16:56:15,Nahitan Nández,"DF-MF (AM-CM-DM, right)",94% Right,172,70,"December 28, 1995",Maldonado Department,Uruguay
+962e54cb,2021-12-30 16:37:57,Gonçalo Paciência,FW,75% Right,184,79,"August 1, 1994",Porto Municipality,Portugal
+963829d0,2021-12-30 16:05:28,Manu Trigueros,MF (CM),73% Right,178,70,"October 17, 1991",Talavera de la Reina,Spain
+96640846,2021-12-30 16:50:10,Samir Ujkani,GK,Right,186,78,"July 5, 1988",Vushtrri,Kosovo
+9674002f,2021-12-30 16:22:46,Mason Mount,FW-MF (AM-CM),89% Right,175,64,"January 10, 1999",Portsmouth,England
+967f34d3,2021-12-30 16:08:41,Rubén Blanco,GK,80% Right,188,70,"July 25, 1995",Mos,Spain
+96e0490d,2021-12-30 16:44:45,Matteo Darmian,"DF-MF (CB-FB, right)",82% Right,182,70,"December 2, 1989",Legnano,Italy
+970b8574,2021-12-30 16:44:50,Federico Dimarco,DF-MF,93% Left,175,75,"November 10, 1997",Milan,Italy
+97220da2,2021-12-30 16:29:45,Armando Broja,FW,Right,191,84,"September 10, 2001",England,United Kingdom
+97333cf5,2021-12-30 16:29:52,Stuart Armstrong,MF (AM-CM-WM),80% Right,183,68,"March 30, 1992",Inverness,Scotland
+97572117,2021-12-30 16:09:29,Allan Nyom,"DF-MF (FB, right)",78% Right,186,81,"May 10, 1988",Neuilly-sur-Seine,France
+97852360,2021-12-30 16:10:26,Fernando Pacheco,GK,80% Left,187,81,"May 18, 1992",Badajoz,Spain
+97e8ea97,2021-12-30 16:52:05,Brain Oddei,FW,Left,175,66,"September 18, 2002",Accra,Ghana
+983ff2c7,2021-12-30 16:48:37,Lorenzo Venuti,"DF-MF (FB, right)",78% Right,176,66,"April 12, 1995",Montevarchi,Italy
+984a5a64,2021-12-30 16:29:38,Kyle Walker-Peters,"DF (FB, right)",89% Right,173,63,"April 13, 1997",London,England
+989d5705,2021-12-30 16:33:30,Jeff Hendrick,MF (AM-CM),88% Right,185,73,"January 31, 1992",Dublin,Republic of Ireland
+98d2c2c4,2021-12-30 16:46:35,Remo Freuler,"MF (CM-DM, left)",85% Right,180,80,"April 15, 1992",Ennenda,Switzerland
+9907b1c8,2021-12-30 16:48:01,Nicolò Zaniolo,FW-MF,89% Left,190,83,"July 2, 1999",Massa,Italy
+9939e168,2021-12-30 16:07:42,Jon Moncayola,MF,90% Right,182,77,"May 13, 1998",Pamplona,Spain
+9970da54,2021-12-30 16:10:51,Antonio Sivera,GK,93% Right,184,81,"August 11, 1996",Xàtiva,Spain
+997fff07,2021-12-30 16:49:44,Sebastiano Luperto,"DF (CB, left)",88% Left,191,75,"September 6, 1996",Lecce,Italy
+99813635,2021-12-30 16:27:46,Adam Lallana,FW-MF (AM-WM),69% Right,173,67,"May 10, 1988",St Albans,England
+99be8fb5,2021-12-30 16:38:42,Anthony Ujah,FW,82% Right,183,81,"October 14, 1990",Benue State,Nigeria
+99bebd12,2021-12-30 16:10:51,John Guidetti,FW,83% Right,185,80,"April 15, 1992",Stockholm,Sweden
+99de6b6f,2021-12-30 16:37:25,Benjamin Hübner,"DF (CB, left)",84% Left,193,78,"July 4, 1989",Wiesbaden,Germany
+9a104dee,2021-12-30 16:30:57,Cenk Tosun,FW,67% Right,183,77,"June 7, 1991",Wetzlar,Germany
+9a28eba4,2021-12-30 16:26:42,Adama Traoré,"FW-MF (WM, right)",88% Right,178,72,"January 25, 1996",l'Hospitalet de Llobregat,Spain
+9a2e0ccc,2021-12-30 16:40:05,Emil Forsberg,"FW-MF (AM-WM, left)",90% Right,178,73,"October 23, 1991",Sundsvall,Sweden
+9a64e67e,2021-12-30 16:03:36,Robin Le Normand,DF (CB),90% Right,187,84,"November 11, 1996",Pabu,France
+9a71e978,2021-12-30 16:26:54,Ki-Jana Hoever,DF,90% Right,180,67,"January 18, 2002",Amsterdam,Netherlands
+9a9c05db,2021-12-30 16:32:08,Matthew Lowton,"DF (FB, right)",90% Right,180,78,"June 9, 1989",Chesterfield,England
+9ab16552,2021-12-30 16:37:43,Makoto Hasebe,DF-MF (CB-DM-WM),80% Right,180,72,"January 18, 1984",Fujieda-shi,Japan
+9b6f7fd5,2021-12-30 16:18:17,Lucas Paquetá,MF (AM-CM),86% Left,180,72,"August 27, 1997",Rio de Janeiro,Brazil
+9c94165b,2021-12-30 16:26:03,Luke Shaw,"DF-MF (FB-WM, left)",93% Left,185,75,"July 12, 1995",Kingston upon Thames,England
+9d4c45d6,2021-12-30 16:50:12,Roberto Soriano,MF (AM),81% Right,182,76,"February 8, 1991",Darmstadt,Germany
+9d66fbe3,2021-12-30 16:11:46,Roberto Soldado,FW,91% Right,179,72,"May 27, 1985",Valencia,Spain
+9dbb75ca,2021-12-30 16:24:16,Alexandre Lacazette,FW,86% Right,175,73,"May 28, 1991",Lyon,France
+9dc96f10,2021-12-30 16:26:24,Amad Diallo,FW,Left,173,66,"July 11, 2002",Abidjan,Côte d'Ivoire
+9deaf2c8,2021-12-30 16:29:24,Keinan Davis,FW,Both,179,68,"February 13, 1998",Birmingham,England
+9e098912,2021-12-30 16:10:30,Toni Moya,MF,93% Right,180,75,"March 20, 1998",Son Servera,Spain
+9e1035f8,2021-12-30 16:22:30,Ferrán Torres,"FW-MF (AM-WM, right)",91% Right,184,77,"February 29, 2000",Foios,Spain
+9e1577aa,2021-12-30 16:48:26,Cristiano Biraghi,"DF-MF (FB-WM, left)",87% Left,184,80,"September 1, 1992",Cernusco sul Naviglio,Italy
+9e525177,2021-12-30 16:25:55,Aaron Wan-Bissaka,"DF (FB, right)",94% Right,182,72,"November 26, 1997",Croydon,England
+9f0ea33f,2021-12-30 16:05:52,Sergio Asenjo,GK,84% Right,189,70,"June 28, 1989",Palencia,Spain
+9f1893b9,2021-12-30 16:49:02,Felipe Anderson,FW-MF (AM),87% Right,175,70,"April 15, 1993",Brasília,Brazil
+9f323c71,2021-12-30 16:06:23,Óscar de Marcos,"DF-FW-MF (DM-FB, right)",92% Right,180,76,"April 14, 1989",Laguardia,Spain
+9f472354,2021-12-30 16:29:57,Shane Long,FW,82% Right,180,79,"January 22, 1987",Gortnahoe,Republic of Ireland
+9f5a610b,2021-12-30 16:53:58,Wladimiro Falcone,GK,NULL,NULL,NULL,"April 12, 1995",Rome,Italy
+9f7c837d,2021-12-30 16:30:29,Ben Godfrey,DF-MF (CB),91% Right,183,79,"January 15, 1998",York,England
+9f8e9423,2021-12-30 16:26:06,Raphaël Varane,"DF-MF (CB-DM, right)",60% Right,194,83,"April 25, 1993",Lille,France
+9f979eb2,2021-12-30 16:39:08,Jorge Meré,DF (CB),78% Right,182,78,"April 17, 1997",Oviedo,Spain
+9fbbcf39,2021-12-30 16:26:38,Romain Saïss,"DF-MF (CB-CM, left)",89% Left,190,76,"March 26, 1990",Bourg-de-Péage,France
+9fec8860,2021-12-30 16:01:28,Ludwig Augustinsson,"DF-MF (FB, left)",91% Left,181,75,"April 21, 1994",Stockholm,Sweden
+a01c3d54,2021-12-30 16:11:30,Aitor Fernández,GK,91% Right,182,70,"May 3, 1991",Mondragón,Spain
+a0255c67,2021-12-30 16:06:48,Manu Morlanes,MF,84% Right,NULL,NULL,"January 12, 1999",NULL,NULL
+a0415710,2021-12-30 16:15:00,Ismail Jakobs,DF-MF,90% Left,183,75,"August 17, 1999",Cologne,Germany
+a0666d3e,2021-12-30 16:28:42,Will Hughes,MF (CM),81% Left,185,73,"April 17, 1995",Weybridge,England
+a08b974a,2021-12-30 16:01:09,Lucas Ocampos,FW-MF (AM-WM),89% Right,187,84,"July 11, 1994",Quilmes,Argentina
+a0b4bb3e,2021-12-30 16:00:49,Isco,FW-MF (AM),90% Right,177,74,"April 21, 1992",Benalmádena,Spain
+a111cf41,2021-12-30 16:46:33,Juan Musso,GK,92% Right,191,93,"May 6, 1994",San Nicolás de los Arroyos,Argentina
+a1232f4e,2021-12-30 16:26:17,Eric Bailly,"DF (CB, right)",86% Right,187,77,"April 12, 1994",Abidjan,Côte d'Ivoire
+a167537f,2021-12-30 16:35:09,Julian Brandt,"FW-MF (AM-WM, left)",82% Right,185,82,"May 2, 1996",Bremen,Germany
+a179d516,2021-12-30 16:29:56,Willy Caballero,GK,86% Right,185,83,"September 28, 1981",Santa Elena,Argentina
+a1d5bd30,2021-12-30 16:26:06,Marcus Rashford,FW-MF (AM),90% Right,180,70,"October 31, 1997",Wythenshawe,England
+a29b1131,2021-12-30 16:25:37,Steven Bergwijn,FW-MF,95% Right,178,74,"October 8, 1997",Amsterdam,Netherlands
+a2a85828,2021-12-30 16:37:58,Aymen Barkok,MF,80% Right,188,75,"May 21, 1998",Frankfurt am Main,Germany
+a2b105e0,2021-12-30 16:33:09,Sean Longstaff,MF (CM),79% Right,181,77,"October 30, 1997",North Shields,England
+a300ac7e,2021-12-30 16:09:52,Lucas Pérez,FW-MF (WM),89% Left,180,78,"September 10, 1988",A Coruña,Spain
+a35134ae,2021-12-30 16:09:00,Aleksandar Sedlar,DF-MF (CB),86% Right,178,79,"December 13, 1991",Novi Sad,Serbia
+a36084cd,2021-12-30 16:50:44,Gianmarco Cangiano,FW,NULL,NULL,NULL,"November 16, 2001",NULL,NULL
+a39bb753,2021-12-30 16:00:42,Eden Hazard,"FW-MF (AM-WM, left)",86% Right,173,75,"January 7, 1991",La Louvière,Belgium
+a3b03921,2021-12-30 16:32:59,Joe Willock,MF,89% Right,178,74,"August 20, 1999",Waltham Forest,England
+a3d94a58,2021-12-30 16:25:35,Cristian Romero,DF (CB),90% Right,185,82,"April 27, 1998",Córdoba,Argentina
+a3ddb1b9,2021-12-30 16:38:57,Mark Uth,FW-MF,84% Left,185,68,"August 24, 1991",Cologne,Germany
+a40819d9,2021-12-30 16:48:09,Marash Kumbulla,DF (CB),81% Right,191,86,"February 8, 2000",Desenzano del Garda,Italy
+a4971d84,2021-12-30 16:09:12,Djené,"DF (CB-FB, right)",77% Right,178,71,"December 31, 1991",Dapaong,Togo
+a4995f48,2021-12-30 16:07:43,Sergio Herrera,GK,96% Right,192,82,"June 5, 1993",Miranda de Ebro,Spain
+a4ac4b8f,2021-12-30 16:26:57,Willy Boly,DF (CB),85% Right,195,81,"February 3, 1991",Melun,France
+a4e85758,2021-12-30 16:48:39,Igor,DF,91% Left,185,80,"February 7, 1998",Bom Sucesso,Brazil
+a4effc55,2021-12-30 16:35:25,Dan-Axel Zagadou,"DF (CB, left)",84% Left,196,90,"June 3, 1999",Créteil,France
+a4fe8cda,2021-12-30 16:49:45,Patrick Cutrone,FW,83% Right,183,71,"January 3, 1998",Como,Italy
+a5296e55,2021-12-30 16:45:56,Piotr Zieliński,MF (AM-CM),75% Right,180,75,"May 20, 1994",Ząbkowice Śląskie,Poland
+a53649b7,2021-12-30 16:24:36,Eddie Nketiah,FW,85% Right,175,66,"May 30, 1999",Lewisham,England
+a53b661f,2021-12-30 16:36:55,Ihlas Bebou,FW-MF (AM),91% Right,183,72,"April 23, 1994",Sokodé,Togo
+a55d8df5,2021-12-30 16:02:03,Aitor Ruibal,FW-MF,90% Right,176,71,"March 22, 1996",Manresa,Spain
+a58bb1e1,2021-12-30 16:00:49,Gareth Bale,FW-MF (AM-WM),91% Left,185,74,"July 16, 1989",Cardiff,Wales
+a5ce09f2,2021-12-30 16:38:35,Kevin Möhwald,MF (AM-DM),94% Right,183,77,"July 3, 1993",Kreisfreie Stadt Erfurt,Germany
+a5ec3ede,2021-12-30 16:39:25,Alexander Hack,DF (CB),89% Left,193,83,"September 8, 1993",Memmingen,Germany
+a6154613,2021-12-30 16:03:06,Luis Suárez,FW,79% Right,182,85,"January 24, 1987",Salto,Uruguay
+a65ce836,2021-12-30 16:35:22,Emre Can,DF-MF (CM-DM),79% Right,184,74,"January 12, 1994",Frankfurt am Main,Germany
+a6951bf8,2021-12-30 16:05:44,Francis Coquelin,DF-MF (CM-DM-FB),87% Right,178,74,"May 13, 1991",Laval,France
+a69cc629,2021-12-30 16:53:49,Kristoffer Askildsen,MF,Right,190,81,"January 9, 2001",Oslo,Norway
+a69e4806,2021-12-30 16:46:06,Hirving Lozano,"FW-MF (AM-WM, right)",94% Right,177,70,"July 30, 1995",Mexico City,Distrito Federal
+a6de370d,2021-12-30 16:01:39,Sergio Canales,FW-MF (AM-CM),91% Left,176,65,"February 16, 1991",Santander,Spain
+a6de6361,2021-12-30 16:26:27,Tom Heaton,GK,96% Right,187,85,"April 15, 1986",Chester,England
+a70b8345,2021-12-30 16:38:40,Frederik Rønnow,GK,90% Right,188,76,"August 4, 1992",Horsens,Denmark
+a712ca2b,2021-12-30 16:25:00,Issa Diop,DF (CB),85% Right,194,90,"January 9, 1997",Toulouse,France
+a73c8f95,2021-12-30 16:36:28,Edmond Tapsoba,"DF (CB, left)",86% Right,190,80,"February 2, 1999",Ouagadougou,Burkina Faso
+a7813ac4,2021-12-30 16:39:44,Daniel Brosinski,"DF-MF (FB, right)",92% Right,178,65,"July 17, 1988",Karlsruhe,Germany
+a7a9d95a,2021-12-30 16:05:46,Paco Alcácer,FW,82% Right,176,71,"August 30, 1993",Torrent,Spain
+a83d8b0c,2021-12-30 16:08:05,Javier Ontiveros,MF,88% Right,172,70,"September 9, 1997",Marbella,Spain
+a8542814,2021-12-30 16:03:26,Héctor Herrera,MF (CM-DM),85% Right,180,72,"April 19, 1990",Tijuana,Estado de Baja California
+a8a3d139,2021-12-30 16:29:21,Jed Steer,GK,Left,188,89,"September 23, 1992",Norwich,England
+a8a874f1,2021-12-30 16:47:13,Manuel Locatelli,MF (CM-DM),79% Right,186,75,"January 8, 1998",Lecco,Italy
+a8d4428b,2021-12-30 16:33:56,Josh Sargent,FW,79% Right,180,79,"February 20, 2000",O'Fallon,Missouri
+a8f21b9f,2021-12-30 16:48:13,Carles Pérez,FW-MF,91% Left,172,66,"February 16, 1998",Granollers,Spain
+a92ab7be,2021-12-30 16:35:41,Mark Flekken,GK,78% Right,194,86,"June 13, 1993",Gemeente Kerkrade,Netherlands
+a952a529,2021-12-30 16:04:01,Julen Lobete,FW,Right,178,71,"September 18, 2000",NULL,NULL
+a96e5dc0,2021-12-30 16:51:42,Jeremy Toljan,"DF-MF (CB-FB, right)",89% Right,182,71,"August 8, 1994",Stuttgart,Germany
+a9dc785c,2021-12-30 16:04:35,Neto,GK,96% Right,193,84,"July 19, 1989",Araxá,Brazil
+a9eaccda,2021-12-30 16:56:46,Simone Aresti,GK,NULL,190,72,"March 15, 1986",Carbonia,Italy
+aa0ac32d,2021-12-30 16:11:33,Óscar Duarte,DF (CB),76% Right,184,73,"June 3, 1989",Masaya,Nicaragua
+aad48be9,2021-12-30 16:40:33,Niklas Stark,"DF-MF (CB-DM, right)",93% Right,189,74,"April 14, 1995",Neustadt an der Aisch,Germany
+aad53e64,2021-12-30 16:07:53,Kike Barja,MF,70% Right,178,69,"April 1, 1997",Noáin,Spain
+aae9d04a,2021-12-30 16:52:11,Davide Faraoni,"DF-MF (CB-DM-FB, right)",88% Right,180,71,"October 25, 1991",Bracciano,Italy
+ab070c55,2021-12-30 16:28:38,Christian Benteke,FW,91% Right,190,83,"December 3, 1990",Kinshasa,Congo DR
+ab13a5aa,2021-12-30 16:28:23,Vicente Guaita,GK,91% Right,191,80,"January 10, 1987",Torrent,Spain
+ab1ca213,2021-12-30 16:52:26,Miguel Veloso,MF (DM),74% Left,180,79,"May 11, 1986",Coimbra Municipality,Portugal
+ab4449d6,2021-12-30 16:50:07,Łukasz Skorupski,GK,89% Right,187,84,"May 5, 1991",Zabrze,Poland
+ab651565,2021-12-30 16:29:39,Nathan Redmond,"FW-MF (AM-WM, left)",92% Right,173,75,"March 6, 1994",Birmingham,England
+ab700320,2021-12-30 16:42:51,Arne Maier,MF,89% Right,183,79,"January 8, 1999",Ludwigsfelde,Germany
+ab7bf91d,2021-12-30 16:06:17,Daniel Vivian,DF,88% Right,NULL,NULL,"July 15, 1999",NULL,NULL
+abb3bb95,2021-12-30 16:01:37,Luuk de Jong,FW,73% Right,188,80,"August 27, 1990",Aigle,Switzerland
+abe66106,2021-12-30 16:01:17,Érik Lamela,"FW-MF (AM-WM, right)",91% Left,184,72,"March 4, 1992",Buenos Aires F.D.,Argentina
+ac05f970,2021-12-30 16:24:45,Michail Antonio,FW-MF (WM),83% Right,180,82,"March 28, 1990",Wandsworth,England
+ac295d9e,2021-12-30 16:01:28,Marko Dmitrović,GK,83% Left,194,90,"January 24, 1992",Subotica,Serbia
+ac4003af,2021-12-30 16:47:02,Marco Sportiello,GK,93% Right,192,87,"May 10, 1992",Desio,Italy
+ac73ec79,2021-12-30 16:40:03,Nordi Mukiele,"DF-MF (CB-FB, right)",92% Right,185,74,"November 1, 1997",Montreuil,France
+ac7e640b,2021-12-30 16:54:07,Mattia Caldara,DF (CB),89% Right,187,80,"May 5, 1994",Bergamo,Italy
+ac861941,2021-12-30 16:25:20,Eric Dier,DF-MF (CB-DM),85% Right,188,88,"January 15, 1994",Cheltenham,England
+ad00b1a8,2021-12-30 16:38:46,Benno Schmitz,"DF (FB, right)",80% Right,182,75,"November 17, 1994",Munich,Germany
+ad1ffcfd,2021-12-30 16:05:50,Vicente Iborra,MF (AM-DM),83% Right,190,76,"January 16, 1988",Moncada,Spain
+ad3389d5,2021-12-30 16:36:13,Lukáš Hrádecký,GK,78% Right,187,75,"November 24, 1989",Bratislava,Slovakia
+ad6df2d5,2021-12-30 16:04:50,Miralem Pjanić,MF (AM-CM-DM),92% Right,180,68,"April 2, 1990",Tuzla,Bosnia and Herzegovina
+aded8e6f,2021-12-30 16:48:10,Riccardo Calafiori,DF,77% Left,183,75,"May 19, 2002",Rome,Italy
+adfc9123,2021-12-30 16:04:15,Gerard Piqué,"DF (CB, right)",95% Right,191,85,"February 2, 1987",Barcelona,Spain
+ae44e8e2,2021-12-30 16:40:16,Dani Olmo,FW-MF (AM),85% Right,176,68,"May 7, 1998",Terrassa,Spain
+ae48c5cb,2021-12-30 16:10:50,Iván Martín,MF,NULL,NULL,NULL,"February 14, 1999",NULL,NULL
+ae4e2852,2021-12-30 16:47:39,Mattia De Sciglio,DF (FB),80% Right,183,74,"October 20, 1992",Milan,Italy
+ae7058f9,2021-12-30 16:53:56,Julian Chabot,"DF (CB, left)",89% Left,194,90,"February 12, 1998",Hanau,Germany
+aed746df,2021-12-30 16:10:41,Édgar Méndez,FW-MF (AM-WM),81% Right,188,75,"January 2, 1990",Arafo,Spain
+aeed5c06,2021-12-30 16:36:15,Moussa Diaby,FW-MF (AM),72% Left,170,65,"July 7, 1999",Paris,France
+afb0c500,2021-12-30 16:14:41,Alexander Nübel,GK,78% Right,193,75,"September 30, 1996",Paderborn,Germany
+b05e2dbd,2021-12-30 16:04:53,José Luis Gayà,"DF-MF (FB-WM, left)",88% Left,172,64,"May 25, 1995",Pedreguer,Spain
+b0616e3d,2021-12-30 16:07:30,Sergio Escudero,"DF-MF (FB, left)",89% Left,176,65,"September 2, 1989",Valladolid,Spain
+b0a0698b,2021-12-30 16:38:45,Rafael Czichos,"DF (CB-FB, left)",89% Left,188,86,"May 14, 1990",Jeddah,Saudi Arabia
+b0b4fd3e,2021-12-30 16:22:15,Jack Grealish,"FW-MF (AM-WM, left)",93% Right,175,68,"September 10, 1995",Birmingham,England
+b0c71810,2021-12-30 16:17:08,Sofiane Boufal,FW-MF (AM),80% Right,180,75,"September 17, 1993",Paris,France
+b0f7e36c,2021-12-30 16:47:27,Federico Chiesa,FW-MF (WM),79% Right,175,70,"October 25, 1997",Genoa,Italy
+b0fce72c,2021-12-30 16:06:25,Mikel Vesga,"MF (CM, left)",77% Left,191,86,"May 21, 1993",Vitoria-Gasteiz,Spain
+b1236c63,2021-12-30 16:53:15,Ilija Nestorovski,FW,74% Left,183,74,"March 12, 1990",Prilep,North Macedonia
+b14d0c5d,2021-12-30 16:02:24,Sidnei,"DF (CB, left)",78% Right,185,80,"August 23, 1989",Alegrete,Brazil
+b19db005,2021-12-30 16:04:27,Ousmane Dembélé,FW-MF (AM),57% Right,178,61,"May 15, 1997",Vernon,France
+b1b25949,2021-12-30 16:32:07,Rob Elliot,GK,79% Left,190,98,"April 30, 1986",Chatham,England
+b1cd37e6,2021-12-30 16:37:31,Filip Kostić,"DF-FW-MF (AM-DM-WM, left)",89% Left,176,74,"November 1, 1992",Kragujevac,Serbia
+b217ef29,2021-12-30 16:23:27,Joël Matip,"DF-MF (CB-DM, right)",88% Right,195,90,"August 8, 1991",Bochum,Germany
+b233e8e4,2021-12-30 16:08:24,Jeison Murillo,DF (CB),74% Right,182,78,"May 27, 1992",Barranquilla,Colombia
+b28bbd58,2021-12-30 16:30:30,Andros Townsend,"FW-MF (AM-WM, right)",76% Left,183,77,"July 16, 1991",Leytonstone,England
+b2bc3b1f,2021-12-30 16:28:26,Wilfried Zaha,FW-MF (AM-WM),86% Right,180,66,"November 10, 1992",Abidjan,Côte d'Ivoire
+b2d03887,2021-12-30 16:02:21,Víctor Camarasa,MF,89% Right,183,76,"May 28, 1994",Meliana,Spain
+b2d0ec1b,2021-12-30 16:08:27,Nolito,"FW-MF (AM-WM, left)",92% Right,175,73,"October 15, 1986",Sanlúcar de Barrameda,Spain
+b2d31e83,2021-12-30 16:27:57,Dan Burn,"DF (CB, left)",88% Left,198,87,"May 9, 1992",Blyth,England
+b3325a30,2021-12-30 16:40:33,Suat Serdar,MF (CM),89% Right,183,75,"April 11, 1997",Bingen am Rhein,Germany
+b3af9be1,2021-12-30 16:24:05,Takehiro Tomiyasu,"DF (FB, right)",68% Right,185,78,"November 5, 1998",Fukuoka,Japan
+b3b7f5a6,2021-12-30 16:37:45,Timothy Chandler,"DF-MF (FB-WM, right)",78% Right,186,80,"March 29, 1990",Frankfurt am Main,Germany
+b400bde0,2021-12-30 16:22:18,Raheem Sterling,FW-MF (AM-WM),89% Right,170,70,"December 8, 1994",Kingston,Jamaica
+b418dbd4,2021-12-30 16:06:15,Raúl García,FW-MF (AM-DM),77% Right,184,81,"July 11, 1986",Zizur Mayor/Zizur Nagusia,Spain
+b4a014b1,2021-12-30 16:01:01,Diego Carlos,DF (CB),87% Right,185,79,"March 15, 1993",Barra Bonita,Brazil
+b4cf5806,2021-12-30 16:38:58,Sebastian Andersson,FW,87% Right,190,87,"July 15, 1991",Ängelholm,Sweden
+b500b384,2021-12-30 16:42:17,Admir Mehmedi,FW-MF (AM),88% Right,183,77,"March 16, 1991",Gostivar,North Macedonia
+b50ec54b,2021-12-30 16:39:10,Louis Schaub,MF (AM-CM),84% Left,177,70,"December 29, 1994",Fulda,Germany
+b561db50,2021-12-30 16:26:40,Raúl Jiménez,FW,93% Right,188,80,"May 5, 1991",Tepeji de Ocampo,Estado de Hidalgo
+b579e83d,2021-12-30 16:31:50,Oghenekaro Etebo,FW-MF (DM),85% Right,176,70,"November 9, 1995",Lagos,Nigeria
+b5bdf144,2021-12-30 16:07:05,Oier Olazábal,GK,80% Left,189,95,"September 14, 1989",Irun,Spain
+b5bf1770,2021-12-30 16:29:50,Lyanco,DF (CB),92% Right,188,83,"February 1, 1997",Vitória,Brazil
+b5dd3469,2021-12-30 16:11:41,Nemanja Radoja,DF-MF (CM-DM),78% Right,186,77,"February 6, 1993",Novi Sad,Serbia
+b66315ae,2021-12-30 16:22:11,Gabriel Jesus,FW-MF,85% Right,177,72,"April 3, 1997",São Paulo,Brazil
+b6964eb6,2021-12-30 16:48:04,Chris Smalling,DF (CB),90% Right,194,90,"November 22, 1989",Greenwich,England
+b70bde8f,2021-12-30 16:44:59,Stefano Sensi,MF (CM),83% Right,168,62,"August 5, 1995",Urbino,Italy
+b742cc0d,2021-12-30 16:02:02,Marc Bartra,DF (CB-FB),92% Right,183,70,"January 15, 1991",Sant Jaume dels Domenys,Spain
+b77f44a4,2021-12-30 16:38:16,Marvin Friedrich,"DF (CB, right)",86% Right,193,78,"December 13, 1995",Kassel,Germany
+b7a5bc86,2021-12-30 16:55:48,Mohamed Fares,"DF-FW-MF (WM, left)",88% Left,183,72,"February 15, 1996",Aubervilliers,France
+b7c99b9b,2021-12-30 16:10:23,Víctor Laguardia,"DF (CB, right)",92% Right,185,75,"November 5, 1989",Zaragoza,Spain
+b7ca5c51,2021-12-30 16:05:01,Gabriel Paulista,DF (CB),90% Right,187,86,"November 26, 1990",Fortaleza,Brazil
+b7de5bad,2021-12-30 16:07:06,Victor Perea,"DF (FB, right)",85% Right,NULL,NULL,"April 1, 2000",NULL,NULL
+b825a650,2021-12-30 16:39:59,Kevin Kampl,MF (AM-CM-DM),90% Right,180,67,"October 9, 1990",Solingen,Germany
+b827d5b3,2021-12-30 16:27:31,Marc Albrighton,DF-FW-MF (AM-WM),91% Right,175,67,"November 18, 1989",Tamworth,England
+b853e0ad,2021-12-30 16:25:54,Fred,FW-MF (AM-DM),71% Left,169,64,"March 5, 1993",Belo Horizonte,Brazil
+b857bd29,2021-12-30 16:09:06,Antonio Raillo,"DF (CB, left)",72% Right,186,75,"October 8, 1991",Cordova,Spain
+b8a642fc,2021-12-30 16:05:53,Samuel Chukwueze,FW-MF,96% Left,172,70,"May 22, 1999",Umuahia,Nigeria
+b8c1de25,2021-12-30 16:07:12,Maxime Gonalons,MF (CM-DM),71% Right,187,76,"March 10, 1989",Vénissieux,France
+b96b595c,2021-12-30 16:49:02,Francesco Acerbi,DF (CB),81% Left,192,88,"February 10, 1988",Vizzolo Predabissi,Italy
+b9fbae28,2021-12-30 16:23:00,N'Golo Kanté,MF (CM-DM),86% Right,169,68,"March 29, 1991",Paris,France
+ba3d3bea,2021-12-30 16:49:14,Danilo Cataldi,MF (CM-DM),80% Right,180,70,"August 6, 1994",Rome,Italy
+ba5004e1,2021-12-30 16:09:14,Damián Suárez,"DF (FB, right)",92% Right,172,65,"April 27, 1988",Montevideo,Uruguay
+bad38a94,2021-12-30 16:06:57,Dídac Vilà,"DF (FB, left)",87% Left,184,74,"June 9, 1989",Mataró,Spain
+bb5fbd2b,2021-12-30 16:27:56,Solly March,DF-FW-MF,91% Left,180,72,"July 20, 1994",Eastbourne,England
+bba30585,2021-12-30 16:31:09,Diego Llorente,DF (CB),80% Right,185,74,"August 16, 1993",Madrid,Spain
+bbafc0c4,2021-12-30 16:51:12,Cristian Ansaldi,"DF-MF (FB-WM, left)",56% Right,181,76,"September 20, 1986",Rosario,Argentina
+bbd86530,2021-12-30 16:37:49,Christopher Lenz,"DF-MF (FB, left)",79% Left,181,81,"September 22, 1994",Land Berlin,Germany
+bc61cc65,2021-12-30 16:08:03,Iñigo Pérez,"MF (CM-DM, left)",89% Left,178,77,"January 18, 1988",Pamplona,Spain
+bc6f5f06,2021-12-30 16:06:35,Sergi Gómez,DF (CB),90% Right,185,77,"March 28, 1992",Arenys De Mar,Spain
+bc7dc64d,2021-12-30 16:24:03,Bukayo Saka,DF-FW-MF,79% Left,178,65,"September 5, 2001",London,England
+bcb2ccd8,2021-12-30 16:39:56,Péter Gulácsi,GK,89% Right,191,75,"May 6, 1990",Budapest főváros,Hungary
+bcfb0142,2021-12-30 16:33:43,Ben Gibson,DF (CB),93% Left,185,78,"January 15, 1993",Nunthorpe,England
+bd142efb,2021-12-30 16:36:13,Jonathan Tah,"DF (CB, right)",83% Right,193,98,"February 11, 1996",Hamburg,Germany
+bd527260,2021-12-30 16:39:12,Kingsley Schindler,"DF-MF (AM, right)",83% Right,180,77,"July 12, 1993",Hamburg,Germany
+bd6351cd,2021-12-30 16:22:08,João Cancelo,"DF-MF (CB-FB, right)",87% Right,182,66,"May 27, 1994",Barreiro,Portugal
+bd992863,2021-12-30 16:35:39,Tobias Raschl,MF,Right,177,75,"February 21, 2000",Düsseldorf,Germany
+bdb624a3,2021-12-30 16:06:19,Oihan Sancet,MF,89% Right,188,79,"April 25, 2000",Pamplona,Spain
+bdc74a8f,2021-12-30 16:48:22,Gonzalo Villar,MF,85% Right,181,75,"March 23, 1998",Murcia,Spain
+be170419,2021-12-30 16:06:22,Unai Núñez,"DF (CB, right)",88% Right,186,84,"January 30, 1997",Portugalete,Spain
+be42a291,2021-12-30 16:42:35,Hannes Wolf,FW-MF,59% Left,175,69,"April 16, 1999",Graz,Austria
+be927d03,2021-12-30 16:29:12,Ashley Young,"DF-FW-MF (FB-WM, left)",85% Right,175,64,"July 9, 1985",Stevenage,England
+beb882a8,2021-12-30 16:35:52,Maximilian Eggestein,"MF (AM-CM-DM, right)",83% Right,181,75,"December 8, 1996",Hanover,Germany
+bece776f,2021-12-30 16:01:42,Nabil Fekir,FW-MF (AM),88% Left,173,72,"July 18, 1993",Lyon,France
+bee0bab1,2021-12-30 16:36:32,Karim Bellarabi,"FW-MF (AM-WM, right)",93% Right,183,76,"April 8, 1990",Land Berlin,Germany
+bee704fc,2021-12-30 16:48:24,Nikola Milenković,"DF (CB, right)",88% Right,195,92,"October 12, 1997",Belgrade,Serbia
+bf075f6b,2021-12-30 16:35:54,Roland Sallai,FW-MF,78% Right,183,77,"May 22, 1997",Budapest főváros,Hungary
+bf12926c,2021-12-30 16:02:22,Diego Lainez,FW-MF,83% Left,167,58,"June 9, 2000",Villahermosa,Estado de Tabasco
+bf309d24,2021-12-30 16:48:11,Amadou Diawara,MF (CM-DM),90% Right,183,75,"July 17, 1997",Conakry,Guinea
+bf356094,2021-12-30 16:55:17,Ebrima Colley,FW,86% Right,179,75,"February 1, 2000",Serrekunda,Gambia
+bf39bdec,2021-12-30 16:54:00,Ernesto Torregrossa,FW,84% Left,184,80,"June 28, 1992",Caltanissetta,Italy
+bf57eaab,2021-12-30 16:57:09,Federico Bonazzoli,FW,82% Left,182,79,"May 21, 1997",Manerbio,Italy
+bf8fad51,2021-12-30 16:29:16,Kortney Hause,DF (CB),88% Left,189,79,"July 16, 1995",London,England
+bfae110f,2021-12-30 16:29:26,Wesley Moraes,FW,91% Right,192,93,"November 26, 1996",Juiz de Fora,Brazil
+bfb15d99,2021-12-30 16:11:58,Koke Vegas,GK,NULL,188,88,"September 27, 1995",Antequera,Spain
+bfd381b3,2021-12-30 16:08:43,Iddrisu Baba,MF,93% Right,185,73,"January 22, 1996",Accra,Ghana
+bfdb33aa,2021-12-30 16:31:36,Ismaila Sarr,FW-MF (AM),92% Right,180,70,"February 25, 1998",Saint-Louis,Senegal
+c00097d2,2021-12-30 16:11:44,Rober,DF (CB),82% Right,182,74,"February 16, 1995",A Coruña,Spain
+c05dfb74,2021-12-30 16:06:04,Iker Muniain,"FW-MF (AM-WM, left)",95% Right,169,63,"December 19, 1992",Pamplona,Spain
+c0617e2b,2021-12-30 16:00:54,Dani Ceballos,MF (CM-WM),94% Right,176,65,"August 7, 1996",Utrera,Spain
+c067631c,2021-12-30 16:25:11,Ryan Fredericks,"DF (FB, right)",90% Right,181,72,"October 10, 1992",Potters Bar,England
+c0c7ff58,2021-12-30 16:45:55,Fabián Ruiz Peña,MF (CM-DM-WM),90% Left,189,70,"April 3, 1996",Los Palacios y Villafranca,Spain
+c14bc029,2021-12-30 16:03:27,Saúl Ñíguez,"DF-MF (CM-DM-WM, left)",81% Left,181,70,"November 21, 1994",Elche,Spain
+c17bfb65,2021-12-30 16:32:55,Joelinton,FW-MF,80% Right,190,76,"August 14, 1996",Aliança,Brazil
+c18d22f5,2021-12-30 16:40:46,Peter Pekarík,"DF (FB, right)",95% Right,176,70,"October 30, 1986",Žilina,Slovakia
+c1949191,2021-12-30 16:30:52,Jarrad Branthwaite,DF,72% Left,195,82,"June 27, 2002",Carlisle,England
+c1b7847c,2021-12-30 16:40:15,Konrad Laimer,DF-MF (CM-WM),80% Right,179,68,"May 27, 1997",Salzburg,Austria
+c2009df3,2021-12-30 16:38:48,Jonas Hector,"DF-MF (DM-FB, left)",75% Left,185,76,"May 27, 1990",Saarbrücken,Germany
+c2111b45,2021-12-30 16:00:54,Jesús Vallejo,DF (CB),86% Right,183,74,"January 5, 1997",Zaragoza,Spain
+c2211709,2021-12-30 16:39:00,Ellyes Skhiri,MF (CM-DM),88% Right,184,68,"May 10, 1995",Lunel,France
+c235e803,2021-12-30 16:45:42,Matteo Gabbia,DF,81% Right,185,81,"October 21, 1999",Busto Arsizio,Italy
+c261b5dd,2021-12-30 16:08:11,Unai Dufur,DF,Right,183,75,"January 1, 1999",NULL,NULL
+c316607a,2021-12-30 16:51:39,Vlad Chiricheș,"DF (CB, right)",91% Right,184,75,"November 14, 1989",Bacău,Romania
+c375dfa5,2021-12-30 16:49:58,Andrea La Mantia,FW,NULL,190,81,"May 6, 1991",Marino,Italy
+c3e39f12,2021-12-30 16:29:56,Fraser Forster,GK,82% Right,201,92,"March 17, 1988",Hexham,England
+c3ee18ef,2021-12-30 16:34:30,Lucas Hernández,"DF (CB-FB, left)",93% Left,183,76,"February 14, 1996",Marseille,France
+c40b6180,2021-12-30 16:27:57,Adam Webster,DF (CB),77% Right,192,80,"January 4, 1995",Chichester,England
+c41f7379,2021-12-30 16:37:17,Philipp Pentke,GK,93% Right,190,84,"May 1, 1985",Freiberg,Germany
+c4e87b8b,2021-12-30 16:41:48,Wout Weghorst,FW,89% Right,197,84,"August 7, 1992",Gemeente Borne,Netherlands
+c50cee19,2021-12-30 16:50:27,Andreas Skov Olsen,"FW-MF (AM, right)",69% Left,187,76,"December 29, 1999",Hillerød,Denmark
+c56dc39e,2021-12-30 16:46:48,Rafael Tolói,"DF (CB, right)",90% Right,185,75,"October 10, 1990",Glória d'Oeste,Brazil
+c596fcb0,2021-12-30 16:32:53,Callum Wilson,FW,85% Right,180,66,"February 27, 1992",Coventry,England
+c5adc293,2021-12-30 16:46:26,Faouzi Ghoulam,"DF (FB, left)",89% Left,188,80,"February 1, 1991",Saint-Priest-en-Jarez,France
+c5b7c315,2021-12-30 16:30:28,Michael Keane,DF (CB),80% Right,191,72,"January 11, 1993",Stockport,England
+c6608135,2021-12-30 16:43:42,Darko Churlinov,MF,NULL,180,75,"July 11, 2000",Skopje,North Macedonia
+c67cd65c,2021-12-30 16:11:25,Rúben Vezo,DF (CB),79% Right,182,81,"April 25, 1994",Setúbal,Portugal
+c691bfe2,2021-12-30 16:23:23,Sadio Mané,"FW-MF (AM, left)",75% Right,175,69,"April 10, 1992",Sédhiou,Senegal
+c6e8cf1f,2021-12-30 16:50:48,Saša Lukić,MF (CM),83% Right,183,73,"August 13, 1996",Šabac,Serbia
+c707411f,2021-12-30 16:46:17,Kostas Manolas,"DF (CB, right)",83% Right,186,83,"June 14, 1991",Naxos,Greece
+c7259b83,2021-12-30 16:51:07,Rolando Mandragora,MF (CM-DM),86% Left,183,76,"June 29, 1997",Naples,Italy
+c730da00,2021-12-30 16:52:37,Yıldırım Mert Çetin,DF (CB),86% Right,189,81,"January 1, 1997",Çankaya,Turkey
+c7429db3,2021-12-30 16:08:03,Robert Ibáñez,"FW-MF (WM, right)",61% Right,175,60,"March 22, 1993",Valencia,Spain
+c77a8043,2021-12-30 16:07:14,Antonio Puertas,FW-MF (AM),78% Right,183,75,"February 21, 1992",Benahadux,Spain
+c78b352d,2021-12-30 16:05:08,Thierry Correia,DF,92% Right,176,72,"March 9, 1999",Portugal,Portugal
+c8387671,2021-12-30 16:23:49,Harvey Elliott,FW,94% Left,170,67,"April 4, 2003",Chertsey,England
+c89e8aae,2021-12-30 16:42:09,Pavao Pervan,GK,86% Right,194,88,"November 13, 1987",Livno,Bosnia and Herzegovina
+c8aa95da,2021-12-30 16:33:10,Fabian Schär,DF (CB),86% Right,186,85,"December 20, 1991",Wil,Switzerland
+c8c0dccd,2021-12-30 16:55:58,Manolo Portanova,MF,Right,183,75,"June 2, 2000",Naples,Italy
+c8c60119,2021-12-30 16:37:53,Almamy Touré,"DF (FB, right)",87% Right,182,73,"April 28, 1996",Bamako Region,Mali
+c92e1a31,2021-12-30 16:27:28,Kelechi Iheanacho,FW-MF,91% Left,185,77,"October 3, 1996",Imo State,Nigeria
+c931d9f9,2021-12-30 16:26:16,Daniel James,FW-MF (AM),87% Right,179,79,"November 10, 1997",Swansea,Wales
+c951a6df,2021-12-30 16:32:59,Isaac Hayden,DF-MF (CB-CM-DM),84% Right,187,79,"March 22, 1995",Chelmsford,England
+c9cb972b,2021-12-30 16:05:25,Jaume Doménech,GK,92% Right,187,76,"November 5, 1990",Almenara,Spain
+c9e39d91,2021-12-30 16:08:13,Brais Méndez,"FW-MF (AM-CM, right)",87% Left,184,76,"January 7, 1997",Mos,Spain
+ca618d23,2021-12-30 16:35:43,Lucas Höler,FW-MF,84% Right,184,80,"July 10, 1994",Achim,Germany
+ca6edaa0,2021-12-30 16:49:32,Luka Romero,MF,Left,165,64,"November 18, 2004",Durango,Estado de Durango
+ca8033cb,2021-12-30 16:40:12,Lukas Klostermann,"DF (CB-FB, right)",80% Right,189,83,"June 2, 1996",Herdecke,Germany
+cac2537b,2021-12-30 16:11:38,Enis Bardhi,MF (CM-WM),84% Right,172,62,"July 2, 1995",Skopje,North Macedonia
+caffaf5a,2021-12-30 16:53:35,Maya Yoshida,DF (CB),82% Right,189,81,"August 24, 1988",Nagasaki-shi,Japan
+cb574619,2021-12-30 16:08:23,Hugo Mallo,"DF (FB, right)",87% Right,173,69,"June 22, 1991",Marín,Spain
+cbac6ec9,2021-12-30 16:43:15,Florian Müller,GK,76% Left,192,82,"November 13, 1997",Saarlouis,Germany
+cbdf7d5c,2021-12-30 16:09:25,Darío Poveda,FW,NULL,187,81,"March 13, 1997",San Vicent del Raspeig,Spain
+cc2d7ad5,2021-12-30 16:32:16,Charlie Taylor,"DF (FB, left)",96% Left,175,70,"September 18, 1993",York,England
+cc3b8e78,2021-12-30 16:27:02,Luke Cundle,MF,Right,174,68,"April 26, 2002",England,United Kingdom
+cc700722,2021-12-30 16:30:28,Allan,"DF-MF (CM-DM-FB, right)",91% Right,173,73,"January 8, 1991",Rio de Janeiro,Brazil
+cc86b9a3,2021-12-30 16:34:35,Leon Goretzka,MF (AM-CM-DM),93% Right,189,79,"February 6, 1995",Bochum,Germany
+cce181df,2021-12-30 16:03:19,Geoffrey Kondogbia,MF (CM-DM),84% Left,188,79,"February 15, 1993",Nemours,France
+cce9f582,2021-12-30 16:52:26,Giangiacomo Magnani,DF (CB),82% Right,191,85,"October 4, 1995",Correggio,Italy
+cd0fa27b,2021-12-30 16:44:36,Hakan Çalhanoğlu,FW-MF (AM-CM),91% Right,176,73,"February 8, 1994",Mannheim,Germany
+cd1acf9d,2021-12-30 16:23:25,Trent Alexander-Arnold,"DF (FB, right)",88% Right,175,69,"October 7, 1998",Liverpool,England
+cd4256d3,2021-12-30 16:31:28,Lewis Bate,MF,Left,172,61,"October 29, 2002",England,United Kingdom
+cd82452e,2021-12-30 16:42:41,André Hahn,FW-MF (WM),82% Right,185,77,"August 13, 1990",Otterndorf,Germany
+cda0b317,2021-12-30 16:02:23,Joel Robles,GK,88% Right,195,84,"June 17, 1990",Getafe,Spain
+cde3309f,2021-12-30 16:33:14,Karl Darlow,GK,95% Right,185,74,"October 8, 1990",Northampton,England
+ce17b5eb,2021-12-30 16:37:29,Kevin Trapp,GK,86% Right,189,83,"July 8, 1990",Merzig,Germany
+ce30bfc8,2021-12-30 16:44:53,Roberto Gagliardini,MF (CM-DM),88% Right,188,77,"April 7, 1994",Bergamo,Italy
+ce4246f5,2021-12-30 16:23:17,Kurt Zouma,DF (CB),79% Right,190,92,"October 27, 1994",Lyon,France
+ce5143da,2021-12-30 16:28:07,Danny Welbeck,FW-MF (WM),92% Right,185,72,"November 26, 1990",Manchester,England
+ce8039aa,2021-12-30 16:06:50,Nico Ribaudo,MF,90% Right,NULL,NULL,"April 11, 2001",Castelldefels,Spain
+cea4ee8f,2021-12-30 16:25:33,Dele Alli,FW-MF (AM),94% Right,188,76,"April 11, 1996",Milton Keynes,England
+cee31595,2021-12-30 16:28:29,James McArthur,MF (CM),75% Right,178,67,"October 7, 1987",Glasgow,Scotland
+cf007308,2021-12-30 16:46:09,Elif Elmas,MF,85% Right,182,68,"September 24, 1999",Skopje,North Macedonia
+cf043a33,2021-12-30 16:48:13,Ebrima Darboe,MF,90% Right,178,70,"June 6, 2001","The Gambia",NULL
+cf1c23d8,2021-12-30 16:53:21,Daniele Padelli,GK,Right,191,92,"October 25, 1985",Lecco,Italy
+cf623c78,2021-12-30 16:37:45,Erik Durm,DF-FW-MF (FB),75% Right,183,73,"May 12, 1992",Pirmasens,Germany
+cfbf9881,2021-12-30 16:50:34,Ibrahima Mbaye,"DF-MF (FB, right)",90% Right,188,70,"November 19, 1994",Guédiawaye,Senegal
+d0042ab9,2021-12-30 16:30:44,Mason Holgate,DF (CB),84% Right,184,74,"October 22, 1996",Doncaster,England
+d023d70f,2021-12-30 16:50:59,Karol Linetty,"MF (CM-DM, left)",66% Right,176,73,"February 2, 1995",Żnin,Poland
+d04b94db,2021-12-30 16:26:41,Nélson Semedo,"DF-MF (FB, right)",84% Right,177,65,"November 16, 1993",Lisbon,Portugal
+d0706b27,2021-12-30 16:28:20,Marc Guéhi,DF (CB),69% Right,182,82,"July 13, 2000",Abidjan,Côte d'Ivoire
+d080ed5e,2021-12-30 16:03:38,Mikel Merino,MF (CM-DM),91% Left,188,78,"June 22, 1996",Pamplona,Spain
+d0b3ceb9,2021-12-30 16:31:49,Ben Foster,GK,81% Left,194,94,"April 3, 1983",Royal Leamington Spa,England
+d0d8dd44,2021-12-30 16:44:39,Stefan de Vrij,DF (CB-FB),85% Right,189,78,"February 5, 1992",Ouderkerk aan den IJssel,Netherlands
+d0dbca9f,2021-12-30 16:53:51,Alex Ferrari,"DF (FB, right)",82% Right,183,70,"July 1, 1994",Province of Modena,Italy
+d0f72bf1,2021-12-30 16:26:32,Max Kilman,DF,81% Left,192,78,"May 23, 1997",London,England
+d1273f09,2021-12-30 16:42:42,Daniel Caligiuri,"DF-MF (AM, right)",86% Right,182,79,"January 15, 1988",Villingen-Schwenningen,Germany
+d1661819,2021-12-30 16:38:26,Bastian Oczipka,"DF-MF (FB, left)",82% Left,184,81,"January 12, 1989",Bergisch Gladbach,Germany
+d183e9d6,2021-12-30 16:53:53,Nicola Murru,"DF (FB, left)",94% Left,180,64,"December 16, 1994",Cagliari,Italy
+d1b060e2,2021-12-30 16:09:00,Abdón Prats,FW,NULL,NULL,NULL,"December 7, 1992",Artà,Spain
+d1b49282,2021-12-30 16:53:29,Morten Thorsby,"MF (CM, right)",83% Right,186,72,"May 5, 1996",Oslo,Norway
+d2110326,2021-12-30 16:05:04,Mouctar Diakhaby,DF (CB),89% Right,192,74,"December 19, 1996",Vendôme,France
+d2416c2e,2021-12-30 16:40:12,Yussuf Poulsen,FW,83% Right,193,78,"June 15, 1994",Copenhagen,Denmark
+d2424d1b,2021-12-30 16:23:07,Ben Chilwell,"DF-MF (FB, left)",86% Left,178,71,"December 21, 1996",Milton Keynes,England
+d248cd8f,2021-12-30 16:34:28,Dayot Upamecano,DF (CB),87% Right,188,79,"October 27, 1998",Évreux,France
+d2aea9ac,2021-12-30 16:03:33,Ivan Šaponjić,FW,Both,189,84,"August 2, 1997",Nova Varoš,Serbia
+d2c580ce,2021-12-30 16:35:56,Yannik Keitel,MF,70% Right,185,82,"February 15, 2000",NULL,NULL
+d2ed99b4,2021-12-30 16:11:54,Alejandro Blesa,MF,Left,180,72,"January 15, 2002",Valencia,Spain
+d3112d86,2021-12-30 16:43:58,Sebastian Vasiliadis,MF,79% Right,177,75,"October 4, 1997",Backnang,Germany
+d37b0350,2021-12-30 16:56:31,Leonardo Pavoletti,FW,83% Right,186,78,"November 26, 1988",Livorno,Italy
+d38fdf53,2021-12-30 16:05:40,Pervis Estupiñán,"DF (FB, left)",88% Left,175,79,"January 21, 1998",Esmeraldas,Ecuador
+d3b888e3,2021-12-30 16:56:42,Christian Oliva,MF,93% Right,178,75,"June 1, 1996",Uruguay,Uruguay
+d3ce0e89,2021-12-30 16:27:41,Danny Ward,GK,Right,191,88,"June 22, 1993",Wrexham,Wales
+d3d758d8,2021-12-30 16:55:59,Valon Behrami,DF-MF (CM),89% Right,184,78,"April 19, 1985",Kosovska Mitrovica,Kosovo
+d3de9af0,2021-12-30 16:46:33,Duván Zapata,FW,77% Right,186,80,"April 1, 1991",Cali,Colombia
+d4535821,2021-12-30 16:49:14,Adam Marušić,DF-FW-MF (FB-WM),87% Right,185,76,"October 17, 1992",Belgrade,Serbia
+d4931a5a,2021-12-30 16:52:30,Nikola Kalinić,FW,92% Right,187,80,"January 5, 1988",Solin,Croatia
+d4a2533d,2021-12-30 16:42:13,Josip Brekalo,FW-MF (AM),87% Right,180,72,"June 23, 1998",City of Zagreb,Croatia
+d4c9725f,2021-12-30 16:45:11,Theo Hernández,"DF (FB, left)",93% Left,184,78,"October 6, 1997",Marseille,France
+d5575935,2021-12-30 16:18:59,Valon Berisha,MF (AM-CM),89% Right,181,75,"February 7, 1993",Malmo,Sweden
+d557d734,2021-12-30 16:25:44,Matt Doherty,"DF-MF (FB-WM, right)",94% Right,182,76,"January 16, 1992",Dublin,Republic of Ireland
+d56543a0,2021-12-30 16:33:21,Ryan Fraser,FW-MF (WM),81% Right,163,70,"February 24, 1994",Aberdeen,Scotland
+d5dd5f1f,2021-12-30 16:24:13,Pierre-Emerick Aubameyang,FW-MF (WM),89% Right,187,80,"June 18, 1989",Laval,France
+d6862409,2021-12-30 16:42:55,Florian Niederlechner,FW,80% Right,186,86,"October 24, 1990",Ebersberg,Germany
+d6a889ea,2021-12-30 16:46:18,Kévin Malcuit,"DF-FW-MF (FB-WM, right)",93% Right,178,77,"July 31, 1991",Châtenay-Malabry,France
+d6e53a3a,2021-12-30 16:47:10,Matthijs de Ligt,DF (CB),81% Right,188,87,"August 12, 1999",Leiderdorp,Netherlands
+d705ba44,2021-12-30 16:51:10,Andrea Belotti,FW,80% Right,181,72,"December 20, 1993",Calcinate,Italy
+d70ce98e,2021-12-30 16:12:08,Lionel Messi,FW-MF (WM),91% Left,170,72,"June 24, 1987",Rosario,Argentina
+d711d04f,2021-12-30 16:55:37,Goran Pandev,FW,80% Left,184,74,"July 27, 1983",Strumica,North Macedonia
+d733aa38,2021-12-30 16:07:54,Roberto Torres,"MF (WM, right)",83% Right,178,72,"March 7, 1989",Pamplona,Spain
+d7492450,2021-12-30 16:28:59,Martin Kelly,"DF-MF (CB-FB, right)",88% Right,191,77,"April 27, 1990",Whiston,England
+d7553721,2021-12-30 16:25:41,Giovani Lo Celso,MF (CM),89% Left,175,68,"April 9, 1996",Rosario,Argentina
+d781d855,2021-12-30 16:34:27,Alphonso Davies,"DF-FW-MF (FB, left)",83% Left,178,69,"November 2, 2000",Monrovia,Liberia
+d7918b13,2021-12-30 16:49:44,Liam Henderson,MF (CM),87% Right,183,78,"April 25, 1996",Livingston,Scotland
+d79a8c87,2021-12-30 16:24:20,Rob Holding,DF (CB),84% Right,183,75,"September 20, 1995",Tameside,England
+d7d32194,2021-12-30 16:55:32,Mattia Destro,FW,90% Right,181,72,"March 20, 1991",Ascoli Piceno,Italy
+d80b1835,2021-12-30 16:52:43,Gianluca Frabotta,DF,91% Left,187,78,"June 24, 1999",Rome,Italy
+d83bbc54,2021-12-30 16:04:50,Daniel Wass,"DF-MF (AM-CM-FB-WM, right)",91% Right,181,74,"May 31, 1989",Gladsaxe Municipality,Denmark
+d85c238b,2021-12-30 16:49:25,Mattia Zaccagni,"FW-MF (AM, left)",85% Right,176,63,"June 16, 1995",Cesena,Italy
+d87e2cae,2021-12-30 16:01:43,Willian José,FW,88% Right,186,81,"November 23, 1991",Porto Calvo,Brazil
+d8931174,2021-12-30 16:25:55,Harry Maguire,"DF (CB, left)",86% Right,188,79,"March 5, 1993",Sheffield,England
+d93c2511,2021-12-30 16:25:56,Scott McTominay,"MF (DM, right)",93% Right,192,85,"December 8, 1996",Lancaster,England
+d9565625,2021-12-30 16:26:15,Diogo Dalot,DF (FB),89% Right,184,76,"March 18, 1999",Braga Municipality,Portugal
+d9624b51,2021-12-30 16:52:24,Federico Ceccherini,DF (CB),66% Right,187,75,"May 11, 1992",Livorno,Italy
+d9764034,2021-12-30 16:14:49,Guillermo Maripán,DF (CB),91% Right,193,83,"May 6, 1994",San Miguel,Chile
+d97f2e8d,2021-12-30 16:53:57,Fabio Depaoli,DF-MF,93% Right,178,74,"April 24, 1997",Riva del Garda,Italy
+d995ed27,2021-12-30 16:48:24,Giacomo Bonaventura,MF (AM-CM),81% Right,180,75,"August 22, 1989",San Severino Marche,Italy
+d9ba39fc,2021-12-30 16:03:58,Diego Rico,"DF (FB, left)",94% Left,181,75,"February 23, 1993",Burgos,Spain
+da052c14,2021-12-30 16:28:29,Jordan Ayew,FW-MF,94% Right,182,81,"September 11, 1991",Marseille,France
+da27e268,2021-12-30 16:34:51,Marc Roca,MF (CM-DM),81% Left,184,74,"November 26, 1996",Vilafranca del Penedès,Spain
+da5a981b,2021-12-30 16:55:05,Jacopo Sala,"DF-FW-MF (AM-FB-WM, right)",89% Right,184,75,"December 5, 1991",Bergamo,Italy
+da7b447d,2021-12-30 16:25:31,Davinson Sánchez,DF (CB),86% Right,188,77,"June 12, 1996",Caloto,Colombia
+da8b19e2,2021-12-30 16:27:09,John Ruddy,GK,Right,193,93,"October 24, 1986",Cambridgeshire,England
+da974c7b,2021-12-30 16:45:58,Kalidou Koulibaly,"DF (CB, left)",71% Right,195,89,"June 20, 1991",Saint-Dié-des-Vosges,France
+db092d3b,2021-12-30 16:45:26,Ismaël Bennacer,MF (CM-DM),89% Left,175,70,"December 1, 1997",Arles,France
+db401046,2021-12-30 16:41:52,Koen Casteels,GK,79% Left,196,86,"June 25, 1992",Bonheiden,Belgium
+db4ed67b,2021-12-30 16:35:15,Mahmoud Dahoud,MF (CM-DM),87% Right,176,67,"January 1, 1996",Amude,Syria
+db750822,2021-12-30 16:09:31,Vitolo,FW-MF (AM-WM),87% Right,184,80,"November 2, 1989",Las Palmas,Spain
+db8f0eba,2021-12-30 16:06:37,Adri Embarba,FW-MF (AM-WM),81% Right,173,66,"May 7, 1992",Madrid,Spain
+dbf053da,2021-12-30 16:26:04,Jadon Sancho,FW-MF (AM),88% Right,180,73,"March 25, 2000",London,England
+dc008610,2021-12-30 16:11:20,Florin Andone,FW,84% Right,182,79,"April 11, 1993",Joldești,Romania
+dc1c2fce,2021-12-30 16:06:15,Álex Berenguer,FW-MF (WM),87% Right,175,69,"July 4, 1995",Pamplona,Spain
+dc366c36,2021-12-30 16:43:09,Tomáš Koubek,GK,87% Right,198,95,"August 26, 1992",Hradec Králové,Czech Republic
+dc3fa3b5,2021-12-30 16:46:16,Diego Demme,DF-MF (CM-DM),86% Right,170,66,"November 21, 1991",Herford,Germany
+dc62b55d,2021-12-30 16:03:22,Matheus Cunha,FW-MF,86% Right,183,76,"May 27, 1999",João Pessoa,Brazil
+dc6f5bdd,2021-12-30 16:24:28,Calum Chambers,"DF-MF (CB-FB, right)",90% Right,183,77,"January 20, 1995",Petersfield,England
+dd0daf32,2021-12-30 16:47:57,Henrikh Mkhitaryan,FW-MF (AM),79% Right,178,72,"January 21, 1989",Yerevan,Armenia
+dd323728,2021-12-30 16:23:56,Neco Williams,DF,95% Right,183,76,"April 13, 2001",Wales,United Kingdom
+dd669209,2021-12-30 16:41:57,Renato Steffen,FW-MF (AM-WM),88% Left,170,65,"November 3, 1991",Aarau,Switzerland
+de0f152c,2021-12-30 16:31:41,Adam Masina,"DF (FB, left)",88% Left,189,78,"January 2, 1994",Khouribga,Morocco
+de39485a,2021-12-30 16:03:00,Yannick Carrasco,"DF-FW-MF (AM-WM, left)",87% Right,180,72,"September 4, 1993",Ixelles-Elsene,Belgium
+de5b5570,2021-12-30 16:29:10,Marvelous Nakamba,MF (AM-CM-DM),87% Left,177,71,"January 19, 1994",Hwange,Zimbabwe
+dea698d9,2021-12-30 16:25:56,Cristiano Ronaldo,FW-MF (WM),84% Right,187,83,"February 5, 1985",Funchal,Portugal
+dee3013b,2021-12-30 16:39:54,Finn Dahmen,GK,Right,186,80,"March 27, 1998",Wiesbaden,Germany
+dee86451,2021-12-30 16:01:56,William Carvalho,MF (CM-DM),85% Right,187,87,"April 7, 1992",Luanda,Angola
+def899bd,2021-12-30 16:26:28,Phil Jones,"DF-MF (CB, left)",89% Right,185,81,"February 21, 1992",Preston,England
+df10e27c,2021-12-30 16:33:48,Billy Gilmour,MF,93% Right,170,60,"June 11, 2001",Scotland,United Kingdom
+df3cda47,2021-12-30 16:47:38,Dejan Kulusevski,FW-MF,80% Left,186,75,"April 25, 2000",Stockholm County,Sweden
+df69b544,2021-12-30 16:03:08,Antoine Griezmann,FW-MF (AM-WM),84% Left,175,67,"March 21, 1991",Mâcon,France
+df85d472,2021-12-30 16:50:36,Federico Santander,FW,87% Right,187,94,"June 4, 1991",San Lorenzo,Paraguay
+df8b52a5,2021-12-30 16:04:42,Emerson,"DF (FB, right)",89% Right,183,76,"January 14, 1999",São Paulo,Brazil
+df8e7b62,2021-12-30 16:43:37,Erik Thommy,MF (AM-WM),79% Right,174,68,"August 20, 1994",Ulm,Germany
+e0314d87,2021-12-30 16:55:43,Andrea Masiello,DF (CB-FB),78% Right,185,79,"February 5, 1986",Viareggio,Italy
+e06683ca,2021-12-30 16:23:25,Virgil van Dijk,"DF (CB, left)",87% Right,193,87,"July 8, 1991",Breda,Netherlands
+e082af5b,2021-12-30 16:34:16,Angus Gunn,GK,96% Right,196,77,"January 22, 1996",Norwich,England
+e0921a4f,2021-12-30 16:47:14,Paulo Dybala,FW-MF (AM-WM),89% Left,175,73,"November 15, 1993",Valladolid,Spain
+e0b113a7,2021-12-30 16:36:21,Robert Andrich,MF (CM-DM),77% Right,185,78,"September 22, 1994",Kreisfreie Stadt Potsdam,Germany
+e0bc6fdc,2021-12-30 16:18:15,Emerson Palmieri,"DF-MF (FB, left)",92% Left,176,63,"August 3, 1994",Santos,Brazil
+e12b0b5b,2021-12-30 16:37:56,Sebastian Rode,MF (CM-DM),82% Right,179,73,"October 11, 1990",Seeheim-Jugenheim,Germany
+e14ec482,2021-12-30 16:50:23,Riccardo Orsolini,"FW-MF (AM, right)",89% Left,183,73,"January 24, 1997",Ascoli Piceno,Italy
+e1846dde,2021-12-30 16:11:27,Cárdenas,GK,89% Right,186,80,"March 28, 1997",Terrassa,Spain
+e1b0a70d,2021-12-30 16:48:26,Pietro Terracciano,GK,85% Right,193,78,"March 8, 1990",San Felice a Cancello,Italy
+e1cbb531,2021-12-30 16:46:11,Stanislav Lobotka,MF (CM-DM),89% Right,170,72,"November 25, 1994",Trenčín,Slovakia
+e26fcca3,2021-12-30 16:40:35,Santiago Ascacíbar,MF (CM-DM),78% Right,168,70,"February 25, 1997",La Plata,Argentina
+e2716bd0,2021-12-30 16:03:47,David Silva,FW-MF (AM-CM-WM),87% Left,170,67,"January 8, 1986",La Playa de Arguineguín,Spain
+e27da244,2021-12-30 16:41:51,John Brooks,"DF (CB, left)",80% Left,193,78,"January 28, 1993",Land Berlin,Germany
+e27de4fa,2021-12-30 16:39:16,Noah Katterbach,DF-MF,67% Left,180,73,"April 13, 2001",Simmerath,Germany
+e280527c,2021-12-30 16:34:50,Marcel Sabitzer,FW-MF (AM-CM),83% Right,176,70,"March 17, 1994",Graz,Austria
+e288d4b3,2021-12-30 16:45:29,Alessandro Florenzi,"DF-FW-MF (AM-FB, right)",94% Right,172,67,"March 11, 1991",Rome,Italy
+e33c06cf,2021-12-30 16:34:40,Niklas Süle,"DF (CB, right)",82% Right,195,93,"September 3, 1995",Frankfurt am Main,Germany
+e33f36d5,2021-12-30 16:52:49,Bram Nuytinck,DF (CB),74% Left,191,84,"May 4, 1990",Gemeente Heumen,Netherlands
+e342ad68,2021-12-30 16:23:21,Mohamed Salah,"FW-MF (AM-WM, right)",83% Left,175,71,"June 15, 1992",Basyūn,Egypt
+e358587b,2021-12-30 16:49:07,Pepe Reina,GK,89% Right,188,92,"August 31, 1982",Madrid,Spain
+e3756e72,2021-12-30 16:20:36,Raoul Bellanova,MF,90% Right,185,83,"June 17, 2000",Rho,Italy
+e3a5814e,2021-12-30 16:24:23,Ainsley Maitland-Niles,DF-FW-MF (WM),82% Right,180,67,"August 29, 1997",London,England
+e3cceee6,2021-12-30 16:46:35,Merih Demiral,DF (CB),88% Right,190,85,"March 5, 1998",NULL,NULL
+e3fabb0a,2021-12-30 16:06:54,Wu Lei,FW-MF (AM),83% Right,174,66,"November 19, 1991",Nanjing,China PR
+e42d61c7,2021-12-30 16:11:59,Achraf Hakimi,"DF-MF (FB, right)",87% Right,177,68,"November 4, 1998",Getafe,Spain
+e46012d4,2021-12-30 16:22:20,Kevin De Bruyne,FW-MF (AM-CM-WM),88% Right,181,70,"June 28, 1991",Ghent,Belgium
+e49ce451,2021-12-30 16:08:36,Okay Yokuşlu,MF (CM-DM),89% Right,188,79,"March 9, 1994",Konak,Turkey
+e514ab62,2021-12-30 16:29:03,Matt Targett,"DF-MF (FB, left)",88% Left,178,70,"September 18, 1995",Winchester,England
+e5478b87,2021-12-30 16:38:08,Taiwo Awoniyi,FW,76% Right,178,74,"August 12, 1997",Ilorin,Nigeria
+e54bd0a2,2021-12-30 16:10:36,Tomás Pina Isla,MF (CM-DM),52% Right,184,75,"October 14, 1987",Ciudad Real,Spain
+e5649a78,2021-12-30 16:39:47,Kevin Stöger,MF (AM),83% Left,175,70,"August 27, 1993",Steyr,Austria
+e58a03c6,2021-12-30 16:33:32,Dwight Gayle,FW,79% Right,177,73,"October 17, 1990",Walthamstow,England
+e58cbfd5,2021-12-30 16:55:28,Nicolò Rovella,MF,93% Right,179,68,"December 4, 2001",Segrate,Italy
+e599253a,2021-12-30 16:46:38,Mario Pašalić,MF (AM),72% Right,188,82,"February 9, 1995",Mainz,Germany
+e5a35ae9,2021-12-30 16:42:06,Luca Waldschmidt,FW-MF,80% Left,177,61,"May 19, 1996",Siegen,Germany
+e5a76dfe,2021-12-30 16:26:25,Dean Henderson,GK,91% Right,188,73,"March 12, 1997",Whitehaven,England
+e5bf73f3,2021-12-30 16:50:16,Musa Barrow,FW-MF,87% Right,184,75,"November 14, 1998",Banjul,Gambia
+e5d01ecf,2021-12-30 16:31:37,Kiko Femenía,"DF-FW-MF (FB-WM, right)",87% Right,174,61,"February 2, 1991",Sanet y Negrals,Spain
+e5f63987,2021-12-30 16:42:15,Daniel Ginczek,FW,91% Right,191,80,"April 13, 1991",Arnsberg,Germany
+e61b8aee,2021-12-30 16:24:18,Granit Xhaka,"MF (CM-DM, left)",85% Left,185,82,"September 27, 1992",Basel,Switzerland
+e63e122d,2021-12-30 16:50:34,Kingsley Michael,MF,Right,176,72,"August 26, 1999",Owerri,Nigeria
+e6bc67d7,2021-12-30 16:04:50,Gonçalo Guedes,"FW-MF (WM, left)",89% Right,178,68,"November 29, 1996",Benavente Municipality,Portugal
+e6c15f6e,2021-12-30 16:44:24,Gian-Luca Itter,DF,89% Left,183,72,"January 5, 1999",Giessen,Germany
+e6c43eec,2021-12-30 16:41:55,Josuha Guilavogui,MF (DM),88% Right,188,83,"September 19, 1990",Ollioules,France
+e74f0e59,2021-12-30 16:50:20,Lorenzo De Silvestri,"DF-MF (DM-FB, right)",89% Right,186,84,"May 23, 1988",Rome,Italy
+e778654a,2021-12-30 16:06:49,Yangel Herrera,MF (DM),77% Right,182,62,"January 7, 1998",La Guaira,Venezuela
+e79269bd,2021-12-30 16:42:28,Luca Netz,DF,88% Left,180,72,"May 15, 2003",Berlin,Germany
+e7ab4179,2021-12-30 16:09:33,Erick Cabaco,"DF (CB, right)",92% Right,185,75,"April 19, 1995",Montevideo,Uruguay
+e7ca0439,2021-12-30 16:28:40,James Tomkins,"DF-MF (CB-DM, right)",85% Right,190,81,"March 29, 1989",Basildon,England
+e7d22eae,2021-12-30 16:42:55,Jan Morávek,"FW-MF (AM, right)",85% Right,180,75,"November 1, 1989",Prague,Czech Republic
+e7d59f4f,2021-12-30 16:13:33,Amine Harit,FW-MF (AM),91% Right,179,66,"June 18, 1997",Pontoise,France
+e7fcf289,2021-12-30 16:36:16,Florian Wirtz,MF,90% Right,175,68,"May 3, 2003",Lövenich,Germany
+e82adcab,2021-12-30 16:36:28,Exequiel Palacios,DF-MF,90% Right,177,70,"October 5, 1998",Famaillá,Argentina
+e85fb9b8,2021-12-30 16:47:28,Giorgio Chiellini,"DF (CB-FB, left)",79% Left,187,86,"August 14, 1984",Pisa,Italy
+e8832875,2021-12-30 16:31:55,João Pedro,FW,Right,182,70,"September 26, 2001",Ribeirão Preto,Brazil
+e897d8ba,2021-12-30 16:07:49,Kike,FW,68% Right,186,79,"November 25, 1989",Motilla del Palancar,Spain
+e8c930bb,2021-12-30 16:55:28,Milan Badelj,MF (AM-CM-DM),83% Right,186,80,"February 25, 1989",City of Zagreb,Croatia
+e9254eec,2021-12-30 16:33:48,Grant Hanley,DF (CB),91% Right,188,85,"November 20, 1991",Dumfries,Scotland
+e94d79e3,2021-12-30 16:56:25,Martín Cáceres,DF (CB-FB),75% Right,180,78,"April 7, 1987",Montevideo,Uruguay
+e97fd090,2021-12-30 16:23:01,Ruben Loftus-Cheek,MF,89% Right,191,83,"January 23, 1996",Lewisham,England
+e9971f2d,2021-12-30 16:25:33,Japhet Tanganga,DF,88% Right,184,83,"March 31, 1999",England,United Kingdom
+e9ada8cf,2021-12-30 16:10:48,Javi López,DF,89% Left,183,73,"January 1, 2002",Santa Cruz de Tenerife,Spain
+ea003d07,2021-12-30 16:36:38,Joel Pohjanpalo,FW,Right,176,70,"September 13, 1994",Helsinki,Finland
+ea06dd97,2021-12-30 16:51:19,Daniele Baselli,MF (CM),87% Right,182,70,"March 12, 1992",Manerbio,Italy
+ea6bc03a,2021-12-30 16:31:23,Robin Koch,DF-MF (CB),87% Right,192,82,"July 17, 1996",Kreisfreie Stadt Kaiserslautern,Germany
+ea83bfa6,2021-12-30 16:01:47,Rui Silva,GK,76% Left,189,85,"February 7, 1994",Maia,Portugal
+ea9b2ef9,2021-12-30 16:07:09,Germán Sánchez,DF (CB),85% Right,187,84,"October 31, 1986",San Fernando,Spain
+eac044ad,2021-12-30 16:37:09,Moanes Dabbur,FW,90% Right,181,77,"May 14, 1992",Nazareth,Israel
+ead61f73,2021-12-30 16:02:09,Juan Miranda,"DF (FB, left)",95% Left,185,79,"January 19, 2000",Olivares,Spain
+eaeca114,2021-12-30 16:22:26,Nathan Aké,"DF-MF (CB, left)",84% Left,180,75,"February 18, 1995",The Hague,Netherlands
+eb2fe5b6,2021-12-30 16:46:50,Luis Muriel,FW,84% Right,178,79,"April 16, 1991",Santo Tomás,Colombia
+eb3dd471,2021-12-30 16:10:23,Luis Rioja,"MF (WM, left)",89% Left,173,65,"October 16, 1993",Las Cabezas de San Juan,Spain
+eb58eef0,2021-12-30 16:12:12,Georginio Wijnaldum,MF (AM-CM-DM),89% Right,175,69,"November 11, 1990",Rotterdam,Netherlands
+eb7822d7,2021-12-30 16:26:12,Nemanja Matić,MF (CM-DM),86% Left,194,85,"August 1, 1988",Šabac,Serbia
+ec1f737d,2021-12-30 16:52:39,Alessandro Berardi,GK,Right,185,81,"January 16, 1991",Rome,Italy
+ecada4fc,2021-12-30 16:12:06,Keylor Navas,GK,88% Right,183,78,"December 15, 1986",San Isidro de El General,Costa Rica
+ecc77652,2021-12-30 16:11:40,Pablo Martínez,MF,88% Right,NULL,NULL,"February 22, 1998",Madrid,Spain
+eccbe56a,2021-12-30 16:51:53,Filip Đuričić,FW-MF (AM),87% Right,181,72,"January 30, 1992",Obrenovac,Serbia
+ecd8c01e,2021-12-30 16:07:17,Rubén Rochina,FW-MF,86% Left,182,74,"March 23, 1991",Sagunto,Spain
+ed1e53f3,2021-12-30 16:22:18,Phil Foden,FW-MF,92% Left,169,70,"May 28, 2000",Stockport,England
+ed5c5fa3,2021-12-30 16:08:22,Fran Beltrán,MF (DM),89% Right,172,69,"February 3, 1999",Madrid,Spain
+ed6ea4d9,2021-12-30 16:07:16,Darwin Machís,"FW-MF (AM, left)",83% Right,174,70,"February 7, 1993",Tucupita,Venezuela
+ed9f7cfe,2021-12-30 16:03:19,Renan Lodi,"DF (FB, left)",91% Left,179,71,"April 8, 1998",Serrania,Brazil
+eda40760,2021-12-30 16:45:02,Aleksandar Kolarov,"DF (FB, left)",92% Left,187,83,"November 10, 1985",Belgrade,Serbia
+ee251371,2021-12-30 16:45:19,Alexis Saelemaekers,"FW-MF (AM, right)",80% Right,180,72,"June 27, 1999",Sint-Agatha-Berchem,Belgium
+ee38d9c5,2021-12-30 16:27:09,James Maddison,MF (AM),90% Right,175,72,"November 23, 1996",Coventry,England
+ee4f2f3b,2021-12-30 16:53:41,Fabio Quagliarella,FW,80% Right,180,79,"January 31, 1983",Castellammare di Stabia,Italy
+ee833569,2021-12-30 16:51:30,Etrit Berisha,GK,76% Left,194,92,"March 10, 1989",Pristina,Kosovo
+ee8508c0,2021-12-30 16:02:57,Jan Oblak,GK,93% Right,186,87,"January 7, 1993",Škofja Loka,Slovenia
+ee923664,2021-12-30 16:08:27,Kevin Vázquez,DF,89% Right,173,72,"March 23, 1993",Nigrán,Spain
+ee93c1a9,2021-12-30 16:47:17,Federico Bernardeschi,FW-MF (AM),95% Left,185,75,"February 16, 1994",Carrara,Italy
+ef322658,2021-12-30 16:01:53,Andrés Guardado,"DF-FW-MF (CM-DM-FB-WM, left)",90% Left,172,69,"September 28, 1986",Guadalajara,Estado de Jalisco
+ef619b0b,2021-12-30 16:47:40,Aaron Ramsey,MF (AM-DM),82% Right,182,72,"December 26, 1990",Caerphilly,Wales
+ef94dc2f,2021-12-30 16:52:41,Samuel Di Carmine,FW,87% Right,185,78,"September 20, 1988",Florence,Italy
+efdeaff3,2021-12-30 16:48:57,Michele Cerofolini,GK,NULL,NULL,NULL,"January 4, 1999",Arezzo,Italy
+f03f284b,2021-12-30 16:06:51,David López,"DF-MF (CB-DM, right)",90% Right,185,83,"October 9, 1989",Barcelona,Spain
+f058ed1f,2021-12-30 16:51:58,Gianluca Pegolo,GK,67% Left,183,76,"March 25, 1981",Bassano del Grappa,Italy
+f08490a6,2021-12-30 16:05:37,Arnaut Groeneveld,FW-MF,79% Right,187,74,"January 31, 1997",Lagos,Nigeria
+f090a37a,2021-12-30 16:04:45,Riqui Puig,MF,95% Right,169,62,"August 13, 1999",Matadepera,Spain
+f0da930c,2021-12-30 16:03:15,José María Giménez,DF (CB),84% Right,185,76,"January 20, 1995",Toledo,Uruguay
+f0f7f62f,2021-12-30 16:25:46,Pierluigi Gollini,GK,93% Right,188,80,"March 18, 1995",Bologna,Italy
+f1bed920,2021-12-30 16:02:52,Kévin Rodrigues,"DF-MF (AM, left)",85% Left,170,70,"March 5, 1994",Bayonne,France
+f1cfc209,2021-12-30 16:51:13,Tomás Rincón,MF (CM-DM),88% Right,177,76,"January 13, 1988",San Cristóbal,Venezuela
+f1f1f238,2021-12-30 16:52:21,Koray Günter,DF (CB),85% Right,184,79,"August 16, 1994",Höxter,Germany
+f2308b33,2021-12-30 16:09:37,Jonathan Silva,"DF (FB, left)",93% Left,175,72,"June 29, 1994",La Plata,Argentina
+f23f9d20,2021-12-30 16:33:43,Tim Krul,GK,77% Left,193,86,"April 3, 1988",The Hague,Netherlands
+f25b010f,2021-12-30 16:33:22,Federico Fernández,DF (CB),94% Right,189,81,"February 21, 1989",Tres Algarrobos,Argentina
+f25c8e3a,2021-12-30 16:23:43,Naby Keïta,MF (AM-CM),87% Right,172,71,"February 10, 1995",Conakry,Guinea
+f26834c7,2021-12-30 16:39:23,Karim Onisiwo,FW-MF,81% Right,188,76,"March 17, 1992",Vienna,Austria
+f2bf1b0f,2021-12-30 16:29:40,Che Adams,FW-MF,92% Right,175,76,"July 13, 1996",Leicester,England
+f2c6ac01,2021-12-30 16:08:42,Martin Valjent,"DF-MF (CB, right)",74% Right,186,78,"December 11, 1995",Dubnica nad Váhom,Slovakia
+f2dd9a21,2021-12-30 16:42:57,Carlos Gruezo,MF (CM-DM),93% Right,171,67,"April 19, 1995",Santo Domingo de los Colorados,Ecuador
+f35430a4,2021-12-30 16:48:51,Matija Nastasić,"DF (CB, left)",82% Left,187,80,"March 28, 1993",Valjevo,Serbia
+f3b1d9a2,2021-12-30 16:08:52,Amath,FW-MF,77% Right,173,70,"July 16, 1996",Dakar,Senegal
+f4290206,2021-12-30 16:22:45,Marcos Alonso,"DF-MF (DM-FB-WM, left)",90% Left,188,85,"December 28, 1990",Madrid,Spain
+f45f9427,2021-12-30 16:56:21,Dalbert Henrique,"DF-MF (FB-WM, left)",89% Left,181,70,"September 8, 1993",Barra Mansa,Brazil
+f4e433d4,2021-12-30 16:27:59,Tariq Lamptey,DF-MF,74% Right,175,69,"September 30, 2000",England,United Kingdom
+f4ec4fd0,2021-12-30 16:41:00,Kevin-Prince Boateng,FW-MF (AM-CB-CM),85% Right,185,86,"March 6, 1987",NULL,NULL
+f503ea63,2021-12-30 16:53:41,Albin Ekdal,MF (AM-CM-DM),86% Right,186,82,"July 28, 1989",Stockholm,Sweden
+f554e29b,2021-12-30 16:56:14,Alessio Cragno,GK,90% Right,184,78,"June 28, 1994",Fiesole,Italy
+f573a8bf,2021-12-30 16:53:03,Isaac Success,FW-MF,86% Right,186,86,"January 7, 1996",Ben,Nigeria
+f586779e,2021-12-30 16:23:13,Tammy Abraham,FW,90% Right,190,82,"October 2, 1997",Camberwell,England
+f5a00fa4,2021-12-30 16:26:39,João Moutinho,MF (CM-DM),93% Right,171,61,"September 8, 1986",Portimão Municipality,Portugal
+f5deef4c,2021-12-30 16:26:03,Victor Lindelöf,DF (CB),84% Right,187,82,"July 17, 1994",Västerås,Sweden
+f61c7c4e,2021-12-30 16:56:58,Franck Ribéry,"FW-MF (AM-WM, left)",87% Right,170,72,"April 7, 1983",Boulogne-sur-Mer,France
+f63d8a4b,2021-12-30 16:34:04,Todd Cantwell,FW-MF (AM),91% Right,177,66,"February 27, 1998",Dereham,England
+f6798fc3,2021-12-30 16:01:02,Yassine Bounou,GK,79% Left,190,80,"April 5, 1991",Montreal,Québec
+f6a06749,2021-12-30 16:47:52,Carlo Pinsoglio,GK,Left,192,72,"March 16, 1990",Moncalieri,Italy
+f6ac68c1,2021-12-30 16:03:01,Stefan Savić,"DF-MF (CB, right)",92% Right,188,82,"January 8, 1991",Mojkovac,Montenegro
+f6bdc830,2021-12-30 16:35:59,Keven Schlotterbeck,DF (CB),72% Left,189,84,"April 28, 1997",Weinstadt,Germany
+f7036e1c,2021-12-30 16:44:45,Lautaro Martínez,FW,84% Right,174,72,"August 22, 1997",Bahía Blanca,Argentina
+f7223718,2021-12-30 16:49:25,Patric,"DF (CB-FB, right)",87% Right,184,72,"April 17, 1993",Mula,Spain
+f72293fc,2021-12-30 16:32:20,Jóhann Berg Guðmundsson,"FW-MF (AM-WM, right)",87% Left,186,79,"October 27, 1990",Reykjavik,Iceland
+f76e6b4e,2021-12-30 16:23:58,Adrián,GK,91% Right,190,83,"January 3, 1987",Seville,Spain
+f794b426,2021-12-30 16:56:09,Federico Marchetti,GK,63% Left,188,83,"February 7, 1983",Bassano del Grappa,Italy
+f7aa75bd,2021-12-30 16:40:35,Marvin Plattenhardt,"DF (FB, left)",95% Left,181,75,"January 26, 1992",Filderstadt,Germany
+f7c12fbf,2021-12-30 16:04:52,Hugo Guillamón,DF,80% Right,182,82,"January 31, 2000",San Sebastián,Spain
+f7dc2ae5,2021-12-30 16:03:38,Aritz Elustondo,"DF (CB-FB, right)",89% Right,178,72,"March 28, 1994",San Sebastian,Spain
+f7e2af2c,2021-12-30 16:56:12,Andrea Carboni,DF,87% Left,185,80,"February 4, 2001",Sorgono,Italy
+f833a830,2021-12-30 16:23:54,Takumi Minamino,FW-MF,75% Right,174,67,"January 16, 1995",Izumisano-shi,Japan
+f86cabbd,2021-12-30 16:41:00,Jordan Torunarigha,"DF (CB, left)",77% Left,189,77,"August 7, 1997",Kreisfreie Stadt Chemnitz,Germany
+f874dd44,2021-12-30 16:01:49,Héctor Bellerín,"DF-MF (FB, right)",90% Right,177,74,"March 19, 1995",Barcelona,Spain
+f8d41a8c,2021-12-30 16:53:21,Martin Palumbo,MF,Left,183,74,"March 5, 2002",Bergen,Norway
+f8eca1b6,2021-12-30 16:09:20,Enes Ünal,FW,87% Right,185,75,"May 10, 1997",Osmangazi,Turkey
+f8fcd2a5,2021-12-30 16:27:24,Jonny Evans,DF (CB),66% Right,188,77,"January 3, 1988",Belfast,Northern Ireland
+f91e81c9,2021-12-30 16:53:01,Jens Stryger Larsen,"DF-MF (FB-WM, right)",88% Right,180,74,"February 21, 1991",Sakskøbing,Denmark
+f93e6e94,2021-12-30 16:36:04,Nils Petersen,FW,73% Right,189,80,"December 6, 1988",Wernigerode,Germany
+f972644c,2021-12-30 16:40:37,Marco Richter,FW-MF (AM),73% Right,176,74,"November 24, 1997",Friedberg,Germany
+f9acca3a,2021-12-30 16:36:47,Wendell,"DF (FB, left)",89% Left,176,64,"July 20, 1993",Fortaleza,Brazil
+f9acf8bf,2021-12-30 16:09:02,Joan Sastre Vanrell,"DF (FB, right)",87% Right,174,75,"April 30, 1997",Porreres,Spain
+f9e7c4ac,2021-12-30 16:43:07,Alfreð Finnbogason,FW,80% Right,184,78,"February 1, 1989",Reykjavik,Iceland
+fa031b34,2021-12-30 16:30:38,Richarlison,FW-MF (AM),76% Right,179,71,"May 10, 1997",Nova Venécia,Brazil
+fa274d97,2021-12-30 16:35:19,Nico Schulz,DF-MF,81% Left,180,78,"April 1, 1993",Land Berlin,Germany
+fa661778,2021-12-30 16:35:23,Marius Wolf,"DF-FW-MF (AM, right)",94% Right,187,81,"May 27, 1995",Coburg,Germany
+fb5d47b3,2021-12-30 16:05:49,Mario Gaspar,"DF (FB, right)",91% Right,178,71,"November 24, 1990",Novelda,Spain
+fb77bfef,2021-12-30 16:50:25,Kevin Bonifazi,DF (CB),65% Right,187,80,"May 19, 1996",Toffia,Italy
+fbbc8e15,2021-12-30 16:43:07,Noah Joel Sarenren Bazee,MF,Right,183,70,"August 21, 1996",Celle,Germany
+fbd6378b,2021-12-30 16:05:40,Aïssa Mandi,"DF (CB-FB, right)",88% Right,186,78,"October 22, 1991",Châlons-en-Champagne,France
+fc027d02,2021-12-30 16:27:22,Luke Thomas,DF-MF,89% Left,181,74,"June 10, 2001",Syston,England
+fc15fb84,2021-12-30 16:32:08,Dwight McNeil,"MF (WM, left)",96% Left,177,72,"November 22, 1999",Rochdale,England
+fc4f85b1,2021-12-30 16:56:28,Diego Godín,DF (CB),81% Right,186,78,"February 16, 1986",Rosario,Uruguay
+fcab00a0,2021-12-30 16:29:30,Conor Hourihane,MF (AM-CM),93% Left,181,62,"February 2, 1991",Cork,Republic of Ireland
+fce2302c,2021-12-30 16:24:11,Kieran Tierney,"DF-MF (FB, left)",88% Left,178,70,"June 5, 1997",Douglas,Isle of Man
+fd51b456,2021-12-30 16:00:40,Lucas Vázquez,"DF-FW-MF (WM, right)",88% Right,173,74,"July 1, 1991",Curtis,Spain
+fd53759d,2021-12-30 16:39:02,Jan Thielmann,FW,92% Right,178,66,"May 26, 2002",Fohren,Germany
+fd771f95,2021-12-30 16:04:30,Martin Braithwaite,FW-MF (WM),86% Right,180,77,"June 5, 1991",Esbjerg,Denmark
+fdd60087,2021-12-30 16:07:32,Santiago Arias,"DF (FB, right)",92% Right,175,72,"January 13, 1992",Medellín,Colombia
+fe012aca,2021-12-30 16:51:46,Jeremie Boga,"FW-MF (AM, left)",90% Right,172,74,"January 3, 1997",Marseille,France
+fe471a89,2021-12-30 16:56:06,Lorenzo Andrenacci,GK,NULL,188,81,"January 2, 1995",NULL,NULL
+fe641c1a,2021-12-30 16:01:14,Thomas Delaney,"MF (CM-DM, left)",83% Left,182,73,"September 3, 1991",Frederiksberg,Denmark
+fed17f5a,2021-12-30 16:04:58,Carlos Soler,"MF (CM-WM, right)",88% Right,183,72,"January 2, 1997",Valencia,Spain
+fed7cb61,2021-12-30 16:22:54,Kai Havertz,FW-MF (AM),76% Left,186,77,"June 11, 1999",Aachen,Germany
+ff182fdc,2021-12-30 16:40:48,Ishak Belfodil,FW-MF,90% Right,192,88,"January 12, 1992",Mostaganem,Algeria
+ff527768,2021-12-30 16:25:08,Mark Noble,MF (AM-CM-DM),93% Right,180,76,"May 8, 1987",London,England
+ff800ed8,2021-12-30 16:13:25,Pol Lirola,"DF-MF (FB, right)",96% Right,183,79,"August 13, 1997",Mollet del Vallès,Spain
+ff98492b,2021-12-30 16:37:14,Robert Skov,"DF-FW-MF (WM, right)",89% Left,183,79,"May 20, 1996",Marbella,Spain
+ffa90327,2021-12-30 16:29:14,Anwar El Ghazi,FW-MF (AM-WM),82% Right,188,86,"May 3, 1995",Barendrecht,Netherlands
+ffacd3d5,2021-12-30 16:07:45,Manuel Sánchez,DF,82% Left,179,71,"August 24, 2000",Madrid,Spain
+ffbbc83b,2021-12-30 16:36:59,Florian Grillitsch,DF-MF (CM-DM),89% Right,186,73,"August 7, 1995",Neunkirchen,Austria
