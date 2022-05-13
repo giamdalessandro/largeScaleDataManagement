@@ -62,7 +62,6 @@ object Model {
 
         val setupFuture = db.run(setup)
         try {
-            // val resultFuture: Future[_] = { ... }
             Await.result(setupFuture, Duration.Inf)
         } finally db.close
     }

@@ -4,8 +4,10 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.DataFrame
 
 import slick.jdbc.PostgresProfile.api._
+import it.sapienza.lsdm.model.Player
+import it.sapienza.lsdm.model.PlayerEntity
 
-object Main {
+object App {
     private final val INPUT_PATH = "src/main/scala/it/sapienza/lsdm/input/"
     private final val SQL_PATH = "src/main/scala/it/sapienza/lsdm/sparksql/"
 
@@ -26,9 +28,10 @@ object Main {
         fbrefInfoDf.createTempView("FbrefInfo")
 
         val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"assemble.sql").mkString
-        sparkSession.sql(sqlString).show()
+        val playerDf = sparkSession.sql(sqlString)
 
-        Model.main()
+        // model.Main.init()
+        model.Main.insert(TableQuery[PlayerEntity], playerDf)
     }
 
     def read_csv_to_df(sparkSession: SparkSession, filename: String): DataFrame = {
