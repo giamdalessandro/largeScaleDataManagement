@@ -3,6 +3,8 @@ package it.sapienza.lsdm
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.DataFrame
 
+import slick.jdbc.PostgresProfile.api._
+
 object Main {
     private final val INPUT_PATH = "src/main/scala/it/sapienza/lsdm/input/"
     private final val SQL_PATH = "src/main/scala/it/sapienza/lsdm/sparksql/"
@@ -25,6 +27,8 @@ object Main {
 
         val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"assemble.sql").mkString
         sparkSession.sql(sqlString).show()
+
+        Model.main()
     }
 
     def read_csv_to_df(sparkSession: SparkSession, filename: String): DataFrame = {
