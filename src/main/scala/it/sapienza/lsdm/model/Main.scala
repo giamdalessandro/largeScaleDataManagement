@@ -18,7 +18,7 @@ object Main {
 
         val setup = DBIO.seq(
             // Create the tables, including primary and foreign keys
-            (playerTable.schema).create,
+            (playerTable.schema).createIfNotExists,
         )
 
         val setupFuture = db.run(setup)
@@ -43,4 +43,24 @@ object Main {
             Await.result(statementFuture, Duration.Inf)
         } finally db.close
     }
+
+    def init_and_populate(dataframe: DataFrame) : Unit = {
+        val playerTable = TableQuery[PlayerEntity]
+
+        val playerEncoder = Encoders.product[Player]
+        val playerDataset = dataframe.as(playerEncoder)
+        val playerList = playerDataset.collect.toList
+
+        val setup = DBIO.seq(
+            // Create the tables, including primary and foreign keys
+            (playerTable.schema).createIfNotExists,
+            playerTable ++= playerList
+        )
+
+        val setupFuture = db.run(setup)
+        try {
+            Await.result(setupFuture, Duration.Inf)
+        } finally db.close
+    }
+
 }

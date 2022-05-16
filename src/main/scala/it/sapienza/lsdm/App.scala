@@ -30,8 +30,11 @@ object App {
         val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"assemble.sql").mkString
         val playerDf = sparkSession.sql(sqlString)
 
-        // model.Main.init()
-        model.Main.insert(TableQuery[PlayerEntity], playerDf)
+        // create tables (schema) into DB
+        //model.Main.init()
+        // populate tables with data
+        //model.Main.insert(TableQuery[PlayerEntity], playerDf)
+        model.Main.init_and_populate(playerDf)
     }
 
     def read_csv_to_df(sparkSession: SparkSession, filename: String): DataFrame = {
