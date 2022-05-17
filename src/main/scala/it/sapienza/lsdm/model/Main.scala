@@ -54,6 +54,7 @@ object Main {
         val setup = DBIO.seq(
             // Create the tables, including primary and foreign keys
             (playerTable.schema).createIfNotExists,
+            // populates table
             playerTable ++= playerList
         )
 
