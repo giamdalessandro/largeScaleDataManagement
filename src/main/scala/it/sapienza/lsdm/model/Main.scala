@@ -1,14 +1,15 @@
 package it.sapienza.lsdm.model
 
 import slick.jdbc.PostgresProfile.api._
+import slick.lifted.AbstractTable
 
 import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.Encoders
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Await
 import scala.concurrent.duration.Duration
-import slick.lifted.AbstractTable
-import org.apache.spark.sql.Encoders
+
 
 object Main {
     val db = Database.forConfig("relationaldb")
@@ -44,18 +45,30 @@ object Main {
         } finally db.close
     }
 
+    /**
+    * Creates a TableQuery from a Spark.Dataframe and writes it, only if not exists, on the DB.
+    */
     def init_and_populate(dataframe: DataFrame) : Unit = {
-        val playerTable = TableQuery[PlayerEntity]
+        var table = TableQuery[BelongsToEntity]
+        var tableEncoder = Encoders.product[BelongsTo]
 
-        val playerEncoder = Encoders.product[Player]
-        val playerDataset = dataframe.as(playerEncoder)
-        val playerList = playerDataset.collect.toList
+        /**
+        if (caseclass == "Player") {
+            var table = TableQuery[PlayerEntity]
+            var tableEncoder = Encoders.product[Player]
+        } else if (caseclass == "League") {
+            var table = TableQuery[LeagueEntity]
+            var tableEncoder = Encoders.product[League]
+        }*/
+            
+        var tableDataset = dataframe.as(tableEncoder)
+        val tableList = tableDataset.collect.toList
 
         val setup = DBIO.seq(
-            // Create the tables, including primary and foreign keys
-            (playerTable.schema).createIfNotExists,
+            // Create the table, including primary and foreign keys
+            (table.schema).createIfNotExists,
             // populates table
-            playerTable ++= playerList
+            table ++= tableList
         )
 
         val setupFuture = db.run(setup)

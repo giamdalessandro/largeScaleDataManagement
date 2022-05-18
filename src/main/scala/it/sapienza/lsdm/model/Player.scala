@@ -17,7 +17,7 @@ case class Player(
     countryOb: Option[String]
 )
 
-class PlayerEntity(tag: Tag) extends Table[(Player)](tag, "Player") {
+class PlayerEntity(tag: Tag) extends Table[Player](tag, "Player") {
     //def id        = column[Long]("id", O.PrimaryKey, O.AutoInc)
     def pid       = column[String]("pid", O.PrimaryKey, O.SqlType("VARCHAR(8)"))
     def name      = column[String]("name")
