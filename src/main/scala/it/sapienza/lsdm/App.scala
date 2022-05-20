@@ -35,7 +35,7 @@ object App {
         //model.Main.init_and_populate(playerDf, "Player")
 
         // add a table to DB
-        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"BelongsTo.sql").mkString
+        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"PlaysIn.sql").mkString
         val tableDf = sparkSession.sql(sqlString)
         model.Main.init_and_populate(tableDf)
     }

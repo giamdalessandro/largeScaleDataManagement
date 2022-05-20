@@ -49,8 +49,8 @@ object Main {
     * Creates a TableQuery from a Spark.Dataframe and writes it, only if not exists, on the DB.
     */
     def init_and_populate(dataframe: DataFrame) : Unit = {
-        var table = TableQuery[BelongsToEntity]
-        var tableEncoder = Encoders.product[BelongsTo]
+        var table = TableQuery[PlaysInEntity]
+        var tableEncoder = Encoders.product[PlaysIn]
 
         /**
         if (caseclass == "Player") {
