@@ -19,7 +19,7 @@ object Main {
 
         val setup = DBIO.seq(
             // Create the tables, including primary and foreign keys
-            (playerTable.schema).createIfNotExists,
+            (playerTable.schema).create
         )
 
         val setupFuture = db.run(setup)
@@ -51,22 +51,13 @@ object Main {
     def init_and_populate(dataframe: DataFrame) : Unit = {
         var table = TableQuery[PlaysInEntity]
         var tableEncoder = Encoders.product[PlaysIn]
-
-        /**
-        if (caseclass == "Player") {
-            var table = TableQuery[PlayerEntity]
-            var tableEncoder = Encoders.product[Player]
-        } else if (caseclass == "League") {
-            var table = TableQuery[LeagueEntity]
-            var tableEncoder = Encoders.product[League]
-        }*/
             
         var tableDataset = dataframe.as(tableEncoder)
         val tableList = tableDataset.collect.toList
 
         val setup = DBIO.seq(
             // Create the table, including primary and foreign keys
-            (table.schema).createIfNotExists,
+            (table.schema).create,
             // populates table
             table ++= tableList
         )
