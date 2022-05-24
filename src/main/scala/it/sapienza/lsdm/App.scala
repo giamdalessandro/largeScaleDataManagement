@@ -22,7 +22,6 @@ object App {
     def main(args: Array[String]): Unit = {
         val fm20Df      = model.Main.read_csv_to_df(sparkSession, "fm20-extraction.csv").dropDuplicates("name")
         val fbrefInfoDf = model.Main.read_csv_to_df(sparkSession, "fbref-info-extraction.csv")
-        //val fbrefGcaDf  = model.Main.read_csv_to_df(sparkSession, "fbref-gca-extraction.csv")
 
         fm20Df.createOrReplaceTempView("Fm20")
         fbrefInfoDf.createTempView("FbrefInfo")
@@ -38,7 +37,7 @@ object App {
         val tableDf = sparkSession.sql(sqlString)
         model.Main.init_and_populate(tableDf)*/
 
-        model.Main.load_and_insert(sparkSession, "fbref-gca-extraction.csv", "FbrefGca", "ActionStats.sql")
+        model.Main.load_and_insert(sparkSession, "fbref-defense-extraction.csv", "FbrefDef", "DefenseStats.sql")
 
     }
 }

@@ -63,8 +63,8 @@ object Main {
     * Creates a TableQuery from a Spark.Dataframe and writes it, only if not exists, on the DB.
     */
     def init_and_populate(dataframe: DataFrame) : Unit = {
-        var table = TableQuery[ActionStatsEntity]
-        var tableEncoder = Encoders.product[ActionStats]
+        var table = TableQuery[DefenseStatsEntity]
+        var tableEncoder = Encoders.product[DefenseStats]
             
         var tableDataset = dataframe.as(tableEncoder)
         val tableList = tableDataset.collect.toList
