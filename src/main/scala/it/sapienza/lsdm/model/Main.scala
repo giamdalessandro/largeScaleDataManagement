@@ -83,11 +83,14 @@ object Main {
     }
 
     /**
-    * Creates a Table on the DB, .
+    * Reads the data from `filename` and create a table on DB with the query `sparksql`
+    * on the `view_name` inside the sparksession `spark_sess`.
     */
     def load_and_insert(spark_sess: SparkSession, filename: String, view_name: String, sparksql: String) : Unit = {
+        // read data as SparkDataFrame
         val fbrefDf = read_csv_to_df(spark_sess, filename)
 
+        // create view inside SparkSession
         fbrefDf.createTempView(view_name)
 
         // add a table to DB
