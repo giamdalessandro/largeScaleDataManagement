@@ -1,0 +1,14 @@
+select
+	fb.id as pid
+	cast(fb.minutes_90s as double) as minutes_90s
+	cast(fb.cards_yellow as double) as cards_yellow
+	cast(fb.cards_red as double) as cards_red
+	cast(fb.fouls as double) as fouls
+	cast(fb.fouled as double) as fouled
+	cast(fb.offsides as double) as offsides
+	cast(fb.crosses as double) as crosses
+	cast(fb.aerials_won as double) as aerials_won
+	cast(fb.aerials_won_pct as double) as aerials_won_pct
+from Fbref fb
+where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))
+order by pid
