@@ -5,7 +5,6 @@ import slick.jdbc.PostgresProfile.api._
 
 case class PossessionStats(
 	pid : Option[String],
-	minutes_90s : Option[Double],
 	touches : Option[Double],
 	touches_def_3rd : Option[Double],
 	touches_mid_3rd : Option[Double],
@@ -22,7 +21,6 @@ case class PossessionStats(
 
 class PossessionStatsEntity(tag: Tag) extends Table[PossessionStats](tag, "PossessionStats") {
 	def pid = column[String]("pid")
-	def minutes_90s = column[Option[Double]]("minutes_90s")
 	def touches = column[Option[Double]]("touches")
 	def touches_def_3rd = column[Option[Double]]("touches_def_3rd")
 	def touches_mid_3rd = column[Option[Double]]("touches_mid_3rd")
@@ -37,5 +35,5 @@ class PossessionStatsEntity(tag: Tag) extends Table[PossessionStats](tag, "Posse
 
 	val pidFK = TableQuery[PlayerEntity]
 	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
-	def * = (pid.?, minutes_90s, touches, touches_def_3rd, touches_mid_3rd, touches_att_3rd, touches_att_pen_area, dribbles_completed, dribbles, dribbles_completed_pct, miscontrols, dispossessed, pass_targets) <> (PossessionStats.tupled, PossessionStats.unapply)
+	def * = (pid.?, touches, touches_def_3rd, touches_mid_3rd, touches_att_3rd, touches_att_pen_area, dribbles_completed, dribbles, dribbles_completed_pct, miscontrols, dispossessed, pass_targets) <> (PossessionStats.tupled, PossessionStats.unapply)
 }

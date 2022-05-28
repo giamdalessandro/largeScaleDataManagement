@@ -5,7 +5,6 @@ import slick.jdbc.PostgresProfile.api._
 
 case class PassingStats(
 	pid : Option[String],
-	minutes_90s : Option[Double],
 	passes_completed : Option[Double],
 	passes : Option[Double],
 	passes_pct : Option[Double],
@@ -27,7 +26,6 @@ case class PassingStats(
 
 class PassingStatsEntity(tag: Tag) extends Table[PassingStats](tag, "PassingStats") {
 	def pid = column[String]("pid")
-	def minutes_90s = column[Option[Double]]("minutes_90s")
 	def passes_completed = column[Option[Double]]("passes_completed")
 	def passes = column[Option[Double]]("passes")
 	def passes_pct = column[Option[Double]]("passes_pct")
@@ -47,5 +45,5 @@ class PassingStatsEntity(tag: Tag) extends Table[PassingStats](tag, "PassingStat
 
 	val pidFK = TableQuery[PlayerEntity]
 	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
-	def * = (pid.?, minutes_90s, passes_completed, passes, passes_pct, passes_completed_short, passes_short, passes_pct_short, passes_completed_medium, passes_medium, passes_pct_medium, passes_completed_long, passes_long, passes_pct_long, assists, passes_into_final_third, passes_into_penalty_area, crosses_into_penalty_area) <> (PassingStats.tupled, PassingStats.unapply)
+	def * = (pid.?, passes_completed, passes, passes_pct, passes_completed_short, passes_short, passes_pct_short, passes_completed_medium, passes_medium, passes_pct_medium, passes_completed_long, passes_long, passes_pct_long, assists, passes_into_final_third, passes_into_penalty_area, crosses_into_penalty_area) <> (PassingStats.tupled, PassingStats.unapply)
 }

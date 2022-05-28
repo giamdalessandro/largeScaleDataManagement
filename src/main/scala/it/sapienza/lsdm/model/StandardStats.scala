@@ -8,7 +8,6 @@ case class StandardStats(
 	games : Option[Double],
 	games_starts : Option[Double],
 	mnts : Option[Double],
-	minutes_90s : Option[Double],
 	goals : Option[Double],
 	assists : Option[Double],
 	goals_pens : Option[Double],
@@ -28,7 +27,6 @@ class StandardStatsEntity(tag: Tag) extends Table[StandardStats](tag, "StandardS
 	def games = column[Option[Double]]("games")
 	def games_starts = column[Option[Double]]("games_starts")
 	def mnts = column[Option[Double]]("mnts")
-	def minutes_90s = column[Option[Double]]("minutes_90s")
 	def goals = column[Option[Double]]("goals")
 	def assists = column[Option[Double]]("assists")
 	def goals_pens = column[Option[Double]]("goals_pens")
@@ -43,5 +41,5 @@ class StandardStatsEntity(tag: Tag) extends Table[StandardStats](tag, "StandardS
 
 	val pidFK = TableQuery[PlayerEntity]
 	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
-	def * = (pid.?, games, games_starts, mnts, minutes_90s, goals, assists, goals_pens, pens_made, pens_att, cards_yellow, cards_red, goals_per90, assists_per90, goals_assists_per90, goals_pens_per90) <> (StandardStats.tupled, StandardStats.unapply)
+	def * = (pid.?, games, games_starts, mnts, goals, assists, goals_pens, pens_made, pens_att, cards_yellow, cards_red, goals_per90, assists_per90, goals_assists_per90, goals_pens_per90) <> (StandardStats.tupled, StandardStats.unapply)
 }

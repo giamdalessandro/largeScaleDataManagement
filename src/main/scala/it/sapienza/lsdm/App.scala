@@ -31,7 +31,14 @@ object App {
         val tableDf = sparkSession.sql(sqlString)
         model.Main.init_and_populate(tableDf)*/
 
-        model.Main.load_and_insert(sparkSession, "fbref-defense-extraction.csv", "FbrefDef", "DefenseStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-gca-extraction.csv", "FbrefGca", "ActionStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-defense-extraction.csv", "FbrefDef", "DefenseStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-keeper-extraction.csv", "FbrefKeep", "KeeperStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-passing-extraction.csv", "FbrefPass", "PassingStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-playing_time-extraction.csv", "FbrefPTime", "PlayingTimeStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-possession-extraction.csv", "FbrefPoss", "PossessionStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-standard-extraction.csv", "FbrefStd", "StandardStats.sql")
+        model.Main.load_and_insert(sparkSession, "fbref-misc-extraction.csv", "FbrefMisc", "MiscStats.sql")
 
         // add player table to DB
         /*val playerSqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString

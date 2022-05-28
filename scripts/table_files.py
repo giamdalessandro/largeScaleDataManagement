@@ -6,7 +6,7 @@ MODEL_PATH = 'src/main/scala/it/sapienza/lsdm/model/'
 SQL_PATH   = 'src/main/scala/it/sapienza/lsdm/sparksql/'
 
 
-def createModelAndSqlFiles(src_file: str, table: str):
+def createModelAndSqlFiles(src_file: str, table: str, model: bool=True, sql: bool=True):
 	"""
 	Create template scala and sql files for tables in `src_file`. 
 	The output is not definitive, must be fixed:
@@ -21,43 +21,44 @@ def createModelAndSqlFiles(src_file: str, table: str):
 	cols = list(df.columns)
 	cols[0] = 'pid'
 
-	# model file template
-	model_file = MODEL_PATH+table_file
-	with open(model_file, "w") as mod_f:
-		mod_f.write('package it.sapienza.lsdm.model\n\nimport slick.jdbc.PostgresProfile.api._\n\n\n')
-		mod_f.write(f'case class {table}(\n')
+	if model:
+		# model file template
+		model_file = MODEL_PATH+table_file
+		with open(model_file, "w") as mod_f:
+			mod_f.write('package it.sapienza.lsdm.model\n\nimport slick.jdbc.PostgresProfile.api._\n\n\n')
+			mod_f.write(f'case class {table}(\n')
 
-		mod_f.write(f'\tpid : Option[String],\n')
-		for attr in cols[7:]:
-			mod_f.write(f'\t{attr} : Option[Double],\n')
-		mod_f.write(')\n\n\n')
+			mod_f.write(f'\tpid : Option[String],\n')
+			for attr in cols[7:]:
+				mod_f.write(f'\t{attr} : Option[Double],\n')
+			mod_f.write(')\n\n\n')
 
-		mod_f.write(f'class {table}Entity(tag: Tag) extends Table[{table}](tag, "{table}")')
-		mod_f.write(' {\n')
+			mod_f.write(f'class {table}Entity(tag: Tag) extends Table[{table}](tag, "{table}")')
+			mod_f.write(' {\n')
 
-		mod_f.write(f'\tdef pid = column[String]("pid")\n')
-		for attr in cols[7:]:
-			mod_f.write(f'\tdef {attr} = column[Option[Double]]("{attr}")\n')
+			mod_f.write(f'\tdef pid = column[String]("pid")\n')
+			for attr in cols[7:]:
+				mod_f.write(f'\tdef {attr} = column[Option[Double]]("{attr}")\n')
 
-		mod_f.write('\n\tval pidFK = TableQuery[PlayerEntity]\n')
-		mod_f.write('\tdef pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)\n')	
+			mod_f.write('\n\tval pidFK = TableQuery[PlayerEntity]\n')
+			mod_f.write('\tdef pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)\n')	
 
-		str_cols = str(cols[7:]).strip('[]').replace("'","")
-		mod_f.write(f'\tdef * = (pid.?, {str_cols}) <> ({table}.tupled, {table}.unapply)\n')
+			str_cols = str(cols[7:]).strip('[]').replace("'","")
+			mod_f.write(f'\tdef * = (pid.?, {str_cols}) <> ({table}.tupled, {table}.unapply)\n')
 
-		mod_f.write('}\n')
+			mod_f.write('}\n')
 
-	# sql file template
-	with open(sql_file, "w") as sql_f:
-		sql_f.write('select\n\tfb.id as pid\n')
+	if sql:
+		# sql file template
+		with open(sql_file, "w") as sql_f:
+			sql_f.write('select\n\tfb.id as pid,\n')
 
-		for attr in cols[7:]:
-			sql_f.write(f'\tcast(fb.{attr} as double) as {attr}\n')
+			for attr in cols[7:]:
+				sql_f.write(f'\tcast(fb.{attr} as double) as {attr},\n')
 
-		sql_f.write('from Fbref fb\n')
-		sql_f.write('where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))\n')
-		sql_f.write('order by pid\n')
-
+			sql_f.write('from Fbref fb\n')
+			sql_f.write('where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))\n')
+			sql_f.write('order by pid\n')
 
 	print(table,':',cols,'\n')
 	return
@@ -73,5 +74,5 @@ if __name__ == "__main__":
 				table_name = 'PlayingTimeStats'
 			else:	
 				table_name = table_name.capitalize() + 'Stats'
-			createModelAndSqlFiles(src_f,table_name)
+			createModelAndSqlFiles(src_f,table_name,model=False)
 
