@@ -35,7 +35,5 @@ class ShootingStatsEntity(tag: Tag) extends Table[ShootingStats](tag, "ShootingS
 	def pens_made = column[Option[Double]]("pens_made")
 	def pens_att = column[Option[Double]]("pens_att")
 
-	val pidFK = TableQuery[PlayerEntity]
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
 	def * = (pid.?, minutes_90s, goals, shots_total, shots_on_target, shots_on_target_pct, shots_total_per90, shots_on_target_per90, goals_per_shot, average_shot_distance, shots_free_kicks, pens_made, pens_att) <> (ShootingStats.tupled, ShootingStats.unapply)
 }

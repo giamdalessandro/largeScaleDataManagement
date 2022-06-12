@@ -33,7 +33,5 @@ class PossessionStatsEntity(tag: Tag) extends Table[PossessionStats](tag, "Posse
 	def dispossessed = column[Option[Double]]("dispossessed")
 	def pass_targets = column[Option[Double]]("pass_targets")
 
-	val pidFK = TableQuery[PlayerEntity]
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
 	def * = (pid.?, touches, touches_def_3rd, touches_mid_3rd, touches_att_3rd, touches_att_pen_area, dribbles_completed, dribbles, dribbles_completed_pct, miscontrols, dispossessed, pass_targets) <> (PossessionStats.tupled, PossessionStats.unapply)
 }

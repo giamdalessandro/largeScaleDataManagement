@@ -9,5 +9,4 @@ select
 	cast(fb.aerials_won as double) as aerials_won,
 	cast(fb.aerials_won_pct as double) as aerials_won_pct
 from FbrefMisc fb
-where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))
 order by pid

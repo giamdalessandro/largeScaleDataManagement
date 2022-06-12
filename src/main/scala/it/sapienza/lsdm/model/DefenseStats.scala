@@ -33,7 +33,5 @@ class DefenseStatsEntity(tag: Tag) extends Table[DefenseStats](tag, "DefenseStat
 	def clearence     = column[Option[Double]]("clearence");
 	def errors        = column[Option[Double]]("errors");
 	
-	val pidFK = TableQuery[PlayerEntity]	
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
     def * = (pid.?, tackles, tacklesWon, press, pressReg, pressRegPct, blocks, blockedSht, blockedShtSav, intercept, clearence, errors) <> (DefenseStats.tupled, DefenseStats.unapply)
 }

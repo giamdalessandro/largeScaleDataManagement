@@ -6,5 +6,4 @@ select
     cast(fbgca.gca as double) as gca,
     cast(fbgca.gca_per90 as double) as gca90
 from FbrefGca fbgca
-where fbgca.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name))) 
 order by pid

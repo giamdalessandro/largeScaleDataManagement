@@ -40,8 +40,8 @@ def createModelAndSqlFiles(src_file: str, table: str, model: bool=True, sql: boo
 			for attr in cols[7:]:
 				mod_f.write(f'\tdef {attr} = column[Option[Double]]("{attr}")\n')
 
-			mod_f.write('\n\tval pidFK = TableQuery[PlayerEntity]\n')
-			mod_f.write('\tdef pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)\n')	
+			#mod_f.write('\n\tval pidFK = TableQuery[PlayerEntity]\n')
+			#mod_f.write('\tdef pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)\n')	
 
 			str_cols = str(cols[7:]).strip('[]').replace("'","")
 			mod_f.write(f'\tdef * = (pid.?, {str_cols}) <> ({table}.tupled, {table}.unapply)\n')
@@ -57,7 +57,7 @@ def createModelAndSqlFiles(src_file: str, table: str, model: bool=True, sql: boo
 				sql_f.write(f'\tcast(fb.{attr} as double) as {attr},\n')
 
 			sql_f.write('from Fbref fb\n')
-			sql_f.write('where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))\n')
+			#sql_f.write('where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))\n')
 			sql_f.write('order by pid\n')
 
 	print(table,':',cols,'\n')

@@ -27,9 +27,9 @@ object App {
         fbrefInfoDf.createTempView("FbrefInfo")
         
         // add a table to DB
-        /*val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"PlaysIn.sql").mkString
+        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"BelongsTo.sql").mkString
         val tableDf = sparkSession.sql(sqlString)
-        model.Main.init_and_populate(tableDf)*/
+        model.Main.init_and_populate(tableDf)
 
         //model.Main.load_and_insert(sparkSession, "fbref-gca-extraction.csv", "FbrefGca", "ActionStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-defense-extraction.csv", "FbrefDef", "DefenseStats.sql")
@@ -38,13 +38,8 @@ object App {
         //model.Main.load_and_insert(sparkSession, "fbref-playing_time-extraction.csv", "FbrefPTime", "PlayingTimeStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-possession-extraction.csv", "FbrefPoss", "PossessionStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-standard-extraction.csv", "FbrefStd", "StandardStats.sql")
-        model.Main.load_and_insert(sparkSession, "fbref-misc-extraction.csv", "FbrefMisc", "MiscStats.sql")
-
-        // add player table to DB
-        /*val playerSqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
-        val playerDf = sparkSession.sql(playerSqlString)
-        model.Main.init()
-        model.Main.insert(TableQuery[PlayerEntity], playerDf)*/
+        //model.Main.load_and_insert(sparkSession, "fbref-shooting-extraction.csv", "FbrefSht", "ShootingStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-misc-extraction.csv", "FbrefMisc", "MiscStats.sql")
 
     }
 }

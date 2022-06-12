@@ -39,7 +39,5 @@ class PlayingTimeStatsEntity(tag: Tag) extends Table[PlayingTimeStats](tag, "Pla
 	def plus_minus = column[Option[Double]]("plus_minus")
 	def plus_minus_wowy = column[Option[Double]]("plus_minus_wowy")
 
-	val pidFK = TableQuery[PlayerEntity]
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
 	def * = (pid.?, games, mnts, minutes_per_game, minutes_pct, minutes_90s, games_starts, games_complete, games_subs, unused_subs, points_per_match, on_goals_for, on_goals_against, plus_minus, plus_minus_wowy) <> (PlayingTimeStats.tupled, PlayingTimeStats.unapply)
 }

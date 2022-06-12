@@ -39,7 +39,5 @@ class StandardStatsEntity(tag: Tag) extends Table[StandardStats](tag, "StandardS
 	def goals_assists_per90 = column[Option[Double]]("goals_assists_per90")
 	def goals_pens_per90 = column[Option[Double]]("goals_pens_per90")
 
-	val pidFK = TableQuery[PlayerEntity]
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
 	def * = (pid.?, games, games_starts, mnts, goals, assists, goals_pens, pens_made, pens_att, cards_yellow, cards_red, goals_per90, assists_per90, goals_assists_per90, goals_pens_per90) <> (StandardStats.tupled, StandardStats.unapply)
 }

@@ -12,5 +12,4 @@ select
 	cast(fb.dispossessed as double) as dispossessed,
 	cast(fb.pass_targets as double) as pass_targets
 from FbrefPoss fb
-where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))
 order by pid

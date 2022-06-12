@@ -12,5 +12,4 @@ select
     cast(fbdef.clearances as double) as clearence,
     cast(fbdef.errors as double) as errors
 from FbrefDef fbdef
-where fbdef.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name))) 
 order by pid

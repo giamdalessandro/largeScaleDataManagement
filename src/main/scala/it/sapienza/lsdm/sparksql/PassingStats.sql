@@ -17,5 +17,4 @@ select
 	cast(fb.passes_into_penalty_area as double) as passes_into_penalty_area,
 	cast(fb.crosses_into_penalty_area as double) as crosses_into_penalty_area
 from FbrefPass fb
-where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))
 order by pid

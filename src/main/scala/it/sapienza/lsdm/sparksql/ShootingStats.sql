@@ -13,5 +13,4 @@ select
 	cast(fb.pens_made as double) as pens_made,
 	cast(fb.pens_att as double) as pens_att
 from FbrefSht fb
-where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))
 order by pid

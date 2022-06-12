@@ -21,7 +21,5 @@ class ActionStatsEntity(tag: Tag) extends Table[ActionStats](tag, "ActionStats")
     def gca    = column[Option[Double]]("gca")
     def gca90  = column[Option[Double]]("gca90")
 	
-	val pidFK = TableQuery[PlayerEntity]	
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
     def * = (pid.?, min90s, sca, sca90, gca, gca90) <> (ActionStats.tupled, ActionStats.unapply)
 }

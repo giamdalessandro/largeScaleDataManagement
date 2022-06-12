@@ -27,7 +27,5 @@ class MiscStatsEntity(tag: Tag) extends Table[MiscStats](tag, "MiscStats") {
 	def aerials_won = column[Option[Double]]("aerials_won")
 	def aerials_won_pct = column[Option[Double]]("aerials_won_pct")
 
-	val pidFK = TableQuery[PlayerEntity]
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
 	def * = (pid.?, cards_yellow, cards_red, fouls, fouled, offsides, crosses, aerials_won, aerials_won_pct) <> (MiscStats.tupled, MiscStats.unapply)
 }

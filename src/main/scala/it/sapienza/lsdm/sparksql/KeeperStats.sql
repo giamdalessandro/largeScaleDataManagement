@@ -13,5 +13,4 @@ select
 	cast(fb.clean_sheets_pct as double) as clean_sheets_pct,
 	cast(fb.pens_save_pct as double) as pens_save_pct
 from FbrefKeep fb
-where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))
 order by pid

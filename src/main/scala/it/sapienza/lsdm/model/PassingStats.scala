@@ -43,7 +43,5 @@ class PassingStatsEntity(tag: Tag) extends Table[PassingStats](tag, "PassingStat
 	def passes_into_penalty_area = column[Option[Double]]("passes_into_penalty_area")
 	def crosses_into_penalty_area = column[Option[Double]]("crosses_into_penalty_area")
 
-	val pidFK = TableQuery[PlayerEntity]
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
 	def * = (pid.?, passes_completed, passes, passes_pct, passes_completed_short, passes_short, passes_pct_short, passes_completed_medium, passes_medium, passes_pct_medium, passes_completed_long, passes_long, passes_pct_long, assists, passes_into_final_third, passes_into_penalty_area, crosses_into_penalty_area) <> (PassingStats.tupled, PassingStats.unapply)
 }

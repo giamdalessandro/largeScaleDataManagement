@@ -15,5 +15,4 @@ select
 	cast(fb.plus_minus as double) as plus_minus,
 	cast(fb.plus_minus_wowy as double) as plus_minus_wowy
 from FbrefPTime fb
-where fb.id in (select id from (Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)))
 order by pid

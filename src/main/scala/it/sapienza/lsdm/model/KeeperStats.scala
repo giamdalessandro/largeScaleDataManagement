@@ -35,7 +35,5 @@ class KeeperStatsEntity(tag: Tag) extends Table[KeeperStats](tag, "KeeperStats")
 	def clean_sheets_pct = column[Option[Double]]("clean_sheets_pct")
 	def pens_save_pct = column[Option[Double]]("pens_save_pct")
 
-	val pidFK = TableQuery[PlayerEntity]
-	def pid_fk = foreignKey("pid_fk", pid, pidFK)(_.pid, onUpdate=ForeignKeyAction.Restrict, onDelete=ForeignKeyAction.Cascade)
 	def * = (pid.?, games_gk, games_starts_gk, minutes_gk, minutes_90s, goals_against_gk, goals_against_per90_gk, shots_on_target_against, saves, save_pct, clean_sheets, clean_sheets_pct, pens_save_pct) <> (KeeperStats.tupled, KeeperStats.unapply)
 }
