@@ -11,3 +11,5 @@ select distinct
     fbinfo.cityob as cityOb,
     fbinfo.countryob as countryOb
 from Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name) order by pid
+/* may use cartesian product instead of join*/
+/* from Fm20 fm, FbrefInfo fbinfo where (fm.Name = fbinfo.name) order by pid */
