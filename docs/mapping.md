@@ -1,60 +1,20 @@
 # GAV Mapping
 
 ## Global Schema
-- $League_{/2}$ (name,country)
-	-  we may separate $League_{/2}$ and $hasCountry_{/1}$
-		- **League**(name)
-		- **hasCountry**(league,country)
-- $Club_{/1}$ (name)
-- $BelongsTo_{/2}$ (club,league)
-- $Player_{/11?}$ (pid,...)
-	- we may separate player $(Player_{/2})$ and info $(hasInfo_{/10})$ 
-		- **Player**(id,name)
-		- **hasInfo**(pid,...)
-- $PlaysIn_{/2}$  (pid,...)
-
-### GSchema Extension
-- $hasActionStas_{/6}$ (pid,...)
-- $hasDefenseStats_{/12}$ (pid,...)
-- $hasKeeperStas_{/13}$ (pid,...)
-- $hasPassingStats_{/17}$ (pid,...)
-- $hasPlayingTimeStats_{/15}$ (pid,...)
-- $hasPossessionStats_{/12}$ (pid,...)
-- $hasShootingStats_{/12}$ (pid,...)
-- $hasStandardStats_{/16}$ (pid,...)
-- $hasMiscStats_{/18}$ (pid,...)
-
-
-
-## Axioms (on Global Schema)
-### Keys
-- league name is key for **League**(name)
-- club name is key for **Club**(name)
-- palyer id is key fot **Player**(id)
-
-Don't know if the following axioms are really needed:
-- $\forall$*l.* $\forall$*nt.* $\forall$*nt'.* hasCountry(*l,nt*) $\wedge$ hasCountry(*l,nt'*) $\rightarrow$ (*nt=nt'*) 
-	- a league belongs only to one country
-- $\forall$*c.* $\forall$*l.* $\forall$*l'.* belongsTo(*c,l*) $\wedge$ belongsTo(*c,l'*) $\rightarrow$ (*l=l'*)
-	- a club belongs only to one League 
-- $\forall$*pid.* $\forall$*c.* $\forall$*c'.* playsIn(*pid,c*) $\wedge$ playsIn(*pid,c'*) $\rightarrow$ (*c=c'*)
-	- a player plays only in one club (ha senso?)
-
-### Foreign Keys
-- $\forall l,nt.$ hasCountry($l,nt$) $\rightarrow$ League($l$)
-- $\forall c,l.$ belongsTo($c,l$) $\rightarrow$ Club($c$) $\wedge$ League($l$)
-- $\forall$ *pid,c*. playsIn($pid,c$) $\rightarrow$ Player($pid$) $\wedge$ Club($c$)
-
-- $\forall$ *pid,*$\overline{i}$.hasInfo($pid,\overline{i}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{df}$.hasDefenseStats($pid,\overline{df}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{k}$.hasKeepStats($pid,\overline{k}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{ps}$.hasPassingStats($pid,\overline{s}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{pt}$.hasPlayngTimeStats($pid,\overline{pt}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{pss}$.hasPossesionStats($pid,\overline{pss}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{sh}$.hasShootingStats($pid,\overline{sh}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{st}$.hasStandardStats($pid,\overline{st}$) $\rightarrow$ Player($pid$)
-- $\forall$ *pid,*$\overline{m}$.hasMiscStats(*pid,*$\overline{m}$) $\rightarrow$ Player($pid$)
-
+- $League_{/2}$
+- $Club_{/1}$
+- $BelongsTo_{/2}$
+- $Player_{/9?}$
+- $PlaysIn_{/2}$
+- $PresenceStats_{/15}$ 
+- $GoalKeeperStats_{/10}$
+- $DefenseStats_{/17}$
+- $PlaymakingStats_{/19}$	
+- $GoalStats_{/17}$
+- $Technical_{/14}$
+- $Mental_{/10}$
+- $Physical_{/8}$
+- $KeeperAbility_{/5}$
 
 
 ## GAV Mapping
@@ -81,7 +41,7 @@ where *\<AttrInGlobal>* are those attribute of the source that are mapped in the
 - $\forall$ *pid,* $\exists$*<...>,* .Shooting(*pid,<...>*) $\rightarrow$ hasShootingStats(*pid,<...>*)
 - $\forall$ *pid,* $\exists$*<...>,* .Standard(*pid,<...>*) $\rightarrow$ hasStandardStats(*pid,<...>*)
 - $\forall$ *pid,* $\exists$*<...>,* .Misc(*pid,<...>*) $\rightarrow$ hasMiscStats(*pid,<...>*)
-- $\forall$ *name,* $\exists$*<...>,* .FM2020(*name,<...>*) $\rightarrow$ hasFMStats(*name,<...>*)
+- $\forall$ *name,* $\exists$*<...>,* .FM2020(*name,<...>*) $\rightarrow$ *FMStats(*name,<...>*)
 
 #### to check
 How to define *join* between **FM2020** and **Info** in GAV-mapping? Necessary?
