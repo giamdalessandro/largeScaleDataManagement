@@ -1,20 +1,21 @@
 select
-	fb.id as pid,
-	cast(fb.passes_completed as double) as passes_completed,
-	cast(fb.passes as double) as passes,
-	cast(fb.passes_pct as double) as passes_pct,
-	cast(fb.passes_completed_short as double) as passes_completed_short,
-	cast(fb.passes_short as double) as passes_short,
-	cast(fb.passes_pct_short as double) as passes_pct_short,
-	cast(fb.passes_completed_medium as double) as passes_completed_medium,
-	cast(fb.passes_medium as double) as passes_medium,
-	cast(fb.passes_pct_medium as double) as passes_pct_medium,
-	cast(fb.passes_completed_long as double) as passes_completed_long,
-	cast(fb.passes_long as double) as passes_long,
-	cast(fb.passes_pct_long as double) as passes_pct_long,
-	cast(fb.assists as double) as assists,
-	cast(fb.passes_into_final_third as double) as passes_into_final_third,
-	cast(fb.passes_into_penalty_area as double) as passes_into_penalty_area,
-	cast(fb.crosses_into_penalty_area as double) as crosses_into_penalty_area
-from FbrefPass fb
-order by pid
+	/*fb.id as pid,*/
+	cast(pass.passes_completed as double) as passes_completed,
+	cast(pass.passes as double) as passes,
+	cast(pass.passes_pct as double) as passes_pct,
+	cast(pass.passes_completed_short as double) as passes_completed_short,
+	cast(pass.passes_short as double) as passes_short,
+	cast(pass.passes_pct_short as double) as passes_pct_short,
+	cast(pass.passes_completed_medium as double) as passes_completed_medium,
+	cast(pass.passes_medium as double) as passes_medium,
+	cast(pass.passes_pct_medium as double) as passes_pct_medium,
+	cast(pass.passes_completed_long as double) as passes_completed_long,
+	cast(pass.passes_long as double) as passes_long,
+	cast(pass.passes_pct_long as double) as passes_pct_long,
+	cast(pass.assists as double) as assists,
+	cast(pass.passes_into_final_third as double) as passes_into_final_third,
+	cast(pass.passes_into_penalty_area as double) as passes_into_penalty_area,
+	cast(pass.crosses_into_penalty_area as double) as crosses_into_penalty_area,
+	cast(misc.crosses as double) as crosses
+from FbrefPass pass join FbrefMisc misc on (pass.pid == misc.pid)
+/*order by pid*/

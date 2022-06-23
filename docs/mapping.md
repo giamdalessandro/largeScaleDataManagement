@@ -1,11 +1,7 @@
 # GAV Mapping
 
 ## Global Schema
-- $League_{/2}$
-- $Club_{/1}$
-- $BelongsTo_{/2}$
-- $Player_{/9?}$
-- $PlaysIn_{/2}$
+- $Player_{/14}$
 - $PresenceStats_{/15}$ 
 - $GoalKeeperStats_{/10}$
 - $DefenseStats_{/17}$
@@ -15,6 +11,12 @@
 - $Mental_{/10}$
 - $Physical_{/8}$
 - $KeeperAbility_{/5}$
+
+to check if needed: 
+- $League_{/2}$
+- $Club_{/1}$
+- $BelongsTo_{/2}$
+- $PlaysIn_{/2}$
 
 
 ## GAV Mapping
