@@ -10,7 +10,7 @@ case class TechincalAbility(
     pen : Option[Int],
     pas : Option[Int],
     mar : Option[Int],
-	lTh : Option[Int],
+	l_Th : Option[Int],
     lon : Option[Int],
     hea : Option[Int],
     fir : Option[Int],
@@ -28,7 +28,7 @@ class TechincalAbilityEntity(tag: Tag) extends Table[TechincalAbility](tag, "Tec
     def pen = column[Option[Int]]("pen");
     def pas = column[Option[Int]]("pas");
     def mar = column[Option[Int]]("mar");
-	def lTh = column[Option[Int]]("lTh");
+	def lTh = column[Option[Int]]("l_Th");
     def lon = column[Option[Int]]("lon");
     def hea = column[Option[Int]]("hea");
     def fir = column[Option[Int]]("fir");
@@ -37,5 +37,5 @@ class TechincalAbilityEntity(tag: Tag) extends Table[TechincalAbility](tag, "Tec
     def cro = column[Option[Int]]("cro");
     def cor = column[Option[Int]]("cor");
 
-	def * = (player.?, tec, tck, pen, pas, mar, lTh, lon, hea, fir, fin, dri, cro, cor) <> (TechincalAbility.tupled, TechincalAbility.unapply)
+	def * = (player.?, tec, tck, pen, pas, mar, lTh, lon, hea, fir, fin, dri, cro, cor) <> (TechincalAbility.tupled, TechincalAbility.unapply);
 }

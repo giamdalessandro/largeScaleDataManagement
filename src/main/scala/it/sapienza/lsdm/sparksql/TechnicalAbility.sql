@@ -1,5 +1,5 @@
 select
-    fm.name as player,
+    fm.Name as player,
     cast(fm.Tec as integer) as Tec,
     cast(fm.Tck as integer) as Tck,
     cast(fm.Pen as integer) as Pen,

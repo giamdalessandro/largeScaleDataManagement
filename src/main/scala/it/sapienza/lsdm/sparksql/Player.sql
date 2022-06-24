@@ -1,5 +1,4 @@
 select distinct
-    /*fbinfo.id as pid,*/
     fbinfo.name as name,
     fbinfo.position as position,
     fbinfo.foot as foot,
@@ -8,12 +7,12 @@ select distinct
     cast(fm.Age as integer) as age,
     fbinfo.dob as dob,
     fbinfo.cityob as cityOb,
-    fbinfo.countryob as countryOb
+    fbinfo.countryob as countryOb,
     fm.Preferred_Foot as prefFoot,
     fm.Best_Pos as bestPos,
     fm.Best_Role as bestRole,
-    cast(fm.Value as integer) as value,
-    cast(fm.Wage as integer) as wage,
-from Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)
+    cast(fm.Value as double) as value,
+    cast(fm.Wage as double) as wage
+from Fm20 fm, FbrefInfo fbinfo where (fm.Name = fbinfo.name) order by name
 /* may use cartesian product instead of join*/
-/* from Fm20 fm, FbrefInfo fbinfo where (fm.Name = fbinfo.name) order by pid */
+/*from Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)*/
