@@ -27,11 +27,7 @@ object App {
         fbrefInfoDf.createTempView("FbrefInfo")
         
         // add a table to DB
-        //val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
-        //val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"TechnicalAbility.sql").mkString
-        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"MentalAbility.sql").mkString
-        //val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"PhysicalAbility.sql").mkString
-        //val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"GoalkeeperAbility.sql").mkString
+        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
         val tableDf = sparkSession.sql(sqlString)
         model.Main.init_and_populate(tableDf)
 
