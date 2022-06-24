@@ -1,5 +1,5 @@
 select
-    fm.name as Player,
+    fm.name as player,
     cast(fm.Str as integer) as Str,
     cast(fm.Sta as integer) as Sta,
     cast(fm.Pac as integer) as Pac,

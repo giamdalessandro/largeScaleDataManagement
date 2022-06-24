@@ -1,5 +1,5 @@
 select
-    fm.name as Player,
+    fm.name as player,
     cast(fm.TRO as integer) as TRO,
     cast(fm.1v1 as integer) as 1v1,
     cast(fm.Han as integer) as Han,
