@@ -1,5 +1,5 @@
 select
-	/*fb.id as pid,*/
+	inf.name as player,
 	cast(fb.games as double) as games,
 	cast(fb.mnts as double) as mnts,
 	cast(fb.minutes_per_game as double) as minutes_per_game,
@@ -14,5 +14,4 @@ select
 	cast(fb.on_goals_against as double) as on_goals_against,
 	cast(fb.plus_minus as double) as plus_minus,
 	cast(fb.plus_minus_wowy as double) as plus_minus_wowy
-from FbrefPTime fb
-/*order by pid*/
+from FbrefPTime fb, FbrefInfo inf where (fb.id = inf.id) order by player
