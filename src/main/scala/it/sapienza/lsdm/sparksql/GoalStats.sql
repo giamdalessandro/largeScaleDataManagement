@@ -1,5 +1,5 @@
 select
-	/*fb.id as pid,*/
+	inf.name as player,
 	cast(sht.minutes_90s as double) as minutes_90s,
 	cast(sht.goals as double) as goals,
 	cast(sht.shots_total as double) as shots_total,
@@ -17,5 +17,5 @@ select
 	cast(std.goals_assists_per90 as double) as goals_assists_per90,
 	cast(std.goals_pens_per90 as double) as goals_pens_per90,
 	cast(misc.offsides as double) as offsides
-from FbrefSht sht, FbrefStd std, FbrefMisc misc
-/*order by pid*/
+from FbrefSht sht, FbrefStd std, FbrefMisc misc, FbrefInfo inf 
+where (sht.id = std.id) and (sht.id = misc.id) and (sht.id = inf.id) order by player

@@ -4,7 +4,7 @@ import slick.jdbc.PostgresProfile.api._
 
 
 case class PassingStats(
-	pid : Option[String],
+	player : Option[String],
 	passes_completed : Option[Double],
 	passes : Option[Double],
 	passes_pct : Option[Double],
@@ -21,11 +21,12 @@ case class PassingStats(
 	passes_into_final_third : Option[Double],
 	passes_into_penalty_area : Option[Double],
 	crosses_into_penalty_area : Option[Double],
+	crosses : Option[Double],
 )
 
 
 class PassingStatsEntity(tag: Tag) extends Table[PassingStats](tag, "PassingStats") {
-	def pid = column[String]("pid")
+	def player = column[Option[String]]("player")
 	def passes_completed = column[Option[Double]]("passes_completed")
 	def passes = column[Option[Double]]("passes")
 	def passes_pct = column[Option[Double]]("passes_pct")
@@ -42,6 +43,7 @@ class PassingStatsEntity(tag: Tag) extends Table[PassingStats](tag, "PassingStat
 	def passes_into_final_third = column[Option[Double]]("passes_into_final_third")
 	def passes_into_penalty_area = column[Option[Double]]("passes_into_penalty_area")
 	def crosses_into_penalty_area = column[Option[Double]]("crosses_into_penalty_area")
+	def crosses = column[Option[Double]]("crosses");
 
-	def * = (pid.?, passes_completed, passes, passes_pct, passes_completed_short, passes_short, passes_pct_short, passes_completed_medium, passes_medium, passes_pct_medium, passes_completed_long, passes_long, passes_pct_long, assists, passes_into_final_third, passes_into_penalty_area, crosses_into_penalty_area) <> (PassingStats.tupled, PassingStats.unapply)
+	def * = (player, passes_completed, passes, passes_pct, passes_completed_short, passes_short, passes_pct_short, passes_completed_medium, passes_medium, passes_pct_medium, passes_completed_long, passes_long, passes_pct_long, assists, passes_into_final_third, passes_into_penalty_area, crosses_into_penalty_area, crosses) <> (PassingStats.tupled, PassingStats.unapply)
 }

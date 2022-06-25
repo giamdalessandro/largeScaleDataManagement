@@ -1,5 +1,5 @@
 select
-	/*fb.id as pid,*/
+	inf.name as player,
 	cast(pass.passes_completed as double) as passes_completed,
 	cast(pass.passes as double) as passes,
 	cast(pass.passes_pct as double) as passes_pct,
@@ -17,5 +17,5 @@ select
 	cast(pass.passes_into_penalty_area as double) as passes_into_penalty_area,
 	cast(pass.crosses_into_penalty_area as double) as crosses_into_penalty_area,
 	cast(misc.crosses as double) as crosses
-from FbrefPass pass join FbrefMisc misc on (pass.pid == misc.pid)
-/*order by pid*/
+from FbrefPass pass, FbrefMisc misc, FbrefInfo inf 
+where (pass.id = misc.id) and (pass.id = inf.id) order by player
