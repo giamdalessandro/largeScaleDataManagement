@@ -1,8 +1,8 @@
-# TODO Player
+# Player
 
-Player()
+**Player**(name, position, foot, height, weight, dob, age, cityob, countryob, club, comp_level, value, wage, ca, pa)
 
-ar(Player) = 
+ar(Player) = 15
 
 Contains general information about the players.
 
