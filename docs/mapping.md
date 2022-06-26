@@ -3,10 +3,11 @@
 ## Global Schema
 - $Player_{/14}$
 - $PresenceStats_{/15}$ 
-- $GoalkeeperStats_{/10}$
-- $DefenseStats_{/17}$
+- $PassingStats_{/19}$ 
 - $PlaymakingStats_{/19}$	
+- $DefenseStats_{/17}$
 - $GoalStats_{/17}$
+- $GoalkeeperStats_{/9}$
 - $TechnicalAbility_{/14}$
 - $MentalAbility_{/10}$
 - $PhysicalAbility_{/8}$
