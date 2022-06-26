@@ -1,5 +1,5 @@
 select
-	/*fb.id as pid,*/
+	inf.name as player,
 	cast(gca.sca as double) as sca,
     cast(gca.sca_per90 as double) as sca90,
     cast(gca.gca as double) as gca,
@@ -18,5 +18,5 @@ select
 	cast(poss.dispossessed as double) as dispossessed,
 	cast(poss.pass_targets as double) as pass_targets,
 	cast(misc.fouled as double) as fouled
-from FbrefPoss poss, FbrefPass pass, FbrefGCA gca, FbrefMisc misc, FbrefStd std
-/*order by pid*/
+from FbrefPoss poss, FbrefPass pass, FbrefGCA gca, FbrefMisc misc, FbrefStd std, FbrefInfo inf 
+where (poss.id = pass.id) and (poss.id = gca.id) and (poss.id = misc.id) and (poss.id = std.id) and (poss.id = inf.id) order by player

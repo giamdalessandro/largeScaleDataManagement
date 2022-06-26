@@ -12,7 +12,6 @@ select
 	cast(pass.passes_completed_long as double) as passes_completed_long,
 	cast(pass.passes_long as double) as passes_long,
 	cast(pass.passes_pct_long as double) as passes_pct_long,
-	cast(pass.assists as double) as assists,
 	cast(pass.passes_into_final_third as double) as passes_into_final_third,
 	cast(pass.passes_into_penalty_area as double) as passes_into_penalty_area,
 	cast(pass.crosses_into_penalty_area as double) as crosses_into_penalty_area,
