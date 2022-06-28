@@ -12,7 +12,7 @@ select distinct
     fm.Best_Pos as bestPos,
     fm.Best_Role as bestRole,
     cast(fm.Value as double) as value,
-    cast(fm.Wage as double) as wage
+    cast(fm.Wage as double) as wage,
+    cast(fm.CA as double) as ca,
+    cast(fm.PA as double) as pa
 from Fm20 fm, FbrefInfo fbinfo where (fm.Name = fbinfo.name) order by name
-/* may use cartesian product instead of join*/
-/*from Fm20 fm join FbrefInfo fbinfo on (fm.Name = fbinfo.name)*/

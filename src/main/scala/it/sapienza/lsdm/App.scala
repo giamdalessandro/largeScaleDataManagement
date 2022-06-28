@@ -29,22 +29,22 @@ object App {
 
         fm20Df.createOrReplaceTempView("Fm20")
         fbrefInfoDf.createTempView("FbrefInfo")
-        fbrefMiscDf.createTempView("FbrefMisc")
-        fbrefStdDf.createTempView("FbrefStd")
-        fbrefPassDf.createTempView("FbrefPass")
-        fbrefGCADf.createTempView("FbrefGCA")
+        //fbrefMiscDf.createTempView("FbrefMisc")
+        //fbrefStdDf.createTempView("FbrefStd")
+        //fbrefPassDf.createTempView("FbrefPass")
+        //fbrefGCADf.createTempView("FbrefGCA")
         
         // add a table to DB
-        /*val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
+        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
         val tableDf = sparkSession.sql(sqlString)
-        model.Main.init_and_populate(tableDf)*/
+        model.Main.init_and_populate(tableDf)
 
         //model.Main.load_and_insert(sparkSession, "fbref-keeper-extraction.csv", "FbrefKeep", "GoalkeeperStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-playing_time-extraction.csv", "FbrefPTime", "PresenceStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-defense-extraction.csv", "FbrefDef", "DefenseStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-shooting-extraction.csv", "FbrefSht", "GoalStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-passing-extraction.csv", "FbrefPass", "PassingStats.sql")
-        model.Main.load_and_insert(sparkSession, "fbref-possession-extraction.csv", "FbrefPoss", "PlaymakingStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-possession-extraction.csv", "FbrefPoss", "PlaymakingStats.sql")
 
     }
 }

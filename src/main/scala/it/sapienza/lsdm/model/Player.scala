@@ -17,7 +17,9 @@ case class Player(
     bestPos  : Option[String],
     bestRole : Option[String],
     value    : Option[Double],
-    wage     : Option[Double]
+    wage     : Option[Double],
+    ca       : Option[Double],
+    pa       : Option[Double]
 )
 
 class PlayerEntity(tag: Tag) extends Table[Player](tag, "Player") {
@@ -35,6 +37,8 @@ class PlayerEntity(tag: Tag) extends Table[Player](tag, "Player") {
     def bestRole  = column[Option[String]]("bestRole");
     def value     = column[Option[Double]]("value");
     def wage      = column[Option[Double]]("wage");
+    def ca        = column[Option[Double]]("ca");
+    def pa        = column[Option[Double]]("pa");
     // Every table needs a * projection with the same type as the table's type parameter
-    def * = (name.?, position, foot, height, weight, age, dob, cityOb, countryOb, prefFoot, bestPos, bestRole, value, wage) <> (Player.tupled, Player.unapply);
+    def * = (name.?, position, foot, height, weight, age, dob, cityOb, countryOb, prefFoot, bestPos, bestRole, value, wage, ca, pa) <> (Player.tupled, Player.unapply);
 }

@@ -39,5 +39,3 @@ Integrate information from one or more sources and obtain a reconciled view of t
 - GAV mapping (declarative) 
 - Pentaho implementation
 - Queries and results (5/6)
-
-## Big Data Management
