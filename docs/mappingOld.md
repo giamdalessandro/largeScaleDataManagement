@@ -42,3 +42,4 @@ How to define *join* between **FM2020** and **Info** in GAV-mapping? Necessary?
 How to define *join* between **Info** and **has...Stats** tables in GAV-mapping? Necessary?
 - $\forall$ *pid,pname*. $\exists$*<...>,*.Info(*pid,pname,<...>*) $\wedge$ $\forall$ *fname,age*.$\exists$.FM2020(*fname,age,<...>*) $\wedge$ *pname=fname* $\rightarrow$ Player(*pid,pname,age,<...>*)
 - $\forall$ *pid.* $\exists$*<...>,*.Info(*pid,<...>*) {$\wedge$ FM2020(*n,...*) ??} $\rightarrow$ PlaysIn(*pid,c*)
+

@@ -4,8 +4,8 @@ Project for Large Scale Data Management 20/21, Sapienza University of Rome.
 
 
 ## Dataset
-- [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle; data on 5 division:
-  - Bundesliga (20), Ligue 1 (13), La Liga (12), Premier League (9), Serie A (11)
+- [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle; data on 4 division:
+  - Bundesliga (20), La Liga (12), Premier League (9), Serie A (11)
 
 | *fbref*       | #rows | #rows(19-20) | #cols |
 | ------------- | ----- | ------------ | ----- |
@@ -24,9 +24,9 @@ Project for Large Scale Data Management 20/21, Sapienza University of Rome.
 
 - [football manager 2020](https://www.kaggle.com/ktyptorio/football-manager-2020) data on Kaggle
 
-| *fm 2020* | #rows  | #rows (main 5 divisions) | #cols |
+| *fm 2020* | #rows  | #rows (main 4 divisions) | #cols |
 | --------- | ------ | ------------------------ | ----- |
-| datafm20  | 144752 | 5117                     | 65    |
+| datafm20  | 144752 | 4218                     | 65    |
 
 
 ## Information Integration
