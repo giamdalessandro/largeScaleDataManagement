@@ -107,4 +107,4 @@ Football Manager simulation gaming has become particularly interesting also in r
 
 **FM20**(id, name, position, club, division, based, nation, height, weight, age, preferred foot, best pos, best role, value, wage, ca, pa, wor, vis, thr, tec, tea, tck, str, sta, tro, ref, pun, pos, pen, pas, pac, 1v1, otb, nat, mar, l th, lon, ldr, kic, jum, hea, han, fre, fla, fir, fin, ecc, dri, det, dec, cro, cor, cnt, cmp, com, cmd, bra, bal, ant, agi, agg, aer, acc)
 
-ar(FM20) = 63
+ar(FM20) = 64
