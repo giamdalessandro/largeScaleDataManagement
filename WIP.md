@@ -2,10 +2,14 @@
 
 ## Player
 
-+ club
-+ compLevel
+\+ club
+
+\+ compLevel
+
 \- prefFoot
+
 \- bestPos
+
 \- bestRole
 
 ## GoalStat
