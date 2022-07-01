@@ -3,7 +3,6 @@ select
     cast(fm.Wor as integer) as Wor,
     cast(fm.Vis as integer) as Vis,
     cast(fm.Tea as integer) as Tea,
-    cast(fm.Pen as integer) as Pen,
     cast(fm.Ref as integer) as Ref,
     cast(fm.Otb as integer) as OtB,
     cast(fm.Ldr as integer) as Ldr,

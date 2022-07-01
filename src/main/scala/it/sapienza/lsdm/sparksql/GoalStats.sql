@@ -1,6 +1,5 @@
 select
 	inf.name as player,
-	cast(sht.minutes_90s as double) as minutes_90s,
 	cast(sht.goals as double) as goals,
 	cast(sht.shots_total as double) as shots_total,
 	cast(sht.shots_on_target as double) as shots_on_target,

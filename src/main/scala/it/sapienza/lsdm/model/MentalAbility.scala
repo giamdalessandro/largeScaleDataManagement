@@ -8,7 +8,6 @@ case class MentalAbility(
 	wor    : Option[Int],
 	vis    : Option[Int],
 	tea    : Option[Int],
-	pen    : Option[Int],
 	ref    : Option[Int],
 	otb    : Option[Int],
 	ldr    : Option[Int],
@@ -23,7 +22,6 @@ class MentalAbilityEntity(tag: Tag) extends Table[MentalAbility](tag, "MentalAbi
 	def wor   = column[Option[Int]]("wor");
 	def vis   = column[Option[Int]]("vis");
 	def tea   = column[Option[Int]]("tea");
-	def pen   = column[Option[Int]]("pen");
 	def ref   = column[Option[Int]]("def");
 	def otb   = column[Option[Int]]("otb");
 	def ldr   = column[Option[Int]]("ldr");
@@ -31,6 +29,6 @@ class MentalAbilityEntity(tag: Tag) extends Table[MentalAbility](tag, "MentalAbi
 	def cnt   = column[Option[Int]]("cnt");
 	def agg   = column[Option[Int]]("agg");
 
-	def * = (player.?, wor, vis, tea, pen, ref, otb, ldr, fla, cnt, agg) <> (MentalAbility.tupled, MentalAbility.unapply)
+	def * = (player.?, wor, vis, tea, ref, otb, ldr, fla, cnt, agg) <> (MentalAbility.tupled, MentalAbility.unapply)
 }
 

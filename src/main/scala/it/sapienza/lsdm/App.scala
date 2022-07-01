@@ -29,10 +29,10 @@ object App {
 
         fm20Df.createOrReplaceTempView("Fm20")
         fbrefInfoDf.createTempView("FbrefInfo")
-        //fbrefMiscDf.createTempView("FbrefMisc")
-        //fbrefStdDf.createTempView("FbrefStd")
-        //fbrefPassDf.createTempView("FbrefPass")
-        //fbrefGCADf.createTempView("FbrefGCA")
+        fbrefMiscDf.createTempView("FbrefMisc")
+        fbrefStdDf.createTempView("FbrefStd")
+        fbrefPassDf.createTempView("FbrefPass")
+        fbrefGCADf.createTempView("FbrefGCA")
         
         // add a table to DB
         val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
