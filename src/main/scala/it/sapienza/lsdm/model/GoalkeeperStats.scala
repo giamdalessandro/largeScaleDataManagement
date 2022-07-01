@@ -5,6 +5,7 @@ import slick.jdbc.PostgresProfile.api._
 
 case class GoalkeeperStats(
 	player                  : Option[String],
+	squad         			: Option[String],
 	goals_against_gk        : Option[Double],
 	goals_against_per90_gk  : Option[Double],
 	shots_on_target_against : Option[Double],
@@ -17,7 +18,8 @@ case class GoalkeeperStats(
 
 
 class GoalkeeperStatsEntity(tag: Tag) extends Table[GoalkeeperStats](tag, "GoalkeeperStats") {
-	def player                  = column[Option[String]]("pid");
+	def player                  = column[Option[String]]("player");
+	def squad         			= column[Option[String]]("squad");
 	def goals_against_gk 		= column[Option[Double]]("goals_against_gk");
 	def goals_against_per90_gk 	= column[Option[Double]]("goals_against_per90_gk");
 	def shots_on_target_against = column[Option[Double]]("shots_on_target_against");
@@ -27,5 +29,5 @@ class GoalkeeperStatsEntity(tag: Tag) extends Table[GoalkeeperStats](tag, "Goalk
 	def clean_sheets_pct 		= column[Option[Double]]("clean_sheets_pct");
 	def pens_save_pct 			= column[Option[Double]]("pens_save_pct");
 
-	def * = (player, goals_against_gk, goals_against_per90_gk, shots_on_target_against, saves, save_pct, clean_sheets, clean_sheets_pct, pens_save_pct) <> (GoalkeeperStats.tupled, GoalkeeperStats.unapply);
+	def * = (player, squad, goals_against_gk, goals_against_per90_gk, shots_on_target_against, saves, save_pct, clean_sheets, clean_sheets_pct, pens_save_pct) <> (GoalkeeperStats.tupled, GoalkeeperStats.unapply);
 }

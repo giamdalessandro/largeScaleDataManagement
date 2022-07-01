@@ -5,6 +5,7 @@ import slick.jdbc.PostgresProfile.api._
 
 case class PresenceStats(
 	player           : Option[String],
+	squad            : Option[String],
 	games            : Option[Double],
 	mnts             : Option[Double],
 	minutes_per_game : Option[Double],
@@ -23,6 +24,7 @@ case class PresenceStats(
 
 class PresenceStatsEntity(tag: Tag) extends Table[PresenceStats](tag, "PresenceStats") {
 	def player           = column[Option[String]]("player");
+	def squad            = column[Option[String]]("squad");
 	def games 			 = column[Option[Double]]("games");
 	def mnts             = column[Option[Double]]("mnts");
 	def minutes_per_game = column[Option[Double]]("minutes_per_game");
@@ -38,5 +40,5 @@ class PresenceStatsEntity(tag: Tag) extends Table[PresenceStats](tag, "PresenceS
 	def plus_minus       = column[Option[Double]]("plus_minus");
 	def plus_minus_wowy  = column[Option[Double]]("plus_minus_wowy");
 
-	def * = (player, games, mnts, minutes_per_game, minutes_pct, minutes_90s, games_starts, games_complete, games_subs, unused_subs, points_per_match, on_goals_for, on_goals_against, plus_minus, plus_minus_wowy) <> (PresenceStats.tupled, PresenceStats.unapply);
+	def * = (player, squad, games, mnts, minutes_per_game, minutes_pct, minutes_90s, games_starts, games_complete, games_subs, unused_subs, points_per_match, on_goals_for, on_goals_against, plus_minus, plus_minus_wowy) <> (PresenceStats.tupled, PresenceStats.unapply);
 }

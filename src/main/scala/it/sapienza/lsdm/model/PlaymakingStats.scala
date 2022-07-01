@@ -5,6 +5,7 @@ import slick.jdbc.PostgresProfile.api._
 
 case class PlaymakingStats(
 	player          	   : Option[String],
+	squad         		   : Option[String],
 	sca    				   : Option[Double],
     sca90  				   : Option[Double],
     gca    				   : Option[Double],
@@ -28,6 +29,7 @@ case class PlaymakingStats(
 
 class PlaymakingStatsEntity(tag: Tag) extends Table[PlaymakingStats](tag, "PlaymakingStats") {
 	def player  			   = column[Option[String]]("player");
+	def squad         		   = column[Option[String]]("squad");
 	def sca     			   = column[Option[Double]]("sca");
     def sca90   			   = column[Option[Double]]("sca90");
     def gca     			   = column[Option[Double]]("gca");
@@ -47,5 +49,5 @@ class PlaymakingStatsEntity(tag: Tag) extends Table[PlaymakingStats](tag, "Playm
 	def pass_targets 		   = column[Option[Double]]("pass_targets");
 	def fouled				   = column[Option[Double]]("fouled");
 
-	def * = (player, sca, sca90, gca, gca90, assists, assists_per90, touches, touches_def_3rd, touches_mid_3rd, touches_att_3rd, touches_att_pen_area, dribbles_completed, dribbles, dribbles_completed_pct, miscontrols, dispossessed, pass_targets, fouled) <> (PlaymakingStats.tupled, PlaymakingStats.unapply)
+	def * = (player, squad, sca, sca90, gca, gca90, assists, assists_per90, touches, touches_def_3rd, touches_mid_3rd, touches_att_3rd, touches_att_pen_area, dribbles_completed, dribbles, dribbles_completed_pct, miscontrols, dispossessed, pass_targets, fouled) <> (PlaymakingStats.tupled, PlaymakingStats.unapply)
 }

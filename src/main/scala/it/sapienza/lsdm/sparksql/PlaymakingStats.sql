@@ -1,5 +1,6 @@
 select
 	inf.name as player,
+    poss.squad as squad,
 	cast(gca.sca as double) as sca,
     cast(gca.sca_per90 as double) as sca90,
     cast(gca.gca as double) as gca,
@@ -19,4 +20,9 @@ select
 	cast(poss.pass_targets as double) as pass_targets,
 	cast(misc.fouled as double) as fouled
 from FbrefPoss poss, FbrefPass pass, FbrefGCA gca, FbrefMisc misc, FbrefStd std, FbrefInfo inf 
-where (poss.id = pass.id) and (poss.id = gca.id) and (poss.id = misc.id) and (poss.id = std.id) and (poss.id = inf.id) order by player
+where (poss.id = pass.id and poss.squad = pass.squad) 
+	and (poss.id = gca.id and poss.squad = gca.squad) 
+	and (poss.id = misc.id and poss.squad = misc.squad) 
+	and (poss.id = std.id and poss.squad = std.squad) 
+	and (poss.id = inf.id) 
+order by player

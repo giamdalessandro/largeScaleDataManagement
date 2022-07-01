@@ -1,5 +1,6 @@
 select
 	inf.name as player,
+    sht.squad as squad,
 	cast(sht.goals as double) as goals,
 	cast(sht.shots_total as double) as shots_total,
 	cast(sht.shots_on_target as double) as shots_on_target,
@@ -17,4 +18,4 @@ select
 	cast(std.goals_pens_per90 as double) as goals_pens_per90,
 	cast(misc.offsides as double) as offsides
 from FbrefSht sht, FbrefStd std, FbrefMisc misc, FbrefInfo inf 
-where (sht.id = std.id) and (sht.id = misc.id) and (sht.id = inf.id) order by player
+where (sht.id = std.id and sht.squad = std.squad) and (sht.id = misc.id and sht.squad = misc.squad) and (sht.id = inf.id) order by player

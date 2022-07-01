@@ -5,6 +5,7 @@ import slick.jdbc.PostgresProfile.api._
 
 case class DefenseStats(
     player        : Option[String],
+	squad         : Option[String],
 	tackles       : Option[Double],
 	tacklesWon    : Option[Double],
 	press		  : Option[Double],
@@ -26,6 +27,7 @@ case class DefenseStats(
 
 class DefenseStatsEntity(tag: Tag) extends Table[DefenseStats](tag, "DefenseStats") {
 	def player        = column[Option[String]]("player");
+	def squad         = column[Option[String]]("squad");
 	def tackles       = column[Option[Double]]("tackles");
 	def tacklesWon    = column[Option[Double]]("tacklesWon");
 	def press         = column[Option[Double]]("press");
@@ -43,5 +45,5 @@ class DefenseStatsEntity(tag: Tag) extends Table[DefenseStats](tag, "DefenseStat
 	def cards_yellow 	= column[Option[Double]]("cards_yellow");
 	def cards_red 		= column[Option[Double]]("cards_red");
 	
-    def * = (player, tackles, tacklesWon, press, pressReg, pressRegPct, blocks, blockedSht, blockedShtSav, intercept, clearence, errors, fouls, aerials_won, aerials_won_pct, cards_yellow, cards_red) <> (DefenseStats.tupled, DefenseStats.unapply)
+    def * = (player, squad, tackles, tacklesWon, press, pressReg, pressRegPct, blocks, blockedSht, blockedShtSav, intercept, clearence, errors, fouls, aerials_won, aerials_won_pct, cards_yellow, cards_red) <> (DefenseStats.tupled, DefenseStats.unapply)
 }

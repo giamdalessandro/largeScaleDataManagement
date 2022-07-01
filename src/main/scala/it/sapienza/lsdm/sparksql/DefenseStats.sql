@@ -1,5 +1,6 @@
 select
     inf.name as player,
+    def.squad as squad,
     cast(def.tackles as double) as tackles,
     cast(def.tackles_won as double) as tacklesWon,
     cast(def.pressures as double) as press,
@@ -17,4 +18,4 @@ select
 	cast(misc.cards_yellow as double) as cards_yellow,
 	cast(misc.cards_red as double) as cards_red
 from FbrefDef def, FbrefMisc misc, FbrefInfo inf 
-where (def.id = misc.id) and (def.id = inf.id) order by player
+where (def.id = misc.id and def.squad = misc.squad) and (def.id = inf.id) order by player

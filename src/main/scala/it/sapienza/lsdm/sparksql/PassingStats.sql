@@ -1,5 +1,6 @@
 select
 	inf.name as player,
+    pass.squad as squad,
 	cast(pass.passes_completed as double) as passes_completed,
 	cast(pass.passes as double) as passes,
 	cast(pass.passes_pct as double) as passes_pct,
@@ -17,4 +18,4 @@ select
 	cast(pass.crosses_into_penalty_area as double) as crosses_into_penalty_area,
 	cast(misc.crosses as double) as crosses
 from FbrefPass pass, FbrefMisc misc, FbrefInfo inf 
-where (pass.id = misc.id) and (pass.id = inf.id) order by player
+where (pass.id = misc.id and pass.squad = misc.squad) and (pass.id = inf.id) order by player

@@ -5,6 +5,7 @@ import slick.jdbc.PostgresProfile.api._
 
 case class GoalStats(
 	player 				  : Option[String],
+	squad         		  : Option[String],
 	goals 				  : Option[Double],
 	shots_total 		  : Option[Double],
 	shots_on_target 	  : Option[Double],
@@ -26,6 +27,7 @@ case class GoalStats(
 
 class GoalStatsEntity(tag: Tag) extends Table[GoalStats](tag, "GoalStats") {
 	def player			 	  = column[Option[String]]("player");
+	def squad         		  = column[Option[String]]("squad");
 	def goals 				  = column[Option[Double]]("goals");
 	def shots_total	 		  = column[Option[Double]]("shots_total");
 	def shots_on_target 	  = column[Option[Double]]("shots_on_target");
@@ -43,5 +45,5 @@ class GoalStatsEntity(tag: Tag) extends Table[GoalStats](tag, "GoalStats") {
 	def goals_pens_per90 	  = column[Option[Double]]("goals_pens_per90");
 	def offsides 			  = column[Option[Double]]("offsides");
 
-	def * = (player, goals, shots_total, shots_on_target, shots_on_target_pct, shots_total_per90, shots_on_target_per90, goals_per_shot, average_shot_distance, shots_free_kicks, pens_made, pens_att, goals_pens, goals_per90, goals_assists_per90, goals_pens_per90, offsides) <> (GoalStats.tupled, GoalStats.unapply)
+	def * = (player, squad, goals, shots_total, shots_on_target, shots_on_target_pct, shots_total_per90, shots_on_target_per90, goals_per_shot, average_shot_distance, shots_free_kicks, pens_made, pens_att, goals_pens, goals_per90, goals_assists_per90, goals_pens_per90, offsides) <> (GoalStats.tupled, GoalStats.unapply)
 }
