@@ -41,7 +41,7 @@ object App {
 
         //model.Main.load_and_insert(sparkSession, "fbref-keeper-extraction.csv", "FbrefKeep", "GoalkeeperStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-playing_time-extraction.csv", "FbrefPTime", "PresenceStats.sql")
-        model.Main.load_and_insert(sparkSession, "fbref-defense-extraction.csv", "FbrefDef", "DefenseStats.sql")
+        //model.Main.load_and_insert(sparkSession, "fbref-defense-extraction.csv", "FbrefDef", "DefenseStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-shooting-extraction.csv", "FbrefSht", "GoalStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-passing-extraction.csv", "FbrefPass", "PassingStats.sql")
         //model.Main.load_and_insert(sparkSession, "fbref-possession-extraction.csv", "FbrefPoss", "PlaymakingStats.sql")
