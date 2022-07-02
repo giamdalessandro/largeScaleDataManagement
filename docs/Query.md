@@ -11,8 +11,7 @@ q_1 = \{(player\_name, goals, fin) |& \\
 &\exists t2, t3, t4, t5, t6, t7, t8, t9, t10, t12, t13, t14 . \\
 &GoalStat(player\_name, goals, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15, g16, g17) \\
 &\wedge TechnicalAbility(player\_name, t2, t3, t4, t5, t6, t7, t8, t9, t10, fin, t12, t13, t14) \\
-&\wedge TechnicalAbility(\textrm{``Ciro Immobile''}, t2, t3, t4, t5, t6, t7, t8, t9, t10, fin, t12, t13, t14) \\
-& >>> \wedge goals>25 \wedge fin>18 <<< \}
+&\wedge TechnicalAbility(\textrm{``Ciro Immobile''}, t2, t3, t4, t5, t6, t7, t8, t9, t10, fin, t12, t13, t14)\}
 \end{split}
 $$
 
