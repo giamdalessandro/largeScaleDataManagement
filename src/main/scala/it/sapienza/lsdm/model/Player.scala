@@ -13,8 +13,6 @@ case class Player(
     dob        : Option[String],
     cityOb     : Option[String],
     countryOb  : Option[String],
-    club       : Option[String],
-    comp_level : Option[String],
     value      : Option[Double],
     wage       : Option[Double],
     ca         : Option[Double],
@@ -31,12 +29,10 @@ class PlayerEntity(tag: Tag) extends Table[Player](tag, "Player") {
     def dob        = column[Option[String]]("dob");
     def cityOb     = column[Option[String]]("city_ob");
     def countryOb  = column[Option[String]]("country_ob");
-    def club       = column[Option[String]]("club");
-    def comp_level = column[Option[String]]("comp_level");
     def value      = column[Option[Double]]("value");
     def wage       = column[Option[Double]]("wage");
     def ca         = column[Option[Double]]("ca");
     def pa         = column[Option[Double]]("pa");
      // Every table needs a * projection with the same type as the table's type parameter
-    def * = (name.?, position, foot, height, weight, age, dob, cityOb, countryOb, club, comp_level, value, wage, ca, pa) <> (Player.tupled, Player.unapply);
+    def * = (name.?, position, foot, height, weight, age, dob, cityOb, countryOb, value, wage, ca, pa) <> (Player.tupled, Player.unapply);
 }
