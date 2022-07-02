@@ -10,7 +10,7 @@ $$
 &Info(id, i2, name, position, foot, height, weight, dob, cityob, countryob, i11, i12, age) \\
 &\wedge Standard(id, \textrm{``2019-2020''}, \textrm{``ITA''}, \textrm{``1. Serie A''}, s5, squad, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
 &\wedge FM20(f1, name, f3, f4, \textrm{``Italian Serie A''}, f6, f7, f8, f9, f10, f11, f12, f13, value, wage, ca, pa, f18, f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32, f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60, f61, f62, f63, f64) \\
-&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, \textrm{``1. Serie A''}, squad, value, wage, ca, pa)
+&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, value, wage, ca, pa)
 \end{split}
 $$
 
@@ -24,7 +24,7 @@ $$
 &Info(id, i2, name, position, foot, height, weight, dob, cityob, countryob, i11, i12, age) \\
 &\wedge Standard(id, \textrm{``2019-2020''}, \textrm{``GER''}, \textrm{``1. Bundesliga''}, s5, squad, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
 &\wedge FM20(f1, name, f3, f4, \textrm{``Bundesliga''}, f6, f7, f8, f9, f10, f11, f12, f13, value, wage, ca, pa, f18, f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32, f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60, f61, f62, f63, f64) \\
-&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, \textrm{``1. Bundesliga''}, squad, value, wage, ca, pa)
+&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, value, wage, ca, pa)
 \end{split}
 $$
 
@@ -38,7 +38,7 @@ $$
 &Info(id, i2, name, position, foot, height, weight, dob, cityob, countryob, i11, i12, age) \\
 &\wedge Standard(id, \textrm{``2019-2020''}, \textrm{``ESP''}, \textrm{``1. La Liga''}, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
 &\wedge FM20(f1, name, f3, f4, \textrm{``Spanish First Division''}, f6, f7, f8, f9, f10, f11, f12, f13, value, wage, ca, pa, f18, f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32, f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60, f61, f62, f63, f64) \\
-&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, \textrm{``1. La Liga''}, squad, value, wage, ca, pa)
+&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, value, wage, ca, pa)
 \end{split}
 $$
 
@@ -52,7 +52,7 @@ $$
 &Info(id, i2, name, position, foot, height, weight, dob, cityob, countryob, i11, i12, age) \\
 &\wedge Standard(id, \textrm{``2019-2020''}, \textrm{``ENG''}, \textrm{``1. Premier League''}, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
 &\wedge FM20(f1, name, f3, f4, \textrm{``English Premier Division''}, f6, f7, f8, f9, f10, f11, f12, f13, value, wage, ca, pa, f18, f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32, f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60, f61, f62, f63, f64) \\
-&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, \textrm{``1. Premier League''}, squad, value, wage, ca, pa)
+&\rightarrow Player(name, position, foot, height, weight, dob, age, cityob, countryob, value, wage, ca, pa)
 \end{split}
 $$
 

@@ -1,8 +1,8 @@
 # Player
 
-**Player**(name, position, foot, height, weight, dob, age, cityob, countryob, club, comp_level, value, wage, ca, pa)
+**Player**(name, position, foot, height, weight, dob, age, cityob, countryob, value, wage, ca, pa)
 
-ar(Player) = 15
+ar(Player) = 13
 
 Contains general information about the players.
 
