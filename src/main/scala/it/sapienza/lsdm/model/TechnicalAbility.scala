@@ -3,7 +3,7 @@ package it.sapienza.lsdm.model
 import slick.jdbc.PostgresProfile.api._
 
 
-case class TechincalAbility(
+case class TechnicalAbility(
 	player : Option[String],
     tec : Option[Int],
     tck : Option[Int],
@@ -21,7 +21,7 @@ case class TechincalAbility(
 )
 
 
-class TechincalAbilityEntity(tag: Tag) extends Table[TechincalAbility](tag, "TechincalAbility") {
+class TechnicalAbilityEntity(tag: Tag) extends Table[TechnicalAbility](tag, "TechnicalAbility") {
 	def player = column[String]("player");
 	def tec = column[Option[Int]]("tec");
     def tck = column[Option[Int]]("tck");
@@ -37,5 +37,5 @@ class TechincalAbilityEntity(tag: Tag) extends Table[TechincalAbility](tag, "Tec
     def cro = column[Option[Int]]("cro");
     def cor = column[Option[Int]]("cor");
 
-	def * = (player.?, tec, tck, pen, pas, mar, lTh, lon, hea, fir, fin, dri, cro, cor) <> (TechincalAbility.tupled, TechincalAbility.unapply);
+	def * = (player.?, tec, tck, pen, pas, mar, lTh, lon, hea, fir, fin, dri, cro, cor) <> (TechnicalAbility.tupled, TechnicalAbility.unapply);
 }
