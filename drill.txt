@@ -1,4 +1,0 @@
-alter session set `store.format`='csv';
-
-create table dfs.`mnt/exportSerieAPremierLeague` as 
-SELECT * FROM dfs.`mnt/WhoScoredFinal1.csv` where columns[2]='2019/2020' and (columns[1]='7811' or columns[8]='Serie A');
