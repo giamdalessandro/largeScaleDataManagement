@@ -1,4 +1,4 @@
-select distinct
+select 
     info.name as name,
     info.position as position,
     info.foot as foot,
@@ -14,3 +14,9 @@ select distinct
     cast(fm.PA as double) as pa
 from Fm20 fm, FbrefInfo info
 where (fm.Name = info.name) order by name
+
+
+
+
+
+

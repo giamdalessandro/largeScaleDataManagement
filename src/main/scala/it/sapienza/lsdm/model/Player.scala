@@ -33,6 +33,5 @@ class PlayerEntity(tag: Tag) extends Table[Player](tag, "Player") {
     def wage       = column[Option[Double]]("wage");
     def ca         = column[Option[Double]]("ca");
     def pa         = column[Option[Double]]("pa");
-     // Every table needs a * projection with the same type as the table's type parameter
     def * = (name.?, position, foot, height, weight, age, dob, cityOb, countryOb, value, wage, ca, pa) <> (Player.tupled, Player.unapply);
 }

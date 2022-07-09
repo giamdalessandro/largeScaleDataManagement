@@ -35,7 +35,7 @@ object App {
         fbrefGCADf.createTempView("FbrefGCA")
         
         // add a table to DB
-        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"TechnicalAbility.sql").mkString
+        val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
         val tableDf = sparkSession.sql(sqlString)
         model.Main.init_and_populate(tableDf)
 
