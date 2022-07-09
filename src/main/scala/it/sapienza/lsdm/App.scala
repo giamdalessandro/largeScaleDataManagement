@@ -20,7 +20,7 @@ object App {
      * Load source datasets
      */
     def main(args: Array[String]): Unit = {
-        val fm20Df      = model.Main.read_csv_to_df(sparkSession, "fm20-extraction.csv").dropDuplicates("name")
+        val fm20Df      = model.Main.read_csv_to_df(sparkSession, "fm20-extraction.csv")
         val fbrefInfoDf = model.Main.read_csv_to_df(sparkSession, "fbref-info-extraction.csv")
         val fbrefMiscDf = model.Main.read_csv_to_df(sparkSession, "fbref-misc-extraction.csv")
         val fbrefStdDf  = model.Main.read_csv_to_df(sparkSession, "fbref-standard-extraction.csv")
