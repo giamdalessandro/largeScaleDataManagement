@@ -4,7 +4,7 @@ Project for Large Scale Data Management 20/21, Sapienza University of Rome.
 
 ## Docs extension
 Full version of docs can be found at the following links: 
-- [GAV mapping](https://giamdalessandro.github.io/largeScaleDataManagement/).
+- [GAV mapping](https://giamdalessandro.github.io/largeScaleDataManagement/)
 - [Source schema](https://giamdalessandro.github.io/largeScaleDataManagement/Source_Schema.html)
 - [Global Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Global_Schema.html)
 

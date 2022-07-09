@@ -15,4 +15,4 @@ lsdm-scala_project.code-workspace
 
 
 ## private API key
-src/main/resources/application.conf
+#src/main/resources/application.conf
