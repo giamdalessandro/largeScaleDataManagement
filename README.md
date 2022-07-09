@@ -2,32 +2,17 @@
 
 Project for Large Scale Data Management 20/21, Sapienza University of Rome. 
 
+## Docs extension
+Full version of docs can be found at the following links: 
+- [GAV mapping](https://giamdalessandro.github.io/largeScaleDataManagement/).
+- [Source schema](https://giamdalessandro.github.io/largeScaleDataManagement/Source_Schema.html)
+- [Global Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Global_Schema.html)
 
 ## Dataset
-- [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom) on Kaggle; data on 4 division:
-  - Bundesliga (20), La Liga (12), Premier League (9), Serie A (11)
+The complete datasets of the project are available on kaggle:
+- [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom)
+- [football manager 2020](https://www.kaggle.com/ktyptorio/football-manager-2020)
 
-| *fbref*       | #rows | #rows(19-20) | #cols |
-| ------------- | ----- | ------------ | ----- |
-| info          | 2933  | N/A          | 13    |
-| defense       | 21365 | 2458         | 31    |
-| gca           | 21365 | 2458         | 24    |
-| keeper        | 2285  | 225          | 26    |
-| keeper_adv    | 2083  | 198          | 33    |
-| passing       | 21365 | 2458         | 30    |
-| passing_types | 21365 | 2458         | 33    |
-| playing_time  | 23021 | 2670         | 29    |
-| possession    | 21365 | 2458         | 32    |
-| shooting      | 19955 | 2328         | 25    |
-| standard      | 23021 | 2670         | 32    |
-| misc          | 21898 | 2551         | 24    |
-
-- [football manager 2020](https://www.kaggle.com/ktyptorio/football-manager-2020) data on Kaggle
-
-| *fm 2020* | #rows  | #rows (main 4 divisions) | #cols |
-| --------- | ------ | ------------------------ | ----- |
-| datafm20  | 144752 | 4218                     | 65    |
-
-
-## Mapping
-Full version of GAV mapping [here](https://giamdalessandro.github.io/largeScaleDataManagement/).
+## Authors
+- [Giammarco D'Alessandro](https://github.com/giamdalessandro)
+- [Antonio Ionta](https://github.com/A-I-18)
