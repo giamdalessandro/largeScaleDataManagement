@@ -7,6 +7,7 @@ Full version of docs can be found at the following links:
 - [GAV mapping](https://giamdalessandro.github.io/largeScaleDataManagement/)
 - [Source schema](https://giamdalessandro.github.io/largeScaleDataManagement/Source_Schema.html)
 - [Global Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Global_Schema.html)
+- [Query](https://giamdalessandro.github.io/largeScaleDataManagement/Query.html)
 
 ## Dataset
 The complete datasets of the project are available on kaggle:
