@@ -9,6 +9,8 @@ Full version of docs can be found at the following links:
 - [Global Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Global_Schema.html)
 - [Query](https://giamdalessandro.github.io/largeScaleDataManagement/Query.html)
 
+The complete presentation of the project can be found here: [PDF](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Presentation.pdf)
+
 ## Dataset
 The complete datasets of the project are available on kaggle:
 - [fbref soccer stats](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom)
