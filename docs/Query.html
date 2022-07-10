@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Query</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="section">1</h1>
+<p>Retrieve the number of goals scored by the players who have the same
+finalization ability (FM fictional attribute) of “Ciro Immobile”.</p>
+<h2 id="fol">FOL</h2>
+<p><span class="math display">\[
+\begin{split}
+q_1 = \{(\boldsymbol{player\_name, goals, fin}) |&amp; \\
+&amp;\exists g_{3}, g_{4}, g_{5}, g_{6}, g_{7}, g_{8}, g_{9}, g_{10},
+g_{11}, g_{12}, g_{13}, g_{14}, g_{15}, g_{16}, g_{17} \\
+&amp;\exists t_{2}, t_{3}, t_{4}, t_{5}, t_{6}, t_{7}, t_{8}, t_{9},
+t_{10}, t_{12}, t_{13}, t_{14} . \\
+&amp;GoalStat(\boldsymbol{player\_name, goals}, g_{3}, g_{4}, g_{5},
+g_{6}, g_{7}, g_{8}, g_{9}, g_{10}, g_{11}, g_{12}, g_{13}, g_{14},
+g_{15}, g_{16}, g_{17}) \\
+&amp;\wedge TechnicalAbility(\boldsymbol{player\_name}, t_{2}, t_{3},
+t_{4}, t_{5}, t_{6}, t_{7}, t_{8}, t_{9}, t_{10}, \boldsymbol{fin},
+t_{12}, t_{13}, t_{14}) \\
+&amp;\wedge TechnicalAbility(\textrm{\textbf{``Ciro
+Immobile&#39;&#39;}}, t_{2}, t_{3}, t_{4}, t_{5}, t_{6}, t_{7}, t_{8},
+t_{9}, t_{10}, fin, t_{12}, t_{13}, t_{14})\}
+\end{split}
+\]</span></p>
+<h2 id="sql">SQL</h2>
+<pre><code>select gs.player_name, goals, ta1.fin
+from GoalStat gs, TechnicalAbility ta1, TechnicalAbility ta2
+where 
+    gs.player_name = ta1.player_name
+    and ta1.fin = ta2.fin
+    and ta2.player_name = &#39;Ciro Immobile&#39;
+;</code></pre>
+<h2 id="sql-execute">SQL-Execute</h2>
+<pre><code>select gs.player, goals, ta1.fin
+from &quot;GoalStats&quot; gs, &quot;TechnicalAbility&quot; ta1, &quot;TechnicalAbility&quot; ta2
+where 
+    gs.player = ta1.player
+    and ta1.fin = ta2.fin
+    and ta2.player = &#39;Ciro Immobile&#39;
+;</code></pre>
+<h1 id="section-1">2</h1>
+<p>Retrieve the number of yellow cards received by the players who have
+17 as value of the aggression ability (FM fictional attribute).</p>
+<h2 id="fol-1">FOL</h2>
+<p><span class="math display">\[
+\begin{split}
+q_2 = \{(player\_name, player\_squad, cards\_yellow, games, agg) |&amp;
+\\
+&amp;\exists d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, d13, d14, d15,
+d16, d18 \\
+&amp;\exists p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16
+\\
+&amp;\exists m2, m3, m4, m5, m6, m7, m8, m9 . \\
+&amp;DefenseStat(player\_name, player\_squad, d3, d4, d5, d6, d7, d8,
+d9, d10, d11, d12, d13, d14, d15, d16, cards\_yellow, d18) \\
+&amp;\wedge PresenceStat(player\_name, player\_squad, games, p4, p5, p6,
+p7, p8, p9, p10, p11, p12, p13, p14, p15, p16) \\
+&amp;\wedge MentalAbility(player\_name, m2, m3, m4, m5, m6, m7, m8, m9,
+agg) \\
+&amp;\wedge agg = 17\}
+\end{split}
+\]</span></p>
+<h2 id="sql-1">SQL</h2>
+<pre><code>select ds.player_name, ds.player_squad, cards_yellow, games, agg
+from DefenseStat ds, MentalAbility ma, PresenceStat ps
+where
+    (ds.player_name = ps.player_name and ds.player_squad = ps.player_squad)
+    and ps.player_name = ma.player_name
+    and ma.agg = 17
+;</code></pre>
+<h2 id="sql-execute-1">SQL-Execute</h2>
+<pre><code>select ds.player, ds.squad, cards_yellow, games, agg
+from &quot;DefenseStats&quot; ds, &quot;MentalAbility&quot; ma, &quot;PresenceStats&quot; ps
+where
+    (ds.player = ps.player and ds.squad = ps.squad)
+    and ps.player = ma.player
+    and ma.agg = 17
+;</code></pre>
+<h1 id="section-2">3</h1>
+<p>Retrieve the number of assists realized by the players who have a
+value of the vision ability (FM fictional attribute) not equal to 20 nor
+19 nor 18 nor 17 nor 16.</p>
+<h2 id="fol-2">FOL</h2>
+<p><span class="math display">\[
+\begin{split}
+q_3 = \{(player\_name, player\_squad, position, assists, vis) |&amp; \\
+&amp;\exists pm3, pm4, pm5, pm6, pm8, pm9, pm10, pm11, pm12, pm13, pm14,
+pm15, pm16, pm17, pm18, pm19, pm20 \\
+&amp;\exists p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13 \\
+&amp;\exists m2, m4, m5, m6, m7, m8, m9, m10 . \\
+&amp;PlaymakingStat(player\_name, player\_squad, pm3, pm4, pm5, pm6,
+assists, pm8, pm9, pm10, pm11, pm12, pm13, pm14, pm15, pm16, pm17, pm18,
+pm19, pm20) \\
+&amp;\wedge Player(player\_name, position, p3, p4, p5, p6, p7, p8, p9,
+p10, p11, p12, p13) \\
+&amp;\wedge MentalAbility(player\_name, m2, vis, m4, m5, m6, m7, m8, m9,
+m10) \\
+&amp;\wedge \neg(vis=20) \wedge \neg(vis=19) \wedge \neg(vis=18) \wedge
+\neg(vis=17) \wedge \neg(vis=16) \}
+\end{split}
+\]</span></p>
+<h2 id="sql-2">SQL</h2>
+<pre><code>select pm.player_name, pm.player_squad, position, assists, vis
+from PlaymakingStat pm, Player p, MentalAbility m
+where 
+    pm.player_name = p.name
+    and pm.player_name = m.player_name
+    and vis != 20 and vis != 19 and vis != 18 and vis != 17 and vis != 16
+;</code></pre>
+<h2 id="sql-execute-2">SQL-Execute</h2>
+<pre><code>select pm.player, pm.squad, position, assists, vis
+from &quot;PlaymakingStats&quot; pm, &quot;Player&quot; p, &quot;MentalAbility&quot; m
+where 
+    pm.player = p.name
+    and p.player = m.player
+    and vis != 20 and vis != 19 and vis != 18 and vis != 17 and vis != 16
+;</code></pre>
+<h1 id="section-3">4</h1>
+<p>Retrieve the points per match gained by Juventus with respect to the
+presence of its players. Retrieve also the wage and the strength of the
+players (FM fictional attributes).</p>
+<h2 id="fol-3">FOL</h2>
+<p><span class="math display">\[
+\begin{split}
+q_4 = \{(player\_name, player\_squad, points\_per\_match, mnts, str,
+wage) |&amp; \\
+&amp;\exists pr3, pr5, pr6, pr7, pr8, pr9, pr10, pr11, pr13, pr14, pr15,
+pr16 \\
+&amp;\exists p2, p3, p4, p5, p6, p7, p8, p9, p10, p12, p13 \\
+&amp;\exists ph3, ph4, ph5, ph6, ph7, ph8 . \\
+&amp;PresenceStat(player\_name, player\_squad, pr3, mnts, pr5, pr6, pr7,
+pr8, pr9, pr10, pr11, points\_per\_match, pr13, pr14, pr15, pr16) \\
+&amp;\wedge Player(player\_name, p2, p3, p4, p5, p6, p7, p8, p9, p10,
+wage, p12, p13) \\
+&amp;\wedge PhysicalAbility(player\_name, str, ph3, ph4, ph5, ph6, ph7,
+ph8) \\
+&amp;\wedge player\_squad = \textrm{``Juventus&#39;&#39;}\}
+\end{split}
+\]</span></p>
+<h2 id="sql-3">SQL</h2>
+<pre><code>select pr.player_name, pr.player_squad, points_per_match, mnts, str, wage
+from PresenceStat pr, Player p, PhysicalAbility ph
+where 
+    pr.player_name = p.name
+    and pr.player_name = ph.player_name
+    and pr.player_squad = &#39;Juventus&#39;
+;</code></pre>
+<h2 id="sql-execute-3">SQL-Execute</h2>
+<pre><code>select pr.player, pr.squad, points_per_match, mnts, str, wage
+from &quot;PresenceStats&quot; pr, &quot;Player&quot; p, &quot;PhysicalAbility&quot; ph
+where 
+    pr.player = p.name
+    and pr.player = ph.player
+    and pr.squad = &#39;Juventus&#39;
+;</code></pre>
+<h1 id="section-4">5</h1>
+<p>Retrieve the potential ability (FM fictional attribute) and the save
+percentage of the goalkeepers whose age is 20 or 21 or 22.</p>
+<h2 id="fol-4">FOL</h2>
+<p><span class="math display">\[
+\begin{split}
+q_5 = \{(player\_name, player\_squad, age, pa, save\_pct) |&amp; \\
+&amp;(\exists p_{3}, p_{4}, p_{5}, p_{6}, p_{8}, p_{9}, p_{10}, p_{11},
+p_{12} \\
+&amp;\exists g_{3}, g_{4}, g_{5}, g_{6}, g_{8}, g_{9}, g_{10} . \\
+&amp;Player(player\_name, \textrm{``GK&#39;&#39;}, p_3, p_4, p_5, p_6,
+age, p_8, p_9, p_{10}, p_{11}, p_{12}, pa) \\
+&amp;\wedge GoalkeeperStat(player\_name, player\_squad, g_3, g_4, g_5,
+g_6, save\_pct, g_8, g_9, g_{10}) \\
+&amp;\wedge age = 20)) \\
+&amp;\lor \\
+&amp;(\exists p&#39;_{3}, p&#39;_{4}, p&#39;_{5}, p&#39;_{6},
+p&#39;_{8}, p&#39;_{9}, p&#39;_{10}, p&#39;_{11}, p&#39;_{12} \\
+&amp;\exists g&#39;_{3}, g&#39;_{4}, g&#39;_{5}, g&#39;_{6}, g&#39;_{8},
+g&#39;_{9}, g&#39;_{10} . \\
+&amp;(Player(player\_name, \textrm{``GK&#39;&#39;}, p&#39;_{3},
+p&#39;_{4}, p&#39;_{5}, p&#39;_{6}, age p&#39;_{8}, p&#39;_{9},
+p&#39;_{10}, p&#39;_{11}, p&#39;_{12}, pa) \\
+&amp;\wedge GoalkeeperStat(player\_name, player\_squad, g&#39;_{3},
+g&#39;_{4}, g&#39;_{5}, g&#39;_{6}, save\_pct, g&#39;_{8}, g&#39;_{9},
+g&#39;_{10}) \\
+&amp;\wedge age = 21)) \\
+&amp;\lor \\
+&amp;(\exists p&#39;&#39;_{3}, p&#39;&#39;_{4}, p&#39;&#39;_{5},
+p&#39;&#39;_{6}, p&#39;&#39;_{8}, p&#39;&#39;_{9}, p&#39;&#39;_{10},
+p&#39;&#39;_{11}, p&#39;&#39;_{12} \\
+&amp;\exists g&#39;&#39;_{3}, g&#39;&#39;_{4}, g&#39;&#39;_{5},
+g&#39;&#39;_{6}, g&#39;&#39;_{8}, g&#39;&#39;_{9}, g&#39;&#39;_{10} . \\
+&amp;(Player(player\_name, \textrm{``GK&#39;&#39;}, p&#39;&#39;_{3},
+p&#39;&#39;_{4}, p&#39;&#39;_{5}, p&#39;&#39;_{6}, age, p&#39;&#39;_{8},
+p&#39;&#39;_{9}, p&#39;&#39;_{10}, p&#39;&#39;_{11}, p&#39;&#39;_{12},
+pa) \\
+&amp;\wedge GoalkeeperStat(player\_name, player\_squad, g&#39;&#39;_{3},
+g&#39;&#39;_{4}, g&#39;&#39;_{5}, g&#39;&#39;_{6}, save\_pct,
+g&#39;&#39;_{8}, g&#39;&#39;_{9}, g&#39;&#39;_{10}) \\
+&amp;\wedge age = 22)) \}
+\end{split}
+\]</span></p>
+<h2 id="sql-4">SQL</h2>
+<pre><code>select player_name, player_squad, age, pa, save_pct
+from Player p, GoalkeeperStat g
+where 
+    p.name = g.player_name and p.position = &#39;GK&#39;
+    and (age=20 or age=21 or age=22)
+;</code></pre>
+<pre><code>select player_name, player_squad, age, pa, save_pct
+from Player p, GoalkeeperStat g
+where 
+    p.name = g.player_name and p.position = &#39;GK&#39;
+    and age = 20
+union
+select player_name, player_squad, age, pa, save_pct
+from Player p, GoalkeeperStat g
+where 
+    p.name = g.player_name and p.position = &#39;GK&#39;
+    and age = 21
+union
+select player_name, player_squad, age, pa, save_pct
+from Player p, GoalkeeperStat g
+where 
+    p.name = g.player_name and p.position = &#39;GK&#39;
+    and age = 22
+;</code></pre>
+<h2 id="sql-execute-4">SQL-Execute</h2>
+<pre><code>select player, squad, age, pa, save_pct
+from &quot;Player&quot; p, &quot;GoalkeeperStats&quot; g
+where 
+    p.name = g.player and p.position = &#39;GK&#39;
+    and (age=20 or age=21 or age=22)
+;</code></pre>
+<pre><code>select player, squad, age, pa, save_pct
+from &quot;Player&quot; p, &quot;GoalkeeperStats&quot; g
+where 
+    p.name = g.player and p.position = &#39;GK&#39;
+    and age = 20
+union
+select player, squad, age, pa, save_pct
+from &quot;Player&quot; p, &quot;GoalkeeperStats&quot; g
+where 
+    p.name = g.player and p.position = &#39;GK&#39;
+    and age = 21
+union
+select player, squad, age, pa, save_pct
+from &quot;Player&quot; p, &quot;GoalkeeperStats&quot; g
+where 
+    p.name = g.player and p.position = &#39;GK&#39;
+    and age = 22
+;</code></pre>
+<h1 id="section-5">6</h1>
+<p>Retrieve the players whose dribbling ability (FM fictional attribute)
+is equal to 18.</p>
+<h2 id="fol-5">FOL</h2>
+<p><span class="math display">\[
+\begin{split}
+q_6 = \{(player\_name, dri) |&amp; \\
+&amp;\exists t_2, t_3, t_4, t_5, t_6, t_7, t_8, t_9, t_{10}, t_{11},
+t_{13}, t_{14} \\
+&amp;TechnicalAbility(player\_name, t_2, t_3, t_4, t_5, t_6, t_7, t_8,
+t_9, t_{10}, t_{11}, dri, t_{13}, t_{14}) \\
+&amp;\wedge dri = 18 \}
+\end{split}
+\]</span></p>
+<h2 id="sql-5">SQL</h2>
+<pre><code>select player_name, dri
+from TechnicalAbility
+where dri = 18
+;</code></pre>
+<h2 id="sql-execute-5">SQL-Execute</h2>
+<pre><code>select player, dri
+from &quot;TechnicalAbility&quot;
+where dri = 18
+;</code></pre>
+<h2 id="fol-unfolding">FOL-Unfolding</h2>
+<p><span class="math display">\[
+\begin{split}
+q_6 = \{(player\_name, dri) |&amp; \\
+&amp;(\exists f_{1}, f_{3}, f_{4}, f_{6}, f_{7}, f_{8}, f_{9}, f_{10},
+f_{11}, f_{12}, f_{13}, f_{14}, f_{15}, f_{16}, f_{17}, f_{18}, f_{19},
+f_{20}, f_{21}, f_{22}, f_{23}, f_{24}, f_{25}, f_{26}, f_{27}, f_{28},
+f_{29}, f_{30}, f_{31}, f_{32}, f_{33}, f_{34}, f_{35}, f_{36}, f_{37},
+f_{38}, f_{39}, f_{40}, f_{41}, f_{42}, f_{43}, f_{44}, f_{45}, f_{46},
+f_{47}, f_{48}, f_{50}, f_{51}, f_{52}, f_{53}, f_{54}, f_{55}, f_{56},
+f_{57}, f_{58}, f_{59}, f_{60}, f_{61}, f_{62}, f_{63}, f_{64} \\
+&amp;FM20(f_{1}, player\_name, f_{3}, f_{4}, \textrm{``Italian Serie
+A&#39;&#39;}, f_{6}, f_{7}, f_{8}, f_{9}, f_{10}, f_{11}, f_{12},
+f_{13}, f_{14}, f_{15}, f_{16}, f_{17}, f_{18}, f_{19}, f_{20}, f_{21},
+f_{22}, f_{23}, f_{24}, f_{25}, f_{26}, f_{27}, f_{28}, f_{29}, f_{30},
+f_{31}, f_{32}, f_{33}, f_{34}, f_{35}, f_{36}, f_{37}, f_{38}, f_{39},
+f_{40}, f_{41}, f_{42}, f_{43}, f_{44}, f_{45}, f_{46}, f_{47}, f_{48},
+dri, f_{50}, f_{51}, f_{52}, f_{53}, f_{54}, f_{55}, f_{56}, f_{57},
+f_{58}, f_{59}, f_{60}, f_{61}, f_{62}, f_{63}, f_{64}) \\
+&amp;\wedge dri = 18) \\
+&amp;\lor \\
+&amp;(\exists f&#39;_{1}, f&#39;_{3}, f&#39;_{4}, f&#39;_{6},
+f&#39;_{7}, f&#39;_{8}, f&#39;_{9}, f&#39;_{10}, f&#39;_{11},
+f&#39;_{12}, f&#39;_{13}, f&#39;_{14}, f&#39;_{15}, f&#39;_{16},
+f&#39;_{17}, f&#39;_{18}, f&#39;_{19}, f&#39;_{20}, f&#39;_{21},
+f&#39;_{22}, f&#39;_{23}, f&#39;_{24}, f&#39;_{25}, f&#39;_{26},
+f&#39;_{27}, f&#39;_{28}, f&#39;_{29}, f&#39;_{30}, f&#39;_{31},
+f&#39;_{32}, f&#39;_{33}, f&#39;_{34}, f&#39;_{35}, f&#39;_{36},
+f&#39;_{37}, f&#39;_{38}, f&#39;_{39}, f&#39;_{40}, f&#39;_{41},
+f&#39;_{42}, f&#39;_{43}, f&#39;_{44}, f&#39;_{45}, f&#39;_{46},
+f&#39;_{47}, f&#39;_{48}, f&#39;_{50}, f&#39;_{51}, f&#39;_{52},
+f&#39;_{53}, f&#39;_{54}, f&#39;_{55}, f&#39;_{56}, f&#39;_{57},
+f&#39;_{58}, f&#39;_{59}, f&#39;_{60}, f&#39;_{61}, f&#39;_{62},
+f&#39;_{63}, f&#39;_{64} \\
+&amp;FM20(f&#39;_{1}, player\_name, f&#39;_{3}, f&#39;_{4},
+\textrm{``Bundesliga&#39;&#39;}, f&#39;_{6}, f&#39;_{7}, f&#39;_{8},
+f&#39;_{9}, f&#39;_{10}, f&#39;_{11}, f&#39;_{12}, f&#39;_{13},
+f&#39;_{14}, f&#39;_{15}, f&#39;_{16}, f&#39;_{17}, f&#39;_{18},
+f&#39;_{19}, f&#39;_{20}, f&#39;_{21}, f&#39;_{22}, f&#39;_{23},
+f&#39;_{24}, f&#39;_{25}, f&#39;_{26}, f&#39;_{27}, f&#39;_{28},
+f&#39;_{29}, f&#39;_{30}, f&#39;_{31}, f&#39;_{32}, f&#39;_{33},
+f&#39;_{34}, f&#39;_{35}, f&#39;_{36}, f&#39;_{37}, f&#39;_{38},
+f&#39;_{39}, f&#39;_{40}, f&#39;_{41}, f&#39;_{42}, f&#39;_{43},
+f&#39;_{44}, f&#39;_{45}, f&#39;_{46}, f&#39;_{47}, f&#39;_{48}, dri,
+f&#39;_{50}, f&#39;_{51}, f&#39;_{52}, f&#39;_{53}, f&#39;_{54},
+f&#39;_{55}, f&#39;_{56}, f&#39;_{57}, f&#39;_{58}, f&#39;_{59},
+f&#39;_{60}, f&#39;_{61}, f&#39;_{62}, f&#39;_{63}, f&#39;_{64}) \\
+&amp;\wedge dri = 18) \\
+&amp;\lor \\
+&amp;(\exists f&#39;&#39;_{1}, f&#39;&#39;_{3}, f&#39;&#39;_{4},
+f&#39;&#39;_{6}, f&#39;&#39;_{7}, f&#39;&#39;_{8}, f&#39;&#39;_{9},
+f&#39;&#39;_{10}, f&#39;&#39;_{11}, f&#39;&#39;_{12}, f&#39;&#39;_{13},
+f&#39;&#39;_{14}, f&#39;&#39;_{15}, f&#39;&#39;_{16}, f&#39;&#39;_{17},
+f&#39;&#39;_{18}, f&#39;&#39;_{19}, f&#39;&#39;_{20}, f&#39;&#39;_{21},
+f&#39;&#39;_{22}, f&#39;&#39;_{23}, f&#39;&#39;_{24}, f&#39;&#39;_{25},
+f&#39;&#39;_{26}, f&#39;&#39;_{27}, f&#39;&#39;_{28}, f&#39;&#39;_{29},
+f&#39;&#39;_{30}, f&#39;&#39;_{31}, f&#39;&#39;_{32}, f&#39;&#39;_{33},
+f&#39;&#39;_{34}, f&#39;&#39;_{35}, f&#39;&#39;_{36}, f&#39;&#39;_{37},
+f&#39;&#39;_{38}, f&#39;&#39;_{39}, f&#39;&#39;_{40}, f&#39;&#39;_{41},
+f&#39;&#39;_{42}, f&#39;&#39;_{43}, f&#39;&#39;_{44}, f&#39;&#39;_{45},
+f&#39;&#39;_{46}, f&#39;&#39;_{47}, f&#39;&#39;_{48}, f&#39;&#39;_{50},
+f&#39;&#39;_{51}, f&#39;&#39;_{52}, f&#39;&#39;_{53}, f&#39;&#39;_{54},
+f&#39;&#39;_{55}, f&#39;&#39;_{56}, f&#39;&#39;_{57}, f&#39;&#39;_{58},
+f&#39;&#39;_{59}, f&#39;&#39;_{60}, f&#39;&#39;_{61}, f&#39;&#39;_{62},
+f&#39;&#39;_{63}, f&#39;&#39;_{64} \\
+&amp;FM20(f&#39;&#39;_{1}, player\_name, f&#39;&#39;_{3},
+f&#39;&#39;_{4}, \textrm{``Spanish First Division&#39;&#39;},
+f&#39;&#39;_{6}, f&#39;&#39;_{7}, f&#39;&#39;_{8}, f&#39;&#39;_{9},
+f&#39;&#39;_{10}, f&#39;&#39;_{11}, f&#39;&#39;_{12}, f&#39;&#39;_{13},
+f&#39;&#39;_{14}, f&#39;&#39;_{15}, f&#39;&#39;_{16}, f&#39;&#39;_{17},
+f&#39;&#39;_{18}, f&#39;&#39;_{19}, f&#39;&#39;_{20}, f&#39;&#39;_{21},
+f&#39;&#39;_{22}, f&#39;&#39;_{23}, f&#39;&#39;_{24}, f&#39;&#39;_{25},
+f&#39;&#39;_{26}, f&#39;&#39;_{27}, f&#39;&#39;_{28}, f&#39;&#39;_{29},
+f&#39;&#39;_{30}, f&#39;&#39;_{31}, f&#39;&#39;_{32}, f&#39;&#39;_{33},
+f&#39;&#39;_{34}, f&#39;&#39;_{35}, f&#39;&#39;_{36}, f&#39;&#39;_{37},
+f&#39;&#39;_{38}, f&#39;&#39;_{39}, f&#39;&#39;_{40}, f&#39;&#39;_{41},
+f&#39;&#39;_{42}, f&#39;&#39;_{43}, f&#39;&#39;_{44}, f&#39;&#39;_{45},
+f&#39;&#39;_{46}, f&#39;&#39;_{47}, f&#39;&#39;_{48}, dri,
+f&#39;&#39;_{50}, f&#39;&#39;_{51}, f&#39;&#39;_{52}, f&#39;&#39;_{53},
+f&#39;&#39;_{54}, f&#39;&#39;_{55}, f&#39;&#39;_{56}, f&#39;&#39;_{57},
+f&#39;&#39;_{58}, f&#39;&#39;_{59}, f&#39;&#39;_{60}, f&#39;&#39;_{61},
+f&#39;&#39;_{62}, f&#39;&#39;_{63}, f&#39;&#39;_{64}) \\
+&amp;\wedge dri = 18) \\
+&amp;\lor \\
+&amp;(\exists f&#39;&#39;&#39;_{1}, f&#39;&#39;&#39;_{3},
+f&#39;&#39;&#39;_{4}, f&#39;&#39;&#39;_{6}, f&#39;&#39;&#39;_{7},
+f&#39;&#39;&#39;_{8}, f&#39;&#39;&#39;_{9}, f&#39;&#39;&#39;_{10},
+f&#39;&#39;&#39;_{11}, f&#39;&#39;&#39;_{12}, f&#39;&#39;&#39;_{13},
+f&#39;&#39;&#39;_{14}, f&#39;&#39;&#39;_{15}, f&#39;&#39;&#39;_{16},
+f&#39;&#39;&#39;_{17}, f&#39;&#39;&#39;_{18}, f&#39;&#39;&#39;_{19},
+f&#39;&#39;&#39;_{20}, f&#39;&#39;&#39;_{21}, f&#39;&#39;&#39;_{22},
+f&#39;&#39;&#39;_{23}, f&#39;&#39;&#39;_{24}, f&#39;&#39;&#39;_{25},
+f&#39;&#39;&#39;_{26}, f&#39;&#39;&#39;_{27}, f&#39;&#39;&#39;_{28},
+f&#39;&#39;&#39;_{29}, f&#39;&#39;&#39;_{30}, f&#39;&#39;&#39;_{31},
+f&#39;&#39;&#39;_{32}, f&#39;&#39;&#39;_{33}, f&#39;&#39;&#39;_{34},
+f&#39;&#39;&#39;_{35}, f&#39;&#39;&#39;_{36}, f&#39;&#39;&#39;_{37},
+f&#39;&#39;&#39;_{38}, f&#39;&#39;&#39;_{39}, f&#39;&#39;&#39;_{40},
+f&#39;&#39;&#39;_{41}, f&#39;&#39;&#39;_{42}, f&#39;&#39;&#39;_{43},
+f&#39;&#39;&#39;_{44}, f&#39;&#39;&#39;_{45}, f&#39;&#39;&#39;_{46},
+f&#39;&#39;&#39;_{47}, f&#39;&#39;&#39;_{48}, f&#39;&#39;&#39;_{50},
+f&#39;&#39;&#39;_{51}, f&#39;&#39;&#39;_{52}, f&#39;&#39;&#39;_{53},
+f&#39;&#39;&#39;_{54}, f&#39;&#39;&#39;_{55}, f&#39;&#39;&#39;_{56},
+f&#39;&#39;&#39;_{57}, f&#39;&#39;&#39;_{58}, f&#39;&#39;&#39;_{59},
+f&#39;&#39;&#39;_{60}, f&#39;&#39;&#39;_{61}, f&#39;&#39;&#39;_{62},
+f&#39;&#39;&#39;_{63}, f&#39;&#39;&#39;_{64} \\
+&amp;FM20(f&#39;&#39;&#39;_{1}, player\_name, f&#39;&#39;&#39;_{3},
+f&#39;&#39;&#39;_{4}, \textrm{``English Premier Division&#39;&#39;},
+f&#39;&#39;&#39;_{6}, f&#39;&#39;&#39;_{7}, f&#39;&#39;&#39;_{8},
+f&#39;&#39;&#39;_{9}, f&#39;&#39;&#39;_{10}, f&#39;&#39;&#39;_{11},
+f&#39;&#39;&#39;_{12}, f&#39;&#39;&#39;_{13}, f&#39;&#39;&#39;_{14},
+f&#39;&#39;&#39;_{15}, f&#39;&#39;&#39;_{16}, f&#39;&#39;&#39;_{17},
+f&#39;&#39;&#39;_{18}, f&#39;&#39;&#39;_{19}, f&#39;&#39;&#39;_{20},
+f&#39;&#39;&#39;_{21}, f&#39;&#39;&#39;_{22}, f&#39;&#39;&#39;_{23},
+f&#39;&#39;&#39;_{24}, f&#39;&#39;&#39;_{25}, f&#39;&#39;&#39;_{26},
+f&#39;&#39;&#39;_{27}, f&#39;&#39;&#39;_{28}, f&#39;&#39;&#39;_{29},
+f&#39;&#39;&#39;_{30}, f&#39;&#39;&#39;_{31}, f&#39;&#39;&#39;_{32},
+f&#39;&#39;&#39;_{33}, f&#39;&#39;&#39;_{34}, f&#39;&#39;&#39;_{35},
+f&#39;&#39;&#39;_{36}, f&#39;&#39;&#39;_{37}, f&#39;&#39;&#39;_{38},
+f&#39;&#39;&#39;_{39}, f&#39;&#39;&#39;_{40}, f&#39;&#39;&#39;_{41},
+f&#39;&#39;&#39;_{42}, f&#39;&#39;&#39;_{43}, f&#39;&#39;&#39;_{44},
+f&#39;&#39;&#39;_{45}, f&#39;&#39;&#39;_{46}, f&#39;&#39;&#39;_{47},
+f&#39;&#39;&#39;_{48}, dri, f&#39;&#39;&#39;_{50},
+f&#39;&#39;&#39;_{51}, f&#39;&#39;&#39;_{52}, f&#39;&#39;&#39;_{53},
+f&#39;&#39;&#39;_{54}, f&#39;&#39;&#39;_{55}, f&#39;&#39;&#39;_{56},
+f&#39;&#39;&#39;_{57}, f&#39;&#39;&#39;_{58}, f&#39;&#39;&#39;_{59},
+f&#39;&#39;&#39;_{60}, f&#39;&#39;&#39;_{61}, f&#39;&#39;&#39;_{62},
+f&#39;&#39;&#39;_{63}, f&#39;&#39;&#39;_{64}) \\
+&amp;\wedge dri = 18)\}
+\end{split}
+\]</span></p>
+<h2 id="sql-unfolding">SQL-Unfolding</h2>
+<pre><code>select name, dri
+from FM20
+where 
+    division = &#39;Italian Serie A&#39;
+    and dri = 18
+union
+select name, dri
+from FM20
+where 
+    division = &#39;Bundesliga&#39;
+    and dri = 18
+union
+select name, dri
+from FM20
+    where division = &#39;Spanish First Division&#39;
+    and dri = 18
+union
+select name, dri
+from FM20
+    where division = &#39;English Premier Division&#39;
+    and dri = 18;</code></pre>
+<h2 id="sql-unfolding-execute-drill">SQL-Unfolding-Execute-Drill</h2>
+<pre><code>select Name, Dri
+from input.`FM20.csv`
+where Division in (&#39;Spanish First Division&#39;, &#39;Italian Serie A&#39;, &#39;Bundesliga&#39;, &#39;English Premier Division&#39;)
+and Dri= 18;</code></pre>
+<pre><code>select Name, Dri
+from input.`FM20.csv`
+where Division = &#39;Italian Serie A&#39;
+and Dri= 18
+union
+select Name, Dri
+from input.`FM20.csv`
+where Division = &#39;Bundesliga&#39;
+and Dri= 18
+union
+select Name, Dri
+from input.`FM20.csv`
+where Division = &#39;Spanish First Division&#39;
+and Dri= 18
+union
+select Name, Dri
+from input.`FM20.csv`
+where Division = &#39;English Premier Division&#39;
+and Dri= 18
+;</code></pre>
+</body>
+</html>
