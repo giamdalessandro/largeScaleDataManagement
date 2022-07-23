@@ -1,4 +1,4 @@
-package it.sapienza.lsdm.model
+package it.sapienza.lsdm.model.relational
 
 import slick.jdbc.PostgresProfile.api._
 
