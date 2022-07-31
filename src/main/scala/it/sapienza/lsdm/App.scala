@@ -4,11 +4,11 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.DataFrame
 
 import slick.jdbc.PostgresProfile.api._
-import it.sapienza.lsdm.model.relational.{Player,PlayerEntity}
 
 object App {
-    private final val INPUT_PATH = "src/main/scala/it/sapienza/lsdm/input/"
-    private final val SQL_PATH = "src/main/scala/it/sapienza/lsdm/sparksql/"
+    final val INPUT_PATH = "src/main/scala/it/sapienza/lsdm/input/"
+    final val SQL_PATH = "src/main/scala/it/sapienza/lsdm/sparksql/"
+    final val OUTPUT_PATH = "src/main/scala/it/sapienza/lsdm/output/"
 
     val sparkSession = SparkSession
                     .builder
@@ -17,25 +17,13 @@ object App {
                     .getOrCreate()
 
     /**
-     * Load source datasets
+     * Coordinates the entire application workflow
      */
     def main(args: Array[String]): Unit = {
-        val fm20Df      = model.relational.Main.read_csv_to_df(sparkSession, "fm20-extraction.csv")
-        val fbrefInfoDf = model.relational.Main.read_csv_to_df(sparkSession, "fbref-info-extraction.csv")
-        val fbrefMiscDf = model.relational.Main.read_csv_to_df(sparkSession, "fbref-misc-extraction.csv")
-        val fbrefStdDf  = model.relational.Main.read_csv_to_df(sparkSession, "fbref-standard-extraction.csv")
-        val fbrefPassDf = model.relational.Main.read_csv_to_df(sparkSession, "fbref-passing-extraction.csv")
-        val fbrefGCADf  = model.relational.Main.read_csv_to_df(sparkSession, "fbref-gca-extraction.csv")
+        logic.Main.load_data(sparkSession)
+        
+        logic.bdm.Integration.DFM_to_ROLAP(sparkSession)
 
-        fm20Df.createOrReplaceTempView("Fm20")
-        fbrefInfoDf.createTempView("FbrefInfo")
-        fbrefMiscDf.createTempView("FbrefMisc")
-        fbrefStdDf.createTempView("FbrefStd")
-        fbrefPassDf.createTempView("FbrefPass")
-        fbrefGCADf.createTempView("FbrefGCA")
-
-
-        logic.Integration.integrate(sparkSession, "Player")
         // add a table to DB
         //val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString
         //val tableDf = sparkSession.sql(sqlString)

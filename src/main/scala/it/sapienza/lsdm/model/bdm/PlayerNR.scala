@@ -1,4 +1,4 @@
-package it.sapienza.lsdm.model.non_relational
+package it.sapienza.lsdm.model.bdm
 
 case class PersonalData(
     name: String
@@ -8,7 +8,7 @@ case class FootballData(
     foot: String
 )
 
-case class Player(
-    personalData: Map[String, String],
+case class PlayerNR(
+    personalData: PersonalData,
     footballData: FootballData
 )
