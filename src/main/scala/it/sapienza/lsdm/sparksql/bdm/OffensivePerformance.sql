@@ -1,10 +1,13 @@
 select
-    info.name as player,
-    info.countyob as countryOB,
-    cast(sh.goals as integer),
-    cast(sh.shots_total as integer) as shotsTotal,
-    cast(sh.shots_on_target as integer) as shotsOnTarget,
-    cast(pens_made as integer) as pensMade
+    opf.id as abilityId,
+    opf.id as presenceId,
+    org.id as organizationId,
+    player,
+    countryOB,
+    goals,
+    shotsTotal,
+    shotsOnTarget,
+    pensMade
 from
-    FbrefInfo info
-    join FbrefShooting sh on info.id = sh.id
+    OffensivePerformanceFull opf
+    join Organization org on (opf.squad = org.squad and opf.comp = org.comp)

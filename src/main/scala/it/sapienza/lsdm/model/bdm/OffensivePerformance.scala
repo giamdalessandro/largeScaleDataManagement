@@ -3,9 +3,9 @@ package it.sapienza.lsdm.model.bdm
 import slick.jdbc.PostgresProfile.api._
 
 final case class OffensivePerformance(
-    ability_id      : Long,
-    presence_id     : Long,
-    organization_id : Long,
+    abilityId       : Option[Long],
+    presenceId      : Option[Long],
+    organizationId  : Option[Long],
     countryOB       : String,
     player          : String,
     goals           : Option[Int],
@@ -15,13 +15,13 @@ final case class OffensivePerformance(
 )
 
 class OffensivePerformanceEntity(tag: Tag) extends Table[OffensivePerformance](tag, "OFFENSIVE_PERFORMANCE") {
-    def abilityId       = column[Long]("ability_id");
-    def ability         = foreignKey("ability_fk", abilityId, TableQuery[OffensiveAbilityEntity])(_.id)
+    def abilityId       = column[Option[Long]]("ability_id");
+    def ability         = foreignKey("ability_fk", abilityId, TableQuery[OffensiveAbilityEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
 
-    def presenceId      = column[Long]("presence_id");
-    def presence        = foreignKey("presence_fk", presenceId, TableQuery[PresenceEntity])(_.id)
+    def presenceId      = column[Option[Long]]("presence_id");
+    def presence        = foreignKey("presence_fk", presenceId, TableQuery[PresenceEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
 
-    def organizationId  = column[Long]("organization_id");
+    def organizationId  = column[Option[Long]]("organization_id");
     def organization    = foreignKey("organization_fk", organizationId, TableQuery[OrganizationEntity])(_.id)
 
     def countryOB       = column[String]("country_ob");

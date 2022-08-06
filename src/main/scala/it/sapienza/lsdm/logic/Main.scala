@@ -1,9 +1,13 @@
 package it.sapienza.lsdm.logic
 
 import org.apache.spark.sql.{SparkSession, DataFrame, Encoder}
-import it.sapienza.lsdm.App.INPUT_PATH
+import it.sapienza.lsdm.App.{INPUT_PATH, OUTPUT_PATH}
+import slick.jdbc.PostgresProfile.api._
+import scala.concurrent.Await
+import scala.concurrent.duration.Duration
 
 object Main {
+    val db = Database.forConfig("relationaldb")
 
     def load_data(sparkSession: SparkSession): Unit = {
         val fbrefGcaDf          = read_csv_to_df(sparkSession, INPUT_PATH + "fbref-gca-extraction.csv")
@@ -40,6 +44,17 @@ object Main {
     }
 
     /**
+     * Writes a Spark.DataFrame into a `.csv` file.
+     */
+    def write_df_to_csv(dataframe : DataFrame, entityName: String): Unit = {
+        dataframe
+            .write
+            .mode("overwrite")
+            .option("header", "true")
+            .csv(s"${OUTPUT_PATH}$entityName")
+    }
+
+    /**
       * Converts a given dataframe to a list containing the same records
       *
       * @param dataframe
@@ -48,6 +63,22 @@ object Main {
       */
     def dataframe_to_list[T](dataframe: DataFrame, encoder: Encoder[T]): List[T] = {        
         return dataframe.as(encoder).collect.toList
+    }
+
+    //XXX Not working: problems with generics in Scala
+    def create_table_if_not_exists[T](table: TableQuery[Table[T]]): Unit = {
+        val future = db.run(table.schema.createIfNotExists)
+        try {
+            Await.result(future, Duration.Inf)
+        } finally db.close
+    }
+
+    //XXX Not working: problems with generics in Scala
+    def insert_list_into_table[T](list: List[Table[T]#TableElementType], table: TableQuery[Table[T]]): Unit = {
+        val future = db.run(table ++= list)
+        try {
+            Await.result(future, Duration.Inf)
+        } finally db.close
     }
   
 }

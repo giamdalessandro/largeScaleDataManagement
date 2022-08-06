@@ -3,7 +3,7 @@ package it.sapienza.lsdm.model.bdm
 import slick.jdbc.PostgresProfile.api._
 
 final case class OffensiveAbility(
-    id  : Long,
+    id  : Option[Long],
     ca  : Option[Int],
     str : Option[Int],
     tec : Option[Int],
@@ -12,7 +12,7 @@ final case class OffensiveAbility(
 )
 
 class OffensiveAbilityEntity(tag: Tag) extends Table[OffensiveAbility](tag, "OFFENSIVE_ABILITY") {
-    def id  = column[Long]("id", O.PrimaryKey, O.AutoInc);
+    def id  = column[Option[Long]]("id", O.PrimaryKey);
     def ca  = column[Option[Int]]("ca");
     def str = column[Option[Int]]("str");
     def tec = column[Option[Int]]("tec");

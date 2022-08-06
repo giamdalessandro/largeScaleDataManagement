@@ -8,10 +8,14 @@ import it.sapienza.lsdm.model.bdm.FootballData
 import it.sapienza.lsdm.model.bdm.PlayerNR
 
 import org.apache.spark.sql.{SparkSession, DataFrame, Encoders}
-import slick.jdbc.H2Profile.api._
+import slick.jdbc.PostgresProfile.api._
 import it.sapienza.lsdm.model.bdm._
 
 import it.sapienza.lsdm.logic.Main._
+import scala.concurrent.Await
+import scala.concurrent.duration.Duration
+
+import org.apache.spark.sql.functions._
 
 object Integration {
     private final val SQL_PATH_BDM = SQL_PATH + "bdm/"
@@ -23,29 +27,63 @@ object Integration {
          * OffensivePerformance Fact
         */
 
-        // OffensivePerformance Measures
-        val offensivePerformanceTable = TableQuery[OffensivePerformanceEntity]
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensivePerformance.sql").mkString
-        val offensivePerformanceDf: DataFrame = sparkSession.sql(sqlString)
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensivePerformanceFull.sql").mkString
+        var offensivePerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
+        offensivePerformanceFullDf = offensivePerformanceFullDf.withColumn("id", monotonically_increasing_id())
+        offensivePerformanceFullDf.createOrReplaceTempView("OffensivePerformanceFull")
+        write_df_to_csv(offensivePerformanceFullDf, "OffensivePerformanceFull")//XXX debugging
 
         // OffensiveAbility Dimension
         val offensiveAbilityTable = TableQuery[OffensiveAbilityEntity]
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensiveAbility.sql").mkString
         val offensiveAbilityDf: DataFrame = sparkSession.sql(sqlString)
+        write_df_to_csv(offensiveAbilityDf, "OffensiveAbility")//XXX debugging
         val offensiveAbilityList = dataframe_to_list(offensiveAbilityDf, Encoders.product[OffensiveAbility])
-
-        //XXX
-        // Organization Dimension
-        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "Organization.sql").mkString
-        // val organizationDf: DataFrame = sparkSession.sql(sqlString)
 
         // Presence Dimension
         val presenceTable = TableQuery[PresenceEntity]
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "Presence.sql").mkString
         val presenceDf: DataFrame = sparkSession.sql(sqlString)
+        write_df_to_csv(presenceDf, "Presence")//XXX debugging
         val presenceList = dataframe_to_list(presenceDf, Encoders.product[Presence])
 
-        //TODO WIP
+        // Organization Dimension
+        val organizationTable = TableQuery[OrganizationEntity]
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "Organization.sql").mkString
+        var organizationDf: DataFrame = sparkSession.sql(sqlString)
+        organizationDf = organizationDf.withColumn("id", monotonically_increasing_id())
+        organizationDf.createOrReplaceTempView("Organization")
+        write_df_to_csv(organizationDf, "Organization")//XXX debugging
+        val organizationList = dataframe_to_list(organizationDf, Encoders.product[Organization])
+
+        // OffensivePerformance Measures
+        val offensivePerformanceTable = TableQuery[OffensivePerformanceEntity]
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensivePerformance.sql").mkString
+        val offensivePerformanceDf: DataFrame = sparkSession.sql(sqlString)
+        write_df_to_csv(offensivePerformanceDf, "OffensivePerformance")//XXX debugging
+        val offensivePerformanceList = dataframe_to_list(offensivePerformanceDf, Encoders.product[OffensivePerformance])
+
+        val op = DBIO.seq(
+            offensiveAbilityTable.schema.dropIfExists,
+            offensiveAbilityTable.schema.create,
+            offensiveAbilityTable ++= offensiveAbilityList,
+
+            presenceTable.schema.dropIfExists,
+            presenceTable.schema.create,
+            presenceTable ++= presenceList,
+
+            organizationTable.schema.dropIfExists,
+            organizationTable.schema.create,
+            organizationTable ++= organizationList,
+
+            // offensivePerformanceTable.schema.dropIfExists,
+            offensivePerformanceTable.schema.create,
+            offensivePerformanceTable ++= offensivePerformanceList
+        )
+        val future = db.run(op)
+        try {
+            Await.result(future, Duration.Inf)
+        } finally db.close
     }
 
     def integrate_to_NR(sparkSession: SparkSession, entityName: String): Unit = {
