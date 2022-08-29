@@ -21,4 +21,4 @@ from
     FbrefInfo info
     join FbrefShooting sh on info.id = sh.id
     join Fm20 on info.name = Fm20.Name
-    join FbrefPlayingTime pr on info.id = pr.id
+    join FbrefPlayingTime pr on (info.id = pr.id and pr.squad = sh.squad)
