@@ -3,11 +3,9 @@ package it.sapienza.lsdm.logic.bdm
 import it.sapienza.lsdm.App.SQL_PATH
 import it.sapienza.lsdm.App.OUTPUT_PATH
 
-import it.sapienza.lsdm.model.bdm.PersonalData
-import it.sapienza.lsdm.model.bdm.FootballData
-import it.sapienza.lsdm.model.bdm.PlayerNR
+import it.sapienza.lsdm.model.bdm.PlayerOffensiveAbilityNR
 
-import org.apache.spark.sql.{SparkSession, DataFrame, Encoders}
+import org.apache.spark.sql.{SparkSession, DataFrame, Encoders, Row}
 import slick.jdbc.PostgresProfile.api._
 import it.sapienza.lsdm.model.bdm._
 
@@ -20,12 +18,12 @@ import org.apache.spark.sql.functions._
 object Integration {
     private final val SQL_PATH_BDM = SQL_PATH + "bdm/"
 
-    def DFM_to_ROLAP(sparkSession: SparkSession): Unit = {
+    def DFM_to_DW(sparkSession: SparkSession): Unit = {
         var sqlString: String = null
 
         /**
          * OffensivePerformance Fact
-        */
+         */
 
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensivePerformanceFull.sql").mkString
         var offensivePerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
@@ -33,19 +31,21 @@ object Integration {
         offensivePerformanceFullDf.createOrReplaceTempView("OffensivePerformanceFull")
         write_df_to_csv(offensivePerformanceFullDf, "OffensivePerformanceFull")//XXX debugging
 
-        // OffensiveAbility Dimension
-        val offensiveAbilityTable = TableQuery[OffensiveAbilityEntity]
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensiveAbility.sql").mkString
-        val offensiveAbilityDf: DataFrame = sparkSession.sql(sqlString)
-        write_df_to_csv(offensiveAbilityDf, "OffensiveAbility")//XXX debugging
-        val offensiveAbilityList = dataframe_to_list(offensiveAbilityDf, Encoders.product[OffensiveAbility])
+        // PlayerOffensiveAbility Dimension - Non-Relational
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerOffensiveAbilityNR.sql").mkString
+        val playerOffAbDf = sparkSession.sql(sqlString)
+        import sparkSession.implicits._
+        val nestedDataset = playerOffAbDf.map(r => player_offensive_ability_mapper(r))
+        write_data_to_parquet(nestedDataset, "PlayerOffensiveAbility")
 
-        // Presence Dimension
-        val presenceTable = TableQuery[PresenceEntity]
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "Presence.sql").mkString
-        val presenceDf: DataFrame = sparkSession.sql(sqlString)
-        write_df_to_csv(presenceDf, "Presence")//XXX debugging
-        val presenceList = dataframe_to_list(presenceDf, Encoders.product[Presence])
+        // Birth Dimension
+        val birthTable = TableQuery[BirthEntity]
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "Birth.sql").mkString
+        var birthDf: DataFrame = sparkSession.sql(sqlString)
+        birthDf = birthDf.withColumn("id", monotonically_increasing_id())
+        birthDf.createOrReplaceTempView("Birth")
+        write_df_to_csv(birthDf, "Birth")//XXX debugging
+        val birthList = dataframe_to_list(birthDf, Encoders.product[Birth])
 
         // Organization Dimension
         val organizationTable = TableQuery[OrganizationEntity]
@@ -64,13 +64,9 @@ object Integration {
         val offensivePerformanceList = dataframe_to_list(offensivePerformanceDf, Encoders.product[OffensivePerformance])
 
         val op = DBIO.seq(
-            offensiveAbilityTable.schema.dropIfExists,
-            offensiveAbilityTable.schema.create,
-            offensiveAbilityTable ++= offensiveAbilityList,
-
-            presenceTable.schema.dropIfExists,
-            presenceTable.schema.create,
-            presenceTable ++= presenceList,
+            birthTable.schema.dropIfExists,
+            birthTable.schema.create,
+            birthTable ++= birthList,
 
             organizationTable.schema.dropIfExists,
             organizationTable.schema.create,
@@ -105,6 +101,17 @@ object Integration {
         //     .write
         //     .mode("overwrite")
         //     .json(s"${OUTPUT_PATH}$entityName")
+    }
+
+    private def player_offensive_ability_mapper(r: Row): PlayerOffensiveAbilityNR = {
+        PlayerOffensiveAbilityNR(
+            r.getLong(0),
+            r.getString(1),
+            r.getInt(2),
+            MentalAbility(r.getInt(3)),
+            PhysicalAbility(r.getInt(4)),
+            TechnicalAbility(r.getInt(5), r.getInt(6))
+        )
     }
 
 }

@@ -1,10 +1,10 @@
 select
     id,
-    player,
+    playerFullName,
     ca,
+    cnt,
     str,
     tec,
-    fin,
-    cnt
+    fin
 from
     OffensivePerformanceFull

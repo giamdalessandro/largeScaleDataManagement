@@ -1,6 +1,6 @@
 package it.sapienza.lsdm.logic
 
-import org.apache.spark.sql.{SparkSession, DataFrame, Encoder}
+import org.apache.spark.sql.{SparkSession, DataFrame, Encoder, Dataset}
 import it.sapienza.lsdm.App.{INPUT_PATH, OUTPUT_PATH}
 import slick.jdbc.PostgresProfile.api._
 import scala.concurrent.Await
@@ -46,12 +46,22 @@ object Main {
     /**
      * Writes a Spark.DataFrame into a `.csv` file.
      */
-    def write_df_to_csv(dataframe : DataFrame, entityName: String): Unit = {
+    def write_df_to_csv(dataframe: DataFrame, entityName: String): Unit = {
         dataframe
             .write
             .mode("overwrite")
             .option("header", "true")
             .csv(s"${OUTPUT_PATH}$entityName")
+    }
+
+    /**
+     * Writes a Spark.DataFrame into a `.parquet` file.
+     */
+    def write_data_to_parquet[T](dataset: Dataset[T], entityName: String): Unit = {
+        dataset
+            .write
+            .mode("overwrite")
+            .parquet(s"${OUTPUT_PATH}$entityName")
     }
 
     /**

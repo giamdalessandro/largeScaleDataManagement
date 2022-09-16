@@ -1,9 +1,7 @@
 select
-    opf.id as abilityId,
-    opf.id as presenceId,
+    opf.id as playerOffensiveAbilityId,
+    brt.id as birthId,
     org.id as organizationId,
-    player,
-    countryOB,
     goals,
     shotsTotal,
     shotsOnTarget,
@@ -11,3 +9,4 @@ select
 from
     OffensivePerformanceFull opf
     join Organization org on (opf.squad = org.squad and opf.comp = org.comp)
+    join Birth brt on (opf.city = brt.city and opf.country = brt.country)
