@@ -11,6 +11,7 @@ object Main {
 
     def load_data(sparkSession: SparkSession): Unit = {
         val fbrefGcaDf          = read_csv_to_df(sparkSession, INPUT_PATH + "fbref-gca-extraction.csv")
+        val fbrefDefenseDf      = read_csv_to_df(sparkSession, INPUT_PATH + "fbref-defense-extraction.csv")
         val fbrefInfoDf         = read_csv_to_df(sparkSession, INPUT_PATH + "fbref-info-extraction.csv")
         val fbrefKeeperDf       = read_csv_to_df(sparkSession, INPUT_PATH + "fbref-keeper-extraction.csv")
         val fbrefMiscDf         = read_csv_to_df(sparkSession, INPUT_PATH + "fbref-misc-extraction.csv")
@@ -22,6 +23,7 @@ object Main {
         val fm20Df              = read_csv_to_df(sparkSession, INPUT_PATH + "fm20-extraction.csv")
 
         fbrefGcaDf          .createOrReplaceTempView("FbrefGca")
+        fbrefDefenseDf      .createOrReplaceTempView("FbrefDefense")
         fbrefInfoDf         .createOrReplaceTempView("FbrefInfo")
         fbrefKeeperDf       .createOrReplaceTempView("FbrefKeeper")
         fbrefMiscDf         .createOrReplaceTempView("FbrefMisc")
@@ -29,7 +31,7 @@ object Main {
         fbrefPlayingTimeDf  .createOrReplaceTempView("FbrefPlayingTime")
         fbrefPossessionDf   .createOrReplaceTempView("FbrefPossession")
         fbrefShootingDf     .createOrReplaceTempView("FbrefShooting")
-        fbrefStandardDf     .createOrReplaceTempView("FbrefStamdard")
+        fbrefStandardDf     .createOrReplaceTempView("FbrefStandard")
         fm20Df              .createOrReplaceTempView("Fm20")
     }
 
