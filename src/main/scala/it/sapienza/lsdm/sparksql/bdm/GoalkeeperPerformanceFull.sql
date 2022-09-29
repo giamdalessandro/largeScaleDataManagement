@@ -1,13 +1,13 @@
 select
-    cast(gk.goal_against_gk as integer) as goal_against_gk,
+    cast(gk.goals_against_gk as integer) as goal_against_gk,
     cast(gk.shots_on_target_against as integer) as shots_on_target_against,
     cast(gk.saves as integer) as saves,
-    cast(gk.pen_saves_pct as double) as pen_saves_pct,
+    cast(gk.pens_save_pct as double) as pen_saves_pct,
 
     info.name as playerFullName,
     cast(CA as integer) as ca,
     cast(TRO as integer) as tro,
-    cast(1v1 as integer) as ovo,
+    cast(v1 as integer) as  ovo,
     cast(Han as integer) as han,
     cast(Cmd as integer) as cmd,
 

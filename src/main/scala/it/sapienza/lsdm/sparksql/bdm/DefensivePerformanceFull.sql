@@ -1,6 +1,6 @@
 select
     cast(def.tackles as integer) as tackles,
-    cast(misc.tackles_won as integer) as tacklesWon,
+    cast(def.tackles_won as integer) as tacklesWon,
     cast(misc.cards_yellow as integer) as cards_yellow,
     cast(misc.cards_red as integer) as cards_red,
 
