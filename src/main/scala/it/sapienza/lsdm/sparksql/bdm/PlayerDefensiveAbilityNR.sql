@@ -2,9 +2,9 @@ select
     id,
     playerFullName,
     ca,
-    Tck as tck,
-    Agg as agg,
-    Pen as pen,
-    Mar as mar,
+    tck,
+    agg,
+    pen,
+    mar,
 from 
-    Fm20
+    DefensivePerformanceFull

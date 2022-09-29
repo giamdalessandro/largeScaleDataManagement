@@ -2,9 +2,9 @@ select
     id,
     playerFullName,
     ca,
-    Vis as vis,
-    Tea as tea,
-    Pas as pas,
-    Dri as dri,
+    vis,
+    tea,
+    pas,
+    dri,
 from 
-    Fm20
+    PlaymakingPerformanceFull
