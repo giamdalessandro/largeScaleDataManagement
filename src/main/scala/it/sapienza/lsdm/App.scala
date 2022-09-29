@@ -24,7 +24,7 @@ object App {
         
         logic.bdm.Integration.DFM_to_DW(sparkSession)
 
-        //logic.bdm.Integration.integrate_to_NR(sparkSession, "PlayerAbilityNR")
+        //logic.bdm.Integration.integrate_to_NR(sparkSession, "PlayerDefensiveAbilityNR")
 
         // add a table to DB
         //val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString

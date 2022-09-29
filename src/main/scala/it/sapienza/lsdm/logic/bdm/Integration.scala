@@ -75,21 +75,21 @@ object Integration {
         val playerDefAbDf = sparkSession.sql(sqlString)
         import sparkSession.implicits._
         val defNestedDataset = playerDefAbDf.map(r => player_defensive_ability_mapper(r))
-        write_data_to_parquet(defNestedDataset, "PlayerDefensiveAbility")
+        write_data_to_parquet(defNestedDataset, "PlayerDefensiveAbilityNR")
 
         // PlayerGoalkeeperAbility Dimension - Non-Relational
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerGoalkeeperAbilityNR.sql").mkString
         val playerGkAbDf = sparkSession.sql(sqlString)
         import sparkSession.implicits._
         val gkNestedDataset = playerGkAbDf.map(r => player_goalkeeper_ability_mapper(r))
-        write_data_to_parquet(gkNestedDataset, "PlayerGoalkeeperAbility")
+        write_data_to_parquet(gkNestedDataset, "PlayerGoalkeeperAbilityNR")
 
         // PlayerPlaymakingAbility Dimension - Non-Relational
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerPlaymakingAbilityNR.sql").mkString
         val playerPmAbDf = sparkSession.sql(sqlString)
         import sparkSession.implicits._
         val pmNestedDataset = playerPmAbDf.map(r => player_playmaking_ability_mapper(r))
-        write_data_to_parquet(pmNestedDataset, "PlayerPlaymakingAbility")
+        write_data_to_parquet(pmNestedDataset, "PlayerPlaymakingAbilityNR")
 
         // Birth Dimension
         val birthTable = TableQuery[BirthEntity]
@@ -182,28 +182,31 @@ object Integration {
         val dataframe = sparkSession.sql(sqlString)
 
         import sparkSession.implicits._
-        val nestedDataframe = dataframe.map(r => {
-            PlayerNR(
-                PersonalData(r.getString(0)),
-                FootballData(r.getString(1), r.getString(2)))
-        })
-
         //val nestedDataframe = dataframe.map(r => {
-        //    PlayerAbilityNR(
-        //        r.getLong(0),
-        //        r.getString(1),
-        //        r.getInt(2),
-        //        MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
-        //        PhysicalAbilityNR(r.getInt(7)),
-        //        TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
-        //        GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
-        //    )
+        //    PlayerNR(
+        //        PersonalData(r.getString(0)),
+        //        FootballData(r.getString(1), r.getString(2)))
         //})
+
+ 
+        val nestedDataframe = dataframe.map(r => {
+            PlayerDefensiveAbilityNR(
+            r.getLong(0),
+            r.getString(1),
+            r.getInt(2),
+            MentalAbilityDef(r.getInt(3)),
+            TechnicalAbilityDef(r.getInt(4),r.getInt(5),r.getInt(6))
+        )
+        })
 
         nestedDataframe
             .write
             .mode("overwrite")
-            .json(s"${OUTPUT_PATH}$entityName")
+            .parquet(s"${OUTPUT_PATH}$entityName")
+        //nestedDataframe
+        //    .write
+        //    .mode("overwrite")
+        //    .json(s"${OUTPUT_PATH}$entityName")
 
         System.out.println(">>> NR integration FINISHED")
     }

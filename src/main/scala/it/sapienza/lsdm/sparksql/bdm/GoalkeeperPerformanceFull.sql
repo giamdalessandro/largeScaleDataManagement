@@ -4,6 +4,7 @@ select
     cast(gk.saves as integer) as saves,
     cast(gk.pens_save_pct as double) as pen_saves_pct,
 
+    info.id as id,
     info.name as playerFullName,
     cast(CA as integer) as ca,
     cast(TRO as integer) as tro,

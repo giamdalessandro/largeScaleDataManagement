@@ -4,6 +4,7 @@ select
     cast(poss.dribbles as integer) as dribbles,
     cast(poss.pass_targets as integer) as pass_targets,
 
+    info.id as id,
     info.name as playerFullName,
     cast(CA as integer) as ca,
     cast(Vis as integer) as vis,

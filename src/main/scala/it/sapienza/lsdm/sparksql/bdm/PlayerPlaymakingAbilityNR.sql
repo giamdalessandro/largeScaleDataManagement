@@ -1,5 +1,5 @@
 select
-    null as id,
+    id,
     playerFullName,
     ca,
     vis,

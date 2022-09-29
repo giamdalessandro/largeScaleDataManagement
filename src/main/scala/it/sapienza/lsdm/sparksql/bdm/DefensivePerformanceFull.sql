@@ -4,6 +4,7 @@ select
     cast(misc.cards_yellow as integer) as cards_yellow,
     cast(misc.cards_red as integer) as cards_red,
 
+    info.id as id,
     info.name as playerFullName,
     cast(CA as integer) as ca,
     cast(Tck as integer) as tck,
