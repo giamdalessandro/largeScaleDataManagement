@@ -159,16 +159,16 @@ object Integration {
             //offensivePerformanceTable ++= offensivePerformanceList,
 
             // DefensivePerformanceTable.schema.dropIfExists,
-            //defensivePerformanceTable.schema.create,
-            //defensivePerformanceTable ++= defensivePerformanceList
+            defensivePerformanceTable.schema.create,
+            defensivePerformanceTable ++= defensivePerformanceList,
 
             // GoalkeeperPerformanceTable.schema.dropIfExists,
-            //goalkeeperPerformanceTable.schema.create,
-            //goalkeeperPerformanceTable ++= goalkeeperPerformanceList
+            goalkeeperPerformanceTable.schema.create,
+            goalkeeperPerformanceTable ++= goalkeeperPerformanceList,
 
             // PlaymakingPerformanceTable.schema.dropIfExists,
-            //playmakingPerformanceTable.schema.create,
-            //playmakingPerformanceTable ++= playmakingPerformanceList
+            playmakingPerformanceTable.schema.create,
+            playmakingPerformanceTable ++= playmakingPerformanceList
         )
 
         val future = db.run(op)
@@ -182,22 +182,22 @@ object Integration {
         val dataframe = sparkSession.sql(sqlString)
 
         import sparkSession.implicits._
-        //val nestedDataframe = dataframe.map(r => {
-        //    PlayerNR(
-        //        PersonalData(r.getString(0)),
-        //        FootballData(r.getString(1), r.getString(2)))
-        //})
+        val nestedDataframe = dataframe.map(r => {
+            PlayerNR(
+                PersonalData(r.getString(0)),
+                FootballData(r.getString(1), r.getString(2)))
+        })
 
  
-        val nestedDataframe = dataframe.map(r => {
-            PlayerDefensiveAbilityNR(
-            r.getLong(0),
-            r.getString(1),
-            r.getInt(2),
-            MentalAbilityDef(r.getInt(3)),
-            TechnicalAbilityDef(r.getInt(4),r.getInt(5),r.getInt(6))
-        )
-        })
+        //val nestedDataframe = dataframe.map(r => {
+        //    PlayerDefensiveAbilityNR(
+        //    r.getLong(0),
+        //    r.getString(1),
+        //    r.getInt(2),
+        //    MentalAbilityDef(r.getInt(3)),
+        //    TechnicalAbilityDef(r.getInt(4),r.getInt(5),r.getInt(6))
+        //)
+        //})
 
         nestedDataframe
             .write
@@ -221,18 +221,6 @@ object Integration {
             TechnicalAbility(r.getInt(5), r.getInt(6))
         )
     }
-
-    //private def player_ability_mapper(r: Row): PlayerAbilityNR = {
-    //    PlayerAbilityNR(
-    //        r.getLong(0),
-    //        r.getString(1),
-    //        r.getInt(2),
-    //        MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
-    //        PhysicalAbilityNR(r.getInt(7)),
-    //        TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
-    //        GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
-    //    )
-    //}
 
     private def player_defensive_ability_mapper(r: Row): PlayerDefensiveAbilityNR = {
         PlayerDefensiveAbilityNR(
@@ -262,5 +250,16 @@ object Integration {
             TechnicalAbilityPm(r.getInt(5),r.getInt(6))
         )
     }
-
+    
+    //private def player_ability_mapper(r: Row): PlayerAbilityNR = {
+    //    PlayerAbilityNR(
+    //        r.getLong(0),
+    //        r.getString(1),
+    //        r.getInt(2),
+    //        MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
+    //        PhysicalAbilityNR(r.getInt(7)),
+    //        TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
+    //        GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
+    //    )
+    //}
 }
