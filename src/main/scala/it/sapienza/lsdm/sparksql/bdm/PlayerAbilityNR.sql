@@ -1,0 +1,22 @@
+select
+    id,
+    playerFullName,
+    ca,
+    Vis as vis,
+    Tea as tea,
+    Cnt as cnt,
+    Agg as agg,
+    Str as str,
+    Tec as tec,
+    Tck as tck,
+    Pen as pen,
+    Pas as pas,
+    Mar as mar,
+    Fin as fin,
+    Dri as dri,
+    TRO as tro,
+    v1  as ovo,
+    Han as han,
+    Cmd as cmd,
+from 
+    Fm20
