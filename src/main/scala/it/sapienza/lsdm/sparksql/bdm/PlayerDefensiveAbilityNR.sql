@@ -1,10 +1,10 @@
 select
-    id,
+    null as id,
     playerFullName,
     ca,
-    tck,
     agg,
+    tck,
     pen,
-    mar,
+    mar
 from 
     DefensivePerformanceFull

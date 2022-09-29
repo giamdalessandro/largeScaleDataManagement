@@ -22,9 +22,9 @@ object App {
     def main(args: Array[String]): Unit = {
         logic.Main.load_data(sparkSession)
         
-        //logic.bdm.Integration.DFM_to_DW(sparkSession)
+        logic.bdm.Integration.DFM_to_DW(sparkSession)
 
-        logic.bdm.Integration.integrate_to_NR(sparkSession, "PlayerAbilityNR")
+        //logic.bdm.Integration.integrate_to_NR(sparkSession, "PlayerAbilityNR")
 
         // add a table to DB
         //val sqlString: String = scala.io.Source.fromFile(SQL_PATH+"Player.sql").mkString

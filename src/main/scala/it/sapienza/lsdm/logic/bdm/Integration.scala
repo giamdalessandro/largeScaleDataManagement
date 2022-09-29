@@ -3,7 +3,7 @@ package it.sapienza.lsdm.logic.bdm
 import it.sapienza.lsdm.App.SQL_PATH
 import it.sapienza.lsdm.App.OUTPUT_PATH
 
-import it.sapienza.lsdm.model.bdm.{PlayerOffensiveAbilityNR,PlayerAbilityNR}
+import it.sapienza.lsdm.model.bdm.{PlayerOffensiveAbilityNR,PlayerDefensiveAbilityNR,PlayerGoalkeeperAbilityNR,PlayerPlaymakingAbilityNR}
 
 import org.apache.spark.sql.{SparkSession, DataFrame, Encoders, Row}
 import slick.jdbc.PostgresProfile.api._
@@ -15,6 +15,7 @@ import scala.concurrent.duration.Duration
 
 import org.apache.spark.sql.functions._
 import it.sapienza.lsdm.model.relational.GoalkeeperAbility
+import org.apache.hadoop.shaded.org.eclipse.jetty.websocket.common.frames
 
 object Integration {
     private final val SQL_PATH_BDM = SQL_PATH + "bdm/"
@@ -66,8 +67,29 @@ object Integration {
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerOffensiveAbilityNR.sql").mkString
         val playerOffAbDf = sparkSession.sql(sqlString)
         import sparkSession.implicits._
-        val nestedDataset = playerOffAbDf.map(r => player_offensive_ability_mapper(r))
-        write_data_to_parquet(nestedDataset, "PlayerOffensiveAbility")
+        val offNestedDataset = playerOffAbDf.map(r => player_offensive_ability_mapper(r))
+        write_data_to_parquet(offNestedDataset, "PlayerOffensiveAbility")
+
+        // PlayerDefensiveAbility Dimension - Non-Relational
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerDefensiveAbilityNR.sql").mkString
+        val playerDefAbDf = sparkSession.sql(sqlString)
+        import sparkSession.implicits._
+        val defNestedDataset = playerDefAbDf.map(r => player_defensive_ability_mapper(r))
+        write_data_to_parquet(defNestedDataset, "PlayerDefensiveAbility")
+
+        // PlayerGoalkeeperAbility Dimension - Non-Relational
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerGoalkeeperAbilityNR.sql").mkString
+        val playerGkAbDf = sparkSession.sql(sqlString)
+        import sparkSession.implicits._
+        val gkNestedDataset = playerGkAbDf.map(r => player_goalkeeper_ability_mapper(r))
+        write_data_to_parquet(gkNestedDataset, "PlayerGoalkeeperAbility")
+
+        // PlayerPlaymakingAbility Dimension - Non-Relational
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerPlaymakingAbilityNR.sql").mkString
+        val playerPmAbDf = sparkSession.sql(sqlString)
+        import sparkSession.implicits._
+        val pmNestedDataset = playerPmAbDf.map(r => player_playmaking_ability_mapper(r))
+        write_data_to_parquet(pmNestedDataset, "PlayerPlaymakingAbility")
 
         // Birth Dimension
         val birthTable = TableQuery[BirthEntity]
@@ -145,8 +167,8 @@ object Integration {
             //goalkeeperPerformanceTable ++= goalkeeperPerformanceList
 
             // PlaymakingPerformanceTable.schema.dropIfExists,
-            playmakingPerformanceTable.schema.create,
-            playmakingPerformanceTable ++= playmakingPerformanceList
+            //playmakingPerformanceTable.schema.create,
+            //playmakingPerformanceTable ++= playmakingPerformanceList
         )
 
         val future = db.run(op)
@@ -160,32 +182,28 @@ object Integration {
         val dataframe = sparkSession.sql(sqlString)
 
         import sparkSession.implicits._
-        //val nestedDataframe = dataframe.map(r => {
-        //    PlayerNR(
-        //        PersonalData(r.getString(0)),
-        //        FootballData(r.getString(1), r.getString(2)))
-        //})
-
         val nestedDataframe = dataframe.map(r => {
-            PlayerAbilityNR(
-                r.getLong(0),
-                r.getString(1),
-                r.getInt(2),
-                MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
-                PhysicalAbilityNR(r.getInt(7)),
-                TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
-                GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
-            )
+            PlayerNR(
+                PersonalData(r.getString(0)),
+                FootballData(r.getString(1), r.getString(2)))
         })
+
+        //val nestedDataframe = dataframe.map(r => {
+        //    PlayerAbilityNR(
+        //        r.getLong(0),
+        //        r.getString(1),
+        //        r.getInt(2),
+        //        MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
+        //        PhysicalAbilityNR(r.getInt(7)),
+        //        TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
+        //        GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
+        //    )
+        //})
 
         nestedDataframe
             .write
             .mode("overwrite")
-            .parquet(s"${OUTPUT_PATH}$entityName")
-        // nestedDataframe
-        //     .write
-        //     .mode("overwrite")
-        //     .json(s"${OUTPUT_PATH}$entityName")
+            .json(s"${OUTPUT_PATH}$entityName")
 
         System.out.println(">>> NR integration FINISHED")
     }
@@ -201,15 +219,44 @@ object Integration {
         )
     }
 
-    private def player_ability_mapper(r: Row): PlayerAbilityNR = {
-        PlayerAbilityNR(
+    //private def player_ability_mapper(r: Row): PlayerAbilityNR = {
+    //    PlayerAbilityNR(
+    //        r.getLong(0),
+    //        r.getString(1),
+    //        r.getInt(2),
+    //        MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
+    //        PhysicalAbilityNR(r.getInt(7)),
+    //        TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
+    //        GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
+    //    )
+    //}
+
+    private def player_defensive_ability_mapper(r: Row): PlayerDefensiveAbilityNR = {
+        PlayerDefensiveAbilityNR(
             r.getLong(0),
             r.getString(1),
             r.getInt(2),
-            MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
-            PhysicalAbilityNR(r.getInt(7)),
-            TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
-            GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
+            MentalAbilityDef(r.getInt(3)),
+            TechnicalAbilityDef(r.getInt(4),r.getInt(5),r.getInt(6))
+        )
+    }
+
+    private def player_goalkeeper_ability_mapper(r: Row): PlayerGoalkeeperAbilityNR = {
+        PlayerGoalkeeperAbilityNR(
+            r.getLong(0),
+            r.getString(1),
+            r.getInt(2),
+            GoalkeeperAbilityGk(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6))
+        )
+    }
+
+    private def player_playmaking_ability_mapper(r: Row): PlayerPlaymakingAbilityNR = {
+        PlayerPlaymakingAbilityNR(
+            r.getLong(0),
+            r.getString(1),
+            r.getInt(2),
+            MentalAbilityPm(r.getInt(3),r.getInt(4)),
+            TechnicalAbilityPm(r.getInt(5),r.getInt(6))
         )
     }
 

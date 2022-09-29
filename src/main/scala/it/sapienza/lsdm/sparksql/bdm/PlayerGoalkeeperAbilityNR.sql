@@ -1,10 +1,10 @@
 select
-    id,
+    null as id,
     playerFullName,
     ca,
     tro,
     ovo,
     han,
-    cmd,
+    cmd
 from 
     GoalkeeperPerformanceFull

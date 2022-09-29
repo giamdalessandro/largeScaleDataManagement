@@ -1,10 +1,10 @@
 select
-    id,
+    null as id,
     playerFullName,
     ca,
     vis,
     tea,
     pas,
-    dri,
+    dri
 from 
     PlaymakingPerformanceFull
