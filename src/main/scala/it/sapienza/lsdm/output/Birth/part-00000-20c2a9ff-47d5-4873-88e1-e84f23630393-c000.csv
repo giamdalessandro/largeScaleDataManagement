@@ -1,0 +1,678 @@
+city,country,id
+Bamako Region,Mali,0
+Toulouse,France,1
+Trier,Germany,2
+Ávila,Spain,3
+Caudete,Spain,4
+Coín,Spain,5
+Leningrad,Russia,6
+Groningen,Netherlands,7
+Cernusco sul Naviglio,Italy,8
+Oviedo,Spain,9
+Tijuana,Estado de Baja California,10
+Uruguay,Uruguay,11
+Mariano J. Haedo,Argentina,12
+Sanremo,Italy,13
+Greenwich,England,14
+Camas,Spain,15
+Neuilly-sur-Seine,France,16
+Manresa,Spain,17
+Bayonne,France,18
+Monte Azul Paulista,Brazil,19
+Gemeente Tiel,Netherlands,20
+Buenos Aires F.D.,Argentina,21
+Châteauroux,France,22
+Belgrade,Serbia,23
+Mantes-la-Jolie,France,24
+Mataró,Spain,25
+Dublin,Republic of Ireland,26
+Vilafranca del Penedès,Spain,27
+Fernán Núñez,Spain,28
+Lyngdal,Norway,29
+Sion,Switzerland,30
+Birmingham,England,31
+Überlingen,Germany,32
+Loughborough,England,33
+Hallein,Austria,34
+Basyūn,Egypt,35
+Arnsberg,Germany,36
+Barendrecht,Netherlands,37
+el Campello,Spain,38
+Rottweil,Germany,39
+San Sebastián de los Ballesteros,Spain,40
+Drammen,Norway,41
+Otterndorf,Germany,42
+Chambéry,France,43
+Bamako,Mali,44
+Zizur Mayor/Zizur Nagusia,Spain,45
+Lunel,France,46
+Whiston,England,47
+Chichester,England,48
+Alella,Spain,49
+Almería,Spain,50
+Córdoba,Argentina,51
+Bom Sucesso,Brazil,52
+San Benedetto Po,Italy,53
+Santander,Spain,54
+Cocentaina,Spain,55
+Vernon,France,56
+Leytonstone,England,57
+Badalona,Spain,58
+Achim,Germany,59
+Helsinki,Finland,60
+Bad Hersfeld,Germany,61
+Sora,Italy,62
+Tepeji de Ocampo,Estado de Hidalgo,63
+Ascoli Piceno,Italy,64
+Arlon,Belgium,65
+Los Palacios y Villafranca,Spain,66
+Longjumeau,France,67
+Zaragoza,Spain,68
+Ebersberg,Germany,69
+Ondarroa,Spain,70
+Maubeuge,France,71
+Rosario,Uruguay,72
+Rotterdam,Netherlands,73
+Porvoo,Finland,74
+Benavente Municipality,Portugal,75
+Bilbao,Spain,76
+Vénissieux,France,77
+Glória d'Oeste,Brazil,78
+Munich,Germany,79
+Torrent,Spain,80
+Sundsvall,Sweden,81
+Winchester,England,82
+Seville,Spain,83
+Antofagasta,Chile,84
+Roehampton,England,85
+Kingston,Jamaica,86
+Imbituba,Brazil,87
+Paris,France,88
+Ouderkerk aan den IJssel,Netherlands,89
+João Pessoa,Brazil,90
+Sint-Agatha-Berchem,Belgium,91
+Tameside,England,92
+Seeheim-Jugenheim,Germany,93
+Londrina,Brazil,94
+Esmeraldas,Ecuador,95
+La Louvière,Belgium,96
+Massy,France,97
+Wythenshawe,England,98
+Palamós,Spain,99
+Gernika-Lumo,Spain,100
+Vushtrri,Kosovo,101
+Judenburg,Austria,102
+Prilep,North Macedonia,103
+Wiesbaden,Germany,104
+Mos,Spain,105
+Viareggio,Italy,106
+Gemeente Haarlem,Netherlands,107
+Boulogne-sur-Mer,France,108
+Neustadt an der Weinstraße,Germany,109
+Gosport,England,110
+Ipatinga,Brazil,111
+Sokodé,Togo,112
+Moncada,Spain,113
+Baie-Mahault,Guadeloupe,114
+Gemeente Huizen,Netherlands,115
+Arafo,Spain,116
+Fukuoka,Japan,117
+San Cristóbal,Venezuela,118
+Beauvais,France,119
+Bingen am Rhein,Germany,120
+Novi Sad,Serbia,121
+Sheffield,England,122
+Kassel,Germany,123
+Montreal,Québec,124
+Würselen,Germany,125
+New York,New York,126
+Coburg,Germany,127
+Nantwich,England,128
+Auckland,New Zealand,129
+Guachené,Colombia,130
+Bree,Belgium,131
+Florence,Italy,132
+Wernigerode,Germany,133
+Wappingers Falls,New York,134
+Yaoundé,Cameroon,135
+El Puerto de Santa María,Spain,136
+Gemeente Kerkrade,Netherlands,137
+Guédiawaye,Senegal,138
+Montevideo,Uruguay,139
+Land Berlin,Germany,140
+Çankaya,Turkey,141
+Milan,Italy,142
+Voghera,Italy,143
+Braga Municipality,Portugal,144
+Caloto,Colombia,145
+Esbjerg,Denmark,146
+Murcia,Spain,147
+Liège,Belgium,148
+Nova Venécia,Brazil,149
+Giessen,Germany,150
+Neunkirchen,Austria,151
+Cardiff,Wales,152
+Milton Keynes,England,153
+Salceda de Caselas,Spain,154
+Porto Maurizio,Italy,155
+Pisa,Italy,156
+Assisi,Italy,157
+Santiago,Chile,158
+Azkoitia,Spain,159
+Kreisfreie Stadt Erfurt,Germany,160
+Arkel,Netherlands,161
+Caerphilly,Wales,162
+Gemeente Hellevoetsluis,Netherlands,163
+Noáin,Spain,164
+Vizzolo Predabissi,Italy,165
+Colombia,Colombia,166
+Vilamarxant,Spain,167
+Rüdesheim am Rhein,Germany,168
+Tostado,Argentina,169
+San Miguel,Argentina,170
+Créteil,France,171
+San Sebastian,Spain,172
+Antwerp,Belgium,173
+Manerbio,Italy,174
+Benahadux,Spain,175
+Aberdeen,Scotland,176
+Lucca,Italy,177
+Lilienfeld,Austria,178
+Lille,France,179
+Gladsaxe Municipality,Denmark,180
+Cologne,Germany,181
+Serrekunda,Gambia,182
+Höxter,Germany,183
+San Vito al Tagliamento,Italy,184
+Düsseldorf,Germany,185
+Romford,England,186
+Ostend,Belgium,187
+Casalmaggiore,Italy,188
+Oslo,Norway,189
+Granollers,Spain,190
+Cesena,Italy,191
+Mosbach,Germany,192
+Lisbon,Portugal,193
+Cagliari,Italy,194
+Rho,Italy,195
+Ghent,Belgium,196
+La Guaira,Venezuela,197
+Mannheim,Germany,198
+Soria,Spain,199
+Fray Bentos,Uruguay,200
+Gostivar,North Macedonia,201
+Izumisano-shi,Japan,202
+Riudarenes,Spain,203
+Versailles,France,204
+Urbino,Italy,205
+Cali,Colombia,206
+Norrköping,Sweden,207
+Easton,Pennsylvania,208
+Bremen,Germany,209
+St. Gallen,Switzerland,210
+Puente Alto,Chile,211
+Colina,Brazil,212
+São José dos Campos,Brazil,213
+Leuven,Belgium,214
+Laval,France,215
+Whitehaven,England,216
+Nizhny Novgorod,Russia,217
+Moaña,Spain,218
+Benue State,Nigeria,219
+Bourg-de-Péage,France,220
+Pátrai,Greece,221
+Montevarchi,Italy,222
+City of Zagreb,Croatia,223
+Olivares,Spain,224
+Lyon,France,225
+Villingen-Schwenningen,Germany,226
+Wiesendangen / Wiesendangen (Dorf),Switzerland,227
+Exeter,England,228
+Chelmsford,England,229
+Mostaganem,Algeria,230
+Oberpullendorf,Austria,231
+Borgo San Lorenzo,Italy,232
+Gemeente Heemskerk,Netherlands,233
+Salzburg,Austria,234
+Mexico City,Distrito Federal,235
+Chester,England,236
+Stockholm County,Sweden,237
+Vigo,Spain,238
+Schorndorf,Germany,239
+Horn,Austria,240
+Maldonado Department,Uruguay,241
+Massa,Italy,242
+Ouragahio,Côte d'Ivoire,243
+Agen,France,244
+Sarandí,Argentina,245
+Pamplona,Spain,246
+Busto Arsizio,Italy,247
+Harrow,England,248
+Viseu Municipality,Portugal,249
+Weilheim,Germany,250
+Lodi,Italy,251
+Troisdorf,Germany,252
+Bracciano,Italy,253
+Solingen,Germany,254
+Bissau,Guinea-Bissau,255
+Carcaixent,Spain,256
+Marmolejo,Spain,257
+Ilorin,Nigeria,258
+Basel,Switzerland,259
+Sint-Pieters-Leeuw,Belgium,260
+Euskirchen,Germany,261
+Meliana,Spain,262
+San Severino Marche,Italy,263
+San Sebastián,Spain,264
+Guadahortuna,Spain,265
+Meulan-en-Yvelines,France,266
+Preston,England,267
+Colonia del Sacramento,Uruguay,268
+Neath,Wales,269
+Pforzheim,Germany,270
+Mondragón,Spain,271
+Province of Modena,Italy,272
+London,England,273
+Stanmore,England,274
+Coventry,England,275
+Saint-Dié-des-Vosges,France,276
+Gijón,Spain,277
+Coristanco,Spain,278
+Solna,Sweden,279
+Kingston upon Thames,England,280
+Tucupita,Venezuela,281
+Barcelona,Spain,282
+Bath,England,283
+Plumpton,Australia,284
+Cascais,Portugal,285
+Terrassa,Spain,286
+Bogotá,Colombia,287
+Santiago de Compostela,Spain,288
+Mar del Plata,Argentina,289
+Pabu,France,290
+Croydon,England,291
+Buin,Chile,292
+Berlin,Germany,293
+The Hague,Netherlands,294
+Leganés,Spain,295
+Thessaloniki,Greece,296
+Saint-Maurice,France,297
+North Shields,England,298
+Sanlúcar de Barrameda,Spain,299
+Imo State,Nigeria,300
+Vendôme,France,301
+Sındırgı,Turkey,302
+Strumica,North Macedonia,303
+Escároz,Spain,304
+Idar-Oberstein,Germany,305
+Canosa di Puglia,Italy,306
+San Lorenzo,Paraguay,307
+Châtenay-Malabry,France,308
+l'Hospitalet de Llobregat,Spain,309
+Hemel Hempstead,England,310
+Fujieda-shi,Japan,311
+Wil,Switzerland,312
+Douglas,Isle of Man,313
+Broni,Italy,314
+Massarelos,Portugal,315
+Monza,Italy,316
+Camberwell,England,317
+Vienna,Austria,318
+Zwijndrecht,Netherlands,319
+Santa Rosa,Argentina,320
+Monrovia,Liberia,321
+Strasbourg,France,322
+Tocopilla,Chile,323
+Stafford,England,324
+Baguim do Monte,Portugal,325
+Słupca,Poland,326
+Braunschweig,Germany,327
+Montreuil,France,328
+Santo Domingo de los Colorados,Ecuador,329
+Mutriku,Spain,330
+Oeiras,Portugal,331
+Cascante,Spain,332
+Aliança,Brazil,333
+Waiblingen,Germany,334
+Brussels,Belgium,335
+Rojales,Spain,336
+Mönchengladbach,Germany,337
+Abidjan,Côte d'Ivoire,338
+Belfast,Northern Ireland,339
+Daimiel,Spain,340
+Ancenis,France,341
+Uccle,Belgium,342
+Riesa,Germany,343
+Blyth,England,344
+Trenčín,Slovakia,345
+Ribeirão Preto,Brazil,346
+Manchester,England,347
+Calabozo,Venezuela,348
+Ulldecona,Spain,349
+Budapest főváros,Hungary,350
+Arenys De Mar,Spain,351
+Bury,England,352
+Farum,Denmark,353
+Legnano,Italy,354
+Melun,France,355
+Hanau,Germany,356
+Luanda,Angola,357
+Girona,Spain,358
+Policoro,Italy,359
+Kinshasa,Congo DR,360
+Bochum,Germany,361
+Correggio,Italy,362
+Kreisfreie Stadt Potsdam,Germany,363
+Canelones Department,Uruguay,364
+Warrington,England,365
+Torino,Italy,366
+Lecce,Italy,367
+Ängelholm,Sweden,368
+Marbella,Spain,369
+Beerta,Netherlands,370
+Kanagawa,Japan,371
+Glasgow,Scotland,372
+Hanover,Germany,373
+Dakar,Senegal,374
+Barra Bonita,Brazil,375
+La Playa de Arguineguín,Spain,376
+Chiclana de la Frontera,Spain,377
+Reus,Spain,378
+Doncaster,England,379
+Syston,England,380
+Southwark,England,381
+Rosario,Argentina,382
+Sabadell,Spain,383
+Västerås,Sweden,384
+Châlons-en-Champagne,France,385
+Cadiz,Spain,386
+Passendale,Belgium,387
+Vitoria-Gasteiz,Spain,388
+Setúbal,Portugal,389
+Segrate,Italy,390
+Walthamstow,England,391
+Hereford,England,392
+Emsworth,England,393
+A Coruña,Spain,394
+Montmeló,Spain,395
+Alcoy,Spain,396
+Belo Horizonte,Brazil,397
+Desenzano del Garda,Italy,398
+Cheltenham,England,399
+Lagny-sur-Marne,France,400
+Talavera de la Reina,Spain,401
+Leeds,England,402
+Valencia,Spain,403
+Cles,Italy,404
+Barreiro,Portugal,405
+Sagunto,Spain,406
+Wangen im Allgäu,Germany,407
+Castellón de la Plana,Spain,408
+Livorno,Italy,409
+Arles,France,410
+Las Palmas,Spain,411
+Genoa,Italy,412
+Grijó,Portugal,413
+Carrara,Italy,414
+Bunia,Congo DR,415
+Maasmechelen,Belgium,416
+Derby,England,417
+Juan Bautista Alberdi,Argentina,418
+Frankfurt am Main,Germany,419
+Fontenay-aux-Roses,France,420
+Sorgono,Italy,421
+Málaga,Spain,422
+Mozelos,Portugal,423
+Snina,Slovakia,424
+Bella Vista,Argentina,425
+Ollioules,France,426
+Las Cabezas de San Juan,Spain,427
+Aachen,Germany,428
+Valls,Spain,429
+Meaux,France,430
+Chêne-Bougeries,Switzerland,431
+Viladecans,Spain,432
+Sertãozinho,Brazil,433
+Cassino,Italy,434
+Fohren,Germany,435
+Viterbo,Italy,436
+Kreisfreie Stadt Augsburg,Germany,437
+Zenica,Bosnia and Herzegovina,438
+NULL,NULL,439
+Salford,England,440
+Aarau,Switzerland,441
+Altamura,Italy,442
+Lagos,Nigeria,443
+Ennenda,Switzerland,444
+Hwange,Zimbabwe,445
+Madrid,Spain,446
+Prague,Czech Republic,447
+Sáenz Peña,Argentina,448
+Conakry,Guinea,449
+Zhytomyr,Ukraine,450
+Zurich,Switzerland,451
+Catanzaro,Italy,452
+Edmonton,England,453
+Marín,Spain,454
+Asse,Belgium,455
+Mainz,Germany,456
+Ljungby,Sweden,457
+Żnin,Poland,458
+Porto Calvo,Brazil,459
+Naples,Italy,460
+Emmerich am Rhein,Germany,461
+San-Pédro,Côte d'Ivoire,462
+Tamworth,England,463
+Weinstadt,Germany,464
+Guadalajara,Estado de Jalisco,465
+Rrethi i Shkodrës,Albania,466
+Famaillá,Argentina,467
+Graz,Austria,468
+Scotland,United Kingdom,469
+Villafranca Montes de Oca,Spain,470
+Hillerød,Denmark,471
+Gorzów Wielkopolski,Poland,472
+Galway,Republic of Ireland,473
+Maia,Portugal,474
+Novo Hamburgo,Brazil,475
+Ludwigsfelde,Germany,476
+Sant Jaume dels Domenys,Spain,477
+Leiderdorp,Netherlands,478
+Breda,Netherlands,479
+Palma,Spain,480
+Santa Perpètua de Mogoda,Spain,481
+Lecco,Italy,482
+Skopje,North Macedonia,483
+Filderstadt,Germany,484
+Accra,Ghana,485
+Kreisfreie Stadt Kaiserslautern,Germany,486
+Rome,Italy,487
+Aigle,Switzerland,488
+Herford,Germany,489
+Novelda,Spain,490
+Ehime,Japan,491
+Bergamo,Italy,492
+Petersfield,England,493
+Rio de Janeiro,Brazil,494
+Motril,Spain,495
+Neustadt an der Aisch,Germany,496
+Saint-Priest-en-Jarez,France,497
+Swansea,Wales,498
+Barranquilla,Colombia,499
+England,United Kingdom,500
+Barnsley,England,501
+Komuna e Gjilanit,Kosovo,502
+Basildon,England,503
+Little Elm,Texas,504
+Vats,Norway,505
+Herdecke,Germany,506
+San Vicent del Raspeig,Spain,507
+San Antonio de Padua,Argentina,508
+Stuttgart,Germany,509
+Nobres,Brazil,510
+Brescia,Italy,511
+Manacor,Spain,512
+Neuss,Germany,513
+Nagasaki-shi,Japan,514
+Cariati,Italy,515
+Cork,Republic of Ireland,516
+Calcinate,Italy,517
+Stockholm,Sweden,518
+Ourinhos,Brazil,519
+Warsaw,Poland,520
+Kosovska Mitrovica,Kosovo,521
+Salvador,Brazil,522
+Alto Paraíso de Goiás,Brazil,523
+Matadepera,Spain,524
+Bagnolet,France,525
+York,England,526
+Torre Annunziata,Italy,527
+Herten,Germany,528
+Torpoint,England,529
+La Plata,Argentina,530
+Carshalton,England,531
+Saarbrücken,Germany,532
+Castiglione del Lago,Italy,533
+Calgary,Alberta,534
+St Albans,England,535
+San Nicolás de los Arroyos,Argentina,536
+Marseille,France,537
+Mogi das Cruzes,Brazil,538
+Ouagadougou,Burkina Faso,539
+Dijon,France,540
+Brighton,England,541
+La Carlota,Argentina,542
+Gemeente Heumen,Netherlands,543
+Frederiksberg,Denmark,544
+Catanduva,Brazil,545
+Portugalete,Spain,546
+Leicester,England,547
+Porto Municipality,Portugal,548
+Eastbourne,England,549
+Ulm,Germany,550
+Umhausen,Austria,551
+Parla,Spain,552
+Jajce,Bosnia and Herzegovina,553
+Amude,Syria,554
+Tres Algarrobos,Argentina,555
+Curtis,Spain,556
+Bratislava,Slovakia,557
+Asunción,Paraguay,558
+Osasco,Brazil,559
+Utrera,Spain,560
+Naxos,Greece,561
+Fes-Medina,Morocco,562
+Bicas,Brazil,563
+Medellín,Colombia,564
+Feldkirchen,Austria,565
+Castellammare di Stabia,Italy,566
+Cercola,Italy,567
+Umuahia,Nigeria,568
+Simmerath,Germany,569
+Rivera,Uruguay,570
+Hørsholm,Denmark,571
+Sarcelles,France,572
+Burnley,England,573
+Duffel,Belgium,574
+Pirmasens,Germany,575
+Reykjavik,Iceland,576
+Liverpool,England,577
+Santa Cruz de Tenerife,Spain,578
+San José del Valle,Spain,579
+Bojnice,Slovakia,580
+Greifswald,Germany,581
+Banjul,Gambia,582
+Sale,England,583
+Portimão Municipality,Portugal,584
+Pristina,Kosovo,585
+Benalmádena,Spain,586
+Le Blanc-Mesnil,France,587
+Fuenlabrada,Spain,588
+Monselice,Italy,589
+Sédhiou,Senegal,590
+Portugal,Portugal,591
+Santo Tomás,Colombia,592
+Salto,Uruguay,593
+Meudon,France,594
+Stockport,England,595
+Tarare,France,596
+Waltham Forest,England,597
+Memmingen,Germany,598
+Stevenage,England,599
+Paysandú,Uruguay,600
+Dourados,Brazil,601
+Magdalena,Argentina,602
+Como,Italy,603
+Motilla del Palancar,Spain,604
+Umbertide,Italy,605
+Benin,Benin,606
+Anzio,Italy,607
+Adligenswil,Switzerland,608
+Jeddah,Saudi Arabia,609
+Friedberg,Germany,610
+Bergisch Gladbach,Germany,611
+Amsterdam,Netherlands,612
+Valladolid,Spain,613
+Sakskøbing,Denmark,614
+Kreisfreie Stadt Ludwigshafen am Rhein,Germany,615
+Gemeente Assen,Netherlands,616
+Joldești,Romania,617
+Valdagno,Italy,618
+Metković,Croatia,619
+Zumarraga,Spain,620
+Bonn,Germany,621
+Serrania,Brazil,622
+Žilina,Slovakia,623
+Gemeente Purmerend,Netherlands,624
+Catford,England,625
+Mula,Spain,626
+Villarreal,Spain,627
+Pontedera,Italy,628
+Wales,United Kingdom,629
+Wandsworth,England,630
+Yerevan,Armenia,631
+Maceió,Brazil,632
+Darmstadt,Germany,633
+Witten,Germany,634
+Castelnuovo di Garfagnana,Italy,635
+Getafe,Spain,636
+Marrazes,Portugal,637
+Riva del Garda,Italy,638
+Portsmouth,England,639
+Karlsruhe,Germany,640
+Mâcon,France,641
+Bentivoglio,Italy,642
+Bahía Blanca,Argentina,643
+Ixelles-Elsene,Belgium,644
+Kreisfreie Stadt Chemnitz,Germany,645
+São Paulo,Brazil,646
+Kreisfreie Stadt Dortmund,Germany,647
+Province of Parma,Italy,648
+Potters Bar,England,649
+Araxá,Brazil,650
+Lillerød,Denmark,651
+Vitória,Brazil,652
+Almada,Portugal,653
+Sunderland,England,654
+Quilmes,Argentina,655
+Évreux,France,656
+Funchal,Portugal,657
+Hamburg,Germany,658
+O'Fallon,Missouri,659
+Bradford,England,660
+Washington,England,661
+Nemours,France,662
+Rochdale,England,663
+Copenhagen,Denmark,664
+Fulda,Germany,665
+Campinas,Brazil,666
+Inverness,Scotland,667
+Fortaleza,Brazil,668
+Gemeente Borne,Netherlands,669
+Pontoise,France,670
+Osmangazi,Turkey,671
+Sines Municipality,Portugal,672
+Horsens,Denmark,673
+Lewisham,England,674
+Coimbra Municipality,Portugal,675
+Lövenich,Germany,676

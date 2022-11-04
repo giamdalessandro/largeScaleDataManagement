@@ -1,0 +1,85 @@
+goal_against_gk,shots_on_target_against,saves,pen_saves_pct,id,playerFullName,ca,tro,ovo,han,cmd,city,country,squad,comp
+30,102,78,25.0,0,Jasper Cillessen,148,12,1,16,14,Gemeente Nijmegen,Netherlands,Valencia,1. La Liga
+42,134,97,50.0,1,Gianluigi Donnarumma,160,13,1,15,15,Castellammare di Stabia,Italy,Milan,1. Serie A
+43,148,108,0.0,2,Marco Silvestri,128,11,1,14,13,Castelnovo ne' Monti,Italy,Hellas Verona,1. Serie A
+32,114,83,0.0,3,Alexander Schwolow,135,11,1,14,9,Wiesbaden,Germany,Freiburg,1. Bundesliga
+7,15,8,"",4,Claudio Bravo,125,1,1,2,3,Buin,Chile,Manchester City,1. Premier League
+64,189,135,10.0,5,Salvatore Sirigu,152,13,1,16,14,Nuoro,Italy,Torino,1. Serie A
+20,95,74,"",6,Thibaut Courtois,162,10,1,16,16,Bree,Belgium,Real Madrid,1. La Liga
+45,122,83,11.1,7,Pau López,147,14,1,15,14,Girona,Spain,Roma,1. Serie A
+39,147,110,14.3,8,Bernd Leno,151,16,1,16,14,Bietigheim-Bissingen,Germany,Arsenal,1. Premier League
+1,5,4,"",9,Antonio Rosati,103,5,1,13,12,Tivoli,Italy,Torino,1. Serie A
+47,99,55,0.0,10,Kepa Arrizabalaga,150,15,1,16,13,Ondarroa,Spain,Chelsea,1. Premier League
+1,7,6,"",11,Marwin Hitz,136,14,1,14,11,St. Gallen,Switzerland,Dortmund,1. Bundesliga
+5,13,10,0.0,12,Alphonse Areola,150,12,1,14,13,Paris,France,Real Madrid,1. La Liga
+5,22,17,0.0,13,Antonio Mirante,132,13,1,14,12,Castellammare di Stabia,Italy,Roma,1. Serie A
+42,145,111,12.5,14,Thomas Strakosha,150,12,1,16,10,Athens,Greece,Lazio,1. Serie A
+35,110,77,50.0,15,Alex McCarthy,131,11,1,14,13,Guildford,England,Southampton,1. Premier League
+32,87,62,12.5,16,Álex Remiro,136,14,1,13,13,Cascante,Spain,Real Sociedad,1. La Liga
+28,92,65,0.0,17,Ederson,169,17,1,15,15,Osasco,Brazil,Manchester City,1. Premier League
+69,152,87,33.3,18,Timo Horn,140,13,1,14,11,Cologne,Germany,Köln,1. Bundesliga
+36,95,61,50.0,19,Zack Steffen,135,12,1,12,15,Coatesville,Pennsylvania,Düsseldorf,1. Bundesliga
+54,164,114,0.0,20,Mathew Ryan,131,14,1,15,11,Plumpton,Australia,Brighton,1. Premier League
+62,177,120,16.7,21,Aaron Ramsdale,135,8,1,15,11,Staffordshire,England,Bournemouth,1. Premier League
+49,143,101,28.6,22,Oliver Baumann,140,16,1,16,10,Breisach,Germany,Hoffenheim,1. Bundesliga
+56,145,95,0.0,23,Jordan Pickford,146,12,1,14,15,Washington,England,Everton,1. Premier League
+50,159,112,20.0,24,Nick Pope,140,13,1,16,17,Soham,England,Burnley,1. Premier League
+38,99,63,0.0,25,Mattia Perin,143,15,1,14,14,Latina,Italy,Genoa,1. Serie A
+41,126,95,20.0,26,Kasper Schmeichel,150,16,1,14,14,Copenhagen,Denmark,Leicester City,1. Premier League
+40,113,75,50.0,27,Robin Zentner,123,14,1,13,9,Rüdesheim am Rhein,Germany,Mainz 05,1. Bundesliga
+29,103,78,0.0,28,Unai Simón,139,12,1,14,13,Vitoria-Gasteiz,Spain,Athletic Club,1. La Liga
+60,160,110,0.0,29,Emil Audero,134,16,1,13,15,Mataram,Indonesia,Sampdoria,1. Serie A
+36,110,78,14.3,30,Marc-André ter Stegen,170,18,1,14,15,Mönchengladbach,Germany,Barcelona,1. La Liga
+8,22,14,"",31,Wayne Hennessey,124,14,1,12,9,Bangor,Wales,Crystal Palace,1. Premier League
+9,42,33,0.0,32,Emiliano Martínez,140,11,1,14,14,Mar del Plata,Argentina,Arsenal,1. Premier League
+40,120,80,66.7,33,Rui Patrício,153,15,1,16,11,Marrazes,Portugal,Wolves,1. Premier League
+23,79,58,0.0,34,Alisson,174,16,1,16,13,Novo Hamburgo,Brazil,Liverpool,1. Premier League
+1,1,0,"",35,Francesco Rossi,45,1,1,2,3,Merate,Italy,Atalanta,1. Serie A
+1,1,0,"",36,Francesco Rossi,101,8,1,10,10,Merate,Italy,Atalanta,1. Serie A
+12,35,23,"",37,Andreas Luthe,122,12,1,13,12,Velbert,Germany,Augsburg,1. Bundesliga
+1,2,1,"",38,Daniel Fuzato,103,13,1,10,9,Santa Bárbara d'Oeste,Brazil,Roma,1. Serie A
+17,53,36,0.0,39,David Ospina,140,11,1,14,14,Medellín,Colombia,Napoli,1. Serie A
+31,111,84,25.0,40,Manuel Neuer,176,20,1,14,17,Gelsenkirchen,Germany,Bayern Munich,1. Bundesliga
+55,140,93,12.5,41,Andrea Consigli,134,11,1,14,13,Milan,Italy,Sassuolo,1. Serie A
+3,8,6,0.0,42,Juan Pérez,125,12,1,11,11,Huesca,Spain,Osasuna,1. La Liga
+21,93,74,33.3,43,Hugo Lloris,157,18,1,17,12,Nice,France,Tottenham,1. Premier League
+37,102,70,16.7,44,David Soria,144,17,1,17,17,Madrid,Spain,Getafe,1. La Liga
+33,76,46,16.7,45,Alex Meret,148,15,1,16,13,Udine,Italy,Napoli,1. Serie A
+3,5,3,0.0,46,Samir Ujkani,107,9,1,12,10,Vushtrri,Kosovo,Torino,1. Serie A
+43,126,87,0.0,47,Rubén Blanco,138,14,1,14,10,Mos,Spain,Celta Vigo,1. La Liga
+37,92,61,27.3,48,Fernando Pacheco,141,15,1,15,13,Badajoz,Spain,Alavés,1. La Liga
+3,4,2,0.0,49,Antonio Sivera,122,9,1,11,8,Xàtiva,Spain,Alavés,1. La Liga
+41,142,107,16.7,50,Sergio Asenjo,147,12,1,15,14,Palencia,Spain,Villarreal,1. La Liga
+5,13,8,0.0,51,Wladimiro Falcone,95,8,1,11,7,Rome,Italy,Sampdoria,1. Serie A
+51,201,152,50.0,52,Aitor Fernández,135,13,1,13,13,Mondragón,Spain,Levante,1. La Liga
+51,186,139,20.0,53,Juan Musso,137,14,1,14,13,San Nicolás de los Arroyos,Argentina,Udinese,1. Serie A
+7,16,10,"",54,Willy Caballero,140,16,1,16,15,Santa Elena,Argentina,Chelsea,1. Premier League
+27,79,52,0.0,55,Sergio Herrera,132,12,1,15,13,Miranda de Ebro,Spain,Osasuna,1. La Liga
+35,99,67,0.0,56,Tom Heaton,137,11,1,13,13,Chester,England,Aston Villa,1. Premier League
+14,47,35,0.0,57,Frederik Rønnow,128,14,1,13,9,Horsens,Denmark,Eint Frankfurt,1. Bundesliga
+0,0,0,"",58,Jed Steer,123,11,1,13,12,Norwich,England,Aston Villa,1. Premier League
+14,70,54,"",59,Mark Flekken,119,15,1,11,10,Gemeente Kerkrade,Netherlands,Freiburg,1. Bundesliga
+2,3,1,"",60,Neto,152,14,1,13,14,Araxá,Brazil,Barcelona,1. La Liga
+42,147,106,"",61,Vicente Guaita,142,14,1,16,14,Torrent,Spain,Crystal Palace,1. Premier League
+5,19,14,"",62,Marco Sportiello,129,14,1,14,15,Desio,Italy,Atalanta,1. Serie A
+40,114,79,0.0,63,Alexander Nübel,140,17,1,11,15,Paderborn,Germany,Schalke 04,1. Bundesliga
+34,117,82,0.0,64,Péter Gulácsi,144,15,1,16,13,Budapest főváros,Hungary,RB Leipzig,1. Bundesliga
+4,20,16,0.0,65,Philipp Pentke,110,10,1,12,11,Freiberg,Germany,Hoffenheim,1. Bundesliga
+8,36,29,0.0,66,Pavao Pervan,124,9,1,13,13,Livno,Bosnia and Herzegovina,Wolfsburg,1. Bundesliga
+25,64,41,33.3,67,Florian Müller,126,17,1,11,10,Saarlouis,Germany,Mainz 05,1. Bundesliga
+48,118,80,0.0,68,Joel Robles,131,14,1,16,18,Getafe,Spain,Betis,1. La Liga
+38,104,69,0.0,69,Kevin Trapp,144,15,1,14,12,Merzig,Germany,Eint Frankfurt,1. Bundesliga
+4,6,3,0.0,70,Daniele Padelli,124,12,1,15,12,Lecco,Italy,Inter,1. Serie A
+38,104,69,0.0,71,Koen Casteels,140,18,1,11,14,Bonheiden,Belgium,Wolfsburg,1. Bundesliga
+5,19,16,0.0,72,Pietro Terracciano,117,10,1,14,13,San Felice a Cancello,Italy,Fiorentina,1. Serie A
+1,5,4,100.0,73,Pepe Reina,138,18,1,12,15,Madrid,Spain,Milan,1. Serie A
+20,50,32,33.3,74,Pepe Reina,138,18,1,12,15,Madrid,Spain,Aston Villa,1. Premier League
+33,129,97,50.0,75,Dean Henderson,140,9,1,14,14,Whitehaven,England,Sheffield Utd,1. Premier League
+42,136,97,20.0,76,Rui Silva,127,13,1,14,14,Maia,Portugal,Granada,1. La Liga
+27,105,82,0.0,77,Jan Oblak,175,15,1,18,16,Škofja Loka,Slovenia,Atlético Madrid,1. La Liga
+4,26,23,"",78,Gianluca Pegolo,123,14,1,14,12,Bassano del Grappa,Italy,Sassuolo,1. Serie A
+42,113,78,0.0,79,Pierluigi Gollini,142,14,1,13,13,Bologna,Italy,Atalanta,1. Serie A
+21,86,66,50.0,80,Alessio Cragno,142,12,1,16,15,Fiesole,Italy,Cagliari,1. Serie A
+3,19,17,0.0,81,Yassine Bounou,136,9,1,16,14,Montreal,Québec,Sevilla,1. La Liga
+10,28,17,"",82,Adrián,140,12,1,13,13,Seville,Spain,Liverpool,1. Premier League
+10,28,17,"",83,Adrián,130,1,1,2,1,Seville,Spain,Liverpool,1. Premier League
