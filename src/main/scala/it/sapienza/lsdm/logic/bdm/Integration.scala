@@ -1,7 +1,7 @@
 package it.sapienza.lsdm.logic.bdm
 
 import it.sapienza.lsdm.App.SQL_PATH
-import it.sapienza.lsdm.App.OUTPUT_PATH
+import it.sapienza.lsdm.App.{INPUT_PATH, OUTPUT_PATH}
 
 import it.sapienza.lsdm.model.bdm.{PlayerOffensiveAbilityNR,PlayerDefensiveAbilityNR,PlayerGoalkeeperAbilityNR,PlayerPlaymakingAbilityNR}
 
@@ -32,32 +32,34 @@ object Integration {
         offensivePerformanceFullDf.createOrReplaceTempView("OffensivePerformanceFull")
         write_df_to_csv(offensivePerformanceFullDf, "OffensivePerformanceFull")//XXX debugging
 
-        /**
-         * DefensivePerformance Full
-         */
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "DefensivePerformanceFull.sql").mkString
-        var defensivePerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
-        defensivePerformanceFullDf = defensivePerformanceFullDf.withColumn("id", monotonically_increasing_id())
-        defensivePerformanceFullDf.createOrReplaceTempView("DefensivePerformanceFull")
-        write_df_to_csv(defensivePerformanceFullDf, "DefensivePerformanceFull")//XXX debugging
+        //XXX WIP
 
-        /**
-         * GoalkeeperPerformance Full
-         */
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "GoalkeeperPerformanceFull.sql").mkString
-        var goalkeeperPerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
-        goalkeeperPerformanceFullDf = goalkeeperPerformanceFullDf.withColumn("id", monotonically_increasing_id())
-        goalkeeperPerformanceFullDf.createOrReplaceTempView("GoalkeeperPerformanceFull")
-        write_df_to_csv(goalkeeperPerformanceFullDf, "GoalkeeperPerformanceFull")//XXX debugging
+        // /**
+        //  * DefensivePerformance Full
+        //  */
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "DefensivePerformanceFull.sql").mkString
+        // var defensivePerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
+        // defensivePerformanceFullDf = defensivePerformanceFullDf.withColumn("id", monotonically_increasing_id())
+        // defensivePerformanceFullDf.createOrReplaceTempView("DefensivePerformanceFull")
+        // write_df_to_csv(defensivePerformanceFullDf, "DefensivePerformanceFull")//XXX debugging
 
-        /**
-         * PlaymakingPerformance Full
-         */
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlaymakingPerformanceFull.sql").mkString
-        var playmakingPerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
-        playmakingPerformanceFullDf = playmakingPerformanceFullDf.withColumn("id", monotonically_increasing_id())
-        playmakingPerformanceFullDf.createOrReplaceTempView("PlaymakingPerformanceFull")
-        write_df_to_csv(playmakingPerformanceFullDf, "PlaymakingPerformanceFull")//XXX debugging
+        // /**
+        //  * GoalkeeperPerformance Full
+        //  */
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "GoalkeeperPerformanceFull.sql").mkString
+        // var goalkeeperPerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
+        // goalkeeperPerformanceFullDf = goalkeeperPerformanceFullDf.withColumn("id", monotonically_increasing_id())
+        // goalkeeperPerformanceFullDf.createOrReplaceTempView("GoalkeeperPerformanceFull")
+        // write_df_to_csv(goalkeeperPerformanceFullDf, "GoalkeeperPerformanceFull")//XXX debugging
+
+        // /**
+        //  * PlaymakingPerformance Full
+        //  */
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlaymakingPerformanceFull.sql").mkString
+        // var playmakingPerformanceFullDf: DataFrame = sparkSession.sql(sqlString)
+        // playmakingPerformanceFullDf = playmakingPerformanceFullDf.withColumn("id", monotonically_increasing_id())
+        // playmakingPerformanceFullDf.createOrReplaceTempView("PlaymakingPerformanceFull")
+        // write_df_to_csv(playmakingPerformanceFullDf, "PlaymakingPerformanceFull")//XXX debugging
 
         /**
          * Dimensions
@@ -70,26 +72,28 @@ object Integration {
         val offNestedDataset = playerOffAbDf.map(r => player_offensive_ability_mapper(r))
         write_data_to_parquet(offNestedDataset, "PlayerOffensiveAbility")
 
-        // PlayerDefensiveAbility Dimension - Non-Relational
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerDefensiveAbilityNR.sql").mkString
-        val playerDefAbDf = sparkSession.sql(sqlString)
-        import sparkSession.implicits._
-        val defNestedDataset = playerDefAbDf.map(r => player_defensive_ability_mapper(r))
-        write_data_to_parquet(defNestedDataset, "PlayerDefensiveAbilityNR")
+        //XXX WIP
 
-        // PlayerGoalkeeperAbility Dimension - Non-Relational
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerGoalkeeperAbilityNR.sql").mkString
-        val playerGkAbDf = sparkSession.sql(sqlString)
-        import sparkSession.implicits._
-        val gkNestedDataset = playerGkAbDf.map(r => player_goalkeeper_ability_mapper(r))
-        write_data_to_parquet(gkNestedDataset, "PlayerGoalkeeperAbilityNR")
+        // // PlayerDefensiveAbility Dimension - Non-Relational
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerDefensiveAbilityNR.sql").mkString
+        // val playerDefAbDf = sparkSession.sql(sqlString)
+        // import sparkSession.implicits._
+        // val defNestedDataset = playerDefAbDf.map(r => player_defensive_ability_mapper(r))
+        // write_data_to_parquet(defNestedDataset, "PlayerDefensiveAbilityNR")
 
-        // PlayerPlaymakingAbility Dimension - Non-Relational
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerPlaymakingAbilityNR.sql").mkString
-        val playerPmAbDf = sparkSession.sql(sqlString)
-        import sparkSession.implicits._
-        val pmNestedDataset = playerPmAbDf.map(r => player_playmaking_ability_mapper(r))
-        write_data_to_parquet(pmNestedDataset, "PlayerPlaymakingAbilityNR")
+        // // PlayerGoalkeeperAbility Dimension - Non-Relational
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerGoalkeeperAbilityNR.sql").mkString
+        // val playerGkAbDf = sparkSession.sql(sqlString)
+        // import sparkSession.implicits._
+        // val gkNestedDataset = playerGkAbDf.map(r => player_goalkeeper_ability_mapper(r))
+        // write_data_to_parquet(gkNestedDataset, "PlayerGoalkeeperAbilityNR")
+
+        // // PlayerPlaymakingAbility Dimension - Non-Relational
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerPlaymakingAbilityNR.sql").mkString
+        // val playerPmAbDf = sparkSession.sql(sqlString)
+        // import sparkSession.implicits._
+        // val pmNestedDataset = playerPmAbDf.map(r => player_playmaking_ability_mapper(r))
+        // write_data_to_parquet(pmNestedDataset, "PlayerPlaymakingAbilityNR")
 
         // Birth Dimension
         val birthTable = TableQuery[BirthEntity]
@@ -99,6 +103,14 @@ object Integration {
         birthDf.createOrReplaceTempView("Birth")
         write_df_to_csv(birthDf, "Birth")//XXX debugging
         val birthList = dataframe_to_list(birthDf, Encoders.product[Birth])
+
+        // Role Dimension
+        val roleTable = TableQuery[RoleEntity]
+        var roleDf: DataFrame = read_role_csv_to_df(sparkSession, INPUT_PATH + "fbref-position_distinct.csv")
+        roleDf = roleDf.withColumn("id", monotonically_increasing_id())
+        roleDf.createOrReplaceTempView("Role")
+        write_df_to_csv(roleDf, "Role")//XXX debugging
+        val roleList = dataframe_to_list(roleDf, Encoders.product[Role])
 
         // Organization Dimension
         val organizationTable = TableQuery[OrganizationEntity]
@@ -122,53 +134,68 @@ object Integration {
         write_df_to_csv(offensivePerformanceDf, "OffensivePerformance")//XXX debugging
         val offensivePerformanceList = dataframe_to_list(offensivePerformanceDf, Encoders.product[OffensivePerformance])
 
-        // DefensivePerformance Measures
-        val defensivePerformanceTable = TableQuery[DefensivePerformanceEntity]
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "DefensivePerformance.sql").mkString
-        val defensivePerformanceDf: DataFrame = sparkSession.sql(sqlString)
-        write_df_to_csv(defensivePerformanceDf, "DefensivePerformance")//XXX debugging
-        val defensivePerformanceList = dataframe_to_list(defensivePerformanceDf, Encoders.product[DefensivePerformance])
+        //XXX WIP
 
-        // GoalkeeperPerformance Measures
-        val goalkeeperPerformanceTable = TableQuery[GoalkeeperPerformanceEntity]
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "GoalkeeperPerformance.sql").mkString
-        val goalkeeperPerformanceDf: DataFrame = sparkSession.sql(sqlString)
-        write_df_to_csv(goalkeeperPerformanceDf, "GoalkeeperPerformance")//XXX debugging
-        val goalkeeperPerformanceList = dataframe_to_list(goalkeeperPerformanceDf, Encoders.product[GoalkeeperPerformance])
+        // // DefensivePerformance Measures
+        // val defensivePerformanceTable = TableQuery[DefensivePerformanceEntity]
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "DefensivePerformance.sql").mkString
+        // val defensivePerformanceDf: DataFrame = sparkSession.sql(sqlString)
+        // write_df_to_csv(defensivePerformanceDf, "DefensivePerformance")//XXX debugging
+        // val defensivePerformanceList = dataframe_to_list(defensivePerformanceDf, Encoders.product[DefensivePerformance])
 
-        // PlaymakingPerformance Measures
-        val playmakingPerformanceTable = TableQuery[PlaymakingPerformanceEntity]
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlaymakingPerformance.sql").mkString
-        val playmakingPerformanceDf: DataFrame = sparkSession.sql(sqlString)
-        write_df_to_csv(playmakingPerformanceDf, "PlaymakingPerformance")//XXX debugging
-        val playmakingPerformanceList = dataframe_to_list(playmakingPerformanceDf, Encoders.product[PlaymakingPerformance])
+        // // GoalkeeperPerformance Measures
+        // val goalkeeperPerformanceTable = TableQuery[GoalkeeperPerformanceEntity]
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "GoalkeeperPerformance.sql").mkString
+        // val goalkeeperPerformanceDf: DataFrame = sparkSession.sql(sqlString)
+        // write_df_to_csv(goalkeeperPerformanceDf, "GoalkeeperPerformance")//XXX debugging
+        // val goalkeeperPerformanceList = dataframe_to_list(goalkeeperPerformanceDf, Encoders.product[GoalkeeperPerformance])
+
+        // // PlaymakingPerformance Measures
+        // val playmakingPerformanceTable = TableQuery[PlaymakingPerformanceEntity]
+        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlaymakingPerformance.sql").mkString
+        // val playmakingPerformanceDf: DataFrame = sparkSession.sql(sqlString)
+        // write_df_to_csv(playmakingPerformanceDf, "PlaymakingPerformance")//XXX debugging
+        // val playmakingPerformanceList = dataframe_to_list(playmakingPerformanceDf, Encoders.product[PlaymakingPerformance])
 
         System.out.println(">>> Fact measures tables loaded.")
 
         val op = DBIO.seq(
-            //birthTable.schema.dropIfExists,
-            //birthTable.schema.create,
-            //birthTable ++= birthList,
+            //XXX WIP
 
-            //organizationTable.schema.dropIfExists,
-            //organizationTable.schema.create,
-            //organizationTable ++= organizationList,
-
-            // offensivePerformanceTable.schema.dropIfExists,
-            //offensivePerformanceTable.schema.create,
-            //offensivePerformanceTable ++= offensivePerformanceList,
-
-            // DefensivePerformanceTable.schema.dropIfExists,
-            defensivePerformanceTable.schema.create,
-            defensivePerformanceTable ++= defensivePerformanceList,
+            // Drop and ...
 
             // GoalkeeperPerformanceTable.schema.dropIfExists,
-            goalkeeperPerformanceTable.schema.create,
-            goalkeeperPerformanceTable ++= goalkeeperPerformanceList,
-
+            // DefensivePerformanceTable.schema.dropIfExists,
             // PlaymakingPerformanceTable.schema.dropIfExists,
-            playmakingPerformanceTable.schema.create,
-            playmakingPerformanceTable ++= playmakingPerformanceList
+            // offensivePerformanceTable.schema.dropIfExists,
+            sqlu"DROP TABLE IF EXISTS #${offensivePerformanceTable.baseTableRow.tableName}",
+
+            // birthTable.schema.dropIfExists,
+            roleTable.schema.dropIfExists,
+            // organizationTable.schema.dropIfExists,
+
+            // ... Recreate
+
+            // organizationTable.schema.create,
+            // organizationTable ++= organizationList,
+
+            roleTable.schema.create,
+            roleTable ++= roleList,
+
+            // birthTable.schema.create,
+            // birthTable ++= birthList,
+
+            // goalkeeperPerformanceTable.schema.create,
+            // goalkeeperPerformanceTable ++= goalkeeperPerformanceList,
+
+            // defensivePerformanceTable.schema.create,
+            // defensivePerformanceTable ++= defensivePerformanceList,
+            
+            // playmakingPerformanceTable.schema.create,
+            // playmakingPerformanceTable ++= playmakingPerformanceList
+
+            offensivePerformanceTable.schema.create,
+            offensivePerformanceTable ++= offensivePerformanceList,
         )
 
         val future = db.run(op)
@@ -262,4 +289,12 @@ object Integration {
     //        GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
     //    )
     //}
+
+    private def read_role_csv_to_df(sparkSession: SparkSession, path: String): DataFrame = {
+        sparkSession.read
+            .option("header", "true")
+            .option("sep", ";")
+            .csv(path)
+            .toDF()
+    }
 }

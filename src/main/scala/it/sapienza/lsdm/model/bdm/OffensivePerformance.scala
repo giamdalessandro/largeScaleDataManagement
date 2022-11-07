@@ -5,6 +5,7 @@ import slick.jdbc.PostgresProfile.api._
 final case class OffensivePerformance(
     playerOffensiveAbilityId: Option[Long],
     birthId: Option[Long],
+    roleId: Option[Long],
     organizationId: Option[Long],
     goals: Option[Int],
     shotsTotal: Option[Int],
@@ -19,6 +20,9 @@ class OffensivePerformanceEntity(tag: Tag) extends Table[OffensivePerformance](t
     def birthId = column[Option[Long]]("birth_id");
     def birth = foreignKey("birth_fk", birthId, TableQuery[BirthEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
 
+    def roleId = column[Option[Long]]("role_id");
+    def role = foreignKey("role_fk", roleId, TableQuery[RoleEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
+
     def organizationId = column[Option[Long]]("organization_id");
     def organization = foreignKey("organization_fk", organizationId, TableQuery[OrganizationEntity])(_.id)
 
@@ -29,5 +33,5 @@ class OffensivePerformanceEntity(tag: Tag) extends Table[OffensivePerformance](t
     def shotsOnTarget = column[Option[Int]]("shots_on_target")
     def pensMade = column[Option[Int]]("pens_made")
 
-    def * = (playerOffensiveAbilityId, birthId, organizationId, goals, shotsTotal, shotsOnTarget, pensMade) <> (OffensivePerformance.tupled, OffensivePerformance.unapply)
+    def * = (playerOffensiveAbilityId, birthId, roleId, organizationId, goals, shotsTotal, shotsOnTarget, pensMade) <> (OffensivePerformance.tupled, OffensivePerformance.unapply)
 }

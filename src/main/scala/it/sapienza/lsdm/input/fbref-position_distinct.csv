@@ -1,0 +1,127 @@
+﻿role_complete;role_specific;role_generic
+MF (CM, right);CM-right;MF
+DF-FW (CB, left);CB-left;DF-FW
+MF (CM);CM;MF
+MF (CM-DM);CM-DM;MF
+DF-MF;DF-MF;DF-MF
+DF-MF (FB, left);FB-left;DF-MF
+DF (CB);CB;DF
+GK;GK;GK
+FW-MF (AM-WM, right);AM-WM-right;FW-MF
+FW-MF (AM-CM);AM-CM;FW-MF
+FW;FW;FW
+MF;MF;MF
+DF-MF (WM, right);WM-right;DF-MF
+DF-FW (CB, right);CB-right;DF-FW
+FW-MF;FW-MF;FW-MF
+DF-MF (CB-FB, right);CB-FB-right;DF-MF
+FW-MF (AM-WM);AM-WM;FW-MF
+DF-MF (FB-WM, left);FB-WM-left;DF-MF
+DF-MF (CB-CM-FB, left);CB-CM-FB-left;DF-MF
+DF (FB, left);FB-left;DF
+DF-FW-MF (AM-FB-WM, right);AM-FB-WM-right;DF-FW-MF
+DF-MF (CB-CM-DM);CB-CM-DM;DF-MF
+MF (CM, left);CM-left;MF
+DF-MF (CB);CB;DF-MF
+DF (CB-FB, left);CB-FB-left;DF
+DF-MF (FB-WM, right);FB-WM-right;DF-MF
+DF;DF;DF
+DF-FW (FB, right);FB-right;DF-FW
+MF (AM, left);AM-left;MF
+FW-MF (WM, left);WM-left;FW-MF
+DF (CB, left);CB-left;DF
+MF (AM-CM);AM-CM;MF
+DF (FB, right);FB-right;DF
+FW-MF (AM);AM;FW-MF
+MF (DM);DM;MF
+DF (CB, right);CB-right;DF
+FW-MF (AM-WM, left);AM-WM-left;FW-MF
+DF-MF (AM-CM-DM);AM-CM-DM;DF-MF
+MF (AM);AM;MF
+DF-MF (FB, right);FB-right;DF-MF
+MF (AM-CM-WM);AM-CM-WM;MF
+FW-MF (CM-WM);CM-WM;FW-MF
+DF-MF (DM);DM;DF-MF
+DF-MF (CB-DM);CB-DM;DF-MF
+MF (AM-WM);AM-WM;MF
+DF-FW-MF (WM, left);WM-left;DF-FW-MF
+FW-MF (AM, right);AM-right;FW-MF
+DF-MF (DM-FB, right);DM-FB-right;DF-MF
+DF-MF (CM);CM;DF-MF
+FW-MF (AM-DM, right);AM-DM-right;FW-MF
+DF-MF (WM, left);WM-left;DF-MF
+MF (WM, left);WM-left;MF
+DF-MF (CB-FB, left);CB-FB-left;DF-MF
+FW-MF (WM);WM;FW-MF
+DF-MF (CB-DM-FB, right);CB-DM-FB-right;DF-MF
+FW-MF (AM, left);AM-left;FW-MF
+DF-MF (FB);FB;DF-MF
+DF-MF (CB, right);CB-right;DF-MF
+DF-MF (CB-DM-WM);CB-DM-WM;DF-MF
+DF (CB-FB);CB-FB;DF
+MF (CM-DM, right);CM-DM-right;MF
+DF (CB-FB, right);CB-FB-right;DF
+MF (AM-CM-DM, right);AM-CM-DM-right;MF
+DF-MF (CB, left);CB-left;DF-MF
+FW-MF (CM);CM;FW-MF
+DF-MF (CM-DM-FB, left);CM-DM-FB-left;DF-MF
+DF-MF (CM-FB-WM);CM-FB-WM;DF-MF
+DF-FW-MF (FB, left);FB-left;DF-FW-MF
+DF-MF (AM-CM-FB, right);AM-CM-FB-right;DF-MF
+DF-FW-MF (AM-CM-WM, right);AM-CM-WM-right;DF-FW-MF
+MF (CM-WM);CM-WM;MF
+DF-MF (AM-FB, right);AM-FB-right;DF-MF
+DF-MF (CB-CM, left);CB-CM-left;DF-MF
+MF (AM-DM);AM-DM;MF
+DF-MF (AM-FB-WM, right);AM-FB-WM-right;DF-MF
+DF-FW-MF;DF-FW-MF;DF-FW-MF
+FW-MF (AM-CM-DM, right);AM-CM-DM-right;FW-MF
+MF (AM-CM-DM);AM-CM-DM;MF
+MF (AM-CM-DM-WM, left);AM-CM-DM-WM-left;MF
+FW-MF (AM-DM);AM-DM;FW-MF
+MF (CM-DM-WM, right);CM-DM-WM-right;MF
+DF-MF (AM-DM-WM);AM-DM-WM;DF-MF
+FW-MF (AM-CM-WM);AM-CM-WM;FW-MF
+MF (AM-CM-DM-WM);AM-CM-DM-WM;MF
+DF-MF (CM-DM);CM-DM;DF-MF
+DF-MF (CM-DM, right);CM-DM-right;DF-MF
+MF (CM-DM, left);CM-DM-left;MF
+DF-FW-MF (FB-WM, left);FB-WM-left;DF-FW-MF
+DF-MF (CM-DM-FB);CM-DM-FB;DF-MF
+MF (AM-CM-DM, left);AM-CM-DM-left;MF
+DF-FW-MF (AM-WM, left);AM-WM-left;DF-FW-MF
+DF-MF (DM-FB-WM, right);DM-FB-WM-right;DF-MF
+DF-MF (AM-FB, left);AM-FB-left;DF-MF
+DF-FW-MF (FB-WM, right);FB-WM-right;DF-FW-MF
+FW-MF (WM, right);WM-right;FW-MF
+DF-MF (CB-FB);CB-FB;DF-MF
+DF-MF (FB-WM);FB-WM;DF-MF
+MF (CM-WM, left);CM-WM-left;MF
+DF-MF (AM-CM-DM, right);AM-CM-DM-right;DF-MF
+DF-FW-MF (DM-FB, right);DM-FB-right;DF-FW-MF
+DF-MF (CB-DM, right);CB-DM-right;DF-MF
+DF (FB);FB;DF
+DF-FW-MF (AM-DM-WM, left);AM-DM-WM-left;DF-FW-MF
+FW-MF (DM);DM;FW-MF
+DF-FW-MF (AM-WM);AM-WM;DF-FW-MF
+DF-MF (AM, right);AM-right;DF-MF
+MF (CM-DM-WM);CM-DM-WM;MF
+DF-MF (CM-DM-WM, left);CM-DM-WM-left;DF-MF
+DF-MF (CM-WM);CM-WM;DF-MF
+DF-MF (DM-FB, left);DM-FB-left;DF-MF
+FW-MF (AM-CM, right);AM-CM-right;FW-MF
+DF-MF (CM-DM-FB, right);CM-DM-FB-right;DF-MF
+DF-FW-MF (FB);FB;DF-FW-MF
+DF-FW-MF (FB-WM);FB-WM;DF-FW-MF
+MF (WM, right);WM-right;MF
+DF-MF (AM-CM-FB-WM, right);AM-CM-FB-WM-right;DF-MF
+MF (DM, right);DM-right;MF
+DF-FW-MF (AM-FB, right);AM-FB-right;DF-FW-MF
+DF-FW-MF (WM);WM;DF-FW-MF
+DF-FW-MF (CM-DM-FB-WM, left);CM-DM-FB-WM-left;DF-FW-MF
+DF-MF (AM, left);AM-left;DF-MF
+DF-MF (DM-FB-WM, left);DM-FB-WM-left;DF-MF
+FW-MF (AM-CB-CM);AM-CB-CM;FW-MF
+DF-FW-MF (AM, right);AM-right;DF-FW-MF
+DF-FW-MF (WM, right);WM-right;DF-FW-MF
+MF (CM-WM, right);CM-WM-right;MF
