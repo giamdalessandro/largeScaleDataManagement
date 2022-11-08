@@ -15,6 +15,8 @@ select
     cityob as city,
     countryob as country,
 
+    info.position as position,
+
     poss.squad,
     poss.comp_level as comp
 from

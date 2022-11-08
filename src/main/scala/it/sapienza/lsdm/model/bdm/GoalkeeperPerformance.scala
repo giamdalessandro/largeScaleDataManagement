@@ -5,6 +5,7 @@ import slick.jdbc.PostgresProfile.api._
 final case class GoalkeeperPerformance(
     playerGoalkeeperAbilityId : Option[Long],
     birthId                  : Option[Long],
+    roleId                   : Option[Long],
     organizationId           : Option[Long],
     goal_against_gk          : Option[Int],
     shots_on_target_against  : Option[Int],
@@ -19,6 +20,9 @@ class GoalkeeperPerformanceEntity(tag: Tag) extends Table[GoalkeeperPerformance]
     def birthId = column[Option[Long]]("birth_id");
     def birth = foreignKey("birth_fk", birthId, TableQuery[BirthEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
 
+    def roleId = column[Option[Long]]("role_id");
+    def role   = foreignKey("role_fk", roleId, TableQuery[RoleEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
+
     def organizationId = column[Option[Long]]("organization_id");
     def organization = foreignKey("organization_fk", organizationId, TableQuery[OrganizationEntity])(_.id)
 
@@ -29,7 +33,7 @@ class GoalkeeperPerformanceEntity(tag: Tag) extends Table[GoalkeeperPerformance]
     def saves                   = column[Option[Int]]("saves")
     def pen_saves_pct           = column[Option[Double]]("pen_saves_pct")
 
-    def * = (playerGoalkeeperAbilityId, birthId, organizationId, goal_against_gk, 
-            shots_on_target_against, saves, pen_saves_pct) <> (GoalkeeperPerformance.tupled, GoalkeeperPerformance.unapply)
+    def * = (playerGoalkeeperAbilityId, birthId, roleId, organizationId, goal_against_gk, shots_on_target_against,
+             saves, pen_saves_pct) <> (GoalkeeperPerformance.tupled, GoalkeeperPerformance.unapply)
 }
 

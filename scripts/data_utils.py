@@ -52,7 +52,41 @@ def fmGetDivision(division: list=DIVISIONS, in_file: str=FM_DATA, out_file: str=
 	cut_df.to_csv(out_file)
 	return
 
+def fbrefGetRoles(in_dir: str=FBREF_DIR, out_file: str="export_roles.csv"):
+	"""
+	Extract roles info from the export tables in `in_dir`.
+	"""
+	fbref_file = FBREF_DIR + "info.csv"
+	fm_file = FM_DATA
+	#out_file = in_dir + "export_roles_" + table
+
+	# read file data
+	fbref_df = pd.read_csv(fbref_file, delimiter=',')
+	fm_df = pd.read_csv(fm_file, delimiter=',')
+
+	# query the data by season 
+	roles_fb_df = fbref_df["position"].drop_duplicates(keep=False)
+	roles_fm_df = fm_df["Position"].drop_duplicates(keep=False)
+
+	print("\n", roles_fb_df.head())
+	print("\n", roles_fm_df.head())
+
+	all_roles = []
+	for role in roles_fb_df:
+		all_roles.extend(role.split(","))
+
+	for role in roles_fm_df:
+		all_roles.extend(role.split(","))
+
+	s_roles = pd.Series(all_roles).drop_duplicates(keep=False)
+
+	print("\ntotal roles:", len(s_roles))
+	print(s_roles.head())
+
+
+
 
 if __name__ == "__main__":
 	#fbrefGetSeason(season="2019-2020")
-	fmGetDivision()
+	#fmGetDivision()
+	fbrefGetRoles()
