@@ -1,0 +1,127 @@
+role_complete,role_specific,role_generic,id
+"MF (CM, right)",CM-right,MF,0
+"DF-FW (CB, left)",CB-left,DF-FW,1
+MF (CM),CM,MF,2
+MF (CM-DM),CM-DM,MF,3
+DF-MF,DF-MF,DF-MF,4
+"DF-MF (FB, left)",FB-left,DF-MF,5
+DF (CB),CB,DF,6
+GK,GK,GK,7
+"FW-MF (AM-WM, right)",AM-WM-right,FW-MF,8
+FW-MF (AM-CM),AM-CM,FW-MF,9
+FW,FW,FW,10
+MF,MF,MF,11
+"DF-MF (WM, right)",WM-right,DF-MF,12
+"DF-FW (CB, right)",CB-right,DF-FW,13
+FW-MF,FW-MF,FW-MF,14
+"DF-MF (CB-FB, right)",CB-FB-right,DF-MF,15
+FW-MF (AM-WM),AM-WM,FW-MF,16
+"DF-MF (FB-WM, left)",FB-WM-left,DF-MF,17
+"DF-MF (CB-CM-FB, left)",CB-CM-FB-left,DF-MF,18
+"DF (FB, left)",FB-left,DF,19
+"DF-FW-MF (AM-FB-WM, right)",AM-FB-WM-right,DF-FW-MF,20
+DF-MF (CB-CM-DM),CB-CM-DM,DF-MF,21
+"MF (CM, left)",CM-left,MF,22
+DF-MF (CB),CB,DF-MF,23
+"DF (CB-FB, left)",CB-FB-left,DF,24
+"DF-MF (FB-WM, right)",FB-WM-right,DF-MF,25
+DF,DF,DF,26
+"DF-FW (FB, right)",FB-right,DF-FW,27
+"MF (AM, left)",AM-left,MF,28
+"FW-MF (WM, left)",WM-left,FW-MF,29
+"DF (CB, left)",CB-left,DF,30
+MF (AM-CM),AM-CM,MF,31
+"DF (FB, right)",FB-right,DF,32
+FW-MF (AM),AM,FW-MF,33
+MF (DM),DM,MF,34
+"DF (CB, right)",CB-right,DF,35
+"FW-MF (AM-WM, left)",AM-WM-left,FW-MF,36
+DF-MF (AM-CM-DM),AM-CM-DM,DF-MF,37
+MF (AM),AM,MF,38
+"DF-MF (FB, right)",FB-right,DF-MF,39
+MF (AM-CM-WM),AM-CM-WM,MF,40
+FW-MF (CM-WM),CM-WM,FW-MF,41
+DF-MF (DM),DM,DF-MF,42
+DF-MF (CB-DM),CB-DM,DF-MF,43
+MF (AM-WM),AM-WM,MF,44
+"DF-FW-MF (WM, left)",WM-left,DF-FW-MF,45
+"FW-MF (AM, right)",AM-right,FW-MF,46
+"DF-MF (DM-FB, right)",DM-FB-right,DF-MF,47
+DF-MF (CM),CM,DF-MF,48
+"FW-MF (AM-DM, right)",AM-DM-right,FW-MF,49
+"DF-MF (WM, left)",WM-left,DF-MF,50
+"MF (WM, left)",WM-left,MF,51
+"DF-MF (CB-FB, left)",CB-FB-left,DF-MF,52
+FW-MF (WM),WM,FW-MF,53
+"DF-MF (CB-DM-FB, right)",CB-DM-FB-right,DF-MF,54
+"FW-MF (AM, left)",AM-left,FW-MF,55
+DF-MF (FB),FB,DF-MF,56
+"DF-MF (CB, right)",CB-right,DF-MF,57
+DF-MF (CB-DM-WM),CB-DM-WM,DF-MF,58
+DF (CB-FB),CB-FB,DF,59
+"MF (CM-DM, right)",CM-DM-right,MF,60
+"DF (CB-FB, right)",CB-FB-right,DF,61
+"MF (AM-CM-DM, right)",AM-CM-DM-right,MF,62
+"DF-MF (CB, left)",CB-left,DF-MF,63
+FW-MF (CM),CM,FW-MF,64
+"DF-MF (CM-DM-FB, left)",CM-DM-FB-left,DF-MF,65
+DF-MF (CM-FB-WM),CM-FB-WM,DF-MF,66
+"DF-FW-MF (FB, left)",FB-left,DF-FW-MF,67
+"DF-MF (AM-CM-FB, right)",AM-CM-FB-right,DF-MF,68
+"DF-FW-MF (AM-CM-WM, right)",AM-CM-WM-right,DF-FW-MF,69
+MF (CM-WM),CM-WM,MF,70
+"DF-MF (AM-FB, right)",AM-FB-right,DF-MF,71
+"DF-MF (CB-CM, left)",CB-CM-left,DF-MF,72
+MF (AM-DM),AM-DM,MF,73
+"DF-MF (AM-FB-WM, right)",AM-FB-WM-right,DF-MF,74
+DF-FW-MF,DF-FW-MF,DF-FW-MF,75
+"FW-MF (AM-CM-DM, right)",AM-CM-DM-right,FW-MF,76
+MF (AM-CM-DM),AM-CM-DM,MF,77
+"MF (AM-CM-DM-WM, left)",AM-CM-DM-WM-left,MF,78
+FW-MF (AM-DM),AM-DM,FW-MF,79
+"MF (CM-DM-WM, right)",CM-DM-WM-right,MF,80
+DF-MF (AM-DM-WM),AM-DM-WM,DF-MF,81
+FW-MF (AM-CM-WM),AM-CM-WM,FW-MF,82
+MF (AM-CM-DM-WM),AM-CM-DM-WM,MF,83
+DF-MF (CM-DM),CM-DM,DF-MF,84
+"DF-MF (CM-DM, right)",CM-DM-right,DF-MF,85
+"MF (CM-DM, left)",CM-DM-left,MF,86
+"DF-FW-MF (FB-WM, left)",FB-WM-left,DF-FW-MF,87
+DF-MF (CM-DM-FB),CM-DM-FB,DF-MF,88
+"MF (AM-CM-DM, left)",AM-CM-DM-left,MF,89
+"DF-FW-MF (AM-WM, left)",AM-WM-left,DF-FW-MF,90
+"DF-MF (DM-FB-WM, right)",DM-FB-WM-right,DF-MF,91
+"DF-MF (AM-FB, left)",AM-FB-left,DF-MF,92
+"DF-FW-MF (FB-WM, right)",FB-WM-right,DF-FW-MF,93
+"FW-MF (WM, right)",WM-right,FW-MF,94
+DF-MF (CB-FB),CB-FB,DF-MF,95
+DF-MF (FB-WM),FB-WM,DF-MF,96
+"MF (CM-WM, left)",CM-WM-left,MF,97
+"DF-MF (AM-CM-DM, right)",AM-CM-DM-right,DF-MF,98
+"DF-FW-MF (DM-FB, right)",DM-FB-right,DF-FW-MF,99
+"DF-MF (CB-DM, right)",CB-DM-right,DF-MF,100
+DF (FB),FB,DF,101
+"DF-FW-MF (AM-DM-WM, left)",AM-DM-WM-left,DF-FW-MF,102
+FW-MF (DM),DM,FW-MF,103
+DF-FW-MF (AM-WM),AM-WM,DF-FW-MF,104
+"DF-MF (AM, right)",AM-right,DF-MF,105
+MF (CM-DM-WM),CM-DM-WM,MF,106
+"DF-MF (CM-DM-WM, left)",CM-DM-WM-left,DF-MF,107
+DF-MF (CM-WM),CM-WM,DF-MF,108
+"DF-MF (DM-FB, left)",DM-FB-left,DF-MF,109
+"FW-MF (AM-CM, right)",AM-CM-right,FW-MF,110
+"DF-MF (CM-DM-FB, right)",CM-DM-FB-right,DF-MF,111
+DF-FW-MF (FB),FB,DF-FW-MF,112
+DF-FW-MF (FB-WM),FB-WM,DF-FW-MF,113
+"MF (WM, right)",WM-right,MF,114
+"DF-MF (AM-CM-FB-WM, right)",AM-CM-FB-WM-right,DF-MF,115
+"MF (DM, right)",DM-right,MF,116
+"DF-FW-MF (AM-FB, right)",AM-FB-right,DF-FW-MF,117
+DF-FW-MF (WM),WM,DF-FW-MF,118
+"DF-FW-MF (CM-DM-FB-WM, left)",CM-DM-FB-WM-left,DF-FW-MF,119
+"DF-MF (AM, left)",AM-left,DF-MF,120
+"DF-MF (DM-FB-WM, left)",DM-FB-WM-left,DF-MF,121
+FW-MF (AM-CB-CM),AM-CB-CM,FW-MF,122
+"DF-FW-MF (AM, right)",AM-right,DF-FW-MF,123
+"DF-FW-MF (WM, right)",WM-right,DF-FW-MF,124
+"MF (CM-WM, right)",CM-WM-right,MF,125
