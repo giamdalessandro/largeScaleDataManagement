@@ -121,7 +121,7 @@ object Integration {
         write_df_to_csv(organizationDf, "Organization")//XXX debugging
         val organizationList = dataframe_to_list(organizationDf, Encoders.product[Organization])
 
-        System.out.println(">>> Dimension tables loaded.")
+        System.out.println(">>> Dimension relations ready to be written on db.")
 
         /**
          * Fact Measures
@@ -157,53 +157,61 @@ object Integration {
         write_df_to_csv(playmakingPerformanceDf, "PlaymakingPerformance")//XXX debugging
         val playmakingPerformanceList = dataframe_to_list(playmakingPerformanceDf, Encoders.product[PlaymakingPerformance])
 
-        System.out.println(">>> Fact measures tables loaded.")
+        System.out.println(">>> Fact measures relations ready to be written on db.")
 
-        val op = DBIO.seq(
-            //XXX WIP
+        /**
+         * DB Operations
+         */
 
-            // Drop and ...
+        // Drop
 
-            // GoalkeeperPerformanceTable.schema.dropIfExists,
-            // DefensivePerformanceTable.schema.dropIfExists,
-            // PlaymakingPerformanceTable.schema.dropIfExists,
-            // offensivePerformanceTable.schema.dropIfExists,
-            sqlu"DROP TABLE IF EXISTS #${offensivePerformanceTable.baseTableRow.tableName}",
-            sqlu"DROP TABLE IF EXISTS #${defensivePerformanceTable.baseTableRow.tableName}",
-            sqlu"DROP TABLE IF EXISTS #${goalkeeperPerformanceTable.baseTableRow.tableName}",
-            sqlu"DROP TABLE IF EXISTS #${playmakingPerformanceTable.baseTableRow.tableName}",
+        val dropOp = DBIO.seq(
+            offensivePerformanceTable.schema.drop,
+            defensivePerformanceTable.schema.drop,
+            goalkeeperPerformanceTable.schema.drop,
+            playmakingPerformanceTable.schema.drop,
 
-            birthTable.schema.dropIfExists,
-            roleTable.schema.dropIfExists,
-            organizationTable.schema.dropIfExists,
-
-            // ... Recreate
-
-            organizationTable.schema.create,
-            organizationTable ++= organizationList,
-
-            roleTable.schema.create,
-            roleTable ++= roleList,
-
-            birthTable.schema.create,
-            birthTable ++= birthList,
-
-            defensivePerformanceTable.schema.create,
-            defensivePerformanceTable ++= defensivePerformanceList,
-           
-            goalkeeperPerformanceTable.schema.create,
-            goalkeeperPerformanceTable ++= goalkeeperPerformanceList,
-            
-            playmakingPerformanceTable.schema.create,
-            playmakingPerformanceTable ++= playmakingPerformanceList,
-
-            offensivePerformanceTable.schema.create,
-            offensivePerformanceTable ++= offensivePerformanceList,
+            birthTable.schema.drop,
+            roleTable.schema.drop,
+            organizationTable.schema.drop
         )
+        val dropFuture = db.run(dropOp)
+        Await.result(dropFuture, Duration.Inf)
 
-        val future = db.run(op)
+        System.out.println(">>> DB tables dropped.")
+
+        // Create
+
+        val createOp = DBIO.seq(
+            organizationTable.schema.create,
+            roleTable.schema.create,
+            birthTable.schema.create,
+            defensivePerformanceTable.schema.create,
+            goalkeeperPerformanceTable.schema.create,
+            playmakingPerformanceTable.schema.create,
+            offensivePerformanceTable.schema.create
+        )
+        val createFuture = db.run(createOp)
+        Await.result(createFuture, Duration.Inf)
+
+        System.out.println(">>> DB tables created.")
+
+        // Populate
+
+        val populateOp = DBIO.seq(
+            organizationTable ++= organizationList,
+            roleTable ++= roleList,
+            birthTable ++= birthList,
+            defensivePerformanceTable ++= defensivePerformanceList,
+            goalkeeperPerformanceTable ++= goalkeeperPerformanceList,
+            playmakingPerformanceTable ++= playmakingPerformanceList,
+            offensivePerformanceTable ++= offensivePerformanceList
+        )
+        val populateFuture = db.run(populateOp)
         try {
-            Await.result(future, Duration.Inf)
+            Await.result(populateFuture, Duration.Inf)
+
+            System.out.println(">>> DB tables populated.")
         } finally db.close
     }
 
