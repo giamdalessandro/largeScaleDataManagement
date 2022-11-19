@@ -4,9 +4,13 @@ select
     rl.id as roleId,
     org.id as organizationId,
     assists,
-    touches,
     dribbles,
-    pass_targets
+    sca,
+    sca90,
+    pass_targets,
+    miscontrols,
+    dispossessed,
+    fouled
 from
     PlaymakingPerformanceFull pmpf
     join Organization org on (pmpf.squad = org.squad and pmpf.comp = org.comp)

@@ -65,12 +65,12 @@ object Integration {
          * Dimensions
          */
 
-        // // PlayerOffensiveAbility Dimension - Non-Relational
-        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerOffensiveAbilityNR.sql").mkString
-        // val playerOffAbDf = sparkSession.sql(sqlString)
-        // import sparkSession.implicits._
-        // val offNestedDataset = playerOffAbDf.map(r => player_offensive_ability_mapper(r))
-        // write_data_to_parquet(offNestedDataset, "PlayerOffensiveAbility")
+        // PlayerOffensiveAbility Dimension - Non-Relational
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerOffensiveAbilityNR.sql").mkString
+        val playerOffAbDf = sparkSession.sql(sqlString)
+        import sparkSession.implicits._
+        val offNestedDataset = playerOffAbDf.map(r => player_offensive_ability_mapper(r))
+        write_data_to_parquet(offNestedDataset, "PlayerOffensiveAbility")
 
         //XXX WIP
 
@@ -128,29 +128,29 @@ object Integration {
          */
 
         // OffensivePerformance Measures
-        // val offensivePerformanceTable = TableQuery[OffensivePerformanceEntity]
-        // sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensivePerformance.sql").mkString
-        // val offensivePerformanceDf: DataFrame = sparkSession.sql(sqlString)
-        // write_df_to_csv(offensivePerformanceDf, "OffensivePerformance")//XXX debugging
-        // val offensivePerformanceList = dataframe_to_list(offensivePerformanceDf, Encoders.product[OffensivePerformance])
+        val offensivePerformanceTable = TableQuery[OffensivePerformanceEntity]
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensivePerformance.sql").mkString
+        val offensivePerformanceDf: DataFrame = sparkSession.sql(sqlString)
+        write_df_to_csv(offensivePerformanceDf, "OffensivePerformance")//XXX debugging
+        val offensivePerformanceList = dataframe_to_list(offensivePerformanceDf, Encoders.product[OffensivePerformance])
 
         //XXX WIP
 
-        // // DefensivePerformance Measures
+        // DefensivePerformance Measures
         val defensivePerformanceTable = TableQuery[DefensivePerformanceEntity]
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "DefensivePerformance.sql").mkString
         val defensivePerformanceDf: DataFrame = sparkSession.sql(sqlString)
         write_df_to_csv(defensivePerformanceDf, "DefensivePerformance")//XXX debugging
         val defensivePerformanceList = dataframe_to_list(defensivePerformanceDf, Encoders.product[DefensivePerformance])
 
-        // // GoalkeeperPerformance Measures
+        // GoalkeeperPerformance Measures
         val goalkeeperPerformanceTable = TableQuery[GoalkeeperPerformanceEntity]
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "GoalkeeperPerformance.sql").mkString
         val goalkeeperPerformanceDf: DataFrame = sparkSession.sql(sqlString)
         write_df_to_csv(goalkeeperPerformanceDf, "GoalkeeperPerformance")//XXX debugging
         val goalkeeperPerformanceList = dataframe_to_list(goalkeeperPerformanceDf, Encoders.product[GoalkeeperPerformance])
 
-        // // PlaymakingPerformance Measures
+        // PlaymakingPerformance Measures
         val playmakingPerformanceTable = TableQuery[PlaymakingPerformanceEntity]
         sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlaymakingPerformance.sql").mkString
         val playmakingPerformanceDf: DataFrame = sparkSession.sql(sqlString)
@@ -168,25 +168,25 @@ object Integration {
             // DefensivePerformanceTable.schema.dropIfExists,
             // PlaymakingPerformanceTable.schema.dropIfExists,
             // offensivePerformanceTable.schema.dropIfExists,
-            //sqlu"DROP TABLE IF EXISTS #${offensivePerformanceTable.baseTableRow.tableName}",
+            sqlu"DROP TABLE IF EXISTS #${offensivePerformanceTable.baseTableRow.tableName}",
             sqlu"DROP TABLE IF EXISTS #${defensivePerformanceTable.baseTableRow.tableName}",
             sqlu"DROP TABLE IF EXISTS #${goalkeeperPerformanceTable.baseTableRow.tableName}",
             sqlu"DROP TABLE IF EXISTS #${playmakingPerformanceTable.baseTableRow.tableName}",
 
-            // birthTable.schema.dropIfExists,
-            // roleTable.schema.dropIfExists,
-            // organizationTable.schema.dropIfExists,
+            birthTable.schema.dropIfExists,
+            roleTable.schema.dropIfExists,
+            organizationTable.schema.dropIfExists,
 
             // ... Recreate
 
-            // organizationTable.schema.create,
-            // organizationTable ++= organizationList,
+            organizationTable.schema.create,
+            organizationTable ++= organizationList,
 
-            // roleTable.schema.create,
-            // roleTable ++= roleList,
+            roleTable.schema.create,
+            roleTable ++= roleList,
 
-            // birthTable.schema.create,
-            // birthTable ++= birthList,
+            birthTable.schema.create,
+            birthTable ++= birthList,
 
             defensivePerformanceTable.schema.create,
             defensivePerformanceTable ++= defensivePerformanceList,
@@ -195,10 +195,10 @@ object Integration {
             goalkeeperPerformanceTable ++= goalkeeperPerformanceList,
             
             playmakingPerformanceTable.schema.create,
-            playmakingPerformanceTable ++= playmakingPerformanceList
+            playmakingPerformanceTable ++= playmakingPerformanceList,
 
-            // offensivePerformanceTable.schema.create,
-            // offensivePerformanceTable ++= offensivePerformanceList,
+            offensivePerformanceTable.schema.create,
+            offensivePerformanceTable ++= offensivePerformanceList,
         )
 
         val future = db.run(op)
@@ -276,8 +276,9 @@ object Integration {
             r.getLong(0),
             r.getString(1),
             r.getInt(2),
-            MentalAbilityPm(r.getInt(3),r.getInt(4)),
-            TechnicalAbilityPm(r.getInt(5),r.getInt(6))
+            MentalAbilityPm(r.getInt(3),r.getInt(4),r.getInt(8)),
+            TechnicalAbilityPm(r.getInt(5),r.getInt(6)),
+            PhysicalAbilityPm(r.getInt(7))
         )
     }
     

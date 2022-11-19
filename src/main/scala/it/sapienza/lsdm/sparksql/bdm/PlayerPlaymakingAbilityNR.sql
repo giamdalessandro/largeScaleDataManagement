@@ -3,8 +3,10 @@ select
     playerFullName,
     ca,
     vis,
-    tea,
+    ldr,
     pas,
-    dri
+    dri,
+    agi,
+    cnt
 from 
     PlaymakingPerformanceFull
