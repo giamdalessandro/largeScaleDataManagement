@@ -29,7 +29,7 @@ select
 from
     FbrefInfo info
     join FbrefStandard std on info.id = std.id
-    join FbrefPossession poss on info.id = poss.id
-    join FbrefGca gcat on info.id = gcat.id
-    join FbrefMisc misc on info.id = misc.id
+    join FbrefPossession poss on (std.id = poss.id and std.squad = poss.squad)
+    join FbrefGca gcat on (poss.id = gcat.id and poss.squad = gcat.squad)
+    join FbrefMisc misc on (gcat.id = misc.id and gcat.squad = misc.squad)
     join Fm20 on info.name = Fm20.Name
