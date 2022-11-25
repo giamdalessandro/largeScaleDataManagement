@@ -1,19 +1,17 @@
 package it.sapienza.lsdm.model.bdm
 
-
-case class MentalAbilityDef(
-    agg: Int,
+case class DefensiveMentalAbility(
+    agg: Int
 )
-case class TechnicalAbilityDef(
+case class DefensiveTechnicalAbility(
     tck: Int,
     pen: Int,
     mar: Int
 )
 
-case class PlayerDefensiveAbilityNR(
+case class DefensiveAbility(
     id: Long,
-    playerFullName: String,
     ca: Int,
-    mentalAbility    : MentalAbilityDef,
-    technicalAbility : TechnicalAbilityDef
+    mentalAbility: DefensiveMentalAbility,
+    technicalAbility: DefensiveTechnicalAbility
 )

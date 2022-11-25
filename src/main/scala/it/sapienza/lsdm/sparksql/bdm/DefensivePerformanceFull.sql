@@ -4,7 +4,7 @@ select
     cast(misc.cards_yellow as integer) as cards_yellow,
     cast(misc.cards_red as integer) as cards_red,
 
-    info.id as id,
+    info.id as fbrefId,
     info.name as playerFullName,
     cast(CA as integer) as ca,
     cast(Tck as integer) as tck,
@@ -22,5 +22,5 @@ select
 from
     FbrefInfo info
     join FbrefMisc misc on info.id = misc.id
-    join FbrefDefense def on info.id = def.id
+    join FbrefDefense def on (misc.id = def.id and misc.squad = def.squad)
     join Fm20 on info.name = Fm20.Name

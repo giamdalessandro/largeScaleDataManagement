@@ -3,6 +3,7 @@ package it.sapienza.lsdm.logic.bdm
 import org.apache.spark.sql.{SparkSession, DataFrame, Encoders, Row}
 import it.sapienza.lsdm.model.bdm.{OffensiveAbility,OffensiveMentalAbility,OffensivePhysicalAbility,OffensiveTechnicalAbility}
 import it.sapienza.lsdm.model.bdm.{GoalkeeperAbility}
+import it.sapienza.lsdm.model.bdm.{DefensiveAbility,DefensiveMentalAbility,DefensiveTechnicalAbility}
 
 object Mapper {
     def offensive_ability_mapper(r: Row): OffensiveAbility = {
@@ -40,24 +41,21 @@ object Mapper {
         )
     }
 
-    // def player_defensive_ability_mapper(r: Row): PlayerDefensiveAbilityNR = {
-    //     PlayerDefensiveAbilityNR(
-    //         r.getLong(0),
-    //         r.getString(1),
-    //         r.getInt(2),
-    //         MentalAbilityDef(r.getInt(3)),
-    //         TechnicalAbilityDef(r.getInt(4),r.getInt(5),r.getInt(6))
-    //     )
-    // }
+    def defensive_ability_mapper(r: Row): DefensiveAbility = {
+        val id = r.getAs[Long]("id")
+        val ca = r.getAs[Int]("ca")
+        val agg = r.getAs[Int]("agg")
+        val tck = r.getAs[Int]("tck")
+        val pen = r.getAs[Int]("pen")
+        val mar = r.getAs[Int]("mar")
 
-    // def player_goalkeeper_ability_mapper(r: Row): PlayerGoalkeeperAbilityNR = {
-    //     PlayerGoalkeeperAbilityNR(
-    //         r.getLong(0),
-    //         r.getString(1),
-    //         r.getInt(2),
-    //         GoalkeeperAbilityGk(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6))
-    //     )
-    // }
+        DefensiveAbility(
+            id,
+            ca,
+            DefensiveMentalAbility(agg),
+            DefensiveTechnicalAbility(tck, pen, mar)
+        )
+    }
 
     // def player_playmaking_ability_mapper(r: Row): PlayerPlaymakingAbilityNR = {
     //     PlayerPlaymakingAbilityNR(

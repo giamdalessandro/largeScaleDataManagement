@@ -8,4 +8,10 @@ select distinct
     city,
     country
 from
+    DefensivePerformanceFull
+union
+select distinct
+    city,
+    country
+from
     OffensivePerformanceFull

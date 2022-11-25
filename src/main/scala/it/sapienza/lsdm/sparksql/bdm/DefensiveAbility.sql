@@ -1,6 +1,4 @@
-select
-    id,
-    playerFullName,
+select distinct
     ca,
     agg,
     tck,
