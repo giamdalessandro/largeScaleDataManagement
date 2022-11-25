@@ -1,0 +1,982 @@
+player,squad,comp,id
+Asier Villalibre,Athletic Club,1. La Liga,0
+Daley Sinkgraven,Leverkusen,1. Bundesliga,1
+Marco Richter,Augsburg,1. Bundesliga,2
+Moussa Djenepo,Southampton,1. Premier League,3
+Mads Pedersen,Augsburg,1. Bundesliga,4
+Andriy Yarmolenko,West Ham,1. Premier League,5
+Julian Ryerson,Union Berlin,1. Bundesliga,6
+Néstor Araujo,Celta Vigo,1. La Liga,7
+Tyrick Mitchell,Crystal Palace,1. Premier League,8
+Simone Zaza,Torino,1. Serie A,9
+Gonçalo Paciência,Eint Frankfurt,1. Bundesliga,10
+Jon Moncayola,Osasuna,1. La Liga,11
+Ashley Young,Inter,1. Serie A,12
+Valon Behrami,Genoa,1. Serie A,13
+Florian Niederlechner,Augsburg,1. Bundesliga,14
+Mattia Zaccagni,Hellas Verona,1. Serie A,15
+Wendell,Leverkusen,1. Bundesliga,16
+Andrea Ranocchia,Inter,1. Serie A,17
+Carlos Bacca,Villarreal,1. La Liga,18
+Moussa Sissoko,Tottenham,1. Premier League,19
+Curtis Jones,Liverpool,1. Premier League,20
+Renan Lodi,Atlético Madrid,1. La Liga,21
+Jeremie Boga,Sassuolo,1. Serie A,22
+Nicolas Höfler,Freiburg,1. Bundesliga,23
+José Campaña,Levante,1. La Liga,24
+Eduard Löwen,Augsburg,1. Bundesliga,25
+Eddie Nketiah,Arsenal,1. Premier League,26
+Dani Olmo,RB Leipzig,1. Bundesliga,27
+Olivier Giroud,Chelsea,1. Premier League,28
+Vincenzo Grifo,Hoffenheim,1. Bundesliga,29
+Diogo Jota,Wolves,1. Premier League,30
+Thomas Lemar,Atlético Madrid,1. La Liga,31
+Thomas Partey,Atlético Madrid,1. La Liga,32
+Charles Aránguiz,Leverkusen,1. Bundesliga,33
+Ruben Vargas,Augsburg,1. Bundesliga,34
+Emiliano Martínez,Arsenal,1. Premier League,35
+Isaac Hayden,Newcastle Utd,1. Premier League,36
+Aleksandar Kolarov,Roma,1. Serie A,37
+Mats Hummels,Dortmund,1. Bundesliga,38
+Domingos Duarte,Granada,1. La Liga,39
+Ondrej Duda,Norwich City,1. Premier League,40
+Isco,Real Madrid,1. La Liga,41
+Admir Mehmedi,Wolfsburg,1. Bundesliga,42
+Richarlison,Everton,1. Premier League,43
+Matteo Politano,Inter,1. Serie A,44
+Jean-Philippe Gbamin,Everton,1. Premier League,45
+Jorge Miramón,Levante,1. La Liga,46
+Christopher Lenz,Union Berlin,1. Bundesliga,47
+Lorenzo De Silvestri,Torino,1. Serie A,48
+Takumi Minamino,Liverpool,1. Premier League,49
+André Silva,Eint Frankfurt,1. Bundesliga,50
+José Callejón,Napoli,1. Serie A,51
+Stefan Ilsanker,RB Leipzig,1. Bundesliga,52
+John Guidetti,Alavés,1. La Liga,53
+Kieran Tierney,Arsenal,1. Premier League,54
+Paulo Otávio,Wolfsburg,1. Bundesliga,55
+Adnan Januzaj,Real Sociedad,1. La Liga,56
+Paolo Faragò,Cagliari,1. Serie A,57
+Felipe Caicedo,Lazio,1. Serie A,58
+Aitor Ruibal,Leganés,1. La Liga,59
+Leonardo Pavoletti,Cagliari,1. Serie A,60
+Christian Pulisic,Chelsea,1. Premier League,61
+Javier Pastore,Roma,1. Serie A,62
+Raoul Bellanova,Atalanta,1. Serie A,63
+João Moutinho,Wolves,1. Premier League,64
+Denis Cheryshev,Valencia,1. La Liga,65
+Sandro Tonali,Brescia,1. Serie A,66
+Rodrigo De Paul,Udinese,1. Serie A,67
+Jordi Alba,Barcelona,1. La Liga,68
+Andrea Masiello,Atalanta,1. Serie A,69
+Tammy Abraham,Chelsea,1. Premier League,70
+Brahim Díaz,Real Madrid,1. La Liga,71
+Kevin Agudelo,Fiorentina,1. Serie A,72
+Suso,Sevilla,1. La Liga,73
+Alexis Mac Allister,Brighton,1. Premier League,74
+Bukayo Saka,Arsenal,1. Premier League,75
+Aymeric Laporte,Manchester City,1. Premier League,76
+Moi Gómez,Villarreal,1. La Liga,77
+Matteo Politano,Napoli,1. Serie A,78
+Armando Izzo,Torino,1. Serie A,79
+Cristiano Biraghi,Inter,1. Serie A,80
+Marc Albrighton,Leicester City,1. Premier League,81
+Lucas Hernández,Bayern Munich,1. Bundesliga,82
+Hugo Mallo,Celta Vigo,1. La Liga,83
+Ryan Fraser,Bournemouth,1. Premier League,84
+Ezri Konsa,Aston Villa,1. Premier League,85
+Edmond Tapsoba,Leverkusen,1. Bundesliga,86
+Lucien Agoume,Inter,1. Serie A,87
+Suat Serdar,Schalke 04,1. Bundesliga,88
+Timothy Chandler,Eint Frankfurt,1. Bundesliga,89
+Fabian Schär,Newcastle Utd,1. Premier League,90
+Matheus Cunha,RB Leipzig,1. Bundesliga,91
+Aïssa Mandi,Betis,1. La Liga,92
+Dani García,Athletic Club,1. La Liga,93
+Jules Koundé,Sevilla,1. La Liga,94
+Kingsley Coman,Bayern Munich,1. Bundesliga,95
+Sargis Adamyan,Hoffenheim,1. Bundesliga,96
+João Pedro,Cagliari,1. Serie A,97
+Nicola Murru,Sampdoria,1. Serie A,98
+Nemanja Gudelj,Sevilla,1. La Liga,99
+Youssef En-Nesyri,Sevilla,1. La Liga,100
+Reece James,Chelsea,1. Premier League,101
+Alphonse Areola,Real Madrid,1. La Liga,102
+Fernando,Sevilla,1. La Liga,103
+Kevin Agudelo,Genoa,1. Serie A,104
+Eden Hazard,Real Madrid,1. La Liga,105
+Martin Hinteregger,Eint Frankfurt,1. Bundesliga,106
+Rogério,Sassuolo,1. Serie A,107
+Davie Selke,Hertha BSC,1. Bundesliga,108
+Felipe,Atlético Madrid,1. La Liga,109
+Amadou Diawara,Roma,1. Serie A,110
+Dominik Kohr,Eint Frankfurt,1. Bundesliga,111
+Jamal Musiala,Bayern Munich,1. Bundesliga,112
+Hugo Duro,Getafe,1. La Liga,113
+Harvey Barnes,Leicester City,1. Premier League,114
+Ruslan Malinovskyi,Atalanta,1. Serie A,115
+Asier Illarramendi,Real Sociedad,1. La Liga,116
+Dan-Axel Zagadou,Dortmund,1. Bundesliga,117
+Nordi Mukiele,RB Leipzig,1. Bundesliga,118
+Dodi Lukebakio,Hertha BSC,1. Bundesliga,119
+Ken Sema,Udinese,1. Serie A,120
+Patrik Schick,RB Leipzig,1. Bundesliga,121
+Joselu,Alavés,1. La Liga,122
+Kyle Walker,Manchester City,1. Premier League,123
+Stefan de Vrij,Inter,1. Serie A,124
+Thibaut Courtois,Real Madrid,1. La Liga,125
+Joaquín,Betis,1. La Liga,126
+Florian Lejeune,Newcastle Utd,1. Premier League,127
+Marcos Llorente,Atlético Madrid,1. La Liga,128
+Amir Rrahmani,Hellas Verona,1. Serie A,129
+Julian Chabot,Sampdoria,1. Serie A,130
+Sergi Gómez,Sevilla,1. La Liga,131
+Antonio Puertas,Granada,1. La Liga,132
+Eddie Salcedo,Hellas Verona,1. Serie A,133
+Japhet Tanganga,Tottenham,1. Premier League,134
+Aleix Vidal,Alavés,1. La Liga,135
+Alex Oxlade-Chamberlain,Liverpool,1. Premier League,136
+André Silva,Milan,1. Serie A,137
+Miguel Almirón,Newcastle Utd,1. Premier League,138
+Hirving Lozano,Napoli,1. Serie A,139
+Riccardo Calafiori,Roma,1. Serie A,140
+Dan Burn,Brighton,1. Premier League,141
+Jesús Vallejo,Wolves,1. Premier League,142
+Yangel Herrera,Granada,1. La Liga,143
+Naby Keïta,Liverpool,1. Premier League,144
+Tariq Lamptey,Brighton,1. Premier League,145
+Rodrigo Becão,Udinese,1. Serie A,146
+Guido Rodríguez,Betis,1. La Liga,147
+Sebastian Andersson,Union Berlin,1. Bundesliga,148
+Lucas Torró,Eint Frankfurt,1. Bundesliga,149
+Mason Holgate,Everton,1. Premier League,150
+Clément Lenglet,Barcelona,1. La Liga,151
+Luke Shaw,Manchester Utd,1. Premier League,152
+Emerson,Betis,1. La Liga,153
+Ainsley Maitland-Niles,Arsenal,1. Premier League,154
+Gaetano Castrovilli,Fiorentina,1. Serie A,155
+Robin Gosens,Atalanta,1. Serie A,156
+Davide Calabria,Milan,1. Serie A,157
+Danilo,Juventus,1. Serie A,158
+Rubén Sobrino,Valencia,1. La Liga,159
+Mitchell Weiser,Leverkusen,1. Bundesliga,160
+Paolo Ghiglione,Genoa,1. Serie A,161
+Brais Méndez,Celta Vigo,1. La Liga,162
+Stanislav Lobotka,Celta Vigo,1. La Liga,163
+Lukas Kübler,Freiburg,1. Bundesliga,164
+Tyler Adams,RB Leipzig,1. Bundesliga,165
+Leander Dendoncker,Wolves,1. Premier League,166
+Matteo Lovato,Hellas Verona,1. Serie A,167
+Carles Aleñá,Barcelona,1. La Liga,168
+Eduard Löwen,Hertha BSC,1. Bundesliga,169
+Alfreð Finnbogason,Augsburg,1. Bundesliga,170
+Sebastian Walukiewicz,Cagliari,1. Serie A,171
+Marco Reus,Dortmund,1. Bundesliga,172
+Aaron Cresswell,West Ham,1. Premier League,173
+Maximilian Arnold,Wolfsburg,1. Bundesliga,174
+Simone Verdi,Torino,1. Serie A,175
+Marwin Hitz,Dortmund,1. Bundesliga,176
+Gerard Deulofeu,Watford,1. Premier League,177
+Jarrod Bowen,West Ham,1. Premier League,178
+Riyad Mahrez,Manchester City,1. Premier League,179
+Gianmarco Cangiano,Bologna,1. Serie A,180
+Kelechi Iheanacho,Leicester City,1. Premier League,181
+Dean Henderson,Sheffield Utd,1. Premier League,182
+Benjamin Mendy,Manchester City,1. Premier League,183
+Keinan Davis,Aston Villa,1. Premier League,184
+Nathan Aké,Bournemouth,1. Premier League,185
+Patric,Lazio,1. Serie A,186
+Riccardo Gagliolo,Parma,1. Serie A,187
+Joe Gomez,Liverpool,1. Premier League,188
+Dedryck Boyata,Hertha BSC,1. Bundesliga,189
+Florian Kainz,Köln,1. Bundesliga,190
+Mark Uth,Köln,1. Bundesliga,191
+Matt Ritchie,Newcastle Utd,1. Premier League,192
+Adrien Rabiot,Juventus,1. Serie A,193
+Joe Willock,Arsenal,1. Premier League,194
+Arne Maier,Hertha BSC,1. Bundesliga,195
+Darko Churlinov,Köln,1. Bundesliga,196
+Jonny Evans,Leicester City,1. Premier League,197
+Cristiano Piccini,Valencia,1. La Liga,198
+João Félix,Atlético Madrid,1. La Liga,199
+Mattias Svanberg,Bologna,1. Serie A,200
+Matt Doherty,Wolves,1. Premier League,201
+Alexander Isak,Real Sociedad,1. La Liga,202
+Roberto Soriano,Bologna,1. Serie A,203
+Gareth Bale,Real Madrid,1. La Liga,204
+Luke Thomas,Leicester City,1. Premier League,205
+Carlos Soler,Valencia,1. La Liga,206
+Ishak Belfodil,Hoffenheim,1. Bundesliga,207
+Andrea Pinamonti,Genoa,1. Serie A,208
+Kieran Trippier,Atlético Madrid,1. La Liga,209
+Shkodran Mustafi,Arsenal,1. Premier League,210
+Arturo Vidal,Barcelona,1. La Liga,211
+Iago Aspas,Celta Vigo,1. La Liga,212
+Mark Uth,Schalke 04,1. Bundesliga,213
+Jeison Murillo,Sampdoria,1. Serie A,214
+Sebastian Rode,Eint Frankfurt,1. Bundesliga,215
+Aaron Connolly,Brighton,1. Premier League,216
+Germán Valera,Atlético Madrid,1. La Liga,217
+Toni Lato,Osasuna,1. La Liga,218
+Sergio Canales,Betis,1. La Liga,219
+Christian Benteke,Crystal Palace,1. Premier League,220
+Kevin Mbabu,Wolfsburg,1. Bundesliga,221
+Yerry Mina,Everton,1. Premier League,222
+Pablo Fornals,West Ham,1. Premier League,223
+Amadou Haidara,RB Leipzig,1. Bundesliga,224
+Paco Alcácer,Dortmund,1. Bundesliga,225
+Christopher Trimmel,Union Berlin,1. Bundesliga,226
+Jeffrey Gouweleeuw,Augsburg,1. Bundesliga,227
+Danilo D'Ambrosio,Inter,1. Serie A,228
+Federico Dimarco,Hellas Verona,1. Serie A,229
+Rúben Vezo,Levante,1. La Liga,230
+Rubén Duarte,Alavés,1. La Liga,231
+Ciaran Clark,Newcastle Utd,1. Premier League,232
+Leonardo Bonucci,Juventus,1. Serie A,233
+Tim Lemperle,Köln,1. Bundesliga,234
+Danny Rose,Tottenham,1. Premier League,235
+Sebastiano Luperto,Napoli,1. Serie A,236
+Kike Barja,Osasuna,1. La Liga,237
+Roberto Torres,Osasuna,1. La Liga,238
+Antonio Rüdiger,Chelsea,1. Premier League,239
+Lazar Samardzic,Hertha BSC,1. Bundesliga,240
+Joaquín Correa,Lazio,1. Serie A,241
+Mariano,Real Madrid,1. La Liga,242
+Nathan Redmond,Southampton,1. Premier League,243
+Ibrahima Mbaye,Bologna,1. Serie A,244
+Fabian Delph,Everton,1. Premier League,245
+Harry Winks,Tottenham,1. Premier League,246
+Danny da Costa,Eint Frankfurt,1. Bundesliga,247
+Davide Zappacosta,Roma,1. Serie A,248
+Yannick Carrasco,Atlético Madrid,1. La Liga,249
+Fred,Manchester Utd,1. Premier League,250
+Mohamed Salah,Liverpool,1. Premier League,251
+Jóhann Berg Guðmundsson,Burnley,1. Premier League,252
+Alex Sandro,Juventus,1. Serie A,253
+Iñigo Martínez,Athletic Club,1. La Liga,254
+Michael Gregoritsch,Schalke 04,1. Bundesliga,255
+Thierry Correia,Valencia,1. La Liga,256
+Lucas Ocampos,Sevilla,1. La Liga,257
+Emre Can,Dortmund,1. Bundesliga,258
+Eric Dier,Tottenham,1. Premier League,259
+Diego Llorente,Real Sociedad,1. La Liga,260
+Diego Demme,RB Leipzig,1. Bundesliga,261
+Fabio Quagliarella,Sampdoria,1. Serie A,262
+Kévin Rodrigues,Real Sociedad,1. La Liga,263
+Erik Pieters,Burnley,1. Premier League,264
+Allan Nyom,Getafe,1. La Liga,265
+Francis Coquelin,Valencia,1. La Liga,266
+Marcos Alonso,Chelsea,1. Premier League,267
+Rafael Leão,Milan,1. Serie A,268
+Amin Younes,Napoli,1. Serie A,269
+Bernardo Silva,Manchester City,1. Premier League,270
+Manuel Akanji,Dortmund,1. Bundesliga,271
+Maya Yoshida,Southampton,1. Premier League,272
+Pierre-Emerick Aubameyang,Arsenal,1. Premier League,273
+Marvelous Nakamba,Aston Villa,1. Premier League,274
+Bosko Sutalo,Atalanta,1. Serie A,275
+Jorge Molina,Getafe,1. La Liga,276
+Joshua Kimmich,Bayern Munich,1. Bundesliga,277
+Ashley Westwood,Burnley,1. Premier League,278
+Jamie Vardy,Leicester City,1. Premier League,279
+Ademola Lookman,RB Leipzig,1. Bundesliga,280
+Rodrygo,Real Madrid,1. La Liga,281
+Héctor Herrera,Atlético Madrid,1. La Liga,282
+Alexis Sánchez,Inter,1. Serie A,283
+Marcel Sabitzer,RB Leipzig,1. Bundesliga,284
+Juan Miranda,Schalke 04,1. Bundesliga,285
+Daniel Podence,Wolves,1. Premier League,286
+Tyrone Mings,Aston Villa,1. Premier League,287
+Juanmi,Betis,1. La Liga,288
+Kévin Malcuit,Napoli,1. Serie A,289
+Manuel Lanzini,West Ham,1. Premier League,290
+Luca Pellegrini,Cagliari,1. Serie A,291
+Sergio Busquets,Barcelona,1. La Liga,292
+Gabriel Jesus,Manchester City,1. Premier League,293
+Callum Wilson,Bournemouth,1. Premier League,294
+Giuseppe Pezzella,Udinese,1. Serie A,295
+Karim Rekik,Hertha BSC,1. Bundesliga,296
+Edimilson Fernandes,Mainz 05,1. Bundesliga,297
+Ismail Jakobs,Köln,1. Bundesliga,298
+Aymen Barkok,Düsseldorf,1. Bundesliga,299
+Giangiacomo Magnani,Brescia,1. Serie A,300
+James Tomkins,Crystal Palace,1. Premier League,301
+Marius Wolf,Hertha BSC,1. Bundesliga,302
+Martin Braithwaite,Leganés,1. La Liga,303
+Andoni Gorosabel,Real Sociedad,1. La Liga,304
+Ousmane Dembélé,Barcelona,1. La Liga,305
+David Alaba,Bayern Munich,1. Bundesliga,306
+Julian Baumgartlinger,Leverkusen,1. Bundesliga,307
+Pedro Bigas,Eibar,1. La Liga,308
+Federico Ceccherini,Fiorentina,1. Serie A,309
+Santiago Ascacíbar,Hertha BSC,1. Bundesliga,310
+Paulinho,Leverkusen,1. Bundesliga,311
+Raphael Framberger,Augsburg,1. Bundesliga,312
+Carles Aleñá,Betis,1. La Liga,313
+Lucas Alario,Leverkusen,1. Bundesliga,314
+André Hahn,Augsburg,1. Bundesliga,315
+Martin Kelly,Crystal Palace,1. Premier League,316
+Ádám Szalai,Mainz 05,1. Bundesliga,317
+Ricardo Pereira,Leicester City,1. Premier League,318
+Chema,Getafe,1. La Liga,319
+Luis Rioja,Alavés,1. La Liga,320
+Omar Mascarell,Schalke 04,1. Bundesliga,321
+Mert Müldür,Sassuolo,1. Serie A,322
+Andrew Robertson,Liverpool,1. Premier League,323
+Matías Vecino,Inter,1. Serie A,324
+Timo Werner,RB Leipzig,1. Bundesliga,325
+Gary Medel,Bologna,1. Serie A,326
+Kevin De Bruyne,Manchester City,1. Premier League,327
+Jordan Torunarigha,Hertha BSC,1. Bundesliga,328
+Dani Carvajal,Real Madrid,1. La Liga,329
+Marcus Rashford,Manchester Utd,1. Premier League,330
+Rafael Czichos,Köln,1. Bundesliga,331
+Enes Ünal,Valladolid,1. La Liga,332
+Santi Mina,Celta Vigo,1. La Liga,333
+Pedro,Chelsea,1. Premier League,334
+Ferland Mendy,Real Madrid,1. La Liga,335
+Alessandro Bastoni,Inter,1. Serie A,336
+Michail Antonio,West Ham,1. Premier League,337
+Kevin Kampl,RB Leipzig,1. Bundesliga,338
+Renato Steffen,Wolfsburg,1. Bundesliga,339
+Gonçalo Guedes,Valencia,1. La Liga,340
+Nico Schulz,Dortmund,1. Bundesliga,341
+Jakub Jankto,Sampdoria,1. Serie A,342
+Nadiem Amiri,Leverkusen,1. Bundesliga,343
+Marcelo,Real Madrid,1. La Liga,344
+Ryan Sessegnon,Tottenham,1. Premier League,345
+Dennis Praet,Leicester City,1. Premier League,346
+Nolito,Sevilla,1. La Liga,347
+Kortney Hause,Aston Villa,1. Premier League,348
+Matteo Gabbia,Milan,1. Serie A,349
+Ismaël Bennacer,Milan,1. Serie A,350
+Franck Ribéry,Fiorentina,1. Serie A,351
+Franck Kessié,Milan,1. Serie A,352
+Mitchell Dijks,Bologna,1. Serie A,353
+Gianluca Mancini,Roma,1. Serie A,354
+Faouzi Ghoulam,Napoli,1. Serie A,355
+Charlie Taylor,Burnley,1. Premier League,356
+Federico Bernardeschi,Juventus,1. Serie A,357
+Danny Ings,Southampton,1. Premier League,358
+Sebastian Rudy,Hoffenheim,1. Bundesliga,359
+Aaron Wan-Bissaka,Manchester Utd,1. Premier League,360
+Mattia Destro,Bologna,1. Serie A,361
+Neal Maupay,Brighton,1. Premier League,362
+Christopher Nkunku,RB Leipzig,1. Bundesliga,363
+Daniel Brosinski,Mainz 05,1. Bundesliga,364
+Miguel Veloso,Hellas Verona,1. Serie A,365
+James McArthur,Crystal Palace,1. Premier League,366
+Dayot Upamecano,RB Leipzig,1. Bundesliga,367
+Luis Muriel,Atalanta,1. Serie A,368
+Ander Barrenetxea,Real Sociedad,1. La Liga,369
+Daniel Maldini,Milan,1. Serie A,370
+Simon Kjær,Atalanta,1. Serie A,371
+Jeff Hendrick,Burnley,1. Premier League,372
+Martin Braithwaite,Barcelona,1. La Liga,373
+Álvaro Odriozola,Real Madrid,1. La Liga,374
+Rui Patrício,Wolves,1. Premier League,375
+Tachi,Alavés,1. La Liga,376
+Harry Maguire,Manchester Utd,1. Premier League,377
+Andrea Favilli,Genoa,1. Serie A,378
+Sergio Postigo,Levante,1. La Liga,379
+Corentin Tolisso,Bayern Munich,1. Bundesliga,380
+Yussuf Poulsen,RB Leipzig,1. Bundesliga,381
+Aaron Ramsey,Juventus,1. Serie A,382
+Federico Fernández,Newcastle Utd,1. Premier League,383
+Sergio Reguilón,Sevilla,1. La Liga,384
+Nacho Vidal,Osasuna,1. La Liga,385
+Domenico Berardi,Sassuolo,1. Serie A,386
+Jordan Ayew,Crystal Palace,1. Premier League,387
+Kevin Lasagna,Udinese,1. Serie A,388
+Angeliño,RB Leipzig,1. Bundesliga,389
+Raphaël Varane,Real Madrid,1. La Liga,390
+Fredrik Jensen,Augsburg,1. Bundesliga,391
+Juraj Kucka,Parma,1. Serie A,392
+Berat Djimsiti,Atalanta,1. Serie A,393
+Mário Rui,Napoli,1. Serie A,394
+Álvaro Morata,Atlético Madrid,1. La Liga,395
+Lorenzo Pellegrini,Roma,1. Serie A,396
+Francesco Caputo,Sassuolo,1. Serie A,397
+Pere Pons,Alavés,1. La Liga,398
+Javi Martínez,Osasuna,1. La Liga,399
+Dennis Geiger,Hoffenheim,1. Bundesliga,400
+Dwight Gayle,Newcastle Utd,1. Premier League,401
+Unai García,Osasuna,1. La Liga,402
+Josip Brekalo,Wolfsburg,1. Bundesliga,403
+Giovani Lo Celso,Tottenham,1. Premier League,404
+Domenico Criscito,Genoa,1. Serie A,405
+Riccardo Sottil,Fiorentina,1. Serie A,406
+Merih Demiral,Juventus,1. Serie A,407
+Milan Badelj,Fiorentina,1. Serie A,408
+Pascal Groß,Brighton,1. Premier League,409
+Federico Dimarco,Inter,1. Serie A,410
+Ludwig Augustinsson,Werder Bremen,1. Bundesliga,411
+Christian Oliva,Cagliari,1. Serie A,412
+Fernandinho,Manchester City,1. Premier League,413
+Daniele Rugani,Juventus,1. Serie A,414
+Gonzalo Melero,Levante,1. La Liga,415
+Benjamin Pavard,Bayern Munich,1. Bundesliga,416
+Axel Witsel,Dortmund,1. Bundesliga,417
+Che Adams,Southampton,1. Premier League,418
+Juan Jesus,Roma,1. Serie A,419
+Andrea Masiello,Genoa,1. Serie A,420
+Luis Suárez,Barcelona,1. La Liga,421
+Bastian Oczipka,Schalke 04,1. Bundesliga,422
+Lionel Messi,Barcelona,1. La Liga,423
+Martín Cáceres,Fiorentina,1. Serie A,424
+Demarai Gray,Leicester City,1. Premier League,425
+Makoto Hasebe,Eint Frankfurt,1. Bundesliga,426
+Patrick Cutrone,Wolves,1. Premier League,427
+Billy Gilmour,Chelsea,1. Premier League,428
+Vincenzo Grifo,Freiburg,1. Bundesliga,429
+Håvard Nordtveit,Hoffenheim,1. Bundesliga,430
+Niko Gießelmann,Düsseldorf,1. Bundesliga,431
+Mark Flekken,Freiburg,1. Bundesliga,432
+Gerard Piqué,Barcelona,1. La Liga,433
+Maxime Gonalons,Granada,1. La Liga,434
+Calum Chambers,Arsenal,1. Premier League,435
+João Pedro,Watford,1. Premier League,436
+Bryan Cristante,Roma,1. Serie A,437
+Joan Jordán,Sevilla,1. La Liga,438
+Jeffrey Schlupp,Crystal Palace,1. Premier League,439
+Kasper Schmeichel,Leicester City,1. Premier League,440
+Alfonso Pedraza,Betis,1. La Liga,441
+Roberto Soldado,Granada,1. La Liga,442
+Sadio Mané,Liverpool,1. Premier League,443
+Giacomo Bonaventura,Milan,1. Serie A,444
+Iago,Augsburg,1. Bundesliga,445
+Phil Bardsley,Burnley,1. Premier League,446
+Alessio Romagnoli,Milan,1. Serie A,447
+Gianluca Caprari,Sampdoria,1. Serie A,448
+Martín Montoya,Brighton,1. Premier League,449
+Cristian Tello,Betis,1. La Liga,450
+Jerry St. Juste,Mainz 05,1. Bundesliga,451
+Wilfried Zaha,Crystal Palace,1. Premier League,452
+Lucas Höler,Freiburg,1. Bundesliga,453
+Daniel Wass,Valencia,1. La Liga,454
+Frenkie de Jong,Barcelona,1. La Liga,455
+Ruben Loftus-Cheek,Chelsea,1. Premier League,456
+Morgan Gibbs-White,Wolves,1. Premier League,457
+Unai López,Athletic Club,1. La Liga,458
+Marvin Zeegelaar,Udinese,1. Serie A,459
+Jaume Costa,Valencia,1. La Liga,460
+Jesse Lingard,Manchester Utd,1. Premier League,461
+Mattia Caldara,Atalanta,1. Serie A,462
+Ilija Nestorovski,Udinese,1. Serie A,463
+Ryan Fredericks,West Ham,1. Premier League,464
+Roger Martí,Levante,1. La Liga,465
+Sergio Córdova,Augsburg,1. Bundesliga,466
+Jan Bednarek,Southampton,1. Premier League,467
+Kristoffer Askildsen,Sampdoria,1. Serie A,468
+Ashley Young,Manchester Utd,1. Premier League,469
+Matthijs de Ligt,Juventus,1. Serie A,470
+Giovanni Di Lorenzo,Napoli,1. Serie A,471
+Gonzalo Escalante,Eibar,1. La Liga,472
+Ciro Immobile,Lazio,1. Serie A,473
+Andreas Pereira,Manchester Utd,1. Premier League,474
+William Troost-Ekong,Udinese,1. Serie A,475
+Gerard Moreno,Villarreal,1. La Liga,476
+Manolo Gabbiadini,Sampdoria,1. Serie A,477
+Karim Onisiwo,Mainz 05,1. Bundesliga,478
+Rob Holding,Arsenal,1. Premier League,479
+Marvin Plattenhardt,Hertha BSC,1. Bundesliga,480
+Giuseppe Pezzella,Parma,1. Serie A,481
+Tommaso Augello,Sampdoria,1. Serie A,482
+Stefan Posch,Hoffenheim,1. Bundesliga,483
+Alexander Schwolow,Freiburg,1. Bundesliga,484
+Éder Militão,Real Madrid,1. La Liga,485
+Ross Barkley,Chelsea,1. Premier League,486
+Tanguy Ndombele,Tottenham,1. Premier League,487
+Fabio Depaoli,Sampdoria,1. Serie A,488
+Gian-Luca Itter,Freiburg,1. Bundesliga,489
+Antonio Mirante,Roma,1. Serie A,490
+Janik Haberer,Freiburg,1. Bundesliga,491
+Raheem Sterling,Manchester City,1. Premier League,492
+Federico Bonazzoli,Sampdoria,1. Serie A,493
+William Carvalho,Betis,1. La Liga,494
+Walace,Udinese,1. Serie A,495
+Elseid Hysaj,Napoli,1. Serie A,496
+Raúl Jiménez,Wolves,1. Premier League,497
+Almamy Touré,Eint Frankfurt,1. Bundesliga,498
+Lautaro Martínez,Inter,1. Serie A,499
+Sergio Ramos,Real Madrid,1. La Liga,500
+André Gomes,Everton,1. Premier League,501
+Justin Kluivert,Roma,1. Serie A,502
+Mehdi Bourabia,Sassuolo,1. Serie A,503
+Ben Davies,Tottenham,1. Premier League,504
+Jay Rodriguez,Burnley,1. Premier League,505
+John Stones,Manchester City,1. Premier League,506
+Issa Diop,West Ham,1. Premier League,507
+Andrés Guardado,Betis,1. La Liga,508
+Josh Sargent,Werder Bremen,1. Bundesliga,509
+Nolito,Celta Vigo,1. La Liga,510
+Yassine Bounou,Sevilla,1. La Liga,511
+Amine Harit,Schalke 04,1. Bundesliga,512
+Riqui Puig,Barcelona,1. La Liga,513
+Santiago Arias,Atlético Madrid,1. La Liga,514
+Denis Vavro,Lazio,1. Serie A,515
+Nico Schlotterbeck,Freiburg,1. Bundesliga,516
+Ezequiel Ávila,Osasuna,1. La Liga,517
+Miguel,Valladolid,1. La Liga,518
+Jetro Willems,Newcastle Utd,1. Premier League,519
+Jordan Henderson,Liverpool,1. Premier League,520
+Raúl García,Athletic Club,1. La Liga,521
+Andrea Carboni,Cagliari,1. Serie A,522
+Ola Aina,Torino,1. Serie A,523
+Samuel Umtiti,Barcelona,1. La Liga,524
+Stefano Okaka,Udinese,1. Serie A,525
+Jack Cork,Burnley,1. Premier League,526
+Omar Colley,Sampdoria,1. Serie A,527
+Giangiacomo Magnani,Sassuolo,1. Serie A,528
+Claudio Bravo,Manchester City,1. Premier League,529
+Ethan Ampadu,RB Leipzig,1. Bundesliga,530
+Jérôme Roussillon,Wolfsburg,1. Bundesliga,531
+Edoardo Goldaniga,Genoa,1. Serie A,532
+Mato Jajalo,Udinese,1. Serie A,533
+Anthony Ujah,Union Berlin,1. Bundesliga,534
+Steven Bergwijn,Tottenham,1. Premier League,535
+Henrikh Mkhitaryan,Arsenal,1. Premier League,536
+Achraf Hakimi,Dortmund,1. Bundesliga,537
+Víctor Díaz,Granada,1. La Liga,538
+Florin Andone,Brighton,1. Premier League,539
+Niklas Süle,Bayern Munich,1. Bundesliga,540
+Antonio Sanabria,Genoa,1. Serie A,541
+Ansu Fati,Barcelona,1. La Liga,542
+Ibrahima Konaté,RB Leipzig,1. Bundesliga,543
+Kingsley Ehizibue,Köln,1. Bundesliga,544
+Vicente Iborra,Villarreal,1. La Liga,545
+Rafael Tolói,Atalanta,1. Serie A,546
+Riccardo Orsolini,Bologna,1. Serie A,547
+Nicola Sansone,Bologna,1. Serie A,548
+Maximilian Eggestein,Werder Bremen,1. Bundesliga,549
+Erik Thommy,Düsseldorf,1. Bundesliga,550
+James Milner,Liverpool,1. Premier League,551
+Lukáš Haraslín,Sassuolo,1. Serie A,552
+Giacomo Raspadori,Sassuolo,1. Serie A,553
+Alex Ferrari,Sampdoria,1. Serie A,554
+Gianluigi Donnarumma,Milan,1. Serie A,555
+Lucas Torreira,Arsenal,1. Premier League,556
+Emil Krafth,Newcastle Utd,1. Premier League,557
+Wilfried Singo,Torino,1. Serie A,558
+Erik Durm,Eint Frankfurt,1. Bundesliga,559
+Robin Koch,Freiburg,1. Bundesliga,560
+Koray Günter,Hellas Verona,1. Serie A,561
+Nahitan Nández,Cagliari,1. Serie A,562
+Max Kilman,Wolves,1. Premier League,563
+Ashley Barnes,Burnley,1. Premier League,564
+James Ward-Prowse,Southampton,1. Premier League,565
+Unai Núñez,Athletic Club,1. La Liga,566
+Álex Berenguer,Torino,1. Serie A,567
+Francesco Magnanelli,Sassuolo,1. Serie A,568
+Rodrigo Bentancur,Juventus,1. Serie A,569
+Karim Benzema,Real Madrid,1. La Liga,570
+Ante Budimir,Mallorca,1. La Liga,571
+Víctor Camarasa,Crystal Palace,1. Premier League,572
+Víctor Laguardia,Alavés,1. La Liga,573
+Darío Poveda,Atlético Madrid,1. La Liga,574
+Diego Godín,Inter,1. Serie A,575
+Raúl Albiol,Villarreal,1. La Liga,576
+Gianluca Caprari,Parma,1. Serie A,577
+Fikayo Tomori,Chelsea,1. Premier League,578
+Adama Traoré,Wolves,1. Premier League,579
+Tom Heaton,Aston Villa,1. Premier League,580
+Lyanco,Torino,1. Serie A,581
+Morten Thorsby,Sampdoria,1. Serie A,582
+Fran Beltrán,Celta Vigo,1. La Liga,583
+Robert Skov,Hoffenheim,1. Bundesliga,584
+Davie Selke,Werder Bremen,1. Bundesliga,585
+Melayro Bogarde,Hoffenheim,1. Bundesliga,586
+Allan Saint-Maximin,Newcastle Utd,1. Premier League,587
+Ridle Baku,Mainz 05,1. Bundesliga,588
+Oriol Romeu,Southampton,1. Premier League,589
+Moussa Diaby,Leverkusen,1. Bundesliga,590
+Joelinton,Newcastle Utd,1. Premier League,591
+Kalidou Koulibaly,Napoli,1. Serie A,592
+Victor Lindelöf,Manchester Utd,1. Premier League,593
+Sergi Guardiola,Valladolid,1. La Liga,594
+John McGinn,Aston Villa,1. Premier League,595
+Carles Pérez,Roma,1. Serie A,596
+Solly March,Brighton,1. Premier League,597
+Henrikh Mkhitaryan,Roma,1. Serie A,598
+Ángel Correa,Atlético Madrid,1. La Liga,599
+David García,Osasuna,1. La Liga,600
+Mason Greenwood,Manchester Utd,1. Premier League,601
+Davide Faraoni,Hellas Verona,1. Serie A,602
+Allan,Napoli,1. Serie A,603
+Virgil van Dijk,Liverpool,1. Premier League,604
+Musa Barrow,Bologna,1. Serie A,605
+Lucas Digne,Everton,1. Premier League,606
+Valerio Verre,Hellas Verona,1. Serie A,607
+Roberto Firmino,Liverpool,1. Premier League,608
+Ximo Navarro,Alavés,1. La Liga,609
+Juan Cuadrado,Juventus,1. Serie A,610
+Callum Hudson-Odoi,Chelsea,1. Premier League,611
+Stefano Sturaro,Genoa,1. Serie A,612
+Ozan Kabak,Schalke 04,1. Bundesliga,613
+Michael Gregoritsch,Augsburg,1. Bundesliga,614
+Federico Chiesa,Fiorentina,1. Serie A,615
+Wilfred Ndidi,Leicester City,1. Premier League,616
+Marash Kumbulla,Hellas Verona,1. Serie A,617
+Paco Alcácer,Villarreal,1. La Liga,618
+Jesús Vallejo,Granada,1. La Liga,619
+Juan Mata,Manchester Utd,1. Premier League,620
+Duván Zapata,Atalanta,1. Serie A,621
+Quini,Granada,1. La Liga,622
+Benjamin Hübner,Hoffenheim,1. Bundesliga,623
+Manuel Locatelli,Sassuolo,1. Serie A,624
+Ander Guevara,Real Sociedad,1. La Liga,625
+Willy Boly,Wolves,1. Premier League,626
+Stefano Sensi,Inter,1. Serie A,627
+Vitolo,Atlético Madrid,1. La Liga,628
+Bram Nuytinck,Udinese,1. Serie A,629
+Jonathan Burkardt,Mainz 05,1. Bundesliga,630
+Willi Orban,RB Leipzig,1. Bundesliga,631
+Kurt Zouma,Chelsea,1. Premier League,632
+Giovanni Simeone,Cagliari,1. Serie A,633
+Xherdan Shaqiri,Liverpool,1. Premier League,634
+Milot Rashica,Werder Bremen,1. Bundesliga,635
+Mattia Destro,Genoa,1. Serie A,636
+Mahmoud Dahoud,Dortmund,1. Bundesliga,637
+James Maddison,Leicester City,1. Premier League,638
+Albin Ekdal,Sampdoria,1. Serie A,639
+Mohammed Salisu,Valladolid,1. La Liga,640
+Rubén García,Osasuna,1. La Liga,641
+Goran Pandev,Genoa,1. Serie A,642
+Jamaal Lascelles,Newcastle Utd,1. Premier League,643
+Dimitri Foulquier,Watford,1. Premier League,644
+Mason Mount,Chelsea,1. Premier League,645
+Carles Pérez,Barcelona,1. La Liga,646
+Roberto Gagliardini,Inter,1. Serie A,647
+Pervis Estupiñán,Osasuna,1. La Liga,648
+Gabriele Corbo,Bologna,1. Serie A,649
+Marcus Ingvartsen,Union Berlin,1. Bundesliga,650
+Jerdy Schouten,Bologna,1. Serie A,651
+César Azpilicueta,Chelsea,1. Premier League,652
+Ihlas Bebou,Hoffenheim,1. Bundesliga,653
+Jorginho,Chelsea,1. Premier League,654
+Andreas Christensen,Chelsea,1. Premier League,655
+Rodrigo,Valencia,1. La Liga,656
+Harry Kane,Tottenham,1. Premier League,657
+Axel Tuanzebe,Manchester Utd,1. Premier League,658
+Carlos Clerc,Levante,1. La Liga,659
+Phil Foden,Manchester City,1. Premier League,660
+Jens Stryger Larsen,Udinese,1. Serie A,661
+José Ángel,Eibar,1. La Liga,662
+Remo Freuler,Atalanta,1. Serie A,663
+Víctor Camarasa,Alavés,1. La Liga,664
+Dele Alli,Tottenham,1. Premier League,665
+Conor Coady,Wolves,1. Premier League,666
+Aarón Martín,Mainz 05,1. Bundesliga,667
+Dries Mertens,Napoli,1. Serie A,668
+Kyle Walker-Peters,Tottenham,1. Premier League,669
+Trent Alexander-Arnold,Liverpool,1. Premier League,670
+Giorgio Chiellini,Juventus,1. Serie A,671
+Tomás Rincón,Torino,1. Serie A,672
+Lorenzo Insigne,Napoli,1. Serie A,673
+Mathías Olivera,Getafe,1. La Liga,674
+Koffi Djidji,Torino,1. Serie A,675
+Iker Muniain,Athletic Club,1. La Liga,676
+Granit Xhaka,Arsenal,1. Premier League,677
+Erick Cabaco,Getafe,1. La Liga,678
+Philippe Coutinho,Bayern Munich,1. Bundesliga,679
+Dominic Calvert-Lewin,Everton,1. Premier League,680
+Lukas Klünter,Hertha BSC,1. Bundesliga,681
+Mikel Vesga,Athletic Club,1. La Liga,682
+Marvin Friedrich,Union Berlin,1. Bundesliga,683
+Leon Goretzka,Bayern Munich,1. Bundesliga,684
+Aritz Elustondo,Real Sociedad,1. La Liga,685
+Nils Petersen,Freiburg,1. Bundesliga,686
+Jordan Pickford,Everton,1. Premier League,687
+Luca Ceppitelli,Cagliari,1. Serie A,688
+Maximilian Mittelstädt,Hertha BSC,1. Bundesliga,689
+Chris Smalling,Roma,1. Serie A,690
+Christian Günter,Freiburg,1. Bundesliga,691
+Lukas Klostermann,RB Leipzig,1. Bundesliga,692
+Davinson Sánchez,Tottenham,1. Premier League,693
+Ryan Bertrand,Southampton,1. Premier League,694
+Kevin Akpoguma,Hoffenheim,1. Bundesliga,695
+Lorenzo Venuti,Fiorentina,1. Serie A,696
+Francesco Acerbi,Lazio,1. Serie A,697
+Nicolò Rovella,Genoa,1. Serie A,698
+Gian Marco Ferrari,Sassuolo,1. Serie A,699
+Joël Matip,Liverpool,1. Premier League,700
+João Cancelo,Manchester City,1. Premier League,701
+Jesús Navas,Sevilla,1. La Liga,702
+Youri Tielemans,Leicester City,1. Premier League,703
+Paul Pogba,Manchester Utd,1. Premier League,704
+Luis Alberto,Lazio,1. Serie A,705
+Grischa Prömel,Union Berlin,1. Bundesliga,706
+Takefusa Kubo,Mallorca,1. La Liga,707
+Pablo Piatti,Espanyol,1. La Liga,708
+Thorgan Hazard,Dortmund,1. Bundesliga,709
+Iñaki Williams,Athletic Club,1. La Liga,710
+Kevin Möhwald,Werder Bremen,1. Bundesliga,711
+Andreas Skov Olsen,Bologna,1. Serie A,712
+Lucas Vázquez,Real Madrid,1. La Liga,713
+David Timor,Getafe,1. La Liga,714
+Enis Bardhi,Levante,1. La Liga,715
+Danny Welbeck,Watford,1. Premier League,716
+Erick Cabaco,Levante,1. La Liga,717
+Alisson,Liverpool,1. Premier League,718
+Robert Lewandowski,Bayern Munich,1. Bundesliga,719
+Nicolò Zaniolo,Roma,1. Serie A,720
+Andros Townsend,Crystal Palace,1. Premier League,721
+Mikel Balenziaga,Athletic Club,1. La Liga,722
+Josh Brownhill,Burnley,1. Premier League,723
+Borja Mayoral,Levante,1. La Liga,724
+Coke,Levante,1. La Liga,725
+Gastón Pereiro,Cagliari,1. Serie A,726
+Anthony Martial,Manchester Utd,1. Premier League,727
+Emil Forsberg,RB Leipzig,1. Bundesliga,728
+Ellyes Skhiri,Köln,1. Bundesliga,729
+Alex Iwobi,Everton,1. Premier League,730
+Robin Le Normand,Real Sociedad,1. La Liga,731
+Mario Hermoso,Atlético Madrid,1. La Liga,732
+Nicolas Pépé,Arsenal,1. Premier League,733
+Yves Bissouma,Brighton,1. Premier League,734
+Toni Kroos,Real Madrid,1. La Liga,735
+Ángel Montoro,Granada,1. La Liga,736
+Ayoze Pérez,Leicester City,1. Premier League,737
+Benno Schmitz,Köln,1. Bundesliga,738
+Javi López,Alavés,1. La Liga,739
+Darwin Machís,Granada,1. La Liga,740
+Kai Havertz,Leverkusen,1. Bundesliga,741
+Fabinho,Liverpool,1. Premier League,742
+Simon Kjær,Milan,1. Serie A,743
+Édgar Méndez,Alavés,1. La Liga,744
+Nicolò Barella,Inter,1. Serie A,745
+Samuel Chukwueze,Villarreal,1. La Liga,746
+Daniel Ginczek,Wolfsburg,1. Bundesliga,747
+Mattia Bani,Bologna,1. Serie A,748
+Mauro Arambarri,Getafe,1. La Liga,749
+Reece Oxford,Augsburg,1. Bundesliga,750
+Niklas Stark,Hertha BSC,1. Bundesliga,751
+Kostas Manolas,Napoli,1. Serie A,752
+Koke,Atlético Madrid,1. La Liga,753
+Jason,Getafe,1. La Liga,754
+Jacopo Da Riva,Atalanta,1. Serie A,755
+Diogo Dalot,Manchester Utd,1. Premier League,756
+Josuha Guilavogui,Wolfsburg,1. Bundesliga,757
+Jaime Mata,Getafe,1. La Liga,758
+Manu Vallejo,Valencia,1. La Liga,759
+Theo Walcott,Everton,1. Premier League,760
+Romelu Lukaku,Inter,1. Serie A,761
+David Silva,Manchester City,1. Premier League,762
+Rubén Rochina,Levante,1. La Liga,763
+Raphaël Guerreiro,Dortmund,1. Bundesliga,764
+Cengiz Ünder,Roma,1. Serie A,765
+Timothy Castagne,Atalanta,1. Serie A,766
+Cristian Ansaldi,Torino,1. Serie A,767
+Marten de Roon,Atalanta,1. Serie A,768
+Diego Demme,Napoli,1. Serie A,769
+Stanislav Lobotka,Napoli,1. Serie A,770
+Daichi Kamada,Eint Frankfurt,1. Bundesliga,771
+Leon Bailey,Leverkusen,1. Bundesliga,772
+Lucas Leiva,Lazio,1. Serie A,773
+Eric Bailly,Manchester Utd,1. Premier League,774
+Samu Castillejo,Milan,1. Serie A,775
+Rubén Peña,Villarreal,1. La Liga,776
+Antonio Barragán,Betis,1. La Liga,777
+Aihen Muñoz,Real Sociedad,1. La Liga,778
+Dwight McNeil,Burnley,1. Premier League,779
+Youssef En-Nesyri,Leganés,1. La Liga,780
+Diego Carlos,Sevilla,1. La Liga,781
+Jonas Hector,Köln,1. Bundesliga,782
+Mikel Merino,Real Sociedad,1. La Liga,783
+James Tarkowski,Burnley,1. Premier League,784
+Sergio Agüero,Manchester City,1. Premier League,785
+Douglas Luiz,Aston Villa,1. Premier League,786
+Tom Davies,Everton,1. Premier League,787
+Jonathan Tah,Leverkusen,1. Bundesliga,788
+Dani Ceballos,Arsenal,1. Premier League,789
+Exequiel Palacios,Leverkusen,1. Bundesliga,790
+Giorgos Kyriakopoulos,Sassuolo,1. Serie A,791
+Jonjo Shelvey,Newcastle Utd,1. Premier League,792
+Serge Gnabry,Bayern Munich,1. Bundesliga,793
+Marc Bartra,Betis,1. La Liga,794
+Danilo Cataldi,Lazio,1. Serie A,795
+Michael Keane,Everton,1. Premier League,796
+Joseph Aidoo,Celta Vigo,1. La Liga,797
+Jérôme Boateng,Bayern Munich,1. Bundesliga,798
+Federico Peluso,Sassuolo,1. Serie A,799
+Ben Mee,Burnley,1. Premier League,800
+Raúl Moro,Lazio,1. Serie A,801
+Nacho,Real Madrid,1. La Liga,802
+Lucas Moura,Tottenham,1. Premier League,803
+Gonzalo Villar,Roma,1. Serie A,804
+Jadon Sancho,Dortmund,1. Bundesliga,805
+Kevin Vogt,Hoffenheim,1. Bundesliga,806
+Adrien Tameze,Atalanta,1. Serie A,807
+Stuart Armstrong,Southampton,1. Premier League,808
+Romain Saïss,Wolves,1. Premier League,809
+Patrick Cutrone,Fiorentina,1. Serie A,810
+Emre Can,Juventus,1. Serie A,811
+Konrad Laimer,RB Leipzig,1. Bundesliga,812
+Nélson Semedo,Barcelona,1. La Liga,813
+Noah Katterbach,Köln,1. Bundesliga,814
+Germán Pezzella,Fiorentina,1. Serie A,815
+Cheikhou Kouyaté,Crystal Palace,1. Premier League,816
+Geoffrey Kondogbia,Valencia,1. La Liga,817
+Samuel Di Carmine,Hellas Verona,1. Serie A,818
+Hans Hateboer,Atalanta,1. Serie A,819
+Adama Soumaoro,Genoa,1. Serie A,820
+Alexander Hack,Mainz 05,1. Bundesliga,821
+Kike,Eibar,1. La Liga,822
+Alexis Saelemaekers,Milan,1. Serie A,823
+Marco Asensio,Real Madrid,1. La Liga,824
+Jordan Veretout,Roma,1. Serie A,825
+Grégoire Defrel,Sassuolo,1. Serie A,826
+Luuk de Jong,Sevilla,1. La Liga,827
+Adam Webster,Brighton,1. Premier League,828
+Keven Schlotterbeck,Union Berlin,1. Bundesliga,829
+Héctor Bellerín,Arsenal,1. Premier League,830
+Alfred Duncan,Fiorentina,1. Serie A,831
+Arthur Masuaku,West Ham,1. Premier League,832
+Rani Khedira,Augsburg,1. Bundesliga,833
+Karol Linetty,Sampdoria,1. Serie A,834
+Musa Barrow,Atalanta,1. Serie A,835
+Marco Benassi,Fiorentina,1. Serie A,836
+Ronald Araújo,Barcelona,1. La Liga,837
+Chris Wood,Burnley,1. Premier League,838
+Sofyan Amrabat,Hellas Verona,1. Serie A,839
+Nicolas Nkoulou,Torino,1. Serie A,840
+Matteo Darmian,Parma,1. Serie A,841
+Juan Musso,Udinese,1. Serie A,842
+Mark Noble,West Ham,1. Premier League,843
+Denis Suárez,Celta Vigo,1. La Liga,844
+Igor Zubeldia,Real Sociedad,1. La Liga,845
+Juan Foyth,Tottenham,1. Premier League,846
+Alberto Grassi,Parma,1. Serie A,847
+Kyle Walker-Peters,Southampton,1. Premier League,848
+Jeremy Toljan,Sassuolo,1. Serie A,849
+Maya Yoshida,Sampdoria,1. Serie A,850
+Roberto Piccoli,Atalanta,1. Serie A,851
+Christoph Baumgartner,Hoffenheim,1. Bundesliga,852
+Alessandro Schöpf,Schalke 04,1. Bundesliga,853
+Philipp Lienhart,Freiburg,1. Bundesliga,854
+Wout Weghorst,Wolfsburg,1. Bundesliga,855
+Paulo Dybala,Juventus,1. Serie A,856
+Alfred Duncan,Sassuolo,1. Serie A,857
+Borja Iglesias,Betis,1. La Liga,858
+Igor,Fiorentina,1. Serie A,859
+Takehiro Tomiyasu,Bologna,1. Serie A,860
+Carlos Gruezo,Augsburg,1. Bundesliga,861
+Federico Valverde,Real Madrid,1. La Liga,862
+Erling Haaland,Dortmund,1. Bundesliga,863
+Pau Torres,Villarreal,1. La Liga,864
+Iñigo Lekue,Athletic Club,1. La Liga,865
+Karim Bellarabi,Leverkusen,1. Bundesliga,866
+Robert Andrich,Union Berlin,1. Bundesliga,867
+Taiwo Awoniyi,Mainz 05,1. Bundesliga,868
+Kévin Rodrigues,Leganés,1. La Liga,869
+Eric García,Manchester City,1. Premier League,870
+Jorge Meré,Köln,1. Bundesliga,871
+Manuel Lazzari,Lazio,1. Serie A,872
+Maxi Gómez,Valencia,1. La Liga,873
+Casemiro,Real Madrid,1. La Liga,874
+Mamadou Sakho,Crystal Palace,1. Premier League,875
+Martin Ødegaard,Real Sociedad,1. La Liga,876
+Rolando Mandragora,Udinese,1. Serie A,877
+Neco Williams,Liverpool,1. Premier League,878
+Nicolás Domínguez,Bologna,1. Serie A,879
+Bruno Fernandes,Manchester Utd,1. Premier League,880
+Anwar El Ghazi,Aston Villa,1. Premier League,881
+Alberto Moreno,Villarreal,1. La Liga,882
+Suso,Milan,1. Serie A,883
+Yannick Gerhardt,Wolfsburg,1. Bundesliga,884
+Xaver Schlager,Wolfsburg,1. Bundesliga,885
+Alphonso Davies,Bayern Munich,1. Bundesliga,886
+Joel Pohjanpalo,Leverkusen,1. Bundesliga,887
+Djibril Sow,Eint Frankfurt,1. Bundesliga,888
+Dominique Heintz,Freiburg,1. Bundesliga,889
+Marc Cucurella,Getafe,1. La Liga,890
+Jon Pacheco,Real Sociedad,1. La Liga,891
+Dimitri Foulquier,Granada,1. La Liga,892
+Robin Knoche,Wolfsburg,1. Bundesliga,893
+Marc-André ter Stegen,Barcelona,1. La Liga,894
+Carlos Neva,Granada,1. La Liga,895
+Alexandre Lacazette,Arsenal,1. Premier League,896
+Hannes Wolf,RB Leipzig,1. Bundesliga,897
+Federico Santander,Bologna,1. Serie A,898
+Álvaro Odriozola,Bayern Munich,1. Bundesliga,899
+Ondrej Duda,Hertha BSC,1. Bundesliga,900
+Julian Brandt,Dortmund,1. Bundesliga,901
+Sergio Escudero,Sevilla,1. La Liga,902
+Ebrima Colley,Atalanta,1. Serie A,903
+Matheus Cunha,Hertha BSC,1. Bundesliga,904
+Cristiano Ronaldo,Juventus,1. Serie A,905
+Thomas Delaney,Dortmund,1. Bundesliga,906
+Cristian Romero,Genoa,1. Serie A,907
+Robin Zentner,Mainz 05,1. Bundesliga,908
+Sheraldo Becker,Union Berlin,1. Bundesliga,909
+Igor,SPAL,1. Serie A,910
+Nemanja Radoja,Levante,1. La Liga,911
+Damián Suárez,Getafe,1. La Liga,912
+Daniele Baselli,Torino,1. Serie A,913
+Portu,Real Sociedad,1. La Liga,914
+Manuel Gulde,Freiburg,1. Bundesliga,915
+Martín Zubimendi,Real Sociedad,1. La Liga,916
+Adam Lallana,Liverpool,1. Premier League,917
+Mouctar Diakhaby,Valencia,1. La Liga,918
+Andrea Belotti,Torino,1. Serie A,919
+Antoine Griezmann,Barcelona,1. La Liga,920
+Serge Aurier,Tottenham,1. Premier League,921
+Angelo Ogbonna,West Ham,1. Premier League,922
+Stefan Ilsanker,Eint Frankfurt,1. Bundesliga,923
+Jeison Murillo,Celta Vigo,1. La Liga,924
+Gabriel Paulista,Valencia,1. La Liga,925
+Daniel Caligiuri,Schalke 04,1. Bundesliga,926
+Theo Hernández,Milan,1. Serie A,927
+Willian José,Real Sociedad,1. La Liga,928
+Dejan Kulusevski,Parma,1. Serie A,929
+Divock Origi,Liverpool,1. Premier League,930
+Erick Pulgar,Fiorentina,1. Serie A,931
+Danny Rose,Newcastle Utd,1. Premier League,932
+Daniel James,Manchester Utd,1. Premier League,933
+Ben Chilwell,Leicester City,1. Premier League,934
+Antonio Candreva,Inter,1. Serie A,935
+Kostas Stafylidis,Hoffenheim,1. Bundesliga,936
+Joel Ward,Crystal Palace,1. Premier League,937
+Neto,Barcelona,1. La Liga,938
+Nabil Fekir,Betis,1. La Liga,939
+Roland Sallai,Freiburg,1. Bundesliga,940
+Jan Thielmann,Köln,1. Bundesliga,941
+Jonathan Schmid,Freiburg,1. Bundesliga,942
+Ander Capa,Athletic Club,1. La Liga,943
+Mathew Ryan,Brighton,1. Premier League,944
+Jean-Philippe Mateta,Mainz 05,1. Bundesliga,945
+Manu Trigueros,Villarreal,1. La Liga,946
+Georginio Wijnaldum,Liverpool,1. Premier League,947
+Sergi Roberto,Barcelona,1. La Liga,948
+Jean-Paul Boëtius,Mainz 05,1. Bundesliga,949
+Jack Grealish,Aston Villa,1. Premier League,950
+Weston McKennie,Schalke 04,1. Bundesliga,951
+Leandro Trossard,Brighton,1. Premier League,952
+Rúben Neves,Wolves,1. Premier League,953
+Marc Roca,Espanyol,1. La Liga,954
+Mario Gaspar,Villarreal,1. La Liga,955
+Luiz Felipe,Lazio,1. Serie A,956
+Jannik Vestergaard,Southampton,1. Premier League,957
+Thomas Müller,Bayern Munich,1. Bundesliga,958
+Kerem Demirbay,Leverkusen,1. Bundesliga,959
+Davide Biraschi,Genoa,1. Serie A,960
+Jack Stephens,Southampton,1. Premier League,961
+Guido Carrillo,Leganés,1. La Liga,962
+Tariq Lamptey,Chelsea,1. Premier League,963
+Florian Grillitsch,Hoffenheim,1. Bundesliga,964
+Kevin Long,Burnley,1. Premier League,965
+Lorenzo Tonelli,Sampdoria,1. Serie A,966
+Sean Longstaff,Newcastle Utd,1. Premier League,967
+Phil Jones,Manchester Utd,1. Premier League,968
+Rodri,Manchester City,1. Premier League,969
+Andrea Conti,Milan,1. Serie A,970
+Declan Rice,West Ham,1. Premier League,971
+Kevin Vogt,Werder Bremen,1. Bundesliga,972
+Lewis Dunk,Brighton,1. Premier League,973
+Álex Remiro,Real Sociedad,1. La Liga,974
+Matteo Pessina,Hellas Verona,1. Serie A,975
+Hamza Choudhury,Leicester City,1. Premier League,976
+José Luis Palomino,Atalanta,1. Serie A,977
+N'Golo Kanté,Chelsea,1. Premier League,978
+John Brooks,Wolfsburg,1. Bundesliga,979
+Florian Wirtz,Leverkusen,1. Bundesliga,980

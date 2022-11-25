@@ -3,10 +3,10 @@ package it.sapienza.lsdm.model.bdm
 import slick.jdbc.PostgresProfile.api._
 
 final case class OffensivePerformance(
-    playerOffensiveAbilityId: Option[Long],
+    offensiveAbilityId: Option[Long],
     birthId: Option[Long],
     roleId: Option[Long],
-    organizationId: Option[Long],
+    playerOrganizationId: Option[Long],
     goals: Option[Int],
     shotsTotal: Option[Int],
     shotsOnTarget: Option[Int],
@@ -14,7 +14,7 @@ final case class OffensivePerformance(
 )
 
 class OffensivePerformanceEntity(tag: Tag) extends Table[OffensivePerformance](tag, "OFFENSIVE_PERFORMANCE") {
-    def playerOffensiveAbilityId = column[Option[Long]]("player_id");
+    def offensiveAbilityId = column[Option[Long]]("offensive_ability_id");
     // def player = foreignKey("player_fk", playerId, TableQuery[OffensiveAbilityEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
 
     def birthId = column[Option[Long]]("birth_id");
@@ -23,15 +23,15 @@ class OffensivePerformanceEntity(tag: Tag) extends Table[OffensivePerformance](t
     def roleId = column[Option[Long]]("role_id");
     def role = foreignKey("role_fk", roleId, TableQuery[RoleEntity])(_.id, onDelete = ForeignKeyAction.Cascade)
 
-    def organizationId = column[Option[Long]]("organization_id");
-    def organization = foreignKey("organization_fk", organizationId, TableQuery[OrganizationEntity])(_.id)
+    def playerOrganizationId = column[Option[Long]]("player_organization_id");
+    def playerOrganization = foreignKey("player_organization_fk", playerOrganizationId, TableQuery[PlayerOrganizationEntity])(_.id)
 
-    def pk = primaryKey("offensive_performance_pk", (playerOffensiveAbilityId, birthId, organizationId))
+    def pk = primaryKey("offensive_performance_pk", (offensiveAbilityId, birthId, roleId, playerOrganizationId))
 
     def goals = column[Option[Int]]("goals")
     def shotsTotal = column[Option[Int]]("shots_toal")
     def shotsOnTarget = column[Option[Int]]("shots_on_target")
     def pensMade = column[Option[Int]]("pens_made")
 
-    def * = (playerOffensiveAbilityId, birthId, roleId, organizationId, goals, shotsTotal, shotsOnTarget, pensMade) <> (OffensivePerformance.tupled, OffensivePerformance.unapply)
+    def * = (offensiveAbilityId, birthId, roleId, playerOrganizationId, goals, shotsTotal, shotsOnTarget, pensMade) <> (OffensivePerformance.tupled, OffensivePerformance.unapply)
 }

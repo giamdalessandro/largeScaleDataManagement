@@ -14,7 +14,6 @@ case class TechnicalAbility(
 
 case class PlayerOffensiveAbilityNR(
     id: Long,
-    playerFullName: String,
     ca: Int,
     mentalAbility: MentalAbility,
     physicalAbility: PhysicalAbility,

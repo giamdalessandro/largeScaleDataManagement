@@ -4,7 +4,7 @@ select
     cast(sh.shots_on_target as integer) as shotsOnTarget,
     cast(pens_made as integer) as pensMade,
 
-    info.id as id,
+    info.id as fbrefId,
     info.name as playerFullName,
     cast(CA as integer) as ca,
     cast(Str as integer) as str,
