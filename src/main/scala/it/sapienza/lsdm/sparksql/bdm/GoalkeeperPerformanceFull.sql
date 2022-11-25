@@ -4,11 +4,11 @@ select
     cast(gk.saves as integer) as saves,
     cast(gk.pens_save_pct as double) as pen_saves_pct,
 
-    info.id as id,
+    info.id as fbrefId,
     info.name as playerFullName,
     cast(CA as integer) as ca,
     cast(TRO as integer) as tro,
-    cast(v1 as integer) as  ovo,
+    cast(v1 as integer) as v1,
     cast(Han as integer) as han,
     cast(Cmd as integer) as cmd,
 
@@ -22,4 +22,4 @@ select
 from
     FbrefInfo info
     join FbrefKeeper gk on info.id = gk.id
-    join Fm20 on info.name = Fm20.Name
+    join Fm20 on info.name = Fm20.Name and info.position = Fm20.Position

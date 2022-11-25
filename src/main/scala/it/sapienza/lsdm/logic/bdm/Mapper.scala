@@ -2,6 +2,7 @@ package it.sapienza.lsdm.logic.bdm
 
 import org.apache.spark.sql.{SparkSession, DataFrame, Encoders, Row}
 import it.sapienza.lsdm.model.bdm.{OffensiveAbility,OffensiveMentalAbility,OffensivePhysicalAbility,OffensiveTechnicalAbility}
+import it.sapienza.lsdm.model.bdm.{GoalkeeperAbility}
 
 object Mapper {
     def offensive_ability_mapper(r: Row): OffensiveAbility = {
@@ -18,6 +19,24 @@ object Mapper {
             OffensiveMentalAbility(cnt),
             OffensivePhysicalAbility(str),
             OffensiveTechnicalAbility(tec, fin)
+        )
+    }
+
+    def goalkeeper_ability_mapper(r: Row): GoalkeeperAbility = {
+        val id = r.getAs[Long]("id")
+        val ca = r.getAs[Int]("ca")
+        val tro = r.getAs[Int]("tro")
+        val v1 = r.getAs[Int]("v1")
+        val han = r.getAs[Int]("han")
+        val cmd = r.getAs[Int]("cmd")
+
+        GoalkeeperAbility(
+            id,
+            ca,
+            tro,
+            v1,
+            han,
+            cmd
         )
     }
 
