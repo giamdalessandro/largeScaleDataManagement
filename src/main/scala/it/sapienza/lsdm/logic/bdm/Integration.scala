@@ -3,7 +3,7 @@ package it.sapienza.lsdm.logic.bdm
 import it.sapienza.lsdm.App.SQL_PATH
 import it.sapienza.lsdm.App.{INPUT_PATH, OUTPUT_PATH}
 
-import it.sapienza.lsdm.model.bdm.{PlayerOffensiveAbilityNR,PlayerDefensiveAbilityNR,PlayerGoalkeeperAbilityNR,PlayerPlaymakingAbilityNR}
+import it.sapienza.lsdm.logic.bdm.Mapper._
 
 import org.apache.spark.sql.{SparkSession, DataFrame, Encoders, Row}
 import slick.jdbc.PostgresProfile.api._
@@ -66,13 +66,13 @@ object Integration {
          */
 
         // PlayerOffensiveAbility Dimension - Non-Relational
-        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "PlayerOffensiveAbilityNR.sql").mkString
-        var playerOffAbDf = sparkSession.sql(sqlString)
-        playerOffAbDf = playerOffAbDf.withColumn("id", monotonically_increasing_id())
-        playerOffAbDf.createOrReplaceTempView("OffensiveAbility")
+        sqlString = scala.io.Source.fromFile(SQL_PATH_BDM + "OffensiveAbility.sql").mkString
+        var offensiveAbilityDf = sparkSession.sql(sqlString)
+        offensiveAbilityDf = offensiveAbilityDf.withColumn("id", monotonically_increasing_id())
+        offensiveAbilityDf.createOrReplaceTempView("OffensiveAbility")
         import sparkSession.implicits._
-        val offNestedDataset = playerOffAbDf.map(r => player_offensive_ability_mapper(r))
-        write_data_to_parquet(offNestedDataset, "PlayerOffensiveAbility")
+        val offensiveAbilityNds = offensiveAbilityDf.map(r => offensive_ability_mapper(r))
+        write_data_to_parquet(offensiveAbilityNds, "OffensiveAbility")
 
         //XXX WIP
 
@@ -250,65 +250,6 @@ object Integration {
 
         System.out.println(">>> NR integration FINISHED")
     }
-
-    private def player_offensive_ability_mapper(r: Row): PlayerOffensiveAbilityNR = {
-        val id = r.getAs[Long]("id")
-        val ca = r.getAs[Int]("ca")
-        val cnt = r.getAs[Int]("cnt")
-        val str = r.getAs[Int]("str")
-        val tec = r.getAs[Int]("tec")
-        val fin = r.getAs[Int]("fin")
-
-        PlayerOffensiveAbilityNR(
-            id,
-            ca,
-            MentalAbility(cnt),
-            PhysicalAbility(str),
-            TechnicalAbility(tec, fin)
-        )
-    }
-
-    private def player_defensive_ability_mapper(r: Row): PlayerDefensiveAbilityNR = {
-        PlayerDefensiveAbilityNR(
-            r.getLong(0),
-            r.getString(1),
-            r.getInt(2),
-            MentalAbilityDef(r.getInt(3)),
-            TechnicalAbilityDef(r.getInt(4),r.getInt(5),r.getInt(6))
-        )
-    }
-
-    private def player_goalkeeper_ability_mapper(r: Row): PlayerGoalkeeperAbilityNR = {
-        PlayerGoalkeeperAbilityNR(
-            r.getLong(0),
-            r.getString(1),
-            r.getInt(2),
-            GoalkeeperAbilityGk(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6))
-        )
-    }
-
-    private def player_playmaking_ability_mapper(r: Row): PlayerPlaymakingAbilityNR = {
-        PlayerPlaymakingAbilityNR(
-            r.getLong(0),
-            r.getString(1),
-            r.getInt(2),
-            MentalAbilityPm(r.getInt(3),r.getInt(4),r.getInt(8)),
-            TechnicalAbilityPm(r.getInt(5),r.getInt(6)),
-            PhysicalAbilityPm(r.getInt(7))
-        )
-    }
-    
-    //private def player_ability_mapper(r: Row): PlayerAbilityNR = {
-    //    PlayerAbilityNR(
-    //        r.getLong(0),
-    //        r.getString(1),
-    //        r.getInt(2),
-    //        MentalAbilityNR(r.getInt(3),r.getInt(4),r.getInt(5),r.getInt(6)),
-    //        PhysicalAbilityNR(r.getInt(7)),
-    //        TechnicalAbilityNR(r.getInt(8),r.getInt(9),r.getInt(10),r.getInt(11),r.getInt(12),r.getInt(13),r.getInt(14)),
-    //        GoalkeeperAbilityNR(r.getInt(15),r.getInt(16),r.getInt(17),r.getInt(18))
-    //    )
-    //}
 
     private def read_role_csv_to_df(sparkSession: SparkSession, path: String): DataFrame = {
         sparkSession.read
