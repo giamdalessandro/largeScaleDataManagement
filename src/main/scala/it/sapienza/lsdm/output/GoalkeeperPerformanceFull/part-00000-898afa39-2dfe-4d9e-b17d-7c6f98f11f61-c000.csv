@@ -1,0 +1,82 @@
+goal_against_gk,shots_on_target_against,saves,pen_saves_pct,fbrefId,playerFullName,ca,tro,v1,han,cmd,city,country,position,squad,comp,id
+30,102,78,25.0,04ac8285,Jasper Cillessen,148,12,1,16,14,Gemeente Nijmegen,Netherlands,GK,Valencia,1. La Liga,0
+42,134,97,50.0,08f5afaa,Gianluigi Donnarumma,160,13,1,15,15,Castellammare di Stabia,Italy,GK,Milan,1. Serie A,1
+43,148,108,0.0,0d422df7,Marco Silvestri,128,11,1,14,13,Castelnovo ne' Monti,Italy,GK,Hellas Verona,1. Serie A,2
+32,114,83,0.0,0d55d942,Alexander Schwolow,135,11,1,14,9,Wiesbaden,Germany,GK,Freiburg,1. Bundesliga,3
+64,189,135,10.0,10dc46f0,Salvatore Sirigu,152,13,1,16,14,Nuoro,Italy,GK,Torino,1. Serie A,4
+20,95,74,"",1840e36d,Thibaut Courtois,162,10,1,16,16,Bree,Belgium,GK,Real Madrid,1. La Liga,5
+45,122,83,11.1,20b9f052,Pau López,147,14,1,15,14,Girona,Spain,GK,Roma,1. Serie A,6
+39,147,110,14.3,2628fd2b,Bernd Leno,151,16,1,16,14,Bietigheim-Bissingen,Germany,GK,Arsenal,1. Premier League,7
+1,5,4,"",28a15394,Antonio Rosati,103,5,1,13,12,Tivoli,Italy,GK,Torino,1. Serie A,8
+47,99,55,0.0,28d596a0,Kepa Arrizabalaga,150,15,1,16,13,Ondarroa,Spain,GK,Chelsea,1. Premier League,9
+1,7,6,"",2e7ff968,Marwin Hitz,136,14,1,14,11,St. Gallen,Switzerland,GK,Dortmund,1. Bundesliga,10
+5,13,10,0.0,2f965a72,Alphonse Areola,150,12,1,14,13,Paris,France,GK,Real Madrid,1. La Liga,11
+5,22,17,0.0,30223b33,Antonio Mirante,132,13,1,14,12,Castellammare di Stabia,Italy,GK,Roma,1. Serie A,12
+42,145,111,12.5,339fe0e8,Thomas Strakosha,150,12,1,16,10,Athens,Greece,GK,Lazio,1. Serie A,13
+35,110,77,50.0,36c2ca73,Alex McCarthy,131,11,1,14,13,Guildford,England,GK,Southampton,1. Premier League,14
+32,87,62,12.5,374ee424,Álex Remiro,136,14,1,13,13,Cascante,Spain,GK,Real Sociedad,1. La Liga,15
+28,92,65,0.0,3bb7b8b4,Ederson,169,17,1,15,15,Osasco,Brazil,GK,Manchester City,1. Premier League,16
+69,152,87,33.3,3cd9e95a,Timo Horn,140,13,1,14,11,Cologne,Germany,GK,Köln,1. Bundesliga,17
+36,95,61,50.0,42130443,Zack Steffen,135,12,1,12,15,Coatesville,Pennsylvania,GK,Düsseldorf,1. Bundesliga,18
+54,164,114,0.0,4535e4bb,Mathew Ryan,131,14,1,15,11,Plumpton,Australia,GK,Brighton,1. Premier League,19
+62,177,120,16.7,466fb2c5,Aaron Ramsdale,135,8,1,15,11,Staffordshire,England,GK,Bournemouth,1. Premier League,20
+49,143,101,28.6,47064058,Oliver Baumann,140,16,1,16,10,Breisach,Germany,GK,Hoffenheim,1. Bundesliga,21
+56,145,95,0.0,4806ec67,Jordan Pickford,146,12,1,14,15,Washington,England,GK,Everton,1. Premier League,22
+50,159,112,20.0,4b40d9ca,Nick Pope,140,13,1,16,17,Soham,England,GK,Burnley,1. Premier League,23
+38,99,63,0.0,4c62d0c8,Mattia Perin,143,15,1,14,14,Latina,Italy,GK,Genoa,1. Serie A,24
+41,126,95,20.0,53af52f3,Kasper Schmeichel,150,16,1,14,14,Copenhagen,Denmark,GK,Leicester City,1. Premier League,25
+40,113,75,50.0,5c4bf6ba,Robin Zentner,123,14,1,13,9,Rüdesheim am Rhein,Germany,GK,Mainz 05,1. Bundesliga,26
+29,103,78,0.0,5dcf3e90,Unai Simón,139,12,1,14,13,Vitoria-Gasteiz,Spain,GK,Athletic Club,1. La Liga,27
+60,160,110,0.0,649b01d8,Emil Audero,134,16,1,13,15,Mataram,Indonesia,GK,Sampdoria,1. Serie A,28
+36,110,78,14.3,6f51e382,Marc-André ter Stegen,170,18,1,14,15,Mönchengladbach,Germany,GK,Barcelona,1. La Liga,29
+8,22,14,"",76eca7e2,Wayne Hennessey,124,14,1,12,9,Bangor,Wales,GK,Crystal Palace,1. Premier League,30
+9,42,33,0.0,7956236f,Emiliano Martínez,140,11,1,14,14,Mar del Plata,Argentina,GK,Arsenal,1. Premier League,31
+40,120,80,66.7,79b0d6a0,Rui Patrício,153,15,1,16,11,Marrazes,Portugal,GK,Wolves,1. Premier League,32
+23,79,58,0.0,7a2e46a8,Alisson,174,16,1,16,13,Novo Hamburgo,Brazil,GK,Liverpool,1. Premier League,33
+1,1,0,"",7b5f516f,Francesco Rossi,101,8,1,10,10,Merate,Italy,GK,Atalanta,1. Serie A,34
+12,35,23,"",7fe12375,Andreas Luthe,122,12,1,13,12,Velbert,Germany,GK,Augsburg,1. Bundesliga,35
+1,2,1,"",82328faf,Daniel Fuzato,103,13,1,10,9,Santa Bárbara d'Oeste,Brazil,GK,Roma,1. Serie A,36
+17,53,36,0.0,82b1198a,David Ospina,140,11,1,14,14,Medellín,Colombia,GK,Napoli,1. Serie A,37
+31,111,84,25.0,8778c910,Manuel Neuer,176,20,1,14,17,Gelsenkirchen,Germany,GK,Bayern Munich,1. Bundesliga,38
+55,140,93,12.5,8cabdc1e,Andrea Consigli,134,11,1,14,13,Milan,Italy,GK,Sassuolo,1. Serie A,39
+3,8,6,0.0,8f29e08b,Juan Pérez,125,12,1,11,11,Huesca,Spain,GK,Osasuna,1. La Liga,40
+21,93,74,33.3,8f62b6ee,Hugo Lloris,157,18,1,17,12,Nice,France,GK,Tottenham,1. Premier League,41
+37,102,70,16.7,8f8c6934,David Soria,144,17,1,17,17,Madrid,Spain,GK,Getafe,1. La Liga,42
+33,76,46,16.7,9413b19f,Alex Meret,148,15,1,16,13,Udine,Italy,GK,Napoli,1. Serie A,43
+3,5,3,0.0,96640846,Samir Ujkani,107,9,1,12,10,Vushtrri,Kosovo,GK,Torino,1. Serie A,44
+43,126,87,0.0,967f34d3,Rubén Blanco,138,14,1,14,10,Mos,Spain,GK,Celta Vigo,1. La Liga,45
+37,92,61,27.3,97852360,Fernando Pacheco,141,15,1,15,13,Badajoz,Spain,GK,Alavés,1. La Liga,46
+3,4,2,0.0,9970da54,Antonio Sivera,122,9,1,11,8,Xàtiva,Spain,GK,Alavés,1. La Liga,47
+41,142,107,16.7,9f0ea33f,Sergio Asenjo,147,12,1,15,14,Palencia,Spain,GK,Villarreal,1. La Liga,48
+5,13,8,0.0,9f5a610b,Wladimiro Falcone,95,8,1,11,7,Rome,Italy,GK,Sampdoria,1. Serie A,49
+51,201,152,50.0,a01c3d54,Aitor Fernández,135,13,1,13,13,Mondragón,Spain,GK,Levante,1. La Liga,50
+51,186,139,20.0,a111cf41,Juan Musso,137,14,1,14,13,San Nicolás de los Arroyos,Argentina,GK,Udinese,1. Serie A,51
+7,16,10,"",a179d516,Willy Caballero,140,16,1,16,15,Santa Elena,Argentina,GK,Chelsea,1. Premier League,52
+27,79,52,0.0,a4995f48,Sergio Herrera,132,12,1,15,13,Miranda de Ebro,Spain,GK,Osasuna,1. La Liga,53
+35,99,67,0.0,a6de6361,Tom Heaton,137,11,1,13,13,Chester,England,GK,Aston Villa,1. Premier League,54
+14,47,35,0.0,a70b8345,Frederik Rønnow,128,14,1,13,9,Horsens,Denmark,GK,Eint Frankfurt,1. Bundesliga,55
+0,0,0,"",a8a3d139,Jed Steer,123,11,1,13,12,Norwich,England,GK,Aston Villa,1. Premier League,56
+14,70,54,"",a92ab7be,Mark Flekken,119,15,1,11,10,Gemeente Kerkrade,Netherlands,GK,Freiburg,1. Bundesliga,57
+2,3,1,"",a9dc785c,Neto,152,14,1,13,14,Araxá,Brazil,GK,Barcelona,1. La Liga,58
+42,147,106,"",ab13a5aa,Vicente Guaita,142,14,1,16,14,Torrent,Spain,GK,Crystal Palace,1. Premier League,59
+5,19,14,"",ac4003af,Marco Sportiello,129,14,1,14,15,Desio,Italy,GK,Atalanta,1. Serie A,60
+40,114,79,0.0,afb0c500,Alexander Nübel,140,17,1,11,15,Paderborn,Germany,GK,Schalke 04,1. Bundesliga,61
+34,117,82,0.0,bcb2ccd8,Péter Gulácsi,144,15,1,16,13,Budapest főváros,Hungary,GK,RB Leipzig,1. Bundesliga,62
+4,20,16,0.0,c41f7379,Philipp Pentke,110,10,1,12,11,Freiberg,Germany,GK,Hoffenheim,1. Bundesliga,63
+8,36,29,0.0,c89e8aae,Pavao Pervan,124,9,1,13,13,Livno,Bosnia and Herzegovina,GK,Wolfsburg,1. Bundesliga,64
+25,64,41,33.3,cbac6ec9,Florian Müller,126,17,1,11,10,Saarlouis,Germany,GK,Mainz 05,1. Bundesliga,65
+48,118,80,0.0,cda0b317,Joel Robles,131,14,1,16,18,Getafe,Spain,GK,Betis,1. La Liga,66
+38,104,69,0.0,ce17b5eb,Kevin Trapp,144,15,1,14,12,Merzig,Germany,GK,Eint Frankfurt,1. Bundesliga,67
+4,6,3,0.0,cf1c23d8,Daniele Padelli,124,12,1,15,12,Lecco,Italy,GK,Inter,1. Serie A,68
+38,104,69,0.0,db401046,Koen Casteels,140,18,1,11,14,Bonheiden,Belgium,GK,Wolfsburg,1. Bundesliga,69
+5,19,16,0.0,e1b0a70d,Pietro Terracciano,117,10,1,14,13,San Felice a Cancello,Italy,GK,Fiorentina,1. Serie A,70
+1,5,4,100.0,e358587b,Pepe Reina,138,18,1,12,15,Madrid,Spain,GK,Milan,1. Serie A,71
+20,50,32,33.3,e358587b,Pepe Reina,138,18,1,12,15,Madrid,Spain,GK,Aston Villa,1. Premier League,72
+33,129,97,50.0,e5a76dfe,Dean Henderson,140,9,1,14,14,Whitehaven,England,GK,Sheffield Utd,1. Premier League,73
+42,136,97,20.0,ea83bfa6,Rui Silva,127,13,1,14,14,Maia,Portugal,GK,Granada,1. La Liga,74
+27,105,82,0.0,ee8508c0,Jan Oblak,175,15,1,18,16,Škofja Loka,Slovenia,GK,Atlético Madrid,1. La Liga,75
+4,26,23,"",f058ed1f,Gianluca Pegolo,123,14,1,14,12,Bassano del Grappa,Italy,GK,Sassuolo,1. Serie A,76
+42,113,78,0.0,f0f7f62f,Pierluigi Gollini,142,14,1,13,13,Bologna,Italy,GK,Atalanta,1. Serie A,77
+21,86,66,50.0,f554e29b,Alessio Cragno,142,12,1,16,15,Fiesole,Italy,GK,Cagliari,1. Serie A,78
+3,19,17,0.0,f6798fc3,Yassine Bounou,136,9,1,16,14,Montreal,Québec,GK,Sevilla,1. La Liga,79
+10,28,17,"",f76e6b4e,Adrián,140,12,1,13,13,Seville,Spain,GK,Liverpool,1. Premier League,80

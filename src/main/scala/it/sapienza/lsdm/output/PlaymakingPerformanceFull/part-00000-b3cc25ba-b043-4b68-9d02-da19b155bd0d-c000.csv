@@ -1,0 +1,1057 @@
+assists,dribbles,sca,sca90,pass_targets,miscontrols,dispossessed,fouled,fbrefId,playerFullName,ca,vis,ldr,pas,dri,agi,cnt,city,country,position,squad,comp,id
+1,13,27,2.48,371,9,11,7,0000acda,Marco Benassi,137,13,13,14,11,13,14,Province of Modena,Italy,"MF (CM, right)",Fiorentina,1. Serie A,0
+0,14,12,0.89,570,4,8,21,0076ab7f,Nemanja Gudelj,136,13,11,14,13,13,13,Belgrade,Serbia,MF (CM-DM),Sevilla,1. La Liga,1
+0,9,2,0.49,131,5,7,6,009a4f60,Julian Ryerson,116,10,12,12,11,12,10,Lyngdal,Norway,DF-MF,Union Berlin,1. Bundesliga,2
+1,26,62,2.04,1205,28,33,35,01226327,Ryan Bertrand,138,11,10,12,13,13,13,Southwark,England,"DF-MF (FB, left)",Southampton,1. Premier League,3
+0,44,50,2.17,989,28,24,16,01c3aff5,Weston McKennie,150,12,13,15,11,13,12,Little Elm,Texas,MF (CM),Schalke 04,1. Bundesliga,4
+6,74,65,2.84,917,79,61,48,01eb744d,Ángel Correa,154,15,10,16,16,16,12,Rosario,Argentina,"FW-MF (AM-WM, right)",Atlético Madrid,1. La Liga,5
+3,37,68,2.23,1632,91,54,59,02319ad7,Jaime Mata,140,12,10,12,13,13,13,Madrid,Spain,FW,Getafe,1. La Liga,6
+3,33,27,1.78,534,19,31,22,02c15616,Marcos Llorente,147,14,12,15,11,11,13,Madrid,Spain,MF,Atlético Madrid,1. La Liga,7
+3,73,60,2.12,1018,31,27,48,02caf6e0,Manuel Lazzari,149,14,8,14,15,16,13,Valdagno,Italy,"DF-MF (WM, right)",Lazio,1. Serie A,8
+2,11,15,0.66,610,5,6,35,0313a347,Ezri Konsa,128,14,8,13,11,14,12,London,England,"DF-FW (CB, right)",Aston Villa,1. Premier League,9
+6,80,85,3.69,968,36,47,52,0375723e,Simone Verdi,143,15,8,14,15,15,11,Broni,Italy,FW-MF,Torino,1. Serie A,10
+3,101,76,4.54,1057,33,44,34,042e8a49,Kingsley Coman,153,12,6,12,15,16,11,Paris,France,FW-MF (AM-WM),Bayern Munich,1. Bundesliga,11
+0,17,19,2.51,416,28,24,14,0489bb30,Eddie Salcedo,118,11,7,11,14,14,11,Genoa,Italy,FW,Hellas Verona,1. Serie A,12
+2,76,66,2.54,1884,28,32,21,048a1cbc,Raphaël Guerreiro,148,12,8,13,12,17,14,Le Blanc-Mesnil,France,"DF-MF (FB-WM, left)",Dortmund,1. Bundesliga,13
+4,50,71,2.95,974,39,23,52,04965583,Aleix Vidal,138,10,9,13,13,12,13,Valls,Spain,"DF-MF (WM, right)",Alavés,1. La Liga,14
+1,0,3,0.13,290,0,0,6,04ac8285,Jasper Cillessen,148,9,10,10,2,15,14,Gemeente Nijmegen,Netherlands,GK,Valencia,1. La Liga,15
+0,14,6,0.68,345,24,18,13,04e17fd5,Youssef En-Nesyri,139,9,15,8,14,14,11,Fes-Medina,Morocco,FW,Sevilla,1. La Liga,16
+2,35,24,1.56,744,42,26,22,04e17fd5,Youssef En-Nesyri,139,9,15,8,14,14,11,Fes-Medina,Morocco,FW,Leganés,1. La Liga,17
+1,10,38,1.37,2099,9,4,7,05439de2,David Alaba,168,13,12,14,12,14,16,Vienna,Austria,"DF-MF (CB-CM-FB, left)",Bayern Munich,1. Bundesliga,18
+1,5,5,0.67,189,4,12,5,054849d2,Iago,128,13,11,14,13,15,12,Monte Azul Paulista,Brazil,"DF (FB, left)",Augsburg,1. Bundesliga,19
+8,33,78,2.45,815,19,17,24,056d2d95,Christopher Trimmel,118,8,13,10,9,10,14,Oberpullendorf,Austria,"DF-FW-MF (AM-FB-WM, right)",Union Berlin,1. Bundesliga,20
+3,10,22,0.77,1818,7,9,11,05d548d8,Mats Hummels,166,14,13,15,12,10,15,Bergisch Gladbach,Germany,DF (CB),Dortmund,1. Bundesliga,21
+1,44,72,2.23,1632,32,42,25,05e19d6a,Franck Kessié,150,11,9,12,13,13,12,Ouragahio,Côte d'Ivoire,DF-MF (CB-CM-DM),Milan,1. Serie A,22
+0,11,4,1.42,89,6,8,6,05f99a4a,Jonathan Burkardt,115,10,6,10,13,15,8,Darmstadt,Germany,FW,Mainz 05,1. Bundesliga,23
+2,135,98,3.3,1319,66,71,93,0728bebe,Gaetano Castrovilli,140,14,10,14,17,15,13,Canosa di Puglia,Italy,"MF (CM, left)",Fiorentina,1. Serie A,24
+0,10,21,1.35,982,5,9,39,07767f42,Francesco Magnanelli,128,12,17,14,7,9,16,Umbertide,Italy,MF (CM-DM),Sassuolo,1. Serie A,25
+2,94,91,2.92,1256,70,53,32,07802f7f,Danny Ings,150,14,14,13,14,14,14,Winchester,England,FW,Southampton,1. Premier League,26
+1,22,28,0.93,1197,21,10,33,080440a4,Martin Hinteregger,134,13,12,14,9,8,11,Feldkirchen,Austria,DF-MF (CB),Eint Frankfurt,1. Bundesliga,27
+0,4,8,0.33,854,7,1,38,0821331c,Mattia Bani,127,9,10,11,9,11,12,Borgo San Lorenzo,Italy,DF (CB),Bologna,1. Serie A,28
+0,13,20,0.6,1813,8,3,29,08511d65,Sergio Ramos,172,13,19,16,13,15,10,Camas,Spain,"DF (CB-FB, left)",Real Madrid,1. La Liga,29
+1,36,67,2.13,1167,25,32,41,088ca1bd,Jonathan Schmid,131,10,8,12,12,13,12,Strasbourg,France,"DF-MF (FB-WM, right)",Freiburg,1. Bundesliga,30
+0,2,1,0.27,170,0,1,0,08990838,Denis Vavro,133,8,10,9,6,11,13,Žilina,Slovakia,DF (CB),Lazio,1. Serie A,31
+1,44,43,1.73,1145,58,58,52,08aa9cd1,Andrea Pinamonti,128,11,10,12,11,13,9,Cles,Italy,FW,Genoa,1. Serie A,32
+0,0,1,0.03,557,0,0,6,08f5afaa,Gianluigi Donnarumma,160,8,13,7,4,16,14,Castellammare di Stabia,Italy,GK,Milan,1. Serie A,33
+0,0,0,0.0,48,0,0,1,091795f2,Gabriele Corbo,105,10,11,12,8,13,11,NULL,NULL,DF,Bologna,1. Serie A,34
+1,40,54,1.89,1029,83,30,37,09538fdb,Kevin Lasagna,131,11,7,11,12,13,12,San Benedetto Po,Italy,FW,Udinese,1. Serie A,35
+5,35,43,2.03,1135,29,17,12,0959c2a2,Federico Valverde,150,14,13,14,12,13,13,Montevideo,Uruguay,MF (CM),Real Madrid,1. La Liga,36
+1,11,12,1.57,267,16,10,8,09a9e921,Carlos Bacca,135,13,13,12,12,13,14,Barranquilla,Colombia,FW,Villarreal,1. La Liga,37
+0,26,16,1.43,419,8,11,13,0a3065c8,Mitchell Dijks,134,12,12,13,11,12,12,Gemeente Purmerend,Netherlands,"DF (CB-FB, left)",Bologna,1. Serie A,38
+2,34,38,2.47,698,32,30,29,0a447501,Antonio Sanabria,127,13,9,10,14,15,9,San Lorenzo,Paraguay,FW,Genoa,1. Serie A,39
+1,38,28,1.53,941,14,24,32,0a483542,Giorgos Kyriakopoulos,123,10,7,13,12,13,11,Pátrai,Greece,"DF (FB, left)",Sassuolo,1. Serie A,40
+5,81,104,3.53,2102,22,29,87,0ab1f153,Juan Cuadrado,157,12,4,14,16,16,11,Bogotá,Colombia,"DF-FW-MF (AM-FB-WM, right)",Juventus,1. Serie A,41
+2,28,21,2.04,446,19,13,17,0ac94a23,Denis Cheryshev,137,11,9,12,14,12,14,Nizhny Novgorod,Russia,"FW-MF (WM, left)",Valencia,1. La Liga,42
+1,26,41,1.63,1022,63,26,36,0ae4e09a,Roger Martí,138,12,9,13,11,13,14,Torrent,Spain,FW,Levante,1. La Liga,43
+1,6,4,0.13,770,5,4,14,0b33f6ad,Mohammed Salisu,115,8,6,10,2,11,9,Benin,Benin,"DF (CB, left)",Valladolid,1. La Liga,44
+2,38,76,3.48,1675,13,14,59,0b5a292a,Mário Rui,141,12,9,12,14,15,13,Sines Municipality,Portugal,"DF-MF (FB, left)",Napoli,1. Serie A,45
+3,30,49,2.27,1198,60,48,41,0b90bb97,Santi Mina,141,11,8,12,13,12,14,Vigo,Spain,FW,Celta Vigo,1. La Liga,46
+1,56,38,3.33,702,34,22,22,0ba976e4,Ansu Fati,148,14,9,12,16,17,13,Bissau,Guinea-Bissau,FW,Barcelona,1. La Liga,47
+0,10,11,2.37,180,18,7,9,0bc4e720,Manu Vallejo,133,12,10,12,13,15,12,Chiclana de la Frontera,Spain,FW-MF,Valencia,1. La Liga,48
+6,82,66,2.92,955,60,54,30,0c61c77c,Dodi Lukebakio,138,12,4,12,15,14,8,Asse,Belgium,"FW-MF (AM-WM, right)",Hertha BSC,1. Bundesliga,49
+2,14,25,2.43,675,8,23,16,0d077b88,Mehdi Bourabia,128,12,11,14,12,12,12,Dijon,France,MF,Sassuolo,1. Serie A,50
+0,1,3,0.09,343,1,0,6,0d422df7,Marco Silvestri,128,10,10,8,2,14,11,Castelnovo ne' Monti,Italy,GK,Hellas Verona,1. Serie A,51
+0,0,2,0.09,514,1,0,4,0d55d942,Alexander Schwolow,135,9,9,12,1,12,16,Wiesbaden,Germany,GK,Freiburg,1. Bundesliga,52
+3,46,71,2.68,1626,19,25,49,0d82903c,Alex Sandro,162,12,7,14,14,15,11,Catanduva,Brazil,"DF-MF (FB, left)",Juventus,1. Serie A,53
+7,49,117,3.49,1112,34,38,66,0db169ae,Sandro Tonali,134,13,14,14,14,11,13,Lodi,Italy,MF (DM),Brescia,1. Serie A,54
+0,4,5,1.36,119,4,0,9,0e4fef6e,Lucas Torró,123,9,13,12,8,13,14,Cocentaina,Spain,MF (CM-DM),Eint Frankfurt,1. Bundesliga,55
+6,69,78,4.98,1045,22,33,30,0ef89a37,Philippe Coutinho,165,18,9,15,18,17,12,Rio de Janeiro,Brazil,"FW-MF (AM-WM, left)",Bayern Munich,1. Bundesliga,56
+3,32,40,2.49,732,15,15,19,0fbecd11,Dominik Kohr,130,10,13,12,8,10,14,Trier,Germany,MF (DM),Eint Frankfurt,1. Bundesliga,57
+0,1,0,0.0,77,0,0,0,10072610,Claudio Bravo,125,12,9,13,13,14,12,Buin,Chile,GK,Manchester City,1. Premier League,58
+1,14,27,1.01,1884,6,7,22,101da2b5,Fernandinho,165,13,14,15,13,15,18,Londrina,Brazil,DF-MF (AM-CM-DM),Manchester City,1. Premier League,59
+1,7,10,0.55,512,0,3,6,1025db8e,Jeffrey Gouweleeuw,133,13,12,14,11,11,11,Gemeente Heemskerk,Netherlands,"DF (CB, right)",Augsburg,1. Bundesliga,60
+1,50,27,1.7,734,32,37,20,106bca06,Alessandro Schöpf,141,12,8,13,14,15,12,Umhausen,Austria,MF (AM),Schalke 04,1. Bundesliga,61
+0,0,0,0.0,69,0,0,0,10b9fa99,Ethan Ampadu,126,10,12,14,9,11,11,Exeter,England,DF-MF,RB Leipzig,1. Bundesliga,62
+0,1,3,0.08,467,1,0,3,10dc46f0,Salvatore Sirigu,152,7,13,9,6,15,14,Nuoro,Italy,GK,Torino,1. Serie A,63
+1,20,29,2.57,610,5,11,18,10e7f486,Rogério,131,11,10,12,14,15,14,Nobres,Brazil,"DF-MF (FB, left)",Sassuolo,1. Serie A,64
+0,24,18,1.36,635,10,9,12,111c3236,Fabian Delph,135,13,16,14,12,15,13,Bradford,England,DF-MF,Everton,1. Premier League,65
+0,2,8,0.66,977,3,1,10,119b9a8e,Aymeric Laporte,170,16,13,16,13,13,17,Agen,France,"DF (CB, left)",Manchester City,1. Premier League,66
+0,23,19,1.16,761,16,11,8,11b9265b,Alberto Moreno,138,12,7,13,13,15,10,Seville,Spain,"DF-MF (FB, left)",Villarreal,1. La Liga,67
+1,15,17,0.76,963,6,8,22,11fd2b75,Omar Mascarell,135,12,12,14,11,13,12,Santa Cruz de Tenerife,Spain,MF (CM-DM),Schalke 04,1. Bundesliga,68
+0,12,8,1.56,292,17,17,5,1238a3f9,Davie Selke,135,9,11,11,12,11,13,Schorndorf,Germany,FW,Werder Bremen,1. Bundesliga,69
+1,14,18,1.69,554,38,18,23,1238a3f9,Davie Selke,135,9,11,11,12,11,13,Schorndorf,Germany,FW,Hertha BSC,1. Bundesliga,70
+2,38,48,2.85,1044,14,27,26,1265a93a,Reece James,141,10,13,13,11,12,14,London,England,"DF-MF (FB, right)",Chelsea,1. Premier League,71
+1,43,31,2.19,690,11,8,17,1295552e,Mert Müldür,128,10,5,12,11,12,13,Vienna,Austria,"DF (FB, right)",Sassuolo,1. Serie A,72
+2,33,55,2.36,1132,83,49,63,129af0db,Álvaro Morata,155,11,12,14,14,15,12,Madrid,Spain,FW,Atlético Madrid,1. La Liga,73
+5,101,57,3.15,954,27,48,40,12c50af5,Denis Suárez,142,17,8,15,15,13,11,Salceda de Caselas,Spain,MF (AM-CM-WM),Celta Vigo,1. La Liga,74
+3,45,66,4.91,660,22,27,23,130a7a3f,Samu Castillejo,141,13,8,14,14,15,12,Barcelona,Spain,"FW-MF (AM-WM, right)",Milan,1. Serie A,75
+1,71,48,1.83,850,33,45,30,13203c45,Jérôme Roussillon,139,13,8,12,13,13,14,Sarcelles,France,"DF-MF (FB, left)",Wolfsburg,1. Bundesliga,76
+0,1,3,3.38,37,1,1,0,149c5f5d,Giuseppe Pezzella,124,9,8,11,11,12,13,Naples,Italy,DF-MF,Udinese,1. Serie A,77
+0,18,15,1.42,382,9,10,18,149c5f5d,Giuseppe Pezzella,124,9,8,11,11,12,13,Naples,Italy,DF-MF,Parma,1. Serie A,78
+0,0,3,0.39,362,1,1,1,14b8fcdf,Daniele Rugani,143,12,7,14,10,12,13,Lucca,Italy,DF (CB),Juventus,1. Serie A,79
+4,56,87,3.98,1007,39,54,41,15b287da,Daichi Kamada,126,15,6,13,14,16,10,Ehime,Japan,FW-MF (AM),Eint Frankfurt,1. Bundesliga,80
+1,10,15,0.67,986,9,10,18,15d0c248,Luiz Felipe,142,12,7,11,6,14,11,Colina,Brazil,DF (CB),Lazio,1. Serie A,81
+2,16,27,0.71,832,14,5,32,15ea812b,James Tarkowski,136,9,13,14,10,10,14,Manchester,England,"DF (CB, right)",Burnley,1. Premier League,82
+5,54,45,4.69,621,25,29,18,15f3ec41,Callum Hudson-Odoi,145,14,6,15,15,15,11,Wandsworth,England,FW-MF,Chelsea,1. Premier League,83
+6,96,141,4.5,1808,49,58,79,162efffd,Rodrigo De Paul,148,15,13,16,16,14,11,Sarandí,Argentina,FW-MF (CM-WM),Udinese,1. Serie A,84
+3,17,42,2.34,985,11,16,9,16657b95,Bryan Cristante,146,13,11,16,12,11,13,San Vito al Tagliamento,Italy,DF-MF (DM),Roma,1. Serie A,85
+4,120,91,3.54,1060,61,75,78,16aa3654,Takefusa Kubo,125,15,7,15,15,13,13,Kanagawa,Japan,FW-MF,Mallorca,1. La Liga,86
+0,3,20,1.81,541,18,6,11,16ceb862,Olivier Giroud,150,13,9,12,12,10,14,Chambéry,France,FW,Chelsea,1. Premier League,87
+2,23,47,1.62,998,16,10,41,173061c0,Riccardo Gagliolo,134,8,9,13,9,14,13,Porto Maurizio,Italy,"DF (CB-FB, left)",Parma,1. Serie A,88
+0,2,18,1.72,220,6,4,14,174651c8,David Timor,125,15,7,15,13,10,11,Carcaixent,Spain,MF (AM-CM),Getafe,1. La Liga,89
+1,88,72,2.64,916,35,34,19,1770bd68,Ken Sema,130,12,8,11,15,13,12,Norrköping,Sweden,"DF-FW-MF (WM, left)",Udinese,1. Serie A,90
+1,133,91,3.59,1293,65,72,74,178ae8f8,Diogo Jota,147,12,6,13,16,16,10,Massarelos,Portugal,FW-MF,Wolves,1. Premier League,91
+0,0,1,0.03,575,0,0,4,1840e36d,Thibaut Courtois,162,10,11,13,10,12,14,Bree,Belgium,GK,Real Madrid,1. La Liga,92
+0,41,48,4.95,449,20,17,16,1880614f,Cengiz Ünder,144,11,5,12,15,16,12,Sındırgı,Turkey,"FW-MF (AM, right)",Roma,1. Serie A,93
+1,15,13,0.47,954,5,8,17,18abe173,Joseph Aidoo,131,9,11,11,5,15,13,Accra,Ghana,"DF (CB, right)",Celta Vigo,1. La Liga,94
+0,0,9,0.47,1201,2,5,9,18b896d6,Antonio Rüdiger,156,10,15,12,10,11,12,Land Berlin,Germany,DF (CB),Chelsea,1. Premier League,95
+0,5,6,0.36,580,3,4,11,1900032e,Jannik Vestergaard,128,9,14,11,8,7,12,Copenhagen,Denmark,"DF (CB, left)",Southampton,1. Premier League,96
+1,35,29,1.79,763,15,25,23,1961b2aa,André Gomes,146,15,9,17,14,11,11,Grijó,Portugal,MF (CM),Everton,1. Premier League,97
+2,25,45,2.29,994,19,9,10,197640fd,Timothy Castagne,142,10,10,13,13,14,14,Arlon,Belgium,"DF-MF (DM-FB, right)",Atalanta,1. Serie A,98
+0,7,6,3.18,99,7,9,8,19b776e9,Rubén Sobrino,128,10,8,9,9,10,13,Daimiel,Spain,FW,Valencia,1. La Liga,99
+1,6,10,0.41,835,11,7,27,19e4eab9,Rodrigo Becão,132,7,15,10,7,11,16,Salvador,Brazil,"DF (CB, right)",Udinese,1. Serie A,100
+1,8,20,0.95,520,6,7,15,1ae30132,Phil Bardsley,123,6,17,11,10,12,15,Salford,England,"DF (FB, right)",Burnley,1. Premier League,101
+7,43,104,3.09,1288,18,32,31,1b84dbe1,Lucas Digne,149,12,8,13,13,15,12,Meaux,France,"DF (FB, left)",Everton,1. Premier League,102
+2,53,52,2.21,1656,20,25,44,1bacc518,Frenkie de Jong,164,18,12,16,16,16,15,Arkel,Netherlands,DF-MF (CM),Barcelona,1. La Liga,103
+7,25,70,2.63,1064,51,35,27,1bda5842,Portu,144,15,13,14,12,12,14,Murcia,Spain,"FW-MF (AM-DM, right)",Real Sociedad,1. La Liga,104
+4,101,79,4.13,1122,49,65,38,1bf33a9a,Christian Pulisic,150,14,7,12,16,17,10,Easton,Pennsylvania,FW-MF (AM),Chelsea,1. Premier League,105
+3,53,47,1.24,1351,19,28,21,1c7012b8,Declan Rice,138,12,13,13,12,13,13,London,England,DF-MF (DM),West Ham,1. Premier League,106
+0,0,1,5.29,15,0,0,1,1cadaf34,Roberto Piccoli,98,8,12,8,16,9,6,Bergamo,Italy,FW,Atalanta,1. Serie A,107
+0,2,11,0.57,1068,3,2,11,1cb49278,Andreas Christensen,147,10,14,14,10,11,13,Lillerød,Denmark,DF (CB),Chelsea,1. Premier League,108
+1,13,15,3.55,132,5,7,4,1cbe4984,Paulo Otávio,117,10,8,11,13,13,11,Ourinhos,Brazil,"DF (FB, left)",Wolfsburg,1. Bundesliga,109
+0,4,2,0.64,140,2,7,5,1d0bb7e4,Bosko Sutalo,107,9,9,11,12,12,12,Metković,Croatia,DF,Atalanta,1. Serie A,110
+1,13,10,2.62,142,3,5,4,1d1691ad,Álvaro Odriozola,154,11,9,13,14,14,14,San Sebastian,Spain,"DF (FB, right)",Real Madrid,1. La Liga,111
+0,6,5,2.96,116,6,3,1,1d1691ad,Álvaro Odriozola,154,11,9,13,14,14,14,San Sebastian,Spain,"DF (FB, right)",Bayern Munich,1. Bundesliga,112
+0,6,7,0.57,608,2,3,12,1d8e9add,Kevin Vogt,139,10,14,14,8,8,13,Witten,Germany,DF-MF (CB-DM),Werder Bremen,1. Bundesliga,113
+0,4,4,0.37,694,1,3,10,1d8e9add,Kevin Vogt,139,10,14,14,8,8,13,Witten,Germany,DF-MF (CB-DM),Hoffenheim,1. Bundesliga,114
+5,48,93,2.59,1350,65,43,76,1daec722,Marc Cucurella,139,13,13,13,11,14,13,Alella,Spain,"DF-MF (WM, left)",Getafe,1. La Liga,115
+4,26,67,2.88,845,22,18,20,1ea5f91c,Jakub Jankto,131,13,10,13,12,15,12,Prague,Czech Republic,"MF (WM, left)",Sampdoria,1. Serie A,116
+3,36,32,2.24,566,28,29,19,1ecb65be,Theo Walcott,131,9,7,12,14,15,12,Stanmore,England,"FW-MF (AM-WM, right)",Everton,1. Premier League,117
+4,13,24,1.15,643,15,14,25,1ef37668,Erik Pieters,128,12,13,11,12,11,14,Gemeente Tiel,Netherlands,"DF-MF (CB-FB, left)",Burnley,1. Premier League,118
+2,50,29,1.37,1034,23,24,24,1f079188,Rubén Peña,138,13,7,13,14,13,12,Ávila,Spain,"DF-MF (FB-WM, right)",Villarreal,1. La Liga,119
+2,27,25,2.12,467,32,13,8,1f44ac21,Erling Haaland,166,13,12,12,13,14,13,Leeds,England,FW,Dortmund,1. Bundesliga,120
+7,41,44,2.11,1047,52,23,31,1fb1c435,Rodrigo,154,14,5,14,15,16,9,Rio de Janeiro,Brazil,FW-MF,Valencia,1. La Liga,121
+0,0,0,0.0,40,0,1,1,1fda91b3,Melayro Bogarde,82,11,5,10,6,14,8,Rotterdam,Netherlands,DF,Hoffenheim,1. Bundesliga,122
+1,10,37,1.25,791,14,16,44,1fe0492d,Rubén Duarte,129,12,13,13,9,13,13,Almería,Spain,"DF (FB, left)",Alavés,1. La Liga,123
+0,2,2,0.32,159,3,2,3,1fe67e86,Mikel Balenziaga,133,9,9,11,11,12,14,Zumarraga,Spain,"DF (FB, left)",Athletic Club,1. La Liga,124
+0,4,13,1.37,464,4,2,10,20030c06,Willi Orban,138,9,14,12,7,11,15,Kreisfreie Stadt Kaiserslautern,Germany,DF (CB),RB Leipzig,1. Bundesliga,125
+0,45,19,3.87,272,15,12,5,200e89e1,Ander Barrenetxea,137,14,10,13,14,14,14,San Sebastian,Spain,MF,Real Sociedad,1. La Liga,126
+1,63,59,3.78,779,33,30,19,20730eae,Rafael Leão,148,13,8,13,16,15,10,Almada,Portugal,FW-MF,Milan,1. Serie A,127
+1,9,20,2.58,332,2,3,8,20b3a502,Nicolás Domínguez,135,14,9,15,11,14,14,Mariano J. Haedo,Argentina,MF (CM-DM),Bologna,1. Serie A,128
+0,0,2,0.06,526,1,0,2,20b9f052,Pau López,147,10,12,14,3,15,15,Girona,Spain,GK,Roma,1. Serie A,129
+1,24,28,1.55,916,13,10,23,2146785a,Davide Calabria,139,10,9,12,12,16,11,Brescia,Italy,"DF-MF (FB, right)",Milan,1. Serie A,130
+4,21,69,3.14,890,15,8,14,21512407,Kieran Trippier,142,13,11,13,11,13,12,Bury,England,"DF-MF (FB, right)",Atlético Madrid,1. La Liga,131
+0,10,5,0.39,468,1,3,3,217875a4,Sebastian Walukiewicz,113,13,6,12,8,12,12,Gorzów Wielkopolski,Poland,"DF (CB, right)",Cagliari,1. Serie A,132
+0,3,0,0.0,11,1,0,0,217c93a1,Lazar Samardzic,95,12,2,7,14,13,7,Berlin,Germany,MF,Hertha BSC,1. Bundesliga,133
+2,59,54,1.88,1328,52,43,51,21a66f6a,Harry Kane,183,18,15,18,13,12,15,Walthamstow,England,FW,Tottenham,1. Premier League,134
+0,13,8,0.73,481,4,12,11,228b0d9d,Aihen Muñoz,133,10,11,12,12,15,12,Pamplona,Spain,"DF (FB, left)",Real Sociedad,1. La Liga,135
+0,8,10,5.11,132,4,3,6,228f73ae,Amin Younes,136,12,6,13,16,17,11,Düsseldorf,Germany,"FW-MF (AM, left)",Napoli,1. Serie A,136
+1,24,20,2.41,404,25,20,10,22919e97,Sargis Adamyan,131,14,6,12,14,13,10,Yerevan,Armenia,FW-MF,Hoffenheim,1. Bundesliga,137
+1,5,7,1.72,158,12,8,13,229cd98a,Sergio Córdova,121,10,8,10,13,13,9,Calabozo,Venezuela,FW,Augsburg,1. Bundesliga,138
+3,41,62,1.88,1946,28,20,58,230a2fac,Giovanni Di Lorenzo,143,11,12,13,11,13,13,Castelnuovo di Garfagnana,Italy,"DF-MF (FB, right)",Napoli,1. Serie A,139
+2,30,28,2.01,527,21,30,38,2334478a,Stefano Sturaro,134,11,11,12,9,13,10,Sanremo,Italy,MF (CM),Genoa,1. Serie A,140
+1,11,25,0.74,1066,10,19,43,240d3a0b,Dani García,145,12,15,13,11,12,16,Zumarraga,Spain,MF (CM-DM),Athletic Club,1. La Liga,141
+2,94,46,1.99,937,20,27,45,246d153b,Ola Aina,138,9,7,11,15,14,11,Southwark,England,DF-MF (FB),Torino,1. Serie A,142
+2,33,50,2.83,840,43,34,43,253a06b9,Ezequiel Ávila,141,10,9,13,13,14,9,Rosario,Argentina,FW-MF,Osasuna,1. La Liga,143
+2,70,40,3.88,440,34,24,32,254147d4,Moussa Djenepo,130,8,7,12,15,14,12,Bamako,Mali,MF,Southampton,1. Premier League,144
+0,8,17,1.12,663,3,5,12,25ab9c9c,Manuel Gulde,125,9,10,12,7,11,16,Mannheim,Germany,DF (CB),Freiburg,1. Bundesliga,145
+0,2,1,0.03,444,0,0,5,2628fd2b,Bernd Leno,151,7,9,10,3,16,14,Bietigheim-Bissingen,Germany,GK,Arsenal,1. Premier League,146
+0,17,21,1.4,706,41,20,43,2691c772,Ashley Barnes,135,9,10,13,8,12,14,Bath,England,FW,Burnley,1. Premier League,147
+0,18,23,1.82,602,16,16,19,26db8853,Walace,125,9,9,12,10,12,12,Salvador,Brazil,MF (CM-DM),Udinese,1. Serie A,148
+2,42,58,3.79,858,26,24,29,26f6dca8,Manuel Lanzini,132,14,10,13,16,14,10,San Antonio de Padua,Argentina,MF (AM),West Ham,1. Premier League,149
+2,36,28,1.47,698,46,26,23,271b8617,Marcus Ingvartsen,120,11,8,11,11,12,12,Farum,Denmark,FW-MF,Union Berlin,1. Bundesliga,150
+0,2,4,0.35,555,6,8,15,2784f898,Éder Militão,150,11,12,12,12,15,13,Sertãozinho,Brazil,"DF-MF (CB, right)",Real Madrid,1. La Liga,151
+2,1,7,0.22,1149,6,4,10,27a013f7,Néstor Araujo,140,12,13,13,7,12,15,Guadalajara,Estado de Jalisco,DF (CB),Celta Vigo,1. La Liga,152
+1,16,25,1.79,535,42,34,37,27c01749,Aaron Connolly,120,9,7,9,12,12,13,Galway,Republic of Ireland,FW,Brighton,1. Premier League,153
+3,7,26,0.72,1737,7,10,24,282f75f3,Lewis Dunk,139,12,14,14,9,11,13,Brighton,England,DF (CB),Brighton,1. Premier League,154
+0,0,0,0.0,14,0,0,0,28a15394,Antonio Rosati,103,6,8,5,5,12,12,Tivoli,Italy,GK,Torino,1. Serie A,155
+0,0,1,0.03,646,0,0,5,28d596a0,Kepa Arrizabalaga,150,11,10,12,1,15,14,Ondarroa,Spain,GK,Chelsea,1. Premier League,156
+0,6,13,0.34,1357,3,2,6,2928dca2,Conor Coady,138,15,17,15,11,13,15,Liverpool,England,DF-MF (CB-DM-WM),Wolves,1. Premier League,157
+0,5,7,1.44,243,3,1,7,2946f9a1,Nacho,137,10,13,12,11,15,14,Madrid,Spain,DF (CB-FB),Real Madrid,1. La Liga,158
+0,5,7,1.44,243,3,1,7,2946f9a1,Nacho,150,10,13,13,10,13,15,Madrid,Spain,DF (CB-FB),Real Madrid,1. La Liga,159
+2,12,38,4.51,605,10,12,11,29733c72,Juan Mata,135,17,11,17,13,14,12,Villafranca Montes de Oca,Spain,FW-MF (AM-WM),Manchester Utd,1. Premier League,160
+1,15,10,0.83,363,24,16,15,29b61deb,Pere Pons,129,12,10,12,9,12,15,Girona,Spain,MF (CM-DM),Alavés,1. La Liga,161
+2,56,71,2.83,1549,36,19,41,2a0c8ba4,Joan Jordán,142,15,11,15,12,13,14,Palamós,Spain,MF (CM),Sevilla,1. La Liga,162
+5,19,64,2.12,1709,9,19,23,2a1beb34,Marten de Roon,146,12,14,13,10,11,14,Zwijndrecht,Netherlands,"MF (CM-DM, right)",Atalanta,1. Serie A,163
+0,5,1,0.43,75,0,0,1,2a29eb9b,Lukas Kübler,122,8,10,10,8,11,15,Bonn,Germany,"DF (CB-FB, right)",Freiburg,1. Bundesliga,164
+1,67,28,1.03,1123,21,31,21,2acd49b9,Moussa Sissoko,149,13,12,13,15,13,14,Le Blanc-Mesnil,France,"MF (AM-CM-DM, right)",Tottenham,1. Premier League,165
+0,11,18,1.7,602,9,13,15,2b09d998,Tyler Adams,130,13,10,14,11,14,10,Wappingers Falls,New York,DF-MF (DM),RB Leipzig,1. Bundesliga,166
+4,150,88,4.25,773,53,61,61,2b16cb1a,Allan Saint-Maximin,144,10,10,11,19,16,12,Châtenay-Malabry,France,FW-MF (WM),Newcastle Utd,1. Premier League,167
+4,114,87,3.49,1201,57,69,78,2b622f01,Lucas Moura,148,12,7,12,16,16,12,São Paulo,Brazil,"FW-MF (AM-WM, right)",Tottenham,1. Premier League,168
+0,7,1,0.08,223,4,2,8,2b91cf8e,Ciaran Clark,127,10,13,10,10,11,13,Harrow,England,"DF-MF (CB, left)",Newcastle Utd,1. Premier League,169
+0,3,2,0.95,113,1,2,3,2baec6ce,Axel Tuanzebe,138,8,12,13,12,14,12,Bunia,Congo DR,DF (CB),Manchester Utd,1. Premier League,170
+0,7,3,0.34,645,1,1,2,2bed3eab,Eric García,135,13,14,14,12,14,15,Barcelona,Spain,DF (CB),Manchester City,1. Premier League,171
+0,1,0,0.0,186,0,1,1,2bef2bca,Ronald Araújo,149,15,13,16,10,10,14,Rivera,Uruguay,"DF (CB, right)",Barcelona,1. La Liga,172
+0,0,0,0.0,7,0,0,1,2c0558b8,Jamal Musiala,126,12,6,13,14,11,11,Fulda,Germany,MF,Bayern Munich,1. Bundesliga,173
+8,36,66,6.44,571,25,26,39,2c0f8e9e,Alexis Sánchez,151,14,11,14,16,15,13,Tocopilla,Chile,"FW-MF (AM-WM, left)",Inter,1. Serie A,174
+0,35,24,2.0,408,7,13,4,2cfae697,Jerdy Schouten,121,14,11,12,14,12,12,Gemeente Hellevoetsluis,Netherlands,FW-MF (CM),Bologna,1. Serie A,175
+1,23,9,0.46,823,10,9,13,2d61d13a,Ozan Kabak,129,10,9,12,8,13,11,Çankaya,Turkey,"DF (CB, right)",Schalke 04,1. Bundesliga,176
+7,46,71,2.44,1392,32,17,43,2d970560,Robin Gosens,144,12,8,13,12,13,13,Emmerich am Rhein,Germany,"DF-MF (CM-DM-FB, left)",Atalanta,1. Serie A,177
+2,0,13,0.65,1416,0,1,5,2db2fd7b,Jérôme Boateng,156,14,11,15,11,10,13,NULL,NULL,DF (CB-FB),Bayern Munich,1. Bundesliga,178
+12,48,111,3.21,2438,39,20,21,2e4f5f03,Andrew Robertson,157,14,12,14,12,14,15,Glasgow,Scotland,"DF-MF (FB, left)",Liverpool,1. Premier League,179
+0,0,0,0.0,53,0,0,1,2e7ff968,Marwin Hitz,136,8,10,8,2,13,16,St. Gallen,Switzerland,GK,Dortmund,1. Bundesliga,180
+2,23,36,2.19,1038,6,9,20,2f3452eb,Elseid Hysaj,141,9,10,12,12,14,13,Rrethi i Shkodrës,Albania,"DF (FB, right)",Napoli,1. Serie A,181
+0,40,49,2.46,610,13,12,14,2f3e911a,Aarón Martín,134,12,9,13,14,13,13,Montmeló,Spain,"DF-MF (FB, left)",Mainz 05,1. Bundesliga,182
+6,114,151,4.84,2031,66,52,30,2f557579,Lorenzo Insigne,161,17,15,17,15,18,11,Naples,Italy,"FW-MF (AM, left)",Napoli,1. Serie A,183
+0,22,38,1.54,1423,10,15,23,2f7acede,Harry Winks,145,13,11,15,13,13,13,Hemel Hempstead,England,MF (DM),Tottenham,1. Premier League,184
+2,13,23,2.21,673,3,7,17,2f90f6b8,James Milner,154,14,16,14,13,12,16,Leeds,England,DF-MF (CM-FB-WM),Liverpool,1. Premier League,185
+0,0,0,0.0,62,0,1,0,2f965a72,Alphonse Areola,150,9,10,10,2,14,15,Paris,France,GK,Real Madrid,1. La Liga,186
+0,1,0,0.0,86,0,0,0,30223b33,Antonio Mirante,132,4,9,9,2,12,15,Castellammare di Stabia,Italy,GK,Roma,1. Serie A,187
+1,24,51,1.94,864,19,19,14,3024e383,José Ángel,127,12,6,13,14,14,9,Gijón,Spain,"DF (FB, left)",Eibar,1. La Liga,188
+1,3,8,0.4,862,2,2,26,302527b2,Philipp Lienhart,125,9,10,10,11,10,16,Lilienfeld,Austria,"DF (CB, right)",Freiburg,1. Bundesliga,189
+2,27,39,3.21,591,17,9,16,30941e96,Angeliño,137,13,8,15,13,14,12,Coristanco,Spain,"DF-MF (FB, left)",RB Leipzig,1. Bundesliga,190
+0,30,16,1.23,835,20,22,25,30c220c3,Mitchell Weiser,138,14,6,13,14,15,10,Troisdorf,Germany,"DF-MF (FB-WM, right)",Leverkusen,1. Bundesliga,191
+2,63,50,1.69,1307,83,55,75,32974271,Sergi Guardiola,134,12,12,13,13,12,13,Manacor,Spain,FW-MF,Valladolid,1. La Liga,192
+0,4,1,1.2,38,1,1,1,32c0491f,Cristiano Piccini,137,11,9,13,12,14,13,Florence,Italy,"DF (FB, right)",Valencia,1. La Liga,193
+0,5,3,2.09,99,7,1,4,32f60ed8,Morgan Gibbs-White,125,16,8,15,14,14,10,Stafford,England,MF,Wolves,1. Premier League,194
+1,23,13,1.13,402,21,31,14,3312f911,Jeffrey Schlupp,127,12,7,12,14,12,9,Hamburg,Germany,"DF-FW-MF (FB, left)",Crystal Palace,1. Premier League,195
+4,70,67,2.4,1504,36,28,48,3353737a,Sergio Reguilón,145,13,12,13,13,14,14,Madrid,Spain,"DF (FB, left)",Sevilla,1. La Liga,196
+2,25,52,2.0,1997,26,24,47,335fa267,Sergi Roberto,160,15,9,14,13,12,14,Reus,Spain,"DF-MF (AM-CM-FB, right)",Barcelona,1. La Liga,197
+0,7,7,0.5,564,3,4,10,3376a776,Karim Rekik,132,12,13,13,9,12,10,The Hague,Netherlands,"DF (CB, left)",Hertha BSC,1. Bundesliga,198
+0,1,7,0.18,626,0,0,5,339fe0e8,Thomas Strakosha,150,6,9,6,2,15,14,Athens,Greece,GK,Lazio,1. Serie A,199
+2,39,23,1.12,700,20,9,19,33a61a52,Carlos Clerc,132,12,9,12,11,13,13,Badalona,Spain,"DF (FB, left)",Levante,1. La Liga,200
+2,45,50,2.54,1011,43,30,38,33ecf462,Valerio Verre,125,13,11,13,13,14,13,Rome,Italy,FW-MF,Hellas Verona,1. Serie A,201
+3,64,43,1.32,1337,91,71,54,343c0d52,Giovanni Simeone,140,11,10,12,13,12,13,Buenos Aires F.D.,Argentina,FW,Cagliari,1. Serie A,202
+0,4,5,1.21,141,0,3,9,34e12499,Nico Schlotterbeck,117,13,10,14,8,11,12,Waiblingen,Germany,DF,Freiburg,1. Bundesliga,203
+0,15,9,0.87,429,8,5,24,34e393f2,Guido Rodríguez,145,13,11,14,12,13,13,Sáenz Peña,Argentina,"MF (CM-DM, right)",Betis,1. La Liga,204
+3,22,106,2.79,1362,24,16,52,3515d404,James Ward-Prowse,140,16,14,15,10,13,13,Portsmouth,England,"MF (AM-CM-DM, right)",Southampton,1. Premier League,205
+7,27,78,3.52,1207,19,13,19,356c9002,Antonio Candreva,145,13,13,15,13,12,12,Rome,Italy,"DF-FW-MF (AM-CM-WM, right)",Inter,1. Serie A,206
+0,11,34,1.49,886,11,5,43,35dd6d80,Domenico Criscito,135,11,10,11,9,14,12,Cercola,Italy,"DF (CB-FB, left)",Genoa,1. Serie A,207
+5,26,45,1.4,943,15,9,13,3624ce4c,Víctor Díaz,130,10,8,12,12,12,15,Seville,Spain,"DF (FB, right)",Granada,1. La Liga,208
+0,0,1,9.0,7,2,1,0,3672b352,Javi Martínez,102,13,11,13,11,13,12,Soria,Spain,MF,Osasuna,1. La Liga,209
+0,0,1,9.0,7,2,1,0,3672b352,Javi Martínez,149,12,14,13,9,9,15,Soria,Spain,MF,Osasuna,1. La Liga,210
+5,53,53,3.19,978,37,34,19,36a3ff67,Marco Reus,167,14,12,12,14,15,14,Kreisfreie Stadt Dortmund,Germany,FW-MF (AM-WM),Dortmund,1. Bundesliga,211
+0,2,4,0.14,354,1,0,3,36c2ca73,Alex McCarthy,131,9,7,11,3,16,9,Guildford,England,GK,Southampton,1. Premier League,212
+2,26,60,2.55,873,13,13,8,3727dd3c,Jonjo Shelvey,132,18,14,17,13,9,12,Romford,England,MF (CM-DM),Newcastle Utd,1. Premier League,213
+0,1,4,0.16,520,0,0,5,374ee424,Álex Remiro,136,12,8,12,3,14,12,Cascante,Spain,GK,Real Sociedad,1. La Liga,214
+1,1,7,1.67,202,18,11,17,37e103f8,Hugo Duro,110,13,5,10,13,15,7,Getafe,Spain,FW,Getafe,1. La Liga,215
+4,76,48,1.5,1142,28,43,15,37f1cf47,Ander Capa,140,10,11,12,13,13,13,Portugalete,Spain,"DF-MF (FB-WM, right)",Athletic Club,1. La Liga,216
+3,10,41,3.25,610,22,18,17,37f606f0,Dennis Geiger,130,13,9,14,11,16,11,Mosbach,Germany,MF,Hoffenheim,1. Bundesliga,217
+1,54,42,2.55,885,33,38,20,38c7feef,Alex Oxlade-Chamberlain,154,14,9,15,15,15,14,Portsmouth,England,MF (CM-WM),Liverpool,1. Premier League,218
+3,60,79,3.54,1030,41,47,20,38ceb24a,Leandro Trossard,135,15,8,14,15,14,13,Maasmechelen,Belgium,FW-MF (AM),Brighton,1. Premier League,219
+1,22,19,1.38,555,16,16,35,3902e91b,Gonzalo Melero,130,14,11,13,12,12,12,Madrid,Spain,MF (CM),Levante,1. La Liga,220
+5,108,93,3.99,1107,53,50,29,39583cfd,Gerard Deulofeu,145,14,8,15,17,15,11,Riudarenes,Spain,FW-MF (WM),Watford,1. Premier League,221
+3,74,41,3.39,615,27,20,20,3a233281,Leon Bailey,151,12,5,11,16,16,10,Kingston,Jamaica,FW-MF (AM),Leverkusen,1. Bundesliga,222
+4,42,47,3.83,695,20,37,19,3a24769f,Ross Barkley,147,14,11,15,16,11,11,Liverpool,England,MF (AM-CM),Chelsea,1. Premier League,223
+0,36,36,1.39,920,19,17,42,3a9c4b7b,Nacho Vidal,128,10,11,11,12,13,13,el Campello,Spain,"DF (FB, right)",Osasuna,1. La Liga,224
+4,25,91,3.48,1344,26,20,22,3b333ac3,Hans Hateboer,143,7,12,11,10,13,13,Beerta,Netherlands,"DF-MF (DM-FB, right)",Atalanta,1. Serie A,225
+5,50,48,2.26,856,20,31,23,3b61c9ec,Luca Pellegrini,134,11,8,12,12,13,13,Rome,Italy,DF,Cagliari,1. Serie A,226
+7,41,76,3.11,1473,17,21,36,3b8674e6,Rodrigo Bentancur,156,14,11,15,13,15,14,Colonia del Sacramento,Uruguay,MF (CM-DM),Juventus,1. Serie A,227
+0,27,32,1.94,624,20,24,6,3bb625ac,Edimilson Fernandes,136,13,7,14,13,12,12,Sion,Switzerland,MF,Mainz 05,1. Bundesliga,228
+0,0,4,0.12,668,2,0,2,3bb7b8b4,Ederson,169,17,7,17,11,13,16,Osasco,Brazil,GK,Manchester City,1. Premier League,229
+21,45,136,5.43,1652,57,25,31,3c6089ab,Thomas Müller,160,14,11,12,10,13,18,Weilheim,Germany,FW-MF (AM-WM),Bayern Munich,1. Bundesliga,230
+1,27,34,4.63,395,12,7,15,3ca7254a,Pedro,151,11,8,12,13,17,13,Santa Cruz de Tenerife,Spain,"FW-MF (AM-WM, right)",Chelsea,1. Premier League,231
+2,30,40,3.17,635,8,16,5,3cd3b384,Tommaso Augello,114,10,6,13,11,13,10,Milan,Italy,"DF (FB, left)",Sampdoria,1. Serie A,232
+0,0,3,0.09,598,0,0,3,3cd9e95a,Timo Horn,140,8,10,10,1,14,14,Cologne,Germany,GK,Köln,1. Bundesliga,233
+3,72,42,2.09,1093,38,19,30,3cefcaef,Ferland Mendy,148,12,6,13,13,14,11,Meulan-en-Yvelines,France,"DF (FB, left)",Real Madrid,1. La Liga,234
+0,3,17,0.55,720,4,2,14,3e42f707,David García,123,9,11,11,10,11,14,Pamplona,Spain,"DF-MF (CB-CM, left)",Osasuna,1. La Liga,235
+8,78,77,3.33,1113,50,40,34,3ea50f67,Harvey Barnes,140,13,7,12,15,14,9,Leicester,England,"FW-MF (AM, left)",Leicester City,1. Premier League,236
+0,6,30,0.87,1625,3,2,25,3ead85f9,Alessio Romagnoli,156,12,14,13,9,13,14,Anzio,Italy,"DF (CB-FB, left)",Milan,1. Serie A,237
+7,64,95,4.21,1515,15,22,26,3eb22ec9,Bernardo Silva,173,17,12,16,18,19,14,Lisbon,Portugal,FW-MF (AM-CM),Manchester City,1. Premier League,238
+0,4,10,1.57,344,5,6,8,3ee0dd59,Martín Zubimendi,138,14,12,16,13,13,15,San Sebastián,Spain,MF (DM),Real Sociedad,1. La Liga,239
+0,10,8,1.58,173,4,9,2,3eeb80e0,Fredrik Jensen,117,13,7,12,11,12,10,Porvoo,Finland,MF (AM),Augsburg,1. Bundesliga,240
+0,6,5,0.47,676,4,3,17,3eed9821,Samuel Umtiti,159,10,10,14,10,13,16,Yaoundé,Cameroon,"DF (CB-FB, left)",Barcelona,1. La Liga,241
+0,3,1,1.5,36,2,1,2,3effaa34,André Silva,75,10,7,11,12,12,9,Baguim do Monte,Portugal,FW,Milan,1. Serie A,242
+0,3,1,1.5,36,2,1,2,3effaa34,André Silva,141,12,7,12,12,14,15,Baguim do Monte,Portugal,FW,Milan,1. Serie A,243
+3,35,54,3.09,974,53,40,25,3effaa34,André Silva,75,10,7,11,12,12,9,Baguim do Monte,Portugal,FW,Eint Frankfurt,1. Bundesliga,244
+3,35,54,3.09,974,53,40,25,3effaa34,André Silva,141,12,7,12,12,14,15,Baguim do Monte,Portugal,FW,Eint Frankfurt,1. Bundesliga,245
+7,67,95,2.54,2128,24,30,31,3f10bd22,Jesús Navas,153,11,11,11,14,16,14,Los Palacios y Villafranca,Spain,"DF-MF (AM-FB-WM, right)",Sevilla,1. La Liga,246
+1,2,3,0.22,671,1,2,5,3f2d59fe,Shkodran Mustafi,137,11,10,13,11,13,10,Bad Hersfeld,Germany,"DF (CB, right)",Arsenal,1. Premier League,247
+1,24,18,0.97,512,14,13,33,3f79a1c8,Gonzalo Escalante,140,11,11,13,11,12,15,Bella Vista,Argentina,MF (CM),Eibar,1. La Liga,248
+1,11,24,0.73,1089,2,7,42,3fc45c73,Iñigo Martínez,152,13,15,15,9,12,14,Ondarroa,Spain,"DF (CB, left)",Athletic Club,1. La Liga,249
+0,7,2,2.77,65,4,3,6,407feb71,Brahim Díaz,126,14,8,13,16,16,10,Málaga,Spain,MF,Real Madrid,1. La Liga,250
+1,2,13,0.38,966,5,1,13,4115ce4e,Jan Bednarek,134,9,13,12,9,12,14,Słupca,Poland,DF (CB),Southampton,1. Premier League,251
+1,33,22,1.06,489,20,21,23,41c12f75,Mathías Olivera,118,9,13,10,11,11,14,Montevideo,Uruguay,"DF (FB, left)",Getafe,1. La Liga,252
+3,22,31,1.05,1197,22,11,28,41f32541,Fernando,136,15,10,15,12,13,10,Alto Paraíso de Goiás,Brazil,MF (CM-DM),Sevilla,1. La Liga,253
+0,0,5,0.29,247,0,0,2,42130443,Zack Steffen,135,11,10,10,3,14,12,Coatesville,Pennsylvania,GK,Düsseldorf,1. Bundesliga,254
+2,54,52,3.13,737,48,27,29,437f2b00,Christoph Baumgartner,120,15,8,12,11,13,10,Horn,Austria,FW-MF,Hoffenheim,1. Bundesliga,255
+1,26,22,2.76,387,21,24,17,43a166b4,Divock Origi,149,12,7,13,15,14,13,Ostend,Belgium,FW-MF (WM),Liverpool,1. Premier League,256
+3,34,60,2.86,1123,57,50,52,43f71e77,Jorge Molina,132,10,15,11,8,10,15,Alcoy,Spain,FW,Getafe,1. La Liga,257
+0,1,0,0.0,24,0,0,1,44150beb,Jon Pacheco,86,5,10,8,2,10,8,NULL,NULL,DF,Real Sociedad,1. La Liga,258
+3,63,65,2.49,916,35,26,43,442b56fa,Ridle Baku,121,12,8,12,14,14,10,Mainz,Germany,DF-FW-MF,Mainz 05,1. Bundesliga,259
+9,65,113,3.21,1619,83,54,47,4431aed2,Ciro Immobile,159,14,15,12,12,13,13,Torre Annunziata,Italy,FW,Lazio,1. Serie A,260
+0,11,12,1.64,387,28,16,19,44510fde,Andrea Favilli,119,10,11,12,12,11,11,Pisa,Italy,FW,Genoa,1. Serie A,261
+3,27,29,4.2,407,18,19,11,4468ec10,Demarai Gray,136,11,7,12,15,14,10,Birmingham,England,FW-MF (AM-WM),Leicester City,1. Premier League,262
+0,15,17,1.07,667,5,9,10,44781702,Ben Davies,122,12,12,13,6,13,10,Neath,Wales,"DF-MF (FB, left)",Tottenham,1. Premier League,263
+0,15,17,1.07,667,5,9,10,44781702,Ben Davies,140,13,6,14,12,13,11,Neath,Wales,"DF-MF (FB, left)",Tottenham,1. Premier League,264
+2,11,30,2.11,572,14,13,12,44ac04e9,Matías Vecino,145,11,11,14,10,14,15,Canelones Department,Uruguay,"FW-MF (AM-CM-DM, right)",Inter,1. Serie A,265
+2,32,64,1.88,1569,11,11,19,44bfb6c5,Rúben Neves,150,17,13,17,12,13,15,Mozelos,Portugal,MF (AM-CM-DM),Wolves,1. Premier League,266
+0,20,16,1.03,775,11,7,21,44eb9093,Danilo D'Ambrosio,145,11,13,12,11,13,12,Naples,Italy,"DF (FB, right)",Inter,1. Serie A,267
+0,12,7,0.3,565,5,3,19,450ab6fc,Jamaal Lascelles,132,4,17,10,8,10,13,Derby,England,DF (CB),Newcastle Utd,1. Premier League,268
+0,0,4,0.11,845,1,0,5,4535e4bb,Mathew Ryan,131,11,14,13,2,14,12,Plumpton,Australia,GK,Brighton,1. Premier League,269
+5,44,64,1.9,1223,60,23,17,45963054,Jamie Vardy,160,13,13,12,12,12,16,Sheffield,England,FW,Leicester City,1. Premier League,270
+4,32,43,1.39,2124,25,12,25,45a03961,Benjamin Pavard,148,13,11,14,10,11,12,Maubeuge,France,"DF (CB-FB, right)",Bayern Munich,1. Bundesliga,271
+1,8,11,2.95,218,6,8,4,45af8a54,Marco Asensio,151,15,9,16,16,14,10,Palma,Spain,FW-MF (WM),Real Madrid,1. La Liga,272
+2,82,110,4.95,1129,52,40,54,45b9b619,Joaquín Correa,154,15,11,14,17,15,11,Juan Bautista Alberdi,Argentina,FW-MF (AM),Lazio,1. Serie A,273
+2,24,66,2.5,1862,8,22,35,45db685d,Jorginho,158,15,15,18,12,14,15,Imbituba,Brazil,MF (CM-DM),Chelsea,1. Premier League,274
+0,2,1,1.53,13,1,1,1,45e17712,Dimitri Foulquier,123,11,7,9,12,13,12,Sarcelles,France,"DF-MF (FB, right)",Watford,1. Premier League,275
+0,23,11,0.88,294,11,12,19,45e17712,Dimitri Foulquier,123,11,7,9,12,13,12,Sarcelles,France,"DF-MF (FB, right)",Granada,1. La Liga,276
+5,19,45,1.85,1907,10,7,19,4601e194,Jordi Alba,161,15,11,13,13,16,12,Marmolejo,Spain,"DF-MF (FB, left)",Barcelona,1. La Liga,277
+6,20,123,3.75,1215,19,27,36,4611e028,Erick Pulgar,141,13,9,14,11,13,12,Antofagasta,Chile,DF-MF (CB-CM-DM),Fiorentina,1. Serie A,278
+1,0,3,0.08,410,0,0,5,466fb2c5,Aaron Ramsdale,135,11,7,12,2,14,13,Staffordshire,England,GK,Bournemouth,1. Premier League,279
+1,33,31,4.19,348,12,13,12,46fa7204,Kevin Agudelo,120,12,9,14,14,13,12,Colombia,Colombia,MF,Genoa,1. Serie A,280
+0,2,6,8.44,40,0,2,1,46fa7204,Kevin Agudelo,120,12,9,14,14,13,12,Colombia,Colombia,MF,Fiorentina,1. Serie A,281
+0,0,3,0.1,656,0,0,7,47064058,Oliver Baumann,140,7,11,8,3,14,16,Breisach,Germany,GK,Hoffenheim,1. Bundesliga,282
+0,7,14,1.57,276,8,4,10,47369df8,Josh Brownhill,125,12,8,13,11,13,12,Warrington,England,MF (CM),Burnley,1. Premier League,283
+3,65,56,4.32,678,43,36,46,4737cebe,Adnan Januzaj,147,16,11,15,17,16,13,Brussels,Belgium,"FW-MF (AM-WM, right)",Real Sociedad,1. La Liga,284
+1,9,11,0.42,757,5,5,14,474ecac8,Sergio Postigo,131,10,14,11,5,9,15,Madrid,Spain,DF (CB),Levante,1. La Liga,285
+0,1,6,0.16,636,0,0,7,4806ec67,Jordan Pickford,146,13,14,10,2,16,14,Washington,England,GK,Everton,1. Premier League,286
+1,4,19,2.67,380,4,1,13,487d9b09,Antonio Barragán,125,12,10,11,9,13,12,Los Palacios y Villafranca,Spain,"DF-MF (FB, right)",Betis,1. La Liga,287
+3,82,115,6.74,1110,43,45,61,48d5bd33,Ruslan Malinovskyi,141,14,10,15,15,15,13,Zhytomyr,Ukraine,FW-MF (AM-DM),Atalanta,1. Serie A,288
+0,0,0,0.0,38,4,0,2,48e89655,Pablo Piatti,126,13,9,14,13,15,10,La Carlota,Argentina,"FW-MF (WM, left)",Espanyol,1. La Liga,289
+7,43,128,4.09,2359,24,26,53,49296448,Joshua Kimmich,171,16,13,16,11,15,14,Rottweil,Germany,"DF-MF (DM-FB, right)",Bayern Munich,1. Bundesliga,290
+1,80,36,1.91,692,29,27,20,493924a7,Kevin Mbabu,141,12,9,13,13,13,11,Chêne-Bougeries,Switzerland,"DF (FB, right)",Wolfsburg,1. Bundesliga,291
+5,57,74,2.43,1976,28,27,38,4958bfb2,Dani Carvajal,156,12,13,13,12,14,13,Leganés,Spain,"DF (FB, right)",Real Madrid,1. La Liga,292
+6,23,93,2.66,1379,17,16,38,495945ef,Ashley Westwood,132,14,13,15,9,13,15,Nantwich,England,"MF (CM-DM-WM, right)",Burnley,1. Premier League,293
+8,110,117,3.77,1663,79,50,34,49fe9070,Timo Werner,156,12,6,11,13,14,12,Stuttgart,Germany,FW-MF (WM),RB Leipzig,1. Bundesliga,294
+0,27,73,2.5,1421,14,18,19,4a56052c,Jordan Veretout,146,13,8,15,13,14,12,Ancenis,France,MF (CM-DM),Roma,1. Serie A,295
+9,58,135,5.79,1314,59,28,38,4a5a45c7,Lorenzo Pellegrini,155,17,12,15,14,14,13,Rome,Italy,MF (AM-CM),Roma,1. Serie A,296
+0,4,2,0.34,117,4,0,4,4a633cfe,Unai García,128,8,8,9,7,11,14,Escároz,Spain,"DF (CB, right)",Osasuna,1. La Liga,297
+1,42,31,1.38,1093,64,41,19,4ab53cdb,Jay Rodriguez,132,13,7,12,13,12,11,Burnley,England,FW,Burnley,1. Premier League,298
+0,1,9,1.03,317,2,4,22,4b029b31,Edoardo Goldaniga,122,9,15,10,7,11,11,Milan,Italy,"DF (CB, right)",Genoa,1. Serie A,299
+1,23,30,0.84,1167,5,13,21,4b3e1a38,Amir Rrahmani,130,9,13,8,9,10,14,Pristina,Kosovo,"DF (CB, right)",Hellas Verona,1. Serie A,300
+0,0,8,0.21,379,0,0,8,4b40d9ca,Nick Pope,140,6,8,10,2,14,15,Soham,England,GK,Burnley,1. Premier League,301
+0,16,33,1.6,768,9,8,20,4b511457,Oriol Romeu,131,14,13,13,9,10,15,Ulldecona,Spain,MF (CM-DM),Southampton,1. Premier League,302
+3,70,71,2.31,1440,57,70,49,4bcf39f6,Neal Maupay,132,13,10,13,13,14,13,Versailles,France,FW-MF (AM),Brighton,1. Premier League,303
+0,3,16,0.44,1509,1,1,24,4bd414c1,Raúl Albiol,148,12,14,12,8,12,13,Vilamarxant,Spain,"DF (CB, right)",Villarreal,1. La Liga,304
+2,10,33,1.39,819,46,22,58,4c2e9442,Maxi Gómez,149,10,12,11,12,10,17,Paysandú,Uruguay,FW,Valencia,1. La Liga,305
+8,97,97,2.92,1818,64,59,26,4c370d81,Roberto Firmino,168,17,6,15,15,15,15,Maceió,Brazil,FW-MF (AM),Liverpool,1. Premier League,306
+1,52,53,3.15,674,28,22,37,4c3a6744,Justin Kluivert,142,11,7,13,17,17,10,Amsterdam,Netherlands,FW-MF,Roma,1. Serie A,307
+3,82,109,4.76,1239,26,29,33,4c5b14d2,Joaquín,119,13,12,12,5,10,13,El Puerto de Santa María,Spain,"FW-MF (AM-WM, right)",Betis,1. La Liga,308
+3,82,109,4.76,1239,26,29,33,4c5b14d2,Joaquín,140,15,8,16,16,14,11,El Puerto de Santa María,Spain,"FW-MF (AM-WM, right)",Betis,1. La Liga,309
+0,0,2,0.1,302,0,0,1,4c62d0c8,Mattia Perin,143,5,12,6,5,15,13,Latina,Italy,GK,Genoa,1. Serie A,310
+3,25,45,2.32,852,25,20,47,4c6facae,Djibril Sow,135,14,9,14,13,13,11,Zurich,Switzerland,MF (CM-DM),Eint Frankfurt,1. Bundesliga,311
+1,12,37,1.84,872,7,14,23,4c78b5ed,Lucas Leiva,152,11,14,15,11,13,14,Dourados,Brazil,MF (CM-DM),Lazio,1. Serie A,312
+3,45,51,3.16,780,24,41,11,4d034881,Sergio Agüero,178,14,12,15,18,18,15,Buenos Aires F.D.,Argentina,FW,Manchester City,1. Premier League,313
+1,23,14,0.55,1226,7,11,13,4d1666ff,Jules Koundé,152,13,12,13,11,15,15,Paris,France,"DF (CB, right)",Sevilla,1. La Liga,314
+3,33,54,1.57,1829,14,24,83,4d224fe8,Casemiro,160,12,13,14,12,12,15,São José dos Campos,Brazil,MF (CM-DM),Real Madrid,1. La Liga,315
+0,38,20,1.95,420,24,10,13,4dbd0916,Thomas Lemar,150,15,10,16,16,17,12,Baie-Mahault,Guadeloupe,MF (AM-WM),Atlético Madrid,1. La Liga,316
+1,30,34,3.9,459,10,20,10,4e219ad2,Suso,149,15,11,15,16,16,9,Cadiz,Spain,"FW-MF (AM, right)",Sevilla,1. La Liga,317
+2,52,74,4.9,851,13,29,32,4e219ad2,Suso,149,15,11,15,16,16,9,Cadiz,Spain,"FW-MF (AM, right)",Milan,1. Serie A,318
+1,20,50,1.85,1314,85,31,32,4e9a0555,Chris Wood,134,9,14,12,11,11,13,Auckland,New Zealand,FW,Burnley,1. Premier League,319
+1,9,14,0.52,1858,0,6,26,4f28a6ff,Clément Lenglet,156,13,14,14,11,13,16,Beauvais,France,"DF (CB, left)",Barcelona,1. La Liga,320
+2,9,7,0.42,815,6,5,14,4f2908e5,Federico Peluso,128,9,12,12,10,11,13,Rome,Italy,"DF (CB-FB, left)",Sassuolo,1. Serie A,321
+0,38,46,1.52,1139,9,13,22,4f974391,Aaron Cresswell,131,9,9,12,13,12,13,Liverpool,England,"DF-MF (FB, left)",West Ham,1. Premier League,322
+0,4,3,2.14,124,3,3,2,4fb9c88f,Curtis Jones,131,14,13,15,14,14,12,Liverpool,England,MF,Liverpool,1. Premier League,323
+7,21,58,4.4,849,23,16,21,507c7bdf,Bruno Fernandes,165,16,16,17,14,15,14,Maia,Portugal,MF (AM-CM),Manchester Utd,1. Premier League,324
+13,97,104,3.93,1502,53,49,44,50871bcc,Thorgan Hazard,147,16,6,14,16,16,10,La Louvière,Belgium,FW-MF (AM-WM),Dortmund,1. Bundesliga,325
+1,31,15,1.28,491,44,23,7,50e6dc35,Jean-Philippe Mateta,135,9,8,11,13,12,11,Châteauroux,France,FW,Mainz 05,1. Bundesliga,326
+0,5,12,0.51,662,4,2,16,51a3c4c8,Felipe,152,9,17,12,10,13,15,Mogi das Cruzes,Brazil,DF (CB),Atlético Madrid,1. La Liga,327
+1,16,29,1.73,767,11,16,52,52611641,Lucas Torreira,145,13,11,14,13,15,14,Fray Bentos,Uruguay,MF (DM),Arsenal,1. Premier League,328
+2,31,36,2.17,1123,6,16,2,5271c8f1,Benjamin Mendy,150,12,13,14,14,14,12,Longjumeau,France,"DF (FB, left)",Manchester City,1. Premier League,329
+5,32,27,2.88,509,12,16,14,528492ea,Alfred Duncan,137,13,7,13,12,13,14,Accra,Ghana,MF (CM),Sassuolo,1. Serie A,330
+1,39,20,2.03,434,12,19,14,528492ea,Alfred Duncan,137,13,7,13,12,13,14,Accra,Ghana,MF (CM),Fiorentina,1. Serie A,331
+15,105,205,5.93,2150,49,62,48,5294a83f,Luis Alberto,156,19,13,18,16,14,14,San José del Valle,Spain,FW-MF (AM-CM-WM),Lazio,1. Serie A,332
+0,56,50,1.77,1371,20,15,45,529f49ab,Thomas Partey,151,13,12,13,11,13,14,NULL,NULL,MF (CM-DM),Atlético Madrid,1. La Liga,333
+0,6,28,0.82,1804,7,2,17,52ec54d0,Leonardo Bonucci,167,17,18,17,11,13,15,Viterbo,Italy,DF (CB),Juventus,1. Serie A,334
+2,22,13,3.85,187,8,4,7,53070b63,Paulinho,130,16,5,16,15,15,12,Rio de Janeiro,Brazil,FW-MF,Leverkusen,1. Bundesliga,335
+1,13,17,0.51,1633,4,9,11,532e1e4f,Pau Torres,154,9,11,13,9,11,15,Villarreal,Spain,"DF (CB, left)",Villarreal,1. La Liga,336
+0,1,2,0.34,281,0,1,4,539230cf,Andrea Ranocchia,133,11,15,12,8,10,9,Assisi,Italy,DF (CB),Inter,1. Serie A,337
+10,78,117,4.22,1369,51,45,73,53a0e358,Domenico Berardi,144,14,13,13,14,15,10,Cariati,Italy,"FW-MF (AM, right)",Sassuolo,1. Serie A,338
+0,1,5,0.13,560,0,0,7,53af52f3,Kasper Schmeichel,150,13,17,8,1,14,12,Copenhagen,Denmark,GK,Leicester City,1. Premier League,339
+6,24,80,2.23,2231,24,13,17,53cad200,César Azpilicueta,150,10,16,11,8,13,15,Pamplona,Spain,"DF-MF (CB-FB, right)",Chelsea,1. Premier League,340
+1,23,32,2.51,631,45,27,24,53e07d0b,Ádám Szalai,131,10,8,11,11,11,12,Budapest főváros,Hungary,FW,Mainz 05,1. Bundesliga,341
+5,44,74,4.23,1065,21,26,22,54b4dc4e,Kerem Demirbay,145,16,9,17,13,15,10,Herten,Germany,MF (AM-CM-DM),Leverkusen,1. Bundesliga,342
+0,1,0,0.0,13,0,0,0,54e4866f,Vincenzo Grifo,135,17,7,14,13,15,10,Pforzheim,Germany,"FW-MF (AM-WM, left)",Hoffenheim,1. Bundesliga,343
+8,54,74,4.12,782,27,39,15,54e4866f,Vincenzo Grifo,135,17,7,14,13,15,10,Pforzheim,Germany,"FW-MF (AM-WM, left)",Freiburg,1. Bundesliga,344
+0,25,29,3.91,364,22,28,13,54e53b7e,Gianluca Caprari,131,13,11,14,14,16,9,Rome,Italy,FW-MF,Sampdoria,1. Serie A,345
+0,22,29,4.43,266,14,13,17,54e53b7e,Gianluca Caprari,131,13,11,14,14,16,9,Rome,Italy,FW-MF,Parma,1. Serie A,346
+5,29,94,3.14,1555,31,34,35,55126f3b,Koke,163,15,14,16,13,13,17,Madrid,Spain,MF (AM-CM-DM-WM),Atlético Madrid,1. La Liga,347
+2,54,89,4.31,1130,29,32,42,555d5edd,Nadiem Amiri,135,13,10,13,14,13,9,Kreisfreie Stadt Ludwigshafen am Rhein,Germany,MF (AM-CM),Leverkusen,1. Bundesliga,348
+0,3,7,0.52,484,2,1,9,555f3a0b,Mario Hermoso,149,11,10,12,9,14,15,Madrid,Spain,"DF (CB, left)",Atlético Madrid,1. La Liga,349
+0,15,32,1.61,841,7,9,35,563a68ad,Gary Medel,135,9,14,12,8,14,10,Santiago,Chile,DF-MF (CB-DM),Bologna,1. Serie A,350
+3,22,42,1.78,1451,19,21,46,56413b1f,Charles Aránguiz,150,13,11,15,11,16,14,Puente Alto,Chile,MF (CM-DM),Leverkusen,1. Bundesliga,351
+6,46,95,3.02,1773,32,51,61,56f7a928,Youri Tielemans,154,17,14,17,13,14,12,Sint-Pieters-Leeuw,Belgium,MF (AM-CM-DM),Leicester City,1. Premier League,352
+0,11,3,0.51,297,19,10,12,57be54ec,Asier Villalibre,125,10,12,10,11,11,12,Gernika-Lumo,Spain,FW,Athletic Club,1. La Liga,353
+1,39,10,0.96,463,9,23,9,57df7a11,Arthur Masuaku,129,12,8,12,14,15,11,Lille,France,"DF-MF (FB, left)",West Ham,1. Premier League,354
+6,132,66,2.96,1103,56,64,48,57e3f0c7,Nicolas Pépé,151,10,7,12,17,15,12,Mantes-la-Jolie,France,"FW-MF (AM, right)",Arsenal,1. Premier League,355
+1,5,3,2.81,21,1,1,0,582a5247,Mads Pedersen,119,10,13,13,14,15,13,Hørsholm,Denmark,DF-MF,Augsburg,1. Bundesliga,356
+1,43,37,1.09,722,35,39,67,58afe001,Mauro Arambarri,134,12,8,13,12,12,15,Salto,Uruguay,MF (CM-DM),Getafe,1. La Liga,357
+1,31,36,2.45,683,31,22,17,58eee997,Mason Greenwood,140,10,4,12,14,14,12,Bradford,England,FW-MF (AM),Manchester Utd,1. Premier League,358
+1,37,14,2.02,304,15,13,3,59b7d823,Iñigo Lekue,130,11,8,11,13,12,11,Bilbao,Spain,DF-MF (FB),Athletic Club,1. La Liga,359
+2,12,25,0.85,706,10,30,41,59e4b92e,Rani Khedira,127,10,11,12,9,10,15,Stuttgart,Germany,DF-MF (CM-DM),Augsburg,1. Bundesliga,360
+1,34,56,1.92,1396,107,39,48,59e6e5bf,Dominic Calvert-Lewin,136,10,5,11,11,14,11,Sheffield,England,FW-MF,Everton,1. Premier League,361
+1,110,75,2.31,1572,53,50,68,5a2cb25d,Sofyan Amrabat,133,13,12,13,14,13,13,Gemeente Huizen,Netherlands,MF (CM-DM),Hellas Verona,1. Serie A,362
+0,1,2,0.32,121,0,1,6,5a4280b1,Kevin Long,126,10,9,10,8,11,14,Cork,Republic of Ireland,"DF (CB, right)",Burnley,1. Premier League,363
+4,48,60,2.33,1300,37,33,29,5a626448,Moi Gómez,136,15,8,15,12,13,12,Rojales,Spain,"FW-MF (AM, left)",Villarreal,1. La Liga,364
+0,21,19,0.61,1186,23,16,13,5a7301ae,Leander Dendoncker,140,11,12,14,11,12,15,Passendale,Belgium,"DF-MF (CM-DM, right)",Wolves,1. Premier League,365
+0,14,24,0.79,1410,10,10,28,5aa53281,Gianluca Mancini,148,12,12,14,11,12,14,Pontedera,Italy,"DF (CB, right)",Roma,1. Serie A,366
+3,62,47,2.19,891,57,25,56,5aaef9ef,Juraj Kucka,136,13,14,15,12,12,13,Bojnice,Slovakia,MF (CM-DM),Parma,1. Serie A,367
+2,27,57,2.07,2254,14,19,58,5ab0ea87,Sergio Busquets,165,16,11,17,12,12,18,Sabadell,Spain,MF (CM-DM),Barcelona,1. La Liga,368
+7,41,93,2.86,1353,65,37,50,5bd72174,Francesco Caputo,136,13,15,13,11,12,13,Altamura,Italy,FW,Sassuolo,1. Serie A,369
+5,73,48,1.6,1297,36,31,25,5c2b4f07,Serge Aurier,140,10,10,13,13,13,12,Paris,France,"DF-MF (FB, right)",Tottenham,1. Premier League,370
+0,21,10,2.34,173,7,6,19,5c397195,Lukáš Haraslín,119,11,8,10,14,12,10,Bratislava,Slovakia,FW-MF,Sassuolo,1. Serie A,371
+0,2,2,0.09,336,0,0,2,5c4bf6ba,Robin Zentner,123,7,11,8,3,15,10,Rüdesheim am Rhein,Germany,GK,Mainz 05,1. Bundesliga,372
+0,2,2,4.0,31,2,0,0,5c4dc0ff,Mariano,147,11,11,11,12,11,12,Barcelona,Spain,FW,Real Madrid,1. La Liga,373
+1,29,13,0.44,1388,10,18,30,5c7845f6,Igor Zubeldia,145,13,11,14,12,13,13,Azkoitia,Spain,DF-MF (CB-DM),Real Sociedad,1. La Liga,374
+2,44,98,4.03,1189,67,46,34,5c96b017,Rubén García,138,15,7,15,15,15,12,Valencia,Spain,FW-MF (AM-WM),Osasuna,1. La Liga,375
+0,1,5,2.31,86,1,5,2,5cbd1eb0,Tyrick Mitchell,106,9,4,11,12,10,9,England,United Kingdom,"DF (FB, left)",Crystal Palace,1. Premier League,376
+2,50,28,2.5,611,15,16,36,5cdddffa,Tanguy Ndombele,145,14,10,16,15,14,12,Longjumeau,France,MF (CM-DM),Tottenham,1. Premier League,377
+0,1,2,0.83,150,2,0,3,5ce0b5ba,Asier Illarramendi,150,15,12,16,11,12,16,Mutriku,Spain,MF (CM-DM),Real Sociedad,1. La Liga,378
+1,34,38,1.8,1012,30,19,16,5cec2487,Martín Montoya,130,11,11,13,13,12,11,Viladecans,Spain,"DF (FB, right)",Brighton,1. Premier League,379
+2,41,37,2.57,656,52,22,20,5d4f7d61,Patrik Schick,140,14,6,12,15,14,10,Prague,Czech Republic,FW,RB Leipzig,1. Bundesliga,380
+0,45,44,1.42,1120,22,34,39,5d8e331f,Nicolas Höfler,128,11,10,14,9,13,17,Überlingen,Germany,"MF (CM-DM, left)",Freiburg,1. Bundesliga,381
+0,1,4,0.12,481,0,0,5,5dcf3e90,Unai Simón,139,12,4,15,2,13,13,Vitoria-Gasteiz,Spain,GK,Athletic Club,1. La Liga,382
+4,40,40,2.59,582,12,15,6,5ddb8f9f,Danny da Costa,133,9,7,10,12,13,12,Neuss,Germany,"DF-MF (DM-FB, right)",Eint Frankfurt,1. Bundesliga,383
+5,27,29,1.16,1668,11,29,45,5dfc6ad5,Axel Witsel,159,12,16,14,13,13,17,Liège,Belgium,MF (CM-DM),Dortmund,1. Bundesliga,384
+2,24,39,4.72,423,13,17,21,5e861944,Matteo Politano,149,13,10,14,15,16,12,Rome,Italy,FW-MF (AM),Napoli,1. Serie A,385
+0,13,21,7.3,156,5,10,9,5e861944,Matteo Politano,149,13,10,14,15,16,12,Rome,Italy,FW-MF (AM),Inter,1. Serie A,386
+2,40,102,3.08,1593,72,69,27,5eae500a,Romelu Lukaku,172,10,16,12,14,11,14,Antwerp,Belgium,FW,Inter,1. Serie A,387
+0,5,3,0.47,270,2,2,5,5ed9b537,Ibrahima Konaté,134,10,11,12,13,12,13,Paris,France,"DF (CB, right)",RB Leipzig,1. Bundesliga,388
+0,4,11,0.88,866,2,0,4,5eecec3d,John Stones,156,14,13,15,13,15,13,Barnsley,England,"DF (CB, right)",Manchester City,1. Premier League,389
+0,0,0,0.0,1,0,0,0,5fa57166,Matteo Lovato,91,9,4,10,5,9,8,Monselice,Italy,DF,Hellas Verona,1. Serie A,390
+2,74,68,2.53,1286,73,76,71,601ef102,Stefano Okaka,132,11,8,12,13,10,12,Castiglione del Lago,Italy,FW,Udinese,1. Serie A,391
+2,13,50,3.47,946,19,14,21,603116a7,Marcelo,151,14,13,15,18,13,12,Rio de Janeiro,Brazil,"DF-MF (FB-WM, left)",Real Madrid,1. La Liga,392
+7,85,134,3.82,1939,55,48,63,61220da2,José Campaña,145,15,13,16,12,14,15,Seville,Spain,MF (AM-CM-DM),Levante,1. La Liga,393
+2,25,60,1.94,1636,98,57,60,6265208f,Joselu,130,11,6,12,11,12,12,Stuttgart,Germany,FW,Alavés,1. La Liga,394
+2,11,11,0.84,308,15,10,8,626fab5f,Raphael Framberger,119,8,8,10,11,12,13,Kreisfreie Stadt Augsburg,Germany,"DF (FB, right)",Augsburg,1. Bundesliga,395
+0,11,15,1.63,361,10,10,20,62ab9184,Yannick Gerhardt,133,12,9,13,11,11,10,Würselen,Germany,DF-MF,Wolfsburg,1. Bundesliga,396
+5,66,67,2.66,1037,62,53,61,635f2732,Jean-Paul Boëtius,132,15,5,13,15,15,10,Rotterdam,Netherlands,FW-MF (AM-WM),Mainz 05,1. Bundesliga,397
+0,34,27,1.8,660,23,14,21,63f04c6c,Alfonso Pedraza,134,11,9,12,12,13,13,San Sebastián de los Ballesteros,Spain,"DF-FW-MF (FB-WM, left)",Betis,1. La Liga,398
+0,4,4,1.95,119,3,5,4,6421ec64,Xherdan Shaqiri,149,16,9,15,15,17,12,Komuna e Gjilanit,Kosovo,"FW-MF (AM-WM, right)",Liverpool,1. Premier League,399
+2,31,65,2.35,2266,10,21,42,6434f10d,Rodri,155,14,11,14,10,12,15,Madrid,Spain,MF (CM-DM),Manchester City,1. Premier League,400
+0,1,2,0.06,397,0,0,5,649b01d8,Emil Audero,134,8,14,10,2,14,13,Mataram,Indonesia,GK,Sampdoria,1. Serie A,401
+1,53,22,1.0,887,13,25,29,64cd167d,Davide Biraschi,131,9,9,11,5,13,12,Bergamo,Italy,"DF (CB, right)",Genoa,1. Serie A,402
+2,57,61,2.57,980,35,50,31,64e8ed6d,Borja Mayoral,136,12,8,12,13,12,12,Parla,Spain,FW,Levante,1. La Liga,403
+2,11,31,4.37,570,6,13,11,652d4c37,Corentin Tolisso,152,14,11,15,10,13,12,Tarare,France,DF-MF (CM-DM-FB),Bayern Munich,1. Bundesliga,404
+3,38,56,3.4,879,41,41,23,6639e500,Andreas Pereira,133,13,3,15,14,16,11,Duffel,Belgium,MF,Manchester Utd,1. Premier League,405
+0,5,3,1.16,112,10,4,8,6763373d,Miguel,84,6,5,7,1,10,10,NULL,NULL,FW,Valladolid,1. La Liga,406
+2,17,49,2.64,1341,22,12,26,67cdbc0e,Arturo Vidal,158,12,16,14,12,11,16,Santiago,Chile,MF (CM-DM),Barcelona,1. La Liga,407
+4,62,55,2.46,1192,31,27,50,6928979a,Nicolò Barella,163,14,12,15,14,14,17,Cagliari,Italy,MF (CM-DM),Inter,1. Serie A,408
+2,10,32,1.61,1021,15,20,38,69374ff5,Julian Baumgartlinger,137,9,15,12,9,10,17,Salzburg,Austria,DF-MF (CM-DM),Leverkusen,1. Bundesliga,409
+0,2,9,0.46,415,3,3,19,697295b1,Pedro Bigas,133,10,14,10,9,12,14,Palma,Spain,"DF-MF (CB-FB, left)",Eibar,1. La Liga,410
+1,23,18,0.67,1055,2,11,18,699fb8db,Dominique Heintz,132,12,11,13,7,7,14,Neustadt an der Weinstraße,Germany,"DF (CB, left)",Freiburg,1. Bundesliga,411
+1,84,81,2.48,1513,92,71,53,6a99e0b1,Iñaki Williams,154,12,7,10,13,12,13,Bilbao,Spain,FW-MF (AM),Athletic Club,1. La Liga,412
+0,3,4,1.05,168,8,3,2,6aa3e78b,Ryan Sessegnon,129,14,7,11,10,14,12,Roehampton,England,"DF-FW-MF (FB, left)",Tottenham,1. Premier League,413
+3,12,16,0.59,862,8,7,17,6adbc307,Jack Stephens,132,12,14,13,11,12,13,Torpoint,England,DF (CB),Southampton,1. Premier League,414
+1,30,39,1.31,1302,18,26,33,6b47c5db,Wilfred Ndidi,150,13,10,13,12,12,13,Lagos,Nigeria,DF-MF (CM-DM),Leicester City,1. Premier League,415
+0,8,14,0.79,702,2,6,5,6bd5cd5d,Robin Knoche,132,8,8,11,7,9,17,Braunschweig,Germany,DF (CB),Wolfsburg,1. Bundesliga,416
+0,1,0,0.0,56,0,5,2,6bd603db,Jean-Philippe Gbamin,140,10,11,13,12,12,13,San-Pédro,Côte d'Ivoire,DF-MF (CB-DM),Everton,1. Premier League,417
+0,43,11,0.79,586,32,29,20,6c203af0,Yves Bissouma,127,10,8,13,14,14,12,Bamako Region,Mali,MF (DM),Brighton,1. Premier League,418
+5,106,86,3.42,1081,62,69,53,6c6a3300,Milot Rashica,140,10,7,10,14,16,11,Vushtrri,Kosovo,FW-MF,Werder Bremen,1. Bundesliga,419
+0,3,1,1.32,46,1,2,0,6c7762c3,Juan Foyth,136,13,10,14,13,14,11,La Plata,Argentina,DF,Tottenham,1. Premier League,420
+0,23,13,1.59,436,5,10,22,6c811eb7,Carles Aleñá,133,15,11,16,15,12,13,Mataró,Spain,MF,Betis,1. La Liga,421
+0,3,2,1.05,157,4,0,4,6c811eb7,Carles Aleñá,133,15,11,16,15,12,13,Mataró,Spain,MF,Barcelona,1. La Liga,422
+0,40,44,2.48,698,29,30,7,6ca5ec4b,Alex Iwobi,144,15,8,14,14,15,12,Lagos,Nigeria,FW-MF (AM-WM),Everton,1. Premier League,423
+1,7,6,0.77,403,2,1,6,6cafd68d,Håvard Nordtveit,127,10,13,12,7,9,16,Vats,Norway,DF-MF (CB-DM),Hoffenheim,1. Bundesliga,424
+1,9,10,1.4,240,9,5,12,6cc97b6a,Alberto Grassi,127,13,9,13,10,13,12,Brescia,Italy,MF (CM-DM),Parma,1. Serie A,425
+5,27,105,3.56,2259,15,14,49,6ce1f46f,Toni Kroos,162,18,12,20,14,9,14,Greifswald,Germany,"MF (AM-CM-DM, left)",Real Madrid,1. La Liga,426
+1,5,15,0.59,1001,9,3,12,6d5701f2,Yerry Mina,140,9,15,13,10,13,12,Guachené,Colombia,DF (CB),Everton,1. Premier League,427
+0,27,17,1.55,440,15,6,12,6d8f8441,Coke,136,11,18,13,10,13,16,Madrid,Spain,"DF (FB, right)",Levante,1. La Liga,428
+0,8,12,4.09,161,9,7,6,6e058f06,Giacomo Raspadori,114,10,8,12,13,13,11,Bentivoglio,Italy,FW,Sassuolo,1. Serie A,429
+0,3,1,0.2,117,0,5,4,6eaed4eb,Florian Lejeune,131,12,11,13,10,10,12,Paris,France,"DF-MF (CB, left)",Newcastle Utd,1. Premier League,430
+0,4,4,0.32,637,3,11,16,6ec6fde0,Kevin Akpoguma,131,9,9,12,9,12,12,Neustadt an der Weinstraße,Germany,DF (CB),Hoffenheim,1. Bundesliga,431
+1,120,61,2.17,985,68,48,40,6ecbddf6,Ruben Vargas,129,12,7,12,15,16,9,Adligenswil,Switzerland,"FW-MF (AM, left)",Augsburg,1. Bundesliga,432
+1,17,26,0.84,1448,13,8,41,6eee05f1,Berat Djimsiti,140,9,11,11,7,11,13,Zurich,Switzerland,DF-MF (CB),Atalanta,1. Serie A,433
+2,0,6,0.17,909,0,0,2,6f51e382,Marc-André ter Stegen,170,9,14,17,3,14,12,Mönchengladbach,Germany,GK,Barcelona,1. La Liga,434
+0,8,14,1.76,337,10,4,12,6f5f82c0,Andoni Gorosabel,125,12,9,12,13,13,11,Mondragón,Spain,"DF (FB, right)",Real Sociedad,1. La Liga,435
+2,41,44,1.52,1038,24,28,40,6f7d826d,Douglas Luiz,137,13,12,13,13,14,12,Rio de Janeiro,Brazil,MF (CM-DM),Aston Villa,1. Premier League,436
+0,13,1,0.29,134,6,5,3,70678132,Eduard Löwen,128,12,9,14,10,11,11,Idar-Oberstein,Germany,DF-MF,Hertha BSC,1. Bundesliga,437
+1,19,16,2.15,296,19,23,18,70678132,Eduard Löwen,128,12,9,14,10,11,11,Idar-Oberstein,Germany,DF-MF,Augsburg,1. Bundesliga,438
+8,72,118,3.38,2018,59,42,24,70d74ece,Karim Benzema,174,17,11,18,16,14,12,Lyon,France,FW,Real Madrid,1. La Liga,439
+2,28,45,2.35,871,22,30,47,70dcf94d,Janik Haberer,133,12,8,12,11,13,10,Wangen im Allgäu,Germany,FW-MF (AM),Freiburg,1. Bundesliga,440
+5,10,36,3.33,471,9,7,19,719384c1,Ángel Montoro,126,11,10,13,9,12,14,Valencia,Spain,MF (DM),Granada,1. La Liga,441
+5,52,36,1.89,818,23,19,24,71dc23da,Paolo Ghiglione,126,13,9,13,11,13,13,Voghera,Italy,DF-MF,Genoa,1. Serie A,442
+1,16,44,3.01,555,7,11,18,71ef519e,Matt Ritchie,130,12,15,13,12,11,12,Gosport,England,"DF-MF (DM-FB-WM, right)",Newcastle Utd,1. Premier League,443
+1,16,36,1.58,810,26,11,43,7242b495,Niko Gießelmann,124,12,9,11,11,12,12,Hanover,Germany,"DF-MF (FB, left)",Düsseldorf,1. Bundesliga,444
+0,19,20,2.29,386,14,10,8,72a99e38,Cristian Tello,140,12,9,13,14,14,12,Sabadell,Spain,"FW-MF (AM-WM, left)",Betis,1. La Liga,445
+1,17,16,1.58,588,8,7,6,73000a79,Daley Sinkgraven,129,14,8,14,13,14,11,Gemeente Assen,Netherlands,"DF-MF (AM-FB, left)",Leverkusen,1. Bundesliga,446
+0,3,10,0.32,646,6,2,13,74b2cd7e,Angelo Ogbonna,132,10,11,11,10,12,13,Cassino,Italy,DF (CB),West Ham,1. Premier League,447
+0,35,24,0.83,788,25,44,30,74e12f1e,Jack Cork,136,11,11,12,13,12,14,Carshalton,England,DF-MF (CM-DM),Burnley,1. Premier League,448
+2,37,27,1.26,739,65,24,25,75645f0e,Borja Iglesias,146,12,12,12,13,13,14,Santiago de Compostela,Spain,FW,Betis,1. La Liga,449
+2,88,59,2.11,1560,32,55,44,75a72a99,Ricardo Pereira,150,13,7,12,14,14,12,Lisbon,Portugal,"DF-FW-MF (FB-WM, right)",Leicester City,1. Premier League,450
+0,15,31,1.45,1173,5,6,30,75b86fb3,Alessandro Bastoni,151,12,12,14,11,14,13,Casalmaggiore,Italy,"DF (CB, left)",Inter,1. Serie A,451
+1,65,40,1.55,878,33,27,36,76b2817e,Kingsley Ehizibue,124,9,10,11,12,13,9,Munich,Germany,"DF-MF (FB, right)",Köln,1. Bundesliga,452
+0,0,1,0.33,36,0,0,0,76eca7e2,Wayne Hennessey,124,6,8,12,3,13,12,Bangor,Wales,GK,Crystal Palace,1. Premier League,453
+1,6,4,0.35,311,7,3,8,77cf6852,Emil Krafth,126,14,8,13,10,13,12,Ljungby,Sweden,"DF (FB, right)",Newcastle Utd,1. Premier League,454
+0,49,49,1.77,1450,51,33,65,780e3631,Matteo Pessina,126,14,10,14,13,12,13,Monza,Italy,MF,Hellas Verona,1. Serie A,455
+7,25,98,4.06,1323,17,14,46,78841da9,José Callejón,153,15,11,15,12,15,14,Motril,Spain,"FW-MF (WM, right)",Napoli,1. Serie A,456
+0,0,0,0.0,55,0,1,1,79083382,Juan Jesus,134,11,13,12,11,13,8,Belo Horizonte,Brazil,"DF (CB-FB, left)",Roma,1. Serie A,457
+0,1,0,0.0,7,0,3,0,792ffa71,Tim Lemperle,86,13,3,13,12,11,7,Frankfurt am Main,Germany,FW,Köln,1. Bundesliga,458
+6,94,116,4.13,1582,45,54,43,79300479,Martin Ødegaard,148,16,7,16,16,16,12,Drammen,Norway,FW-MF (AM),Real Sociedad,1. La Liga,459
+0,0,0,0.0,135,0,0,0,7956236f,Emiliano Martínez,140,5,7,13,1,16,14,Mar del Plata,Argentina,GK,Arsenal,1. Premier League,460
+0,0,4,0.11,238,0,0,7,79b0d6a0,Rui Patrício,153,10,16,10,5,14,14,Marrazes,Portugal,GK,Wolves,1. Premier League,461
+4,33,28,2.75,352,17,22,23,79c84d1c,Jarrod Bowen,135,13,5,14,16,15,10,Hereford,England,"FW-MF (AM, right)",West Ham,1. Premier League,462
+0,12,26,3.23,401,14,3,13,79ca3e23,Ondrej Duda,138,17,6,13,14,14,10,Snina,Slovakia,FW-MF (AM),Norwich City,1. Premier League,463
+1,22,17,3.42,209,11,10,11,79ca3e23,Ondrej Duda,138,17,6,13,14,14,10,Snina,Slovakia,FW-MF (AM),Hertha BSC,1. Bundesliga,464
+0,16,16,0.72,1578,10,2,17,7a11550b,Joe Gomez,154,8,10,14,14,15,14,Catford,England,"DF (CB, right)",Liverpool,1. Premier League,465
+1,0,4,0.14,494,1,0,2,7a2e46a8,Alisson,174,13,9,16,11,15,15,Novo Hamburgo,Brazil,GK,Liverpool,1. Premier League,466
+0,11,12,1.5,203,9,9,9,7a538238,Quini,118,9,8,11,11,13,11,Fernán Núñez,Spain,DF-MF (FB-WM),Granada,1. La Liga,467
+0,0,1,0.14,235,0,0,0,7b075c75,Adama Soumaoro,125,7,8,10,6,10,14,Fontenay-aux-Roses,France,DF (CB),Genoa,1. Serie A,468
+0,0,0,0.0,2,0,0,0,7b5f516f,Francesco Rossi,45,7,11,10,5,12,1,Merate,Italy,GK,Atalanta,1. Serie A,469
+0,0,0,0.0,2,0,0,0,7b5f516f,Francesco Rossi,101,9,12,10,3,11,12,Merate,Italy,GK,Atalanta,1. Serie A,470
+0,16,13,3.79,178,13,7,4,7c104bb7,Ademola Lookman,136,10,5,10,15,15,11,Wandsworth,England,FW-MF,RB Leipzig,1. Bundesliga,471
+1,12,6,0.22,1143,8,3,7,7c473e12,Dedryck Boyata,136,9,12,10,9,11,14,Uccle,Belgium,DF (CB-FB),Hertha BSC,1. Bundesliga,472
+13,97,107,5.0,1016,50,37,49,7c56da38,Christopher Nkunku,135,14,6,13,15,15,10,Lagny-sur-Marne,France,FW-MF,RB Leipzig,1. Bundesliga,473
+1,13,12,1.21,429,5,9,11,7d2d3329,Hamza Choudhury,138,12,11,13,11,13,12,Loughborough,England,MF,Leicester City,1. Premier League,474
+0,2,6,0.43,379,3,3,11,7d50454d,Luca Ceppitelli,131,7,10,12,5,10,14,Castiglione del Lago,Italy,DF (CB),Cagliari,1. Serie A,475
+3,97,107,2.95,1959,69,70,76,7dcf86f6,Iago Aspas,155,14,14,14,16,16,12,Moaña,Spain,FW-MF,Celta Vigo,1. La Liga,476
+3,89,105,4.16,1231,39,65,77,7eb97a8e,Nicola Sansone,137,11,11,13,14,15,13,Munich,Germany,FW-MF,Bologna,1. Serie A,477
+0,6,6,1.55,159,2,7,5,7ec7738e,Gastón Pereiro,131,13,11,15,15,15,9,Montevideo,Uruguay,FW-MF (AM),Cagliari,1. Serie A,478
+0,4,11,0.38,808,2,3,10,7ed4921e,William Troost-Ekong,132,7,14,10,5,11,14,Gemeente Haarlem,Netherlands,DF-MF (CB),Udinese,1. Serie A,479
+0,11,14,0.98,959,4,5,8,7edfbb8a,Fikayo Tomori,150,11,12,13,9,12,13,Calgary,Alberta,DF (CB),Chelsea,1. Premier League,480
+0,1,1,0.29,65,2,2,2,7f203b54,Chema,130,9,14,12,8,12,12,Caudete,Spain,"DF (CB, left)",Getafe,1. La Liga,481
+3,12,34,1.47,1257,11,12,24,7f3b388c,Fabinho,160,14,12,15,13,14,15,Campinas,Brazil,DF-MF (CM-DM-FB),Liverpool,1. Premier League,482
+3,34,37,1.37,875,18,17,24,7f4c7c9f,Jorge Miramón,130,13,10,14,13,13,12,Zaragoza,Spain,"DF-MF (FB-WM, right)",Levante,1. La Liga,483
+0,14,23,0.9,1156,13,15,22,7f609bfc,Stefan Posch,132,9,10,12,9,13,12,Judenburg,Austria,DF (CB),Hoffenheim,1. Bundesliga,484
+0,13,11,3.43,159,3,8,9,7fcc71d8,Daniel Podence,130,14,6,13,17,17,9,Oeiras,Portugal,FW-MF (AM-WM),Wolves,1. Premier League,485
+0,0,1,0.1,204,0,0,2,7fe12375,Andreas Luthe,122,7,15,8,1,13,15,Velbert,Germany,GK,Augsburg,1. Bundesliga,486
+1,26,10,1.99,231,4,5,2,7fe90ccd,Davide Zappacosta,141,11,9,13,14,13,13,Sora,Italy,"DF-MF (FB-WM, right)",Roma,1. Serie A,487
+0,1,0,0.0,22,2,0,0,801831fe,Daniel Maldini,87,11,6,13,13,12,10,Milan,Italy,MF,Milan,1. Serie A,488
+1,19,18,1.17,666,9,6,24,808d48f3,Jaume Costa,141,11,6,12,11,14,13,Valencia,Spain,"DF (FB, left)",Valencia,1. La Liga,489
+3,25,90,2.96,1278,27,26,38,80f36c88,Sebastian Rudy,144,13,9,15,10,14,14,Villingen-Schwenningen,Germany,MF (CM-DM),Hoffenheim,1. Bundesliga,490
+0,18,40,3.85,556,23,12,12,810e3c74,Jesse Lingard,141,11,5,13,13,15,12,Warrington,England,FW-MF (AM),Manchester Utd,1. Premier League,491
+4,56,74,2.11,1375,76,57,88,81255c03,João Pedro,125,12,7,12,13,13,12,Ipatinga,Brazil,FW-MF (AM),Cagliari,1. Serie A,492
+4,68,72,3.23,1122,48,79,41,819aa8e7,Ayoze Pérez,141,13,10,13,15,14,12,Santa Cruz de Tenerife,Spain,FW-MF (AM),Leicester City,1. Premier League,493
+5,101,95,3.12,1648,95,47,58,81f0781e,Gerard Moreno,146,12,12,14,13,13,14,Santa Perpètua de Mogoda,Spain,FW,Villarreal,1. La Liga,494
+0,0,0,0.0,27,0,0,0,82328faf,Daniel Fuzato,103,7,9,10,1,13,10,Santa Bárbara d'Oeste,Brazil,GK,Roma,1. Serie A,495
+5,39,48,1.99,1055,22,38,22,82927de4,Pablo Fornals,142,15,11,16,13,15,12,Castellón de la Plana,Spain,FW-MF (AM),West Ham,1. Premier League,496
+0,0,2,0.12,248,0,1,7,82b1198a,David Ospina,140,8,12,8,3,16,15,Medellín,Colombia,GK,Napoli,1. Serie A,497
+1,21,29,2.22,655,36,21,17,834d0be5,Lucas Alario,134,10,8,11,11,13,14,Tostado,Argentina,FW,Leverkusen,1. Bundesliga,498
+2,14,13,0.4,997,7,8,13,8397a50c,Tyrone Mings,135,12,15,14,12,12,12,Bath,England,"DF (CB-FB, left)",Aston Villa,1. Premier League,499
+0,6,11,2.81,120,7,9,5,83d074ff,Alexis Mac Allister,134,16,10,15,14,14,12,Santa Rosa,Argentina,MF,Brighton,1. Premier League,500
+0,2,3,1.02,87,7,4,1,84399660,Juanmi,140,14,9,13,14,15,13,Coín,Spain,FW-MF,Betis,1. La Liga,501
+0,2,3,0.65,307,0,0,3,8494acc4,Stefan Ilsanker,130,9,16,12,8,12,15,Hallein,Austria,DF-MF (CM-DM),RB Leipzig,1. Bundesliga,502
+1,3,9,0.97,416,1,5,8,8494acc4,Stefan Ilsanker,130,9,16,12,8,12,15,Hallein,Austria,DF-MF (CM-DM),Eint Frankfurt,1. Bundesliga,503
+1,16,35,3.18,572,24,18,13,849c826a,Andriy Yarmolenko,138,14,13,13,15,14,14,Leningrad,Russia,"FW-MF (AM-WM, right)",West Ham,1. Premier League,504
+0,0,1,22.5,2,0,1,0,84f55b4a,Germán Valera,75,5,10,8,11,12,7,Murcia,Spain,FW,Atlético Madrid,1. La Liga,505
+3,17,24,2.2,462,17,17,18,854ee61a,Grégoire Defrel,134,11,6,12,14,15,12,Meudon,France,FW,Sassuolo,1. Serie A,506
+8,46,119,3.54,1262,33,35,26,8593f88c,Christian Günter,132,8,9,10,14,11,12,Villingen-Schwenningen,Germany,"DF-MF (FB, left)",Freiburg,1. Bundesliga,507
+0,5,11,2.49,139,1,9,3,861e0116,Kostas Stafylidis,128,12,13,13,9,12,10,Thessaloniki,Greece,"DF-MF (FB-WM, left)",Hoffenheim,1. Bundesliga,508
+2,93,80,2.38,1281,60,54,68,862a1c15,Miguel Almirón,144,15,6,12,15,15,12,Asunción,Paraguay,FW-MF (AM-CM),Newcastle Utd,1. Premier League,509
+1,4,23,1.09,1290,6,5,16,8650af85,Gian Marco Ferrari,134,9,12,11,8,12,14,Province of Parma,Italy,"DF (CB, left)",Sassuolo,1. Serie A,510
+2,32,23,1.83,537,29,13,16,86695068,Dennis Praet,140,14,11,15,15,13,18,Leuven,Belgium,MF (AM-CM-DM),Leicester City,1. Premier League,511
+3,35,58,4.34,952,13,26,27,867239d3,Paul Pogba,169,17,13,18,16,14,9,Lagny-sur-Marne,France,MF (CM-DM),Manchester Utd,1. Premier League,512
+4,32,49,1.84,1769,14,18,23,86dd77d1,Kyle Walker,151,11,12,12,13,14,13,Sheffield,England,"DF (FB, right)",Manchester City,1. Premier League,513
+8,30,121,3.86,1151,22,28,76,86e119e0,Maximilian Arnold,142,13,12,15,10,11,12,Riesa,Germany,"MF (CM-DM, left)",Wolfsburg,1. Bundesliga,514
+0,2,2,0.06,900,1,0,3,8778c910,Manuel Neuer,176,12,13,13,3,15,15,Gelsenkirchen,Germany,GK,Bayern Munich,1. Bundesliga,515
+0,6,1,0.1,388,3,2,2,87935cf3,Mamadou Sakho,143,11,16,14,13,12,11,Paris,France,"DF (CB, left)",Crystal Palace,1. Premier League,516
+1,48,51,2.4,1176,27,28,36,8794e251,Adrien Rabiot,154,16,12,17,14,13,13,Saint-Maurice,France,"MF (CM-WM, left)",Juventus,1. Serie A,517
+4,23,48,2.42,997,13,25,24,88050721,Unai López,134,15,12,15,14,14,12,Bilbao,Spain,MF (CM-DM),Athletic Club,1. La Liga,518
+1,17,22,3.85,326,9,11,13,881ef58c,Javier Pastore,143,17,10,16,15,14,11,Córdoba,Argentina,MF (AM),Roma,1. Serie A,519
+3,29,35,1.67,884,24,22,26,88d4144a,Maximilian Mittelstädt,127,11,8,12,10,14,9,Land Berlin,Germany,DF-MF,Hertha BSC,1. Bundesliga,520
+10,107,98,4.02,1524,55,35,28,88e357ef,Serge Gnabry,165,13,5,13,16,14,12,Stuttgart,Germany,FW-MF (AM-WM),Bayern Munich,1. Bundesliga,521
+9,93,140,6.48,1367,33,39,37,892d5bb1,Riyad Mahrez,153,16,5,16,17,17,13,Sarcelles,France,"FW-MF (AM-WM, right)",Manchester City,1. Premier League,522
+0,14,33,1.11,1058,7,14,36,89976232,Armando Izzo,146,9,13,13,9,14,14,Naples,Italy,"DF (CB, right)",Torino,1. Serie A,523
+1,12,10,0.39,1683,10,6,22,89ac64a6,Manuel Akanji,144,13,10,13,10,12,11,Wiesendangen / Wiesendangen (Dorf),Switzerland,DF-MF (CB),Dortmund,1. Bundesliga,524
+7,48,97,5.17,911,19,13,30,89b2c8a9,Dries Mertens,155,15,13,14,13,17,12,Leuven,Belgium,FW-MF (WM),Napoli,1. Serie A,525
+0,22,16,1.61,428,5,7,17,89d10e53,Danny Rose,143,12,6,13,12,13,13,Doncaster,England,"DF-MF (FB, left)",Tottenham,1. Premier League,526
+0,6,7,0.73,312,2,4,23,89d10e53,Danny Rose,143,12,6,13,12,13,13,Doncaster,England,"DF-MF (FB, left)",Newcastle Utd,1. Premier League,527
+0,19,8,0.3,799,12,20,27,8a7ff278,Joel Ward,127,9,10,12,10,13,13,Emsworth,England,"DF-MF (DM-FB, right)",Crystal Palace,1. Premier League,528
+1,58,50,2.58,862,40,18,48,8aafd64f,João Félix,159,16,7,17,17,15,13,Viseu Municipality,Portugal,FW-MF,Atlético Madrid,1. La Liga,529
+1,7,8,1.21,252,6,5,2,8abd0c03,Marvin Zeegelaar,128,9,5,12,14,15,13,Amsterdam,Netherlands,"DF-FW-MF (WM, left)",Udinese,1. Serie A,530
+4,19,93,4.66,1118,32,24,17,8aec0537,Pascal Groß,136,15,11,15,10,13,14,Mannheim,Germany,MF (AM-CM),Brighton,1. Premier League,531
+0,4,5,3.41,66,0,3,3,8b609c34,Wilfried Singo,132,14,6,11,13,14,13,Ouragahio,Côte d'Ivoire,DF-MF,Torino,1. Serie A,532
+0,0,0,0.0,40,1,1,7,8b625720,Tachi,107,8,6,9,2,13,10,Fuenlabrada,Spain,DF,Alavés,1. La Liga,533
+0,0,3,0.72,69,3,0,6,8b6e0db2,Reece Oxford,122,10,12,13,8,11,11,Edmonton,England,DF,Augsburg,1. Bundesliga,534
+6,104,95,3.26,1399,66,68,47,8b788c01,Anthony Martial,155,10,4,14,16,17,12,Massy,France,FW-MF (AM),Manchester Utd,1. Premier League,535
+0,0,2,0.15,559,1,2,4,8b8a56ce,Simon Kjær,139,9,15,10,7,11,13,Horsens,Denmark,DF (CB),Milan,1. Serie A,536
+0,1,1,0.31,106,0,0,1,8b8a56ce,Simon Kjær,139,9,15,10,7,11,13,Horsens,Denmark,DF (CB),Atalanta,1. Serie A,537
+1,6,23,0.75,959,6,4,17,8b95acda,Omar Colley,132,9,11,10,7,13,13,Banjul,Gambia,"DF (CB, left)",Sampdoria,1. Serie A,538
+0,0,2,2.65,31,0,2,0,8bc8829a,Lucien Agoume,100,11,6,11,11,11,12,Yaoundé,Cameroon,MF,Inter,1. Serie A,539
+0,42,42,2.29,818,11,19,30,8c65eb5f,Mato Jajalo,128,13,13,15,13,10,15,Jajce,Bosnia and Herzegovina,MF (CM-DM),Udinese,1. Serie A,540
+1,3,20,0.64,905,3,5,23,8c725b43,Germán Pezzella,143,11,15,12,7,12,14,Bahía Blanca,Argentina,DF (CB),Fiorentina,1. Serie A,541
+0,3,8,0.26,487,0,0,3,8cabdc1e,Andrea Consigli,134,8,13,6,1,16,12,Milan,Italy,GK,Sassuolo,1. Serie A,542
+0,6,1,0.13,286,4,2,11,8cc29864,Lorenzo Tonelli,129,10,14,10,6,11,13,Florence,Italy,"DF (CB, right)",Sampdoria,1. Serie A,543
+1,35,16,0.57,861,38,22,30,8d3c902d,Cheikhou Kouyaté,132,10,12,12,11,13,13,Dakar,Senegal,DF-MF (CB-CM-DM),Crystal Palace,1. Premier League,544
+1,12,16,0.65,609,13,15,36,8d47bb39,Carlos Neva,121,12,4,11,13,13,13,El Puerto de Santa María,Spain,"DF (FB, left)",Granada,1. La Liga,545
+4,106,102,3.33,1606,84,62,51,8d78e732,Robert Lewandowski,184,13,12,13,13,13,15,Warsaw,Poland,FW,Bayern Munich,1. Bundesliga,546
+0,7,10,4.27,177,0,2,2,8da74c05,Adrien Tameze,130,10,8,13,10,13,15,Lille,France,MF (CM-DM),Atalanta,1. Serie A,547
+0,21,6,0.28,525,19,14,37,8db394aa,Ximo Navarro,124,10,13,11,11,12,13,Guadahortuna,Spain,"DF (CB-FB, right)",Alavés,1. La Liga,548
+1,7,21,0.66,815,6,3,20,8df7a2fb,Ben Mee,132,8,15,10,8,12,14,Sale,England,"DF (CB, left)",Burnley,1. Premier League,549
+0,11,7,1.34,158,2,4,3,8e088e04,Toni Lato,120,13,8,14,13,14,12,Valencia,Spain,DF,Osasuna,1. La Liga,550
+1,6,15,1.63,396,22,12,6,8e235926,Michael Gregoritsch,135,14,7,13,12,10,9,Graz,Austria,FW-MF (AM-WM),Schalke 04,1. Bundesliga,551
+0,4,9,2.67,128,4,1,4,8e235926,Michael Gregoritsch,135,14,7,13,12,10,9,Graz,Austria,FW-MF (AM-WM),Augsburg,1. Bundesliga,552
+0,12,16,1.53,558,10,9,11,8e48dc61,Ander Guevara,128,12,10,13,9,16,13,Vitoria-Gasteiz,Spain,MF,Real Sociedad,1. La Liga,553
+1,42,33,1.97,728,40,42,16,8e92be30,Alexander Isak,150,16,7,13,15,15,11,Solna,Sweden,FW,Real Sociedad,1. La Liga,554
+2,13,15,2.5,231,10,3,6,8eb55dbb,Sheraldo Becker,116,9,6,10,13,12,9,Amsterdam,Netherlands,"FW-MF (WM, right)",Union Berlin,1. Bundesliga,555
+2,28,36,1.88,653,30,45,30,8f056768,Xaver Schlager,136,16,11,14,12,13,10,Vienna,Austria,MF (CM-DM),Wolfsburg,1. Bundesliga,556
+0,0,0,0.0,23,0,0,0,8f29e08b,Juan Pérez,125,11,14,10,2,15,15,Huesca,Spain,GK,Osasuna,1. La Liga,557
+2,38,46,1.5,1329,83,49,70,8f3565b3,Ante Budimir,124,10,5,12,10,11,13,Zenica,Bosnia and Herzegovina,FW,Mallorca,1. La Liga,558
+0,48,31,2.74,687,31,20,25,8f5e92a6,Rodrygo,130,10,10,14,15,16,14,Osasco,Brazil,FW-MF,Real Madrid,1. La Liga,559
+0,1,1,0.05,222,1,0,1,8f62b6ee,Hugo Lloris,157,9,15,8,5,17,14,Nice,France,GK,Tottenham,1. Premier League,560
+1,39,80,3.54,981,36,30,41,8f866fe8,Manolo Gabbiadini,135,13,9,12,13,15,13,Calcinate,Italy,FW,Sampdoria,1. Serie A,561
+2,8,29,2.15,593,42,11,26,8f898ba8,Guido Carrillo,133,11,11,13,10,12,14,Magdalena,Argentina,FW,Leganés,1. La Liga,562
+0,0,5,0.13,303,0,0,0,8f8c6934,David Soria,144,8,11,8,1,12,14,Madrid,Spain,GK,Getafe,1. La Liga,563
+2,11,25,1.3,763,9,9,20,8fef5412,Andrea Conti,139,12,8,13,12,13,13,Lecco,Italy,DF-MF,Milan,1. Serie A,564
+2,13,9,0.38,752,10,9,26,90339309,Jerry St. Juste,126,12,9,13,10,14,11,Groningen,Netherlands,"DF (CB, right)",Mainz 05,1. Bundesliga,565
+4,50,41,3.14,447,29,24,34,9038c2a1,Jason,136,13,9,13,14,13,11,A Coruña,Spain,"FW-MF (WM, right)",Getafe,1. La Liga,566
+2,39,35,2.11,407,9,7,20,9050ddc4,Jetro Willems,130,13,5,13,13,14,9,Rotterdam,Netherlands,"DF-MF (FB, left)",Newcastle Utd,1. Premier League,567
+1,16,27,1.81,697,9,11,16,9085dd7c,Paolo Faragò,128,12,7,14,12,11,14,Catanzaro,Italy,DF-MF,Cagliari,1. Serie A,568
+3,69,96,3.74,826,37,57,79,90f91999,John McGinn,139,15,8,14,13,12,11,Glasgow,Scotland,MF (CM-DM),Aston Villa,1. Premier League,569
+0,0,0,0.0,2,0,1,0,919dd4b1,Raúl Moro,91,11,9,9,13,13,9,Barcelona,Spain,FW,Lazio,1. Serie A,570
+1,6,16,0.58,913,12,8,22,921f6058,José Luis Palomino,143,9,12,12,9,13,15,San Miguel,Argentina,DF (CB),Atalanta,1. Serie A,571
+0,34,24,1.07,770,22,30,44,9228b07c,Tom Davies,131,13,7,13,12,14,14,Liverpool,England,MF,Everton,1. Premier League,572
+1,26,37,4.4,567,16,12,6,92432bc6,Amadou Haidara,134,13,9,13,14,14,11,Bamako,Mali,MF,RB Leipzig,1. Bundesliga,573
+0,14,15,1.46,335,17,9,28,924f9191,Grischa Prömel,119,10,11,12,12,11,14,Stuttgart,Germany,MF (DM),Union Berlin,1. Bundesliga,574
+2,34,25,1.2,563,14,17,26,92948149,Lukas Klünter,127,8,8,9,10,11,12,Euskirchen,Germany,DF-MF,Hertha BSC,1. Bundesliga,575
+2,19,42,3.6,463,21,16,33,92d83c27,Mattias Svanberg,124,13,9,14,12,13,12,New York,New York,MF,Bologna,1. Serie A,576
+1,9,5,0.15,854,8,0,22,93090f69,Domingos Duarte,138,8,13,11,9,12,15,Cascais,Portugal,"DF (CB, right)",Granada,1. La Liga,577
+0,8,3,0.32,293,3,5,2,933d3b51,Koffi Djidji,132,11,10,11,10,12,14,Bagnolet,France,DF (CB),Torino,1. Serie A,578
+5,33,45,1.81,1674,17,11,15,935e6b8f,Jordan Henderson,158,14,18,16,12,13,15,Sunderland,England,"MF (CM-DM-WM, right)",Liverpool,1. Premier League,579
+2,23,42,2.69,665,38,25,29,93b891d1,Felipe Caicedo,141,15,9,15,12,13,13,Esmeraldas,Ecuador,FW-MF (WM),Lazio,1. Serie A,580
+0,11,9,0.3,829,6,8,28,93cf32a8,Nicolas Nkoulou,144,11,13,13,10,13,12,Yaoundé,Cameroon,DF (CB),Torino,1. Serie A,581
+0,0,1,0.05,290,0,0,4,9413b19f,Alex Meret,148,6,10,10,3,18,13,Udine,Italy,GK,Napoli,1. Serie A,582
+0,21,23,4.03,300,14,11,29,94816803,Riccardo Sottil,124,11,8,11,14,14,10,Torino,Italy,FW,Fiorentina,1. Serie A,583
+0,22,36,2.25,1037,7,7,17,94b2001f,Danilo,130,8,15,9,8,10,13,Bicas,Brazil,"DF-MF (FB, right)",Juventus,1. Serie A,584
+0,22,36,2.25,1037,7,7,17,94b2001f,Danilo,151,10,10,13,12,12,13,Bicas,Brazil,"DF-MF (FB, right)",Juventus,1. Serie A,585
+6,47,71,4.09,749,20,21,37,94c18565,Florian Kainz,128,15,8,13,14,15,12,Graz,Austria,FW-MF (AM),Köln,1. Bundesliga,586
+0,0,1,90.0,2,0,0,0,9591723b,Jacopo Da Riva,85,10,10,9,9,9,6,NULL,NULL,MF,Atalanta,1. Serie A,587
+1,24,24,1.32,766,75,39,37,9592289a,Simone Zaza,137,12,13,12,12,14,12,Policoro,Italy,FW,Torino,1. Serie A,588
+3,80,86,2.67,1415,40,56,56,95facda1,Nahitan Nández,136,12,12,12,11,13,14,Maldonado Department,Uruguay,"DF-MF (AM-CM-DM, right)",Cagliari,1. Serie A,589
+3,47,40,2.81,736,59,39,26,962e54cb,Gonçalo Paciência,131,13,8,13,15,14,11,Porto Municipality,Portugal,FW,Eint Frankfurt,1. Bundesliga,590
+4,19,63,3.67,924,15,16,39,963829d0,Manu Trigueros,138,15,10,15,14,16,13,Talavera de la Reina,Spain,MF (CM),Villarreal,1. La Liga,591
+0,0,0,0.0,35,0,0,0,96640846,Samir Ujkani,107,7,10,8,7,13,13,Vushtrri,Kosovo,GK,Torino,1. Serie A,592
+5,77,117,3.67,1699,75,66,56,9674002f,Mason Mount,144,12,10,14,14,13,12,Portsmouth,England,FW-MF (AM-CM),Chelsea,1. Premier League,593
+0,0,1,0.03,371,0,0,6,967f34d3,Rubén Blanco,138,7,8,13,3,15,12,Mos,Spain,GK,Celta Vigo,1. La Liga,594
+1,30,39,1.31,1101,9,16,50,96e0490d,Matteo Darmian,137,7,8,12,9,13,13,Legnano,Italy,"DF-MF (CB-FB, right)",Parma,1. Serie A,595
+0,0,0,0.0,13,0,1,0,970b8574,Federico Dimarco,123,10,10,12,10,12,10,Milan,Italy,DF-MF,Inter,1. Serie A,596
+3,6,18,3.11,340,3,3,7,970b8574,Federico Dimarco,123,10,10,12,10,12,10,Milan,Italy,DF-MF,Hellas Verona,1. Serie A,597
+3,53,50,2.62,732,37,29,22,97333cf5,Stuart Armstrong,135,14,14,15,13,14,10,Inverness,Scotland,MF (AM-CM-WM),Southampton,1. Premier League,598
+0,28,18,0.67,640,18,24,23,97572117,Allan Nyom,133,10,9,11,11,13,10,Neuilly-sur-Seine,France,"DF-MF (FB, right)",Getafe,1. La Liga,599
+0,0,4,0.15,273,0,1,0,97852360,Fernando Pacheco,141,11,11,13,1,14,14,Badajoz,Spain,GK,Alavés,1. La Liga,600
+1,12,16,1.68,391,1,6,12,983ff2c7,Lorenzo Venuti,126,11,10,12,10,14,13,Montevarchi,Italy,"DF-MF (FB, right)",Fiorentina,1. Serie A,601
+0,4,6,2.24,177,0,4,7,984a5a64,Kyle Walker-Peters,133,12,8,12,12,14,11,London,England,"DF (FB, right)",Tottenham,1. Premier League,602
+0,24,7,0.9,303,5,9,23,984a5a64,Kyle Walker-Peters,133,12,8,12,12,14,11,London,England,"DF (FB, right)",Southampton,1. Premier League,603
+2,48,27,1.26,603,19,35,18,989d5705,Jeff Hendrick,130,12,11,14,13,14,14,Dublin,Republic of Ireland,MF (AM-CM),Burnley,1. Premier League,604
+2,37,65,2.5,1439,24,22,39,98d2c2c4,Remo Freuler,146,13,11,14,14,14,13,Ennenda,Switzerland,"MF (CM-DM, left)",Atalanta,1. Serie A,605
+2,98,65,3.89,764,47,55,44,9907b1c8,Nicolò Zaniolo,151,13,11,14,17,13,13,Massa,Italy,FW-MF,Roma,1. Serie A,606
+0,16,22,1.32,493,10,10,7,9939e168,Jon Moncayola,115,12,10,13,6,11,13,Pamplona,Spain,MF,Osasuna,1. La Liga,607
+0,0,0,0.0,24,0,0,0,9970da54,Antonio Sivera,122,10,1,11,1,12,14,Xàtiva,Spain,GK,Alavés,1. La Liga,608
+0,0,5,0.85,318,0,3,2,997fff07,Sebastiano Luperto,131,9,9,11,8,13,13,Lecce,Italy,"DF (CB, left)",Napoli,1. Serie A,609
+1,6,9,2.12,273,5,7,11,99813635,Adam Lallana,149,14,11,15,17,14,14,St Albans,England,FW-MF (AM-WM),Liverpool,1. Premier League,610
+2,18,17,1.61,521,29,12,5,99be8fb5,Anthony Ujah,124,8,10,8,11,13,14,Benue State,Nigeria,FW,Union Berlin,1. Bundesliga,611
+0,4,2,1.87,64,0,2,2,99bebd12,John Guidetti,124,10,11,13,14,11,10,Stockholm,Sweden,FW,Alavés,1. La Liga,612
+4,9,19,0.83,1403,10,11,31,99de6b6f,Benjamin Hübner,136,10,13,12,6,8,15,Wiesbaden,Germany,"DF (CB, left)",Hoffenheim,1. Bundesliga,613
+9,211,99,3.42,1394,82,90,101,9a28eba4,Adama Traoré,150,10,8,11,17,15,8,l'Hospitalet de Llobregat,Spain,"FW-MF (WM, right)",Wolves,1. Premier League,614
+2,31,51,4.02,655,23,20,20,9a2e0ccc,Emil Forsberg,142,15,8,14,16,13,11,Sundsvall,Sweden,"FW-MF (AM-WM, left)",RB Leipzig,1. Bundesliga,615
+0,0,11,0.41,1396,5,2,25,9a64e67e,Robin Le Normand,129,8,12,12,7,12,12,Pabu,France,DF (CB),Real Sociedad,1. La Liga,616
+0,4,23,1.05,986,3,13,30,9ab16552,Makoto Hasebe,135,10,15,14,10,13,17,Fujieda-shi,Japan,DF-MF (CB-DM-WM),Eint Frankfurt,1. Bundesliga,617
+0,33,42,2.18,1016,11,5,14,9c94165b,Luke Shaw,138,7,7,13,13,15,14,Kingston upon Thames,England,"DF-MF (FB-WM, left)",Manchester Utd,1. Premier League,618
+5,41,105,3.83,1388,26,33,49,9d4c45d6,Roberto Soriano,139,15,10,15,14,13,13,Darmstadt,Germany,MF (AM),Bologna,1. Serie A,619
+4,26,43,1.65,1020,52,25,47,9d66fbe3,Roberto Soldado,129,14,15,13,10,13,14,Valencia,Spain,FW,Granada,1. La Liga,620
+4,46,60,2.88,906,60,43,56,9dbb75ca,Alexandre Lacazette,158,14,10,13,14,16,14,Lyon,France,FW,Arsenal,1. Premier League,621
+0,15,20,3.28,311,19,19,12,9deaf2c8,Keinan Davis,108,11,6,11,11,13,10,Birmingham,England,FW,Aston Villa,1. Premier League,622
+6,19,57,3.26,724,15,10,22,9e1577aa,Cristiano Biraghi,139,12,12,13,11,13,12,Cernusco sul Naviglio,Italy,"DF-MF (FB-WM, left)",Inter,1. Serie A,623
+4,91,47,1.38,1570,26,43,24,9e525177,Aaron Wan-Bissaka,144,11,7,10,12,15,14,Croydon,England,"DF (FB, right)",Manchester Utd,1. Premier League,624
+0,1,3,0.09,447,0,0,6,9f0ea33f,Sergio Asenjo,147,7,11,11,3,14,16,Palencia,Spain,GK,Villarreal,1. La Liga,625
+0,0,0,0.0,21,0,0,0,9f5a610b,Wladimiro Falcone,95,10,12,8,1,9,16,Rome,Italy,GK,Sampdoria,1. Serie A,626
+1,16,11,0.35,1366,6,4,13,9f8e9423,Raphaël Varane,165,11,10,14,11,13,15,Lille,France,"DF-MF (CB-DM, right)",Real Madrid,1. La Liga,627
+0,1,4,0.58,308,2,2,11,9f979eb2,Jorge Meré,130,12,13,13,11,13,11,Oviedo,Spain,DF (CB),Köln,1. Bundesliga,628
+1,9,24,0.8,1201,6,8,24,9fbbcf39,Romain Saïss,131,14,10,14,11,13,14,Bourg-de-Péage,France,"DF-MF (CB-CM, left)",Wolves,1. Premier League,629
+1,9,20,1.95,400,12,10,12,9fec8860,Ludwig Augustinsson,133,12,8,13,10,12,14,Stockholm,Sweden,"DF-MF (FB, left)",Werder Bremen,1. Bundesliga,630
+0,0,4,0.11,347,0,1,4,a01c3d54,Aitor Fernández,135,9,9,11,2,14,14,Mondragón,Spain,GK,Levante,1. La Liga,631
+2,19,26,1.4,677,47,21,8,a0415710,Ismail Jakobs,108,10,6,9,11,13,9,Cologne,Germany,DF-MF,Köln,1. Bundesliga,632
+3,168,65,2.13,1480,83,94,64,a08b974a,Lucas Ocampos,143,10,8,12,15,15,12,Quilmes,Argentina,FW-MF (AM-WM),Sevilla,1. La Liga,633
+2,54,43,3.28,986,24,18,45,a0b4bb3e,Isco,160,19,13,17,17,12,14,Benalmádena,Spain,FW-MF (AM),Real Madrid,1. La Liga,634
+0,1,3,0.08,416,3,0,3,a111cf41,Juan Musso,137,12,12,10,1,16,14,San Nicolás de los Arroyos,Argentina,GK,Udinese,1. Serie A,635
+0,1,1,0.6,52,0,2,0,a1232f4e,Eric Bailly,144,7,8,11,9,16,8,Abidjan,Côte d'Ivoire,"DF (CB, right)",Manchester Utd,1. Premier League,636
+7,90,77,3.15,1855,64,48,28,a167537f,Julian Brandt,154,16,6,13,16,14,10,Bremen,Germany,"FW-MF (AM-WM, left)",Dortmund,1. Bundesliga,637
+0,0,0,0.0,110,0,0,0,a179d516,Willy Caballero,140,12,14,12,2,15,13,Santa Elena,Argentina,GK,Chelsea,1. Premier League,638
+7,132,92,3.13,1557,71,48,51,a1d5bd30,Marcus Rashford,153,9,5,12,15,15,12,Wythenshawe,England,FW-MF (AM),Manchester Utd,1. Premier League,639
+1,26,26,3.32,342,12,16,13,a29b1131,Steven Bergwijn,149,13,5,12,15,16,12,Amsterdam,Netherlands,FW-MF,Tottenham,1. Premier League,640
+0,1,0,0.0,34,2,1,0,a2a85828,Aymen Barkok,121,13,8,13,14,14,8,Frankfurt am Main,Germany,MF,Düsseldorf,1. Bundesliga,641
+1,14,32,2.09,558,18,19,29,a2b105e0,Sean Longstaff,129,13,10,15,13,11,11,North Shields,England,MF (CM),Newcastle Utd,1. Premier League,642
+0,4,2,8.57,10,1,1,1,a36084cd,Gianmarco Cangiano,98,11,4,11,15,15,9,NULL,NULL,FW,Bologna,1. Serie A,643
+3,66,49,4.09,803,24,36,59,a39bb753,Eden Hazard,175,16,6,16,20,17,13,La Louvière,Belgium,"FW-MF (AM-WM, left)",Real Madrid,1. La Liga,644
+1,33,33,3.47,415,27,19,18,a3b03921,Joe Willock,133,14,4,14,15,17,12,Waltham Forest,England,MF,Arsenal,1. Premier League,645
+1,18,23,0.8,1218,6,14,23,a3d94a58,Cristian Romero,134,8,11,11,7,12,13,Córdoba,Argentina,DF (CB),Genoa,1. Serie A,646
+0,6,4,1.02,194,11,6,2,a3ddb1b9,Mark Uth,134,9,7,11,13,14,12,Cologne,Germany,FW-MF,Schalke 04,1. Bundesliga,647
+5,30,56,4.34,580,40,28,35,a3ddb1b9,Mark Uth,134,9,7,11,13,14,12,Cologne,Germany,FW-MF,Köln,1. Bundesliga,648
+0,6,10,0.46,733,4,3,24,a40819d9,Marash Kumbulla,128,10,13,10,9,13,13,Desenzano del Garda,Italy,DF (CB),Hellas Verona,1. Serie A,649
+0,3,5,0.27,201,1,0,7,a4995f48,Sergio Herrera,132,12,14,9,1,11,14,Miranda de Ebro,Spain,GK,Osasuna,1. La Liga,650
+1,12,8,0.36,747,4,7,10,a4ac4b8f,Willy Boly,143,11,12,13,12,11,11,Melun,France,DF (CB),Wolves,1. Premier League,651
+1,15,18,1.21,518,4,19,12,a4e85758,Igor,124,12,8,12,12,12,10,Bom Sucesso,Brazil,DF,SPAL,1. Serie A,652
+0,4,4,0.59,266,4,3,5,a4e85758,Igor,124,12,8,12,12,12,10,Bom Sucesso,Brazil,DF,Fiorentina,1. Serie A,653
+1,6,11,1.01,695,1,3,3,a4effc55,Dan-Axel Zagadou,135,12,11,13,9,8,14,Créteil,France,"DF (CB, left)",Dortmund,1. Bundesliga,654
+0,9,2,0.61,173,10,9,10,a4fe8cda,Patrick Cutrone,137,11,10,12,11,14,14,Como,Italy,FW,Wolves,1. Premier League,655
+1,13,18,1.93,417,33,11,13,a4fe8cda,Patrick Cutrone,137,11,10,12,11,14,14,Como,Italy,FW,Fiorentina,1. Serie A,656
+0,16,12,1.71,266,26,18,12,a53649b7,Eddie Nketiah,128,11,4,10,13,14,10,Lewisham,England,FW,Arsenal,1. Premier League,657
+1,96,58,2.48,1074,71,72,34,a53b661f,Ihlas Bebou,133,10,6,11,14,14,11,Sokodé,Togo,FW-MF (AM),Hoffenheim,1. Bundesliga,658
+0,57,32,2.36,501,22,32,14,a55d8df5,Aitor Ruibal,124,9,9,11,14,11,11,Manresa,Spain,FW-MF,Leganés,1. La Liga,659
+2,30,33,2.73,644,27,16,12,a58bb1e1,Gareth Bale,173,13,9,14,16,13,11,Cardiff,Wales,FW-MF (AM-WM),Real Madrid,1. La Liga,660
+0,0,3,3.65,41,1,0,1,a5ce09f2,Kevin Möhwald,127,16,8,15,12,12,10,Kreisfreie Stadt Erfurt,Germany,MF (AM-DM),Werder Bremen,1. Bundesliga,661
+0,6,10,1.12,310,3,2,14,a5ec3ede,Alexander Hack,124,13,7,13,11,12,9,Memmingen,Germany,DF (CB),Mainz 05,1. Bundesliga,662
+8,52,74,3.33,1146,38,30,35,a6154613,Luis Suárez,134,10,11,10,13,13,11,Salto,Uruguay,FW,Barcelona,1. La Liga,663
+8,52,74,3.33,1146,38,30,35,a6154613,Luis Suárez,180,16,15,16,15,14,15,Salto,Uruguay,FW,Barcelona,1. La Liga,664
+0,10,7,2.22,170,4,5,5,a65ce836,Emre Can,153,13,14,14,14,11,14,Frankfurt am Main,Germany,DF-MF (CM-DM),Juventus,1. Serie A,665
+0,25,14,1.32,684,5,16,17,a65ce836,Emre Can,153,13,14,14,14,11,14,Frankfurt am Main,Germany,DF-MF (CM-DM),Dortmund,1. Bundesliga,666
+0,29,17,0.8,859,19,23,31,a6951bf8,Francis Coquelin,148,12,12,14,13,13,17,Laval,France,DF-MF (CM-DM-FB),Valencia,1. La Liga,667
+0,3,5,5.92,38,1,1,0,a69cc629,Kristoffer Askildsen,98,13,12,9,8,10,11,Oslo,Norway,MF,Sampdoria,1. Serie A,668
+1,44,47,4.13,571,31,25,42,a69e4806,Hirving Lozano,149,13,7,14,14,16,11,Mexico City,Distrito Federal,"FW-MF (AM-WM, right)",Napoli,1. Serie A,669
+6,71,138,3.93,2155,40,46,64,a6de370d,Sergio Canales,155,17,10,17,16,16,14,Santander,Spain,FW-MF (AM-CM),Betis,1. La Liga,670
+0,0,0,0.0,205,0,0,3,a6de6361,Tom Heaton,137,11,18,12,3,12,17,Chester,England,GK,Aston Villa,1. Premier League,671
+0,0,0,0.0,187,0,0,1,a70b8345,Frederik Rønnow,128,5,11,11,2,15,13,Horsens,Denmark,GK,Eint Frankfurt,1. Bundesliga,672
+1,5,9,0.29,625,3,5,12,a712ca2b,Issa Diop,132,9,14,10,10,10,12,Toulouse,France,DF (CB),West Ham,1. Premier League,673
+0,8,6,0.51,925,5,2,3,a73c8f95,Edmond Tapsoba,131,13,9,15,11,14,10,Ouagadougou,Burkina Faso,"DF (CB, left)",Leverkusen,1. Bundesliga,674
+4,26,85,4.48,625,12,4,10,a7813ac4,Daniel Brosinski,129,12,13,12,10,13,14,Karlsruhe,Germany,"DF-MF (FB, right)",Mainz 05,1. Bundesliga,675
+1,8,16,1.56,389,17,7,12,a7a9d95a,Paco Alcácer,149,11,13,11,11,15,16,Torrent,Spain,FW,Villarreal,1. La Liga,676
+1,7,14,2.38,231,13,8,3,a7a9d95a,Paco Alcácer,149,11,13,11,11,15,16,Torrent,Spain,FW,Dortmund,1. Bundesliga,677
+2,19,37,2.97,695,14,14,15,a8542814,Héctor Herrera,150,14,16,14,13,13,14,Tijuana,Estado de Baja California,MF (CM-DM),Atlético Madrid,1. La Liga,678
+0,0,0,0.0,1,0,0,0,a8a3d139,Jed Steer,123,12,8,13,2,13,12,Norwich,England,GK,Aston Villa,1. Premier League,679
+5,72,93,3.24,2034,27,37,65,a8a874f1,Manuel Locatelli,137,13,8,16,13,13,13,Lecco,Italy,MF (CM-DM),Sassuolo,1. Serie A,680
+2,29,29,1.84,718,52,33,38,a8d4428b,Josh Sargent,115,10,12,10,9,13,10,O'Fallon,Missouri,FW,Werder Bremen,1. Bundesliga,681
+3,23,29,4.61,283,12,10,11,a8f21b9f,Carles Pérez,131,12,7,11,15,15,8,Granollers,Spain,FW-MF,Roma,1. Serie A,682
+2,22,15,2.84,349,14,11,4,a8f21b9f,Carles Pérez,131,12,7,11,15,15,8,Granollers,Spain,FW-MF,Barcelona,1. La Liga,683
+0,2,0,0.0,219,0,0,0,a92ab7be,Mark Flekken,119,8,11,10,2,15,10,Gemeente Kerkrade,Netherlands,GK,Freiburg,1. Bundesliga,684
+2,28,43,1.77,1204,24,31,18,a96e5dc0,Jeremy Toljan,130,8,5,12,12,13,11,Stuttgart,Germany,"DF-MF (CB-FB, right)",Sassuolo,1. Serie A,685
+0,0,1,0.5,33,0,0,0,a9dc785c,Neto,152,11,12,11,2,16,15,Araxá,Brazil,GK,Barcelona,1. La Liga,686
+0,8,11,0.57,699,3,4,9,aad48be9,Niklas Stark,138,9,14,12,7,12,14,Neustadt an der Aisch,Germany,"DF-MF (CB-DM, right)",Hertha BSC,1. Bundesliga,687
+1,17,10,2.88,158,12,11,5,aad53e64,Kike Barja,118,12,14,12,14,13,11,Noáin,Spain,MF,Osasuna,1. La Liga,688
+3,69,60,1.67,1343,33,23,41,aae9d04a,Davide Faraoni,129,10,11,12,12,12,12,Bracciano,Italy,"DF-MF (CB-DM-FB, right)",Hellas Verona,1. Serie A,689
+1,25,39,2.78,724,44,30,25,ab070c55,Christian Benteke,123,13,9,11,10,13,11,Kinshasa,Congo DR,FW,Crystal Palace,1. Premier League,690
+0,0,3,0.09,425,0,0,5,ab13a5aa,Vicente Guaita,142,13,11,8,2,13,15,Torrent,Spain,GK,Crystal Palace,1. Premier League,691
+4,20,104,3.44,1179,16,16,22,ab1ca213,Miguel Veloso,129,15,13,15,11,12,13,Coimbra Municipality,Portugal,MF (DM),Hellas Verona,1. Serie A,692
+4,146,96,3.13,1430,56,58,37,ab651565,Nathan Redmond,143,12,4,12,15,14,13,Birmingham,England,"FW-MF (AM-WM, left)",Southampton,1. Premier League,693
+0,7,19,3.2,296,8,10,4,ab700320,Arne Maier,130,14,11,14,13,12,12,Ludwigsfelde,Germany,MF,Hertha BSC,1. Bundesliga,694
+1,17,35,1.53,1023,51,33,38,abb3bb95,Luuk de Jong,136,12,14,11,9,13,13,Aigle,Switzerland,FW,Sevilla,1. La Liga,695
+3,107,59,3.0,1134,71,49,41,ac05f970,Michail Antonio,134,10,9,11,14,14,9,Wandsworth,England,FW-MF (WM),West Ham,1. Premier League,696
+0,0,0,0.0,73,0,0,0,ac4003af,Marco Sportiello,129,6,11,7,3,14,13,Desio,Italy,GK,Atalanta,1. Serie A,697
+1,27,37,1.87,1051,23,15,31,ac73ec79,Nordi Mukiele,133,12,9,13,12,13,10,Montreuil,France,"DF-MF (CB-FB, right)",RB Leipzig,1. Bundesliga,698
+1,2,3,0.28,297,2,3,8,ac7e640b,Mattia Caldara,140,7,12,13,7,12,14,Bergamo,Italy,DF (CB),Atalanta,1. Serie A,699
+2,5,10,0.67,723,6,4,6,ac861941,Eric Dier,144,12,13,14,10,10,12,Cheltenham,England,DF-MF (CB-DM),Tottenham,1. Premier League,700
+0,8,25,1.94,529,7,4,7,ad00b1a8,Benno Schmitz,121,10,8,13,9,11,13,Munich,Germany,"DF (FB, right)",Köln,1. Bundesliga,701
+2,15,25,0.85,1222,19,12,46,ad1ffcfd,Vicente Iborra,142,13,14,14,7,10,13,Moncada,Spain,MF (AM-DM),Villarreal,1. La Liga,702
+0,0,1,1.53,17,1,0,1,aded8e6f,Riccardo Calafiori,58,7,11,8,2,14,9,Rome,Italy,DF,Roma,1. Serie A,703
+0,9,12,0.35,2211,9,7,21,adfc9123,Gerard Piqué,169,15,16,16,13,10,15,Barcelona,Spain,"DF (CB, right)",Barcelona,1. La Liga,704
+1,21,25,3.01,454,15,16,18,ae44e8e2,Dani Olmo,152,17,8,15,17,14,14,Terrassa,Spain,FW-MF (AM),RB Leipzig,1. Bundesliga,705
+0,4,1,0.16,173,3,1,6,ae7058f9,Julian Chabot,125,7,11,12,7,11,12,Hanau,Germany,"DF (CB, left)",Sampdoria,1. Serie A,706
+0,17,13,1.35,328,21,19,19,aed746df,Édgar Méndez,124,12,8,12,14,13,10,Arafo,Spain,FW-MF (AM-WM),Alavés,1. La Liga,707
+5,117,67,3.4,1045,52,58,22,aeed5c06,Moussa Diaby,145,13,6,14,16,16,9,Paris,France,FW-MF (AM),Leverkusen,1. Bundesliga,708
+0,0,3,0.12,553,1,0,6,afb0c500,Alexander Nübel,140,9,10,12,1,15,12,Paderborn,Germany,GK,Schalke 04,1. Bundesliga,709
+0,11,12,1.4,452,7,8,9,b0616e3d,Sergio Escudero,140,12,8,13,12,14,12,Valladolid,Spain,"DF-MF (FB, left)",Sevilla,1. La Liga,710
+1,7,15,0.61,866,6,7,24,b0a0698b,Rafael Czichos,125,12,16,13,9,9,13,Jeddah,Saudi Arabia,"DF (CB-FB, left)",Köln,1. Bundesliga,711
+6,120,186,5.18,1776,62,78,180,b0b4fd3e,Jack Grealish,163,16,12,15,17,15,11,Birmingham,England,"FW-MF (AM-WM, left)",Aston Villa,1. Premier League,712
+6,93,107,3.65,1266,53,58,51,b0f7e36c,Federico Chiesa,163,13,12,14,17,16,13,Genoa,Italy,FW-MF (WM),Fiorentina,1. Serie A,713
+1,14,19,1.35,450,11,10,10,b0fce72c,Mikel Vesga,127,12,8,12,8,12,13,Vitoria-Gasteiz,Spain,"MF (CM, left)",Athletic Club,1. La Liga,714
+1,16,34,2.45,647,27,18,31,b1236c63,Ilija Nestorovski,127,10,17,11,11,14,13,Prilep,North Macedonia,FW,Udinese,1. Serie A,715
+0,31,18,4.54,307,12,7,8,b19db005,Ousmane Dembélé,159,13,5,12,18,17,9,Vernon,France,FW-MF (AM),Barcelona,1. La Liga,716
+0,2,5,0.64,412,1,2,6,b217ef29,Joël Matip,154,10,8,14,13,14,15,Bochum,Germany,"DF-MF (CB-DM, right)",Liverpool,1. Premier League,717
+0,4,5,0.68,186,0,5,9,b233e8e4,Jeison Murillo,135,12,12,12,8,13,10,Barranquilla,Colombia,DF (CB),Sampdoria,1. Serie A,718
+0,2,2,0.12,530,5,1,22,b233e8e4,Jeison Murillo,135,12,12,12,8,13,10,Barranquilla,Colombia,DF (CB),Celta Vigo,1. La Liga,719
+1,51,23,1.6,547,28,36,35,b28bbd58,Andros Townsend,134,10,10,10,15,13,12,Leytonstone,England,"FW-MF (AM-WM, right)",Crystal Palace,1. Premier League,720
+3,262,106,2.91,1956,123,172,147,b2bc3b1f,Wilfried Zaha,154,11,10,10,16,16,9,Abidjan,Côte d'Ivoire,FW-MF (AM-WM),Crystal Palace,1. Premier League,721
+0,0,1,15.0,3,0,0,0,b2d03887,Víctor Camarasa,135,13,13,15,13,13,12,Meliana,Spain,MF,Crystal Palace,1. Premier League,722
+1,29,24,1.67,512,23,12,16,b2d03887,Víctor Camarasa,135,13,13,15,13,13,12,Meliana,Spain,MF,Alavés,1. La Liga,723
+0,16,32,3.21,477,17,7,9,b2d0ec1b,Nolito,139,13,14,13,15,14,14,Sanlúcar de Barrameda,Spain,"FW-MF (AM-WM, left)",Sevilla,1. La Liga,724
+1,6,15,4.17,178,4,6,3,b2d0ec1b,Nolito,139,13,14,13,15,14,14,Sanlúcar de Barrameda,Spain,"FW-MF (AM-WM, left)",Celta Vigo,1. La Liga,725
+0,43,34,1.06,1438,25,37,14,b2d31e83,Dan Burn,127,9,14,12,9,8,12,Blyth,England,"DF (CB, left)",Brighton,1. Premier League,726
+0,72,33,1.86,536,24,51,38,b3325a30,Suat Serdar,136,12,12,12,14,10,14,Bingen am Rhein,Germany,MF (CM),Schalke 04,1. Bundesliga,727
+3,47,37,1.32,1232,23,18,29,b3af9be1,Takehiro Tomiyasu,132,11,8,13,12,11,14,Fukuoka,Japan,"DF (FB, right)",Bologna,1. Serie A,728
+1,10,23,1.7,499,13,8,12,b3b7f5a6,Timothy Chandler,127,9,10,10,10,11,14,Frankfurt am Main,Germany,"DF-MF (FB-WM, right)",Eint Frankfurt,1. Bundesliga,729
+1,128,117,3.97,1688,51,71,49,b400bde0,Raheem Sterling,174,13,6,13,17,19,14,Kingston,Jamaica,FW-MF (AM-WM),Manchester City,1. Premier League,730
+1,16,45,1.41,1409,68,29,63,b418dbd4,Raúl García,124,9,13,10,10,12,14,Zizur Mayor/Zizur Nagusia,Spain,FW-MF (AM-DM),Athletic Club,1. La Liga,731
+1,16,45,1.41,1409,68,29,63,b418dbd4,Raúl García,150,13,13,14,11,12,15,Zizur Mayor/Zizur Nagusia,Spain,FW-MF (AM-DM),Athletic Club,1. La Liga,732
+0,9,17,0.49,1501,4,4,13,b4a014b1,Diego Carlos,144,8,9,12,7,12,14,Barra Bonita,Brazil,DF (CB),Sevilla,1. La Liga,733
+1,42,46,1.54,1710,106,78,42,b4cf5806,Sebastian Andersson,129,10,11,10,9,12,16,Ängelholm,Sweden,FW,Union Berlin,1. Bundesliga,734
+2,13,32,2.4,731,26,24,29,b500b384,Admir Mehmedi,133,14,6,13,15,14,10,Gostivar,North Macedonia,FW-MF (AM),Wolfsburg,1. Bundesliga,735
+6,110,87,2.42,1838,97,88,44,b561db50,Raúl Jiménez,147,11,8,12,14,12,14,Tepeji de Ocampo,Estado de Hidalgo,FW,Wolves,1. Premier League,736
+0,16,7,0.54,508,4,3,14,b5bf1770,Lyanco,133,10,10,12,11,13,12,Vitória,Brazil,DF (CB),Torino,1. Serie A,737
+0,40,21,0.95,818,15,23,25,b5dd3469,Nemanja Radoja,137,12,15,14,10,11,16,Novi Sad,Serbia,DF-MF (CM-DM),Levante,1. La Liga,738
+7,73,71,3.15,1090,51,35,35,b66315ae,Gabriel Jesus,156,13,7,14,16,17,14,São Paulo,Brazil,FW-MF,Manchester City,1. Premier League,739
+2,9,24,0.84,1150,5,3,10,b6964eb6,Chris Smalling,150,7,12,11,7,12,11,Greenwich,England,DF (CB),Roma,1. Serie A,740
+2,21,42,5.23,514,12,14,19,b70bde8f,Stefano Sensi,152,15,11,16,14,16,14,Urbino,Italy,MF (CM),Inter,1. Serie A,741
+1,19,12,0.43,1338,16,11,29,b742cc0d,Marc Bartra,148,12,11,13,12,14,15,Sant Jaume dels Domenys,Spain,DF (CB-FB),Betis,1. La Liga,742
+0,18,24,0.77,898,14,12,15,b77f44a4,Marvin Friedrich,123,12,10,12,7,8,12,Kassel,Germany,"DF (CB, right)",Union Berlin,1. Bundesliga,743
+2,5,16,0.54,692,2,3,8,b7c99b9b,Víctor Laguardia,131,10,12,10,8,10,15,Zaragoza,Spain,"DF (CB, right)",Alavés,1. La Liga,744
+1,7,6,0.19,1344,4,1,24,b7ca5c51,Gabriel Paulista,147,10,14,12,10,13,14,Fortaleza,Brazil,DF (CB),Valencia,1. La Liga,745
+2,12,20,2.67,467,6,8,2,b825a650,Kevin Kampl,145,15,10,14,14,16,11,Solingen,Germany,MF (AM-CM-DM),RB Leipzig,1. Bundesliga,746
+3,29,26,2.7,494,9,12,11,b827d5b3,Marc Albrighton,135,14,7,14,13,12,16,Tamworth,England,DF-FW-MF (AM-WM),Leicester City,1. Premier League,747
+0,52,85,3.54,1478,28,40,46,b853e0ad,Fred,130,14,14,13,10,9,11,Belo Horizonte,Brazil,FW-MF (AM-DM),Manchester Utd,1. Premier League,748
+2,99,99,4.36,1106,71,47,58,b8a642fc,Samuel Chukwueze,135,10,10,12,17,14,10,Umuahia,Nigeria,FW-MF,Villarreal,1. La Liga,749
+0,18,14,0.84,424,11,9,28,b8c1de25,Maxime Gonalons,140,12,13,14,10,13,12,Vénissieux,France,MF (CM-DM),Granada,1. La Liga,750
+2,17,27,0.77,1641,8,7,41,b96b595c,Francesco Acerbi,157,13,14,12,7,10,16,Vizzolo Predabissi,Italy,DF (CB),Lazio,1. Serie A,751
+0,46,53,2.75,1045,26,32,14,b9fbae28,N'Golo Kanté,165,14,5,13,11,14,15,Paris,France,MF (CM-DM),Chelsea,1. Premier League,752
+0,6,28,4.26,354,4,3,3,ba3d3bea,Danilo Cataldi,133,12,12,13,11,13,12,Rome,Italy,MF (CM-DM),Lazio,1. Serie A,753
+4,36,75,2.6,807,21,15,50,ba5004e1,Damián Suárez,132,9,12,12,12,14,13,Montevideo,Uruguay,"DF (FB, right)",Getafe,1. La Liga,754
+1,30,32,2.52,585,12,28,13,bb5fbd2b,Solly March,130,13,6,13,14,13,12,Eastbourne,England,DF-FW-MF,Brighton,1. Premier League,755
+1,8,14,0.54,1291,5,4,17,bba30585,Diego Llorente,145,9,11,13,9,11,15,Madrid,Spain,DF (CB),Real Sociedad,1. La Liga,756
+4,84,58,2.95,749,26,35,33,bbafc0c4,Cristian Ansaldi,143,12,9,13,14,14,13,Rosario,Argentina,"DF-MF (FB-WM, left)",Torino,1. Serie A,757
+3,39,44,1.75,750,27,21,26,bbd86530,Christopher Lenz,105,11,9,11,10,11,13,Land Berlin,Germany,"DF-MF (FB, left)",Union Berlin,1. Bundesliga,758
+0,1,5,0.63,411,0,0,2,bc6f5f06,Sergi Gómez,138,14,14,14,10,10,13,Arenys De Mar,Spain,DF (CB),Sevilla,1. La Liga,759
+5,48,45,2.31,835,32,37,35,bc7dc64d,Bukayo Saka,138,13,3,12,16,17,9,London,England,DF-FW-MF,Arsenal,1. Premier League,760
+1,1,4,0.12,700,1,0,1,bcb2ccd8,Péter Gulácsi,144,7,10,10,2,14,17,Budapest főváros,Hungary,GK,RB Leipzig,1. Bundesliga,761
+1,16,12,0.52,1703,1,7,13,bd142efb,Jonathan Tah,147,10,10,13,9,11,12,Hamburg,Germany,"DF (CB, right)",Leverkusen,1. Bundesliga,762
+0,63,44,3.28,970,11,13,12,bd6351cd,João Cancelo,158,14,7,15,17,16,10,Barreiro,Portugal,"DF-MF (CB-FB, right)",Manchester City,1. Premier League,763
+0,7,8,2.41,144,4,4,8,bdc74a8f,Gonzalo Villar,120,15,7,16,13,13,9,Murcia,Spain,MF,Roma,1. Serie A,764
+0,7,5,0.29,536,6,4,13,be170419,Unai Núñez,143,10,11,11,7,13,15,Portugalete,Spain,"DF (CB, right)",Athletic Club,1. La Liga,765
+0,1,2,3.1,41,3,1,2,be42a291,Hannes Wolf,133,14,8,12,14,14,11,Graz,Austria,FW-MF,RB Leipzig,1. Bundesliga,766
+0,17,26,2.45,508,5,3,17,be927d03,Ashley Young,135,8,14,12,12,14,12,Stevenage,England,"DF-FW-MF (FB-WM, left)",Manchester Utd,1. Premier League,767
+4,18,42,3.19,547,10,8,22,be927d03,Ashley Young,135,8,14,12,12,14,12,Stevenage,England,"DF-FW-MF (FB-WM, left)",Inter,1. Serie A,768
+3,44,69,2.18,1418,32,36,41,beb882a8,Maximilian Eggestein,141,13,10,14,10,12,13,Hanover,Germany,"MF (AM-CM-DM, right)",Werder Bremen,1. Bundesliga,769
+4,127,115,3.92,1486,68,74,139,bece776f,Nabil Fekir,153,16,16,16,16,16,13,Lyon,France,FW-MF (AM),Betis,1. La Liga,770
+6,87,48,3.03,881,27,41,17,bee0bab1,Karim Bellarabi,146,12,7,12,16,15,10,Land Berlin,Germany,"FW-MF (AM-WM, right)",Leverkusen,1. Bundesliga,771
+0,48,31,2.4,546,28,32,40,bf075f6b,Roland Sallai,124,15,7,14,13,13,9,Budapest főváros,Hungary,FW-MF,Freiburg,1. Bundesliga,772
+1,10,34,2.02,834,3,4,19,bf309d24,Amadou Diawara,144,12,8,16,12,14,12,Conakry,Guinea,MF (CM-DM),Roma,1. Serie A,773
+1,5,6,6.59,62,4,5,4,bf356094,Ebrima Colley,102,10,10,11,12,13,10,Serrekunda,Gambia,FW,Atalanta,1. Serie A,774
+0,18,29,3.51,408,21,15,36,bf57eaab,Federico Bonazzoli,120,11,9,12,12,13,11,Manerbio,Italy,FW,Sampdoria,1. Serie A,775
+0,14,8,0.47,549,6,14,8,bf8fad51,Kortney Hause,125,9,10,11,9,14,11,London,England,DF (CB),Aston Villa,1. Premier League,776
+2,93,76,2.87,1240,41,46,68,c05dfb74,Iker Muniain,154,14,12,15,16,17,11,Pamplona,Spain,"FW-MF (AM-WM, left)",Athletic Club,1. La Liga,777
+2,41,49,2.61,1134,12,25,39,c0617e2b,Dani Ceballos,142,15,11,16,15,14,12,Utrera,Spain,MF (CM-WM),Arsenal,1. Premier League,778
+3,29,47,1.89,800,20,16,22,c067631c,Ryan Fredericks,130,8,10,12,14,15,12,Potters Bar,England,"DF (FB, right)",West Ham,1. Premier League,779
+2,74,58,1.95,1573,127,82,49,c17bfb65,Joelinton,130,13,9,12,12,11,12,Aliança,Brazil,FW-MF,Newcastle Utd,1. Premier League,780
+6,51,52,2.21,1143,31,24,27,c1b7847c,Konrad Laimer,136,12,10,12,12,12,12,Salzburg,Austria,DF-MF (CM-WM),RB Leipzig,1. Bundesliga,781
+2,18,54,2.0,1089,23,21,40,c2009df3,Jonas Hector,142,11,13,13,11,11,16,Saarbrücken,Germany,"DF-MF (DM-FB, left)",Köln,1. Bundesliga,782
+0,1,0,0.0,90,1,1,1,c2111b45,Jesús Vallejo,128,12,14,12,9,12,12,Zaragoza,Spain,DF (CB),Wolves,1. Premier League,783
+0,1,1,0.14,171,0,1,1,c2111b45,Jesús Vallejo,128,12,14,12,9,12,12,Zaragoza,Spain,DF (CB),Granada,1. La Liga,784
+3,40,52,1.75,1124,28,38,23,c2211709,Ellyes Skhiri,135,12,14,15,14,14,14,Lunel,France,MF (CM-DM),Köln,1. Bundesliga,785
+0,0,5,0.66,340,1,2,4,c235e803,Matteo Gabbia,102,12,10,12,8,11,9,Busto Arsizio,Italy,DF,Milan,1. Serie A,786
+1,11,8,0.78,703,5,9,24,c3ee18ef,Lucas Hernández,151,10,13,12,11,13,15,Marseille,France,"DF (CB-FB, left)",Bayern Munich,1. Bundesliga,787
+1,14,22,0.74,1425,8,14,20,c40b6180,Adam Webster,129,12,12,13,11,10,12,Chichester,England,DF (CB),Brighton,1. Premier League,788
+0,0,1,0.25,74,0,0,1,c41f7379,Philipp Pentke,110,6,14,10,1,12,13,Freiberg,Germany,GK,Hoffenheim,1. Bundesliga,789
+3,47,83,2.73,1581,73,63,42,c4e87b8b,Wout Weghorst,137,10,14,12,9,12,13,Gemeente Borne,Netherlands,FW,Wolfsburg,1. Bundesliga,790
+0,39,21,2.49,450,21,17,14,c50cee19,Andreas Skov Olsen,128,12,7,13,15,13,13,Hillerød,Denmark,"FW-MF (AM, right)",Bologna,1. Serie A,791
+6,21,41,1.41,1333,5,18,24,c56dc39e,Rafael Tolói,144,10,11,12,11,13,14,Glória d'Oeste,Brazil,"DF (CB, right)",Atalanta,1. Serie A,792
+1,48,58,1.8,1390,105,55,47,c596fcb0,Callum Wilson,146,11,9,13,14,13,13,Coventry,England,FW,Bournemouth,1. Premier League,793
+1,5,14,3.35,247,4,1,6,c5adc293,Faouzi Ghoulam,144,12,7,14,13,14,13,Saint-Priest-en-Jarez,France,"DF (FB, left)",Napoli,1. Serie A,794
+0,0,10,0.35,1064,3,3,7,c5b7c315,Michael Keane,137,10,12,12,8,9,12,Stockport,England,DF (CB),Everton,1. Premier League,795
+0,2,2,8.57,13,1,0,0,c6608135,Darko Churlinov,108,13,5,12,14,13,9,Skopje,North Macedonia,MF,Köln,1. Bundesliga,796
+0,6,18,0.62,833,6,2,28,c67cd65c,Rúben Vezo,140,11,12,12,10,14,14,Setúbal,Portugal,DF (CB),Levante,1. La Liga,797
+7,116,109,3.57,1843,85,72,70,c691bfe2,Sadio Mané,179,15,9,14,16,16,16,Sédhiou,Senegal,"FW-MF (AM, left)",Liverpool,1. Premier League,798
+0,2,5,0.21,1220,5,2,16,c707411f,Kostas Manolas,155,9,13,11,8,12,13,Naxos,Greece,"DF (CB, right)",Napoli,1. Serie A,799
+2,30,69,3.03,905,20,19,25,c7259b83,Rolando Mandragora,135,15,15,15,12,13,13,Naples,Italy,MF (CM-DM),Udinese,1. Serie A,800
+3,92,59,2.07,1137,70,52,39,c77a8043,Antonio Puertas,128,12,8,12,13,14,13,Benahadux,Spain,FW-MF (AM),Granada,1. La Liga,801
+0,2,4,1.39,101,4,1,8,c78b352d,Thierry Correia,126,11,10,11,12,14,13,Portugal,Portugal,DF,Valencia,1. La Liga,802
+0,0,2,0.25,120,0,0,1,c89e8aae,Pavao Pervan,124,7,11,10,3,12,13,Livno,Bosnia and Herzegovina,GK,Wolfsburg,1. Bundesliga,803
+0,19,16,0.86,564,6,12,26,c8aa95da,Fabian Schär,134,14,11,14,12,10,11,Wil,Switzerland,DF (CB),Newcastle Utd,1. Premier League,804
+3,26,30,1.81,545,11,18,7,c8c60119,Almamy Touré,130,12,9,13,11,13,11,Bamako Region,Mali,"DF (FB, right)",Eint Frankfurt,1. Bundesliga,805
+3,29,39,3.66,583,43,28,13,c92e1a31,Kelechi Iheanacho,133,11,6,14,12,15,12,Imo State,Nigeria,FW-MF,Leicester City,1. Premier League,806
+6,63,64,2.52,1097,33,46,67,c931d9f9,Daniel James,138,9,4,10,14,13,12,Swansea,Wales,FW-MF (AM),Manchester Utd,1. Premier League,807
+2,45,30,1.21,719,25,31,25,c951a6df,Isaac Hayden,129,10,12,14,11,11,12,Chelmsford,England,DF-MF (CB-CM-DM),Newcastle Utd,1. Premier League,808
+2,42,36,2.19,806,39,30,40,c9e39d91,Brais Méndez,136,15,7,15,14,15,11,Mos,Spain,"FW-MF (AM-CM, right)",Celta Vigo,1. La Liga,809
+2,66,67,2.43,1197,97,64,84,ca618d23,Lucas Höler,127,12,10,10,13,12,12,Achim,Germany,FW-MF,Freiburg,1. Bundesliga,810
+1,23,37,1.26,1436,8,18,16,ca8033cb,Lukas Klostermann,137,9,11,11,8,9,12,Herdecke,Germany,"DF (CB-FB, right)",RB Leipzig,1. Bundesliga,811
+2,59,68,2.89,995,51,30,58,cac2537b,Enis Bardhi,136,14,8,15,15,13,13,Skopje,North Macedonia,MF (CM-WM),Levante,1. La Liga,812
+0,1,2,0.32,194,1,3,3,caffaf5a,Maya Yoshida,127,11,12,10,7,13,11,Nagasaki-shi,Japan,DF (CB),Southampton,1. Premier League,813
+1,3,5,0.38,420,0,1,6,caffaf5a,Maya Yoshida,127,11,12,10,7,13,11,Nagasaki-shi,Japan,DF (CB),Sampdoria,1. Serie A,814
+1,12,28,1.28,951,17,12,27,cb574619,Hugo Mallo,146,10,12,12,11,13,16,Marín,Spain,"DF (FB, right)",Celta Vigo,1. La Liga,815
+0,1,1,0.08,221,0,0,0,cbac6ec9,Florian Müller,126,10,9,12,3,14,11,Saarlouis,Germany,GK,Mainz 05,1. Bundesliga,816
+0,0,0,0.0,8,1,0,0,cbdf7d5c,Darío Poveda,109,6,9,7,15,14,10,San Vicent del Raspeig,Spain,FW,Atlético Madrid,1. La Liga,817
+1,39,21,0.97,657,12,17,35,cc2d7ad5,Charlie Taylor,130,7,8,12,12,13,13,York,England,"DF (FB, left)",Burnley,1. Premier League,818
+1,29,41,2.88,781,14,18,26,cc700722,Allan,159,13,13,15,14,14,15,Rio de Janeiro,Brazil,"DF-MF (CM-DM-FB, right)",Napoli,1. Serie A,819
+5,29,56,3.33,922,17,17,28,cc86b9a3,Leon Goretzka,150,13,14,14,11,11,12,Bochum,Germany,MF (AM-CM-DM),Bayern Munich,1. Bundesliga,820
+1,19,18,0.9,942,12,17,43,cce181df,Geoffrey Kondogbia,146,13,8,15,15,13,10,Nemours,France,MF (CM-DM),Valencia,1. La Liga,821
+0,0,1,0.62,61,1,0,1,cce9f582,Giangiacomo Magnani,122,9,11,9,7,10,13,Correggio,Italy,DF (CB),Sassuolo,1. Serie A,822
+0,1,0,0.0,32,0,1,2,cce9f582,Giangiacomo Magnani,122,9,11,9,7,10,13,Correggio,Italy,DF (CB),Brescia,1. Serie A,823
+13,56,151,4.28,2363,36,22,10,cd1acf9d,Trent Alexander-Arnold,159,16,13,18,13,14,13,Liverpool,England,"DF (FB, right)",Liverpool,1. Premier League,824
+0,12,16,2.05,318,23,23,10,cd82452e,André Hahn,134,10,11,9,12,11,14,Otterndorf,Germany,FW-MF (WM),Augsburg,1. Bundesliga,825
+0,0,3,0.09,579,0,0,2,cda0b317,Joel Robles,131,12,10,13,1,13,10,Getafe,Spain,GK,Betis,1. La Liga,826
+0,0,3,0.14,515,0,0,3,ce17b5eb,Kevin Trapp,144,7,9,9,1,14,13,Merzig,Germany,GK,Eint Frankfurt,1. Bundesliga,827
+2,16,58,2.9,935,17,21,29,ce30bfc8,Roberto Gagliardini,143,11,10,14,11,12,13,Bergamo,Italy,MF (CM-DM),Inter,1. Serie A,828
+0,12,14,0.54,1698,6,5,14,ce4246f5,Kurt Zouma,156,8,13,11,9,11,12,Lyon,France,DF (CB),Chelsea,1. Premier League,829
+0,19,9,0.99,354,22,19,11,ce5143da,Danny Welbeck,138,12,4,11,14,15,12,Manchester,England,FW-MF (WM),Watford,1. Premier League,830
+4,63,54,2.63,1102,45,56,37,cea4ee8f,Dele Alli,156,15,7,15,16,15,11,Milton Keynes,England,FW-MF (AM),Tottenham,1. Premier League,831
+3,49,60,1.75,1347,42,44,44,cee31595,James McArthur,132,13,12,10,11,14,13,Glasgow,Scotland,MF (CM),Crystal Palace,1. Premier League,832
+0,0,0,0.0,43,0,0,3,cf1c23d8,Daniele Padelli,124,11,9,11,3,14,13,Lecco,Italy,GK,Inter,1. Serie A,833
+0,7,9,1.59,213,8,8,5,cf623c78,Erik Durm,128,10,8,12,12,13,12,Pirmasens,Germany,DF-FW-MF (FB),Eint Frankfurt,1. Bundesliga,834
+3,15,15,0.9,613,7,9,19,cfbf9881,Ibrahima Mbaye,127,10,9,10,11,14,11,Guédiawaye,Senegal,"DF-MF (FB, right)",Bologna,1. Serie A,835
+3,12,18,0.79,774,2,4,23,d0042ab9,Mason Holgate,136,11,10,14,9,15,10,Doncaster,England,DF (CB),Everton,1. Premier League,836
+3,50,64,2.85,773,36,34,38,d023d70f,Karol Linetty,139,12,12,14,12,13,13,Żnin,Poland,"MF (CM-DM, left)",Sampdoria,1. Serie A,837
+2,68,33,1.42,1508,24,26,33,d04b94db,Nélson Semedo,149,12,6,12,14,16,12,Lisbon,Portugal,"DF-MF (FB, right)",Barcelona,1. La Liga,838
+1,58,80,2.29,1921,48,37,100,d080ed5e,Mikel Merino,153,16,12,16,14,13,15,Pamplona,Spain,MF (CM-DM),Real Sociedad,1. La Liga,839
+3,13,23,0.73,1317,2,1,13,d0d8dd44,Stefan de Vrij,160,13,12,15,9,12,13,Ouderkerk aan den IJssel,Netherlands,DF (CB-FB),Inter,1. Serie A,840
+0,9,5,0.45,280,3,5,12,d0dbca9f,Alex Ferrari,129,11,10,12,12,12,11,Province of Modena,Italy,"DF (FB, right)",Sampdoria,1. Serie A,841
+0,1,0,0.0,77,0,0,0,d0f72bf1,Max Kilman,120,10,6,13,11,13,11,London,England,DF,Wolves,1. Premier League,842
+2,90,85,3.34,1048,58,63,46,d1273f09,Daniel Caligiuri,144,12,9,11,13,11,13,Villingen-Schwenningen,Germany,"DF-MF (AM, right)",Schalke 04,1. Bundesliga,843
+5,70,69,2.06,1288,22,16,37,d1661819,Bastian Oczipka,132,13,8,14,11,10,12,Bergisch Gladbach,Germany,"DF-MF (FB, left)",Schalke 04,1. Bundesliga,844
+0,44,42,1.67,779,15,16,23,d183e9d6,Nicola Murru,131,9,7,13,13,12,12,Cagliari,Italy,"DF (FB, left)",Sampdoria,1. Serie A,845
+1,12,37,1.79,730,18,13,9,d1b49282,Morten Thorsby,127,14,10,12,11,14,13,Oslo,Norway,"MF (CM, right)",Sampdoria,1. Serie A,846
+0,8,6,0.37,663,0,4,16,d2110326,Mouctar Diakhaby,139,12,11,13,12,12,13,Vendôme,France,DF (CB),Valencia,1. La Liga,847
+6,25,35,2.58,716,63,31,28,d2416c2e,Yussuf Poulsen,143,10,11,9,12,11,14,Copenhagen,Denmark,FW,RB Leipzig,1. Bundesliga,848
+3,46,63,2.39,1634,35,37,32,d2424d1b,Ben Chilwell,146,12,12,12,14,14,13,Milton Keynes,England,"DF-MF (FB, left)",Leicester City,1. Premier League,849
+1,32,29,1.11,1597,11,21,12,d248cd8f,Dayot Upamecano,146,11,9,13,12,12,12,Évreux,France,DF (CB),RB Leipzig,1. Bundesliga,850
+0,0,1,2.0,29,4,0,1,d37b0350,Leonardo Pavoletti,143,11,12,14,10,12,13,Livorno,Italy,FW,Cagliari,1. Serie A,851
+5,108,76,2.3,1348,58,52,44,d38fdf53,Pervis Estupiñán,120,7,9,8,11,12,9,Esmeraldas,Ecuador,"DF (FB, left)",Osasuna,1. La Liga,852
+1,2,9,1.73,183,5,4,3,d3b888e3,Christian Oliva,121,11,13,13,11,12,12,Uruguay,Uruguay,MF,Cagliari,1. Serie A,853
+0,7,11,0.89,367,8,13,27,d3d758d8,Valon Behrami,129,9,16,13,11,13,15,Kosovska Mitrovica,Kosovo,DF-MF (CM),Genoa,1. Serie A,854
+6,59,74,3.29,1244,86,67,53,d3de9af0,Duván Zapata,154,11,10,12,12,11,13,Cali,Colombia,FW,Atalanta,1. Serie A,855
+4,77,82,4.42,984,42,59,18,d4a2533d,Josip Brekalo,131,13,5,12,16,17,9,City of Zagreb,Croatia,FW-MF (AM),Wolfsburg,1. Bundesliga,856
+3,94,92,2.94,1714,29,43,71,d4c9725f,Theo Hernández,155,12,12,13,16,14,12,Marseille,France,"DF (FB, left)",Milan,1. Serie A,857
+3,53,63,2.0,1542,45,23,22,d557d734,Matt Doherty,143,13,12,13,15,11,14,Dublin,Republic of Ireland,"DF-MF (FB-WM, right)",Wolves,1. Premier League,858
+4,23,67,2.92,1001,32,21,36,d56543a0,Ryan Fraser,142,11,10,14,13,13,10,Aberdeen,Scotland,FW-MF (WM),Bournemouth,1. Premier League,859
+3,49,56,1.61,1528,58,39,23,d5dd5f1f,Pierre-Emerick Aubameyang,165,11,12,11,13,15,14,Laval,France,FW-MF (WM),Arsenal,1. Premier League,860
+6,72,72,2.38,1214,68,47,65,d6862409,Florian Niederlechner,132,13,7,11,12,13,12,Ebersberg,Germany,FW,Augsburg,1. Bundesliga,861
+0,9,3,1.05,140,2,2,4,d6a889ea,Kévin Malcuit,141,11,8,13,14,13,12,Châtenay-Malabry,France,"DF-FW-MF (FB-WM, right)",Napoli,1. Serie A,862
+0,1,9,0.33,1257,4,3,22,d6e53a3a,Matthijs de Ligt,164,13,15,14,11,13,13,Leiderdorp,Netherlands,DF (CB),Juventus,1. Serie A,863
+3,78,100,2.99,1513,86,80,120,d705ba44,Andrea Belotti,151,9,14,12,13,13,14,Calcinate,Italy,FW,Torino,1. Serie A,864
+21,274,219,6.84,2616,65,88,89,d70ce98e,Lionel Messi,195,20,14,20,20,19,13,Rosario,Argentina,FW-MF (WM),Barcelona,1. La Liga,865
+1,64,63,3.36,927,64,46,51,d711d04f,Goran Pandev,128,13,14,14,13,10,14,Strumica,North Macedonia,FW,Genoa,1. Serie A,866
+8,53,88,2.91,1202,42,29,39,d733aa38,Roberto Torres,136,15,14,16,11,12,14,Pamplona,Spain,"MF (WM, right)",Osasuna,1. La Liga,867
+1,5,9,0.52,457,7,7,0,d7492450,Martin Kelly,127,13,10,12,8,13,14,Whiston,England,"DF-MF (CB-FB, right)",Crystal Palace,1. Premier League,868
+2,68,60,3.62,951,22,25,57,d7553721,Giovani Lo Celso,157,17,10,17,15,14,13,Rosario,Argentina,MF (CM),Tottenham,1. Premier League,869
+5,145,67,2.7,1449,44,47,42,d781d855,Alphonso Davies,152,11,10,11,13,17,10,Monrovia,Liberia,"DF-FW-MF (FB, left)",Bayern Munich,1. Bundesliga,870
+0,6,2,0.31,302,3,0,2,d79a8c87,Rob Holding,136,12,11,12,10,13,14,Tameside,England,DF (CB),Arsenal,1. Premier League,871
+0,3,5,3.0,84,2,1,3,d7d32194,Mattia Destro,128,13,9,11,12,13,11,Ascoli Piceno,Italy,FW,Genoa,1. Serie A,872
+0,1,2,0.97,74,5,3,2,d7d32194,Mattia Destro,128,13,9,11,12,13,11,Ascoli Piceno,Italy,FW,Bologna,1. Serie A,873
+6,19,39,1.28,1272,21,18,34,d83bbc54,Daniel Wass,144,13,8,14,13,13,12,Gladsaxe Municipality,Denmark,"DF-MF (AM-CM-FB-WM, right)",Valencia,1. La Liga,874
+5,103,68,2.89,1144,42,37,86,d85c238b,Mattia Zaccagni,126,13,13,13,13,12,14,Cesena,Italy,"FW-MF (AM, left)",Hellas Verona,1. Serie A,875
+1,19,46,2.06,946,39,22,28,d87e2cae,Willian José,148,13,9,14,15,12,11,Porto Calvo,Brazil,FW,Real Sociedad,1. La Liga,876
+1,13,31,0.82,1959,7,10,28,d8931174,Harry Maguire,150,12,15,13,13,10,13,Sheffield,England,"DF (CB, left)",Manchester Utd,1. Premier League,877
+0,0,0,0.0,49,0,5,0,d9565625,Diogo Dalot,132,11,10,13,13,12,12,Braga Municipality,Portugal,DF (FB),Manchester Utd,1. Premier League,878
+0,6,4,0.43,288,3,2,16,d9624b51,Federico Ceccherini,128,9,10,11,9,13,14,Livorno,Italy,DF (CB),Fiorentina,1. Serie A,879
+1,35,51,2.48,744,24,25,31,d97f2e8d,Fabio Depaoli,128,12,12,13,12,13,13,Riva del Garda,Italy,DF-MF,Sampdoria,1. Serie A,880
+5,38,75,5.04,826,33,21,38,d995ed27,Giacomo Bonaventura,147,14,14,14,14,13,13,San Severino Marche,Italy,MF (AM-CM),Milan,1. Serie A,881
+2,117,68,1.94,1682,99,108,112,da052c14,Jordan Ayew,131,8,6,9,16,14,10,Marseille,France,FW-MF,Crystal Palace,1. Premier League,882
+1,25,60,1.8,1416,28,20,30,da27e268,Marc Roca,145,15,11,16,10,12,14,Vilafranca del Penedès,Spain,MF (CM-DM),Espanyol,1. La Liga,883
+0,11,6,0.22,1210,6,5,16,da7b447d,Davinson Sánchez,146,10,9,14,11,14,11,Caloto,Colombia,DF (CB),Tottenham,1. Premier League,884
+0,18,21,0.9,1386,5,8,17,da974c7b,Kalidou Koulibaly,167,10,12,13,9,14,9,Saint-Dié-des-Vosges,France,"DF (CB, left)",Napoli,1. Serie A,885
+0,82,68,2.46,1453,19,42,50,db092d3b,Ismaël Bennacer,142,14,10,15,14,15,13,Arles,France,MF (CM-DM),Milan,1. Serie A,886
+0,1,4,0.15,529,0,0,3,db401046,Koen Casteels,140,10,8,10,1,16,14,Bonheiden,Belgium,GK,Wolfsburg,1. Bundesliga,887
+1,17,15,2.42,522,9,11,8,db4ed67b,Mahmoud Dahoud,138,16,8,14,13,17,10,Amude,Syria,MF (CM-DM),Dortmund,1. Bundesliga,888
+2,64,39,2.86,749,40,23,48,db750822,Vitolo,149,13,13,15,15,12,13,Las Palmas,Spain,FW-MF (AM-WM),Atlético Madrid,1. La Liga,889
+16,164,125,4.92,1946,61,51,22,dbf053da,Jadon Sancho,155,17,5,14,18,18,10,London,England,FW-MF (AM),Dortmund,1. Bundesliga,890
+0,4,1,1.23,33,5,2,2,dc008610,Florin Andone,130,10,13,13,13,13,14,Joldești,Romania,FW,Brighton,1. Premier League,891
+2,108,77,3.8,1043,37,57,45,dc1c2fce,Álex Berenguer,138,12,8,13,15,16,11,Pamplona,Spain,FW-MF (WM),Torino,1. Serie A,892
+0,21,33,2.45,1003,17,18,18,dc3fa3b5,Diego Demme,140,10,13,14,12,15,14,Herford,Germany,DF-MF (CM-DM),RB Leipzig,1. Bundesliga,893
+0,4,18,1.8,717,4,10,16,dc3fa3b5,Diego Demme,140,10,13,14,12,15,14,Herford,Germany,DF-MF (CM-DM),Napoli,1. Serie A,894
+1,11,14,4.52,176,12,9,7,dc62b55d,Matheus Cunha,128,13,6,12,15,15,9,João Pessoa,Brazil,FW-MF,RB Leipzig,1. Bundesliga,895
+0,43,28,3.39,303,17,24,34,dc62b55d,Matheus Cunha,128,13,6,12,15,15,9,João Pessoa,Brazil,FW-MF,Hertha BSC,1. Bundesliga,896
+1,18,17,1.39,715,7,11,4,dc6f5bdd,Calum Chambers,139,12,11,13,11,11,13,Petersfield,England,"DF-MF (CB-FB, right)",Arsenal,1. Premier League,897
+5,41,70,4.12,789,29,29,30,dd0daf32,Henrikh Mkhitaryan,147,15,10,14,15,16,9,Yerevan,Armenia,FW-MF (AM),Roma,1. Serie A,898
+0,5,6,4.82,89,3,4,2,dd0daf32,Henrikh Mkhitaryan,147,15,10,14,15,16,9,Yerevan,Armenia,FW-MF (AM),Arsenal,1. Premier League,899
+0,13,4,1.57,168,3,0,2,dd323728,Neco Williams,97,9,3,11,11,9,9,Wales,United Kingdom,DF,Liverpool,1. Premier League,900
+3,45,47,2.67,764,28,32,34,dd669209,Renato Steffen,132,12,9,11,13,17,10,Aarau,Switzerland,FW-MF (AM-WM),Wolfsburg,1. Bundesliga,901
+2,33,25,3.57,319,17,30,15,de39485a,Yannick Carrasco,153,15,9,14,17,14,12,Ixelles-Elsene,Belgium,"DF-FW-MF (AM-WM, left)",Atlético Madrid,1. La Liga,902
+0,20,18,0.88,572,6,14,28,de5b5570,Marvelous Nakamba,127,13,8,12,11,13,13,Hwange,Zimbabwe,MF (AM-CM-DM),Aston Villa,1. Premier League,903
+5,87,143,4.41,1930,69,50,72,dea698d9,Cristiano Ronaldo,195,14,17,15,15,13,16,Funchal,Portugal,FW-MF (WM),Juventus,1. Serie A,904
+0,17,14,1.41,579,7,7,14,dee86451,William Carvalho,150,15,15,15,12,10,18,Luanda,Angola,MF (CM-DM),Betis,1. La Liga,905
+0,0,0,0.0,68,0,0,2,def899bd,Phil Jones,138,5,10,13,8,9,10,Preston,England,"DF-MF (CB, left)",Manchester Utd,1. Premier League,906
+0,6,6,2.78,157,2,6,2,df10e27c,Billy Gilmour,105,16,10,14,9,12,12,Scotland,United Kingdom,MF,Chelsea,1. Premier League,907
+8,150,139,4.27,1588,104,89,43,df3cda47,Dejan Kulusevski,152,17,9,15,16,14,13,Stockholm County,Sweden,FW-MF,Parma,1. Serie A,908
+4,37,59,2.08,1491,38,20,24,df69b544,Antoine Griezmann,171,16,14,15,16,15,12,Mâcon,France,FW-MF (AM-WM),Barcelona,1. La Liga,909
+0,14,27,3.16,465,33,15,19,df85d472,Federico Santander,132,11,9,11,11,11,13,San Lorenzo,Paraguay,FW,Bologna,1. Serie A,910
+6,41,60,1.9,1339,43,36,103,df8b52a5,Emerson,143,12,5,12,14,15,12,São Paulo,Brazil,"DF (FB, right)",Betis,1. La Liga,911
+6,41,60,1.9,1339,43,36,103,df8b52a5,Emerson,134,14,10,12,13,14,10,São Paulo,Brazil,"DF (FB, right)",Betis,1. La Liga,912
+4,69,89,3.55,1061,42,53,63,df8e7b62,Erik Thommy,130,14,7,13,14,16,11,Ulm,Germany,MF (AM-WM),Düsseldorf,1. Bundesliga,913
+1,7,12,0.82,623,2,5,5,e0314d87,Andrea Masiello,138,8,14,11,8,13,15,Viareggio,Italy,DF (CB-FB),Genoa,1. Serie A,914
+0,1,5,0.83,224,0,2,1,e0314d87,Andrea Masiello,138,8,14,11,8,13,15,Viareggio,Italy,DF (CB-FB),Atalanta,1. Serie A,915
+1,5,24,0.63,2568,2,2,28,e06683ca,Virgil van Dijk,180,14,16,16,13,12,17,Breda,Netherlands,"DF (CB, left)",Liverpool,1. Premier League,916
+6,110,149,6.22,1740,50,49,61,e0921a4f,Paulo Dybala,168,17,11,16,17,17,9,Valladolid,Spain,FW-MF (AM-WM),Juventus,1. Serie A,917
+2,38,78,2.73,934,19,24,45,e0b113a7,Robert Andrich,127,10,13,13,10,11,14,Kreisfreie Stadt Potsdam,Germany,MF (CM-DM),Union Berlin,1. Bundesliga,918
+3,21,57,2.65,1038,13,13,27,e12b0b5b,Sebastian Rode,133,10,11,13,13,12,14,Seeheim-Jugenheim,Germany,MF (CM-DM),Eint Frankfurt,1. Bundesliga,919
+6,135,111,3.73,1418,75,64,82,e14ec482,Riccardo Orsolini,142,13,11,13,16,14,13,Ascoli Piceno,Italy,"FW-MF (AM, right)",Bologna,1. Serie A,920
+0,0,1,0.14,71,0,0,2,e1b0a70d,Pietro Terracciano,117,11,11,10,1,10,13,San Felice a Cancello,Italy,GK,Fiorentina,1. Serie A,921
+0,9,16,1.91,607,4,3,17,e1cbb531,Stanislav Lobotka,144,13,9,16,16,17,15,Trenčín,Slovakia,MF (CM-DM),Napoli,1. Serie A,922
+0,15,26,1.69,729,7,20,30,e1cbb531,Stanislav Lobotka,144,13,9,16,16,17,15,Trenčín,Slovakia,MF (CM-DM),Celta Vigo,1. La Liga,923
+1,10,4,0.57,214,9,2,5,e26fcca3,Santiago Ascacíbar,136,9,12,12,10,16,14,La Plata,Argentina,MF (CM-DM),Hertha BSC,1. Bundesliga,924
+10,50,112,5.52,1613,29,19,28,e2716bd0,David Silva,174,19,10,18,18,17,15,La Playa de Arguineguín,Spain,FW-MF (AM-CM-WM),Manchester City,1. Premier League,925
+1,6,14,0.57,852,4,3,10,e27da244,John Brooks,134,12,13,14,10,11,9,Land Berlin,Germany,"DF (CB, left)",Wolfsburg,1. Bundesliga,926
+0,42,21,1.44,532,19,18,25,e27de4fa,Noah Katterbach,115,9,7,11,12,12,12,Simmerath,Germany,DF-MF,Köln,1. Bundesliga,927
+7,39,103,3.71,1505,35,37,45,e280527c,Marcel Sabitzer,148,14,11,12,13,14,12,Graz,Austria,FW-MF (AM-CM),RB Leipzig,1. Bundesliga,928
+1,2,7,0.98,549,3,1,3,e33c06cf,Niklas Süle,155,10,12,12,7,9,17,Frankfurt am Main,Germany,"DF (CB, right)",Bayern Munich,1. Bundesliga,929
+0,6,16,0.65,1037,2,1,9,e33f36d5,Bram Nuytinck,128,11,11,12,10,11,14,Gemeente Heumen,Netherlands,DF (CB),Udinese,1. Serie A,930
+10,99,120,3.76,1815,85,79,24,e342ad68,Mohamed Salah,179,16,10,14,16,16,15,Basyūn,Egypt,"FW-MF (AM-WM, right)",Liverpool,1. Premier League,931
+0,0,0,0.0,16,0,0,0,e358587b,Pepe Reina,138,11,16,11,1,13,11,Madrid,Spain,GK,Milan,1. Serie A,932
+0,0,1,0.08,176,1,0,4,e358587b,Pepe Reina,138,11,16,11,1,13,11,Madrid,Spain,GK,Aston Villa,1. Premier League,933
+0,0,0,0.0,14,0,0,0,e3756e72,Raoul Bellanova,98,7,6,8,11,12,12,Rho,Italy,MF,Atalanta,1. Serie A,934
+2,44,21,1.36,768,13,16,15,e3a5814e,Ainsley Maitland-Niles,142,12,7,14,13,15,11,London,England,DF-FW-MF (WM),Arsenal,1. Premier League,935
+1,1,2,0.43,270,0,0,0,e3cceee6,Merih Demiral,148,8,13,11,6,11,14,NULL,NULL,DF (CB),Juventus,1. Serie A,936
+10,117,81,2.69,2341,53,57,56,e42d61c7,Achraf Hakimi,144,12,8,13,14,13,10,Getafe,Spain,"DF-MF (FB, right)",Dortmund,1. Bundesliga,937
+20,96,222,7.16,2180,43,44,38,e46012d4,Kevin De Bruyne,188,20,12,19,15,13,15,Ghent,Belgium,FW-MF (AM-CM-WM),Manchester City,1. Premier League,938
+0,18,12,2.24,223,27,11,3,e5478b87,Taiwo Awoniyi,120,9,5,10,10,13,11,Ilorin,Nigeria,FW,Mainz 05,1. Bundesliga,939
+2,5,12,1.27,303,18,11,13,e58a03c6,Dwight Gayle,126,11,8,11,12,14,12,Walthamstow,England,FW,Newcastle Utd,1. Premier League,940
+0,0,0,0.0,58,0,1,3,e58cbfd5,Nicolò Rovella,99,10,10,11,8,12,12,Segrate,Italy,MF,Genoa,1. Serie A,941
+0,0,4,0.11,372,1,0,3,e5a76dfe,Dean Henderson,140,4,11,13,2,15,13,Whitehaven,England,GK,Sheffield Utd,1. Premier League,942
+2,68,81,5.38,801,51,31,16,e5bf73f3,Musa Barrow,127,11,8,12,13,14,10,Banjul,Gambia,FW-MF,Bologna,1. Serie A,943
+2,6,12,5.68,148,8,9,7,e5bf73f3,Musa Barrow,127,11,8,12,13,14,10,Banjul,Gambia,FW-MF,Atalanta,1. Serie A,944
+1,13,20,2.34,385,22,16,9,e5f63987,Daniel Ginczek,135,10,10,10,10,11,12,Arnsberg,Germany,FW,Wolfsburg,1. Bundesliga,945
+2,32,42,1.46,1643,10,12,38,e61b8aee,Granit Xhaka,142,17,11,18,12,10,8,Basel,Switzerland,"MF (CM-DM, left)",Arsenal,1. Premier League,946
+2,63,45,3.2,612,32,27,53,e6bc67d7,Gonçalo Guedes,145,12,7,13,15,15,10,Benavente Municipality,Portugal,"FW-MF (WM, left)",Valencia,1. La Liga,947
+0,2,0,0.0,22,0,0,1,e6c15f6e,Gian-Luca Itter,120,12,8,13,11,13,9,Giessen,Germany,DF,Freiburg,1. Bundesliga,948
+1,25,29,1.27,756,17,12,14,e6c43eec,Josuha Guilavogui,138,10,15,12,10,10,13,Ollioules,France,MF (DM),Wolfsburg,1. Bundesliga,949
+0,14,34,1.36,885,24,17,16,e74f0e59,Lorenzo De Silvestri,136,8,14,12,10,11,13,Rome,Italy,"DF-MF (DM-FB, right)",Torino,1. Serie A,950
+3,27,50,1.9,828,29,33,61,e778654a,Yangel Herrera,130,11,13,13,11,13,14,La Guaira,Venezuela,MF (DM),Granada,1. La Liga,951
+0,5,6,0.67,254,1,0,7,e7ab4179,Erick Cabaco,130,7,14,10,7,12,15,Montevideo,Uruguay,"DF (CB, right)",Levante,1. La Liga,952
+0,0,0,0.0,69,2,1,2,e7ab4179,Erick Cabaco,130,7,14,10,7,12,15,Montevideo,Uruguay,"DF (CB, right)",Getafe,1. La Liga,953
+1,1,5,0.28,456,1,3,12,e7ca0439,James Tomkins,134,6,14,10,11,11,11,Basildon,England,"DF-MF (CB-DM, right)",Crystal Palace,1. Premier League,954
+4,90,86,3.68,1205,59,76,74,e7d59f4f,Amine Harit,138,15,5,13,16,17,9,Pontoise,France,FW-MF (AM),Schalke 04,1. Bundesliga,955
+0,37,6,1.47,230,10,6,2,e7fcf289,Florian Wirtz,128,15,12,13,14,14,8,Lövenich,Germany,MF,Leverkusen,1. Bundesliga,956
+0,3,6,3.05,150,2,3,6,e82adcab,Exequiel Palacios,140,16,12,15,13,15,12,Famaillá,Argentina,DF-MF,Leverkusen,1. Bundesliga,957
+0,0,2,0.89,90,2,0,2,e85fb9b8,Giorgio Chiellini,168,8,18,12,5,10,17,Pisa,Italy,"DF (CB-FB, left)",Juventus,1. Serie A,958
+0,3,2,7.2,20,0,1,1,e8832875,João Pedro,125,12,7,12,13,13,12,Ribeirão Preto,Brazil,FW,Watford,1. Premier League,959
+1,18,33,1.68,1186,95,35,32,e897d8ba,Kike,129,10,11,12,12,12,14,Motilla del Palancar,Spain,FW,Eibar,1. La Liga,960
+0,26,44,2.5,801,14,16,22,e8c930bb,Milan Badelj,137,14,14,15,13,12,10,City of Zagreb,Croatia,MF (AM-CM-DM),Fiorentina,1. Serie A,961
+0,5,27,1.03,1009,5,5,18,e94d79e3,Martín Cáceres,136,12,9,11,10,13,10,Montevideo,Uruguay,DF (CB-FB),Fiorentina,1. Serie A,962
+1,2,2,0.87,147,2,3,3,e97fd090,Ruben Loftus-Cheek,150,15,12,14,15,11,11,Lewisham,England,MF,Chelsea,1. Premier League,963
+0,10,2,0.34,171,5,8,5,e9971f2d,Japhet Tanganga,122,10,9,10,8,13,12,England,United Kingdom,DF,Tottenham,1. Premier League,964
+0,0,1,1.0,19,0,1,0,e9ada8cf,Javi López,79,10,9,9,14,13,8,Santa Cruz de Tenerife,Spain,DF,Alavés,1. La Liga,965
+0,0,1,1.0,19,0,1,0,e9ada8cf,Javi López,105,12,9,12,14,13,12,Santa Cruz de Tenerife,Spain,DF,Alavés,1. La Liga,966
+0,0,0,0.0,4,0,0,0,ea003d07,Joel Pohjanpalo,123,8,6,9,10,10,16,Helsinki,Finland,FW,Leverkusen,1. Bundesliga,967
+2,20,29,2.04,533,14,19,18,ea06dd97,Daniele Baselli,140,15,10,15,13,14,13,Manerbio,Italy,MF (CM),Torino,1. Serie A,968
+0,8,31,1.03,1238,7,13,20,ea6bc03a,Robin Koch,136,10,9,12,7,10,14,Kreisfreie Stadt Kaiserslautern,Germany,DF-MF (CB),Freiburg,1. Bundesliga,969
+0,1,6,0.17,493,0,0,3,ea83bfa6,Rui Silva,127,9,5,8,3,12,13,Maia,Portugal,GK,Granada,1. La Liga,970
+0,8,19,2.19,293,11,5,18,ead61f73,Juan Miranda,125,11,8,13,12,12,11,Olivares,Spain,"DF (FB, left)",Schalke 04,1. Bundesliga,971
+2,5,13,0.47,948,7,5,18,eaeca114,Nathan Aké,147,13,14,13,12,14,12,The Hague,Netherlands,"DF-MF (CB, left)",Bournemouth,1. Premier League,972
+1,62,74,5.29,858,39,57,38,eb2fe5b6,Luis Muriel,146,13,12,12,16,16,12,Santo Tomás,Colombia,FW,Atalanta,1. Serie A,973
+0,44,27,1.49,546,29,26,15,eb3dd471,Luis Rioja,124,12,12,11,14,14,11,Las Cabezas de San Juan,Spain,"MF (WM, left)",Alavés,1. La Liga,974
+0,78,46,1.41,1635,36,41,42,eb58eef0,Georginio Wijnaldum,158,12,13,15,15,15,16,Rotterdam,Netherlands,MF (AM-CM-DM),Liverpool,1. Premier League,975
+3,65,59,2.83,1023,36,50,56,ecd8c01e,Rubén Rochina,136,17,8,15,15,14,12,Sagunto,Spain,FW-MF,Levante,1. La Liga,976
+2,31,45,4.5,591,10,23,21,ed1e53f3,Phil Foden,152,16,8,16,15,17,14,Stockport,England,FW-MF,Manchester City,1. Premier League,977
+0,26,29,1.43,857,22,28,17,ed5c5fa3,Fran Beltrán,133,14,9,15,13,13,12,Madrid,Spain,MF (DM),Celta Vigo,1. La Liga,978
+5,87,84,3.55,815,51,36,46,ed6ea4d9,Darwin Machís,130,11,8,10,14,14,10,Tucupita,Venezuela,"FW-MF (AM, left)",Granada,1. La Liga,979
+2,30,31,1.16,927,25,32,47,ed9f7cfe,Renan Lodi,144,13,11,16,16,15,13,Serrania,Brazil,"DF (FB, left)",Atlético Madrid,1. La Liga,980
+3,31,102,3.36,1449,17,19,31,eda40760,Aleksandar Kolarov,150,13,15,14,13,12,14,Belgrade,Serbia,"DF (FB, left)",Roma,1. Serie A,981
+0,10,25,3.29,334,12,11,10,ee251371,Alexis Saelemaekers,118,12,7,14,14,12,12,Sint-Agatha-Berchem,Belgium,"FW-MF (AM, right)",Milan,1. Serie A,982
+3,83,168,5.76,1651,46,47,98,ee38d9c5,James Maddison,151,16,8,16,16,15,12,Coventry,England,MF (AM),Leicester City,1. Premier League,983
+3,29,77,3.05,1014,58,26,36,ee4f2f3b,Fabio Quagliarella,144,13,20,14,13,10,15,Castellammare di Stabia,Italy,FW,Sampdoria,1. Serie A,984
+0,1,2,0.05,322,1,0,8,ee8508c0,Jan Oblak,175,8,11,16,2,13,16,Škofja Loka,Slovenia,GK,Atlético Madrid,1. La Liga,985
+1,43,62,3.55,846,33,36,30,ee93c1a9,Federico Bernardeschi,156,13,11,15,15,15,11,Carrara,Italy,FW-MF (AM),Juventus,1. Serie A,986
+3,23,59,2.6,939,28,20,23,ef322658,Andrés Guardado,142,15,15,16,12,15,12,Guadalajara,Estado de Jalisco,"DF-FW-MF (CM-DM-FB-WM, left)",Betis,1. La Liga,987
+1,23,44,3.77,850,27,17,20,ef619b0b,Aaron Ramsey,70,10,8,11,10,8,7,Caerphilly,Wales,MF (AM-DM),Juventus,1. Serie A,988
+1,23,44,3.77,850,27,17,20,ef619b0b,Aaron Ramsey,154,17,12,15,15,16,14,Caerphilly,Wales,MF (AM-DM),Juventus,1. Serie A,989
+0,7,19,1.32,610,28,17,31,ef94dc2f,Samuel Di Carmine,123,10,12,11,12,13,15,Florence,Italy,FW,Hellas Verona,1. Serie A,990
+0,0,0,0.0,75,0,0,0,f058ed1f,Gianluca Pegolo,123,8,12,7,3,12,13,Bassano del Grappa,Italy,GK,Sassuolo,1. Serie A,991
+2,16,20,3.53,452,9,4,20,f090a37a,Riqui Puig,135,17,10,16,15,16,13,Matadepera,Spain,MF,Barcelona,1. La Liga,992
+0,0,3,0.09,416,0,0,10,f0f7f62f,Pierluigi Gollini,142,8,13,9,3,14,13,Bologna,Italy,GK,Atalanta,1. Serie A,993
+0,0,0,0.0,8,1,0,0,f1bed920,Kévin Rodrigues,129,12,11,13,14,16,14,Bayonne,France,"DF-MF (AM, left)",Real Sociedad,1. La Liga,994
+2,52,52,2.42,716,37,39,37,f1bed920,Kévin Rodrigues,129,12,11,13,14,16,14,Bayonne,France,"DF-MF (AM, left)",Leganés,1. La Liga,995
+3,47,48,1.6,1073,23,34,59,f1cfc209,Tomás Rincón,140,11,13,13,12,15,15,San Cristóbal,Venezuela,MF (CM-DM),Torino,1. Serie A,996
+0,11,7,0.23,965,4,5,16,f1f1f238,Koray Günter,126,9,12,11,8,11,13,Höxter,Germany,DF (CB),Hellas Verona,1. Serie A,997
+2,14,10,0.34,865,6,11,19,f25b010f,Federico Fernández,128,10,10,11,8,9,12,Tres Algarrobos,Argentina,DF (CB),Newcastle Utd,1. Premier League,998
+3,26,32,3.53,668,8,10,14,f25c8e3a,Naby Keïta,155,15,9,14,17,17,14,Conakry,Guinea,MF (AM-CM),Liverpool,1. Premier League,999
+6,82,58,3.02,809,76,51,57,f26834c7,Karim Onisiwo,127,12,6,10,13,12,11,Vienna,Austria,FW-MF,Mainz 05,1. Bundesliga,1000
+2,27,25,2.03,657,44,29,23,f2bf1b0f,Che Adams,128,11,4,12,14,14,10,Leicester,England,FW-MF,Southampton,1. Premier League,1001
+1,5,11,1.12,244,2,3,7,f2dd9a21,Carlos Gruezo,130,13,11,15,11,14,11,Santo Domingo de los Colorados,Ecuador,MF (CM-DM),Augsburg,1. Bundesliga,1002
+2,19,47,2.96,928,20,22,17,f4290206,Marcos Alonso,144,13,9,14,12,10,12,Madrid,Spain,"DF-MF (DM-FB-WM, left)",Chelsea,1. Premier League,1003
+0,0,1,2.81,5,0,1,1,f4e433d4,Tariq Lamptey,138,10,8,10,14,16,12,England,United Kingdom,DF-MF,Chelsea,1. Premier League,1004
+1,30,10,1.53,196,11,13,20,f4e433d4,Tariq Lamptey,138,10,8,10,14,16,12,England,United Kingdom,DF-MF,Brighton,1. Premier League,1005
+2,33,57,2.15,942,12,29,61,f503ea63,Albin Ekdal,136,11,12,15,12,10,16,Stockholm,Sweden,MF (AM-CM-DM),Sampdoria,1. Serie A,1006
+0,0,1,0.06,145,0,0,1,f554e29b,Alessio Cragno,142,5,10,10,5,15,15,Fiesole,Italy,GK,Cagliari,1. Serie A,1007
+3,36,50,2.03,1076,71,47,30,f586779e,Tammy Abraham,150,10,12,12,13,13,12,Camberwell,England,FW,Chelsea,1. Premier League,1008
+6,29,112,3.24,1512,15,20,33,f5a00fa4,João Moutinho,153,17,14,17,15,14,15,Portimão Municipality,Portugal,MF (CM-DM),Wolves,1. Premier League,1009
+0,8,17,0.49,1571,7,4,9,f5deef4c,Victor Lindelöf,150,12,10,14,12,15,14,Västerås,Sweden,DF (CB),Manchester Utd,1. Premier League,1010
+3,95,83,5.3,969,40,57,45,f61c7c4e,Franck Ribéry,150,16,16,15,19,14,13,Boulogne-sur-Mer,France,"FW-MF (AM-WM, left)",Fiorentina,1. Serie A,1011
+1,0,2,0.36,73,0,0,1,f6798fc3,Yassine Bounou,136,8,9,7,2,13,15,Montreal,Québec,GK,Sevilla,1. La Liga,1012
+0,7,5,0.23,526,6,6,29,f6bdc830,Keven Schlotterbeck,114,12,9,13,8,8,10,Weinstadt,Germany,DF (CB),Union Berlin,1. Bundesliga,1013
+3,83,94,3.45,1217,86,60,88,f7036e1c,Lautaro Martínez,161,12,11,12,14,16,11,Bahía Blanca,Argentina,FW,Inter,1. Serie A,1014
+0,9,21,1.13,994,2,4,10,f7223718,Patric,131,12,10,11,10,12,10,Mula,Spain,"DF (CB-FB, right)",Lazio,1. Serie A,1015
+1,8,23,3.33,216,4,7,4,f72293fc,Jóhann Berg Guðmundsson,132,14,5,13,13,13,11,Reykjavik,Iceland,"FW-MF (AM-WM, right)",Burnley,1. Premier League,1016
+0,0,2,0.21,155,0,0,2,f76e6b4e,Adrián,140,10,13,10,1,15,14,Seville,Spain,GK,Liverpool,1. Premier League,1017
+0,0,2,0.21,155,0,0,2,f76e6b4e,Adrián,130,13,7,12,15,14,11,Seville,Spain,GK,Liverpool,1. Premier League,1018
+5,8,36,2.32,471,12,11,17,f7aa75bd,Marvin Plattenhardt,134,12,11,12,11,12,12,Filderstadt,Germany,"DF (FB, left)",Hertha BSC,1. Bundesliga,1019
+1,5,10,0.6,722,2,6,12,f7dc2ae5,Aritz Elustondo,140,13,15,13,10,12,14,San Sebastian,Spain,"DF (CB-FB, right)",Real Sociedad,1. La Liga,1020
+0,0,2,0.49,127,0,1,3,f7e2af2c,Andrea Carboni,69,8,2,9,8,9,9,Sorgono,Italy,DF,Cagliari,1. Serie A,1021
+0,8,3,1.08,169,9,9,5,f833a830,Takumi Minamino,143,14,8,14,16,16,13,Izumisano-shi,Japan,FW-MF,Liverpool,1. Premier League,1022
+1,16,11,0.68,672,8,8,9,f86cabbd,Jordan Torunarigha,126,12,9,13,10,12,9,Kreisfreie Stadt Chemnitz,Germany,"DF (CB, left)",Hertha BSC,1. Bundesliga,1023
+0,35,14,1.09,548,11,16,4,f874dd44,Héctor Bellerín,148,10,11,11,13,15,13,Barcelona,Spain,"DF-MF (FB, right)",Arsenal,1. Premier League,1024
+0,0,0,0.0,0,0,0,0,f8d41a8c,Martin Palumbo,51,6,5,7,10,9,4,Bergen,Norway,MF,Udinese,1. Serie A,1025
+2,42,56,2.15,1284,75,61,62,f8eca1b6,Enes Ünal,124,10,14,10,12,15,10,Osmangazi,Turkey,FW,Valladolid,1. La Liga,1026
+1,10,23,0.61,1906,6,7,27,f8fcd2a5,Jonny Evans,149,11,15,12,10,11,14,Belfast,Northern Ireland,DF (CB),Leicester City,1. Premier League,1027
+3,32,52,1.68,1342,20,13,9,f91e81c9,Jens Stryger Larsen,133,12,12,13,11,12,13,Sakskøbing,Denmark,"DF-MF (FB-WM, right)",Udinese,1. Serie A,1028
+2,19,55,2.03,994,61,23,17,f93e6e94,Nils Petersen,134,9,10,9,9,12,17,Wernigerode,Germany,FW,Freiburg,1. Bundesliga,1029
+3,112,56,2.21,937,82,67,45,f972644c,Marco Richter,125,14,6,12,14,14,9,Friedberg,Germany,FW-MF (AM),Augsburg,1. Bundesliga,1030
+2,14,30,1.42,1443,17,9,26,f9acca3a,Wendell,136,12,7,12,13,16,9,Fortaleza,Brazil,"DF (FB, left)",Leverkusen,1. Bundesliga,1031
+1,11,32,2.98,465,27,19,10,f9e7c4ac,Alfreð Finnbogason,136,10,9,10,11,13,16,Reykjavik,Iceland,FW,Augsburg,1. Bundesliga,1032
+3,107,80,2.35,1507,90,99,79,fa031b34,Richarlison,146,10,9,12,15,14,12,Nova Venécia,Brazil,FW-MF (AM),Everton,1. Premier League,1033
+0,11,11,1.67,405,4,5,5,fa274d97,Nico Schulz,143,12,9,12,12,11,14,Land Berlin,Germany,DF-MF,Dortmund,1. Bundesliga,1034
+3,56,33,2.11,708,33,27,21,fa661778,Marius Wolf,140,12,9,10,13,11,12,Coburg,Germany,"DF-FW-MF (AM, right)",Hertha BSC,1. Bundesliga,1035
+2,10,31,1.42,832,15,6,13,fb5d47b3,Mario Gaspar,144,11,14,12,12,14,16,Novelda,Spain,"DF (FB, right)",Villarreal,1. La Liga,1036
+0,9,17,0.59,1479,4,4,18,fbd6378b,Aïssa Mandi,139,11,12,16,11,13,12,Châlons-en-Champagne,France,"DF (CB-FB, right)",Betis,1. La Liga,1037
+1,3,15,5.06,153,4,2,5,fc027d02,Luke Thomas,85,9,12,9,10,11,8,Syston,England,DF-MF,Leicester City,1. Premier League,1038
+6,135,103,2.78,1236,39,81,46,fc15fb84,Dwight McNeil,133,13,6,14,15,13,13,Rochdale,England,"MF (WM, left)",Burnley,1. Premier League,1039
+1,13,25,1.38,914,8,5,16,fc4f85b1,Diego Godín,155,8,16,12,10,9,16,Rosario,Uruguay,DF (CB),Inter,1. Serie A,1040
+1,16,11,1.0,422,12,6,14,fce2302c,Kieran Tierney,145,10,11,12,13,15,14,Douglas,Isle of Man,"DF-MF (FB, left)",Arsenal,1. Premier League,1041
+1,21,33,3.5,636,28,17,15,fd51b456,Lucas Vázquez,142,12,11,13,13,15,13,Curtis,Spain,"DF-FW-MF (WM, right)",Real Madrid,1. La Liga,1042
+1,6,4,0.65,221,15,14,10,fd53759d,Jan Thielmann,102,10,6,10,11,12,10,Fohren,Germany,FW,Köln,1. Bundesliga,1043
+1,52,43,2.0,775,47,27,34,fd771f95,Martin Braithwaite,135,12,14,10,12,14,13,Esbjerg,Denmark,FW-MF (WM),Leganés,1. La Liga,1044
+0,8,8,1.77,193,4,7,7,fd771f95,Martin Braithwaite,135,12,14,10,12,14,13,Esbjerg,Denmark,FW-MF (WM),Barcelona,1. La Liga,1045
+1,7,21,1.76,488,7,4,17,fdd60087,Santiago Arias,140,12,9,15,12,14,12,Medellín,Colombia,"DF (FB, right)",Atlético Madrid,1. La Liga,1046
+2,222,94,3.37,1437,56,65,65,fe012aca,Jeremie Boga,139,11,8,14,18,13,7,Marseille,France,"FW-MF (AM, left)",Sassuolo,1. Serie A,1047
+0,7,9,0.98,504,3,6,12,fe641c1a,Thomas Delaney,146,12,15,14,9,12,16,Frederiksberg,Denmark,"MF (CM-DM, left)",Dortmund,1. Bundesliga,1048
+0,28,33,1.44,816,38,17,26,fed17f5a,Carlos Soler,144,14,14,15,13,13,13,Valencia,Spain,"MF (CM-WM, right)",Valencia,1. La Liga,1049
+6,115,117,4.29,2046,88,83,42,fed7cb61,Kai Havertz,153,17,7,14,14,13,10,Aachen,Germany,FW-MF (AM),Leverkusen,1. Bundesliga,1050
+0,14,11,3.68,163,5,6,1,ff182fdc,Ishak Belfodil,134,14,9,13,14,11,10,Mostaganem,Algeria,FW-MF,Hoffenheim,1. Bundesliga,1051
+3,41,73,2.46,1324,31,30,37,ff527768,Mark Noble,131,14,19,14,13,12,13,London,England,MF (AM-CM-DM),West Ham,1. Premier League,1052
+7,73,90,3.11,1209,50,29,37,ff98492b,Robert Skov,143,14,8,13,12,13,12,Marbella,Spain,"DF-FW-MF (WM, right)",Hoffenheim,1. Bundesliga,1053
+4,56,57,2.5,912,37,41,19,ffa90327,Anwar El Ghazi,127,11,6,12,14,13,8,Barendrecht,Netherlands,FW-MF (AM-WM),Aston Villa,1. Premier League,1054
+3,35,59,2.21,1467,18,35,53,ffbbc83b,Florian Grillitsch,138,14,7,15,10,14,10,Neunkirchen,Austria,DF-MF (CM-DM),Hoffenheim,1. Bundesliga,1055
