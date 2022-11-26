@@ -14,4 +14,10 @@ select distinct
     city,
     country
 from
+    PlaymakingPerformanceFull
+union
+select distinct
+    city,
+    country
+from
     OffensivePerformanceFull

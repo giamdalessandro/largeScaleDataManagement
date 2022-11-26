@@ -8,7 +8,7 @@ select
     cast(poss.dispossessed as integer) as dispossessed,
     cast(misc.fouled as integer) as fouled,
 
-    info.id as id,
+    info.id as fbrefId,
     info.name as playerFullName,
 
     cast(CA as integer) as ca,

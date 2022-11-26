@@ -1,24 +1,23 @@
 package it.sapienza.lsdm.model.bdm
 
-case class MentalAbilityPm(
+case class PlaymakingMentalAbility(
     vis: Int,
     ldr: Int,
     cnt: Int
 )
-case class TechnicalAbilityPm(
+case class PlaymakingTechnicalAbility(
     pas: Int,
     dri: Int
 )
 
-case class PhysicalAbilityPm(
+case class PlaymakingPhysicalAbility(
     agi: Int
 )
 
-case class PlayerPlaymakingAbilityNR(
+case class PlaymakingAbility(
     id: Long,
-    playerFullName: String,
     ca: Int,
-    mentalAbility: MentalAbilityPm,
-    technicalAbility: TechnicalAbilityPm,
-    physicalAbility: PhysicalAbilityPm
+    mentalAbility: PlaymakingMentalAbility,
+    technicalAbility: PlaymakingTechnicalAbility,
+    physicalAbility: PlaymakingPhysicalAbility
 )
