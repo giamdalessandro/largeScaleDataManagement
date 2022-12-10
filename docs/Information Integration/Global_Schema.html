@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Global_Schema</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="player">Player</h1>
+<p><strong>Player</strong>(name, position, foot, height, weight, dob,
+age, cityob, countryob, value, wage, ca, pa)</p>
+<p>ar(Player) = 13</p>
+<p>Contains general information about the players.</p>
+<h1 id="defensestat">DefenseStat</h1>
+<p><strong>DefenseStats</strong>(player_name, player_squad, tackles,
+tackles_won, press, press_reg, press_reg_pct, blocks, blocked_sht,
+blocked_sht_sav, intercept, clearence, errors, fouls, aerials_won,
+aerials_won_pct, cards_yellow, cards_red)</p>
+<p>ar(DefenseStats) = 18</p>
+<p>Contains data on a player’s defensive performance focusing on most
+relevant statistics.</p>
+<h1 id="goalkeeperstat">GoalkeeperStat</h1>
+<p><strong>GoalkeeperStat</strong>(player_name, player_squad,
+goals_against_gk, goals_against_per90_gk, shots_on_target_against,
+saves, save_pct, clean_sheets, clean_sheets_pct, pens_save_pct)</p>
+<p>ar(GoalkeeperStat) = 10</p>
+<p>Contains data on goalkeeper performance focusing on most relevant
+statistics.</p>
+<h1 id="goalstat">GoalStat</h1>
+<p><strong>GoalStat</strong>(player_name, player_squad, goals,
+shots_total, shots_on_target, shots_on_target_pct, shots_total_per90,
+shots_on_target_per90, goals_per_shot, average_shot_distance,
+shots_free_kicks, pens_made, pens_att, goals_pens, goals_per90,
+goals_assists_per90, goals_pens_per90, offsides)</p>
+<p>ar(GoalStat) = 18</p>
+<p>Contains data on a player’s attacking performance in relation to his
+ability to score and/or to create opportunities.</p>
+<h1 id="passingstat">PassingStat</h1>
+<p><strong>PassingStat</strong>(player_name, player_squad,
+passes_completed, passes, passes_pct, passes_completed_short,
+passes_short, passes_pct_short, passes_completed_medium, passes_medium,
+passes_pct_medium, passes_completed_long, passes_long, passes_pct_long,
+passes_into_final_third, passes_into_penalty_area,
+crosses_into_penalty_area, crosses)</p>
+<p>ar(PassingStat) = 18</p>
+<p>Contains passing data focusing on most relevant statistics.</p>
+<h1 id="playmakingstat">PlaymakingStat</h1>
+<p><strong>PlaymakingStat</strong>(player_name, player_squad, sca,
+sca_per90, gca, gca_per90, assists, touches, touches_def_3rd,
+touches_mid_3rd, touches_att_3rd, touches_att_pen_area,
+dribbles_completed, dribbles, dribbles_completed_pct, miscontrols,
+dispossessed, pass_targets, assists_per90, fouled)</p>
+<p>ar(PlaymakingStat) = 20</p>
+<p>Contains data on a player’s performance in relation to his ability to
+playmake: creating opportunities for the team mates, being at the center
+of the action.</p>
+<h1 id="presencestat">PresenceStat</h1>
+<p><strong>PresenceStat</strong>(player_name, player_squad, games, mnts,
+minutes_per_game, minutes_pct, minutes_90s, games_starts,
+games_complete, games_subs, unused_subs, points_per_match, on_goals_for,
+on_goals_against, plus_minus, plus_minus_wowy)</p>
+<p>ar(PresenceStat) = 16</p>
+<p>Contains data on a player’s presence on the field and the
+corresponding results of his team.</p>
+<h1 id="goalkeeperability">GoalkeeperAbility</h1>
+<p><strong>GoalkeeperAbility</strong>(player_name, tro, 1v1, han,
+cmd)</p>
+<p>ar(GoalkeeperAbility) = 5</p>
+<p>Contains fictional player attributes relative to goalkeeper.</p>
+<h1 id="mentalability">MentalAbility</h1>
+<p><strong>MentalAbility</strong>(player_name, wor, vis, tea, ref, otb,
+ldr, fla, cnt, agg)</p>
+<p>ar(MentalAbility) = 10</p>
+<p>Contains fictional player attributes relative to mental
+abilities.</p>
+<h1 id="physicalability">PhysicalAbility</h1>
+<p><strong>PhysicalAbility</strong>(player_name, str, sta, pac, jum,
+agi, aer, acc)</p>
+<p>ar(PhysicalAbility) = 8</p>
+<p>Contains fictional player attributes relative to physical
+abilities.</p>
+<h1 id="technicalability">TechnicalAbility</h1>
+<p><strong>TechnicalAbility</strong>(player_name, tec, tck, pen, pas,
+mar, lth, lon, hea, fir, fin, dri, cro, cor)</p>
+<p>ar(TechnicalAbility) = 14</p>
+<p>Contains fictional player attributes relative to technical
+abilities.</p>
+</body>
+</html>
