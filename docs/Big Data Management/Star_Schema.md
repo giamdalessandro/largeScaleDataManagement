@@ -1,8 +1,6 @@
 # Goalkeeper Performance
 
-![Goalkeeper Performance Fact Star Schema](./images/Star_Schema-Goalkeeper_Performance-1.png)
-
-![Goalkeeper Performance Fact Star Schema](./images/Star_Schema-Goalkeeper_Performance-2.png)
+![Goalkeeper Performance Fact Star Schema](./images/Star_Schema-Goalkeeper_Performance.png)
 
 # Defensive Performance
 
