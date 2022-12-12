@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>GAV_Mapping</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="player">Player</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall name, position, foot, height, weight, dob, age, cityob,
+countryob, squad, value, wage, ca, pa . \\
+&amp;\exists id, \\
+&amp;\exists i2, i11, i12 \\
+&amp;\exists s5, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17,
+s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31,
+s32 \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f18,
+f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32,
+f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;Info(id, i2, name, position, foot, height, weight, dob, cityob,
+countryob, i11, i12, age) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, s5, squad,
+s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21,
+s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
+&amp;\wedge FM20(f1, name, f3, f4, \textrm{``Italian Serie A&#39;&#39;},
+f6, f7, f8, f9, f10, f11, f12, f13, value, wage, ca, pa, f18, f19, f20,
+f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32, f33, f34,
+f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46, f47, f48,
+f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60, f61, f62,
+f63, f64) \\
+&amp;\rightarrow Player(name, position, foot, height, weight, dob, age,
+cityob, countryob, value, wage, ca, pa)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall name, position, foot, height, weight, dob, age, cityob,
+countryob, squad, value, wage, ca, pa . \\
+&amp;\exists id, \\
+&amp;\exists i2, i11, i12 \\
+&amp;\exists s2, s3, s5, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16,
+s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30,
+s31, s32 \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f18,
+f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32,
+f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;Info(id, i2, name, position, foot, height, weight, dob, cityob,
+countryob, i11, i12, age) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, s5, squad,
+s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21,
+s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
+&amp;\wedge FM20(f1, name, f3, f4, \textrm{``Bundesliga&#39;&#39;}, f6,
+f7, f8, f9, f10, f11, f12, f13, value, wage, ca, pa, f18, f19, f20, f21,
+f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32, f33, f34, f35,
+f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46, f47, f48, f49,
+f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60, f61, f62, f63,
+f64) \\
+&amp;\rightarrow Player(name, position, foot, height, weight, dob, age,
+cityob, countryob, value, wage, ca, pa)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall name, position, foot, height, weight, dob, age, cityob,
+countryob, squad, value, wage, ca, pa . \\
+&amp;\exists id, \\
+&amp;\exists i2, i11, i12 \\
+&amp;\exists s2, s3, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15,
+s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29,
+s30, s31, s32 \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f18,
+f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32,
+f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;Info(id, i2, name, position, foot, height, weight, dob, cityob,
+countryob, i11, i12, age) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, s5, s6, s7,
+s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22,
+s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
+&amp;\wedge FM20(f1, name, f3, f4, \textrm{``Spanish First
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, value, wage,
+ca, pa, f18, f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30,
+f31, f32, f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44,
+f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58,
+f59, f60, f61, f62, f63, f64) \\
+&amp;\rightarrow Player(name, position, foot, height, weight, dob, age,
+cityob, countryob, value, wage, ca, pa)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall name, position, foot, height, weight, dob, age, cityob,
+countryob, squad, value, wage, ca, pa . \\
+&amp;\exists id, \\
+&amp;\exists i2, i11, i12 \\
+&amp;\exists s2, s3, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15,
+s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29,
+s30, s31, s32 \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f18,
+f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30, f31, f32,
+f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;Info(id, i2, name, position, foot, height, weight, dob, cityob,
+countryob, i11, i12, age) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, s5,
+s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20,
+s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32) \\
+&amp;\wedge FM20(f1, name, f3, f4, \textrm{``English Premier
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, value, wage,
+ca, pa, f18, f19, f20, f21, f22, f23, f24, f25, f26, f27, f28, f29, f30,
+f31, f32, f33, f34, f35, f36, f37, f38, f39, f40, f41, f42, f43, f44,
+f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58,
+f59, f60, f61, f62, f63, f64) \\
+&amp;\rightarrow Player(name, position, foot, height, weight, dob, age,
+cityob, countryob, value, wage, ca, pa)
+\end{split}
+\]</span></p>
+<h1 id="defensestat">DefenseStat</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, tackles, tackles\_won, press,
+press\_reg, press\_reg\_pct, blocks, blocked\_sht, blocked\_sht\_sav,
+intercept, clearence, errors, fouls, aerials\_won, aerials\_won\_pct,
+cards\_yellow, cards\_red . \\
+&amp;\exists id, d5, d7, d8, d11, d12, d13, d14, d15, d16, d17, d21,
+d22, d23, d27, d29 \\
+&amp;\exists m5, m7, m8, m11, m13, m14, m15, m16, m17, m18, m19, m20,
+m21, m23 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Defense(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, d5,
+player\_squad, d7, d8, tackles, tackles\_won, d11, d12, d13, d14, d15,
+d16, d17, press, press\_reg, press\_reg\_pct, d21, d22, d23, blocks,
+blocked_sht, blocked_sho_sav, d27, intercept, d29, clearance, errors) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, m5,
+player\_squad, m7, m8, cards\_yellow, cards\_red, m11, fouls, m13, m14,
+m15, m16, m17, m18, m19, m20, m21, aerials\_won, m23, aerials\_won\_pct)
+\\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow DefenseStat(player\_name, player\_squad, tackles,
+tackles\_won, press, press\_reg, press\_reg\_pct, blocks, blocked\_sht,
+blocked\_sht\_sav, intercept, clearence, errors, fouls, aerials\_won,
+aerials\_won\_pct, cards\_yellow, cards\_red)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, tackles, tackles\_won, press,
+press\_reg, press\_reg\_pct, blocks, blocked\_sht, blocked\_sht\_sav,
+intercept, clearence, errors, fouls, aerials\_won, aerials\_won\_pct,
+cards\_yellow, cards\_red . \\
+&amp;\exists id, d5, d7, d8, d11, d12, d13, d14, d15, d16, d17, d21,
+d22, d23, d27, d29 \\
+&amp;\exists m5, m7, m8, m11, m13, m14, m15, m16, m17, m18, m19, m20,
+m21, m23 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Defense(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, d5,
+player\_squad, d7, d8, tackles, tackles\_won, d11, d12, d13, d14, d15,
+d16, d17, press, press\_reg, press\_reg\_pct, d21, d22, d23, blocks,
+blocked_sht, blocked_sho_sav, d27, intercept, d29, clearance, errors) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, m5,
+player\_squad, m7, m8, cards\_yellow, cards\_red, m11, fouls, m13, m14,
+m15, m16, m17, m18, m19, m20, m21, aerials\_won, m23, aerials\_won\_pct)
+\\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow DefenseStat(player\_name, player\_squad, tackles,
+tackles\_won, press, press\_reg, press\_reg\_pct, blocks, blocked\_sht,
+blocked\_sht\_sav, intercept, clearence, errors, fouls, aerials\_won,
+aerials\_won\_pct, cards\_yellow, cards\_red)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, tackles, tackles\_won, press,
+press\_reg, press\_reg\_pct, blocks, blocked\_sht, blocked\_sht\_sav,
+intercept, clearence, errors, fouls, aerials\_won, aerials\_won\_pct,
+cards\_yellow, cards\_red . \\
+&amp;\exists id, d5, d7, d8, d11, d12, d13, d14, d15, d16, d17, d21,
+d22, d23, d27, d29 \\
+&amp;\exists m5, m7, m8, m11, m13, m14, m15, m16, m17, m18, m19, m20,
+m21, m23 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Defense(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, d5,
+player\_squad, d7, d8, tackles, tackles\_won, d11, d12, d13, d14, d15,
+d16, d17, press, press\_reg, press\_reg\_pct, d21, d22, d23, blocks,
+blocked_sht, blocked_sho_sav, d27, intercept, d29, clearance, errors) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, m5,
+player\_squad, m7, m8, cards\_yellow, cards\_red, m11, fouls, m13, m14,
+m15, m16, m17, m18, m19, m20, m21, aerials\_won, m23, aerials\_won\_pct)
+\\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow DefenseStat(player\_name, player\_squad, tackles,
+tackles\_won, press, press\_reg, press\_reg\_pct, blocks, blocked\_sht,
+blocked\_sht\_sav, intercept, clearence, errors, fouls, aerials\_won,
+aerials\_won\_pct, cards\_yellow, cards\_red)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, tackles, tackles\_won, press,
+press\_reg, press\_reg\_pct, blocks, blocked\_sht, blocked\_sht\_sav,
+intercept, clearence, errors, fouls, aerials\_won, aerials\_won\_pct,
+cards\_yellow, cards\_red . \\
+&amp;\exists id, d5, d7, d8, d11, d12, d13, d14, d15, d16, d17, d21,
+d22, d23, d27, d29 \\
+&amp;\exists m5, m7, m8, m11, m13, m14, m15, m16, m17, m18, m19, m20,
+m21, m23 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Defense(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, d5,
+player\_squad, d7, d8, tackles, tackles\_won, d11, d12, d13, d14, d15,
+d16, d17, press, press\_reg, press\_reg\_pct, d21, d22, d23, blocks,
+blocked_sht, blocked_sho_sav, d27, intercept, d29, clearance, errors) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, m5,
+player\_squad, m7, m8, cards\_yellow, cards\_red, m11, fouls, m13, m14,
+m15, m16, m17, m18, m19, m20, m21, aerials\_won, m23, aerials\_won\_pct)
+\\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow DefenseStat(player\_name, player\_squad, tackles,
+tackles\_won, press, press\_reg, press\_reg\_pct, blocks, blocked\_sht,
+blocked\_sht\_sav, intercept, clearence, errors, fouls, aerials\_won,
+aerials\_won\_pct, cards\_yellow, cards\_red)
+\end{split}
+\]</span></p>
+<h1 id="goalkeeperstat">GoalkeeperStat</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+clean\_sheets, clean\_sheets\_pct, pens\_save\_pct . \\
+&amp;\exists id, k5, k7, k8, k9, k10, k11, k17, k18, k19, k22, k23, k24,
+k25 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Keeper(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, k5,
+player\_squad, k7, k8, k9, k10, k11, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+k17, k18, k19, clean\_sheets, clean\_sheets\_pct, k22, k23, k24, k25,
+pens\_save\_pct) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalkeeperStat(player\_name, player\_squad,
+goals\_against\_gk, goals\_against\_per90\_gk,
+shots\_on\_target\_against, saves, save\_pct, clean\_sheets,
+clean\_sheets\_pct, pens\_save\_pct)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+clean\_sheets, clean\_sheets\_pct, pens\_save\_pct . \\
+&amp;\exists id, k5, k7, k8, k9, k10, k11, k17, k18, k19, k22, k23, k24,
+k25 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Keeper(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, k5,
+player\_squad, k7, k8, k9, k10, k11, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+k17, k18, k19, clean\_sheets, clean\_sheets\_pct, k22, k23, k24, k25,
+pens\_save\_pct) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalkeeperStat(player\_name, player\_squad,
+goals\_against\_gk, goals\_against\_per90\_gk,
+shots\_on\_target\_against, saves, save\_pct, clean\_sheets,
+clean\_sheets\_pct, pens\_save\_pct)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+clean\_sheets, clean\_sheets\_pct, pens\_save\_pct . \\
+&amp;\exists id, k5, k7, k8, k9, k10, k11, k17, k18, k19, k22, k23, k24,
+k25 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Keeper(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, k5,
+player\_squad, k7, k8, k9, k10, k11, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+k17, k18, k19, clean\_sheets, clean\_sheets\_pct, k22, k23, k24, k25,
+pens\_save\_pct) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalkeeperStat(player\_name, player\_squad,
+goals\_against\_gk, goals\_against\_per90\_gk,
+shots\_on\_target\_against, saves, save\_pct, clean\_sheets,
+clean\_sheets\_pct, pens\_save\_pct)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+clean\_sheets, clean\_sheets\_pct, pens\_save\_pct . \\
+&amp;\exists id, k5, k7, k8, k9, k10, k11, k17, k18, k19, k22, k23, k24,
+k25 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Keeper(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, k5,
+player\_squad, k7, k8, k9, k10, k11, goals\_against\_gk,
+goals\_against\_per90\_gk, shots\_on\_target\_against, saves, save\_pct,
+k17, k18, k19, clean\_sheets, clean\_sheets\_pct, k22, k23, k24, k25,
+pens\_save\_pct) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalkeeperStat(player\_name, player\_squad,
+goals\_against\_gk, goals\_against\_per90\_gk,
+shots\_on\_target\_against, saves, save\_pct, clean\_sheets,
+clean\_sheets\_pct, pens\_save\_pct)
+\end{split}
+\]</span></p>
+<h1 id="goalstat">GoalStat</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals, shots\_total,
+shots\_on\_target, shots\_on\_target\_pct, shots\_total\_per90,
+shots\_on\_target\_per90, goals\_per\_shot, average\_shot\_distance,
+shots\_free\_kicks, pens\_made, pens\_att, goals\_pens, goals\_per90,
+goals\_assists\_per90, goals\_pens\_per90, offsides . \\
+&amp;\exists id, sh5, sh7, sh8, sh16, sh21, sh22, sh23, sh24, sh25 \\
+&amp;\exists st2, st3, st5, st7, st8, st9, st10, st11, st12, st13, st15,
+st16, st17, st18, st20, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Shooting(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, sh5,
+player\_squad, sh7, sh8, goals, shots\_total, shots\_on\_target,
+shots\_on\_target\_pct, shots\_total\_per90, shots\_on\_target\_per90,
+goals\_per\_shot, sh16, average\_shot\_distance, shots\_free\_kicks,
+pens\_made, pens\_att, sh21, sh22, sh23, sh24, sh25) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, st5,
+player\_squad, st7, st8, st9, st10, st11, st12, st13, goals\_pens, st15,
+st16, st17, st18, goals\_per90, st20, goals\_assists\_per90,
+goals\_pens\_per90, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, offsides, m15, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalStat(player\_name, player\_squad, goals,
+shots\_total, shots\_on\_target, shots\_on\_target\_pct,
+shots\_total\_per90, shots\_on\_target\_per90, goals\_per\_shot,
+average\_shot\_distance, shots\_free\_kicks, pens\_made, pens\_att,
+goals\_pens, goals\_per90, goals\_assists\_per90, goals\_pens\_per90,
+offsides)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals, shots\_total,
+shots\_on\_target, shots\_on\_target\_pct, shots\_total\_per90,
+shots\_on\_target\_per90, goals\_per\_shot, average\_shot\_distance,
+shots\_free\_kicks, pens\_made, pens\_att, goals\_pens, goals\_per90,
+goals\_assists\_per90, goals\_pens\_per90, offsides . \\
+&amp;\exists id, sh5, sh7, sh8, sh16, sh21, sh22, sh23, sh24, sh25 \\
+&amp;\exists st2, st3, st5, st7, st8, st9, st10, st11, st12, st13, st15,
+st16, st17, st18, st20, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Shooting(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, sh5,
+player\_squad, sh7, sh8, goals, shots\_total, shots\_on\_target,
+shots\_on\_target\_pct, shots\_total\_per90, shots\_on\_target\_per90,
+goals\_per\_shot, sh16, average\_shot\_distance, shots\_free\_kicks,
+pens\_made, pens\_att, sh21, sh22, sh23, sh24, sh25) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, st5,
+player\_squad, st7, st8, st9, st10, st11, st12, st13, goals\_pens, st15,
+st16, st17, st18, goals\_per90, st20, goals\_assists\_per90,
+goals\_pens\_per90, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, offsides, m15, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalStat(player\_name, player\_squad, goals,
+shots\_total, shots\_on\_target, shots\_on\_target\_pct,
+shots\_total\_per90, shots\_on\_target\_per90, goals\_per\_shot,
+average\_shot\_distance, shots\_free\_kicks, pens\_made, pens\_att,
+goals\_pens, goals\_per90, goals\_assists\_per90, goals\_pens\_per90,
+offsides)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals, shots\_total,
+shots\_on\_target, shots\_on\_target\_pct, shots\_total\_per90,
+shots\_on\_target\_per90, goals\_per\_shot, average\_shot\_distance,
+shots\_free\_kicks, pens\_made, pens\_att, goals\_pens, goals\_per90,
+goals\_assists\_per90, goals\_pens\_per90, offsides . \\
+&amp;\exists id, sh5, sh7, sh8, sh16, sh21, sh22, sh23, sh24, sh25 \\
+&amp;\exists st2, st3, st5, st7, st8, st9, st10, st11, st12, st13, st15,
+st16, st17, st18, st20, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Shooting(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, sh5,
+player\_squad, sh7, sh8, goals, shots\_total, shots\_on\_target,
+shots\_on\_target\_pct, shots\_total\_per90, shots\_on\_target\_per90,
+goals\_per\_shot, sh16, average\_shot\_distance, shots\_free\_kicks,
+pens\_made, pens\_att, sh21, sh22, sh23, sh24, sh25) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, st5,
+player\_squad, st7, st8, st9, st10, st11, st12, st13, goals\_pens, st15,
+st16, st17, st18, goals\_per90, st20, goals\_assists\_per90,
+goals\_pens\_per90, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, offsides, m15, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalStat(player\_name, player\_squad, goals,
+shots\_total, shots\_on\_target, shots\_on\_target\_pct,
+shots\_total\_per90, shots\_on\_target\_per90, goals\_per\_shot,
+average\_shot\_distance, shots\_free\_kicks, pens\_made, pens\_att,
+goals\_pens, goals\_per90, goals\_assists\_per90, goals\_pens\_per90,
+offsides)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, goals, shots\_total,
+shots\_on\_target, shots\_on\_target\_pct, shots\_total\_per90,
+shots\_on\_target\_per90, goals\_per\_shot, average\_shot\_distance,
+shots\_free\_kicks, pens\_made, pens\_att, goals\_pens, goals\_per90,
+goals\_assists\_per90, goals\_pens\_per90, offsides . \\
+&amp;\exists id, sh5, sh7, sh8, sh16, sh21, sh22, sh23, sh24, sh25 \\
+&amp;\exists st2, st3, st5, st7, st8, st9, st10, st11, st12, st13, st15,
+st16, st17, st18, st20, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Shooting(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, sh5,
+player\_squad, sh7, sh8, goals, shots\_total, shots\_on\_target,
+shots\_on\_target\_pct, shots\_total\_per90, shots\_on\_target\_per90,
+goals\_per\_shot, sh16, average\_shot\_distance, shots\_free\_kicks,
+pens\_made, pens\_att, sh21, sh22, sh23, sh24, sh25) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, st5,
+player\_squad, st7, st8, st9, st10, st11, st12, st13, goals\_pens, st15,
+st16, st17, st18, goals\_per90, st20, goals\_assists\_per90,
+goals\_pens\_per90, st23, st24, st25, st26, st27, st28, st29, st30,
+st31, st32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, offsides, m15, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow GoalStat(player\_name, player\_squad, goals,
+shots\_total, shots\_on\_target, shots\_on\_target\_pct,
+shots\_total\_per90, shots\_on\_target\_per90, goals\_per\_shot,
+average\_shot\_distance, shots\_free\_kicks, pens\_made, pens\_att,
+goals\_pens, goals\_per90, goals\_assists\_per90, goals\_pens\_per90,
+offsides)
+\end{split}
+\]</span></p>
+<h1 id="passingstat">PassingStat</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, passes\_completed, passes,
+passes\_pct, passes\_completed\_short, passes\_short,
+passes\_pct\_short, passes\_completed\_medium, passes\_medium,
+passes\_pct\_medium, passes\_completed\_long, passes\_long,
+passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses . \\
+&amp;\exists id, p5, p7, p8, p12, p13, p23, p24, p25, p26, p30 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m14, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, p5,
+player\_squad, p7, p8, passes\_completed, passes, passes\_pct, p12, p13,
+passes\_completed\_short, passes\_short, passes\_pct\_short,
+passes\_completed\_medium, passes\_medium, passes\_pct\_medium,
+passes\_completed\_long, passes\_long, passes\_pct\_long, p23, p24, p25,
+p26, passes\_into\_final\_third, passes\_into\_penalty\_area,
+crosses\_into\_penalty\_area, p30) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, m14, crosses, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PassingStat(player\_name, player\_squad,
+passes\_completed, passes, passes\_pct, passes\_completed\_short,
+passes\_short, passes\_pct\_short, passes\_completed\_medium,
+passes\_medium, passes\_pct\_medium, passes\_completed\_long,
+passes\_long, passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, passes\_completed, passes,
+passes\_pct, passes\_completed\_short, passes\_short,
+passes\_pct\_short, passes\_completed\_medium, passes\_medium,
+passes\_pct\_medium, passes\_completed\_long, passes\_long,
+passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses . \\
+&amp;\exists id, p5, p7, p8, p12, p13, p23, p24, p25, p26, p30 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m14, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, p5,
+player\_squad, p7, p8, passes\_completed, passes, passes\_pct, p12, p13,
+passes\_completed\_short, passes\_short, passes\_pct\_short,
+passes\_completed\_medium, passes\_medium, passes\_pct\_medium,
+passes\_completed\_long, passes\_long, passes\_pct\_long, p23, p24, p25,
+p26, passes\_into\_final\_third, passes\_into\_penalty\_area,
+crosses\_into\_penalty\_area, p30) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, m14, crosses, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PassingStat(player\_name, player\_squad,
+passes\_completed, passes, passes\_pct, passes\_completed\_short,
+passes\_short, passes\_pct\_short, passes\_completed\_medium,
+passes\_medium, passes\_pct\_medium, passes\_completed\_long,
+passes\_long, passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, passes\_completed, passes,
+passes\_pct, passes\_completed\_short, passes\_short,
+passes\_pct\_short, passes\_completed\_medium, passes\_medium,
+passes\_pct\_medium, passes\_completed\_long, passes\_long,
+passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses . \\
+&amp;\exists id, p5, p7, p8, p12, p13, p23, p24, p25, p26, p30 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m14, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, p5,
+player\_squad, p7, p8, passes\_completed, passes, passes\_pct, p12, p13,
+passes\_completed\_short, passes\_short, passes\_pct\_short,
+passes\_completed\_medium, passes\_medium, passes\_pct\_medium,
+passes\_completed\_long, passes\_long, passes\_pct\_long, p23, p24, p25,
+p26, passes\_into\_final\_third, passes\_into\_penalty\_area,
+crosses\_into\_penalty\_area, p30) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, m14, crosses, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PassingStat(player\_name, player\_squad,
+passes\_completed, passes, passes\_pct, passes\_completed\_short,
+passes\_short, passes\_pct\_short, passes\_completed\_medium,
+passes\_medium, passes\_pct\_medium, passes\_completed\_long,
+passes\_long, passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, passes\_completed, passes,
+passes\_pct, passes\_completed\_short, passes\_short,
+passes\_pct\_short, passes\_completed\_medium, passes\_medium,
+passes\_pct\_medium, passes\_completed\_long, passes\_long,
+passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses . \\
+&amp;\exists id, p5, p7, p8, p12, p13, p23, p24, p25, p26, p30 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m13, m14, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, p5,
+player\_squad, p7, p8, passes\_completed, passes, passes\_pct, p12, p13,
+passes\_completed\_short, passes\_short, passes\_pct\_short,
+passes\_completed\_medium, passes\_medium, passes\_pct\_medium,
+passes\_completed\_long, passes\_long, passes\_pct\_long, p23, p24, p25,
+p26, passes\_into\_final\_third, passes\_into\_penalty\_area,
+crosses\_into\_penalty\_area, p30) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, m13, m14, crosses, m16, m17,
+m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PassingStat(player\_name, player\_squad,
+passes\_completed, passes, passes\_pct, passes\_completed\_short,
+passes\_short, passes\_pct\_short, passes\_completed\_medium,
+passes\_medium, passes\_pct\_medium, passes\_completed\_long,
+passes\_long, passes\_pct\_long, passes\_into\_final\_third,
+passes\_into\_penalty\_area, crosses\_into\_penalty\_area, crosses)
+\end{split}
+\]</span></p>
+<h1 id="playmakingstat">PlaymakingStat</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, sca, sca\_per90, gca,
+gca\_per90, assists, touches, touches\_def\_3rd, touches\_mid\_3rd,
+touches\_att\_3rd, touches\_att\_pen\_area, dribbles\_completed,
+dribbles, dribbles\_completed\_pct, miscontrols, dispossessed,
+pass\_targets, assists\_per90, fouled . \\
+&amp;\exists id, g5, g7, g8, g11, g12, g13, g14, g15, g16, g19, g20,
+g21, g2, g23, g24 \\
+&amp;\exists pa5, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15,
+pa16, pa17, pa18, pa19, pa20, pa21, pa22, pa24, pa25, pa26, pa27, pa28,
+pa29, pa30 \\
+&amp;\exists po5, po7, po8, po10, po15, po19, po20, po21, po22, po23,
+po24, po25, po26, po30, po31, po32 \\
+&amp;\exists s5, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17,
+s18, s19, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m14, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;GCA(id, \textrm{``2019-2020&#39;&#39;}, \textrm{``ITA&#39;&#39;},
+\textrm{``1. Serie A&#39;&#39;}, g5, player\_squad, g7, g8, sca,
+sca\_per90, g11, g12, g13, g14, g15, g16, gca, gca\_per90, g19, g20,
+g21, g2, g23, g24) \\
+&amp;\wedge Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, pa5,
+player\_squad, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15, pa16,
+pa17, pa18, pa19, pa20, pa21, pa22, assists, pa24, pa25, pa26, pa27,
+pa28, pa29, pa30) \\
+&amp;\wedge Possession(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, po5,
+player\_squad, po7, po8, touches, po10, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area, po15,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, po19, po20,
+po21, po22, po23, po24, po25, po26, miscontrols, dispossessed,
+pass\_targets, po30, po31, po32) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, s5,
+player\_squad, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18,
+s19, assists\_per90, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30,
+s31, s32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, fouled, m14, crosses, m16,
+m17, m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PlaymakingStat(player\_name, player\_squad, sca,
+sca\_per90, gca, gca\_per90, assists, touches, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, miscontrols,
+dispossessed, pass\_targets, assists\_per90, fouled)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, sca, sca\_per90, gca,
+gca\_per90, assists, touches, touches\_def\_3rd, touches\_mid\_3rd,
+touches\_att\_3rd, touches\_att\_pen\_area, dribbles\_completed,
+dribbles, dribbles\_completed\_pct, miscontrols, dispossessed,
+pass\_targets, assists\_per90, fouled . \\
+&amp;\exists id, g5, g7, g8, g11, g12, g13, g14, g15, g16, g19, g20,
+g21, g2, g23, g24 \\
+&amp;\exists pa5, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15,
+pa16, pa17, pa18, pa19, pa20, pa21, pa22, pa24, pa25, pa26, pa27, pa28,
+pa29, pa30 \\
+&amp;\exists po5, po7, po8, po10, po15, po19, po20, po21, po22, po23,
+po24, po25, po26, po30, po31, po32 \\
+&amp;\exists s5, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17,
+s18, s19, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m14, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;GCA(id, \textrm{``2019-2020&#39;&#39;}, \textrm{``GER&#39;&#39;},
+\textrm{``1. Bundesliga&#39;&#39;}, g5, player\_squad, g7, g8, sca,
+sca\_per90, g11, g12, g13, g14, g15, g16, gca, gca\_per90, g19, g20,
+g21, g2, g23, g24) \\
+&amp;\wedge Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, pa5,
+player\_squad, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15, pa16,
+pa17, pa18, pa19, pa20, pa21, pa22, assists, pa24, pa25, pa26, pa27,
+pa28, pa29, pa30) \\
+&amp;\wedge Possession(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, po5,
+player\_squad, po7, po8, touches, po10, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area, po15,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, po19, po20,
+po21, po22, po23, po24, po25, po26, miscontrols, dispossessed,
+pass\_targets, po30, po31, po32) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, s5,
+player\_squad, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18,
+s19, assists\_per90, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30,
+s31, s32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, fouled, m14, crosses, m16,
+m17, m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PlaymakingStat(player\_name, player\_squad, sca,
+sca\_per90, gca, gca\_per90, assists, touches, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, miscontrols,
+dispossessed, pass\_targets, assists\_per90, fouled)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, sca, sca\_per90, gca,
+gca\_per90, assists, touches, touches\_def\_3rd, touches\_mid\_3rd,
+touches\_att\_3rd, touches\_att\_pen\_area, dribbles\_completed,
+dribbles, dribbles\_completed\_pct, miscontrols, dispossessed,
+pass\_targets, assists\_per90, fouled . \\
+&amp;\exists id, g5, g7, g8, g11, g12, g13, g14, g15, g16, g19, g20,
+g21, g2, g23, g24 \\
+&amp;\exists pa5, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15,
+pa16, pa17, pa18, pa19, pa20, pa21, pa22, pa24, pa25, pa26, pa27, pa28,
+pa29, pa30 \\
+&amp;\exists po5, po7, po8, po10, po15, po19, po20, po21, po22, po23,
+po24, po25, po26, po30, po31, po32 \\
+&amp;\exists s5, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17,
+s18, s19, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m14, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;GCA(id, \textrm{``2019-2020&#39;&#39;}, \textrm{``ESP&#39;&#39;},
+\textrm{``1. La Liga&#39;&#39;}, g5, player\_squad, g7, g8, sca,
+sca\_per90, g11, g12, g13, g14, g15, g16, gca, gca\_per90, g19, g20,
+g21, g2, g23, g24) \\
+&amp;\wedge Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, pa5,
+player\_squad, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15, pa16,
+pa17, pa18, pa19, pa20, pa21, pa22, assists, pa24, pa25, pa26, pa27,
+pa28, pa29, pa30) \\
+&amp;\wedge Possession(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, po5,
+player\_squad, po7, po8, touches, po10, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area, po15,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, po19, po20,
+po21, po22, po23, po24, po25, po26, miscontrols, dispossessed,
+pass\_targets, po30, po31, po32) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, s5,
+player\_squad, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18,
+s19, assists\_per90, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30,
+s31, s32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, fouled, m14, crosses, m16,
+m17, m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PlaymakingStat(player\_name, player\_squad, sca,
+sca\_per90, gca, gca\_per90, assists, touches, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, miscontrols,
+dispossessed, pass\_targets, assists\_per90, fouled)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, sca, sca\_per90, gca,
+gca\_per90, assists, touches, touches\_def\_3rd, touches\_mid\_3rd,
+touches\_att\_3rd, touches\_att\_pen\_area, dribbles\_completed,
+dribbles, dribbles\_completed\_pct, miscontrols, dispossessed,
+pass\_targets, assists\_per90, fouled . \\
+&amp;\exists id, g5, g7, g8, g11, g12, g13, g14, g15, g16, g19, g20,
+g21, g2, g23, g24 \\
+&amp;\exists pa5, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15,
+pa16, pa17, pa18, pa19, pa20, pa21, pa22, pa24, pa25, pa26, pa27, pa28,
+pa29, pa30 \\
+&amp;\exists po5, po7, po8, po10, po15, po19, po20, po21, po22, po23,
+po24, po25, po26, po30, po31, po32 \\
+&amp;\exists s5, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17,
+s18, s19, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32 \\
+&amp;\exists m5, m7, m8, m9, m10, m11, m12, m14, m15, m16, m17, m18,
+m19, m20, m21, m22, m23, m24 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;GCA(id, \textrm{``2019-2020&#39;&#39;}, \textrm{``ENG&#39;&#39;},
+\textrm{``1. Premier League&#39;&#39;}, g5, player\_squad, g7, g8, sca,
+sca\_per90, g11, g12, g13, g14, g15, g16, gca, gca\_per90, g19, g20,
+g21, g2, g23, g24) \\
+&amp;\wedge Passing(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, pa5,
+player\_squad, pa7, pa8, pa9, pa10, pa11, pa12, pa13, pa14, pa15, pa16,
+pa17, pa18, pa19, pa20, pa21, pa22, assists, pa24, pa25, pa26, pa27,
+pa28, pa29, pa30) \\
+&amp;\wedge Possession(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, po5,
+player\_squad, po7, po8, touches, po10, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area, po15,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, po19, po20,
+po21, po22, po23, po24, po25, po26, miscontrols, dispossessed,
+pass\_targets, po30, po31, po32) \\
+&amp;\wedge Standard(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, s5,
+player\_squad, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18,
+s19, assists\_per90, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30,
+s31, s32) \\
+&amp;\wedge Misc(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, m5,
+player\_squad, m7, m8, m9, m10, m11, m12, fouled, m14, crosses, m16,
+m17, m18, m19, m20, m21, m22, m23, m24) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PlaymakingStat(player\_name, player\_squad, sca,
+sca\_per90, gca, gca\_per90, assists, touches, touches\_def\_3rd,
+touches\_mid\_3rd, touches\_att\_3rd, touches\_att\_pen\_area,
+dribbles\_completed, dribbles, dribbles\_completed\_pct, miscontrols,
+dispossessed, pass\_targets, assists\_per90, fouled)
+\end{split}
+\]</span></p>
+<h1 id="presencestat">PresenceStat</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy . \\
+&amp;\exists id, p5, p7, p17, p23, p25, p26, p27, p28, p29 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;PlayingTime(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ITA&#39;&#39;}, \textrm{``1. Serie A&#39;&#39;}, p5,
+player\_squad, p7, games, mnts, minutes\_per\_game, minutes\_pct,
+minutes\_90s, games\_starts, games\_complete, games\_subs, p17,
+unused\_subs, points\_per\_match, on\_goals\_for, on\_goals\_against,
+plus\_minus, p23, plus\_minus\_wowy, p25, p26, p27, p28, p29) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PresenceStat(player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy . \\
+&amp;\exists id, p5, p7, p17, p23, p25, p26, p27, p28, p29 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;PlayingTime(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``GER&#39;&#39;}, \textrm{``1. Bundesliga&#39;&#39;}, p5,
+player\_squad, p7, games, mnts, minutes\_per\_game, minutes\_pct,
+minutes\_90s, games\_starts, games\_complete, games\_subs, p17,
+unused\_subs, points\_per\_match, on\_goals\_for, on\_goals\_against,
+plus\_minus, p23, plus\_minus\_wowy, p25, p26, p27, p28, p29) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PresenceStat(player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy . \\
+&amp;\exists id, p5, p7, p17, p23, p25, p26, p27, p28, p29 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;PlayingTime(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ESP&#39;&#39;}, \textrm{``1. La Liga&#39;&#39;}, p5,
+player\_squad, p7, games, mnts, minutes\_per\_game, minutes\_pct,
+minutes\_90s, games\_starts, games\_complete, games\_subs, p17,
+unused\_subs, points\_per\_match, on\_goals\_for, on\_goals\_against,
+plus\_minus, p23, plus\_minus\_wowy, p25, p26, p27, p28, p29) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PresenceStat(player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy . \\
+&amp;\exists id, p5, p7, p17, p23, p25, p26, p27, p28, p29 \\
+&amp;\exists i2, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13 . \\
+&amp;PlayingTime(id, \textrm{``2019-2020&#39;&#39;},
+\textrm{``ENG&#39;&#39;}, \textrm{``1. Premier League&#39;&#39;}, p5,
+player\_squad, p7, games, mnts, minutes\_per\_game, minutes\_pct,
+minutes\_90s, games\_starts, games\_complete, games\_subs, p17,
+unused\_subs, points\_per\_match, on\_goals\_for, on\_goals\_against,
+plus\_minus, p23, plus\_minus\_wowy, p25, p26, p27, p28, p29) \\
+&amp;\wedge Info(id, i2, player\_name, i4, i5, i6, i7, i8, i9, i10, i11,
+i12, i13) \\
+&amp;\rightarrow PresenceStat(player\_name, player\_squad, games, mnts,
+minutes\_per\_game, minutes\_pct, minutes\_90s, games\_starts,
+games\_complete, games\_subs, unused\_subs, points\_per\_match,
+on\_goals\_for, on\_goals\_against, plus\_minus, plus\_minus\_wowy)
+\end{split}
+\]</span></p>
+<h1 id="goalkeeperability">GoalkeeperAbility</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tro, 1v1, han, cmd  . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f24, f25, f27, f28, f29,
+f30, f31, f32, f34, f35, f36, f37, f38, f39, f40, f41, f42, f44, f45,
+f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Italian Serie
+A&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17,
+f18, f19, f20, f21, f22, f23, f24, f25, tro, f27, f28, f29, f30, f31,
+f32, 1v1, f34, f35, f36, f37, f38, f39, f40, f41, f42, han, f44, f45,
+f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, cmd, f58, f59,
+f60, f61, f62, f63, f64) \\
+&amp;\rightarrow GoalkeeperAbility(player\_name, tro, 1v1, han, cmd)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tro, 1v1, han, cmd  . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f24, f25, f27, f28, f29,
+f30, f31, f32, f34, f35, f36, f37, f38, f39, f40, f41, f42, f44, f45,
+f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Bundesliga&#39;&#39;}, f6,
+f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20, f21,
+f22, f23, f24, f25, tro, f27, f28, f29, f30, f31, f32, 1v1, f34, f35,
+f36, f37, f38, f39, f40, f41, f42, han, f44, f45, f46, f47, f48, f49,
+f50, f51, f52, f53, f54, f55, f56, cmd, f58, f59, f60, f61, f62, f63,
+f64) \\
+&amp;\rightarrow GoalkeeperAbility(player\_name, tro, 1v1, han, cmd)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tro, 1v1, han, cmd  . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f24, f25, f27, f28, f29,
+f30, f31, f32, f34, f35, f36, f37, f38, f39, f40, f41, f42, f44, f45,
+f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Spanish First
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, f18, f19, f20, f21, f22, f23, f24, f25, tro, f27, f28, f29, f30,
+f31, f32, 1v1, f34, f35, f36, f37, f38, f39, f40, f41, f42, han, f44,
+f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, cmd, f58,
+f59, f60, f61, f62, f63, f64) \\
+&amp;\rightarrow GoalkeeperAbility(player\_name, tro, 1v1, han, cmd)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tro, 1v1, han, cmd  . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f24, f25, f27, f28, f29,
+f30, f31, f32, f34, f35, f36, f37, f38, f39, f40, f41, f42, f44, f45,
+f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f58, f59, f60,
+f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``English Premier
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, f18, f19, f20, f21, f22, f23, f24, f25, tro, f27, f28, f29, f30,
+f31, f32, 1v1, f34, f35, f36, f37, f38, f39, f40, f41, f42, han, f44,
+f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, cmd, f58,
+f59, f60, f61, f62, f63, f64) \\
+&amp;\rightarrow GoalkeeperAbility(player\_name, tro, 1v1, han, cmd)
+\end{split}
+\]</span></p>
+<h1 id="mentalability">MentalAbility</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, wor, vis, tea, ref, otb, ldr, fla, cnt, agg .
+\\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f20, f21, f23, f24, f25, f26, f28, f29, f30, f31, f32,
+f33, f35, f36, f37, f38, f40, f41, f42, f43, f44, f46, f47, f48, f49,
+f50, f51, f52, f53, f55, f56, f57, f58, f59, f60, f61, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Italian Serie
+A&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17,
+wor, vis, f20, f21, tea, f23, f24, f25, f26, ref, f28, f29, f30, f31,
+f32, f33, otb, f35, f36, f37, f38, ldr, f40, f41, f42, f43, f44, fla,
+f46, f47, f48, f49, f50, f51, f52, f53, cnt, f55, f56, f57, f58, f59,
+f60, f61, agg, f63, f64) \\
+&amp;\rightarrow MentalAbility(player\_name, wor, vis, tea, ref, otb,
+ldr, fla, cnt, agg)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, wor, vis, tea, ref, otb, ldr, fla, cnt, agg .
+\\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f20, f21, f23, f24, f25, f26, f28, f29, f30, f31, f32,
+f33, f35, f36, f37, f38, f40, f41, f42, f43, f44, f46, f47, f48, f49,
+f50, f51, f52, f53, f55, f56, f57, f58, f59, f60, f61, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Bundesliga&#39;&#39;}, f6,
+f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, wor, vis, f20, f21,
+tea, f23, f24, f25, f26, ref, f28, f29, f30, f31, f32, f33, otb, f35,
+f36, f37, f38, ldr, f40, f41, f42, f43, f44, fla, f46, f47, f48, f49,
+f50, f51, f52, f53, cnt, f55, f56, f57, f58, f59, f60, f61, agg, f63,
+f64) \\
+&amp;\rightarrow MentalAbility(player\_name, wor, vis, tea, ref, otb,
+ldr, fla, cnt, agg)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, wor, vis, tea, ref, otb, ldr, fla, cnt, agg .
+\\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f20, f21, f23, f24, f25, f26, f28, f29, f30, f31, f32,
+f33, f35, f36, f37, f38, f40, f41, f42, f43, f44, f46, f47, f48, f49,
+f50, f51, f52, f53, f55, f56, f57, f58, f59, f60, f61, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Spanish First
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, wor, vis, f20, f21, tea, f23, f24, f25, f26, ref, f28, f29, f30,
+f31, f32, f33, otb, f35, f36, f37, f38, ldr, f40, f41, f42, f43, f44,
+fla, f46, f47, f48, f49, f50, f51, f52, f53, cnt, f55, f56, f57, f58,
+f59, f60, f61, agg, f63, f64) \\
+&amp;\rightarrow MentalAbility(player\_name, wor, vis, tea, ref, otb,
+ldr, fla, cnt, agg)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, wor, vis, tea, ref, otb, ldr, fla, cnt, agg .
+\\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f20, f21, f23, f24, f25, f26, f28, f29, f30, f31, f32,
+f33, f35, f36, f37, f38, f40, f41, f42, f43, f44, f46, f47, f48, f49,
+f50, f51, f52, f53, f55, f56, f57, f58, f59, f60, f61, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``English Premier
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, wor, vis, f20, f21, tea, f23, f24, f25, f26, ref, f28, f29, f30,
+f31, f32, f33, otb, f35, f36, f37, f38, ldr, f40, f41, f42, f43, f44,
+fla, f46, f47, f48, f49, f50, f51, f52, f53, cnt, f55, f56, f57, f58,
+f59, f60, f61, agg, f63, f64) \\
+&amp;\rightarrow MentalAbility(player\_name, wor, vis, tea, ref, otb,
+ldr, fla, cnt, agg)
+\end{split}
+\]</span></p>
+<h1 id="physicalability">PhysicalAbility</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, str, sta, pac, jum, agi, aer, acc . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f26, f27, f28, f29, f30,
+f31, f33, f34, f35, f36, f37, f38, f39, f40, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f62 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Italian Serie
+A&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17,
+f18, f19, f20, f21, f22, f23, str, sta, f26, f27, f28, f29, f30, f31,
+pac, f33, f34, f35, f36, f37, f38, f39, f40, jum, f42, f43, f44, f45,
+f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59,
+f60, agi, f62, aer, acc) \\
+&amp;\rightarrow PhysicalAbility(player\_name, str, sta, pac, jum, agi,
+aer, acc)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, str, sta, pac, jum, agi, aer, acc . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f26, f27, f28, f29, f30,
+f31, f33, f34, f35, f36, f37, f38, f39, f40, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f62 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Bundesliga&#39;&#39;}, f6,
+f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20, f21,
+f22, f23, str, sta, f26, f27, f28, f29, f30, f31, pac, f33, f34, f35,
+f36, f37, f38, f39, f40, jum, f42, f43, f44, f45, f46, f47, f48, f49,
+f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60, agi, f62, aer,
+acc) \\
+&amp;\rightarrow PhysicalAbility(player\_name, str, sta, pac, jum, agi,
+aer, acc)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, str, sta, pac, jum, agi, aer, acc . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f26, f27, f28, f29, f30,
+f31, f33, f34, f35, f36, f37, f38, f39, f40, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f62 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Spanish First
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, f18, f19, f20, f21, f22, f23, str, sta, f26, f27, f28, f29, f30,
+f31, pac, f33, f34, f35, f36, f37, f38, f39, f40, jum, f42, f43, f44,
+f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58,
+f59, f60, agi, f62, aer, acc) \\
+&amp;\rightarrow PhysicalAbility(player\_name, str, sta, pac, jum, agi,
+aer, acc)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, str, sta, pac, jum, agi, aer, acc . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f21, f22, f23, f26, f27, f28, f29, f30,
+f31, f33, f34, f35, f36, f37, f38, f39, f40, f42, f43, f44, f45, f46,
+f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58, f59, f60,
+f62 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``English Premier
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, f18, f19, f20, f21, f22, f23, str, sta, f26, f27, f28, f29, f30,
+f31, pac, f33, f34, f35, f36, f37, f38, f39, f40, jum, f42, f43, f44,
+f45, f46, f47, f48, f49, f50, f51, f52, f53, f54, f55, f56, f57, f58,
+f59, f60, agi, f62, aer, acc) \\
+&amp;\rightarrow PhysicalAbility(player\_name, str, sta, pac, jum, agi,
+aer, acc)
+\end{split}
+\]</span></p>
+<h1 id="technicalability">TechnicalAbility</h1>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tec, tck, pen, pas, mar, lth, lon, hea, fir,
+fin, dri, cro, cor . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f22, f24, f25, f26, f27, f28, f29, f32,
+f33, f34, f35, f39, f40, f41, f43, f44, f45, f48, f50, f51, f54, f55,
+f56, f57, f58, f59, f60, f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Italian Serie
+A&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17,
+f18, f19, f20, tec, f22, tck, f24, f25, f26, f27, f28, f29, pen, pas,
+f32, f33, f34, f35, mar, lth, lon, f39, f40, f41, hea, f43, f44, f45,
+fir, fin, f48, dri, f50, f51, cro, cor, f54, f55, f56, f57, f58, f59,
+f60, f61, f62, f63, f64) \\
+&amp;\rightarrow TechnicalAbility(player\_name, tec, tck, pen, pas, mar,
+lth, lon, hea, fir, fin, dri, cro, cor)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tec, tck, pen, pas, mar, lth, lon, hea, fir,
+fin, dri, cro, cor . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f22, f24, f25, f26, f27, f28, f29, f32,
+f33, f34, f35, f39, f40, f41, f43, f44, f45, f48, f50, f51, f54, f55,
+f56, f57, f58, f59, f60, f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Bundesliga&#39;&#39;}, f6,
+f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20, tec,
+f22, tck, f24, f25, f26, f27, f28, f29, pen, pas, f32, f33, f34, f35,
+mar, lth, lon, f39, f40, f41, hea, f43, f44, f45, fir, fin, f48, dri,
+f50, f51, cro, cor, f54, f55, f56, f57, f58, f59, f60, f61, f62, f63,
+f64) \\
+&amp;\rightarrow TechnicalAbility(player\_name, tec, tck, pen, pas, mar,
+lth, lon, hea, fir, fin, dri, cro, cor)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tec, tck, pen, pas, mar, lth, lon, hea, fir,
+fin, dri, cro, cor . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f22, f24, f25, f26, f27, f28, f29, f32,
+f33, f34, f35, f39, f40, f41, f43, f44, f45, f48, f50, f51, f54, f55,
+f56, f57, f58, f59, f60, f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``Spanish First
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, f18, f19, f20, tec, f22, tck, f24, f25, f26, f27, f28, f29, pen,
+pas, f32, f33, f34, f35, mar, lth, lon, f39, f40, f41, hea, f43, f44,
+f45, fir, fin, f48, dri, f50, f51, cro, cor, f54, f55, f56, f57, f58,
+f59, f60, f61, f62, f63, f64) \\
+&amp;\rightarrow TechnicalAbility(player\_name, tec, tck, pen, pas, mar,
+lth, lon, hea, fir, fin, dri, cro, cor)
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+&amp;\forall player\_name, tec, tck, pen, pas, mar, lth, lon, hea, fir,
+fin, dri, cro, cor . \\
+&amp;\exists f1, f2, f3, f4, f6, f7, f8, f9, f10, f11, f12, f13, f14,
+f15, f16, f17, f18, f19, f20, f22, f24, f25, f26, f27, f28, f29, f32,
+f33, f34, f35, f39, f40, f41, f43, f44, f45, f48, f50, f51, f54, f55,
+f56, f57, f58, f59, f60, f61, f62, f63, f64 . \\
+&amp;FM20(f1, player\_name, f3, f4, \textrm{``English Premier
+Division&#39;&#39;}, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16,
+f17, f18, f19, f20, tec, f22, tck, f24, f25, f26, f27, f28, f29, pen,
+pas, f32, f33, f34, f35, mar, lth, lon, f39, f40, f41, hea, f43, f44,
+f45, fir, fin, f48, dri, f50, f51, cro, cor, f54, f55, f56, f57, f58,
+f59, f60, f61, f62, f63, f64) \\
+&amp;\rightarrow TechnicalAbility(player\_name, tec, tck, pen, pas, mar,
+lth, lon, hea, fir, fin, dri, cro, cor)
+\end{split}
+\]</span></p>
+</body>
+</html>
