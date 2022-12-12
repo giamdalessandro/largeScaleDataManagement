@@ -2,6 +2,8 @@ Homework projects as part of the [Large Scale Data Management](http://www.diag.u
 
 # &#128196; Docs Index
 
+HTML Navigation available from here: [GitHub Pages](https://giamdalessandro.github.io/largeScaleDataManagement/)
+
 ## Big Data Management
 
 Full versions of docs can be found at the following links: 
