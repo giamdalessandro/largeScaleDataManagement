@@ -10,7 +10,7 @@ Full versions of docs can be found at the following links:
 * [Global Schema](./docs/Big%20Data%20Management/Global_Schema.md)
 * [Dimensional Fact Model](./docs/Big%20Data%20Management/Dimensional_Fact_Model.md)
 * [Star Schema](./docs/Big%20Data%20Management/Star_Schema.md)
-* [Dremio - OLAP Query]((./docs/Big%20Data%20Management/Dremio-OLAP_Query.md)
+* [Dremio - OLAP Query](./docs/Big%20Data%20Management/Dremio-OLAP_Query.md)
 
 The complete presentation of the project can be found here: [PDF](./docs/Big%20Data%20Management/Presentation.pdf)
 
