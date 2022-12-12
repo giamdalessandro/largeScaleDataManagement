@@ -6,11 +6,11 @@ Homework projects as part of the [Large Scale Data Management](http://www.diag.u
 
 Full versions of docs can be found at the following links: 
 
-* [Source Schema](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Source_Schema.md)
-* [Global Schema](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Global_Schema.md)
-* [Dimensional Fact Model](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Dimensional_Fact_Model.md)
-* [Star Schema](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Star_Schema.md)
-* [Dremio - OLAP Query](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Dremio-OLAP_Query.md)
+* [Source Schema](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Source_Schema.html)
+* [Global Schema](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Global_Schema.html)
+* [Dimensional Fact Model](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Dimensional_Fact_Model.html)
+* [Star Schema](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Star_Schema.html)
+* [Dremio - OLAP Query](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Dremio-OLAP_Query.html)
 
 The complete presentation of the project can be found here: [PDF](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Presentation.pdf)
 
