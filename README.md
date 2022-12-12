@@ -1,6 +1,6 @@
 Homework projects as part of the [Large Scale Data Management](http://www.diag.uniroma1.it/~lembo/teaching/LargeScaleDataManagement/) course of the master degree in "Engineering in Computer Science" of "Sapienza, Università di Roma", A.Y.2021/22.
 
-# Docs Index
+# &#128196; Docs Index
 
 ## Big Data Management
 
@@ -18,14 +18,14 @@ The complete presentation of the project can be found here: [PDF](./docs/Big%20D
 
 Look here: [Folder](./docs/Information%20Integration)
 
-# Dataset
+# &#128229; Dataset
 
 The complete datasets of the project are available on kaggle:
 
 - [FBref](https://www.kaggle.com/biniyamyohannes/soccer-player-data-from-fbrefcom)
 - [FM 2020](https://www.kaggle.com/ktyptorio/football-manager-2020)
 
-# Authors
+# &#9997; Authors
 
 * [Giammarco D'Alessandro](https://github.com/giamdalessandro)
 * [Antonio Ionta](https://github.com/A-I-18)
