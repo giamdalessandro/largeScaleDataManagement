@@ -8,7 +8,7 @@ HTML Navigation available from here: [GitHub Pages](https://giamdalessandro.gith
 
 Full versions of docs can be found at the following links:
 
-[Folder](./docs/Big%20Data%20Management)
+[&#128194;](./docs/Big%20Data%20Management)
 
 * [Source Schema](./docs/Big%20Data%20Management/Source_Schema.md)
 * [Global Schema](./docs/Big%20Data%20Management/Global_Schema.md)
@@ -24,7 +24,7 @@ The complete presentation of the project can be found here: [PDF](./docs/Big%20D
 
 ## Information Integration
 
-[Folder](./docs/Information%20Integration)
+[&#128194;](./docs/Information%20Integration)
 
 # &#128229; Dataset
 

@@ -6,7 +6,7 @@ Homework projects as part of the [Large Scale Data Management](http://www.diag.u
 
 Full versions of docs can be found at the following links:
 
-[Folder](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management)
+[&#128194;](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/)
 
 * [Source Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Source_Schema.html)
 * [Global Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Global_Schema.html)
@@ -22,7 +22,7 @@ The complete presentation of the project can be found here: [PDF](https://github
 
 ## Information Integration
 
-[Folder](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration)
+[&#128194;](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Information%20Integration)
 
 [HTML Index](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/index.html)
 

@@ -2,7 +2,9 @@ Homework projects as part of the [Large Scale Data Management](http://www.diag.u
 
 # &#128196; Docs Index
 
-Full versions of docs can be found at the following links: 
+Full versions of docs can be found at the following links:
+
+[&#128194;](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Information%20Integration)
 
 * [Source Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/Source_Schema.html)
 * [Global Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/Global_Schema.html)
