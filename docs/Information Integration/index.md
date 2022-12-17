@@ -7,6 +7,8 @@ Full versions of docs can be found at the following links:
 * [Source Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/Source_Schema.html)
 * [Global Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/Global_Schema.html)
 * [GAV Mapping](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/GAV_Mapping.html)
+* [ETL - Drill Query - FBref](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Information%20Integration/Drill-Extraction_Query-FBref.sql)
+* [ETL - Drill Query - FM 20](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Information%20Integration/Drill-Extraction_Query-FM20.sql)
 * [Query](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/Query.html)
 
 The complete presentation of the project can be found here: [PDF](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Information%20Integration/Presentation.pdf)
