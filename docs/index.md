@@ -11,14 +11,14 @@ Full versions of docs can be found at the following links:
 * [Dimensional Fact Model](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Dimensional_Fact_Model.html)
 * [Star Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Star_Schema.html)
 * [Dremio - OLAP Query](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Dremio-OLAP_Query.html)
-* [Dremio - Resources Index](Dremio-Res_Index.html)
-* [Power BI - Resources Index](Power_BI-Res_Index.html)
+* [Dremio - Resources Index](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Dremio-Res_Index.html)
+* [Power BI - Resources Index](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Power_BI-Res_Index.html)
 
 The complete presentation of the project can be found here: [PDF](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Presentation.pdf)
 
 ## Information Integration
 
-Look here: [Folder](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Information%20Integration)
+Look here: [Folder](https://giamdalessandro.github.io/largeScaleDataManagement/Information%20Integration/index.html)
 
 # &#128229; Dataset
 
