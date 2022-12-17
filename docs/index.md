@@ -11,6 +11,8 @@ Full versions of docs can be found at the following links:
 * [Dimensional Fact Model](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Dimensional_Fact_Model.html)
 * [Star Schema](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Star_Schema.html)
 * [Dremio - OLAP Query](https://giamdalessandro.github.io/largeScaleDataManagement/Big%20Data%20Management/Dremio-OLAP_Query.html)
+* [Dremio - Resources Index](Dremio-Res_Index.html)
+* [Power BI - Resources Index](Power_BI-Res_Index.html)
 
 The complete presentation of the project can be found here: [PDF](https://github.com/giamdalessandro/largeScaleDataManagement/blob/main/docs/Big%20Data%20Management/Presentation.pdf)
 
